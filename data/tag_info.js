@@ -6,8 +6,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1272,
-    "start_x": 35.9,
-    "start_x_percentage": 0.0834,
+    "start_x": 37.2,
+    "start_x_percentage": 0.0865,
     "start_y_percentage": 0.1
   },
   {
@@ -17,8 +17,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.2441,
-    "start_x": 94.5,
-    "start_x_percentage": 0.2199,
+    "start_x": 95.9,
+    "start_x_percentage": 0.2229,
     "start_y_percentage": 0.1
   },
   {
@@ -28,8 +28,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1155,
-    "start_x": 203.5,
-    "start_x_percentage": 0.4732,
+    "start_x": 204.8,
+    "start_x_percentage": 0.4763,
     "start_y_percentage": 0.1
   },
   {
@@ -39,8 +39,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.0685,
-    "start_x": 257.1,
-    "start_x_percentage": 0.598,
+    "start_x": 258.4,
+    "start_x_percentage": 0.601,
     "start_y_percentage": 0.1
   },
   {
@@ -50,8 +50,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1279,
-    "start_x": 290.6,
-    "start_x_percentage": 0.6757,
+    "start_x": 291.9,
+    "start_x_percentage": 0.6788,
     "start_y_percentage": 0.1
   },
   {
@@ -61,8 +61,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.0976,
-    "start_x": 349.5,
-    "start_x_percentage": 0.8128,
+    "start_x": 350.8,
+    "start_x_percentage": 0.8159,
     "start_y_percentage": 0.1
   },
   {
@@ -72,8 +72,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1183,
-    "start_x": 49.208,
-    "start_x_percentage": 0.1144,
+    "start_x": 56.401,
+    "start_x_percentage": 0.1312,
     "start_y_percentage": 0.25
   },
   {
@@ -83,8 +83,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1244,
-    "start_x": 104,
-    "start_x_percentage": 0.242,
+    "start_x": 111.2,
+    "start_x_percentage": 0.2587,
     "start_y_percentage": 0.25
   },
   {
@@ -94,8 +94,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1079,
-    "start_x": 161.5,
-    "start_x_percentage": 0.3756,
+    "start_x": 168.7,
+    "start_x_percentage": 0.3924,
     "start_y_percentage": 0.25
   },
   {
@@ -105,8 +105,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1171,
-    "start_x": 211.9,
-    "start_x_percentage": 0.4928,
+    "start_x": 219.1,
+    "start_x_percentage": 0.5095,
     "start_y_percentage": 0.25
   },
   {
@@ -116,8 +116,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1392,
-    "start_x": 266.2,
-    "start_x_percentage": 0.6191,
+    "start_x": 273.4,
+    "start_x_percentage": 0.6359,
     "start_y_percentage": 0.25
   },
   {
@@ -127,8 +127,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.0845,
-    "start_x": 330.1,
-    "start_x_percentage": 0.7676,
+    "start_x": 337.2,
+    "start_x_percentage": 0.7843,
     "start_y_percentage": 0.25
   },
   {
@@ -138,8 +138,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1888,
-    "start_x": 57.404,
-    "start_x_percentage": 0.1335,
+    "start_x": 43.431,
+    "start_x_percentage": 0.101,
     "start_y_percentage": 0.4
   },
   {
@@ -149,8 +149,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.0612,
-    "start_x": 142.5,
-    "start_x_percentage": 0.3315,
+    "start_x": 128.6,
+    "start_x_percentage": 0.299,
     "start_y_percentage": 0.4
   },
   {
@@ -160,8 +160,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.09,
-    "start_x": 172.8,
-    "start_x_percentage": 0.4019,
+    "start_x": 158.8,
+    "start_x_percentage": 0.3694,
     "start_y_percentage": 0.4
   },
   {
@@ -171,8 +171,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1276,
-    "start_x": 215.5,
-    "start_x_percentage": 0.5011,
+    "start_x": 201.5,
+    "start_x_percentage": 0.4686,
     "start_y_percentage": 0.4
   },
   {
@@ -182,8 +182,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1423,
-    "start_x": 274.3,
-    "start_x_percentage": 0.638,
+    "start_x": 260.4,
+    "start_x_percentage": 0.6055,
     "start_y_percentage": 0.4
   },
   {
@@ -193,8 +193,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.142,
-    "start_x": 339.5,
-    "start_x_percentage": 0.7895,
+    "start_x": 325.5,
+    "start_x_percentage": 0.757,
     "start_y_percentage": 0.4
   },
   {
@@ -204,8 +204,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1048,
-    "start_x": 34.658,
-    "start_x_percentage": 0.0806,
+    "start_x": 24.166,
+    "start_x_percentage": 0.0562,
     "start_y_percentage": 0.55
   },
   {
@@ -215,8 +215,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1223,
-    "start_x": 83.7,
-    "start_x_percentage": 0.1947,
+    "start_x": 73.2,
+    "start_x_percentage": 0.1703,
     "start_y_percentage": 0.55
   },
   {
@@ -226,8 +226,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1262,
-    "start_x": 140.3,
-    "start_x_percentage": 0.3262,
+    "start_x": 129.8,
+    "start_x_percentage": 0.3018,
     "start_y_percentage": 0.55
   },
   {
@@ -237,8 +237,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1362,
-    "start_x": 198.5,
-    "start_x_percentage": 0.4616,
+    "start_x": 188,
+    "start_x_percentage": 0.4372,
     "start_y_percentage": 0.55
   },
   {
@@ -248,8 +248,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.1337,
-    "start_x": 261,
-    "start_x_percentage": 0.607,
+    "start_x": 250.5,
+    "start_x_percentage": 0.5826,
     "start_y_percentage": 0.55
   },
   {
@@ -259,8 +259,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.106,
-    "start_x": 322.5,
-    "start_x_percentage": 0.7499,
+    "start_x": 312,
+    "start_x_percentage": 0.7255,
     "start_y_percentage": 0.55
   },
   {
@@ -270,8 +270,8 @@ const tag_info =  [
     "frame_width": 430,
     "spacer_width": 4,
     "width_percentage": 0.103,
-    "start_x": 372,
-    "start_x_percentage": 0.8652,
+    "start_x": 361.6,
+    "start_x_percentage": 0.8408,
     "start_y_percentage": 0.55
   }
  ]
