@@ -13,7 +13,6 @@ wall_background = wall_container.append("g")
                   .attr("width", "100%")
                   .attr("x", "0")
                   .attr("y", "0%")
-                  .attr("id", "wall_background")
 
 var wall_container_attrs = (d3.select(".wall_container").node().getBoundingClientRect())
 var wall_width = wall_container_attrs.width * 0.9
@@ -94,21 +93,80 @@ function select_topic(topic_id) {
     console.log(topic_id)
     //Change previous selection to dark blue
     d3.select("#tag_"+currently_selected_topic).attr("xlink:href",function(d,i) {return "res/topic_tags/"+currently_selected_topic+".svg"})
-    //Change selection to light blue
-    d3.select("#tag_"+topic_id).attr("xlink:href",function(d,i) {return "res/topic_tags/selected/"+topic_id+".svg"})
     //Change color of polygons
     d3.selectAll("polygon").attr("opacity","0%")
     d3.select("#polygon_"+topic_id)
+            .attr("opacity","20%")
             .transition()
-            .duration(100)
+            .duration(600)
             .attr("opacity","60%")
             .transition()
-            .delay(500)
-            .duration(300)
+            .delay(200)
+            .duration(600)
             .attr("opacity","40%")
-
-
-
+    //Change selection to light blue
+    d3.select("#tag_"+topic_id).attr("xlink:href",function(d,i) {return "res/topic_tags/selected/"+topic_id+".svg"})
+    //Add magnifying glass icon
+    wall_container.selectAll("#magnifying_glass").remove()
+    if (topic_id !== 'None') {
+    wall_background = wall_container
+                  .append("g")
+                  .attr("id", "magnifying_glass")
+                  .append("image")
+                  .attr("xlink:href","res/magnifying_glass.svg")
+                  .attr("height", "30")
+                  .attr("width", "30")
+                  .attr("x", getAverageOfMaxCoordForTopic(topic_id,"x_perc"))
+                  .attr("y", getAverageOfMaxCoordForTopic(topic_id,"y_perc"))
+                  .attr("opacity","0%")
+                  .transition()
+                  .duration(900)
+                  .delay(600)
+                  .attr("opacity","100%")
+                  .transition()
+                  .duration(500)
+                  .attr("height", "28")
+                  .attr("width", "28")
+    }
 }
 
 
+// Initialize a variable to hold the timeout ID
+let timeoutId;
+
+// Function to reset the timer
+function resetTimer() {
+  // Clear the existing timer
+  clearTimeout(timeoutId);
+  
+  // Set a new 10-second timer
+  timeoutId = setTimeout(() => {
+    select_topic("None");
+      // Reset the timer after calling the function
+      resetTimer();
+  }, 30000);
+}
+
+// Add event listener to the document to detect any click
+document.addEventListener('click', resetTimer);
+document.addEventListener('mousemove', resetTimer); // Reset on mouse move
+
+// Set the initial 10-second timer when the script loads
+resetTimer();
+
+
+
+
+const getAverageOfMaxCoordForTopic = (topic, variable) => {
+  const filteredData = topic_polygons.filter(item => item.topic === topic);
+
+  const maxVar = filteredData.reduce((max, item) => item[variable] > max ? item[variable] : max, -Infinity);
+  const minVar = filteredData.reduce((min, item) => item[variable] < min ? item[variable] : min, Infinity);
+  const average = (maxVar + minVar) / 2;
+
+  if (variable === 'x_perc') {
+      return average * wall_width -14;
+  } else if (variable === 'y_perc') {
+      return average * wall_height - 14 + (wall_container_attrs.height-wall_height)/2;
+  }
+};
