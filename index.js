@@ -4,6 +4,16 @@ var wall_container = d3.select(".wall_container")
                        .append("svg")
                        .attr("height","100%")
                        .attr("width","90%");
+
+books_background = wall_container.append("g")
+                  .attr("id", "books_background")
+                  .append("image")
+                  .attr("xlink:href","res/book_background.svg")
+                  .attr("height", "100%")
+                  .attr("width", "100%")
+                  .attr("opacity", "100%")
+                  .attr("x", "0")
+                  .attr("y", "0%")
                  
 wall_background = wall_container.append("g")
                   .attr("id", "wall_background")
@@ -11,8 +21,11 @@ wall_background = wall_container.append("g")
                   .attr("xlink:href","res/wall_vector.svg")
                   .attr("height", "100%")
                   .attr("width", "100%")
+                  .attr("opacity", "55%")
                   .attr("x", "0")
                   .attr("y", "0%")
+
+
 
 var wall_container_attrs = (d3.select(".wall_container").node().getBoundingClientRect())
 var wall_width = wall_container_attrs.width * 0.9
