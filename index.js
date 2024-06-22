@@ -7,7 +7,7 @@ var wall_container = d3.select(".wall_container")
 
 
 function add_background_books(topic) {
-  wall_container.append("g")
+  wall_container.insert("g",":first-child")
       .attr("class", `books_background`)
       .attr("id", `books_background_${topic}`)
       .append("image")
@@ -18,7 +18,6 @@ function add_background_books(topic) {
       .attr("x", 0)
       .attr("y", 0);
 }
-
 
 // Loop through and append each SVG image
 for (let i = 1; i <= 25; i++) {
@@ -37,10 +36,81 @@ wall_background = wall_container.append("g")
 
 
 
+
 var wall_container_attrs = (d3.select(".wall_container").node().getBoundingClientRect())
 var wall_width = wall_container_attrs.width * 0.9
 const wall_ratio = 0.2250 //from inkscape (height / width)
 var wall_height = wall_width * wall_ratio
+
+
+function add_highlighted_books(topic) {
+  // Filter the data to include only books with the desired topic
+  const filtered_books = background_books.filter(book => book.topic === topic);
+  // Remove existing books
+  wall_container.selectAll(".book").remove();
+  // Bind the filtered data to the selection
+  const books = wall_container.selectAll(".book").data(filtered_books);
+  books.enter()
+  .append("rect")
+  .attr("class", "book")
+  .attr("x", () => (Math.random() < 0.5 ? -50 : 2000)) // Randomly set initial x attribute
+  .attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
+  .attr("width", d => d.book_width * wall_width)
+  .attr("height", d => d.book_height * wall_height)
+  //.attr("height", d => 0)
+  .transition()
+  .ease(d3.easeQuadOut)
+  .duration(1500)
+  .attr("x", d => d.x_start * wall_width) // Transition to the actual x position
+}
+
+function parse_polygons(data) {
+  const result = {};
+
+  data.forEach(item => {
+    if (!result[item.topic]) {
+      result[item.topic] = [];
+    }
+    result[item.topic].push(`${item.x_perc*wall_width},
+      ${item.y_perc*wall_height + (wall_container_attrs.height-wall_height)/2}`);
+  });
+
+  const transformedData = Object.keys(result).map(topic => ({
+    topic,
+    points: result[topic].join(' ')
+  }));
+
+  return transformedData;
+}
+
+const parsed_polygons = parse_polygons(topic_polygons);
+
+wall_container
+            .append("g")
+            .selectAll("polygon")
+            .remove()
+            .data(parsed_polygons)
+            .enter()
+            .append("polygon")
+            .attr("points", d => d.points)
+            .attr("topic", d => d.topic)
+            .attr("id", d => "polygon_"+d.topic)
+            .attr("fill", "#838ef0")
+            .attr("opacity","0%")
+            //.attr("stroke", "red")
+            .attr("stroke-width", 1)
+            .on('click',function(d) {
+                console.log(this.getAttribute('topic'))
+                //Add missing books back
+                if (currently_selected_topic !== "") {
+                  add_background_books(currently_selected_topic)}
+                //Perform selection on books and tags
+                select_topic(this.getAttribute('topic'))
+                //Set state variable
+                currently_selected_topic = this.getAttribute('topic')
+              });
+
+
 
 var topics_container = d3.select(".topics_container")
                         .append("svg")
@@ -83,6 +153,8 @@ function select_topic(topic_id) {
     const elementId = `books_background_${topic_id}`; 
     // Select the element with the constructed id and remove it
     d3.selectAll(`#${elementId}`).remove();
+    // Add white books
+    add_highlighted_books(topic_id)
 }
 
 

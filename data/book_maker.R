@@ -1,3 +1,5 @@
+library(jsonlite)
+
 ##Conceptual grid made up of 58 columns and 24 rows.
 
 #Absolute x, y coordinate of each column (from Inkscape)
@@ -23,11 +25,72 @@ book_height_min = 2.7
 book_height_max = 4.1
 space_between_books = 0.465
 max_books_shelf = 7
+total_wall_height = 225.670
+total_wall_width = 1002.816
 
 
 all_y = c(rep(y[1:6],30),rep(y[7:12],49),rep(y[13:18],50),rep(y[19:24],51))
-all_x = c(x[20:22],x[24:33],x[41:54],x[56:58],
-          x[1:9],x[11:24],x[26:35],x[42:51],x[53:58],
-          x[1:2],x[4:15],x[17:28],x[30:38],x[43:53],x[55:58],
-          x[1:10],x[12:26],x[28:39],x[44:50],x[52:58])
-all_shelves = data.frame(x_start=all_x,y_start=all_y)
+all_x = c(rep(x[20:22],each=6),rep(x[24:33],each=6),rep(x[41:54],each=6),rep(x[56:58],each=6),
+          rep(x[1:9],each=6),rep(x[11:24],each=6),rep(x[26:35],each=6),rep(x[42:51],each=6),rep(x[53:58],each=6),
+          rep(x[1:2],each=6),rep(x[4:15],each=6),rep(x[17:28],each=6),rep(x[30:38],each=6),rep(x[43:53],each=6),rep(x[55:58],each=6),
+          rep(x[1:10],each=6),rep(x[12:26],each=6),rep(x[28:39],each=6),rep(x[44:50],each=6),rep(x[52:58],each=6))
+
+
+#from library_layout_2.xlsx
+topics <- c(rep("topic_24",30),rep("topic_21",84),rep("topic_8",66),
+            rep("topic_23",144),rep("topic_11",54),rep("topic_20",18),
+            rep("topic_6",78),rep("topic_4",12),rep("exhibit",12),
+            rep("topic_4",12),rep("topic_13",24),rep("topic_12",9),
+            rep("topic_9",15),rep("topic_22",30),rep("topic_18",18),
+            rep("topic_19",12),rep("topic_1",24),rep("topic_14",6),
+            rep("topic_15",36),rep("topic_7",48),rep("topic_5",42),
+            rep("topic_2",48),rep("topic_10",21),rep("topic_25",27),
+            rep("topic_17",54),rep("topic_16",30),rep("topic_3",42),
+            rep("exhibit",42),rep("exhibit",42))
+
+
+set.seed(42)
+books_per_shelf = rnorm(length(all_y), mean=max_books_shelf/2, sd=2)
+books_per_shelf <- pmax(pmin(round(books_per_shelf), 7), 1)
+
+all_shelves = data.frame(x_start=all_x,y_start=all_y,books = books_per_shelf, topic = topics)
+all_shelves %<>% mutate(row_no = row_number()) 
+
+books_df <- data.frame(topic = character(),
+                       x_start = double(), 
+                       y_start = double(), 
+                       book_height = double(),
+                       book_width = double(),
+                       shelf_no = integer())
+
+
+for(i in 1:nrow(all_shelves)) {
+  row <- all_shelves[i,]
+  curr_x <- row$x_start + space_between_books/2
+  
+  for (b in 1:row$books) {
+    book_height <- sample((book_height_min*10):(book_height_max*10), 1, replace=T)/10
+    curr_y <- row$y_start + shelf_height - book_height
+    
+    books_df %<>% add_row(topic = row$topic,
+                          x_start = curr_x, 
+                          y_start = curr_y, 
+                          book_height = book_height,
+                          book_width = book_width,
+                          shelf_no = row$row_no)
+    curr_x <- curr_x + book_width + space_between_books
+  }
+
+}
+
+
+books_df %<>% mutate(x_start = round(x_start/total_wall_width,5),
+                     y_start = round(y_start/total_wall_height,5),
+                     book_height = round(book_height/total_wall_height,5),
+                     book_width = round(book_width / total_wall_width,5)) 
+
+
+
+write(books_df %>% toJSON(), "C:/Users/Revi/Desktop/Github/Twin Shelves 2/data/background_books.js")
+
+

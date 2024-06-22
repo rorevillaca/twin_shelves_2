@@ -35,3 +35,5 @@ html, body{
 .topics_container { grid-area: 3 / 1 / 4 / 2; 
 background-color: #090235;}
 
+.book{fill: white};
+
