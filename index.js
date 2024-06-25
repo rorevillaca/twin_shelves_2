@@ -112,6 +112,34 @@ wall_container
 
 
 
+function  magnifying_glass(topic){
+
+    //Remove current magnifying glass (if any)
+    wall_container.selectAll(".magnifying_glass").remove();
+    //add rounded rectangle at +/- 5 pixels
+    wall_container
+            .append('g')
+            .append("rect")
+            .attr("class", "magnifying_glass")
+            .attr('x', getCoordOfTopic(topic,"x_perc","min") - 10)
+            .attr('y', getCoordOfTopic(topic,"y_perc","min") -10)
+            .attr('height', getCoordOfTopic(topic,"y_perc","max")-getCoordOfTopic(topic,"y_perc","min") +20)
+            .attr('width', getCoordOfTopic(topic,"x_perc","max")-getCoordOfTopic(topic,"x_perc","min")+20)
+            .on('click',function(d) {
+            });
+    
+    //on click: open black screen
+
+    //add icon for clicking
+
+    //issues for tomorrows meeting:
+    //Book covers are pixelated, does book view make sense?
+    //Some shelves have 20+ books; how would this look like?
+
+}
+
+
+
 var topics_container = d3.select(".topics_container")
                         .append("svg")
                         .attr("height","100%")
@@ -143,6 +171,8 @@ topics_container.append("g")
 
 function select_topic(topic_id) {
     console.log(topic_id)
+    //Remove magnifying glass (if any)
+    wall_container.selectAll(".magnifying_glass").remove();
     //Change previous selection to dark blue
     d3.select("#tag_"+currently_selected_topic).attr("xlink:href",function(d,i) {return "res/topic_tags/"+currently_selected_topic+".svg"});
     //Change selection to light blue
@@ -154,7 +184,12 @@ function select_topic(topic_id) {
     // Select the element with the constructed id and remove it
     d3.selectAll(`#${elementId}`).remove();
     // Add white books
-    add_highlighted_books(topic_id)
+    add_highlighted_books(topic_id);
+    // Wait 3 seconds
+    setTimeout(function(){
+      //Add magnifying glass
+      magnifying_glass(topic_id);
+    },1800)
 }
 
 
@@ -186,3 +221,27 @@ document.addEventListener('mousemove', resetTimer); // Reset on mouse move
 
 // Set the initial 10-second timer when the script loads
 resetTimer();
+
+
+
+
+const getCoordOfTopic = (topic, variable, min_or_max) => {
+
+  const filteredData = topic_polygons.filter(item => item.topic === topic);
+  const maxVar = filteredData.reduce((max, item) => item[variable] > max ? item[variable] : max, -Infinity);
+  const minVar = filteredData.reduce((min, item) => item[variable] < min ? item[variable] : min, Infinity);
+
+  if (variable === 'x_perc') {
+      if (min_or_max === "min"){
+        return minVar * wall_width;
+      } else {
+        return maxVar * wall_width;
+      }
+  } else if (variable === 'y_perc') {
+      if (min_or_max === "min"){
+        return minVar * wall_height  + (wall_container_attrs.height-wall_height)/2;
+      } else {
+        return maxVar * wall_height + (wall_container_attrs.height-wall_height)/2;
+      }
+  }
+};
