@@ -3,7 +3,7 @@ currently_selected_topic = ""
 var wall_container = d3.select(".wall_container")
                        .append("svg")
                        .attr("height","100%")
-                       .attr("width","90%");
+                       .attr("width","95%");
 
 
 function add_background_books(topic) {
@@ -30,7 +30,7 @@ wall_background = wall_container.append("g")
                   .attr("xlink:href","res/wall_vector.svg")
                   .attr("height", "100%")
                   .attr("width", "100%")
-                  .attr("opacity", "55%")
+                  .attr("opacity", "70%")
                   .attr("x", "0")
                   .attr("y", "0%")
 
@@ -38,14 +38,16 @@ wall_background = wall_container.append("g")
 
 
 var wall_container_attrs = (d3.select(".wall_container").node().getBoundingClientRect())
-var wall_width = wall_container_attrs.width * 0.9
+var wall_width = wall_container_attrs.width * 0.95
 const wall_ratio = 0.2250 //from inkscape (height / width)
 var wall_height = wall_width * wall_ratio
 
 
 function add_highlighted_books(topic) {
   // Filter the data to include only books with the desired topic
-  const filtered_books = background_books.filter(book => book.topic === topic);
+  var filtered_books = background_books.filter(book => book.topic === topic);
+  // Randomize the order
+  filtered_books = shuffle(filtered_books);
   // Remove existing books
   wall_container.selectAll(".book").remove();
   // Bind the filtered data to the selection
@@ -53,15 +55,22 @@ function add_highlighted_books(topic) {
   books.enter()
   .append("rect")
   .attr("class", "book")
-  .attr("x", () => (Math.random() < 0.5 ? -50 : 2000)) // Randomly set initial x attribute
+  .attr("x", () => (Math.random() < 0.5 ? -50 : 1800)) // Randomly set initial x attribute
+  //.attr("x", d => d.x_start * wall_width) // Transition to the actual x position
+  .attr("y", () => (Math.random() < 0.5 ? 25 : 75)) // Randomly set initial x attribute
+  //.attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
+  .attr("height", d => 0)
+  .attr("width", d => 24)
+  .attr("height", d => 60)
+  .transition()
+  .delay(function(d,i){return (2000/filtered_books.length) * i})
+  .ease(d3.easeQuadIn)
+  //.duration(1500)
   .attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
   .attr("width", d => d.book_width * wall_width)
   .attr("height", d => d.book_height * wall_height)
-  //.attr("height", d => 0)
-  .transition()
-  .ease(d3.easeQuadOut)
-  .duration(1500)
   .attr("x", d => d.x_start * wall_width) // Transition to the actual x position
+  //.attr("height", d => d.book_height * wall_height) //Transition to the real height
 }
 
 function parse_polygons(data) {
@@ -115,28 +124,104 @@ wall_container
 function  magnifying_glass(topic){
 
     //Remove current magnifying glass (if any)
-    wall_container.selectAll(".magnifying_glass").remove();
-    //add rounded rectangle at +/- 5 pixels
-    wall_container
-            .append('g')
-            .append("rect")
-            .attr("class", "magnifying_glass")
-            .attr('x', getCoordOfTopic(topic,"x_perc","min") - 10)
-            .attr('y', getCoordOfTopic(topic,"y_perc","min") -10)
-            .attr('height', getCoordOfTopic(topic,"y_perc","max")-getCoordOfTopic(topic,"y_perc","min") +20)
-            .attr('width', getCoordOfTopic(topic,"x_perc","max")-getCoordOfTopic(topic,"x_perc","min")+20)
-            .on('click',function(d) {
-            });
-    
-    //on click: open black screen
+    wall_container.selectAll(".magnifying_assets").remove();
 
-    //add icon for clicking
+    if (topic !== '') {
 
-    //issues for tomorrows meeting:
+      const topic_entry = tag_info.find(entry => entry.topic === topic);
+      const topic_name = topic_entry ? topic_entry.name : null;
+
+      const defs = wall_container.append("defs");
+
+      const filter = defs.append("filter")
+          .attr("id", "blurFilter");
+
+      filter.append("feGaussianBlur")
+          .attr("in", "SourceGraphic")
+          .attr("stdDeviation", 7);  // Adjust the stdDeviation value to control the amount of blur
+
+        // Add a color matrix to adjust opacity
+      filter.append("feComponentTransfer")
+        .append("feFuncA")
+        .attr("type", "linear")
+        .attr("slope", 4);  // Adjust slope to reduce translucency
+
+
+
+      let group = wall_container
+              .append('g')
+              .attr("class","magnifying_assets");
+      //add rounded rectangle at +/- 5 pixels
+
+      let rectX = getCoordOfTopic(topic, "x_perc", "min") - 15;
+      let rectY = getCoordOfTopic(topic, "y_perc", "min") - 10;
+      let rectWidth = getCoordOfTopic(topic, "x_perc", "max") - getCoordOfTopic(topic, "x_perc", "min") + 30;
+      let rectHeight = getCoordOfTopic(topic, "y_perc", "max") - getCoordOfTopic(topic, "y_perc", "min") + 20;
+      
+      group
+              .append("rect")
+              .attr("class", "magnifying_glass")
+              .attr('x', rectX)
+              .attr('y', rectY)
+              .attr('height', rectHeight)
+              .attr('width', rectWidth)
+              .attr("filter", "url(#blurFilter)")  // Apply the blur filter
+
+      group
+              .append("rect")
+              .attr("class", "magnifying_glass")
+              .attr('x', rectX)
+              .attr('y', rectY)
+              .attr('height', rectHeight)
+              .attr('width', rectWidth)
+              .on('click',function(d) {
+                overlay.style.display = "flex";
+              });
+
+      // Add text above the rectangle and center it horizontally
+      group
+            .append("text")
+            .attr("class", "magnifying_text")
+            .attr('x', rectX + rectWidth / 2)
+            .attr('y', rectY - 10) // Adjust the -10 value as needed to position the text above the rectangle
+            .text(topic_name);
+      
+      //add cursor
+      group
+              .append("image")
+              .attr("xlink:href","res/pointer_icon.svg")
+              .attr("height", "20")
+              .attr("width", "20")
+              .attr("x", getCoordOfTopic(topic,"x_perc","max")-5)
+              .attr("y", getCoordOfTopic(topic,"y_perc","max")-5)
+
+      // Call the pulsing function after some idle time (e.g., 5 seconds)
+      setTimeout(() => {
+        startPulsing();
+      }, 5000);
+
+      }     
+}
+
+
+function startPulsing() {
+  wall_container.selectAll(".magnifying_glass")
+      .transition()
+      .duration(1000)
+      .ease(d3.easeCubicInOut)
+      .attr("opacity", 0.5)
+      .transition()
+      .duration(1000)
+      .ease(d3.easeCubicInOut)
+      .attr("opacity", 1)
+      .on("end", startPulsing); // Repeat the pulsing
+}
+
+
+
+    //issues for tuesday's meeting:
     //Book covers are pixelated, does book view make sense?
     //Some shelves have 20+ books; how would this look like?
-
-}
 
 
 
@@ -172,13 +257,15 @@ topics_container.append("g")
 function select_topic(topic_id) {
     console.log(topic_id)
     //Remove magnifying glass (if any)
-    wall_container.selectAll(".magnifying_glass").remove();
+    wall_container.selectAll(".magnifying_assets").remove();
     //Change previous selection to dark blue
     d3.select("#tag_"+currently_selected_topic).attr("xlink:href",function(d,i) {return "res/topic_tags/"+currently_selected_topic+".svg"});
     //Change selection to light blue
     d3.select("#tag_"+topic_id).attr("xlink:href",function(d,i) {return "res/topic_tags/selected/"+topic_id+".svg"});
     //Dim background books
     d3.selectAll(".books_background").attr("opacity", 0.5)
+    //Dim wall
+    d3.selectAll("#wall_background").attr("opacity", 0.5)
     // Construct the id of the group element to be removed
     const elementId = `books_background_${topic_id}`; 
     // Select the element with the constructed id and remove it
@@ -189,7 +276,7 @@ function select_topic(topic_id) {
     setTimeout(function(){
       //Add magnifying glass
       magnifying_glass(topic_id);
-    },1800)
+    },3000)
 }
 
 
@@ -210,9 +297,10 @@ function resetTimer() {
     currently_selected_topic = "";
     //Undim background books
     d3.selectAll(".books_background").attr("opacity", 1)
+    d3.selectAll("#wall_background").attr("opacity", 1)
     // Reset the timer after calling the function
     resetTimer();
-  }, 15000);
+  }, 30000);
 }
 
 // Add event listener to the document to detect any click
@@ -245,3 +333,14 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
       }
   }
 };
+
+
+
+
+
+///////////////// OVERLAY
+
+
+overlay.addEventListener("click", function() {
+  overlay.style.display = "none";
+});

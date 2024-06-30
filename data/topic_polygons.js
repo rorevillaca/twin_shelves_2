@@ -400,42 +400,42 @@ const topic_polygons =  [
     "y_perc": 0.772
   },
   {
-    "topic": "topic_19",
+    "topic": "topic_18",
     "x_perc": 0.345,
     "y_perc": 0.645
   },
   {
-    "topic": "topic_19",
+    "topic": "topic_18",
     "x_perc": 0.383,
     "y_perc": 0.645
   },
   {
-    "topic": "topic_19",
+    "topic": "topic_18",
     "x_perc": 0.383,
     "y_perc": 0.772
   },
   {
-    "topic": "topic_19",
+    "topic": "topic_18",
     "x_perc": 0.345,
     "y_perc": 0.772
   },
   {
-    "topic": "topic_18",
+    "topic": "topic_19",
     "x_perc": 0.383,
     "y_perc": 0.645
   },
   {
-    "topic": "topic_18",
+    "topic": "topic_19",
     "x_perc": 0.408,
     "y_perc": 0.645
   },
   {
-    "topic": "topic_18",
+    "topic": "topic_19",
     "x_perc": 0.408,
     "y_perc": 0.772
   },
   {
-    "topic": "topic_18",
+    "topic": "topic_19",
     "x_perc": 0.383,
     "y_perc": 0.772
   },

@@ -1,4 +1,6 @@
 library(jsonlite)
+library(magrittr)
+library(dplyr)
 
 ##Conceptual grid made up of 58 columns and 24 rows.
 
@@ -50,8 +52,8 @@ topics <- c(rep("topic_24",30),rep("topic_21",84),rep("topic_8",66),
 
 
 set.seed(42)
-books_per_shelf = rnorm(length(all_y), mean=max_books_shelf/2, sd=2)
-books_per_shelf <- pmax(pmin(round(books_per_shelf), 7), 1)
+books_per_shelf = rnorm(length(all_y), mean=4.5, sd=2)
+books_per_shelf <- pmax(pmin(round(books_per_shelf), 7), 3)
 
 all_shelves = data.frame(x_start=all_x,y_start=all_y,books = books_per_shelf, topic = topics)
 all_shelves %<>% mutate(row_no = row_number()) 
