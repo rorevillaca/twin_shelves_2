@@ -35,8 +35,6 @@ wall_background = wall_container.append("g")
                   .attr("y", "0%")
 
 
-
-
 var wall_container_attrs = (d3.select(".wall_container").node().getBoundingClientRect())
 var wall_width = wall_container_attrs.width * 0.95
 const wall_ratio = 0.2250 //from inkscape (height / width)
@@ -175,7 +173,7 @@ function  magnifying_glass(topic){
               .attr('height', rectHeight)
               .attr('width', rectWidth)
               .on('click',function(d) {
-                overlay.style.display = "flex";
+                shelf_view.style.display = "grid";
               });
 
       // Add text above the rectangle and center it horizontally
@@ -340,7 +338,8 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 
 ///////////////// OVERLAY
 
-
-overlay.addEventListener("click", function() {
-  overlay.style.display = "none";
+document.querySelector('.shelf_view--header_back').addEventListener("click", function() {
+  shelf_view.style.display = "none";
 });
+
+

@@ -22,8 +22,6 @@ html, body{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.25fr 0.5fr 0.1fr 0.3fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
   }
 
 .header_container { grid-area: 1 / 1 / 2 / 2; 
@@ -49,20 +47,6 @@ html, body{
 .topics_container { grid-area: 4 / 1 / 5 / 2; 
 background-color: #090235;}
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  color: white;
-}
-
 .book{fill: white};
 
 
@@ -81,4 +65,87 @@ svg defs {
 .magnifying_text {
   fill: white;
   text-anchor: middle; /*Center the text horizontally*/
+}
+
+
+
+
+.shelf_view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 1000;
+  color: white;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 3fr 10fr 1fr 2fr;
+}
+
+
+.shelf_view--header {
+  grid-area: 1 / 1 / 1 / -1;
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+.shelf_view--left_scroll{
+  grid-area: 2 / 1 / 2 / 1;
+  /* background-color: blue; */
+}
+.shelf_view--shelves{
+  grid-area: 2 / 2 / 2 / 2;
+  background-color: orange;
+  display: flex;
+}
+.shelf_view--right_scroll{
+  grid-area: 2 / 3 / 2 / 3;
+  /* background-color: blue; */
+}
+.shelf_view--nav_position{
+  grid-area: 3 / 1 / 3 / -1;
+  /* background-color: purple; */
+}
+.shelf_view--subtopic-browser{
+  grid-area: 4 / 1 / 4 / -1;
+  /* background-color: red;  */
+}
+
+.shelf{
+  flex: 1;
+}
+
+.shelf_view--header_back {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.chevron_left{
+  width: 15px;
+}
+
+.back_text{
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.shelf_view--header > div {
+  flex: 1;
+  text-align: center;
+}
+
+.shelf_view--left_scroll, .shelf_view--right_scroll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.shelf_view--left_scroll > object, .shelf_view--right_scroll > object{
+  width: 50px;
 }
