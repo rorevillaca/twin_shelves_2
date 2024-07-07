@@ -2,37 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twin Shelves</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="res/d3@7.6.1.min.js"></script>
-    <!-- <script src="https://d3js.org/d3.v7.js"></script> -->
+    <title>Library Digital Twin</title>
+    <style>
+        #bookshelves {
+            display: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .bookcase {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 30%; /* Each bookcase takes up 30% of the width */
+        }
+        .shelf {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+            height: 100px; /* Height for each shelf */
+        }
+        .book {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 10px;
+            height: 100%; /* Full height of the shelf */
+            background-color: lightgreen;
+            border: 1px solid #999;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            text-align: center;
+            padding: 5px;
+        }
+        .nav-button {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+            margin: 10px;
+        }
+    </style>
+</head>
 <body>
-              
-              
-    <div class="parent_container" style="text-align:center">
-        <div class="header_container"></div>
-        <div class="wall_container"></div>
-        <div class="instructions_container">
-            <span>Click on a topic to display it on the wall:</span>
+    <div id="schematic"></div>
+    <div id="bookshelves">
+        <div id="bookcases-container"></div>
+        <div id="navigation">
+            <span class="nav-button" id="prev-button">Previous</span>
+            <span class="nav-button" id="next-button">Next</span>
         </div>
-        <div class="topics_container"></div>
     </div>
-
-    <div class="overlay" id="overlay">Click to close</div>
-    
-    <script type="text/javascript" src="keyboard.js"></script>
-    <script type="text/javascript" src="misc_functions.js"></script>
-    <script type="text/javascript" src="data/background_books.js"></script>
-    <script type="text/javascript" src="data/topic_polygons.js"></script>
-    <script type="text/javascript" src="data/tag_info.js"></script>
-    <script type="text/javascript" src="index.js"></script>
-
-
-
-
-
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="index_2.js"></script>
 </body>
 </html>
-

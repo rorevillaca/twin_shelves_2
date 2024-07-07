@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookcases</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        #container {
+            display: flex;
+            align-items: center;
+        }
+        #bookcases {
+            display: flex;
+        }
+        .bookcase {
+            display: inline-block;
+            margin: 0 10px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            background: #f9f9f9;
+        }
+        .shelf {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #000;
+            position: relative;
+            height: 60px;
+            display: flex;
+            align-items: flex-end;
+        }
+        .book {
+            height: 60px;
+            display: inline-block;
+            background-color: #8A2BE2;
+            margin-right: 2px;
+        }
+        .arrow {
+            cursor: pointer;
+            font-size: 2em;
+            user-select: none;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="arrow" id="left-arrow">&lt;</div>
+        <div id="bookcases"></div>
+        <div class="arrow" id="right-arrow">&gt;</div>
+    </div>
+    <script src="index_2.js"></script>
+</body>
+</html>
