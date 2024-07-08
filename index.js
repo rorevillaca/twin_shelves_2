@@ -174,6 +174,7 @@ function  magnifying_glass(topic){
               .attr('width', rectWidth)
               .on('click',function(d) {
                 shelf_view.style.display = "grid";
+                d3.select(".shelf_view--topic_holder").text(topic_name)
               });
 
       // Add text above the rectangle and center it horizontally
@@ -338,8 +339,16 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 
 ///////////////// OVERLAY
 
-document.querySelector('.shelf_view--header_back').addEventListener("click", function() {
+document.querySelector('.chevron_left').addEventListener("click", function() {
   shelf_view.style.display = "none";
 });
+
+
+document.querySelector('.back_text').addEventListener("click", function() {
+  shelf_view.style.display = "none";
+});
+
+
+
 
 
