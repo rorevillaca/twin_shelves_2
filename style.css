@@ -89,7 +89,7 @@ svg defs {
   z-index: 1000;
   color: white;
   grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 3fr 10fr 2fr;
+  grid-template-rows: 3fr 10fr 1fr 2fr;
 }
 
 
@@ -126,8 +126,12 @@ svg defs {
   /* background-color: blue; */
 }
 
-.shelf_view--subtopic-browser{
+.shelf_view--navigation{
   grid-area: 3 / 1 / 3 / -1;
+}
+
+.shelf_view--subtopic-browser{
+  grid-area: 4 / 1 / 4 / -1;
   display: flex;
   align-items: center;
   white-space: nowrap; /* Prevents wrapping to the next line */
@@ -186,19 +190,17 @@ svg defs {
 
 
 /* https://ishadeed.com/article/custom-scrollbars-css/   */
-.shelf_view--shelves::-webkit-scrollbar-thumb{
+.shelf_view--shelves::-webkit-scrollbar {
+  /* height: 20px; Ensure consistent height for horizontal scrollbar */display: none;
+}
+/* .shelf_view--shelves::-webkit-scrollbar-thumb{
   background-color: #A6AEF4;
   border-radius: 100px;
 }
-
-.shelf_view--shelves::-webkit-scrollbar {
-  height: 20px; /* Ensure consistent height for horizontal scrollbar */
-}
-
 .shelf_view--shelves::-webkit-scrollbar-track {
   background-color: #e4e4e4;
   border-radius: 100px;
-}
+} */
 
 .bookcase {
   min-width: calc(33.3333%);
