@@ -174,7 +174,7 @@ function  magnifying_glass(topic){
               .attr('width', rectWidth)
               .on('click',function(d) {
                 shelf_view.style.display = "grid";
-                d3.select(".shelf_view--topic_holder").text(topic_name)
+                populate_topics_shelf_view(topic_name)
               });
 
       // Add text above the rectangle and center it horizontally
@@ -334,6 +334,41 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 };
 
 
+function populate_topics_shelf_view(topic_name){
+  d3.select(".shelf_view--topic_holder").text(topic_name)
+  subtopic_holder = d3.select(".shelf_view--subtopic_holder")
+  subtopics = topics_subtopics.filter(book => book.topic === topic_name);
+  subtopic_holder.selectAll(".shelves_subtopics").remove()
+  
+  subtopic_holder
+    .selectAll(".shelves_subtopics")
+    .data(subtopics)
+    .enter()
+    .append("div")
+    .attr("class", "shelves_subtopics")
+    .text(d => d.sub_topic);
+
+  d3.selectAll(".bookcase").remove()
+
+  // Append 3 divs with class 'bookcase' and   text 'A', 'B', 'C'
+  const bookcases = ['A', 'B', 'C', 'D', 'E'];
+
+  bookcases.forEach((text) => {
+    const bookcase = d3.select(".shelf_view--shelves").append("div")
+                          .attr("class", "bookcase")
+    
+    // Append 6 divs within each 'bookcase' div
+    for (let i = 1; i <= 5; i++) {
+      let bookshelf = bookcase.append("div")
+                          .attr("class", "shelf")
+
+      for (let i = 1; i <= 7; i++) {
+                            bookshelf.append("div").attr("class", "shelf--book")
+      }
+    }
+  });
+  document.querySelector('.shelf_view--shelves').scrollLeft = 0;
+}
 
 
 

@@ -84,12 +84,12 @@ svg defs {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(25, 23, 41, 0.9);
   display: none;
   z-index: 1000;
   color: white;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 3fr 10fr 1fr 2fr;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 3fr 10fr 2fr;
 }
 
 
@@ -104,30 +104,34 @@ svg defs {
 }
 .shelf_view--left_scroll{
   grid-area: 2 / 1 / 2 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 15px;
   /* background-color: blue; */
 }
 .shelf_view--shelves{
   grid-area: 2 / 2 / 2 / 2;
-  background-color: orange;
+  /* border:1px solid white; */
   display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
 }
 .shelf_view--right_scroll{
   grid-area: 2 / 3 / 2 / 3;
-  /* background-color: blue; */
-}
-.shelf_view--nav_position{
-  grid-area: 3 / 1 / 3 / -1;
-  /* background-color: purple; */
-}
-.shelf_view--subtopic-browser{
-  grid-area: 4 / 1 / 4 / -1;
   display: flex;
   align-items: center;
-  /* background-color: red;  */
+  justify-content: left;
+  padding-left: 15px;
+  /* background-color: blue; */
 }
 
-.shelf{
-  flex: 1;
+.shelf_view--subtopic-browser{
+  grid-area: 3 / 1 / 3 / -1;
+  display: flex;
+  align-items: center;
+  white-space: nowrap; /* Prevents wrapping to the next line */
+  /* background-color: red;  */
 }
 
 .shelf_view--header_back {
@@ -149,13 +153,6 @@ svg defs {
   text-align: center;
 }
 
-.shelf_view--left_scroll, .shelf_view--right_scroll{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
 .shelf_view--left_scroll > object, .shelf_view--right_scroll > object{
   width: 50px;
 }
@@ -165,4 +162,63 @@ svg defs {
   font-size: xx-large;
   padding-left: 70px;
   padding-right: 10px;
+}
+
+.shelf_view--subtopic_holder {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 30px;
+}
+
+.shelf_view--subtopic_holder::-webkit-scrollbar{
+  display: none;
+}
+
+.shelf_view--subtopic_holder > div{
+  align-items: center;
+  padding: 10px 12px 10px 12px;
+  border:1px solid white;
+  border-radius: 10px;
+}
+
+
+/* https://ishadeed.com/article/custom-scrollbars-css/   */
+.shelf_view--shelves::-webkit-scrollbar-thumb{
+  background-color: #A6AEF4;
+  border-radius: 100px;
+}
+
+.shelf_view--shelves::-webkit-scrollbar {
+  height: 20px; /* Ensure consistent height for horizontal scrollbar */
+}
+
+.shelf_view--shelves::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.bookcase {
+  min-width: calc(33.3333%);
+  /* border: 1px solid #ccc; */
+  display: flex;
+  flex-direction: column; /* Stack child divs vertically */
+  justify-content: space-between; /* Distribute space evenly between children */
+  row-gap: 10px;
+}
+
+.shelf {
+  /* border: 1px solid #888; */
+  flex: 1;
+  width: 100%; /* Adjust width as needed */
+  display: flex;
+  column-gap: 8px;
+}
+
+.shelf--book {
+  min-width: calc(8%);
+  background-color: white;
+  /* border: 1px solid #888; */
 }
