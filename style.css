@@ -88,7 +88,7 @@ svg defs {
   display: none;
   z-index: 1000;
   color: white;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 7fr 1fr;
   grid-template-rows: 3fr 10fr 1fr 2fr;
 }
 
@@ -175,9 +175,10 @@ svg defs {
   width: 100%;
   margin-left: 5px;
   margin-right: 30px;
+  padding-bottom: 5px;
 }
 
-.shelf_view--subtopic_holder::-webkit-scrollbar{
+.shelf_view--shelves::-webkit-scrollbar{
   display: none;
 }
 
@@ -190,29 +191,31 @@ svg defs {
 
 
 /* https://ishadeed.com/article/custom-scrollbars-css/   */
-.shelf_view--shelves::-webkit-scrollbar {
-  /* height: 20px; Ensure consistent height for horizontal scrollbar */display: none;
+.shelf_view--subtopic_holder::-webkit-scrollbar {
+  height: 5px;
 }
-/* .shelf_view--shelves::-webkit-scrollbar-thumb{
+.shelf_view--subtopic_holder::-webkit-scrollbar-thumb{
   background-color: #A6AEF4;
   border-radius: 100px;
 }
-.shelf_view--shelves::-webkit-scrollbar-track {
+.shelf_view--subtopic_holder::-webkit-scrollbar-track {
   background-color: #e4e4e4;
   border-radius: 100px;
-} */
+}
 
 .bookcase {
-  min-width: calc(33.3333%);
+  min-width: calc(33.3333% - 30px);
   /* border: 1px solid #ccc; */
   display: flex;
   flex-direction: column; /* Stack child divs vertically */
   justify-content: space-between; /* Distribute space evenly between children */
   row-gap: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .shelf {
-  /* border: 1px solid #888; */
+  /* border: 10px solid red;  */
   flex: 1;
   width: 100%; /* Adjust width as needed */
   display: flex;
@@ -220,7 +223,7 @@ svg defs {
 }
 
 .shelf--book {
-  min-width: calc(8%);
+  min-width: calc(20% - 8px);
   background-color: white;
   /* border: 1px solid #888; */
 }

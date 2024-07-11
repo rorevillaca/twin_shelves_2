@@ -356,14 +356,25 @@ function populate_topics_shelf_view(topic_name){
   bookcases.forEach((text) => {
     const bookcase = d3.select(".shelf_view--shelves").append("div")
                           .attr("class", "bookcase")
+
+    d3.select(".shelf_view--shelves").append("div")
+                          .attr("class", "book_details")
+                          .attr("id", `book_details_${text}`)
     
     // Append 6 divs within each 'bookcase' div
     for (let i = 1; i <= 5; i++) {
       let bookshelf = bookcase.append("div")
                           .attr("class", "shelf")
 
-      for (let i = 1; i <= 7; i++) {
-                            bookshelf.append("div").attr("class", "shelf--book")
+      for (let i = 1; i <= 5; i++) {
+          bookshelf.append("div")
+            .attr("class", "shelf--book")
+            .attr("bookcase_id",text)
+            .on('click',function() {
+              let bookcase_id = this.getAttribute('bookcase_id')
+              d3.select(`#book_details_${bookcase_id}`)
+                .attr("class", "bookcase")
+            })
       }
     }
   });
