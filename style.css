@@ -45,11 +45,10 @@ html, body{
                     align-items: flex-end;
                     color: white;
                     font-size: 1.2 em; /* Adjust the size as needed */
-                    font-family: 'Avenir Next', sans-serif; /* Change the font as needed */
                     text-align: center;}
 
 .instructions_container span {
-  opacity: 0.6 /* Set the opacity of the text */
+  opacity: 1 /* Set the opacity of the text */
 }
 
 .topics_container { grid-area: 4 / 1 / 5 / 2; 
@@ -157,7 +156,7 @@ svg defs {
   text-align: center;
 }
 
-.shelf_view--left_scroll > object, .shelf_view--right_scroll > object{
+.shelf_view--left_scroll > img, .shelf_view--right_scroll > img{
   width: 50px;
 }
 
@@ -223,7 +222,25 @@ svg defs {
 }
 
 .shelf--book {
-  min-width: calc(20% - 8px);
-  background-color: white;
-  /* border: 1px solid #888; */
+  min-width: calc(20% - 6px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+
+
+.book_details--visible {
+    min-width: calc(33.3333% - 30px);
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #1E1C27;
+    opacity: 60%;
+  }
+  
+  .book_details--invisible {
+    /* border: 1px solid #ccc; */
+    display: none;
+  }
+  

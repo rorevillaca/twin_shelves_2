@@ -335,6 +335,13 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 
 
 function populate_topics_shelf_view(topic_name){
+  d3.selectAll(".book_details--visible").remove()
+  d3.selectAll(".book_details--invisible").remove()
+  d3.selectAll(".bookcase").remove()
+
+  var bookcase_curr_topic = virtual_bookshelves.filter(book => book.topic === topic_name.toLowerCase());
+  var number_of_bookcases = bookcase_curr_topic.length
+
   d3.select(".shelf_view--topic_holder").text(topic_name)
   subtopic_holder = d3.select(".shelf_view--subtopic_holder")
   subtopics = topics_subtopics.filter(book => book.topic === topic_name);
@@ -348,37 +355,72 @@ function populate_topics_shelf_view(topic_name){
     .attr("class", "shelves_subtopics")
     .text(d => d.sub_topic);
 
-  d3.selectAll(".bookcase").remove()
+  //Calculate width for book details div
+  var shelf_view_attr = (d3.select(".shelf_view--shelves").node().getBoundingClientRect())
+  const book_details_width = shelf_view_attr.width * 0.333333 
 
   // Append 3 divs with class 'bookcase' and   text 'A', 'B', 'C'
-  const bookcases = ['A', 'B', 'C', 'D', 'E'];
+  const bookcases = Array.from({ length: number_of_bookcases}, (v, i) => (i + 1));
 
   bookcases.forEach((text) => {
+    const bookcase_content =  bookcase_curr_topic[text - 1]
+
     const bookcase = d3.select(".shelf_view--shelves").append("div")
                           .attr("class", "bookcase")
 
     d3.select(".shelf_view--shelves").append("div")
-                          .attr("class", "book_details")
+                          .attr("class", "book_details--invisible")
                           .attr("id", `book_details_${text}`)
+
+    
     
     // Append 6 divs within each 'bookcase' div
     for (let i = 1; i <= 5; i++) {
       let bookshelf = bookcase.append("div")
                           .attr("class", "shelf")
 
-      for (let i = 1; i <= 5; i++) {
-          bookshelf.append("div")
+      for (let j = 1; j <= 5; j++) {
+        try {
+          var cover_filename = bookcase_content.books[(i-1) * 5 + j - 1].cover_file
+          
+          const book = bookshelf.append("div")
             .attr("class", "shelf--book")
             .attr("bookcase_id",text)
-            .on('click',function() {
+
+          if (cover_filename === "NA") {
+              book.style("background-color", "silver");
+          } else {
+              book.style("background-image", `url("res/resized_covers_struct/${cover_filename}")`)
+          }
+
+          book.on('click',function() {
               let bookcase_id = this.getAttribute('bookcase_id')
+              d3.selectAll(".book_details--visible")
+                .attr("class", "book_details--invisible")
               d3.select(`#book_details_${bookcase_id}`)
-                .attr("class", "bookcase")
-            })
-      }
+                .attr("class", "book_details--visible")
+              d3.select('.shelf_view--shelves')
+                .property('scrollLeft', book_details_width * (bookcase_id - 1))
+              })
+          } catch {}
+        }
     }
   });
   document.querySelector('.shelf_view--shelves').scrollLeft = 0;
+
+  d3.select('.shelf_view--right_scroll_button').on('click', function() {
+    d3.select('.shelf_view--shelves')
+    .property('scrollLeft', function() {
+        return this.scrollLeft + book_details_width;
+    });
+  });
+
+  d3.select('.shelf_view--left_scroll_button').on('click', function() {
+    d3.select('.shelf_view--shelves')
+    .property('scrollLeft', function() {
+        return this.scrollLeft - book_details_width;
+    });
+  });
 }
 
 
