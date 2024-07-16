@@ -22,7 +22,8 @@ html, body{
 }
 
 .xx-large {
-  font-size: xx-large;
+  font-size: 4em;
+  font-weight: 100;
 }
 
 .parent_container {
@@ -175,6 +176,7 @@ svg defs {
   margin-left: 5px;
   margin-right: 30px;
   padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .shelf_view--shelves::-webkit-scrollbar{
@@ -183,9 +185,11 @@ svg defs {
 
 .shelf_view--subtopic_holder > div{
   align-items: center;
-  padding: 10px 12px 10px 12px;
+  padding: 8px 10px 8px 10px;
   border:1px solid white;
   border-radius: 10px;
+  font-size: 0.7em;
+  font-weight: 900;
 }
 
 
