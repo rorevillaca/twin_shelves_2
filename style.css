@@ -233,14 +233,47 @@ svg defs {
 .book_details--visible {
     min-width: calc(33.3333% - 30px);
     display: flex;
-    padding-right: 15px;
-    padding-left: 15px;
-    background-color: #1E1C27;
-    opacity: 60%;
+    flex-direction: column; /* Stack child divs vertically */
+    justify-content: space-between; /* Distribute space evenly between children */
+    row-gap: 10px;
+    padding: 15px;
+    background-color: rgba(30, 28, 39, 0.6);
+    font-size: small;
   }
   
-  .book_details--invisible {
+.book_details--invisible {
     /* border: 1px solid #ccc; */
     display: none;
-  }
-  
+}
+
+.info_card--title{
+  flex: 1;
+  background-color: green;
+}
+
+.info_card--details{
+  flex: 4;
+  background-color: red;
+}
+
+.info_card--misc{
+  flex: 3;
+  background-color: yellow;
+  display: flex;
+  position: relative;
+}
+
+.info_card--QR_holder{
+  height: 100%;
+  width: 35%;
+  background-color: blue;
+}
+
+.info_card--location_details{
+  height: 50%;
+  width: 35%;
+  background-color: orange;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

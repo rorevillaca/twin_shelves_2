@@ -362,18 +362,14 @@ function populate_topics_shelf_view(topic_name){
   // Append 3 divs with class 'bookcase' and   text 'A', 'B', 'C'
   const bookcases = Array.from({ length: number_of_bookcases}, (v, i) => (i + 1));
 
-  bookcases.forEach((text) => {
-    const bookcase_content =  bookcase_curr_topic[text - 1]
+  bookcases.forEach((bookcase_id) => {
+    const bookcase_content =  bookcase_curr_topic[bookcase_id - 1]
 
     const bookcase = d3.select(".shelf_view--shelves").append("div")
                           .attr("class", "bookcase")
 
-    d3.select(".shelf_view--shelves").append("div")
-                          .attr("class", "book_details--invisible")
-                          .attr("id", `book_details_${text}`)
+    add_book_details_card(bookcase_id)
 
-    
-    
     // Append 6 divs within each 'bookcase' div
     for (let i = 1; i <= 5; i++) {
       let bookshelf = bookcase.append("div")
@@ -382,10 +378,12 @@ function populate_topics_shelf_view(topic_name){
       for (let j = 1; j <= 5; j++) {
         try {
           var cover_filename = bookcase_content.books[(i-1) * 5 + j - 1].cover_file
+          var OCLC = bookcase_content.books[(i-1) * 5 + j - 1].OCLC
           
           const book = bookshelf.append("div")
             .attr("class", "shelf--book")
-            .attr("bookcase_id",text)
+            .attr("bookcase_id",bookcase_id)
+            .attr("oclc",OCLC)
 
           if (cover_filename === "NA") {
               book.style("background-color", "silver");
@@ -401,6 +399,7 @@ function populate_topics_shelf_view(topic_name){
                 .attr("class", "book_details--visible")
               d3.select('.shelf_view--shelves')
                 .property('scrollLeft', book_details_width * (bookcase_id - 1))
+              fill_info_card(this.getAttribute('oclc'))
               })
           } catch {}
         }
@@ -421,6 +420,30 @@ function populate_topics_shelf_view(topic_name){
         return this.scrollLeft - book_details_width;
     });
   });
+}
+
+
+function fill_info_card(OCLC){
+  console.log(OCLC)
+}
+
+function add_book_details_card(bookcase_id){
+  const card = d3.select(".shelf_view--shelves").append("div")
+  card.attr("class", "book_details--invisible")
+      .attr("id", `book_details_${bookcase_id}`)
+  card.append("div")
+      .attr("class","info_card--title")
+  card.append("div")
+      .attr("class","info_card--details")
+  const misc = card.append("div")
+                   .attr("class","info_card--misc")
+  const QR_holder = misc.append("div")
+      .attr("class", "info_card--QR_holder")
+      .text("Scan to see more about this book")
+  misc.append("div")
+      .attr("class", "info_card--location_details")
+
+  QR_holder.append("img")
 }
 
 
