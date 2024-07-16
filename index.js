@@ -368,7 +368,7 @@ function populate_topics_shelf_view(topic_name){
     const bookcase = d3.select(".shelf_view--shelves").append("div")
                           .attr("class", "bookcase")
 
-    add_book_details_card(bookcase_id)
+    add_info_card(bookcase_id)
 
     // Append 6 divs within each 'bookcase' div
     for (let i = 1; i <= 5; i++) {
@@ -393,13 +393,14 @@ function populate_topics_shelf_view(topic_name){
 
           book.on('click',function() {
               let bookcase_id = this.getAttribute('bookcase_id')
-              d3.selectAll(".book_details--visible")
-                .attr("class", "book_details--invisible")
-              d3.select(`#book_details_${bookcase_id}`)
-                .attr("class", "book_details--visible")
               d3.select('.shelf_view--shelves')
                 .property('scrollLeft', book_details_width * (bookcase_id - 1))
-              fill_info_card(this.getAttribute('oclc'))
+              d3.selectAll(".book_details--visible")
+                .attr("class", "book_details--invisible")
+
+              const info_card = d3.select(`#book_details_${bookcase_id}`)
+              info_card.attr("class", "book_details--visible")
+              fill_info_card(info_card, this.getAttribute('oclc'))
               })
           } catch {}
         }
@@ -423,16 +424,14 @@ function populate_topics_shelf_view(topic_name){
 }
 
 
-function fill_info_card(OCLC){
-  console.log(OCLC)
-}
-
-function add_book_details_card(bookcase_id){
+function add_info_card(bookcase_id){
   const card = d3.select(".shelf_view--shelves").append("div")
   card.attr("class", "book_details--invisible")
       .attr("id", `book_details_${bookcase_id}`)
-  card.append("div")
-      .attr("class","info_card--title")
+  const header = card.append("div")
+      .attr("class","info_card--header")
+  header.append("h3")
+        .attr("class", "info_card--title")
   card.append("div")
       .attr("class","info_card--details")
   const misc = card.append("div")
@@ -444,6 +443,15 @@ function add_book_details_card(bookcase_id){
       .attr("class", "info_card--location_details")
 
   QR_holder.append("img")
+}
+
+
+function fill_info_card(info_card, OCLC){
+  const book_info = workshop_data.filter(book => book.OCLC === +OCLC)[0];
+  info_card.select(".info_card--title").text(book_info.title)
+
+  const location_text = `Code: <b>${book_info.std_call_number}</b>` 
+  info_card.select(".info_card--location_details").html(location_text)
 }
 
 

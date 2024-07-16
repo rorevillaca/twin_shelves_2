@@ -246,9 +246,8 @@ svg defs {
     display: none;
 }
 
-.info_card--title{
+.info_card--header{
   flex: 1;
-  background-color: green;
 }
 
 .info_card--details{
@@ -258,9 +257,9 @@ svg defs {
 
 .info_card--misc{
   flex: 3;
-  background-color: yellow;
   display: flex;
   position: relative;
+  text-align: right;
 }
 
 .info_card--QR_holder{
@@ -272,7 +271,6 @@ svg defs {
 .info_card--location_details{
   height: 50%;
   width: 35%;
-  background-color: orange;
   position: absolute;
   right: 0;
   bottom: 0;
