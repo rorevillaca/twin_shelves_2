@@ -21,6 +21,12 @@ html, body{
     display: flex;
 }
 
+.inline-icon {
+  vertical-align: middle; /* Align icon with the middle of the text */
+  width: 16px; /* Adjust the width as needed */
+  height: 16px; /* Adjust the height as needed */
+}
+
 .xx-large {
   font-size: 4em;
   font-weight: 100;
@@ -46,6 +52,7 @@ html, body{
                     align-items: flex-end;
                     color: white;
                     font-size: 1.2 em; /* Adjust the size as needed */
+                    font-weight: 100;
                     text-align: center;}
 
 .instructions_container span {
@@ -194,14 +201,15 @@ svg defs {
 
 
 /* https://ishadeed.com/article/custom-scrollbars-css/   */
-.shelf_view--subtopic_holder::-webkit-scrollbar {
+.shelf_view--subtopic_holder::-webkit-scrollbar, .info_card--details::-webkit-scrollbar {
   height: 5px;
+  width: 5px;
 }
-.shelf_view--subtopic_holder::-webkit-scrollbar-thumb{
-  background-color: #A6AEF4;
+.shelf_view--subtopic_holder::-webkit-scrollbar-thumb , .info_card--details::-webkit-scrollbar-thumb{
+  background-color: #808ff7;
   border-radius: 100px;
 }
-.shelf_view--subtopic_holder::-webkit-scrollbar-track {
+.shelf_view--subtopic_holder::-webkit-scrollbar-track, .info_card--details::-webkit-scrollbar-track{
   background-color: #e4e4e4;
   border-radius: 100px;
 }
@@ -232,8 +240,6 @@ svg defs {
   background-position: center;
 }
 
-
-
 .book_details--visible {
     min-width: calc(33.3333% - 30px);
     display: flex;
@@ -243,6 +249,7 @@ svg defs {
     padding: 15px;
     background-color: rgba(30, 28, 39, 0.6);
     font-size: small;
+    letter-spacing: .05rem;
   }
   
 .book_details--invisible {
@@ -256,7 +263,8 @@ svg defs {
 
 .info_card--details{
   flex: 4;
-  background-color: red;
+  overflow-y: auto;
+  padding-right: 10px;
 }
 
 .info_card--misc{
@@ -268,14 +276,40 @@ svg defs {
 
 .info_card--QR_holder{
   height: 100%;
-  width: 35%;
-  background-color: blue;
+  width: 45%;
+  text-align: right;
 }
 
 .info_card--location_details{
-  height: 50%;
+  height: 30%;
   width: 35%;
   position: absolute;
   right: 0;
   bottom: 0;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.info_card--location_details--text{
+  flex: 0;
+}
+
+.info_card--location_details--button{
+  flex: 1;
+  height: auto;
+  background-color: #808ff7;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
+
+.info_card--QR_holder > img{
+  border: 10px solid white; 
+  background-repeat: no-repeat;
+  width: calc(100% - 20px);
 }

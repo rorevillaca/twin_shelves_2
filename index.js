@@ -425,35 +425,52 @@ function populate_topics_shelf_view(topic_name){
 
 
 function add_info_card(bookcase_id){
-  const card = d3.select(".shelf_view--shelves").append("div")
-  card.attr("class", "book_details--invisible")
-      .attr("id", `book_details_${bookcase_id}`)
-  const header = card.append("div")
-      .attr("class","info_card--header")
-  header.append("h3")
-        .attr("class", "info_card--title")
-  card.append("div")
-      .attr("class","info_card--details")
-  const misc = card.append("div")
-                   .attr("class","info_card--misc")
-  const QR_holder = misc.append("div")
-      .attr("class", "info_card--QR_holder")
-      .text("Scan to see more about this book")
-  misc.append("div")
-      .attr("class", "info_card--location_details")
-
-  QR_holder.append("img")
+    const card = d3.select(".shelf_view--shelves").append("div")
+    card.attr("class", "book_details--invisible")
+        .attr("id", `book_details_${bookcase_id}`)
+    const header = card.append("div")
+        .attr("class","info_card--header")
+    header.append("h3").attr("class", "info_card--title")
+    card.append("div").attr("class","info_card--details")
+    const misc = card.append("div").attr("class","info_card--misc")
+    const QR_holder = misc.append("div")
+        .attr("class", "info_card--QR_holder")
+        .text("Scan to see more:")
+    QR_holder.append("img")
+    const location_details = misc.append("div").attr("class", "info_card--location_details")
+    location_details.append("div").attr("class", "info_card--location_details--text")
+    location_details.append("div")
+                    .attr("class", "info_card--location_details--button")
+                    .html('<b>See location</b>&emsp;<img src="./res/Font-Awesome/arrow-circle-right.svg" class="inline-icon">')                         
 }
 
 
 function fill_info_card(info_card, OCLC){
-  const book_info = workshop_data.filter(book => book.OCLC === +OCLC)[0];
-  info_card.select(".info_card--title").text(book_info.title)
+    const book_info = workshop_data.filter(book => book.OCLC === +OCLC)[0];
+    info_card.select(".info_card--title").text(book_info.title)
 
-  const location_text = `Code: <b>${book_info.std_call_number}</b>` 
-  info_card.select(".info_card--location_details").html(location_text)
+    const details_html = build_details_html(book_info)
+    info_card.select(".info_card--details").html(details_html)
+
+    const worldcat_url = `https://tudelft.on.worldcat.org/oclc/${OCLC}`
+    const qr_code = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcat_url)}&size=150x150`
+    info_card.select(".info_card--QR_holder")
+      .select("img")
+      .attr("src", qr_code)
+
+    const location_text = `Code: <b>${book_info.std_call_number}</b>` 
+    info_card.select(".info_card--location_details--text").html(location_text)
 }
 
+
+function build_details_html(book_info){
+  let base_string = `Author: ${book_info.authors}`
+  base_string = `${base_string}<br>Year: ${book_info.year}`
+  if (book_info.description != "") {
+    base_string = `${base_string}<br><br>Description:<br>${book_info.description}`
+  }
+  return base_string
+}
 
 
 ///////////////// OVERLAY
