@@ -214,27 +214,37 @@ svg defs {
   border-radius: 100px;
 }
 
-.bookcase {
+.bookcase_holder {
   min-width: calc(33.3333% - 30px);
-  /* border: 1px solid #ccc; */
+  margin-right: 15px;
+  margin-left: 15px;
   display: flex;
-  flex-direction: column; /* Stack child divs vertically */
-  justify-content: space-between; /* Distribute space evenly between children */
-  row-gap: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
-.shelf {
-  /* border: 10px solid red;  */
-  flex: 1;
-  width: 100%; /* Adjust width as needed */
+.subtopic_separator {
+  width: 18%;
+  height: 100%;
+  background-color: #808ff7;
+  margin-right: calc(10% / 4);
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg); /* Rotates the text counterclockwise */
+  font-weight: 700;
+  letter-spacing: .08rem;
+}
+
+.bookcase {
+  width: 100%;
+  height: 100%;
   display: flex;
-  column-gap: 8px;
+  flex-wrap: wrap;
+  column-gap: calc(10% / 4); 
+  align-content: flex-start;
+  row-gap: calc(10% / 4); 
 }
 
 .shelf--book {
-  min-width: calc(20% - 6px);
+  min-width: 18%;
+  min-height: 18%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -259,12 +269,14 @@ svg defs {
 
 .info_card--header{
   flex: 1;
+  align-items: flex-start;
 }
 
 .info_card--details{
   flex: 4;
   overflow-y: auto;
   padding-right: 10px;
+  font-size: smaller;
 }
 
 .info_card--misc{
@@ -272,12 +284,13 @@ svg defs {
   display: flex;
   position: relative;
   text-align: right;
+  font-size: smaller;
 }
 
 .info_card--QR_holder{
   height: 100%;
   width: 45%;
-  text-align: right;
+  text-align: left;
 }
 
 .info_card--location_details{
@@ -309,7 +322,16 @@ svg defs {
 
 
 .info_card--QR_holder > img{
-  border: 10px solid white; 
   background-repeat: no-repeat;
-  width: calc(100% - 20px);
+  width: 100%;
 }
+
+
+
+
+
+
+
+
+
+

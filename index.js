@@ -337,7 +337,7 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 function populate_topics_shelf_view(topic_name){
   d3.selectAll(".book_details--visible").remove()
   d3.selectAll(".book_details--invisible").remove()
-  d3.selectAll(".bookcase").remove()
+  d3.selectAll(".bookcase_holder").remove()
 
   var bookcase_curr_topic = virtual_bookshelves.filter(book => book.topic === topic_name.toLowerCase());
   var number_of_bookcases = bookcase_curr_topic.length
@@ -359,53 +359,61 @@ function populate_topics_shelf_view(topic_name){
   var shelf_view_attr = (d3.select(".shelf_view--shelves").node().getBoundingClientRect())
   const book_details_width = shelf_view_attr.width * 0.333333 
 
-  // Append 3 divs with class 'bookcase' and   text 'A', 'B', 'C'
   const bookcases = Array.from({ length: number_of_bookcases}, (v, i) => (i + 1));
 
   bookcases.forEach((bookcase_id) => {
     const bookcase_content =  bookcase_curr_topic[bookcase_id - 1]
 
-    const bookcase = d3.select(".shelf_view--shelves").append("div")
+    const bookcase_holder = d3.select(".shelf_view--shelves")
+                          .append("div")
+                          .attr("class", "bookcase_holder")
+
+    if (bookcase_content.virtual_shelf_temp === 1){
+      bookcase_holder
+            .append("div")
+            .attr("class", "subtopic_separator")
+            .text(bookcase_content.sub_topic)
+    }
+
+    const bookcase = bookcase_holder.append("div")
                           .attr("class", "bookcase")
 
     add_info_card(bookcase_id)
 
-    // Append 6 divs within each 'bookcase' div
-    for (let i = 1; i <= 5; i++) {
-      let bookshelf = bookcase.append("div")
-                          .attr("class", "shelf")
+    
+    for (let i = 1; i <= bookcase_content.books_in_bookcase; i++) {
 
-      for (let j = 1; j <= 5; j++) {
-        try {
-          var cover_filename = bookcase_content.books[(i-1) * 5 + j - 1].cover_file
-          var OCLC = bookcase_content.books[(i-1) * 5 + j - 1].OCLC
-          
-          const book = bookshelf.append("div")
-            .attr("class", "shelf--book")
-            .attr("bookcase_id",bookcase_id)
-            .attr("oclc",OCLC)
+      var cover_filename = bookcase_content.books[i-1].cover_file
+      var OCLC = bookcase_content.books[i-1].OCLC
+      
+      const book = bookcase.append("div")
+        .attr("class", "shelf--book")
+        .attr("bookcase_id",bookcase_id)
+        .attr("oclc",OCLC)
 
-          if (cover_filename === "NA") {
-              book.style("background-color", "silver");
-          } else {
-              book.style("background-image", `url("res/resized_covers_struct/${cover_filename}")`)
-          }
-
-          book.on('click',function() {
-              let bookcase_id = this.getAttribute('bookcase_id')
-              d3.select('.shelf_view--shelves')
-                .property('scrollLeft', book_details_width * (bookcase_id - 1))
-              d3.selectAll(".book_details--visible")
-                .attr("class", "book_details--invisible")
-
-              const info_card = d3.select(`#book_details_${bookcase_id}`)
-              info_card.attr("class", "book_details--visible")
-              fill_info_card(info_card, this.getAttribute('oclc'))
-              })
-          } catch {}
+        if (cover_filename === "NA") {
+            book.style("background-color", "silver");
+        } else {
+            book.style("background-image", `url("res/resized_covers_struct/${cover_filename}")`)
         }
+
+      book.on('click',function() {
+        let bookcase_id = this.getAttribute('bookcase_id')
+        d3.select('.shelf_view--shelves')
+          .property('scrollLeft', book_details_width * (bookcase_id - 1))
+        d3.selectAll(".book_details--visible")
+          .attr("class", "book_details--invisible")
+
+        const info_card = d3.select(`#book_details_${bookcase_id}`)
+        info_card.attr("class", "book_details--visible")
+        fill_info_card(info_card, this.getAttribute('oclc'))
+        })
     }
   });
+
+
+
+
   document.querySelector('.shelf_view--shelves').scrollLeft = 0;
 
   d3.select('.shelf_view--right_scroll_button').on('click', function() {
@@ -453,7 +461,8 @@ function fill_info_card(info_card, OCLC){
     info_card.select(".info_card--details").html(details_html)
 
     const worldcat_url = `https://tudelft.on.worldcat.org/oclc/${OCLC}`
-    const qr_code = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcat_url)}&size=150x150`
+
+    const qr_code = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcat_url)}&size=150x150&color=131-143-240&margin=10`
     info_card.select(".info_card--QR_holder")
       .select("img")
       .attr("src", qr_code)

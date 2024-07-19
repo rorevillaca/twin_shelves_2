@@ -2,8 +2,8 @@ const virtual_bookshelves = [
   {
     "topic": "aerospace engineering",
     "sub_topic": "aeronautical engineering",
-    "virtual_shelf": 5,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840352450",
@@ -84,7 +84,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "554748",
         "cover_file": "618/cover_554748.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautical engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "554748",
         "cover_file": "618/cover_554748.webp"
@@ -104,15 +112,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "565119",
         "cover_file": "618/cover_565119.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautical engineering",
-    "virtual_shelf": 6,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "1870614",
         "cover_file": "NA"
@@ -192,7 +192,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840351538",
         "cover_file": "619/cover_840351538.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautical engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37179622",
         "cover_file": "619/cover_37179622.webp"
@@ -212,15 +220,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840365584",
         "cover_file": "619/cover_840365584.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautical engineering",
-    "virtual_shelf": 7,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840360173",
         "cover_file": "619/cover_840360173.webp"
@@ -300,7 +300,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839304302",
         "cover_file": "620/cover_839304302.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautical engineering",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840451386",
         "cover_file": "620/cover_840451386.webp"
@@ -320,15 +328,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839335047",
         "cover_file": "620/cover_839335047.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautical engineering",
-    "virtual_shelf": 8,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905869362",
         "cover_file": "620/cover_905869362.webp"
@@ -408,7 +408,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905501523",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautical engineering",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "39299766",
         "cover_file": "621/cover_39299766.webp"
@@ -428,15 +436,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840355722",
         "cover_file": "621/cover_840355722.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautical engineering",
-    "virtual_shelf": 9,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840358993",
         "cover_file": "621/cover_840358993.webp"
@@ -516,7 +516,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840440526",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautical engineering",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840438896",
         "cover_file": "621/cover_840438896.webp"
@@ -536,15 +544,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445118",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautical engineering",
-    "virtual_shelf": 10,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839301601",
         "cover_file": "621/cover_839301601.webp"
@@ -624,7 +624,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839274125",
         "cover_file": "622/cover_839274125.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautical engineering",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905869065",
         "cover_file": "622/cover_905869065.webp"
@@ -644,15 +652,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1342820",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautical engineering",
-    "virtual_shelf": 11,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "443930",
         "cover_file": "623/cover_443930.webp"
@@ -732,7 +732,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "76798397",
         "cover_file": "623/cover_76798397.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautical engineering",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 10,
+    "books": [
       {
         "OCLC": "156823922",
         "cover_file": "623/cover_156823922.webp"
@@ -752,15 +760,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840379032",
         "cover_file": "623/cover_840379032.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautical engineering",
-    "virtual_shelf": 12,
-    "books_in_bookcase": 5,
-    "books": [
+      },
       {
         "OCLC": "840381425",
         "cover_file": "623/cover_840381425.webp"
@@ -786,8 +786,8 @@ const virtual_bookshelves = [
   {
     "topic": "aerospace engineering",
     "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 13,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840272176",
@@ -868,7 +868,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67451817",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840353205",
         "cover_file": "624/cover_840353205.webp"
@@ -888,15 +896,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840396925",
         "cover_file": "624/cover_840396925.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 14,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "55078813",
         "cover_file": "624/cover_55078813.webp"
@@ -976,7 +976,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "38934337",
         "cover_file": "625/cover_38934337.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782895321",
         "cover_file": "625/cover_782895321.webp"
@@ -996,15 +1004,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "43060450",
         "cover_file": "625/cover_43060450.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 15,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "47182060",
         "cover_file": "625/cover_47182060.webp"
@@ -1084,7 +1084,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "150352247",
         "cover_file": "625/cover_150352247.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "76074112",
         "cover_file": "625/cover_76074112.webp"
@@ -1104,15 +1112,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "192134288",
         "cover_file": "626/cover_192134288.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 16,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "217263768",
         "cover_file": "626/cover_217263768.webp"
@@ -1192,7 +1192,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839297464",
         "cover_file": "626/cover_839297464.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840447080",
         "cover_file": "626/cover_840447080.webp"
@@ -1212,15 +1220,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905866046",
         "cover_file": "626/cover_905866046.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 17,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "812537139",
         "cover_file": "626/cover_812537139.webp"
@@ -1300,7 +1300,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "841709773",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "34734221",
         "cover_file": "627/cover_34734221.webp"
@@ -1320,15 +1328,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "45103007",
         "cover_file": "627/cover_45103007.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 18,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839215084",
         "cover_file": "627/cover_839215084.webp"
@@ -1408,7 +1408,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "36564545",
         "cover_file": "628/cover_36564545.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "38185399",
         "cover_file": "628/cover_38185399.webp"
@@ -1428,15 +1436,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "34798180",
         "cover_file": "628/cover_34798180.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 19,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840370938",
         "cover_file": "628/cover_840370938.webp"
@@ -1516,7 +1516,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444480",
         "cover_file": "628/cover_840444480.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839302697",
         "cover_file": "628/cover_839302697.webp"
@@ -1536,15 +1544,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "37956953",
         "cover_file": "629/cover_37956953.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 20,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840354183",
         "cover_file": "629/cover_840354183.webp"
@@ -1624,7 +1624,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "45830260",
         "cover_file": "629/cover_45830260.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "45830260",
         "cover_file": "629/cover_45830260.webp"
@@ -1644,15 +1652,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840370379",
         "cover_file": "629/cover_840370379.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 21,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840376417",
         "cover_file": "629/cover_840376417.webp"
@@ -1732,7 +1732,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839246875",
         "cover_file": "630/cover_839246875.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "aeronautics aircraft and helicopters",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 17,
+    "books": [
       {
         "OCLC": "78072255",
         "cover_file": "630/cover_78072255.webp"
@@ -1752,15 +1760,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "425396961",
         "cover_file": "630/cover_425396961.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "aeronautics aircraft and helicopters",
-    "virtual_shelf": 22,
-    "books_in_bookcase": 12,
-    "books": [
+      },
       {
         "OCLC": "349248343",
         "cover_file": "630/cover_349248343.webp"
@@ -1814,8 +1814,8 @@ const virtual_bookshelves = [
   {
     "topic": "aerospace engineering",
     "sub_topic": "space technology",
-    "virtual_shelf": 930,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905470261",
@@ -1896,7 +1896,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437973",
         "cover_file": "631/cover_840437973.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "space technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839261031",
         "cover_file": "631/cover_839261031.webp"
@@ -1916,15 +1924,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "894128439",
         "cover_file": "631/cover_894128439.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "space technology",
-    "virtual_shelf": 931,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "2317997",
         "cover_file": "632/cover_2317997.webp"
@@ -2004,7 +2004,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "51270809",
         "cover_file": "632/cover_51270809.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "space technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840378772",
         "cover_file": "632/cover_840378772.webp"
@@ -2024,15 +2032,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840372437",
         "cover_file": "632/cover_840372437.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "space technology",
-    "virtual_shelf": 932,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840393161",
         "cover_file": "632/cover_840393161.webp"
@@ -2112,7 +2112,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839047703",
         "cover_file": "633/cover_839047703.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "space technology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839238648",
         "cover_file": "633/cover_839238648.webp"
@@ -2132,15 +2140,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "26504489",
         "cover_file": "633/cover_26504489.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "space technology",
-    "virtual_shelf": 933,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "31738376",
         "cover_file": "633/cover_31738376.webp"
@@ -2220,7 +2220,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840392352",
         "cover_file": "634/cover_840392352.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "space technology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839260693",
         "cover_file": "634/cover_839260693.webp"
@@ -2240,15 +2248,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "928852687",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "space technology",
-    "virtual_shelf": 934,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840357155",
         "cover_file": "635/cover_840357155.webp"
@@ -2328,7 +2328,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "255271093",
         "cover_file": "635/cover_255271093.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "space technology",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840406208",
         "cover_file": "635/cover_840406208.webp"
@@ -2348,15 +2356,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "569833",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "space technology",
-    "virtual_shelf": 935,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "898890980",
         "cover_file": "NA"
@@ -2436,7 +2436,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840378391",
         "cover_file": "636/cover_840378391.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "space technology",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840257300",
         "cover_file": "636/cover_840257300.webp"
@@ -2456,15 +2464,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840399274",
         "cover_file": "636/cover_840399274.webp"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "space technology",
-    "virtual_shelf": 936,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840395307",
         "cover_file": "636/cover_840395307.webp"
@@ -2544,7 +2544,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "81906258",
         "cover_file": "637/cover_81906258.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "space technology",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840403215",
         "cover_file": "637/cover_840403215.webp"
@@ -2564,15 +2572,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840440303",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "aerospace engineering",
-    "sub_topic": "space technology",
-    "virtual_shelf": 937,
-    "books_in_bookcase": 24,
-    "books": [
+      },
       {
         "OCLC": "840441607",
         "cover_file": "NA"
@@ -2652,7 +2652,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1022116981",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "aerospace engineering",
+    "sub_topic": "space technology",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 4,
+    "books": [
       {
         "OCLC": "1022932679",
         "cover_file": "NA"
@@ -2674,8 +2682,8 @@ const virtual_bookshelves = [
   {
     "topic": "architecture urbanism and physical planning",
     "sub_topic": "architectural history",
-    "virtual_shelf": 71,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "64569184",
@@ -2756,7 +2764,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "68672723",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architectural history",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905870381",
         "cover_file": "795/cover_905870381.webp"
@@ -2776,15 +2792,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "772676329",
         "cover_file": "796/cover_772676329.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architectural history",
-    "virtual_shelf": 72,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901288573",
         "cover_file": "796/cover_901288573.webp"
@@ -2864,7 +2872,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30076666",
         "cover_file": "796/cover_30076666.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architectural history",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905452717",
         "cover_file": "NA"
@@ -2884,15 +2900,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "2212654",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architectural history",
-    "virtual_shelf": 73,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "63412859",
         "cover_file": "NA"
@@ -2972,7 +2980,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "902418854",
         "cover_file": "797/cover_902418854.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architectural history",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905505940",
         "cover_file": "797/cover_905505940.webp"
@@ -2992,15 +3008,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840492235",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architectural history",
-    "virtual_shelf": 74,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "781829869",
         "cover_file": "NA"
@@ -3080,7 +3088,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "901562404",
         "cover_file": "798/cover_901562404.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architectural history",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839555757",
         "cover_file": "798/cover_839555757.webp"
@@ -3100,15 +3116,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839669565",
         "cover_file": "798/cover_839669565.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architectural history",
-    "virtual_shelf": 75,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905423946",
         "cover_file": "NA"
@@ -3188,7 +3196,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840442752",
         "cover_file": "799/cover_840442752.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architectural history",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "899009584",
         "cover_file": "NA"
@@ -3208,15 +3224,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "901382086",
         "cover_file": "799/cover_901382086.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architectural history",
-    "virtual_shelf": 76,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "44045748",
         "cover_file": "799/cover_44045748.webp"
@@ -3296,7 +3304,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "901264933",
         "cover_file": "800/cover_901264933.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architectural history",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "840386432",
         "cover_file": "800/cover_840386432.webp"
@@ -3316,15 +3332,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "214314253",
         "cover_file": "800/cover_214314253.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architectural history",
-    "virtual_shelf": 77,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "840402775",
         "cover_file": "NA"
@@ -3354,8 +3362,8 @@ const virtual_bookshelves = [
   {
     "topic": "architecture urbanism and physical planning",
     "sub_topic": "architecture and interior design",
-    "virtual_shelf": 78,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "64456191",
@@ -3436,7 +3444,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "10324959",
         "cover_file": "787/cover_10324959.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "25367435",
         "cover_file": "787/cover_25367435.webp"
@@ -3456,15 +3472,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840332883",
         "cover_file": "787/cover_840332883.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 79,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840275918",
         "cover_file": "787/cover_840275918.webp"
@@ -3544,7 +3552,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "50023987",
         "cover_file": "788/cover_50023987.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901576950",
         "cover_file": "788/cover_901576950.webp"
@@ -3564,15 +3580,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840461224",
         "cover_file": "788/cover_840461224.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 80,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905504189",
         "cover_file": "NA"
@@ -3652,7 +3660,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839238957",
         "cover_file": "788/cover_839238957.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840401610",
         "cover_file": "788/cover_840401610.webp"
@@ -3672,15 +3688,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898797644",
         "cover_file": "788/cover_898797644.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 81,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "166367539",
         "cover_file": "788/cover_166367539.webp"
@@ -3760,7 +3768,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905477396",
         "cover_file": "789/cover_905477396.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840346847",
         "cover_file": "789/cover_840346847.webp"
@@ -3780,15 +3796,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905477187",
         "cover_file": "789/cover_905477187.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 82,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901451616",
         "cover_file": "NA"
@@ -3868,7 +3876,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905514901",
         "cover_file": "789/cover_905514901.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "75282417",
         "cover_file": "789/cover_75282417.webp"
@@ -3888,15 +3904,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840414618",
         "cover_file": "789/cover_840414618.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 83,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "180177477",
         "cover_file": "789/cover_180177477.webp"
@@ -3976,7 +3984,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "902546075",
         "cover_file": "790/cover_902546075.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901591607",
         "cover_file": "790/cover_901591607.webp"
@@ -3996,15 +4012,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "901531914",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 84,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840369416",
         "cover_file": "790/cover_840369416.webp"
@@ -4084,7 +4092,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "63843044",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905469129",
         "cover_file": "791/cover_905469129.webp"
@@ -4104,15 +4120,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905469238",
         "cover_file": "791/cover_905469238.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 85,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "25246865",
         "cover_file": "791/cover_25246865.webp"
@@ -4192,7 +4200,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "38740888",
         "cover_file": "791/cover_38740888.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905476614",
         "cover_file": "791/cover_905476614.webp"
@@ -4212,15 +4228,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840346512",
         "cover_file": "791/cover_840346512.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 86,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901531155",
         "cover_file": "791/cover_901531155.webp"
@@ -4300,7 +4308,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "901532190",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905485361",
         "cover_file": "792/cover_905485361.webp"
@@ -4320,15 +4336,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905502021",
         "cover_file": "792/cover_905502021.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 87,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840380058",
         "cover_file": "792/cover_840380058.webp"
@@ -4408,7 +4416,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840387947",
         "cover_file": "792/cover_840387947.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901710697",
         "cover_file": "792/cover_901710697.webp"
@@ -4428,15 +4444,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905505985",
         "cover_file": "793/cover_905505985.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 88,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "51095484",
         "cover_file": "793/cover_51095484.webp"
@@ -4516,7 +4524,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "884953105",
         "cover_file": "793/cover_884953105.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "898878019",
         "cover_file": "793/cover_898878019.webp"
@@ -4536,15 +4552,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "54960644",
         "cover_file": "793/cover_54960644.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 89,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "2647036",
         "cover_file": "794/cover_2647036.webp"
@@ -4624,7 +4632,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "230855842",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture and interior design",
+    "virtual_shelf_temp": 13,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "457155107",
         "cover_file": "795/cover_457155107.webp"
@@ -4644,15 +4660,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1024184478",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture and interior design",
-    "virtual_shelf": 90,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "840293285",
         "cover_file": "795/cover_840293285.webp"
@@ -4682,8 +4690,8 @@ const virtual_bookshelves = [
   {
     "topic": "architecture urbanism and physical planning",
     "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 91,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "799631",
@@ -4764,7 +4772,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905458726",
         "cover_file": "775/cover_905458726.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "36241164",
         "cover_file": "775/cover_36241164.webp"
@@ -4784,15 +4800,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "12314137",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 92,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "13330006",
         "cover_file": "775/cover_13330006.webp"
@@ -4872,7 +4880,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905469498",
         "cover_file": "776/cover_905469498.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "898884212",
         "cover_file": "776/cover_898884212.webp"
@@ -4892,15 +4908,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905475038",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 93,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841729552",
         "cover_file": "NA"
@@ -4980,7 +4988,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "55744900",
         "cover_file": "776/cover_55744900.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839339299",
         "cover_file": "776/cover_839339299.webp"
@@ -5000,15 +5016,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "268750017",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 94,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905864807",
         "cover_file": "776/cover_905864807.webp"
@@ -5088,7 +5096,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "2890183",
         "cover_file": "777/cover_2890183.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "9114053",
         "cover_file": "777/cover_9114053.webp"
@@ -5108,15 +5124,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "56622932",
         "cover_file": "777/cover_56622932.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 95,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "773532618",
         "cover_file": "777/cover_773532618.webp"
@@ -5196,7 +5204,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "4374552",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "238368",
         "cover_file": "NA"
@@ -5216,15 +5232,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "901613617",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 96,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841204375",
         "cover_file": "NA"
@@ -5304,7 +5312,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "20484697",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "65635043",
         "cover_file": "NA"
@@ -5324,15 +5340,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "901050150",
         "cover_file": "778/cover_901050150.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 97,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782173222",
         "cover_file": "NA"
@@ -5412,7 +5420,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "778246714",
         "cover_file": "781/cover_778246714.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "902120322",
         "cover_file": "NA"
@@ -5432,15 +5448,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "45580374",
         "cover_file": "782/cover_45580374.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 98,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840397650",
         "cover_file": "NA"
@@ -5520,7 +5528,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840364809",
         "cover_file": "785/cover_840364809.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "43521077",
         "cover_file": "785/cover_43521077.webp"
@@ -5540,15 +5556,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905504696",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 99,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "144216933",
         "cover_file": "785/cover_144216933.webp"
@@ -5628,7 +5636,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840349523",
         "cover_file": "786/cover_840349523.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840346736",
         "cover_file": "786/cover_840346736.webp"
@@ -5648,15 +5664,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840355745",
         "cover_file": "786/cover_840355745.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 100,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840260207",
         "cover_file": "786/cover_840260207.webp"
@@ -5736,7 +5744,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "35198968",
         "cover_file": "786/cover_35198968.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "architecture urbanism physical planning general",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 12,
+    "books": [
       {
         "OCLC": "37588748",
         "cover_file": "786/cover_37588748.webp"
@@ -5756,15 +5772,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "216355326",
         "cover_file": "786/cover_216355326.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "architecture urbanism physical planning general",
-    "virtual_shelf": 101,
-    "books_in_bookcase": 7,
-    "books": [
+      },
       {
         "OCLC": "839246215",
         "cover_file": "786/cover_839246215.webp"
@@ -5798,8 +5806,8 @@ const virtual_bookshelves = [
   {
     "topic": "architecture urbanism and physical planning",
     "sub_topic": "buildings and building interiors",
-    "virtual_shelf": 190,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "898928717",
@@ -5880,7 +5888,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840329914",
         "cover_file": "801/cover_840329914.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "buildings and building interiors",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37843869",
         "cover_file": "801/cover_37843869.webp"
@@ -5900,15 +5916,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905482011",
         "cover_file": "801/cover_905482011.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "buildings and building interiors",
-    "virtual_shelf": 191,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905485067",
         "cover_file": "NA"
@@ -5988,7 +5996,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840405943",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "buildings and building interiors",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "178277022",
         "cover_file": "801/cover_178277022.webp"
@@ -6008,15 +6024,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "902345734",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "buildings and building interiors",
-    "virtual_shelf": 192,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901449416",
         "cover_file": "NA"
@@ -6096,7 +6104,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "57732566",
         "cover_file": "802/cover_57732566.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "buildings and building interiors",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 5,
+    "books": [
       {
         "OCLC": "901563657",
         "cover_file": "802/cover_901563657.webp"
@@ -6122,8 +6138,8 @@ const virtual_bookshelves = [
   {
     "topic": "architecture urbanism and physical planning",
     "sub_topic": "non residential buildings",
-    "virtual_shelf": 634,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781625420",
@@ -6204,7 +6220,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839669457",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "non residential buildings",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "16922330",
         "cover_file": "806/cover_16922330.webp"
@@ -6224,15 +6248,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "43555999",
         "cover_file": "806/cover_43555999.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "non residential buildings",
-    "virtual_shelf": 635,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905472615",
         "cover_file": "NA"
@@ -6312,7 +6328,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905485621",
         "cover_file": "807/cover_905485621.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "non residential buildings",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "966048252",
         "cover_file": "807/cover_966048252.webp"
@@ -6332,15 +6356,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "55698729",
         "cover_file": "808/cover_55698729.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "non residential buildings",
-    "virtual_shelf": 636,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905505864",
         "cover_file": "NA"
@@ -6420,7 +6436,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840564234",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "non residential buildings",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "204978",
         "cover_file": "808/cover_204978.webp"
@@ -6440,15 +6464,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905429371",
         "cover_file": "808/cover_905429371.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "non residential buildings",
-    "virtual_shelf": 637,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840267626",
         "cover_file": "NA"
@@ -6528,7 +6544,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "22906779",
         "cover_file": "809/cover_22906779.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "non residential buildings",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "25628678",
         "cover_file": "809/cover_25628678.webp"
@@ -6548,15 +6572,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "901893230",
         "cover_file": "809/cover_901893230.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "non residential buildings",
-    "virtual_shelf": 638,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905444216",
         "cover_file": "NA"
@@ -6636,7 +6652,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "65933451",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "non residential buildings",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "27010645",
         "cover_file": "810/cover_27010645.webp"
@@ -6656,15 +6680,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "841811249",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "non residential buildings",
-    "virtual_shelf": 639,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "67869825",
         "cover_file": "NA"
@@ -6744,7 +6760,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840316440",
         "cover_file": "810/cover_840316440.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "non residential buildings",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 17,
+    "books": [
       {
         "OCLC": "901555078",
         "cover_file": "NA"
@@ -6764,15 +6788,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "833763509",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "non residential buildings",
-    "virtual_shelf": 640,
-    "books_in_bookcase": 12,
-    "books": [
+      },
       {
         "OCLC": "840395210",
         "cover_file": "810/cover_840395210.webp"
@@ -6826,8 +6842,8 @@ const virtual_bookshelves = [
   {
     "topic": "architecture urbanism and physical planning",
     "sub_topic": "physical planning landscape architecture and garden design",
-    "virtual_shelf": 729,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841076226",
@@ -6908,7 +6924,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840363251",
         "cover_file": "820/cover_840363251.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "physical planning landscape architecture and garden design",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905502486",
         "cover_file": "NA"
@@ -6928,15 +6952,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "51483534",
         "cover_file": "821/cover_51483534.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "physical planning landscape architecture and garden design",
-    "virtual_shelf": 730,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "902061296",
         "cover_file": "NA"
@@ -7016,7 +7032,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "458439749",
         "cover_file": "821/cover_458439749.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "physical planning landscape architecture and garden design",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "778273312",
         "cover_file": "821/cover_778273312.webp"
@@ -7036,15 +7060,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840455003",
         "cover_file": "821/cover_840455003.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "physical planning landscape architecture and garden design",
-    "virtual_shelf": 731,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "538799153",
         "cover_file": "NA"
@@ -7124,7 +7140,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840380060",
         "cover_file": "822/cover_840380060.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "physical planning landscape architecture and garden design",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "56647138",
         "cover_file": "822/cover_56647138.webp"
@@ -7144,15 +7168,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "319584804",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "physical planning landscape architecture and garden design",
-    "virtual_shelf": 732,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "818729633",
         "cover_file": "NA"
@@ -7232,7 +7248,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "640079569",
         "cover_file": "822/cover_640079569.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "physical planning landscape architecture and garden design",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839312967",
         "cover_file": "822/cover_839312967.webp"
@@ -7252,15 +7276,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "901727481",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "physical planning landscape architecture and garden design",
-    "virtual_shelf": 733,
-    "books_in_bookcase": 24,
-    "books": [
+      },
       {
         "OCLC": "68539775",
         "cover_file": "823/cover_68539775.webp"
@@ -7340,7 +7356,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "263068958",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "physical planning landscape architecture and garden design",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 4,
+    "books": [
       {
         "OCLC": "840394306",
         "cover_file": "823/cover_840394306.webp"
@@ -7362,8 +7386,8 @@ const virtual_bookshelves = [
   {
     "topic": "architecture urbanism and physical planning",
     "sub_topic": "residential buildings",
-    "virtual_shelf": 835,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781537209",
@@ -7444,7 +7468,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840267810",
         "cover_file": "803/cover_840267810.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "residential buildings",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "27034226",
         "cover_file": "803/cover_27034226.webp"
@@ -7464,15 +7496,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840400475",
         "cover_file": "803/cover_840400475.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "residential buildings",
-    "virtual_shelf": 836,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840355732",
         "cover_file": "803/cover_840355732.webp"
@@ -7552,7 +7576,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905457151",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "residential buildings",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905454368",
         "cover_file": "NA"
@@ -7572,15 +7604,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "8668864",
         "cover_file": "804/cover_8668864.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "residential buildings",
-    "virtual_shelf": 837,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839667834",
         "cover_file": "NA"
@@ -7660,7 +7684,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "333813",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "residential buildings",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 8,
+    "books": [
       {
         "OCLC": "769339260",
         "cover_file": "NA"
@@ -7680,15 +7712,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "67742618",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "residential buildings",
-    "virtual_shelf": 838,
-    "books_in_bookcase": 3,
-    "books": [
+      },
       {
         "OCLC": "840397985",
         "cover_file": "805/cover_840397985.webp"
@@ -7706,8 +7730,8 @@ const virtual_bookshelves = [
   {
     "topic": "architecture urbanism and physical planning",
     "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 986,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "1113213350",
@@ -7788,7 +7812,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905467822",
         "cover_file": "811/cover_905467822.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "39730083",
         "cover_file": "812/cover_39730083.webp"
@@ -7808,15 +7840,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839704442",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 987,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "902038646",
         "cover_file": "812/cover_902038646.webp"
@@ -7896,7 +7920,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "38332018",
         "cover_file": "812/cover_38332018.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37379822",
         "cover_file": "812/cover_37379822.webp"
@@ -7916,15 +7948,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840364476",
         "cover_file": "812/cover_840364476.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 988,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905478264",
         "cover_file": "NA"
@@ -8004,7 +8028,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782987482",
         "cover_file": "813/cover_782987482.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782559641",
         "cover_file": "813/cover_782559641.webp"
@@ -8024,15 +8056,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905502573",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 989,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "45799502",
         "cover_file": "813/cover_45799502.webp"
@@ -8112,7 +8136,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905512553",
         "cover_file": "813/cover_905512553.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "60605277",
         "cover_file": "813/cover_60605277.webp"
@@ -8132,15 +8164,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840399022",
         "cover_file": "814/cover_840399022.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 990,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "66779942",
         "cover_file": "NA"
@@ -8220,7 +8244,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "659729451",
         "cover_file": "814/cover_659729451.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "432315115",
         "cover_file": "814/cover_432315115.webp"
@@ -8240,15 +8272,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "863997579",
         "cover_file": "814/cover_863997579.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 991,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "858826716",
         "cover_file": "814/cover_858826716.webp"
@@ -8328,7 +8352,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905468421",
         "cover_file": "815/cover_905468421.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905468783",
         "cover_file": "815/cover_905468783.webp"
@@ -8348,15 +8380,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782175928",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 992,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841710820",
         "cover_file": "NA"
@@ -8436,7 +8460,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "137331373",
         "cover_file": "816/cover_137331373.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "688446795",
         "cover_file": "816/cover_688446795.webp"
@@ -8456,15 +8488,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "914222694",
         "cover_file": "816/cover_914222694.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 993,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "967851281",
         "cover_file": "NA"
@@ -8544,7 +8568,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "58919877",
         "cover_file": "817/cover_58919877.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "62326758",
         "cover_file": "817/cover_62326758.webp"
@@ -8564,15 +8596,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "867769125",
         "cover_file": "817/cover_867769125.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 994,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "802073736",
         "cover_file": "NA"
@@ -8652,7 +8676,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905479156",
         "cover_file": "817/cover_905479156.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "40838994",
         "cover_file": "817/cover_40838994.webp"
@@ -8672,15 +8704,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "67360162",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 995,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782996212",
         "cover_file": "NA"
@@ -8760,7 +8784,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "60817591",
         "cover_file": "818/cover_60817591.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "150269735",
         "cover_file": "818/cover_150269735.webp"
@@ -8780,15 +8812,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "156975322",
         "cover_file": "818/cover_156975322.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 996,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "907253246",
         "cover_file": "818/cover_907253246.webp"
@@ -8868,7 +8892,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "781544061",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "160231",
         "cover_file": "NA"
@@ -8888,15 +8920,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "16406716",
         "cover_file": "819/cover_16406716.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 997,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "20529421",
         "cover_file": "819/cover_20529421.webp"
@@ -8976,7 +9000,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393370",
         "cover_file": "819/cover_840393370.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 13,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "71630335",
         "cover_file": "NA"
@@ -8996,15 +9028,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "743022416",
         "cover_file": "819/cover_743022416.webp"
-      }
-    ]
-  },
-  {
-    "topic": "architecture urbanism and physical planning",
-    "sub_topic": "urbanism and urban design",
-    "virtual_shelf": 998,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "905447749",
         "cover_file": "NA"
@@ -9084,7 +9108,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840397210",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "architecture urbanism and physical planning",
+    "sub_topic": "urbanism and urban design",
+    "virtual_shelf_temp": 14,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "758172777",
         "cover_file": "NA"
@@ -9094,8 +9126,8 @@ const virtual_bookshelves = [
   {
     "topic": "arts and humanities",
     "sub_topic": "art",
-    "virtual_shelf": 102,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "749006213",
@@ -9176,7 +9208,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "902494923",
         "cover_file": "952/cover_902494923.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "1023515033",
         "cover_file": "952/cover_1023515033.webp"
@@ -9196,15 +9236,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898936080",
         "cover_file": "952/cover_898936080.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 103,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840374234",
         "cover_file": "952/cover_840374234.webp"
@@ -9284,7 +9316,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "805333449",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "781852856",
         "cover_file": "NA"
@@ -9304,15 +9344,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "536109",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 104,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840489002",
         "cover_file": "NA"
@@ -9392,7 +9424,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905505137",
         "cover_file": "956/cover_905505137.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "899038610",
         "cover_file": "956/cover_899038610.webp"
@@ -9412,15 +9452,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783436062",
         "cover_file": "956/cover_783436062.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 105,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905870194",
         "cover_file": "956/cover_905870194.webp"
@@ -9500,7 +9532,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905449372",
         "cover_file": "958/cover_905449372.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901825284",
         "cover_file": "NA"
@@ -9520,15 +9560,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905457196",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 106,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "16562210",
         "cover_file": "NA"
@@ -9608,7 +9640,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1070760601",
         "cover_file": "959/cover_1070760601.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "16393669",
         "cover_file": "NA"
@@ -9628,15 +9668,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "21291673",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 107,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840408751",
         "cover_file": "961/cover_840408751.webp"
@@ -9716,7 +9748,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "25371768",
         "cover_file": "962/cover_25371768.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "902165714",
         "cover_file": "962/cover_902165714.webp"
@@ -9736,15 +9776,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898988439",
         "cover_file": "962/cover_898988439.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 108,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "902288262",
         "cover_file": "NA"
@@ -9824,7 +9856,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "880239682",
         "cover_file": "964/cover_880239682.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839733835",
         "cover_file": "964/cover_839733835.webp"
@@ -9844,15 +9884,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905502437",
         "cover_file": "964/cover_905502437.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 109,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "899039139",
         "cover_file": "964/cover_899039139.webp"
@@ -9932,7 +9964,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905450989",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905458811",
         "cover_file": "NA"
@@ -9952,15 +9992,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "56414177",
         "cover_file": "967/cover_56414177.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 110,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841077676",
         "cover_file": "NA"
@@ -10040,7 +10072,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "741540122",
         "cover_file": "968/cover_741540122.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "65784057",
         "cover_file": "NA"
@@ -10060,15 +10100,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "13008924",
         "cover_file": "969/cover_13008924.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 111,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "24578929",
         "cover_file": "969/cover_24578929.webp"
@@ -10148,7 +10180,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905515486",
         "cover_file": "971/cover_905515486.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "536498218",
         "cover_file": "971/cover_536498218.webp"
@@ -10168,15 +10208,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905865085",
         "cover_file": "971/cover_905865085.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 112,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840446677",
         "cover_file": "971/cover_840446677.webp"
@@ -10256,7 +10288,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840396021",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "art",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 20,
+    "books": [
       {
         "OCLC": "839313971",
         "cover_file": "973/cover_839313971.webp"
@@ -10276,15 +10316,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "707095170",
         "cover_file": "974/cover_707095170.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "art",
-    "virtual_shelf": 113,
-    "books_in_bookcase": 15,
-    "books": [
+      },
       {
         "OCLC": "839302709",
         "cover_file": "974/cover_839302709.webp"
@@ -10350,7 +10382,7 @@ const virtual_bookshelves = [
   {
     "topic": "arts and humanities",
     "sub_topic": "arts and humanities general",
-    "virtual_shelf": 123,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 2,
     "books": [
       {
@@ -10366,8 +10398,8 @@ const virtual_bookshelves = [
   {
     "topic": "arts and humanities",
     "sub_topic": "geography and history",
-    "virtual_shelf": 384,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "902483785",
@@ -10448,7 +10480,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "898880778",
         "cover_file": "977/cover_898880778.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "geography and history",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "26780688",
         "cover_file": "977/cover_26780688.webp"
@@ -10468,15 +10508,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782256321",
         "cover_file": "977/cover_782256321.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "geography and history",
-    "virtual_shelf": 385,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840298727",
         "cover_file": "NA"
@@ -10556,7 +10588,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "48236715",
         "cover_file": "979/cover_48236715.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "geography and history",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "60360313",
         "cover_file": "979/cover_60360313.webp"
@@ -10576,15 +10616,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783457025",
         "cover_file": "979/cover_783457025.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "geography and history",
-    "virtual_shelf": 386,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "835086246",
         "cover_file": "979/cover_835086246.webp"
@@ -10664,7 +10696,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905471951",
         "cover_file": "980/cover_905471951.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "geography and history",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 18,
+    "books": [
       {
         "OCLC": "840287244",
         "cover_file": "980/cover_840287244.webp"
@@ -10684,15 +10724,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783908944",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "geography and history",
-    "virtual_shelf": 387,
-    "books_in_bookcase": 13,
-    "books": [
+      },
       {
         "OCLC": "905444423",
         "cover_file": "982/cover_905444423.webp"
@@ -10750,8 +10782,8 @@ const virtual_bookshelves = [
   {
     "topic": "arts and humanities",
     "sub_topic": "language and linguistics",
-    "virtual_shelf": 494,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840483295",
@@ -10832,7 +10864,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "65439671",
         "cover_file": "985/cover_65439671.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "65439671",
         "cover_file": "986/cover_65439671.webp"
@@ -10852,15 +10892,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905433145",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "language and linguistics",
-    "virtual_shelf": 495,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840279079",
         "cover_file": "986/cover_840279079.webp"
@@ -10940,7 +10972,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "259902171",
         "cover_file": "986/cover_259902171.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905869394",
         "cover_file": "986/cover_905869394.webp"
@@ -10960,15 +11000,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905870752",
         "cover_file": "986/cover_905870752.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "language and linguistics",
-    "virtual_shelf": 496,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "952369321",
         "cover_file": "986/cover_952369321.webp"
@@ -11048,7 +11080,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "39763882",
         "cover_file": "987/cover_39763882.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "49841123",
         "cover_file": "987/cover_49841123.webp"
@@ -11068,15 +11108,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "232698890",
         "cover_file": "988/cover_232698890.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "language and linguistics",
-    "virtual_shelf": 497,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840390498",
         "cover_file": "988/cover_840390498.webp"
@@ -11156,7 +11188,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "318421076",
         "cover_file": "988/cover_318421076.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839263717",
         "cover_file": "988/cover_839263717.webp"
@@ -11176,15 +11216,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905866678",
         "cover_file": "988/cover_905866678.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "language and linguistics",
-    "virtual_shelf": 498,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "826636305",
         "cover_file": "988/cover_826636305.webp"
@@ -11264,7 +11296,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782889797",
         "cover_file": "989/cover_782889797.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840356166",
         "cover_file": "989/cover_840356166.webp"
@@ -11284,15 +11324,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "39189784",
         "cover_file": "989/cover_39189784.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "language and linguistics",
-    "virtual_shelf": 499,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840378794",
         "cover_file": "989/cover_840378794.webp"
@@ -11372,7 +11404,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840378786",
         "cover_file": "989/cover_840378786.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "50912868",
         "cover_file": "989/cover_50912868.webp"
@@ -11392,15 +11432,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "66618566",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "language and linguistics",
-    "virtual_shelf": 500,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56013887",
         "cover_file": "989/cover_56013887.webp"
@@ -11480,7 +11512,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "233937614",
         "cover_file": "991/cover_233937614.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "236119905",
         "cover_file": "991/cover_236119905.webp"
@@ -11500,15 +11540,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "316736612",
         "cover_file": "991/cover_316736612.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "language and linguistics",
-    "virtual_shelf": 501,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840438598",
         "cover_file": "991/cover_840438598.webp"
@@ -11588,7 +11620,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782157323",
         "cover_file": "992/cover_782157323.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782166555",
         "cover_file": "992/cover_782166555.webp"
@@ -11608,15 +11648,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840351564",
         "cover_file": "992/cover_840351564.webp"
-      }
-    ]
-  },
-  {
-    "topic": "arts and humanities",
-    "sub_topic": "language and linguistics",
-    "virtual_shelf": 502,
-    "books_in_bookcase": 22,
-    "books": [
+      },
       {
         "OCLC": "37955381",
         "cover_file": "992/cover_37955381.webp"
@@ -11696,7 +11728,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783453532",
         "cover_file": "993/cover_783453532.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "arts and humanities",
+    "sub_topic": "language and linguistics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "782890090",
         "cover_file": "993/cover_782890090.webp"
@@ -11710,8 +11750,8 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "biochemistry and molecular biology",
-    "virtual_shelf": 134,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "58602",
@@ -11792,7 +11832,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839296395",
         "cover_file": "482/cover_839296395.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biochemistry and molecular biology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839308912",
         "cover_file": "482/cover_839308912.webp"
@@ -11812,15 +11860,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905863342",
         "cover_file": "482/cover_905863342.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biochemistry and molecular biology",
-    "virtual_shelf": 135,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840443200",
         "cover_file": "482/cover_840443200.webp"
@@ -11900,7 +11940,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839296160",
         "cover_file": "483/cover_839296160.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biochemistry and molecular biology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839333398",
         "cover_file": "483/cover_839333398.webp"
@@ -11920,15 +11968,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "51454525",
         "cover_file": "483/cover_51454525.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biochemistry and molecular biology",
-    "virtual_shelf": 136,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "51861844",
         "cover_file": "483/cover_51861844.webp"
@@ -12008,7 +12048,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42578751",
         "cover_file": "484/cover_42578751.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biochemistry and molecular biology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "46640914",
         "cover_file": "484/cover_46640914.webp"
@@ -12028,15 +12076,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "77012761",
         "cover_file": "484/cover_77012761.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biochemistry and molecular biology",
-    "virtual_shelf": 137,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840400370",
         "cover_file": "484/cover_840400370.webp"
@@ -12116,7 +12156,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905515043",
         "cover_file": "486/cover_905515043.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biochemistry and molecular biology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840443199",
         "cover_file": "486/cover_840443199.webp"
@@ -12136,15 +12184,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868546",
         "cover_file": "486/cover_905868546.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biochemistry and molecular biology",
-    "virtual_shelf": 138,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905863420",
         "cover_file": "486/cover_905863420.webp"
@@ -12224,7 +12264,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839277580",
         "cover_file": "487/cover_839277580.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biochemistry and molecular biology",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839277576",
         "cover_file": "487/cover_839277576.webp"
@@ -12244,15 +12292,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839278634",
         "cover_file": "487/cover_839278634.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biochemistry and molecular biology",
-    "virtual_shelf": 139,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840423366",
         "cover_file": "487/cover_840423366.webp"
@@ -12332,7 +12372,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868574",
         "cover_file": "487/cover_905868574.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biochemistry and molecular biology",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905863331",
         "cover_file": "487/cover_905863331.webp"
@@ -12352,15 +12400,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "741352207",
         "cover_file": "487/cover_741352207.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biochemistry and molecular biology",
-    "virtual_shelf": 140,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905863802",
         "cover_file": "487/cover_905863802.webp"
@@ -12440,7 +12480,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840459867",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biochemistry and molecular biology",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 15,
+    "books": [
       {
         "OCLC": "840447498",
         "cover_file": "488/cover_840447498.webp"
@@ -12460,15 +12508,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868617",
         "cover_file": "488/cover_905868617.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biochemistry and molecular biology",
-    "virtual_shelf": 141,
-    "books_in_bookcase": 10,
-    "books": [
+      },
       {
         "OCLC": "905868357",
         "cover_file": "488/cover_905868357.webp"
@@ -12514,8 +12554,8 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "biology general",
-    "virtual_shelf": 142,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840611158",
@@ -12596,7 +12636,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "821079265",
         "cover_file": "475/cover_821079265.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biology general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901213545",
         "cover_file": "475/cover_901213545.webp"
@@ -12616,15 +12664,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840370463",
         "cover_file": "476/cover_840370463.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biology general",
-    "virtual_shelf": 143,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "50695110",
         "cover_file": "476/cover_50695110.webp"
@@ -12704,7 +12744,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "762047449",
         "cover_file": "476/cover_762047449.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biology general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840451127",
         "cover_file": "476/cover_840451127.webp"
@@ -12724,15 +12772,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "773431422",
         "cover_file": "477/cover_773431422.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biology general",
-    "virtual_shelf": 144,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840375439",
         "cover_file": "477/cover_840375439.webp"
@@ -12812,7 +12852,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "53798180",
         "cover_file": "478/cover_53798180.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biology general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "899038651",
         "cover_file": "478/cover_899038651.webp"
@@ -12832,15 +12880,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "819160150",
         "cover_file": "478/cover_819160150.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biology general",
-    "virtual_shelf": 145,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "162126895",
         "cover_file": "478/cover_162126895.webp"
@@ -12920,7 +12960,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905501830",
         "cover_file": "479/cover_905501830.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biology general",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "45406508",
         "cover_file": "479/cover_45406508.webp"
@@ -12940,15 +12988,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "52208426",
         "cover_file": "479/cover_52208426.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biology general",
-    "virtual_shelf": 146,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "816124764",
         "cover_file": "479/cover_816124764.webp"
@@ -13028,7 +13068,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "665137582",
         "cover_file": "480/cover_665137582.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biology general",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 23,
+    "books": [
       {
         "OCLC": "839307466",
         "cover_file": "480/cover_839307466.webp"
@@ -13048,15 +13096,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "51631119",
         "cover_file": "480/cover_51631119.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biology general",
-    "virtual_shelf": 147,
-    "books_in_bookcase": 18,
-    "books": [
+      },
       {
         "OCLC": "194896506",
         "cover_file": "480/cover_194896506.webp"
@@ -13134,8 +13174,8 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "biophysics",
-    "virtual_shelf": 148,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "29521792",
@@ -13216,7 +13256,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437317",
         "cover_file": "489/cover_840437317.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biophysics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 17,
+    "books": [
       {
         "OCLC": "839266427",
         "cover_file": "489/cover_839266427.webp"
@@ -13236,15 +13284,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "781386028",
         "cover_file": "489/cover_781386028.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biophysics",
-    "virtual_shelf": 149,
-    "books_in_bookcase": 12,
-    "books": [
+      },
       {
         "OCLC": "839312410",
         "cover_file": "489/cover_839312410.webp"
@@ -13298,8 +13338,8 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "biotechnology",
-    "virtual_shelf": 150,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "20015072",
@@ -13380,7 +13420,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "750556964",
         "cover_file": "493/cover_750556964.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biotechnology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840437535",
         "cover_file": "493/cover_840437535.webp"
@@ -13400,15 +13448,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839313080",
         "cover_file": "493/cover_839313080.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biotechnology",
-    "virtual_shelf": 151,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840459763",
         "cover_file": "493/cover_840459763.webp"
@@ -13488,7 +13528,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "901847986",
         "cover_file": "494/cover_901847986.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biotechnology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "192012293",
         "cover_file": "494/cover_192012293.webp"
@@ -13508,15 +13556,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "70174815",
         "cover_file": "494/cover_70174815.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biotechnology",
-    "virtual_shelf": 152,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840394207",
         "cover_file": "494/cover_840394207.webp"
@@ -13596,7 +13636,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905865086",
         "cover_file": "495/cover_905865086.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "biotechnology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 9,
+    "books": [
       {
         "OCLC": "939861179",
         "cover_file": "495/cover_939861179.webp"
@@ -13616,15 +13664,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839299038",
         "cover_file": "495/cover_839299038.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "biotechnology",
-    "virtual_shelf": 153,
-    "books_in_bookcase": 4,
-    "books": [
+      },
       {
         "OCLC": "905869698",
         "cover_file": "495/cover_905869698.webp"
@@ -13646,7 +13686,7 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "botany",
-    "virtual_shelf": 154,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 13,
     "books": [
       {
@@ -13706,8 +13746,8 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 419,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "1528381",
@@ -13788,7 +13828,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905871111",
         "cover_file": "498/cover_905871111.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "1006525801",
         "cover_file": "498/cover_1006525801.webp"
@@ -13808,15 +13856,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840333353",
         "cover_file": "499/cover_840333353.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 420,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840333354",
         "cover_file": "499/cover_840333354.webp"
@@ -13896,7 +13936,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "861673567",
         "cover_file": "499/cover_861673567.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "918594371",
         "cover_file": "NA"
@@ -13916,15 +13964,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "7690182",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 421,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "781411952",
         "cover_file": "499/cover_781411952.webp"
@@ -14004,7 +14044,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "38439233",
         "cover_file": "500/cover_38439233.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "898988103",
         "cover_file": "500/cover_898988103.webp"
@@ -14024,15 +14072,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840365749",
         "cover_file": "500/cover_840365749.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 422,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "43186137",
         "cover_file": "500/cover_43186137.webp"
@@ -14112,7 +14152,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "55586997",
         "cover_file": "501/cover_55586997.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840403042",
         "cover_file": "501/cover_840403042.webp"
@@ -14132,15 +14180,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "76143665",
         "cover_file": "501/cover_76143665.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 423,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "777951104",
         "cover_file": "501/cover_777951104.webp"
@@ -14220,7 +14260,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "656263909",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "373478564",
         "cover_file": "502/cover_373478564.webp"
@@ -14240,15 +14288,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "859898117",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 424,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "847348337",
         "cover_file": "502/cover_847348337.webp"
@@ -14328,7 +14368,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "851129302",
         "cover_file": "503/cover_851129302.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "890627165",
         "cover_file": "NA"
@@ -14348,15 +14396,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "326466241",
         "cover_file": "504/cover_326466241.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 425,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840444446",
         "cover_file": "504/cover_840444446.webp"
@@ -14436,7 +14476,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840402658",
         "cover_file": "505/cover_840402658.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "244416935",
         "cover_file": "NA"
@@ -14456,15 +14504,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840409790",
         "cover_file": "505/cover_840409790.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 426,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "370605310",
         "cover_file": "505/cover_370605310.webp"
@@ -14544,7 +14584,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839293179",
         "cover_file": "506/cover_839293179.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905865508",
         "cover_file": "506/cover_905865508.webp"
@@ -14564,15 +14612,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "37116373",
         "cover_file": "506/cover_37116373.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "human biology medicine and biomedical engineering",
-    "virtual_shelf": 427,
-    "books_in_bookcase": 24,
-    "books": [
+      },
       {
         "OCLC": "37031301",
         "cover_file": "506/cover_37031301.webp"
@@ -14652,7 +14692,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "755884736",
         "cover_file": "507/cover_755884736.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "human biology medicine and biomedical engineering",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 4,
+    "books": [
       {
         "OCLC": "840437262",
         "cover_file": "507/cover_840437262.webp"
@@ -14674,8 +14722,8 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "microbiology",
-    "virtual_shelf": 613,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "7552878",
@@ -14756,7 +14804,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839236009",
         "cover_file": "490/cover_839236009.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "microbiology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840438643",
         "cover_file": "490/cover_840438643.webp"
@@ -14776,15 +14832,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839301608",
         "cover_file": "491/cover_839301608.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "microbiology",
-    "virtual_shelf": 614,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "668990475",
         "cover_file": "491/cover_668990475.webp"
@@ -14864,7 +14912,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "39539867",
         "cover_file": "492/cover_39539867.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "microbiology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 20,
+    "books": [
       {
         "OCLC": "48013795",
         "cover_file": "492/cover_48013795.webp"
@@ -14884,15 +14940,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "61429874",
         "cover_file": "492/cover_61429874.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "microbiology",
-    "virtual_shelf": 615,
-    "books_in_bookcase": 15,
-    "books": [
+      },
       {
         "OCLC": "840397987",
         "cover_file": "492/cover_840397987.webp"
@@ -14958,8 +15006,8 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "nature and agriculture",
-    "virtual_shelf": 620,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "20934907",
@@ -15040,7 +15088,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "902289858",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "nature and agriculture",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782969069",
         "cover_file": "NA"
@@ -15060,15 +15116,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "825043375",
         "cover_file": "508/cover_825043375.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "nature and agriculture",
-    "virtual_shelf": 621,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "34243308",
         "cover_file": "508/cover_34243308.webp"
@@ -15148,7 +15196,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "753655636",
         "cover_file": "509/cover_753655636.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "nature and agriculture",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839312391",
         "cover_file": "509/cover_839312391.webp"
@@ -15168,15 +15224,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445201",
         "cover_file": "509/cover_840445201.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "nature and agriculture",
-    "virtual_shelf": 622,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "765141903",
         "cover_file": "509/cover_765141903.webp"
@@ -15256,7 +15304,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42835759",
         "cover_file": "510/cover_42835759.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "biology",
+    "sub_topic": "nature and agriculture",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "840390841",
         "cover_file": "510/cover_840390841.webp"
@@ -15276,15 +15332,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "615242519",
         "cover_file": "510/cover_615242519.webp"
-      }
-    ]
-  },
-  {
-    "topic": "biology",
-    "sub_topic": "nature and agriculture",
-    "virtual_shelf": 623,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "748995165",
         "cover_file": "510/cover_748995165.webp"
@@ -15322,7 +15370,7 @@ const virtual_bookshelves = [
   {
     "topic": "biology",
     "sub_topic": "zoology",
-    "virtual_shelf": 1013,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 1,
     "books": [
       {
@@ -15334,8 +15382,8 @@ const virtual_bookshelves = [
   {
     "topic": "building technology",
     "sub_topic": "building",
-    "virtual_shelf": 155,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "782241685",
@@ -15416,7 +15464,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "778135845",
         "cover_file": "735/cover_778135845.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "778072814",
         "cover_file": "735/cover_778072814.webp"
@@ -15436,15 +15492,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839279999",
         "cover_file": "735/cover_839279999.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building",
-    "virtual_shelf": 156,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "697547750",
         "cover_file": "NA"
@@ -15524,7 +15572,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839246869",
         "cover_file": "736/cover_839246869.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839259044",
         "cover_file": "736/cover_839259044.webp"
@@ -15544,15 +15600,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839224279",
         "cover_file": "736/cover_839224279.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building",
-    "virtual_shelf": 157,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839278335",
         "cover_file": "736/cover_839278335.webp"
@@ -15632,7 +15680,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839296125",
         "cover_file": "737/cover_839296125.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839295761",
         "cover_file": "737/cover_839295761.webp"
@@ -15652,15 +15708,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839312947",
         "cover_file": "737/cover_839312947.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building",
-    "virtual_shelf": 158,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839312153",
         "cover_file": "737/cover_839312153.webp"
@@ -15740,7 +15788,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905500708",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840377803",
         "cover_file": "738/cover_840377803.webp"
@@ -15760,15 +15816,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840436345",
         "cover_file": "738/cover_840436345.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building",
-    "virtual_shelf": 159,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840447154",
         "cover_file": "738/cover_840447154.webp"
@@ -15848,7 +15896,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "528374638",
         "cover_file": "738/cover_528374638.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839272653",
         "cover_file": "738/cover_839272653.webp"
@@ -15868,15 +15924,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "755911263",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building",
-    "virtual_shelf": 160,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840444302",
         "cover_file": "739/cover_840444302.webp"
@@ -15956,7 +16004,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840354679",
         "cover_file": "739/cover_840354679.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "40359417",
         "cover_file": "739/cover_40359417.webp"
@@ -15976,15 +16032,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "41173656",
         "cover_file": "739/cover_41173656.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building",
-    "virtual_shelf": 161,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840363152",
         "cover_file": "NA"
@@ -16064,7 +16112,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840439965",
         "cover_file": "740/cover_840439965.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839295695",
         "cover_file": "740/cover_839295695.webp"
@@ -16084,15 +16140,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839334354",
         "cover_file": "740/cover_839334354.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building",
-    "virtual_shelf": 162,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "911670876",
         "cover_file": "740/cover_911670876.webp"
@@ -16172,7 +16220,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "52911161",
         "cover_file": "741/cover_52911161.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "840385252",
         "cover_file": "741/cover_840385252.webp"
@@ -16192,15 +16248,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "298613616",
         "cover_file": "741/cover_298613616.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building",
-    "virtual_shelf": 163,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "839270901",
         "cover_file": "741/cover_839270901.webp"
@@ -16238,8 +16286,8 @@ const virtual_bookshelves = [
   {
     "topic": "building technology",
     "sub_topic": "building components",
-    "virtual_shelf": 164,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "13525729",
@@ -16320,7 +16368,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67842577",
         "cover_file": "761/cover_67842577.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building components",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840360669",
         "cover_file": "761/cover_840360669.webp"
@@ -16340,15 +16396,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "47355487",
         "cover_file": "761/cover_47355487.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building components",
-    "virtual_shelf": 165,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "59464960",
         "cover_file": "761/cover_59464960.webp"
@@ -16428,7 +16476,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840271431",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building components",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "840350823",
         "cover_file": "763/cover_840350823.webp"
@@ -16448,15 +16504,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "46651941",
         "cover_file": "763/cover_46651941.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building components",
-    "virtual_shelf": 166,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "49240236",
         "cover_file": "763/cover_49240236.webp"
@@ -16486,8 +16534,8 @@ const virtual_bookshelves = [
   {
     "topic": "building technology",
     "sub_topic": "building physics and services",
-    "virtual_shelf": 167,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "21077382",
@@ -16568,7 +16616,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839746054",
         "cover_file": "765/cover_839746054.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building physics and services",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839259065",
         "cover_file": "765/cover_839259065.webp"
@@ -16588,15 +16644,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "640965541",
         "cover_file": "765/cover_640965541.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building physics and services",
-    "virtual_shelf": 168,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839273395",
         "cover_file": "765/cover_839273395.webp"
@@ -16676,7 +16724,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839715068",
         "cover_file": "767/cover_839715068.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building physics and services",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840256085",
         "cover_file": "767/cover_840256085.webp"
@@ -16696,15 +16752,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "34303714",
         "cover_file": "767/cover_34303714.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building physics and services",
-    "virtual_shelf": 169,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "31467861",
         "cover_file": "NA"
@@ -16784,7 +16832,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840347850",
         "cover_file": "769/cover_840347850.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building physics and services",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840353238",
         "cover_file": "769/cover_840353238.webp"
@@ -16804,15 +16860,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840387110",
         "cover_file": "769/cover_840387110.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building physics and services",
-    "virtual_shelf": 170,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840386225",
         "cover_file": "769/cover_840386225.webp"
@@ -16892,7 +16940,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840322695",
         "cover_file": "771/cover_840322695.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building physics and services",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840349731",
         "cover_file": "771/cover_840349731.webp"
@@ -16912,15 +16968,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "54956734",
         "cover_file": "771/cover_54956734.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building physics and services",
-    "virtual_shelf": 171,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840382366",
         "cover_file": "771/cover_840382366.webp"
@@ -17000,7 +17048,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839292980",
         "cover_file": "773/cover_839292980.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building physics and services",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 12,
+    "books": [
       {
         "OCLC": "839305189",
         "cover_file": "773/cover_839305189.webp"
@@ -17020,15 +17076,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839304521",
         "cover_file": "773/cover_839304521.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building physics and services",
-    "virtual_shelf": 172,
-    "books_in_bookcase": 7,
-    "books": [
+      },
       {
         "OCLC": "905869161",
         "cover_file": "773/cover_905869161.webp"
@@ -17062,8 +17110,8 @@ const virtual_bookshelves = [
   {
     "topic": "building technology",
     "sub_topic": "building structures",
-    "virtual_shelf": 173,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905451075",
@@ -17144,7 +17192,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840373719",
         "cover_file": "747/cover_840373719.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "47136737",
         "cover_file": "747/cover_47136737.webp"
@@ -17164,15 +17220,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840394161",
         "cover_file": "747/cover_840394161.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 174,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840397659",
         "cover_file": "747/cover_840397659.webp"
@@ -17252,7 +17300,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840360261",
         "cover_file": "748/cover_840360261.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "53840365",
         "cover_file": "748/cover_53840365.webp"
@@ -17272,15 +17328,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839258729",
         "cover_file": "748/cover_839258729.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 175,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840446505",
         "cover_file": "748/cover_840446505.webp"
@@ -17360,7 +17408,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839733500",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840269578",
         "cover_file": "750/cover_840269578.webp"
@@ -17380,15 +17436,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "38424483",
         "cover_file": "750/cover_38424483.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 176,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "36011653",
         "cover_file": "750/cover_36011653.webp"
@@ -17468,7 +17516,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840319378",
         "cover_file": "751/cover_840319378.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "59602575",
         "cover_file": "751/cover_59602575.webp"
@@ -17488,15 +17544,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840365189",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 177,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840366202",
         "cover_file": "751/cover_840366202.webp"
@@ -17576,7 +17624,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839739601",
         "cover_file": "753/cover_839739601.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "65808515",
         "cover_file": "NA"
@@ -17596,15 +17652,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840269608",
         "cover_file": "753/cover_840269608.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 178,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905475490",
         "cover_file": "753/cover_905475490.webp"
@@ -17684,7 +17732,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "33359828",
         "cover_file": "754/cover_33359828.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "989538987",
         "cover_file": "NA"
@@ -17704,15 +17760,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840349741",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 179,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840350785",
         "cover_file": "NA"
@@ -17792,7 +17840,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840401844",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840403071",
         "cover_file": "755/cover_840403071.webp"
@@ -17812,15 +17868,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839276001",
         "cover_file": "755/cover_839276001.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 180,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840432273",
         "cover_file": "NA"
@@ -17900,7 +17948,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840368473",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840363844",
         "cover_file": "756/cover_840363844.webp"
@@ -17920,15 +17976,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840394688",
         "cover_file": "756/cover_840394688.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 181,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839250301",
         "cover_file": "756/cover_839250301.webp"
@@ -18008,7 +18056,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840349870",
         "cover_file": "758/cover_840349870.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "46469545",
         "cover_file": "758/cover_46469545.webp"
@@ -18028,15 +18084,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840374511",
         "cover_file": "758/cover_840374511.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 182,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841929542",
         "cover_file": "NA"
@@ -18116,7 +18164,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839278701",
         "cover_file": "759/cover_839278701.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building structures",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 21,
+    "books": [
       {
         "OCLC": "839278346",
         "cover_file": "759/cover_839278346.webp"
@@ -18136,15 +18192,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839296399",
         "cover_file": "759/cover_839296399.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building structures",
-    "virtual_shelf": 183,
-    "books_in_bookcase": 16,
-    "books": [
+      },
       {
         "OCLC": "839305135",
         "cover_file": "759/cover_839305135.webp"
@@ -18214,8 +18262,8 @@ const virtual_bookshelves = [
   {
     "topic": "building technology",
     "sub_topic": "building technology general",
-    "virtual_shelf": 184,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "541945",
@@ -18296,7 +18344,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905870494",
         "cover_file": "731/cover_905870494.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building technology general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "865495396",
         "cover_file": "731/cover_865495396.webp"
@@ -18316,15 +18372,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "24246464",
         "cover_file": "731/cover_24246464.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building technology general",
-    "virtual_shelf": 185,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "31076059",
         "cover_file": "731/cover_31076059.webp"
@@ -18404,7 +18452,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840366399",
         "cover_file": "731/cover_840366399.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building technology general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "67802272",
         "cover_file": "NA"
@@ -18424,15 +18480,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840364321",
         "cover_file": "732/cover_840364321.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building technology general",
-    "virtual_shelf": 186,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "45824466",
         "cover_file": "NA"
@@ -18512,7 +18560,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "778073536",
         "cover_file": "732/cover_778073536.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building technology general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "74568695",
         "cover_file": "732/cover_74568695.webp"
@@ -18532,15 +18588,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "268624254",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building technology general",
-    "virtual_shelf": 187,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "247274990",
         "cover_file": "732/cover_247274990.webp"
@@ -18620,7 +18668,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839312081",
         "cover_file": "733/cover_839312081.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building technology general",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839307964",
         "cover_file": "733/cover_839307964.webp"
@@ -18640,15 +18696,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868841",
         "cover_file": "733/cover_905868841.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building technology general",
-    "virtual_shelf": 188,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841727236",
         "cover_file": "NA"
@@ -18728,7 +18776,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840398599",
         "cover_file": "734/cover_840398599.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "building technology general",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 19,
+    "books": [
       {
         "OCLC": "839277624",
         "cover_file": "734/cover_839277624.webp"
@@ -18748,15 +18804,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839250289",
         "cover_file": "734/cover_839250289.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "building technology general",
-    "virtual_shelf": 189,
-    "books_in_bookcase": 14,
-    "books": [
+      },
       {
         "OCLC": "839263820",
         "cover_file": "734/cover_839263820.webp"
@@ -18818,8 +18866,8 @@ const virtual_bookshelves = [
   {
     "topic": "building technology",
     "sub_topic": "construction materials",
-    "virtual_shelf": 243,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841754682",
@@ -18900,7 +18948,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840406465",
         "cover_file": "741/cover_840406465.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "construction materials",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840409695",
         "cover_file": "742/cover_840409695.webp"
@@ -18920,15 +18976,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839273207",
         "cover_file": "742/cover_839273207.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "construction materials",
-    "virtual_shelf": 244,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839299590",
         "cover_file": "742/cover_839299590.webp"
@@ -19008,7 +19056,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840358727",
         "cover_file": "742/cover_840358727.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "construction materials",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "637138960",
         "cover_file": "742/cover_637138960.webp"
@@ -19028,15 +19084,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "6422309",
         "cover_file": "743/cover_6422309.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "construction materials",
-    "virtual_shelf": 245,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839706614",
         "cover_file": "NA"
@@ -19116,7 +19164,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393369",
         "cover_file": "743/cover_840393369.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "construction materials",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839233796",
         "cover_file": "743/cover_839233796.webp"
@@ -19136,15 +19192,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839276023",
         "cover_file": "743/cover_839276023.webp"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "construction materials",
-    "virtual_shelf": 246,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839307912",
         "cover_file": "743/cover_839307912.webp"
@@ -19224,7 +19272,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438752",
         "cover_file": "744/cover_840438752.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "building technology",
+    "sub_topic": "construction materials",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "840363663",
         "cover_file": "744/cover_840363663.webp"
@@ -19244,15 +19300,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "773194567",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "building technology",
-    "sub_topic": "construction materials",
-    "virtual_shelf": 247,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "840397959",
         "cover_file": "745/cover_840397959.webp"
@@ -19326,8 +19374,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "analytical chemistry",
-    "virtual_shelf": 31,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "5834231",
@@ -19408,7 +19456,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840411011",
         "cover_file": "430/cover_840411011.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "analytical chemistry",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840448474",
         "cover_file": "430/cover_840448474.webp"
@@ -19428,15 +19484,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42812994",
         "cover_file": "430/cover_42812994.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "analytical chemistry",
-    "virtual_shelf": 32,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "44852373",
         "cover_file": "430/cover_44852373.webp"
@@ -19516,7 +19564,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "58546559",
         "cover_file": "431/cover_58546559.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "analytical chemistry",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "66392705",
         "cover_file": "431/cover_66392705.webp"
@@ -19536,15 +19592,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905515295",
         "cover_file": "431/cover_905515295.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "analytical chemistry",
-    "virtual_shelf": 33,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "640070033",
         "cover_file": "431/cover_640070033.webp"
@@ -19624,7 +19672,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "806041746",
         "cover_file": "433/cover_806041746.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "analytical chemistry",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 7,
+    "books": [
       {
         "OCLC": "782908156",
         "cover_file": "433/cover_782908156.webp"
@@ -19644,15 +19700,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840382594",
         "cover_file": "433/cover_840382594.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "analytical chemistry",
-    "virtual_shelf": 34,
-    "books_in_bookcase": 2,
-    "books": [
+      },
       {
         "OCLC": "905505092",
         "cover_file": "433/cover_905505092.webp"
@@ -19666,8 +19714,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "chemical technology",
-    "virtual_shelf": 200,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905453492",
@@ -19748,7 +19796,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "79602881",
         "cover_file": "434/cover_79602881.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42620644",
         "cover_file": "434/cover_42620644.webp"
@@ -19768,15 +19824,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840371079",
         "cover_file": "434/cover_840371079.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 201,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "44425481",
         "cover_file": "434/cover_44425481.webp"
@@ -19856,7 +19904,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "60835463",
         "cover_file": "435/cover_60835463.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840394648",
         "cover_file": "435/cover_840394648.webp"
@@ -19876,15 +19932,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "60741986",
         "cover_file": "435/cover_60741986.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 202,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "226280920",
         "cover_file": "435/cover_226280920.webp"
@@ -19964,7 +20012,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "35277794",
         "cover_file": "436/cover_35277794.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37109138",
         "cover_file": "436/cover_37109138.webp"
@@ -19984,15 +20040,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "50198360",
         "cover_file": "436/cover_50198360.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 203,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839233696",
         "cover_file": "436/cover_839233696.webp"
@@ -20072,7 +20120,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67265630",
         "cover_file": "437/cover_67265630.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905482512",
         "cover_file": "437/cover_905482512.webp"
@@ -20092,15 +20148,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "41524004",
         "cover_file": "437/cover_41524004.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 204,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "39033244",
         "cover_file": "437/cover_39033244.webp"
@@ -20180,7 +20228,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839296034",
         "cover_file": "438/cover_839296034.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "50960738",
         "cover_file": "438/cover_50960738.webp"
@@ -20200,15 +20256,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "51965781",
         "cover_file": "438/cover_51965781.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 205,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839675845",
         "cover_file": "438/cover_839675845.webp"
@@ -20288,7 +20336,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839221142",
         "cover_file": "440/cover_839221142.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "65425780",
         "cover_file": "440/cover_65425780.webp"
@@ -20308,15 +20364,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "144227749",
         "cover_file": "440/cover_144227749.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 206,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "230988407",
         "cover_file": "440/cover_230988407.webp"
@@ -20396,7 +20444,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438660",
         "cover_file": "441/cover_840438660.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905864447",
         "cover_file": "441/cover_905864447.webp"
@@ -20416,15 +20472,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1001265685",
         "cover_file": "441/cover_1001265685.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 207,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "28587246",
         "cover_file": "441/cover_28587246.webp"
@@ -20504,7 +20552,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839235909",
         "cover_file": "442/cover_839235909.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839227233",
         "cover_file": "442/cover_839227233.webp"
@@ -20524,15 +20580,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "760167433",
         "cover_file": "442/cover_760167433.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 208,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840414586",
         "cover_file": "442/cover_840414586.webp"
@@ -20612,7 +20660,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43096756",
         "cover_file": "443/cover_43096756.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840369743",
         "cover_file": "443/cover_840369743.webp"
@@ -20632,15 +20688,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "49611125",
         "cover_file": "443/cover_49611125.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 209,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "47797697",
         "cover_file": "443/cover_47797697.webp"
@@ -20720,7 +20768,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "34191451",
         "cover_file": "443/cover_34191451.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "36186688",
         "cover_file": "443/cover_36186688.webp"
@@ -20740,15 +20796,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "40303408",
         "cover_file": "444/cover_40303408.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 210,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "40303408",
         "cover_file": "444/cover_40303408.webp"
@@ -20828,7 +20876,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "191241248",
         "cover_file": "444/cover_191241248.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemical technology",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "839236010",
         "cover_file": "444/cover_839236010.webp"
@@ -20848,15 +20904,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840411061",
         "cover_file": "445/cover_840411061.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemical technology",
-    "virtual_shelf": 211,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "840435358",
         "cover_file": "445/cover_840435358.webp"
@@ -20894,8 +20942,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "chemistry general",
-    "virtual_shelf": 212,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840689320",
@@ -20976,7 +21024,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "57068445",
         "cover_file": "396/cover_57068445.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemistry general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "60838141",
         "cover_file": "396/cover_60838141.webp"
@@ -20996,15 +21052,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "62244615",
         "cover_file": "396/cover_62244615.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemistry general",
-    "virtual_shelf": 213,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "122526853",
         "cover_file": "397/cover_122526853.webp"
@@ -21084,7 +21132,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "979412907",
         "cover_file": "397/cover_979412907.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemistry general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "1018289436",
         "cover_file": "397/cover_1018289436.webp"
@@ -21104,15 +21160,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "45008511",
         "cover_file": "398/cover_45008511.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "chemistry general",
-    "virtual_shelf": 214,
-    "books_in_bookcase": 23,
-    "books": [
+      },
       {
         "OCLC": "840397759",
         "cover_file": "398/cover_840397759.webp"
@@ -21192,7 +21240,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905865725",
         "cover_file": "399/cover_905865725.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "chemistry general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 3,
+    "books": [
       {
         "OCLC": "840445190",
         "cover_file": "399/cover_840445190.webp"
@@ -21210,8 +21266,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "food science and technology",
-    "virtual_shelf": 359,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "5170598",
@@ -21292,7 +21348,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "47757512",
         "cover_file": "465/cover_47757512.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "food science and technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "47193841",
         "cover_file": "465/cover_47193841.webp"
@@ -21312,15 +21376,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "51107064",
         "cover_file": "465/cover_51107064.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "food science and technology",
-    "virtual_shelf": 360,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "48941390",
         "cover_file": "465/cover_48941390.webp"
@@ -21400,7 +21456,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840439568",
         "cover_file": "466/cover_840439568.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "food science and technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "614301108",
         "cover_file": "466/cover_614301108.webp"
@@ -21420,15 +21484,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "166872592",
         "cover_file": "466/cover_166872592.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "food science and technology",
-    "virtual_shelf": 361,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839278721",
         "cover_file": "466/cover_839278721.webp"
@@ -21508,7 +21564,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839271594",
         "cover_file": "467/cover_839271594.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "food science and technology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "671385442",
         "cover_file": "467/cover_671385442.webp"
@@ -21528,15 +21592,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905864121",
         "cover_file": "467/cover_905864121.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "food science and technology",
-    "virtual_shelf": 362,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905869463",
         "cover_file": "467/cover_905869463.webp"
@@ -21616,7 +21672,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839277545",
         "cover_file": "468/cover_839277545.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "food science and technology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839273347",
         "cover_file": "468/cover_839273347.webp"
@@ -21636,15 +21700,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "833856878",
         "cover_file": "469/cover_833856878.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "food science and technology",
-    "virtual_shelf": 363,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839299581",
         "cover_file": "469/cover_839299581.webp"
@@ -21724,7 +21780,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "428688329",
         "cover_file": "471/cover_428688329.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "food science and technology",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "262584387",
         "cover_file": "471/cover_262584387.webp"
@@ -21744,15 +21808,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "590470617",
         "cover_file": "471/cover_590470617.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "food science and technology",
-    "virtual_shelf": 364,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "761699196",
         "cover_file": "471/cover_761699196.webp"
@@ -21832,7 +21888,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868687",
         "cover_file": "472/cover_905868687.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "food science and technology",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "48256913",
         "cover_file": "473/cover_48256913.webp"
@@ -21852,15 +21916,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840440522",
         "cover_file": "473/cover_840440522.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "food science and technology",
-    "virtual_shelf": 365,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "839276388",
         "cover_file": "473/cover_839276388.webp"
@@ -21934,8 +21990,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "fuel technology",
-    "virtual_shelf": 366,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "10146406",
@@ -22016,7 +22072,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "47799895",
         "cover_file": "459/cover_47799895.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "fuel technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839343759",
         "cover_file": "460/cover_839343759.webp"
@@ -22036,15 +22100,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "52085975",
         "cover_file": "460/cover_52085975.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "fuel technology",
-    "virtual_shelf": 367,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56834412",
         "cover_file": "460/cover_56834412.webp"
@@ -22124,7 +22180,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "11780823",
         "cover_file": "462/cover_11780823.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "fuel technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840326754",
         "cover_file": "462/cover_840326754.webp"
@@ -22144,15 +22208,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "213375885",
         "cover_file": "462/cover_213375885.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "fuel technology",
-    "virtual_shelf": 368,
-    "books_in_bookcase": 22,
-    "books": [
+      },
       {
         "OCLC": "839215524",
         "cover_file": "462/cover_839215524.webp"
@@ -22232,7 +22288,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "648146339",
         "cover_file": "463/cover_648146339.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "fuel technology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "839270944",
         "cover_file": "463/cover_839270944.webp"
@@ -22246,8 +22310,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "industrial inorganic chemistry",
-    "virtual_shelf": 457,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905478165",
@@ -22328,7 +22392,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "24671534",
         "cover_file": "446/cover_24671534.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial inorganic chemistry",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840269614",
         "cover_file": "446/cover_840269614.webp"
@@ -22348,15 +22420,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "48053786",
         "cover_file": "446/cover_48053786.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial inorganic chemistry",
-    "virtual_shelf": 458,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840371129",
         "cover_file": "446/cover_840371129.webp"
@@ -22436,7 +22500,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905480825",
         "cover_file": "447/cover_905480825.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial inorganic chemistry",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840360293",
         "cover_file": "447/cover_840360293.webp"
@@ -22456,15 +22528,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "57006553",
         "cover_file": "447/cover_57006553.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial inorganic chemistry",
-    "virtual_shelf": 459,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840400503",
         "cover_file": "447/cover_840400503.webp"
@@ -22544,7 +22608,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "772811776",
         "cover_file": "448/cover_772811776.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial inorganic chemistry",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "772811778",
         "cover_file": "448/cover_772811778.webp"
@@ -22564,15 +22636,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840267210",
         "cover_file": "448/cover_840267210.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial inorganic chemistry",
-    "virtual_shelf": 460,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "30811289",
         "cover_file": "448/cover_30811289.webp"
@@ -22652,7 +22716,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444946",
         "cover_file": "449/cover_840444946.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial inorganic chemistry",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "840444526",
         "cover_file": "449/cover_840444526.webp"
@@ -22672,15 +22744,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840267134",
         "cover_file": "449/cover_840267134.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial inorganic chemistry",
-    "virtual_shelf": 461,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "27727180",
         "cover_file": "449/cover_27727180.webp"
@@ -22718,8 +22782,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "industrial organic chemistry",
-    "virtual_shelf": 462,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "37332666",
@@ -22800,7 +22864,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840411041",
         "cover_file": "450/cover_840411041.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial organic chemistry",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839278333",
         "cover_file": "450/cover_839278333.webp"
@@ -22820,15 +22892,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "36728590",
         "cover_file": "451/cover_36728590.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial organic chemistry",
-    "virtual_shelf": 463,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "37508909",
         "cover_file": "451/cover_37508909.webp"
@@ -22908,7 +22972,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "33044202",
         "cover_file": "452/cover_33044202.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial organic chemistry",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "772399509",
         "cover_file": "452/cover_772399509.webp"
@@ -22928,15 +23000,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "758168364",
         "cover_file": "452/cover_758168364.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial organic chemistry",
-    "virtual_shelf": 464,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "687714342",
         "cover_file": "452/cover_687714342.webp"
@@ -23016,7 +23080,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43836561",
         "cover_file": "453/cover_43836561.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial organic chemistry",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840364199",
         "cover_file": "453/cover_840364199.webp"
@@ -23036,15 +23108,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840372941",
         "cover_file": "453/cover_840372941.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial organic chemistry",
-    "virtual_shelf": 465,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "50479333",
         "cover_file": "453/cover_50479333.webp"
@@ -23124,7 +23188,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840441586",
         "cover_file": "454/cover_840441586.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial organic chemistry",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "32277058",
         "cover_file": "455/cover_32277058.webp"
@@ -23144,15 +23216,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "34690629",
         "cover_file": "455/cover_34690629.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial organic chemistry",
-    "virtual_shelf": 466,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841922678",
         "cover_file": "NA"
@@ -23232,7 +23296,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30155486",
         "cover_file": "457/cover_30155486.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "industrial organic chemistry",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 8,
+    "books": [
       {
         "OCLC": "32893873",
         "cover_file": "457/cover_32893873.webp"
@@ -23252,15 +23324,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "49824864",
         "cover_file": "457/cover_49824864.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "industrial organic chemistry",
-    "virtual_shelf": 467,
-    "books_in_bookcase": 3,
-    "books": [
+      },
       {
         "OCLC": "47044838",
         "cover_file": "457/cover_47044838.webp"
@@ -23278,8 +23342,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "inorganic chemistry",
-    "virtual_shelf": 485,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "839347912",
@@ -23360,7 +23424,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905477413",
         "cover_file": "415/cover_905477413.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "inorganic chemistry",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839386516",
         "cover_file": "415/cover_839386516.webp"
@@ -23380,15 +23452,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "37369367",
         "cover_file": "415/cover_37369367.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "inorganic chemistry",
-    "virtual_shelf": 486,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "43633378",
         "cover_file": "415/cover_43633378.webp"
@@ -23468,7 +23532,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905865511",
         "cover_file": "416/cover_905865511.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "inorganic chemistry",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 20,
+    "books": [
       {
         "OCLC": "840473261",
         "cover_file": "NA"
@@ -23488,15 +23560,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840376716",
         "cover_file": "416/cover_840376716.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "inorganic chemistry",
-    "virtual_shelf": 487,
-    "books_in_bookcase": 15,
-    "books": [
+      },
       {
         "OCLC": "839262518",
         "cover_file": "416/cover_839262518.webp"
@@ -23562,8 +23626,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "organic chemistry",
-    "virtual_shelf": 683,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "43936853",
@@ -23644,7 +23708,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840399585",
         "cover_file": "418/cover_840399585.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "816488042",
         "cover_file": "418/cover_816488042.webp"
@@ -23664,15 +23736,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840459511",
         "cover_file": "418/cover_840459511.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 684,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905869747",
         "cover_file": "418/cover_905869747.webp"
@@ -23752,7 +23816,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839275747",
         "cover_file": "419/cover_839275747.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839271564",
         "cover_file": "419/cover_839271564.webp"
@@ -23772,15 +23844,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "495938666",
         "cover_file": "419/cover_495938666.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 685,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "473476848",
         "cover_file": "419/cover_473476848.webp"
@@ -23860,7 +23924,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1112922760",
         "cover_file": "420/cover_1112922760.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905863845",
         "cover_file": "420/cover_905863845.webp"
@@ -23880,15 +23952,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840461199",
         "cover_file": "420/cover_840461199.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 686,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905863758",
         "cover_file": "420/cover_905863758.webp"
@@ -23968,7 +24032,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905484319",
         "cover_file": "421/cover_905484319.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42786244",
         "cover_file": "421/cover_42786244.webp"
@@ -23988,15 +24060,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "50643704",
         "cover_file": "421/cover_50643704.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 687,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839263807",
         "cover_file": "421/cover_839263807.webp"
@@ -24076,7 +24140,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839335053",
         "cover_file": "422/cover_839335053.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905863846",
         "cover_file": "422/cover_905863846.webp"
@@ -24096,15 +24168,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869491",
         "cover_file": "422/cover_905869491.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 688,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905869063",
         "cover_file": "422/cover_905869063.webp"
@@ -24184,7 +24248,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "461267856",
         "cover_file": "423/cover_461267856.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839275733",
         "cover_file": "423/cover_839275733.webp"
@@ -24204,15 +24276,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "650877527",
         "cover_file": "423/cover_650877527.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 689,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839271515",
         "cover_file": "423/cover_839271515.webp"
@@ -24292,7 +24356,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839246401",
         "cover_file": "424/cover_839246401.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839299493",
         "cover_file": "424/cover_839299493.webp"
@@ -24312,15 +24384,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839278336",
         "cover_file": "424/cover_839278336.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 690,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839271558",
         "cover_file": "424/cover_839271558.webp"
@@ -24400,7 +24464,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839297987",
         "cover_file": "425/cover_839297987.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905868374",
         "cover_file": "425/cover_905868374.webp"
@@ -24420,15 +24492,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "43945324",
         "cover_file": "426/cover_43945324.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 691,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840401515",
         "cover_file": "NA"
@@ -24508,7 +24572,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905863850",
         "cover_file": "427/cover_905863850.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905863828",
         "cover_file": "427/cover_905863828.webp"
@@ -24528,15 +24600,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839312187",
         "cover_file": "427/cover_839312187.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 692,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839236073",
         "cover_file": "NA"
@@ -24616,7 +24680,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "2747667",
         "cover_file": "428/cover_2747667.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "57405510",
         "cover_file": "428/cover_57405510.webp"
@@ -24636,15 +24708,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839298112",
         "cover_file": "428/cover_839298112.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "organic chemistry",
-    "virtual_shelf": 693,
-    "books_in_bookcase": 22,
-    "books": [
+      },
       {
         "OCLC": "839299542",
         "cover_file": "428/cover_839299542.webp"
@@ -24724,7 +24788,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839301574",
         "cover_file": "429/cover_839301574.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "organic chemistry",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "905870050",
         "cover_file": "429/cover_905870050.webp"
@@ -24738,8 +24810,8 @@ const virtual_bookshelves = [
   {
     "topic": "chemistry",
     "sub_topic": "physical chemistry",
-    "virtual_shelf": 714,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840495950",
@@ -24820,7 +24892,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "195753079",
         "cover_file": "400/cover_195753079.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "196313033",
         "cover_file": "400/cover_196313033.webp"
@@ -24840,15 +24920,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "257643187",
         "cover_file": "400/cover_257643187.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 715,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839274086",
         "cover_file": "400/cover_839274086.webp"
@@ -24928,7 +25000,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "35008087",
         "cover_file": "401/cover_35008087.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37725449",
         "cover_file": "401/cover_37725449.webp"
@@ -24948,15 +25028,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840367582",
         "cover_file": "401/cover_840367582.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 716,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "48917792",
         "cover_file": "401/cover_48917792.webp"
@@ -25036,7 +25108,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840442386",
         "cover_file": "402/cover_840442386.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839277635",
         "cover_file": "402/cover_839277635.webp"
@@ -25056,15 +25136,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840447260",
         "cover_file": "402/cover_840447260.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 717,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840446793",
         "cover_file": "402/cover_840446793.webp"
@@ -25144,7 +25216,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "9827881",
         "cover_file": "403/cover_9827881.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "26129749",
         "cover_file": "403/cover_26129749.webp"
@@ -25164,15 +25244,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "36621911",
         "cover_file": "403/cover_36621911.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 718,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840384034",
         "cover_file": "403/cover_840384034.webp"
@@ -25252,7 +25324,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905863423",
         "cover_file": "404/cover_905863423.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839307947",
         "cover_file": "404/cover_839307947.webp"
@@ -25272,15 +25352,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840380165",
         "cover_file": "404/cover_840380165.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 719,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "69020915",
         "cover_file": "404/cover_69020915.webp"
@@ -25360,7 +25432,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839290562",
         "cover_file": "405/cover_839290562.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "721278446",
         "cover_file": "405/cover_721278446.webp"
@@ -25380,15 +25460,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "14003266",
         "cover_file": "405/cover_14003266.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 720,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "31710452",
         "cover_file": "405/cover_31710452.webp"
@@ -25468,7 +25540,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840363735",
         "cover_file": "405/cover_840363735.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839296031",
         "cover_file": "405/cover_839296031.webp"
@@ -25488,15 +25568,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "76797707",
         "cover_file": "406/cover_76797707.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 721,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "71347406",
         "cover_file": "406/cover_71347406.webp"
@@ -25576,7 +25648,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839279884",
         "cover_file": "407/cover_839279884.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "396185412",
         "cover_file": "407/cover_396185412.webp"
@@ -25596,15 +25676,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839280134",
         "cover_file": "407/cover_839280134.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 722,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839275994",
         "cover_file": "407/cover_839275994.webp"
@@ -25684,7 +25756,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "605048252",
         "cover_file": "408/cover_605048252.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839233976",
         "cover_file": "408/cover_839233976.webp"
@@ -25704,15 +25784,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839307936",
         "cover_file": "408/cover_839307936.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 723,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840455035",
         "cover_file": "408/cover_840455035.webp"
@@ -25792,7 +25864,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "49326810",
         "cover_file": "408/cover_49326810.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "56420249",
         "cover_file": "409/cover_56420249.webp"
@@ -25812,15 +25892,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "62282710",
         "cover_file": "409/cover_62282710.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 724,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840398124",
         "cover_file": "409/cover_840398124.webp"
@@ -25900,7 +25972,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "916724977",
         "cover_file": "409/cover_916724977.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "2336588",
         "cover_file": "NA"
@@ -25920,15 +26000,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "17677750",
         "cover_file": "410/cover_17677750.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 725,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "19975986",
         "cover_file": "410/cover_19975986.webp"
@@ -26008,7 +26080,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "181335921",
         "cover_file": "411/cover_181335921.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 13,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "528397674",
         "cover_file": "411/cover_528397674.webp"
@@ -26028,15 +26108,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905865347",
         "cover_file": "411/cover_905865347.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 726,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905863666",
         "cover_file": "411/cover_905863666.webp"
@@ -26116,7 +26188,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905505240",
         "cover_file": "412/cover_905505240.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 14,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "56809345",
         "cover_file": "412/cover_56809345.webp"
@@ -26136,15 +26216,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "60373687",
         "cover_file": "412/cover_60373687.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 727,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "57000939",
         "cover_file": "412/cover_57000939.webp"
@@ -26224,7 +26296,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "899215178",
         "cover_file": "413/cover_899215178.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "chemistry",
+    "sub_topic": "physical chemistry",
+    "virtual_shelf_temp": 15,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "40339645",
         "cover_file": "413/cover_40339645.webp"
@@ -26244,15 +26324,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839235733",
         "cover_file": "413/cover_839235733.webp"
-      }
-    ]
-  },
-  {
-    "topic": "chemistry",
-    "sub_topic": "physical chemistry",
-    "virtual_shelf": 728,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "840404627",
         "cover_file": "413/cover_840404627.webp"
@@ -26282,8 +26354,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "civil engineering",
-    "virtual_shelf": 218,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "43822928",
@@ -26364,7 +26436,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "753635732",
         "cover_file": "685/cover_753635732.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "civil engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839339638",
         "cover_file": "685/cover_839339638.webp"
@@ -26384,15 +26464,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "958098172",
         "cover_file": "685/cover_958098172.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "civil engineering",
-    "virtual_shelf": 219,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905455072",
         "cover_file": "NA"
@@ -26472,7 +26544,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905511843",
         "cover_file": "686/cover_905511843.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "civil engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 23,
+    "books": [
       {
         "OCLC": "774843036",
         "cover_file": "NA"
@@ -26492,15 +26572,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "318873780",
         "cover_file": "686/cover_318873780.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "civil engineering",
-    "virtual_shelf": 220,
-    "books_in_bookcase": 18,
-    "books": [
+      },
       {
         "OCLC": "607980793",
         "cover_file": "686/cover_607980793.webp"
@@ -26578,8 +26650,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "geotechnics",
-    "virtual_shelf": 407,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840279069",
@@ -26660,7 +26732,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840394126",
         "cover_file": "688/cover_840394126.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839224242",
         "cover_file": "688/cover_839224242.webp"
@@ -26680,15 +26760,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839246376",
         "cover_file": "688/cover_839246376.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 408,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839268362",
         "cover_file": "688/cover_839268362.webp"
@@ -26768,7 +26840,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "37785909",
         "cover_file": "688/cover_37785909.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37785909",
         "cover_file": "688/cover_37785909.webp"
@@ -26788,15 +26868,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840368828",
         "cover_file": "689/cover_840368828.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 409,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840369074",
         "cover_file": "689/cover_840369074.webp"
@@ -26876,7 +26948,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839556811",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839556811",
         "cover_file": "NA"
@@ -26896,15 +26976,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "16227932",
         "cover_file": "689/cover_16227932.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 410,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "21407737",
         "cover_file": "690/cover_21407737.webp"
@@ -26984,7 +27056,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840372356",
         "cover_file": "690/cover_840372356.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840378672",
         "cover_file": "690/cover_840378672.webp"
@@ -27004,15 +27084,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905504125",
         "cover_file": "690/cover_905504125.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 411,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "67015994",
         "cover_file": "NA"
@@ -27092,7 +27164,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839335204",
         "cover_file": "691/cover_839335204.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "22178433",
         "cover_file": "691/cover_22178433.webp"
@@ -27112,15 +27192,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840269197",
         "cover_file": "691/cover_840269197.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 412,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "29848205",
         "cover_file": "691/cover_29848205.webp"
@@ -27200,7 +27272,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "54350500",
         "cover_file": "692/cover_54350500.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840392124",
         "cover_file": "692/cover_840392124.webp"
@@ -27220,15 +27300,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "823920414",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 413,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "774283996",
         "cover_file": "NA"
@@ -27308,7 +27380,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905503575",
         "cover_file": "693/cover_905503575.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905503579",
         "cover_file": "693/cover_905503579.webp"
@@ -27328,15 +27408,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840392870",
         "cover_file": "693/cover_840392870.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 414,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840392615",
         "cover_file": "693/cover_840392615.webp"
@@ -27416,7 +27488,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840451377",
         "cover_file": "694/cover_840451377.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839305030",
         "cover_file": "694/cover_839305030.webp"
@@ -27436,15 +27516,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "36225852",
         "cover_file": "694/cover_36225852.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 415,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840350826",
         "cover_file": "NA"
@@ -27524,7 +27596,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "769557501",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30918199",
         "cover_file": "695/cover_30918199.webp"
@@ -27544,15 +27624,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32509571",
         "cover_file": "695/cover_32509571.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 416,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "637136934",
         "cover_file": "695/cover_637136934.webp"
@@ -27632,7 +27704,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437208",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "geotechnics",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 19,
+    "books": [
       {
         "OCLC": "839274270",
         "cover_file": "696/cover_839274270.webp"
@@ -27652,15 +27732,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "5990900",
         "cover_file": "696/cover_5990900.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "geotechnics",
-    "virtual_shelf": 417,
-    "books_in_bookcase": 14,
-    "books": [
+      },
       {
         "OCLC": "28632639",
         "cover_file": "696/cover_28632639.webp"
@@ -27722,8 +27794,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "hydraulic engineering",
-    "virtual_shelf": 428,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840364814",
@@ -27804,7 +27876,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "427438296",
         "cover_file": "726/cover_427438296.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydraulic engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840409841",
         "cover_file": "726/cover_840409841.webp"
@@ -27824,15 +27904,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "36977110",
         "cover_file": "727/cover_36977110.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydraulic engineering",
-    "virtual_shelf": 429,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840349413",
         "cover_file": "727/cover_840349413.webp"
@@ -27912,7 +27984,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42295839",
         "cover_file": "727/cover_42295839.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydraulic engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "45276815",
         "cover_file": "727/cover_45276815.webp"
@@ -27932,15 +28012,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "637143325",
         "cover_file": "727/cover_637143325.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydraulic engineering",
-    "virtual_shelf": 430,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "390247043",
         "cover_file": "NA"
@@ -28020,7 +28092,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839227312",
         "cover_file": "728/cover_839227312.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydraulic engineering",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840404589",
         "cover_file": "NA"
@@ -28040,15 +28120,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "637143104",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydraulic engineering",
-    "virtual_shelf": 431,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905865168",
         "cover_file": "728/cover_905865168.webp"
@@ -28128,7 +28200,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "637144679",
         "cover_file": "729/cover_637144679.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydraulic engineering",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 20,
+    "books": [
       {
         "OCLC": "898990216",
         "cover_file": "NA"
@@ -28148,15 +28228,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "637138956",
         "cover_file": "729/cover_637138956.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydraulic engineering",
-    "virtual_shelf": 432,
-    "books_in_bookcase": 15,
-    "books": [
+      },
       {
         "OCLC": "637014705",
         "cover_file": "NA"
@@ -28222,8 +28294,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "hydrology",
-    "virtual_shelf": 433,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841297234",
@@ -28304,7 +28376,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1338166434",
         "cover_file": "710/cover_1338166434.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905466625",
         "cover_file": "711/cover_905466625.webp"
@@ -28324,15 +28404,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "45018155",
         "cover_file": "711/cover_45018155.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydrology",
-    "virtual_shelf": 434,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "43561899",
         "cover_file": "711/cover_43561899.webp"
@@ -28412,7 +28484,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "435419223",
         "cover_file": "712/cover_435419223.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839246299",
         "cover_file": "712/cover_839246299.webp"
@@ -28432,15 +28512,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839313283",
         "cover_file": "712/cover_839313283.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydrology",
-    "virtual_shelf": 435,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "898933284",
         "cover_file": "712/cover_898933284.webp"
@@ -28520,7 +28592,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840365677",
         "cover_file": "713/cover_840365677.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "40193495",
         "cover_file": "713/cover_40193495.webp"
@@ -28540,15 +28620,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840390898",
         "cover_file": "713/cover_840390898.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydrology",
-    "virtual_shelf": 436,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56347553",
         "cover_file": "713/cover_56347553.webp"
@@ -28628,7 +28700,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840349694",
         "cover_file": "714/cover_840349694.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "214269",
         "cover_file": "714/cover_214269.webp"
@@ -28648,15 +28728,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840272027",
         "cover_file": "714/cover_840272027.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydrology",
-    "virtual_shelf": 437,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840295924",
         "cover_file": "714/cover_840295924.webp"
@@ -28736,7 +28808,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "32186522",
         "cover_file": "715/cover_32186522.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "36188255",
         "cover_file": "715/cover_36188255.webp"
@@ -28756,15 +28836,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905480711",
         "cover_file": "715/cover_905480711.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "hydrology",
-    "virtual_shelf": 438,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "905480492",
         "cover_file": "715/cover_905480492.webp"
@@ -28814,8 +28886,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "oceanology",
-    "virtual_shelf": 657,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "8866507",
@@ -28896,7 +28968,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "811538328",
         "cover_file": "716/cover_811538328.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "oceanology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "434439494",
         "cover_file": "716/cover_434439494.webp"
@@ -28916,15 +28996,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "808868355",
         "cover_file": "716/cover_808868355.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "oceanology",
-    "virtual_shelf": 658,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "828663126",
         "cover_file": "716/cover_828663126.webp"
@@ -29004,7 +29076,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "3003817",
         "cover_file": "717/cover_3003817.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "oceanology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "902565344",
         "cover_file": "NA"
@@ -29024,15 +29104,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "838894227",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "oceanology",
-    "virtual_shelf": 659,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "838918908",
         "cover_file": "717/cover_838918908.webp"
@@ -29112,7 +29184,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839279933",
         "cover_file": "717/cover_839279933.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "oceanology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839297675",
         "cover_file": "NA"
@@ -29132,15 +29212,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "802712934",
         "cover_file": "718/cover_802712934.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "oceanology",
-    "virtual_shelf": 660,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840444876",
         "cover_file": "718/cover_840444876.webp"
@@ -29220,7 +29292,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "637138961",
         "cover_file": "718/cover_637138961.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "oceanology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "840398158",
         "cover_file": "718/cover_840398158.webp"
@@ -29240,15 +29320,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445070",
         "cover_file": "718/cover_840445070.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "oceanology",
-    "virtual_shelf": 661,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "311763305",
         "cover_file": "718/cover_311763305.webp"
@@ -29298,8 +29370,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "road engineering",
-    "virtual_shelf": 839,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840334619",
@@ -29380,7 +29452,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43397161",
         "cover_file": "706/cover_43397161.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "road engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "50403754",
         "cover_file": "706/cover_50403754.webp"
@@ -29400,15 +29480,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "674337290",
         "cover_file": "706/cover_674337290.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "road engineering",
-    "virtual_shelf": 840,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "232130710",
         "cover_file": "706/cover_232130710.webp"
@@ -29488,7 +29560,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839280232",
         "cover_file": "707/cover_839280232.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "road engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839258961",
         "cover_file": "707/cover_839258961.webp"
@@ -29508,15 +29588,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839436888",
         "cover_file": "707/cover_839436888.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "road engineering",
-    "virtual_shelf": 841,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839674205",
         "cover_file": "NA"
@@ -29596,7 +29668,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839235845",
         "cover_file": "708/cover_839235845.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "road engineering",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "772525284",
         "cover_file": "NA"
@@ -29616,15 +29696,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840365736",
         "cover_file": "708/cover_840365736.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "road engineering",
-    "virtual_shelf": 842,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840360537",
         "cover_file": "708/cover_840360537.webp"
@@ -29704,7 +29776,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839246877",
         "cover_file": "709/cover_839246877.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "road engineering",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 15,
+    "books": [
       {
         "OCLC": "775490890",
         "cover_file": "NA"
@@ -29724,15 +29804,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "775546433",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "road engineering",
-    "virtual_shelf": 843,
-    "books_in_bookcase": 10,
-    "books": [
+      },
       {
         "OCLC": "499093450",
         "cover_file": "709/cover_499093450.webp"
@@ -29778,8 +29850,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "traffic and transport",
-    "virtual_shelf": 973,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "10753400",
@@ -29860,7 +29932,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "489393745",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic and transport",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "642164395",
         "cover_file": "NA"
@@ -29880,15 +29960,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "688643253",
         "cover_file": "697/cover_688643253.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "traffic and transport",
-    "virtual_shelf": 974,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "775971053",
         "cover_file": "697/cover_775971053.webp"
@@ -29968,7 +30040,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "48003315",
         "cover_file": "698/cover_48003315.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic and transport",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "493051603",
         "cover_file": "698/cover_493051603.webp"
@@ -29988,15 +30068,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "79860263",
         "cover_file": "698/cover_79860263.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "traffic and transport",
-    "virtual_shelf": 975,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "173243848",
         "cover_file": "698/cover_173243848.webp"
@@ -30076,7 +30148,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "406124060",
         "cover_file": "699/cover_406124060.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic and transport",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "502412738",
         "cover_file": "699/cover_502412738.webp"
@@ -30096,15 +30176,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839313267",
         "cover_file": "699/cover_839313267.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "traffic and transport",
-    "virtual_shelf": 976,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901378962",
         "cover_file": "699/cover_901378962.webp"
@@ -30184,7 +30256,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "57430301",
         "cover_file": "699/cover_57430301.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic and transport",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "55679019",
         "cover_file": "699/cover_55679019.webp"
@@ -30204,15 +30284,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "70158502",
         "cover_file": "700/cover_70158502.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "traffic and transport",
-    "virtual_shelf": 977,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "268957325",
         "cover_file": "700/cover_268957325.webp"
@@ -30292,7 +30364,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "66458271",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic and transport",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "68786713",
         "cover_file": "700/cover_68786713.webp"
@@ -30312,15 +30392,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "488948538",
         "cover_file": "700/cover_488948538.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "traffic and transport",
-    "virtual_shelf": 978,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840439228",
         "cover_file": "700/cover_840439228.webp"
@@ -30400,7 +30472,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "54529884",
         "cover_file": "701/cover_54529884.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic and transport",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "56367750",
         "cover_file": "701/cover_56367750.webp"
@@ -30420,15 +30500,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "226291999",
         "cover_file": "701/cover_226291999.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "traffic and transport",
-    "virtual_shelf": 979,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "191898155",
         "cover_file": "701/cover_191898155.webp"
@@ -30508,7 +30580,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905502733",
         "cover_file": "702/cover_905502733.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic and transport",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783145501",
         "cover_file": "702/cover_783145501.webp"
@@ -30528,15 +30608,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839258959",
         "cover_file": "702/cover_839258959.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "traffic and transport",
-    "virtual_shelf": 980,
-    "books_in_bookcase": 24,
-    "books": [
+      },
       {
         "OCLC": "840413576",
         "cover_file": "702/cover_840413576.webp"
@@ -30616,7 +30688,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840459589",
         "cover_file": "703/cover_840459589.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic and transport",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 4,
+    "books": [
       {
         "OCLC": "840461649",
         "cover_file": "703/cover_840461649.webp"
@@ -30638,8 +30718,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "traffic engineering",
-    "virtual_shelf": 981,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841153901",
@@ -30720,7 +30800,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839221200",
         "cover_file": "704/cover_839221200.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "191848980",
         "cover_file": "NA"
@@ -30740,15 +30828,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437958",
         "cover_file": "704/cover_840437958.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "traffic engineering",
-    "virtual_shelf": 982,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "763176267",
         "cover_file": "NA"
@@ -30828,7 +30908,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "66067564",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "traffic engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 5,
+    "books": [
       {
         "OCLC": "905466400",
         "cover_file": "NA"
@@ -30854,8 +30942,8 @@ const virtual_bookshelves = [
   {
     "topic": "civil engineering",
     "sub_topic": "water management",
-    "virtual_shelf": 1006,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "239654647",
@@ -30936,7 +31024,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "316233401",
         "cover_file": "719/cover_316233401.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "water management",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "743035116",
         "cover_file": "719/cover_743035116.webp"
@@ -30956,15 +31052,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "588998932",
         "cover_file": "719/cover_588998932.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "water management",
-    "virtual_shelf": 1007,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839302700",
         "cover_file": "719/cover_839302700.webp"
@@ -31044,7 +31132,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905485094",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "water management",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "67285517",
         "cover_file": "NA"
@@ -31064,15 +31160,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "57223701",
         "cover_file": "721/cover_57223701.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "water management",
-    "virtual_shelf": 1008,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "132245246",
         "cover_file": "721/cover_132245246.webp"
@@ -31152,7 +31240,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "473465672",
         "cover_file": "721/cover_473465672.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "water management",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "441208314",
         "cover_file": "721/cover_441208314.webp"
@@ -31172,15 +31268,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "349180039",
         "cover_file": "721/cover_349180039.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "water management",
-    "virtual_shelf": 1009,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "318641417",
         "cover_file": "721/cover_318641417.webp"
@@ -31260,7 +31348,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "899038826",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "water management",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30733554",
         "cover_file": "723/cover_30733554.webp"
@@ -31280,15 +31376,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840410130",
         "cover_file": "723/cover_840410130.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "water management",
-    "virtual_shelf": 1010,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840435422",
         "cover_file": "NA"
@@ -31368,7 +31456,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "902550482",
         "cover_file": "724/cover_902550482.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "water management",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840353173",
         "cover_file": "NA"
@@ -31388,15 +31484,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "41278442",
         "cover_file": "724/cover_41278442.webp"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "water management",
-    "virtual_shelf": 1011,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "637127430",
         "cover_file": "724/cover_637127430.webp"
@@ -31476,7 +31564,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "929918185",
         "cover_file": "724/cover_929918185.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "civil engineering",
+    "sub_topic": "water management",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 20,
+    "books": [
       {
         "OCLC": "34471615",
         "cover_file": "725/cover_34471615.webp"
@@ -31496,15 +31592,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "66700074",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "civil engineering",
-    "sub_topic": "water management",
-    "virtual_shelf": 1012,
-    "books_in_bookcase": 15,
-    "books": [
+      },
       {
         "OCLC": "58456281",
         "cover_file": "725/cover_58456281.webp"
@@ -31570,8 +31658,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "artificial intelligence",
-    "virtual_shelf": 114,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "782135069",
@@ -31652,7 +31740,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "261175439",
         "cover_file": "157/cover_261175439.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "artificial intelligence",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783449287",
         "cover_file": "157/cover_783449287.webp"
@@ -31672,15 +31768,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "842514571",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "artificial intelligence",
-    "virtual_shelf": 115,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840442089",
         "cover_file": "NA"
@@ -31760,7 +31848,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "671541002",
         "cover_file": "157/cover_671541002.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "artificial intelligence",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839299649",
         "cover_file": "157/cover_839299649.webp"
@@ -31780,15 +31876,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869688",
         "cover_file": "158/cover_905869688.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "artificial intelligence",
-    "virtual_shelf": 116,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "754104569",
         "cover_file": "158/cover_754104569.webp"
@@ -31868,7 +31956,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840366331",
         "cover_file": "159/cover_840366331.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "artificial intelligence",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840377574",
         "cover_file": "159/cover_840377574.webp"
@@ -31888,15 +31984,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840400529",
         "cover_file": "159/cover_840400529.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "artificial intelligence",
-    "virtual_shelf": 117,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782284036",
         "cover_file": "159/cover_782284036.webp"
@@ -31976,7 +32064,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839067985",
         "cover_file": "160/cover_839067985.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "artificial intelligence",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839246219",
         "cover_file": "160/cover_839246219.webp"
@@ -31996,15 +32092,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840425029",
         "cover_file": "160/cover_840425029.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "artificial intelligence",
-    "virtual_shelf": 118,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "316327105",
         "cover_file": "160/cover_316327105.webp"
@@ -32084,7 +32172,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839308986",
         "cover_file": "161/cover_839308986.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "artificial intelligence",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "785798112",
         "cover_file": "161/cover_785798112.webp"
@@ -32104,15 +32200,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839307505",
         "cover_file": "161/cover_839307505.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "artificial intelligence",
-    "virtual_shelf": 119,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "743064677",
         "cover_file": "161/cover_743064677.webp"
@@ -32192,7 +32280,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "898900761",
         "cover_file": "161/cover_898900761.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "artificial intelligence",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "29031660",
         "cover_file": "161/cover_29031660.webp"
@@ -32212,15 +32308,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32012438",
         "cover_file": "161/cover_32012438.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "artificial intelligence",
-    "virtual_shelf": 120,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "31409901",
         "cover_file": "161/cover_31409901.webp"
@@ -32300,7 +32388,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "772981344",
         "cover_file": "162/cover_772981344.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "artificial intelligence",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "46858661",
         "cover_file": "162/cover_46858661.webp"
@@ -32320,15 +32416,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "261176779",
         "cover_file": "162/cover_261176779.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "artificial intelligence",
-    "virtual_shelf": 121,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840406554",
         "cover_file": "162/cover_840406554.webp"
@@ -32408,7 +32496,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905502250",
         "cover_file": "163/cover_905502250.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "artificial intelligence",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "52559217",
         "cover_file": "163/cover_52559217.webp"
@@ -32428,15 +32524,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "40269828",
         "cover_file": "164/cover_40269828.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "artificial intelligence",
-    "virtual_shelf": 122,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "839233913",
         "cover_file": "164/cover_839233913.webp"
@@ -32510,8 +32598,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "computer graphics",
-    "virtual_shelf": 228,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "11727120",
@@ -32592,7 +32680,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840429044",
         "cover_file": "165/cover_840429044.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "computer graphics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840427664",
         "cover_file": "165/cover_840427664.webp"
@@ -32612,15 +32708,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840446956",
         "cover_file": "165/cover_840446956.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "computer graphics",
-    "virtual_shelf": 229,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839299113",
         "cover_file": "165/cover_839299113.webp"
@@ -32700,7 +32788,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "36800677",
         "cover_file": "167/cover_36800677.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "computer graphics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 19,
+    "books": [
       {
         "OCLC": "840357650",
         "cover_file": "167/cover_840357650.webp"
@@ -32720,15 +32816,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "52937675",
         "cover_file": "170/cover_52937675.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "computer graphics",
-    "virtual_shelf": 230,
-    "books_in_bookcase": 14,
-    "books": [
+      },
       {
         "OCLC": "56913629",
         "cover_file": "170/cover_56913629.webp"
@@ -32790,8 +32878,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "computer science general",
-    "virtual_shelf": 235,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "20168548",
@@ -32872,7 +32960,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1078415817",
         "cover_file": "116/cover_1078415817.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "computer science general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "1076369808",
         "cover_file": "116/cover_1076369808.webp"
@@ -32892,15 +32988,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "828136146",
         "cover_file": "117/cover_828136146.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "computer science general",
-    "virtual_shelf": 236,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "775662187",
         "cover_file": "117/cover_775662187.webp"
@@ -32980,7 +33068,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839268719",
         "cover_file": "117/cover_839268719.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "computer science general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "669203353",
         "cover_file": "117/cover_669203353.webp"
@@ -33000,15 +33096,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445389",
         "cover_file": "117/cover_840445389.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "computer science general",
-    "virtual_shelf": 237,
-    "books_in_bookcase": 20,
-    "books": [
+      },
       {
         "OCLC": "840439161",
         "cover_file": "117/cover_840439161.webp"
@@ -33094,8 +33182,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "computer simulation",
-    "virtual_shelf": 238,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "1945649",
@@ -33176,7 +33264,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30516754",
         "cover_file": "173/cover_30516754.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "computer simulation",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "30356197",
         "cover_file": "173/cover_30356197.webp"
@@ -33196,15 +33292,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782249378",
         "cover_file": "173/cover_782249378.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "computer simulation",
-    "virtual_shelf": 239,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "32665059",
         "cover_file": "173/cover_32665059.webp"
@@ -33242,8 +33330,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "computer use personal computing",
-    "virtual_shelf": 240,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "53284984",
@@ -33324,7 +33412,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840409692",
         "cover_file": "177/cover_840409692.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "computer use personal computing",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "743603327",
         "cover_file": "177/cover_743603327.webp"
@@ -33344,15 +33440,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "637120475",
         "cover_file": "178/cover_637120475.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "computer use personal computing",
-    "virtual_shelf": 241,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "232365569",
         "cover_file": "178/cover_232365569.webp"
@@ -33432,7 +33520,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840436563",
         "cover_file": "179/cover_840436563.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "computer use personal computing",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 8,
+    "books": [
       {
         "OCLC": "840436571",
         "cover_file": "179/cover_840436571.webp"
@@ -33452,15 +33548,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840455804",
         "cover_file": "179/cover_840455804.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "computer use personal computing",
-    "virtual_shelf": 242,
-    "books_in_bookcase": 3,
-    "books": [
+      },
       {
         "OCLC": "852808602",
         "cover_file": "179/cover_852808602.webp"
@@ -33478,8 +33566,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "databases",
-    "virtual_shelf": 261,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "46640977",
@@ -33560,7 +33648,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "462982099",
         "cover_file": "154/cover_462982099.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "databases",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839271197",
         "cover_file": "154/cover_839271197.webp"
@@ -33580,15 +33676,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839299923",
         "cover_file": "155/cover_839299923.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "databases",
-    "virtual_shelf": 262,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "463634178",
         "cover_file": "155/cover_463634178.webp"
@@ -33668,7 +33756,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "71630808",
         "cover_file": "156/cover_71630808.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "databases",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 6,
+    "books": [
       {
         "OCLC": "430842611",
         "cover_file": "156/cover_430842611.webp"
@@ -33688,15 +33784,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "760886381",
         "cover_file": "156/cover_760886381.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "databases",
-    "virtual_shelf": 263,
-    "books_in_bookcase": 1,
-    "books": [
+      },
       {
         "OCLC": "839297184",
         "cover_file": "156/cover_839297184.webp"
@@ -33706,8 +33794,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "information systems",
-    "virtual_shelf": 480,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841077674",
@@ -33788,7 +33876,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "68008273",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "information systems",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "52919956",
         "cover_file": "149/cover_52919956.webp"
@@ -33808,15 +33904,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "833796937",
         "cover_file": "149/cover_833796937.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "information systems",
-    "virtual_shelf": 481,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839299570",
         "cover_file": "149/cover_839299570.webp"
@@ -33896,7 +33984,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445100",
         "cover_file": "149/cover_840445100.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "information systems",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840445074",
         "cover_file": "149/cover_840445074.webp"
@@ -33916,15 +34012,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444548",
         "cover_file": "149/cover_840444548.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "information systems",
-    "virtual_shelf": 482,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "743293022",
         "cover_file": "149/cover_743293022.webp"
@@ -34004,7 +34092,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "150099500",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "information systems",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "810340686",
         "cover_file": "150/cover_810340686.webp"
@@ -34014,7 +34110,7 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "mathematical logic for computer science",
-    "virtual_shelf": 565,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 5,
     "books": [
       {
@@ -34042,8 +34138,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "operating systems",
-    "virtual_shelf": 664,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "46654484",
@@ -34124,7 +34220,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840370282",
         "cover_file": "145/cover_840370282.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "operating systems",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 24,
+    "books": [
       {
         "OCLC": "840374559",
         "cover_file": "145/cover_840374559.webp"
@@ -34144,15 +34248,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840376405",
         "cover_file": "145/cover_840376405.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "operating systems",
-    "virtual_shelf": 665,
-    "books_in_bookcase": 19,
-    "books": [
+      },
       {
         "OCLC": "51964625",
         "cover_file": "145/cover_51964625.webp"
@@ -34234,8 +34330,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "programming",
-    "virtual_shelf": 799,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "17265745",
@@ -34316,7 +34412,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "187418650",
         "cover_file": "124/cover_187418650.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "812112351",
         "cover_file": "124/cover_812112351.webp"
@@ -34336,15 +34440,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438611",
         "cover_file": "124/cover_840438611.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming",
-    "virtual_shelf": 800,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "803971730",
         "cover_file": "124/cover_803971730.webp"
@@ -34424,7 +34520,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "52098198",
         "cover_file": "125/cover_52098198.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "52554394",
         "cover_file": "125/cover_52554394.webp"
@@ -34444,15 +34548,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "60319936",
         "cover_file": "125/cover_60319936.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming",
-    "virtual_shelf": 801,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "838927883",
         "cover_file": "125/cover_838927883.webp"
@@ -34532,7 +34628,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "770685216",
         "cover_file": "126/cover_770685216.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "898957445",
         "cover_file": "126/cover_898957445.webp"
@@ -34552,15 +34656,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "774818995",
         "cover_file": "126/cover_774818995.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming",
-    "virtual_shelf": 802,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840385861",
         "cover_file": "127/cover_840385861.webp"
@@ -34640,7 +34736,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "773507921",
         "cover_file": "127/cover_773507921.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840354978",
         "cover_file": "127/cover_840354978.webp"
@@ -34660,15 +34764,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "249003444",
         "cover_file": "127/cover_249003444.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming",
-    "virtual_shelf": 803,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840380437",
         "cover_file": "127/cover_840380437.webp"
@@ -34748,7 +34844,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "897513017",
         "cover_file": "128/cover_897513017.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "26263956",
         "cover_file": "129/cover_26263956.webp"
@@ -34768,15 +34872,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "30624307",
         "cover_file": "129/cover_30624307.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming",
-    "virtual_shelf": 804,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "43757549",
         "cover_file": "129/cover_43757549.webp"
@@ -34806,8 +34902,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "programming languages",
-    "virtual_shelf": 805,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840358213",
@@ -34888,7 +34984,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "22382596",
         "cover_file": "134/cover_22382596.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840271726",
         "cover_file": "134/cover_840271726.webp"
@@ -34908,15 +35012,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "664324066",
         "cover_file": "134/cover_664324066.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 806,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840444308",
         "cover_file": "134/cover_840444308.webp"
@@ -34996,7 +35092,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42009411",
         "cover_file": "135/cover_42009411.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840365871",
         "cover_file": "135/cover_840365871.webp"
@@ -35016,15 +35120,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42420854",
         "cover_file": "135/cover_42420854.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 807,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840368476",
         "cover_file": "136/cover_840368476.webp"
@@ -35104,7 +35200,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840373749",
         "cover_file": "137/cover_840373749.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840374560",
         "cover_file": "137/cover_840374560.webp"
@@ -35124,15 +35228,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "49044523",
         "cover_file": "137/cover_49044523.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 808,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840370161",
         "cover_file": "137/cover_840370161.webp"
@@ -35212,7 +35308,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840375777",
         "cover_file": "137/cover_840375777.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840377815",
         "cover_file": "137/cover_840377815.webp"
@@ -35232,15 +35336,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "53963082",
         "cover_file": "138/cover_53963082.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 809,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "53957342",
         "cover_file": "138/cover_53957342.webp"
@@ -35320,7 +35416,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840396825",
         "cover_file": "139/cover_840396825.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840395084",
         "cover_file": "139/cover_840395084.webp"
@@ -35340,15 +35444,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "61859928",
         "cover_file": "139/cover_61859928.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 810,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "64097437",
         "cover_file": "139/cover_64097437.webp"
@@ -35428,7 +35524,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "223880629",
         "cover_file": "140/cover_223880629.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905868377",
         "cover_file": "140/cover_905868377.webp"
@@ -35448,15 +35552,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839235880",
         "cover_file": "140/cover_839235880.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 811,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840401790",
         "cover_file": "140/cover_840401790.webp"
@@ -35536,7 +35632,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839308678",
         "cover_file": "141/cover_839308678.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840403168",
         "cover_file": "141/cover_840403168.webp"
@@ -35556,15 +35660,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839300054",
         "cover_file": "141/cover_839300054.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 812,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840427587",
         "cover_file": "141/cover_840427587.webp"
@@ -35644,7 +35740,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839270767",
         "cover_file": "141/cover_839270767.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840444333",
         "cover_file": "141/cover_840444333.webp"
@@ -35664,15 +35768,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839311947",
         "cover_file": "142/cover_839311947.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 813,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839297684",
         "cover_file": "142/cover_839297684.webp"
@@ -35752,7 +35848,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869098",
         "cover_file": "143/cover_905869098.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "programming languages",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 8,
+    "books": [
       {
         "OCLC": "839307944",
         "cover_file": "143/cover_839307944.webp"
@@ -35772,15 +35876,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "36656532",
         "cover_file": "144/cover_36656532.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "programming languages",
-    "virtual_shelf": 814,
-    "books_in_bookcase": 3,
-    "books": [
+      },
       {
         "OCLC": "905477388",
         "cover_file": "144/cover_905477388.webp"
@@ -35798,8 +35894,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "software aspects of computer systems and computer networks",
-    "virtual_shelf": 899,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840372475",
@@ -35880,7 +35976,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840399309",
         "cover_file": "118/cover_840399309.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software aspects of computer systems and computer networks",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839067974",
         "cover_file": "118/cover_839067974.webp"
@@ -35900,15 +36004,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "77256350",
         "cover_file": "118/cover_77256350.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software aspects of computer systems and computer networks",
-    "virtual_shelf": 900,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839227422",
         "cover_file": "118/cover_839227422.webp"
@@ -35988,7 +36084,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839278809",
         "cover_file": "120/cover_839278809.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software aspects of computer systems and computer networks",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839270700",
         "cover_file": "120/cover_839270700.webp"
@@ -36008,15 +36112,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839278808",
         "cover_file": "120/cover_839278808.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software aspects of computer systems and computer networks",
-    "virtual_shelf": 901,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839270786",
         "cover_file": "120/cover_839270786.webp"
@@ -36096,7 +36192,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "45841541",
         "cover_file": "121/cover_45841541.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software aspects of computer systems and computer networks",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840378574",
         "cover_file": "121/cover_840378574.webp"
@@ -36116,15 +36220,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839233740",
         "cover_file": "121/cover_839233740.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software aspects of computer systems and computer networks",
-    "virtual_shelf": 902,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839258768",
         "cover_file": "121/cover_839258768.webp"
@@ -36204,7 +36300,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43318933",
         "cover_file": "122/cover_43318933.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software aspects of computer systems and computer networks",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840373906",
         "cover_file": "122/cover_840373906.webp"
@@ -36224,15 +36328,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "57442624",
         "cover_file": "122/cover_57442624.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software aspects of computer systems and computer networks",
-    "virtual_shelf": 903,
-    "books_in_bookcase": 24,
-    "books": [
+      },
       {
         "OCLC": "57895536",
         "cover_file": "122/cover_57895536.webp"
@@ -36312,7 +36408,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437441",
         "cover_file": "123/cover_840437441.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software aspects of computer systems and computer networks",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 4,
+    "books": [
       {
         "OCLC": "840437792",
         "cover_file": "123/cover_840437792.webp"
@@ -36334,8 +36438,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "software engineering",
-    "virtual_shelf": 904,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "31166617",
@@ -36416,7 +36520,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840396058",
         "cover_file": "130/cover_840396058.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840399754",
         "cover_file": "130/cover_840399754.webp"
@@ -36436,15 +36548,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783424419",
         "cover_file": "130/cover_783424419.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software engineering",
-    "virtual_shelf": 905,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839271437",
         "cover_file": "130/cover_839271437.webp"
@@ -36524,7 +36628,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839308980",
         "cover_file": "130/cover_839308980.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905869596",
         "cover_file": "130/cover_905869596.webp"
@@ -36544,15 +36656,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "825006946",
         "cover_file": "130/cover_825006946.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software engineering",
-    "virtual_shelf": 906,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905863710",
         "cover_file": "130/cover_905863710.webp"
@@ -36632,7 +36736,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1127665846",
         "cover_file": "131/cover_1127665846.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software engineering",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42309839",
         "cover_file": "132/cover_42309839.webp"
@@ -36652,15 +36764,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "150333751",
         "cover_file": "132/cover_150333751.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software engineering",
-    "virtual_shelf": 907,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "840406288",
         "cover_file": "132/cover_840406288.webp"
@@ -36740,7 +36844,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839302541",
         "cover_file": "133/cover_839302541.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software engineering",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "839302655",
         "cover_file": "133/cover_839302655.webp"
@@ -36750,8 +36862,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "software ergonomics multimedia software aspects",
-    "virtual_shelf": 908,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "32922062",
@@ -36832,7 +36944,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782915489",
         "cover_file": "151/cover_782915489.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software ergonomics multimedia software aspects",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "46364835",
         "cover_file": "151/cover_46364835.webp"
@@ -36852,15 +36972,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840372366",
         "cover_file": "151/cover_840372366.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software ergonomics multimedia software aspects",
-    "virtual_shelf": 909,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782955467",
         "cover_file": "152/cover_782955467.webp"
@@ -36940,7 +37052,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "756749872",
         "cover_file": "152/cover_756749872.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software ergonomics multimedia software aspects",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840427603",
         "cover_file": "152/cover_840427603.webp"
@@ -36960,15 +37080,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "707970585",
         "cover_file": "152/cover_707970585.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software ergonomics multimedia software aspects",
-    "virtual_shelf": 910,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839268487",
         "cover_file": "152/cover_839268487.webp"
@@ -37048,7 +37160,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868934",
         "cover_file": "153/cover_905868934.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "software ergonomics multimedia software aspects",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 18,
+    "books": [
       {
         "OCLC": "780449977",
         "cover_file": "153/cover_780449977.webp"
@@ -37068,15 +37188,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "899017789",
         "cover_file": "153/cover_899017789.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "software ergonomics multimedia software aspects",
-    "virtual_shelf": 911,
-    "books_in_bookcase": 13,
-    "books": [
+      },
       {
         "OCLC": "898999371",
         "cover_file": "153/cover_898999371.webp"
@@ -37134,8 +37246,8 @@ const virtual_bookshelves = [
   {
     "topic": "computer science",
     "sub_topic": "theoretical computer science and formal methods",
-    "virtual_shelf": 941,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "899037781",
@@ -37216,7 +37328,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "221153211",
         "cover_file": "147/cover_221153211.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "theoretical computer science and formal methods",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840443127",
         "cover_file": "147/cover_840443127.webp"
@@ -37236,15 +37356,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42692168",
         "cover_file": "147/cover_42692168.webp"
-      }
-    ]
-  },
-  {
-    "topic": "computer science",
-    "sub_topic": "theoretical computer science and formal methods",
-    "virtual_shelf": 942,
-    "books_in_bookcase": 23,
-    "books": [
+      },
       {
         "OCLC": "45315542",
         "cover_file": "147/cover_45315542.webp"
@@ -37324,7 +37436,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "50004709",
         "cover_file": "147/cover_50004709.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "computer science",
+    "sub_topic": "theoretical computer science and formal methods",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 3,
+    "books": [
       {
         "OCLC": "503076090",
         "cover_file": "147/cover_503076090.webp"
@@ -37342,8 +37462,8 @@ const virtual_bookshelves = [
   {
     "topic": "control engineering",
     "sub_topic": "control engineering",
-    "virtual_shelf": 248,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "543000",
@@ -37424,7 +37544,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840350393",
         "cover_file": "545/cover_840350393.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "control engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 12,
+    "books": [
       {
         "OCLC": "38042864",
         "cover_file": "545/cover_38042864.webp"
@@ -37444,15 +37572,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "40682437",
         "cover_file": "545/cover_40682437.webp"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "control engineering",
-    "virtual_shelf": 249,
-    "books_in_bookcase": 7,
-    "books": [
+      },
       {
         "OCLC": "840376545",
         "cover_file": "545/cover_840376545.webp"
@@ -37486,8 +37606,8 @@ const virtual_bookshelves = [
   {
     "topic": "control engineering",
     "sub_topic": "control engineering and control theory",
-    "virtual_shelf": 250,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "898809798",
@@ -37568,7 +37688,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839061006",
         "cover_file": "546/cover_839061006.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "control engineering and control theory",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839061090",
         "cover_file": "546/cover_839061090.webp"
@@ -37588,15 +37716,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839260938",
         "cover_file": "546/cover_839260938.webp"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "control engineering and control theory",
-    "virtual_shelf": 251,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839296093",
         "cover_file": "546/cover_839296093.webp"
@@ -37676,7 +37796,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42477103",
         "cover_file": "547/cover_42477103.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "control engineering and control theory",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42454286",
         "cover_file": "547/cover_42454286.webp"
@@ -37696,15 +37824,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "47984253",
         "cover_file": "547/cover_47984253.webp"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "control engineering and control theory",
-    "virtual_shelf": 252,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840372211",
         "cover_file": "547/cover_840372211.webp"
@@ -37784,7 +37904,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "44627067",
         "cover_file": "548/cover_44627067.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "control engineering and control theory",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840373961",
         "cover_file": "548/cover_840373961.webp"
@@ -37804,15 +37932,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1080547965",
         "cover_file": "548/cover_1080547965.webp"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "control engineering and control theory",
-    "virtual_shelf": 253,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "27896094",
         "cover_file": "548/cover_27896094.webp"
@@ -37892,7 +38012,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "637226063",
         "cover_file": "549/cover_637226063.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "control engineering and control theory",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "637226063",
         "cover_file": "549/cover_637226063.webp"
@@ -37912,15 +38040,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "27223012",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "control engineering and control theory",
-    "virtual_shelf": 254,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "29466111",
         "cover_file": "549/cover_29466111.webp"
@@ -38000,7 +38120,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840358331",
         "cover_file": "550/cover_840358331.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "control engineering and control theory",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905481801",
         "cover_file": "550/cover_905481801.webp"
@@ -38020,15 +38148,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840365512",
         "cover_file": "550/cover_840365512.webp"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "control engineering and control theory",
-    "virtual_shelf": 255,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840375868",
         "cover_file": "550/cover_840375868.webp"
@@ -38108,7 +38228,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840401134",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "control engineering and control theory",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "70068551",
         "cover_file": "551/cover_70068551.webp"
@@ -38128,15 +38256,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "26914792",
         "cover_file": "551/cover_26914792.webp"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "control engineering and control theory",
-    "virtual_shelf": 256,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "25787330",
         "cover_file": "551/cover_25787330.webp"
@@ -38216,7 +38336,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840371652",
         "cover_file": "552/cover_840371652.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "control engineering and control theory",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 9,
+    "books": [
       {
         "OCLC": "840380340",
         "cover_file": "552/cover_840380340.webp"
@@ -38236,15 +38364,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "842115710",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "control engineering and control theory",
-    "virtual_shelf": 257,
-    "books_in_bookcase": 4,
-    "books": [
+      },
       {
         "OCLC": "840394129",
         "cover_file": "552/cover_840394129.webp"
@@ -38266,8 +38386,8 @@ const virtual_bookshelves = [
   {
     "topic": "control engineering",
     "sub_topic": "design of control systems",
-    "virtual_shelf": 271,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "65692654",
@@ -38348,7 +38468,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839734116",
         "cover_file": "553/cover_839734116.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "design of control systems",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "24752147",
         "cover_file": "553/cover_24752147.webp"
@@ -38368,15 +38496,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840269858",
         "cover_file": "553/cover_840269858.webp"
-      }
-    ]
-  },
-  {
-    "topic": "control engineering",
-    "sub_topic": "design of control systems",
-    "virtual_shelf": 272,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840269440",
         "cover_file": "553/cover_840269440.webp"
@@ -38456,7 +38576,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905485360",
         "cover_file": "554/cover_905485360.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "control engineering",
+    "sub_topic": "design of control systems",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 5,
+    "books": [
       {
         "OCLC": "840378558",
         "cover_file": "554/cover_840378558.webp"
@@ -38482,7 +38610,7 @@ const virtual_bookshelves = [
   {
     "topic": "control engineering",
     "sub_topic": "process control",
-    "virtual_shelf": 794,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
     "books": [
       {
@@ -38570,8 +38698,8 @@ const virtual_bookshelves = [
   {
     "topic": "design engineering",
     "sub_topic": "applied ergonomics",
-    "virtual_shelf": 35,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "782145986",
@@ -38652,7 +38780,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "35986430",
         "cover_file": "840/cover_35986430.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "applied ergonomics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42475485",
         "cover_file": "840/cover_42475485.webp"
@@ -38672,15 +38808,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840390400",
         "cover_file": "840/cover_840390400.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "applied ergonomics",
-    "virtual_shelf": 36,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "773591995",
         "cover_file": "840/cover_773591995.webp"
@@ -38760,7 +38888,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "48579029",
         "cover_file": "841/cover_48579029.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "applied ergonomics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 23,
+    "books": [
       {
         "OCLC": "905504444",
         "cover_file": "841/cover_905504444.webp"
@@ -38780,15 +38916,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "150162133",
         "cover_file": "841/cover_150162133.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "applied ergonomics",
-    "virtual_shelf": 37,
-    "books_in_bookcase": 18,
-    "books": [
+      },
       {
         "OCLC": "65644796",
         "cover_file": "841/cover_65644796.webp"
@@ -38866,8 +38994,8 @@ const virtual_bookshelves = [
   {
     "topic": "design engineering",
     "sub_topic": "design",
-    "virtual_shelf": 264,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "29548467",
@@ -38948,7 +39076,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "796007748",
         "cover_file": "835/cover_796007748.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "design",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840445357",
         "cover_file": "835/cover_840445357.webp"
@@ -38968,15 +39104,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905864366",
         "cover_file": "835/cover_905864366.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "design",
-    "virtual_shelf": 265,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840460205",
         "cover_file": "835/cover_840460205.webp"
@@ -39056,7 +39184,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905505121",
         "cover_file": "835/cover_905505121.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "design",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "62177542",
         "cover_file": "836/cover_62177542.webp"
@@ -39076,15 +39212,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840401179",
         "cover_file": "836/cover_840401179.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "design",
-    "virtual_shelf": 266,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "179836812",
         "cover_file": "836/cover_179836812.webp"
@@ -39164,7 +39292,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840384999",
         "cover_file": "837/cover_840384999.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "design",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905444988",
         "cover_file": "837/cover_905444988.webp"
@@ -39184,15 +39320,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "902430541",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "design",
-    "virtual_shelf": 267,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "36260492",
         "cover_file": "837/cover_36260492.webp"
@@ -39272,7 +39400,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840376436",
         "cover_file": "837/cover_840376436.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "design",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783132520",
         "cover_file": "837/cover_783132520.webp"
@@ -39292,15 +39428,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "69662505",
         "cover_file": "837/cover_69662505.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "design",
-    "virtual_shelf": 268,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "53008385",
         "cover_file": "837/cover_53008385.webp"
@@ -39380,7 +39508,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839260991",
         "cover_file": "838/cover_839260991.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "design",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "755987272",
         "cover_file": "838/cover_755987272.webp"
@@ -39400,15 +39536,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839273017",
         "cover_file": "838/cover_839273017.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "design",
-    "virtual_shelf": 269,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "664090170",
         "cover_file": "NA"
@@ -39488,7 +39616,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "753615809",
         "cover_file": "839/cover_753615809.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "design",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 10,
+    "books": [
       {
         "OCLC": "840446537",
         "cover_file": "839/cover_840446537.webp"
@@ -39508,15 +39644,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "901563693",
         "cover_file": "839/cover_901563693.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "design",
-    "virtual_shelf": 270,
-    "books_in_bookcase": 5,
-    "books": [
+      },
       {
         "OCLC": "840446562",
         "cover_file": "839/cover_840446562.webp"
@@ -39542,8 +39670,8 @@ const virtual_bookshelves = [
   {
     "topic": "design engineering",
     "sub_topic": "design techniques",
-    "virtual_shelf": 273,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781680811",
@@ -39624,7 +39752,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783439668",
         "cover_file": "842/cover_783439668.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "design techniques",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839250305",
         "cover_file": "842/cover_839250305.webp"
@@ -39644,15 +39780,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840366036",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "design techniques",
-    "virtual_shelf": 274,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "905485568",
         "cover_file": "842/cover_905485568.webp"
@@ -39732,7 +39860,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "21295437",
         "cover_file": "843/cover_21295437.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "design techniques",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "32086901",
         "cover_file": "843/cover_32086901.webp"
@@ -39742,8 +39878,8 @@ const virtual_bookshelves = [
   {
     "topic": "design engineering",
     "sub_topic": "industrial design engineering",
-    "virtual_shelf": 442,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "7206043",
@@ -39824,7 +39960,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "44650973",
         "cover_file": "824/cover_44650973.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901839813",
         "cover_file": "824/cover_901839813.webp"
@@ -39844,15 +39988,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "52127464",
         "cover_file": "824/cover_52127464.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 443,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "902193669",
         "cover_file": "824/cover_902193669.webp"
@@ -39932,7 +40068,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "276910811",
         "cover_file": "825/cover_276910811.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "71808291",
         "cover_file": "825/cover_71808291.webp"
@@ -39952,15 +40096,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "777966364",
         "cover_file": "825/cover_777966364.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 444,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "778008079",
         "cover_file": "825/cover_778008079.webp"
@@ -40040,7 +40176,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "434563916",
         "cover_file": "825/cover_434563916.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "697277801",
         "cover_file": "NA"
@@ -40060,15 +40204,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839277563",
         "cover_file": "825/cover_839277563.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 445,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "880721420",
         "cover_file": "825/cover_880721420.webp"
@@ -40148,7 +40284,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840442948",
         "cover_file": "826/cover_840442948.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840445153",
         "cover_file": "826/cover_840445153.webp"
@@ -40168,15 +40312,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "694829469",
         "cover_file": "826/cover_694829469.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 446,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "731675316",
         "cover_file": "826/cover_731675316.webp"
@@ -40256,7 +40392,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30399210",
         "cover_file": "827/cover_30399210.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "69266939",
         "cover_file": "NA"
@@ -40276,15 +40420,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905475075",
         "cover_file": "827/cover_905475075.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 447,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "34292658",
         "cover_file": "827/cover_34292658.webp"
@@ -40364,7 +40500,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "49711693",
         "cover_file": "827/cover_49711693.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "51653206",
         "cover_file": "827/cover_51653206.webp"
@@ -40384,15 +40528,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840380944",
         "cover_file": "827/cover_840380944.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 448,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "907111083",
         "cover_file": "828/cover_907111083.webp"
@@ -40472,7 +40608,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "65197904",
         "cover_file": "828/cover_65197904.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "899064554",
         "cover_file": "828/cover_899064554.webp"
@@ -40492,15 +40636,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840398658",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 449,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "318569725",
         "cover_file": "828/cover_318569725.webp"
@@ -40580,7 +40716,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "506251991",
         "cover_file": "829/cover_506251991.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840445678",
         "cover_file": "829/cover_840445678.webp"
@@ -40600,15 +40744,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "760969652",
         "cover_file": "829/cover_760969652.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 450,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "653476347",
         "cover_file": "829/cover_653476347.webp"
@@ -40688,7 +40824,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905870189",
         "cover_file": "829/cover_905870189.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905870076",
         "cover_file": "829/cover_905870076.webp"
@@ -40708,15 +40852,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "862963163",
         "cover_file": "829/cover_862963163.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 451,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "847023460",
         "cover_file": "829/cover_847023460.webp"
@@ -40796,7 +40932,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "902148225",
         "cover_file": "830/cover_902148225.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783055744",
         "cover_file": "830/cover_783055744.webp"
@@ -40816,15 +40960,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393524",
         "cover_file": "830/cover_840393524.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 452,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840387552",
         "cover_file": "NA"
@@ -40904,7 +41040,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840443380",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "742997419",
         "cover_file": "831/cover_742997419.webp"
@@ -40924,15 +41068,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "697293045",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 453,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840461643",
         "cover_file": "831/cover_840461643.webp"
@@ -41012,7 +41148,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "47093256",
         "cover_file": "832/cover_47093256.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 13,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "46944858",
         "cover_file": "832/cover_46944858.webp"
@@ -41032,15 +41176,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "899024830",
         "cover_file": "832/cover_899024830.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 454,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840380557",
         "cover_file": "832/cover_840380557.webp"
@@ -41120,7 +41256,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438881",
         "cover_file": "832/cover_840438881.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 14,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840444486",
         "cover_file": "NA"
@@ -41140,15 +41284,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "768594942",
         "cover_file": "832/cover_768594942.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 455,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840446558",
         "cover_file": "NA"
@@ -41228,7 +41364,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869114",
         "cover_file": "833/cover_905869114.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "design engineering",
+    "sub_topic": "industrial design engineering",
+    "virtual_shelf_temp": 15,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "840446540",
         "cover_file": "833/cover_840446540.webp"
@@ -41248,15 +41392,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905871488",
         "cover_file": "834/cover_905871488.webp"
-      }
-    ]
-  },
-  {
-    "topic": "design engineering",
-    "sub_topic": "industrial design engineering",
-    "virtual_shelf": 456,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "894992199",
         "cover_file": "834/cover_894992199.webp"
@@ -41294,8 +41430,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "circuit theory and electric circuits",
-    "virtual_shelf": 215,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "75031",
@@ -41376,7 +41512,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840353289",
         "cover_file": "339/cover_840353289.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "circuit theory and electric circuits",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840367332",
         "cover_file": "339/cover_840367332.webp"
@@ -41396,15 +41540,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839266589",
         "cover_file": "339/cover_839266589.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "circuit theory and electric circuits",
-    "virtual_shelf": 216,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "13009003",
         "cover_file": "339/cover_13009003.webp"
@@ -41484,7 +41620,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840369286",
         "cover_file": "340/cover_840369286.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "circuit theory and electric circuits",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "46538540",
         "cover_file": "340/cover_46538540.webp"
@@ -41504,15 +41648,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "35001885",
         "cover_file": "340/cover_35001885.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "circuit theory and electric circuits",
-    "virtual_shelf": 217,
-    "books_in_bookcase": 23,
-    "books": [
+      },
       {
         "OCLC": "35292838",
         "cover_file": "340/cover_35292838.webp"
@@ -41592,7 +41728,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30146978",
         "cover_file": "341/cover_30146978.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "circuit theory and electric circuits",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 3,
+    "books": [
       {
         "OCLC": "35285473",
         "cover_file": "341/cover_35285473.webp"
@@ -41610,8 +41754,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "communication theory",
-    "virtual_shelf": 223,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840381107",
@@ -41692,7 +41836,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840372847",
         "cover_file": "352/cover_840372847.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "communication theory",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "56671946",
         "cover_file": "352/cover_56671946.webp"
@@ -41712,15 +41864,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "778019963",
         "cover_file": "352/cover_778019963.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "communication theory",
-    "virtual_shelf": 224,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840398849",
         "cover_file": "352/cover_840398849.webp"
@@ -41800,7 +41944,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41137754",
         "cover_file": "353/cover_41137754.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "communication theory",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "44154802",
         "cover_file": "353/cover_44154802.webp"
@@ -41820,15 +41972,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "45841630",
         "cover_file": "353/cover_45841630.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "communication theory",
-    "virtual_shelf": 225,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "48876666",
         "cover_file": "353/cover_48876666.webp"
@@ -41908,7 +42052,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839250314",
         "cover_file": "354/cover_839250314.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "communication theory",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "232712820",
         "cover_file": "354/cover_232712820.webp"
@@ -41928,15 +42080,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840436528",
         "cover_file": "354/cover_840436528.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "communication theory",
-    "virtual_shelf": 226,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840409797",
         "cover_file": "354/cover_840409797.webp"
@@ -42016,7 +42160,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840397124",
         "cover_file": "355/cover_840397124.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "communication theory",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "840435667",
         "cover_file": "355/cover_840435667.webp"
@@ -42036,15 +42188,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839273240",
         "cover_file": "355/cover_839273240.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "communication theory",
-    "virtual_shelf": 227,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "840459631",
         "cover_file": "355/cover_840459631.webp"
@@ -42094,8 +42238,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "computer hardware",
-    "virtual_shelf": 231,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "24051864",
@@ -42176,7 +42320,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "20494302",
         "cover_file": "367/cover_20494302.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "computer hardware",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901255779",
         "cover_file": "367/cover_901255779.webp"
@@ -42196,15 +42348,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905505942",
         "cover_file": "367/cover_905505942.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "computer hardware",
-    "virtual_shelf": 232,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840439482",
         "cover_file": "367/cover_840439482.webp"
@@ -42284,7 +42428,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "190968181",
         "cover_file": "368/cover_190968181.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "computer hardware",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "746140192",
         "cover_file": "368/cover_746140192.webp"
@@ -42304,15 +42456,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840316531",
         "cover_file": "368/cover_840316531.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "computer hardware",
-    "virtual_shelf": 233,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "840349369",
         "cover_file": "368/cover_840349369.webp"
@@ -42362,8 +42506,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "data communication equipment and techniques",
-    "virtual_shelf": 258,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "772475816",
@@ -42444,7 +42588,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839204394",
         "cover_file": "370/cover_839204394.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "data communication equipment and techniques",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839227320",
         "cover_file": "370/cover_839227320.webp"
@@ -42464,15 +42616,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839258860",
         "cover_file": "370/cover_839258860.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "data communication equipment and techniques",
-    "virtual_shelf": 259,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "794730045",
         "cover_file": "370/cover_794730045.webp"
@@ -42552,7 +42696,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839268601",
         "cover_file": "371/cover_839268601.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "data communication equipment and techniques",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 7,
+    "books": [
       {
         "OCLC": "652681525",
         "cover_file": "371/cover_652681525.webp"
@@ -42572,15 +42724,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "846757555",
         "cover_file": "371/cover_846757555.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "data communication equipment and techniques",
-    "virtual_shelf": 260,
-    "books_in_bookcase": 2,
-    "books": [
+      },
       {
         "OCLC": "839275525",
         "cover_file": "371/cover_839275525.webp"
@@ -42594,7 +42738,7 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "electrical engineering components and materials",
-    "virtual_shelf": 298,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 16,
     "books": [
       {
@@ -42666,8 +42810,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "electrical engineering general",
-    "virtual_shelf": 299,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905457980",
@@ -42748,7 +42892,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "747720066",
         "cover_file": "327/cover_747720066.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "electrical engineering general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "871705989",
         "cover_file": "NA"
@@ -42768,15 +42920,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840378856",
         "cover_file": "328/cover_840378856.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "electrical engineering general",
-    "virtual_shelf": 300,
-    "books_in_bookcase": 20,
-    "books": [
+      },
       {
         "OCLC": "840380023",
         "cover_file": "328/cover_840380023.webp"
@@ -42862,8 +43006,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "electromagnetic wave propagation and antennas",
-    "virtual_shelf": 307,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "9465383",
@@ -42944,7 +43088,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "46462909",
         "cover_file": "350/cover_46462909.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "electromagnetic wave propagation and antennas",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 18,
+    "books": [
       {
         "OCLC": "840378707",
         "cover_file": "350/cover_840378707.webp"
@@ -42964,15 +43116,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "55685786",
         "cover_file": "351/cover_55685786.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "electromagnetic wave propagation and antennas",
-    "virtual_shelf": 308,
-    "books_in_bookcase": 13,
-    "books": [
+      },
       {
         "OCLC": "840400328",
         "cover_file": "351/cover_840400328.webp"
@@ -43030,8 +43174,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "electronic circuits",
-    "virtual_shelf": 309,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "19125711",
@@ -43112,7 +43256,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840397872",
         "cover_file": "342/cover_840397872.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "electronic circuits",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "76894156",
         "cover_file": "342/cover_76894156.webp"
@@ -43132,15 +43284,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840422504",
         "cover_file": "343/cover_840422504.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "electronic circuits",
-    "virtual_shelf": 310,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "299711044",
         "cover_file": "343/cover_299711044.webp"
@@ -43220,7 +43364,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840314547",
         "cover_file": "343/cover_840314547.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "electronic circuits",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840319174",
         "cover_file": "343/cover_840319174.webp"
@@ -43240,15 +43392,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905480582",
         "cover_file": "343/cover_905480582.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "electronic circuits",
-    "virtual_shelf": 311,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840358579",
         "cover_file": "343/cover_840358579.webp"
@@ -43328,7 +43472,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "421387453",
         "cover_file": "344/cover_421387453.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "electronic circuits",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "421387455",
         "cover_file": "344/cover_421387455.webp"
@@ -43348,15 +43500,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1403373583",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "electronic circuits",
-    "virtual_shelf": 312,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "3857494",
         "cover_file": "344/cover_3857494.webp"
@@ -43436,7 +43580,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444375",
         "cover_file": "345/cover_840444375.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "electronic circuits",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30667023",
         "cover_file": "346/cover_30667023.webp"
@@ -43456,15 +43608,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "37413688",
         "cover_file": "346/cover_37413688.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "electronic circuits",
-    "virtual_shelf": 313,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840355574",
         "cover_file": "346/cover_840355574.webp"
@@ -43544,7 +43688,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839227396",
         "cover_file": "347/cover_839227396.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "electronic circuits",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "777954758",
         "cover_file": "347/cover_777954758.webp"
@@ -43564,15 +43716,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905514838",
         "cover_file": "347/cover_905514838.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "electronic circuits",
-    "virtual_shelf": 314,
-    "books_in_bookcase": 22,
-    "books": [
+      },
       {
         "OCLC": "773960405",
         "cover_file": "347/cover_773960405.webp"
@@ -43652,7 +43796,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "57707468",
         "cover_file": "347/cover_57707468.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "electronic circuits",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "53156181",
         "cover_file": "347/cover_53156181.webp"
@@ -43666,7 +43818,7 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "electronic instrumentation",
-    "virtual_shelf": 315,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 15,
     "books": [
       {
@@ -43734,8 +43886,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "integrated circuits",
-    "virtual_shelf": 488,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840377981",
@@ -43816,7 +43968,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840371906",
         "cover_file": "337/cover_840371906.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "integrated circuits",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "62695571",
         "cover_file": "337/cover_62695571.webp"
@@ -43836,15 +43996,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393537",
         "cover_file": "337/cover_840393537.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "integrated circuits",
-    "virtual_shelf": 489,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56941884",
         "cover_file": "337/cover_56941884.webp"
@@ -43924,7 +44076,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "772544797",
         "cover_file": "338/cover_772544797.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "integrated circuits",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "39545728",
         "cover_file": "338/cover_39545728.webp"
@@ -43944,15 +44104,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839266298",
         "cover_file": "338/cover_839266298.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "integrated circuits",
-    "virtual_shelf": 490,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "268957049",
         "cover_file": "338/cover_268957049.webp"
@@ -43990,8 +44142,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "microwave technology",
-    "virtual_shelf": 616,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "43662231",
@@ -44072,7 +44224,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839270843",
         "cover_file": "348/cover_839270843.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "microwave technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "840319647",
         "cover_file": "348/cover_840319647.webp"
@@ -44092,15 +44252,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840370119",
         "cover_file": "348/cover_840370119.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "microwave technology",
-    "virtual_shelf": 617,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "48003223",
         "cover_file": "348/cover_48003223.webp"
@@ -44174,8 +44326,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "power systems and application",
-    "virtual_shelf": 778,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "839442062",
@@ -44256,7 +44408,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840368875",
         "cover_file": "372/cover_840368875.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "power systems and application",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "43971434",
         "cover_file": "372/cover_43971434.webp"
@@ -44276,15 +44436,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "53027151",
         "cover_file": "372/cover_53027151.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "power systems and application",
-    "virtual_shelf": 779,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840378156",
         "cover_file": "372/cover_840378156.webp"
@@ -44364,7 +44516,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "796080931",
         "cover_file": "373/cover_796080931.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "power systems and application",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839304668",
         "cover_file": "373/cover_839304668.webp"
@@ -44384,15 +44544,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905864517",
         "cover_file": "373/cover_905864517.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "power systems and application",
-    "virtual_shelf": 780,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "894991518",
         "cover_file": "NA"
@@ -44472,7 +44624,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393337",
         "cover_file": "374/cover_840393337.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "power systems and application",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840441880",
         "cover_file": "374/cover_840441880.webp"
@@ -44492,15 +44652,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "879581341",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "power systems and application",
-    "virtual_shelf": 781,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "30778608",
         "cover_file": "374/cover_30778608.webp"
@@ -44580,7 +44732,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444723",
         "cover_file": "375/cover_840444723.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "power systems and application",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "793890800",
         "cover_file": "375/cover_793890800.webp"
@@ -44600,15 +44760,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "25009451",
         "cover_file": "375/cover_25009451.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "power systems and application",
-    "virtual_shelf": 782,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840400114",
         "cover_file": "375/cover_840400114.webp"
@@ -44688,7 +44840,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41674440",
         "cover_file": "375/cover_41674440.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "power systems and application",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840367559",
         "cover_file": "375/cover_840367559.webp"
@@ -44708,15 +44868,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839009264",
         "cover_file": "375/cover_839009264.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "power systems and application",
-    "virtual_shelf": 783,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "45388814",
         "cover_file": "375/cover_45388814.webp"
@@ -44796,7 +44948,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30894499",
         "cover_file": "376/cover_30894499.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "power systems and application",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "29478656",
         "cover_file": "376/cover_29478656.webp"
@@ -44816,15 +44976,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "69163919",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "power systems and application",
-    "virtual_shelf": 784,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840314639",
         "cover_file": "377/cover_840314639.webp"
@@ -44904,7 +45056,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393183",
         "cover_file": "377/cover_840393183.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "power systems and application",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840397123",
         "cover_file": "377/cover_840397123.webp"
@@ -44924,15 +45084,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905865225",
         "cover_file": "378/cover_905865225.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "power systems and application",
-    "virtual_shelf": 785,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "905870743",
         "cover_file": "378/cover_905870743.webp"
@@ -45012,7 +45164,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839302452",
         "cover_file": "378/cover_839302452.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "power systems and application",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "839304664",
         "cover_file": "378/cover_839304664.webp"
@@ -45022,8 +45182,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "radar and radionavigation",
-    "virtual_shelf": 825,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "440253",
@@ -45104,7 +45264,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "17104437",
         "cover_file": "362/cover_17104437.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "radar and radionavigation",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839683681",
         "cover_file": "362/cover_839683681.webp"
@@ -45124,15 +45292,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840278903",
         "cover_file": "362/cover_840278903.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "radar and radionavigation",
-    "virtual_shelf": 826,
-    "books_in_bookcase": 20,
-    "books": [
+      },
       {
         "OCLC": "41157439",
         "cover_file": "362/cover_41157439.webp"
@@ -45218,8 +45378,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "radio television and audio",
-    "virtual_shelf": 827,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840369917",
@@ -45300,7 +45460,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840272287",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "radio television and audio",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 14,
+    "books": [
       {
         "OCLC": "30735444",
         "cover_file": "365/cover_30735444.webp"
@@ -45320,15 +45488,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393283",
         "cover_file": "365/cover_840393283.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "radio television and audio",
-    "virtual_shelf": 828,
-    "books_in_bookcase": 9,
-    "books": [
+      },
       {
         "OCLC": "839268702",
         "cover_file": "365/cover_839268702.webp"
@@ -45370,8 +45530,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "semiconductor devices",
-    "virtual_shelf": 874,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "23584650",
@@ -45452,7 +45612,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840377862",
         "cover_file": "331/cover_840377862.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "semiconductor devices",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "51942542",
         "cover_file": "331/cover_51942542.webp"
@@ -45472,15 +45640,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "52948959",
         "cover_file": "332/cover_52948959.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "semiconductor devices",
-    "virtual_shelf": 875,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840392285",
         "cover_file": "332/cover_840392285.webp"
@@ -45560,7 +45720,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437075",
         "cover_file": "332/cover_840437075.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "semiconductor devices",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839272947",
         "cover_file": "332/cover_839272947.webp"
@@ -45580,15 +45748,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840322907",
         "cover_file": "333/cover_840322907.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "semiconductor devices",
-    "virtual_shelf": 876,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "38862610",
         "cover_file": "333/cover_38862610.webp"
@@ -45668,7 +45828,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839246707",
         "cover_file": "334/cover_839246707.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "semiconductor devices",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840394694",
         "cover_file": "334/cover_840394694.webp"
@@ -45688,15 +45856,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840443321",
         "cover_file": "334/cover_840443321.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "semiconductor devices",
-    "virtual_shelf": 877,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840427501",
         "cover_file": "334/cover_840427501.webp"
@@ -45776,7 +45936,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "34285050",
         "cover_file": "335/cover_34285050.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "semiconductor devices",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 18,
+    "books": [
       {
         "OCLC": "770580509",
         "cover_file": "335/cover_770580509.webp"
@@ -45796,15 +45964,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "44634370",
         "cover_file": "335/cover_44634370.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "semiconductor devices",
-    "virtual_shelf": 878,
-    "books_in_bookcase": 13,
-    "books": [
+      },
       {
         "OCLC": "811225842",
         "cover_file": "335/cover_811225842.webp"
@@ -45862,8 +46022,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "telecommunication",
-    "virtual_shelf": 939,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "567738",
@@ -45944,7 +46104,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839269473",
         "cover_file": "356/cover_839269473.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "telecommunication",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 19,
+    "books": [
       {
         "OCLC": "839278479",
         "cover_file": "356/cover_839278479.webp"
@@ -45964,15 +46132,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "778011216",
         "cover_file": "357/cover_778011216.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "telecommunication",
-    "virtual_shelf": 940,
-    "books_in_bookcase": 14,
-    "books": [
+      },
       {
         "OCLC": "783463309",
         "cover_file": "357/cover_783463309.webp"
@@ -46034,8 +46194,8 @@ const virtual_bookshelves = [
   {
     "topic": "electrical engineering",
     "sub_topic": "transmission links and transmission equipment",
-    "virtual_shelf": 983,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "2798546",
@@ -46116,7 +46276,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "777966119",
         "cover_file": "359/cover_777966119.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "transmission links and transmission equipment",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "137222764",
         "cover_file": "359/cover_137222764.webp"
@@ -46136,15 +46304,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839260578",
         "cover_file": "359/cover_839260578.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "transmission links and transmission equipment",
-    "virtual_shelf": 984,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "528397675",
         "cover_file": "359/cover_528397675.webp"
@@ -46224,7 +46384,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "779458016",
         "cover_file": "360/cover_779458016.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "electrical engineering",
+    "sub_topic": "transmission links and transmission equipment",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "905868491",
         "cover_file": "360/cover_905868491.webp"
@@ -46244,15 +46412,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840367814",
         "cover_file": "360/cover_840367814.webp"
-      }
-    ]
-  },
-  {
-    "topic": "electrical engineering",
-    "sub_topic": "transmission links and transmission equipment",
-    "virtual_shelf": 985,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "840373995",
         "cover_file": "360/cover_840373995.webp"
@@ -46326,8 +46486,8 @@ const virtual_bookshelves = [
   {
     "topic": "energy supply",
     "sub_topic": "energy supply",
-    "virtual_shelf": 324,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "22624082",
@@ -46408,7 +46568,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "31012277",
         "cover_file": "538/cover_31012277.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "energy supply",
+    "sub_topic": "energy supply",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "63144200",
         "cover_file": "538/cover_63144200.webp"
@@ -46428,15 +46596,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "808129952",
         "cover_file": "538/cover_808129952.webp"
-      }
-    ]
-  },
-  {
-    "topic": "energy supply",
-    "sub_topic": "energy supply",
-    "virtual_shelf": 325,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "795556534",
         "cover_file": "538/cover_795556534.webp"
@@ -46516,7 +46676,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "52327514",
         "cover_file": "539/cover_52327514.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "energy supply",
+    "sub_topic": "energy supply",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "55744818",
         "cover_file": "539/cover_55744818.webp"
@@ -46536,15 +46704,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "56615913",
         "cover_file": "539/cover_56615913.webp"
-      }
-    ]
-  },
-  {
-    "topic": "energy supply",
-    "sub_topic": "energy supply",
-    "virtual_shelf": 326,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840393600",
         "cover_file": "539/cover_840393600.webp"
@@ -46624,7 +46784,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839263728",
         "cover_file": "539/cover_839263728.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "energy supply",
+    "sub_topic": "energy supply",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839278530",
         "cover_file": "540/cover_839278530.webp"
@@ -46644,15 +46812,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "793806277",
         "cover_file": "540/cover_793806277.webp"
-      }
-    ]
-  },
-  {
-    "topic": "energy supply",
-    "sub_topic": "energy supply",
-    "virtual_shelf": 327,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840435379",
         "cover_file": "540/cover_840435379.webp"
@@ -46732,7 +46892,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839308079",
         "cover_file": "540/cover_839308079.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "energy supply",
+    "sub_topic": "energy supply",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840461651",
         "cover_file": "540/cover_840461651.webp"
@@ -46752,15 +46920,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905863749",
         "cover_file": "540/cover_905863749.webp"
-      }
-    ]
-  },
-  {
-    "topic": "energy supply",
-    "sub_topic": "energy supply",
-    "virtual_shelf": 328,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "964934064",
         "cover_file": "NA"
@@ -46840,7 +47000,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "944318061",
         "cover_file": "541/cover_944318061.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "energy supply",
+    "sub_topic": "energy supply",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840337457",
         "cover_file": "541/cover_840337457.webp"
@@ -46860,15 +47028,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905863750",
         "cover_file": "541/cover_905863750.webp"
-      }
-    ]
-  },
-  {
-    "topic": "energy supply",
-    "sub_topic": "energy supply",
-    "virtual_shelf": 329,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905484523",
         "cover_file": "542/cover_905484523.webp"
@@ -46948,7 +47108,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839295699",
         "cover_file": "542/cover_839295699.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "energy supply",
+    "sub_topic": "energy supply",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905868351",
         "cover_file": "542/cover_905868351.webp"
@@ -46968,15 +47136,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "761259921",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "energy supply",
-    "sub_topic": "energy supply",
-    "virtual_shelf": 330,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "759929454",
         "cover_file": "542/cover_759929454.webp"
@@ -47056,7 +47216,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "175286368",
         "cover_file": "543/cover_175286368.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "energy supply",
+    "sub_topic": "energy supply",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "747319457",
         "cover_file": "543/cover_747319457.webp"
@@ -47076,15 +47244,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839266461",
         "cover_file": "543/cover_839266461.webp"
-      }
-    ]
-  },
-  {
-    "topic": "energy supply",
-    "sub_topic": "energy supply",
-    "virtual_shelf": 331,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "839304740",
         "cover_file": "543/cover_839304740.webp"
@@ -47114,8 +47274,8 @@ const virtual_bookshelves = [
   {
     "topic": "environmental and safety engineering",
     "sub_topic": "environmental technology",
-    "virtual_shelf": 336,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "21483788",
@@ -47196,7 +47356,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839293065",
         "cover_file": "518/cover_839293065.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "environmental technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905868332",
         "cover_file": "518/cover_905868332.webp"
@@ -47216,15 +47384,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839305044",
         "cover_file": "519/cover_839305044.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "environmental technology",
-    "virtual_shelf": 337,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840459609",
         "cover_file": "519/cover_840459609.webp"
@@ -47304,7 +47464,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840395426",
         "cover_file": "520/cover_840395426.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "environmental technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839266800",
         "cover_file": "520/cover_839266800.webp"
@@ -47324,15 +47492,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42290041",
         "cover_file": "520/cover_42290041.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "environmental technology",
-    "virtual_shelf": 338,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "54529445",
         "cover_file": "520/cover_54529445.webp"
@@ -47412,7 +47572,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840451023",
         "cover_file": "521/cover_840451023.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "environmental technology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905869123",
         "cover_file": "521/cover_905869123.webp"
@@ -47432,15 +47600,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "75916134",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "environmental technology",
-    "virtual_shelf": 339,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "637127419",
         "cover_file": "521/cover_637127419.webp"
@@ -47520,7 +47680,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "31969004",
         "cover_file": "522/cover_31969004.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "environmental technology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 15,
+    "books": [
       {
         "OCLC": "898936360",
         "cover_file": "522/cover_898936360.webp"
@@ -47540,15 +47708,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "762051079",
         "cover_file": "522/cover_762051079.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "environmental technology",
-    "virtual_shelf": 340,
-    "books_in_bookcase": 10,
-    "books": [
+      },
       {
         "OCLC": "759187809",
         "cover_file": "522/cover_759187809.webp"
@@ -47594,8 +47754,8 @@ const virtual_bookshelves = [
   {
     "topic": "environmental and safety engineering",
     "sub_topic": "pollution and environmental policy",
-    "virtual_shelf": 771,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "28421894",
@@ -47676,7 +47836,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839215523",
         "cover_file": "512/cover_839215523.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "pollution and environmental policy",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839220786",
         "cover_file": "512/cover_839220786.webp"
@@ -47696,15 +47864,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "697551268",
         "cover_file": "512/cover_697551268.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "pollution and environmental policy",
-    "virtual_shelf": 772,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839271583",
         "cover_file": "512/cover_839271583.webp"
@@ -47784,7 +47944,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "36477038",
         "cover_file": "513/cover_36477038.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "pollution and environmental policy",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782288542",
         "cover_file": "NA"
@@ -47804,15 +47972,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905480224",
         "cover_file": "513/cover_905480224.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "pollution and environmental policy",
-    "virtual_shelf": 773,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "38989638",
         "cover_file": "513/cover_38989638.webp"
@@ -47892,7 +48052,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "819306509",
         "cover_file": "514/cover_819306509.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "pollution and environmental policy",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "302387113",
         "cover_file": "514/cover_302387113.webp"
@@ -47912,15 +48080,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "819324054",
         "cover_file": "514/cover_819324054.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "pollution and environmental policy",
-    "virtual_shelf": 774,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "695849433",
         "cover_file": "514/cover_695849433.webp"
@@ -48000,7 +48160,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "772065057",
         "cover_file": "515/cover_772065057.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "pollution and environmental policy",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "40256249",
         "cover_file": "515/cover_40256249.webp"
@@ -48020,15 +48188,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "50417317",
         "cover_file": "515/cover_50417317.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "pollution and environmental policy",
-    "virtual_shelf": 775,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "51567533",
         "cover_file": "515/cover_51567533.webp"
@@ -48108,7 +48268,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "226355772",
         "cover_file": "516/cover_226355772.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "pollution and environmental policy",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "456170406",
         "cover_file": "516/cover_456170406.webp"
@@ -48128,15 +48296,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840448063",
         "cover_file": "516/cover_840448063.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "pollution and environmental policy",
-    "virtual_shelf": 776,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905864200",
         "cover_file": "516/cover_905864200.webp"
@@ -48216,7 +48376,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "47521417",
         "cover_file": "517/cover_47521417.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "pollution and environmental policy",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 8,
+    "books": [
       {
         "OCLC": "41659800",
         "cover_file": "517/cover_41659800.webp"
@@ -48236,15 +48404,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839297689",
         "cover_file": "518/cover_839297689.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "pollution and environmental policy",
-    "virtual_shelf": 777,
-    "books_in_bookcase": 3,
-    "books": [
+      },
       {
         "OCLC": "840444331",
         "cover_file": "518/cover_840444331.webp"
@@ -48262,8 +48422,8 @@ const virtual_bookshelves = [
   {
     "topic": "environmental and safety engineering",
     "sub_topic": "safety engineering",
-    "virtual_shelf": 848,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905457933",
@@ -48344,7 +48504,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840381796",
         "cover_file": "532/cover_840381796.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "safety engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "55044784",
         "cover_file": "532/cover_55044784.webp"
@@ -48364,15 +48532,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "61448176",
         "cover_file": "532/cover_61448176.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "safety engineering",
-    "virtual_shelf": 849,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "60794123",
         "cover_file": "532/cover_60794123.webp"
@@ -48452,7 +48612,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839304523",
         "cover_file": "532/cover_839304523.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "safety engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905863602",
         "cover_file": "532/cover_905863602.webp"
@@ -48472,15 +48640,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "965119340",
         "cover_file": "532/cover_965119340.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "safety engineering",
-    "virtual_shelf": 850,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "1019840480",
         "cover_file": "532/cover_1019840480.webp"
@@ -48560,7 +48720,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840447196",
         "cover_file": "533/cover_840447196.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "safety engineering",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840445907",
         "cover_file": "533/cover_840445907.webp"
@@ -48580,15 +48748,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839334156",
         "cover_file": "533/cover_839334156.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "safety engineering",
-    "virtual_shelf": 851,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905865904",
         "cover_file": "533/cover_905865904.webp"
@@ -48668,7 +48828,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839233986",
         "cover_file": "534/cover_839233986.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "safety engineering",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840406190",
         "cover_file": "534/cover_840406190.webp"
@@ -48688,15 +48856,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839269502",
         "cover_file": "535/cover_839269502.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "safety engineering",
-    "virtual_shelf": 852,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840437269",
         "cover_file": "535/cover_840437269.webp"
@@ -48776,7 +48936,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839224272",
         "cover_file": "535/cover_839224272.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "safety engineering",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 23,
+    "books": [
       {
         "OCLC": "839269562",
         "cover_file": "535/cover_839269562.webp"
@@ -48796,15 +48964,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868486",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "safety engineering",
-    "virtual_shelf": 853,
-    "books_in_bookcase": 18,
-    "books": [
+      },
       {
         "OCLC": "846758673",
         "cover_file": "535/cover_846758673.webp"
@@ -48882,8 +49042,8 @@ const virtual_bookshelves = [
   {
     "topic": "environmental and safety engineering",
     "sub_topic": "sanitary engineering wastewater treatment and hygiene",
-    "virtual_shelf": 854,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "271106",
@@ -48964,7 +49124,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41619684",
         "cover_file": "524/cover_41619684.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "45064745",
         "cover_file": "524/cover_45064745.webp"
@@ -48984,15 +49152,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840395253",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
-    "virtual_shelf": 855,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "60461362",
         "cover_file": "524/cover_60461362.webp"
@@ -49072,7 +49232,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "664319560",
         "cover_file": "525/cover_664319560.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "758652981",
         "cover_file": "525/cover_758652981.webp"
@@ -49092,15 +49260,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839238514",
         "cover_file": "525/cover_839238514.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
-    "virtual_shelf": 856,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839300029",
         "cover_file": "525/cover_839300029.webp"
@@ -49180,7 +49340,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905515145",
         "cover_file": "526/cover_905515145.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839233828",
         "cover_file": "526/cover_839233828.webp"
@@ -49200,15 +49368,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839269380",
         "cover_file": "526/cover_839269380.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
-    "virtual_shelf": 857,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "528423853",
         "cover_file": "526/cover_528423853.webp"
@@ -49288,7 +49448,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "37213412",
         "cover_file": "527/cover_37213412.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "34514240",
         "cover_file": "527/cover_34514240.webp"
@@ -49308,15 +49476,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905480100",
         "cover_file": "527/cover_905480100.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
-    "virtual_shelf": 858,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "38485830",
         "cover_file": "527/cover_38485830.webp"
@@ -49396,7 +49556,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839269462",
         "cover_file": "528/cover_839269462.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839271429",
         "cover_file": "528/cover_839271429.webp"
@@ -49416,15 +49584,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839278792",
         "cover_file": "528/cover_839278792.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
-    "virtual_shelf": 859,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "765141636",
         "cover_file": "528/cover_765141636.webp"
@@ -49504,7 +49664,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839246744",
         "cover_file": "529/cover_839246744.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "environmental and safety engineering",
+    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 9,
+    "books": [
       {
         "OCLC": "839304454",
         "cover_file": "529/cover_839304454.webp"
@@ -49524,15 +49692,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840355379",
         "cover_file": "529/cover_840355379.webp"
-      }
-    ]
-  },
-  {
-    "topic": "environmental and safety engineering",
-    "sub_topic": "sanitary engineering wastewater treatment and hygiene",
-    "virtual_shelf": 860,
-    "books_in_bookcase": 4,
-    "books": [
+      },
       {
         "OCLC": "840378997",
         "cover_file": "529/cover_840378997.webp"
@@ -49554,7 +49714,7 @@ const virtual_bookshelves = [
   {
     "topic": "environmental and safety engineering",
     "sub_topic": "toxicology and radiation health",
-    "virtual_shelf": 972,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 11,
     "books": [
       {
@@ -49606,8 +49766,8 @@ const virtual_bookshelves = [
   {
     "topic": "geodesy",
     "sub_topic": "geodesy",
-    "virtual_shelf": 374,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "65298709",
@@ -49688,7 +49848,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840362887",
         "cover_file": "641/cover_840362887.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "52258226",
         "cover_file": "641/cover_52258226.webp"
@@ -49708,15 +49876,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840374059",
         "cover_file": "641/cover_840374059.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 375,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "45860481",
         "cover_file": "641/cover_45860481.webp"
@@ -49796,7 +49956,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840455906",
         "cover_file": "642/cover_840455906.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905868369",
         "cover_file": "NA"
@@ -49816,15 +49984,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "63865696",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 376,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "63414672",
         "cover_file": "NA"
@@ -49904,7 +50064,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "23016384",
         "cover_file": "643/cover_23016384.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "38431011",
         "cover_file": "643/cover_38431011.webp"
@@ -49924,15 +50092,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840364647",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 377,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "39627584",
         "cover_file": "643/cover_39627584.webp"
@@ -50012,7 +50172,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "637129119",
         "cover_file": "643/cover_637129119.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "144219714",
         "cover_file": "643/cover_144219714.webp"
@@ -50032,15 +50200,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438545",
         "cover_file": "644/cover_840438545.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 378,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "500822994",
         "cover_file": "644/cover_500822994.webp"
@@ -50120,7 +50280,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "901926462",
         "cover_file": "644/cover_901926462.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "907606980",
         "cover_file": "644/cover_907606980.webp"
@@ -50140,15 +50308,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840358864",
         "cover_file": "644/cover_840358864.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 379,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905484000",
         "cover_file": "644/cover_905484000.webp"
@@ -50228,7 +50388,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "646401615",
         "cover_file": "645/cover_646401615.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "809000304",
         "cover_file": "645/cover_809000304.webp"
@@ -50248,15 +50416,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "695883129",
         "cover_file": "645/cover_695883129.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 380,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "456176256",
         "cover_file": "645/cover_456176256.webp"
@@ -50336,7 +50496,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "40589428",
         "cover_file": "646/cover_40589428.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42309854",
         "cover_file": "646/cover_42309854.webp"
@@ -50356,15 +50524,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840370095",
         "cover_file": "646/cover_840370095.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 381,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "49822991",
         "cover_file": "646/cover_49822991.webp"
@@ -50444,7 +50604,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "62896469",
         "cover_file": "647/cover_62896469.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840402542",
         "cover_file": "647/cover_840402542.webp"
@@ -50464,15 +50632,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839234095",
         "cover_file": "647/cover_839234095.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 382,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "173720855",
         "cover_file": "647/cover_173720855.webp"
@@ -50552,7 +50712,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "502414068",
         "cover_file": "648/cover_502414068.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geodesy",
+    "sub_topic": "geodesy",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 20,
+    "books": [
       {
         "OCLC": "716063010",
         "cover_file": "648/cover_716063010.webp"
@@ -50572,15 +50740,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "776643870",
         "cover_file": "648/cover_776643870.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geodesy",
-    "sub_topic": "geodesy",
-    "virtual_shelf": 383,
-    "books_in_bookcase": 15,
-    "books": [
+      },
       {
         "OCLC": "839303166",
         "cover_file": "648/cover_839303166.webp"
@@ -50646,8 +50806,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "earth sciences general",
-    "virtual_shelf": 282,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "37917358",
@@ -50728,7 +50888,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783027831",
         "cover_file": "649/cover_783027831.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "earth sciences general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905504195",
         "cover_file": "649/cover_905504195.webp"
@@ -50748,15 +50916,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393568",
         "cover_file": "649/cover_840393568.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "earth sciences general",
-    "virtual_shelf": 283,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901636661",
         "cover_file": "649/cover_901636661.webp"
@@ -50836,7 +50996,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "899025938",
         "cover_file": "650/cover_899025938.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "earth sciences general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 8,
+    "books": [
       {
         "OCLC": "48383527",
         "cover_file": "650/cover_48383527.webp"
@@ -50856,15 +51024,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840394216",
         "cover_file": "650/cover_840394216.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "earth sciences general",
-    "virtual_shelf": 284,
-    "books_in_bookcase": 3,
-    "books": [
+      },
       {
         "OCLC": "778343542",
         "cover_file": "650/cover_778343542.webp"
@@ -50882,8 +51042,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "engineering geology",
-    "virtual_shelf": 332,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "839444388",
@@ -50964,7 +51124,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840409864",
         "cover_file": "682/cover_840409864.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "engineering geology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839269353",
         "cover_file": "682/cover_839269353.webp"
@@ -50984,15 +51152,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839334027",
         "cover_file": "682/cover_839334027.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "engineering geology",
-    "virtual_shelf": 333,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839336119",
         "cover_file": "682/cover_839336119.webp"
@@ -51072,7 +51232,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839714786",
         "cover_file": "683/cover_839714786.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "engineering geology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "24906279",
         "cover_file": "683/cover_24906279.webp"
@@ -51092,15 +51260,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839266734",
         "cover_file": "683/cover_839266734.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "engineering geology",
-    "virtual_shelf": 334,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "31349930",
         "cover_file": "683/cover_31349930.webp"
@@ -51180,7 +51340,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839295043",
         "cover_file": "684/cover_839295043.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "engineering geology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 12,
+    "books": [
       {
         "OCLC": "60333318",
         "cover_file": "684/cover_60333318.webp"
@@ -51200,15 +51368,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "72148704",
         "cover_file": "684/cover_72148704.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "engineering geology",
-    "virtual_shelf": 335,
-    "books_in_bookcase": 7,
-    "books": [
+      },
       {
         "OCLC": "839235817",
         "cover_file": "684/cover_839235817.webp"
@@ -51242,7 +51402,7 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "geochemistry",
-    "virtual_shelf": 373,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 14,
     "books": [
       {
@@ -51306,8 +51466,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "geology regional",
-    "virtual_shelf": 388,
-    "books_in_bookcase": 22,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905476966",
@@ -51388,7 +51548,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "455825833",
         "cover_file": "662/cover_455825833.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology regional",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "839272743",
         "cover_file": "662/cover_839272743.webp"
@@ -51402,8 +51570,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "geology specific topics",
-    "virtual_shelf": 389,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "898796354",
@@ -51484,7 +51652,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "874938709",
         "cover_file": "652/cover_874938709.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology specific topics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "821823434",
         "cover_file": "652/cover_821823434.webp"
@@ -51504,15 +51680,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "34571392",
         "cover_file": "652/cover_34571392.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geology specific topics",
-    "virtual_shelf": 390,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840345623",
         "cover_file": "652/cover_840345623.webp"
@@ -51592,7 +51760,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "899022080",
         "cover_file": "652/cover_899022080.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology specific topics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "54111604",
         "cover_file": "652/cover_54111604.webp"
@@ -51612,15 +51788,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "318672070",
         "cover_file": "653/cover_318672070.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geology specific topics",
-    "virtual_shelf": 391,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "899060243",
         "cover_file": "653/cover_899060243.webp"
@@ -51700,7 +51868,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840456054",
         "cover_file": "653/cover_840456054.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology specific topics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905865718",
         "cover_file": "653/cover_905865718.webp"
@@ -51720,15 +51896,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444739",
         "cover_file": "654/cover_840444739.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geology specific topics",
-    "virtual_shelf": 392,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "9226273",
         "cover_file": "654/cover_9226273.webp"
@@ -51808,7 +51976,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840454857",
         "cover_file": "654/cover_840454857.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology specific topics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "519475",
         "cover_file": "NA"
@@ -51828,15 +52004,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839704654",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geology specific topics",
-    "virtual_shelf": 393,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "11467814",
         "cover_file": "655/cover_11467814.webp"
@@ -51916,7 +52084,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "46538507",
         "cover_file": "656/cover_46538507.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology specific topics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "48795910",
         "cover_file": "656/cover_48795910.webp"
@@ -51936,15 +52112,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "637139070",
         "cover_file": "656/cover_637139070.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geology specific topics",
-    "virtual_shelf": 394,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840396447",
         "cover_file": "656/cover_840396447.webp"
@@ -52024,7 +52192,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905514990",
         "cover_file": "656/cover_905514990.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology specific topics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839269544",
         "cover_file": "656/cover_839269544.webp"
@@ -52044,15 +52220,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840443203",
         "cover_file": "656/cover_840443203.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geology specific topics",
-    "virtual_shelf": 395,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905515272",
         "cover_file": "656/cover_905515272.webp"
@@ -52132,7 +52300,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905469391",
         "cover_file": "658/cover_905469391.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology specific topics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "41468683",
         "cover_file": "658/cover_41468683.webp"
@@ -52152,15 +52328,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "465361718",
         "cover_file": "659/cover_465361718.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geology specific topics",
-    "virtual_shelf": 396,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840429038",
         "cover_file": "659/cover_840429038.webp"
@@ -52240,7 +52408,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "816122354",
         "cover_file": "659/cover_816122354.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geology specific topics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "165478945",
         "cover_file": "659/cover_165478945.webp"
@@ -52260,15 +52436,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905468755",
         "cover_file": "660/cover_905468755.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geology specific topics",
-    "virtual_shelf": 397,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "23649298",
         "cover_file": "660/cover_23649298.webp"
@@ -52306,8 +52474,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "geophysics",
-    "virtual_shelf": 402,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "8288035",
@@ -52388,7 +52556,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840417078",
         "cover_file": "667/cover_840417078.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geophysics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839298181",
         "cover_file": "667/cover_839298181.webp"
@@ -52408,15 +52584,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840280378",
         "cover_file": "667/cover_840280378.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geophysics",
-    "virtual_shelf": 403,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "29429136",
         "cover_file": "667/cover_29429136.webp"
@@ -52496,7 +52664,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840326667",
         "cover_file": "668/cover_840326667.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geophysics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37369590",
         "cover_file": "668/cover_37369590.webp"
@@ -52516,15 +52692,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840365696",
         "cover_file": "668/cover_840365696.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geophysics",
-    "virtual_shelf": 404,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840369021",
         "cover_file": "668/cover_840369021.webp"
@@ -52604,7 +52772,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444149",
         "cover_file": "668/cover_840444149.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geophysics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840455131",
         "cover_file": "668/cover_840455131.webp"
@@ -52624,15 +52800,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868412",
         "cover_file": "669/cover_905868412.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geophysics",
-    "virtual_shelf": 405,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840461140",
         "cover_file": "669/cover_840461140.webp"
@@ -52712,7 +52880,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840461648",
         "cover_file": "669/cover_840461648.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "geophysics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 10,
+    "books": [
       {
         "OCLC": "839298981",
         "cover_file": "669/cover_839298981.webp"
@@ -52732,15 +52908,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839750397",
         "cover_file": "670/cover_839750397.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "geophysics",
-    "virtual_shelf": 406,
-    "books_in_bookcase": 5,
-    "books": [
+      },
       {
         "OCLC": "840275091",
         "cover_file": "670/cover_840275091.webp"
@@ -52766,7 +52934,7 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "geothermics",
-    "virtual_shelf": 418,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 13,
     "books": [
       {
@@ -52826,8 +52994,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "meteorology",
-    "virtual_shelf": 609,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "331013",
@@ -52908,7 +53076,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "60767016",
         "cover_file": "663/cover_60767016.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "meteorology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "61219235",
         "cover_file": "663/cover_61219235.webp"
@@ -52928,15 +53104,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "899229497",
         "cover_file": "663/cover_899229497.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "meteorology",
-    "virtual_shelf": 610,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "376080",
         "cover_file": "NA"
@@ -53016,7 +53184,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840372498",
         "cover_file": "664/cover_840372498.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "meteorology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "54400282",
         "cover_file": "664/cover_54400282.webp"
@@ -53036,15 +53212,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "897512580",
         "cover_file": "664/cover_897512580.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "meteorology",
-    "virtual_shelf": 611,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "911670818",
         "cover_file": "664/cover_911670818.webp"
@@ -53124,7 +53292,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "173499598",
         "cover_file": "665/cover_173499598.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "meteorology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 17,
+    "books": [
       {
         "OCLC": "184829535",
         "cover_file": "665/cover_184829535.webp"
@@ -53144,15 +53320,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "460936151",
         "cover_file": "665/cover_460936151.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "meteorology",
-    "virtual_shelf": 612,
-    "books_in_bookcase": 12,
-    "books": [
+      },
       {
         "OCLC": "764335574",
         "cover_file": "665/cover_764335574.webp"
@@ -53206,8 +53374,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "mining general",
-    "virtual_shelf": 618,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "2006253",
@@ -53288,7 +53456,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905501996",
         "cover_file": "671/cover_905501996.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "mining general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "260231177",
         "cover_file": "671/cover_260231177.webp"
@@ -53308,15 +53484,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444686",
         "cover_file": "671/cover_840444686.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "mining general",
-    "virtual_shelf": 619,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "795911867",
         "cover_file": "671/cover_795911867.webp"
@@ -53396,7 +53564,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840459953",
         "cover_file": "672/cover_840459953.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "mining general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "905470794",
         "cover_file": "672/cover_905470794.webp"
@@ -53406,8 +53582,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "petroleum exploration and production",
-    "virtual_shelf": 698,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "1720635",
@@ -53488,7 +53664,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840459954",
         "cover_file": "675/cover_840459954.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "petroleum exploration and production",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "795353792",
         "cover_file": "675/cover_795353792.webp"
@@ -53508,15 +53692,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905864186",
         "cover_file": "675/cover_905864186.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "petroleum exploration and production",
-    "virtual_shelf": 699,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "915124626",
         "cover_file": "675/cover_915124626.webp"
@@ -53596,7 +53772,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840358159",
         "cover_file": "676/cover_840358159.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "petroleum exploration and production",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840367235",
         "cover_file": "676/cover_840367235.webp"
@@ -53616,15 +53800,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840380508",
         "cover_file": "676/cover_840380508.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "petroleum exploration and production",
-    "virtual_shelf": 700,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840391949",
         "cover_file": "676/cover_840391949.webp"
@@ -53704,7 +53880,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839699512",
         "cover_file": "677/cover_839699512.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "petroleum exploration and production",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840251724",
         "cover_file": "677/cover_840251724.webp"
@@ -53724,15 +53908,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "845029055",
         "cover_file": "677/cover_845029055.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "petroleum exploration and production",
-    "virtual_shelf": 701,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "35128159",
         "cover_file": "678/cover_35128159.webp"
@@ -53812,7 +53988,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840394124",
         "cover_file": "678/cover_840394124.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "petroleum exploration and production",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "466935032",
         "cover_file": "678/cover_466935032.webp"
@@ -53832,15 +54016,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840399130",
         "cover_file": "678/cover_840399130.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "petroleum exploration and production",
-    "virtual_shelf": 702,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840349959",
         "cover_file": "678/cover_840349959.webp"
@@ -53920,7 +54096,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437580",
         "cover_file": "679/cover_840437580.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "petroleum exploration and production",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840447160",
         "cover_file": "679/cover_840447160.webp"
@@ -53940,15 +54124,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839299545",
         "cover_file": "679/cover_839299545.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "petroleum exploration and production",
-    "virtual_shelf": 703,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839280250",
         "cover_file": "679/cover_839280250.webp"
@@ -54028,7 +54204,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839039354",
         "cover_file": "680/cover_839039354.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "petroleum exploration and production",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 15,
+    "books": [
       {
         "OCLC": "840402760",
         "cover_file": "680/cover_840402760.webp"
@@ -54048,15 +54232,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "30780150",
         "cover_file": "681/cover_30780150.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "petroleum exploration and production",
-    "virtual_shelf": 704,
-    "books_in_bookcase": 10,
-    "books": [
+      },
       {
         "OCLC": "772812109",
         "cover_file": "681/cover_772812109.webp"
@@ -54102,8 +54278,8 @@ const virtual_bookshelves = [
   {
     "topic": "geosciences",
     "sub_topic": "solid mineral resources",
-    "virtual_shelf": 912,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "12116252",
@@ -54184,7 +54360,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "669128391",
         "cover_file": "673/cover_669128391.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "geosciences",
+    "sub_topic": "solid mineral resources",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 18,
+    "books": [
       {
         "OCLC": "905868998",
         "cover_file": "673/cover_905868998.webp"
@@ -54204,15 +54388,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840376882",
         "cover_file": "674/cover_840376882.webp"
-      }
-    ]
-  },
-  {
-    "topic": "geosciences",
-    "sub_topic": "solid mineral resources",
-    "virtual_shelf": 913,
-    "books_in_bookcase": 13,
-    "books": [
+      },
       {
         "OCLC": "76878579",
         "cover_file": "674/cover_76878579.webp"
@@ -54270,8 +54446,8 @@ const virtual_bookshelves = [
   {
     "topic": "law and policy sciences",
     "sub_topic": "law",
-    "virtual_shelf": 503,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "30519080",
@@ -54352,7 +54528,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905477495",
         "cover_file": "925/cover_905477495.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "law",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37870725",
         "cover_file": "925/cover_37870725.webp"
@@ -54372,15 +54556,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32199267",
         "cover_file": "926/cover_32199267.webp"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "law",
-    "virtual_shelf": 504,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "32830692",
         "cover_file": "926/cover_32830692.webp"
@@ -54460,7 +54636,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840441160",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "law",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "775809841",
         "cover_file": "NA"
@@ -54480,15 +54664,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "775809835",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "law",
-    "virtual_shelf": 505,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "10301376",
         "cover_file": "928/cover_10301376.webp"
@@ -54568,7 +54744,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "773711745",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "law",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783372108",
         "cover_file": "929/cover_783372108.webp"
@@ -54588,15 +54772,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "974064290",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "law",
-    "virtual_shelf": 506,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841666698",
         "cover_file": "NA"
@@ -54676,7 +54852,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840403170",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "law",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 15,
+    "books": [
       {
         "OCLC": "191899337",
         "cover_file": "NA"
@@ -54696,15 +54880,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "501287194",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "law",
-    "virtual_shelf": 507,
-    "books_in_bookcase": 10,
-    "books": [
+      },
       {
         "OCLC": "840447969",
         "cover_file": "NA"
@@ -54750,8 +54926,8 @@ const virtual_bookshelves = [
   {
     "topic": "law and policy sciences",
     "sub_topic": "policy sciences",
-    "virtual_shelf": 757,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "64332302",
@@ -54832,7 +55008,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782124700",
         "cover_file": "934/cover_782124700.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782238999",
         "cover_file": "NA"
@@ -54852,15 +55036,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "65592401",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 758,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "68575440",
         "cover_file": "NA"
@@ -54940,7 +55116,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "51481755",
         "cover_file": "935/cover_51481755.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783115831",
         "cover_file": "935/cover_783115831.webp"
@@ -54960,15 +55144,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "58051869",
         "cover_file": "935/cover_58051869.webp"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 759,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "60245568",
         "cover_file": "935/cover_60245568.webp"
@@ -55048,7 +55224,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "427439553",
         "cover_file": "937/cover_427439553.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "609977451",
         "cover_file": "937/cover_609977451.webp"
@@ -55068,15 +55252,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "695927941",
         "cover_file": "938/cover_695927941.webp"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 760,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839273328",
         "cover_file": "938/cover_839273328.webp"
@@ -55156,7 +55332,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1343052331",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "28376293",
         "cover_file": "939/cover_28376293.webp"
@@ -55176,15 +55360,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "46882945",
         "cover_file": "939/cover_46882945.webp"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 761,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "55518377",
         "cover_file": "939/cover_55518377.webp"
@@ -55264,7 +55440,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "461278828",
         "cover_file": "940/cover_461278828.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839271591",
         "cover_file": "940/cover_839271591.webp"
@@ -55284,15 +55468,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "50285260",
         "cover_file": "941/cover_50285260.webp"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 762,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783145458",
         "cover_file": "941/cover_783145458.webp"
@@ -55372,7 +55548,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "150309993",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783463221",
         "cover_file": "945/cover_783463221.webp"
@@ -55392,15 +55576,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "210820",
         "cover_file": "945/cover_210820.webp"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 763,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "780777645",
         "cover_file": "945/cover_780777645.webp"
@@ -55480,7 +55656,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "70334907",
         "cover_file": "945/cover_70334907.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "317926865",
         "cover_file": "945/cover_317926865.webp"
@@ -55500,15 +55684,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444840",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 764,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840441146",
         "cover_file": "NA"
@@ -55588,7 +55764,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905503894",
         "cover_file": "947/cover_905503894.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905503523",
         "cover_file": "NA"
@@ -55608,15 +55792,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840410141",
         "cover_file": "947/cover_840410141.webp"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 765,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "213600384",
         "cover_file": "947/cover_213600384.webp"
@@ -55696,7 +55872,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839689712",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "898856219",
         "cover_file": "949/cover_898856219.webp"
@@ -55716,15 +55900,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "21447909",
         "cover_file": "949/cover_21447909.webp"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 766,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905468155",
         "cover_file": "949/cover_905468155.webp"
@@ -55804,7 +55980,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "801098672",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "law and policy sciences",
+    "sub_topic": "policy sciences",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 19,
+    "books": [
       {
         "OCLC": "905863259",
         "cover_file": "950/cover_905863259.webp"
@@ -55824,15 +56008,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905437324",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "law and policy sciences",
-    "sub_topic": "policy sciences",
-    "virtual_shelf": 767,
-    "books_in_bookcase": 14,
-    "books": [
+      },
       {
         "OCLC": "65866851",
         "cover_file": "NA"
@@ -55894,8 +56070,8 @@ const virtual_bookshelves = [
   {
     "topic": "management sciences",
     "sub_topic": "business economics",
-    "virtual_shelf": 193,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "22239621",
@@ -55976,7 +56152,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "61502310",
         "cover_file": "897/cover_61502310.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "business economics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840436026",
         "cover_file": "NA"
@@ -55996,15 +56180,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840424985",
         "cover_file": "897/cover_840424985.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "business economics",
-    "virtual_shelf": 194,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "756842143",
         "cover_file": "897/cover_756842143.webp"
@@ -56084,7 +56260,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67550311",
         "cover_file": "898/cover_67550311.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "business economics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "50129839",
         "cover_file": "898/cover_50129839.webp"
@@ -56104,15 +56288,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783182922",
         "cover_file": "898/cover_783182922.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "business economics",
-    "virtual_shelf": 195,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56453290",
         "cover_file": "898/cover_56453290.webp"
@@ -56192,7 +56368,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782256504",
         "cover_file": "899/cover_782256504.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "business economics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "68008682",
         "cover_file": "NA"
@@ -56212,15 +56396,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "67840790",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "business economics",
-    "virtual_shelf": 196,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782888057",
         "cover_file": "899/cover_782888057.webp"
@@ -56300,7 +56476,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "47177031",
         "cover_file": "900/cover_47177031.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "business economics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840378129",
         "cover_file": "900/cover_840378129.webp"
@@ -56320,15 +56504,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "49225813",
         "cover_file": "900/cover_49225813.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "business economics",
-    "virtual_shelf": 197,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "51519644",
         "cover_file": "900/cover_51519644.webp"
@@ -56408,7 +56584,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "66650678",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "business economics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783207465",
         "cover_file": "901/cover_783207465.webp"
@@ -56428,15 +56612,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "899052796",
         "cover_file": "901/cover_899052796.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "business economics",
-    "virtual_shelf": 198,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56590896",
         "cover_file": "901/cover_56590896.webp"
@@ -56516,7 +56692,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "319209847",
         "cover_file": "902/cover_319209847.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "business economics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 23,
+    "books": [
       {
         "OCLC": "668081041",
         "cover_file": "902/cover_668081041.webp"
@@ -56536,15 +56720,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839277571",
         "cover_file": "902/cover_839277571.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "business economics",
-    "virtual_shelf": 199,
-    "books_in_bookcase": 18,
-    "books": [
+      },
       {
         "OCLC": "839278591",
         "cover_file": "902/cover_839278591.webp"
@@ -56622,8 +56798,8 @@ const virtual_bookshelves = [
   {
     "topic": "management sciences",
     "sub_topic": "industrial organisation",
-    "virtual_shelf": 468,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781937532",
@@ -56704,7 +56880,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "68770115",
         "cover_file": "907/cover_68770115.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "64592202",
         "cover_file": "907/cover_64592202.webp"
@@ -56724,15 +56908,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "234073803",
         "cover_file": "907/cover_234073803.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 469,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "277196447",
         "cover_file": "907/cover_277196447.webp"
@@ -56812,7 +56988,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840376280",
         "cover_file": "908/cover_840376280.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840377578",
         "cover_file": "908/cover_840377578.webp"
@@ -56832,15 +57016,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840399262",
         "cover_file": "908/cover_840399262.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 470,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "898827101",
         "cover_file": "908/cover_898827101.webp"
@@ -56920,7 +57096,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840377438",
         "cover_file": "909/cover_840377438.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "47282886",
         "cover_file": "909/cover_47282886.webp"
@@ -56940,15 +57124,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840386444",
         "cover_file": "909/cover_840386444.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 471,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783237837",
         "cover_file": "909/cover_783237837.webp"
@@ -57028,7 +57204,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "780444172",
         "cover_file": "910/cover_780444172.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839260772",
         "cover_file": "910/cover_839260772.webp"
@@ -57048,15 +57232,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "619841930",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 472,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839268518",
         "cover_file": "910/cover_839268518.webp"
@@ -57136,7 +57312,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "68147268",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "68058738",
         "cover_file": "NA"
@@ -57156,15 +57340,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905479832",
         "cover_file": "911/cover_905479832.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 473,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "37993433",
         "cover_file": "911/cover_37993433.webp"
@@ -57244,7 +57420,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "51107951",
         "cover_file": "913/cover_51107951.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "53970787",
         "cover_file": "913/cover_53970787.webp"
@@ -57264,15 +57448,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840395006",
         "cover_file": "914/cover_840395006.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 474,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "62532824",
         "cover_file": "914/cover_62532824.webp"
@@ -57352,7 +57528,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "51993950",
         "cover_file": "915/cover_51993950.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783296349",
         "cover_file": "915/cover_783296349.webp"
@@ -57372,15 +57556,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "67451475",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 475,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "68606285",
         "cover_file": "916/cover_68606285.webp"
@@ -57460,7 +57636,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840413809",
         "cover_file": "917/cover_840413809.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783452556",
         "cover_file": "917/cover_783452556.webp"
@@ -57480,15 +57664,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839263622",
         "cover_file": "917/cover_839263622.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 476,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "317573578",
         "cover_file": "917/cover_317573578.webp"
@@ -57568,7 +57744,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840439041",
         "cover_file": "919/cover_840439041.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "industrial organisation",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "33983252",
         "cover_file": "920/cover_33983252.webp"
@@ -57588,15 +57772,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "67865558",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "industrial organisation",
-    "virtual_shelf": 477,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "840372096",
         "cover_file": "920/cover_840372096.webp"
@@ -57626,8 +57802,8 @@ const virtual_bookshelves = [
   {
     "topic": "management sciences",
     "sub_topic": "information sciences",
-    "virtual_shelf": 478,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "898838438",
@@ -57708,7 +57884,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "55106197",
         "cover_file": "922/cover_55106197.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "information sciences",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 12,
+    "books": [
       {
         "OCLC": "783238244",
         "cover_file": "922/cover_783238244.webp"
@@ -57728,15 +57912,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840439779",
         "cover_file": "922/cover_840439779.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "information sciences",
-    "virtual_shelf": 479,
-    "books_in_bookcase": 7,
-    "books": [
+      },
       {
         "OCLC": "747953867",
         "cover_file": "922/cover_747953867.webp"
@@ -57770,8 +57946,8 @@ const virtual_bookshelves = [
   {
     "topic": "management sciences",
     "sub_topic": "management sciences",
-    "virtual_shelf": 516,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "780456850",
@@ -57852,7 +58028,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "795553609",
         "cover_file": "873/cover_795553609.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "825049908",
         "cover_file": "873/cover_825049908.webp"
@@ -57872,15 +58056,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839307862",
         "cover_file": "873/cover_839307862.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 517,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "777949417",
         "cover_file": "NA"
@@ -57960,7 +58136,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "68218545",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "35521678",
         "cover_file": "873/cover_35521678.webp"
@@ -57980,15 +58164,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782927125",
         "cover_file": "873/cover_782927125.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 518,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "43729083",
         "cover_file": "873/cover_43729083.webp"
@@ -58068,7 +58244,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "276819235",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "247442207",
         "cover_file": "874/cover_247442207.webp"
@@ -58088,15 +58272,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839271548",
         "cover_file": "874/cover_839271548.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 519,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "742334916",
         "cover_file": "874/cover_742334916.webp"
@@ -58176,7 +58352,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840268541",
         "cover_file": "875/cover_840268541.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "28889677",
         "cover_file": "875/cover_28889677.webp"
@@ -58196,15 +58380,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "68920912",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 520,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "68679115",
         "cover_file": "NA"
@@ -58284,7 +58460,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "55495100",
         "cover_file": "875/cover_55495100.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "55657257",
         "cover_file": "875/cover_55657257.webp"
@@ -58304,15 +58488,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "55149629",
         "cover_file": "875/cover_55149629.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 521,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783299005",
         "cover_file": "875/cover_783299005.webp"
@@ -58392,7 +58568,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "502423099",
         "cover_file": "876/cover_502423099.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "781609420",
         "cover_file": "NA"
@@ -58412,15 +58596,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782122598",
         "cover_file": "876/cover_782122598.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 522,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "25048261",
         "cover_file": "876/cover_25048261.webp"
@@ -58500,7 +58676,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41326483",
         "cover_file": "877/cover_41326483.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "50609405",
         "cover_file": "877/cover_50609405.webp"
@@ -58520,15 +58704,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783009027",
         "cover_file": "877/cover_783009027.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 523,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "67155726",
         "cover_file": "NA"
@@ -58608,7 +58784,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "66640528",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "53485119",
         "cover_file": "877/cover_53485119.webp"
@@ -58628,15 +58812,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "73557208",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 524,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783295689",
         "cover_file": "878/cover_783295689.webp"
@@ -58716,7 +58892,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "909488369",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "842246442",
         "cover_file": "878/cover_842246442.webp"
@@ -58736,15 +58920,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "68934561",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 525,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840358160",
         "cover_file": "NA"
@@ -58824,7 +59000,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782143936",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "28926986",
         "cover_file": "879/cover_28926986.webp"
@@ -58844,15 +59028,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "68538493",
         "cover_file": "879/cover_68538493.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 526,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "30439092",
         "cover_file": "879/cover_30439092.webp"
@@ -58932,7 +59108,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67865702",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840363165",
         "cover_file": "880/cover_840363165.webp"
@@ -58952,15 +59136,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840363995",
         "cover_file": "880/cover_840363995.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 527,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "43711862",
         "cover_file": "880/cover_43711862.webp"
@@ -59040,7 +59216,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840376072",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 13,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42912703",
         "cover_file": "881/cover_42912703.webp"
@@ -59060,15 +59244,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840375961",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 528,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "48588257",
         "cover_file": "881/cover_48588257.webp"
@@ -59148,7 +59324,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905505288",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 14,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "52257833",
         "cover_file": "882/cover_52257833.webp"
@@ -59168,15 +59352,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783191617",
         "cover_file": "882/cover_783191617.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 529,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840386268",
         "cover_file": "882/cover_840386268.webp"
@@ -59256,7 +59432,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "775018309",
         "cover_file": "883/cover_775018309.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 15,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "84995428",
         "cover_file": "883/cover_84995428.webp"
@@ -59276,15 +59460,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840404495",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 530,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "183162466",
         "cover_file": "883/cover_183162466.webp"
@@ -59364,7 +59540,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "551411718",
         "cover_file": "883/cover_551411718.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 16,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "430842939",
         "cover_file": "883/cover_430842939.webp"
@@ -59384,15 +59568,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "610831898",
         "cover_file": "883/cover_610831898.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 531,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "295002206",
         "cover_file": "883/cover_295002206.webp"
@@ -59472,7 +59648,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "898811076",
         "cover_file": "884/cover_898811076.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 17,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782126618",
         "cover_file": "884/cover_782126618.webp"
@@ -59492,15 +59676,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32551546",
         "cover_file": "884/cover_32551546.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 532,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782245713",
         "cover_file": "884/cover_782245713.webp"
@@ -59580,7 +59756,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "965196648",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 18,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "908376049",
         "cover_file": "885/cover_908376049.webp"
@@ -59600,15 +59784,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "12664733",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 533,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782002495",
         "cover_file": "885/cover_782002495.webp"
@@ -59688,7 +59864,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783007206",
         "cover_file": "886/cover_783007206.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 19,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "67101437",
         "cover_file": "NA"
@@ -59708,15 +59892,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "66200768",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 534,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783087643",
         "cover_file": "886/cover_783087643.webp"
@@ -59796,7 +59972,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "66247018",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 20,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840323176",
         "cover_file": "887/cover_840323176.webp"
@@ -59816,15 +60000,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840354087",
         "cover_file": "887/cover_840354087.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 535,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "68577358",
         "cover_file": "NA"
@@ -59904,7 +60080,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "780769032",
         "cover_file": "888/cover_780769032.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 21,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "780455813",
         "cover_file": "888/cover_780455813.webp"
@@ -59924,15 +60108,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "780889412",
         "cover_file": "888/cover_780889412.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 536,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "898868100",
         "cover_file": "888/cover_898868100.webp"
@@ -60012,7 +60188,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840392668",
         "cover_file": "888/cover_840392668.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 22,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840375551",
         "cover_file": "888/cover_840375551.webp"
@@ -60032,15 +60216,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "49529982",
         "cover_file": "889/cover_49529982.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 537,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782684788",
         "cover_file": "889/cover_782684788.webp"
@@ -60120,7 +60296,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "512250708",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 23,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "428029146",
         "cover_file": "889/cover_428029146.webp"
@@ -60140,15 +60324,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "852240636",
         "cover_file": "889/cover_852240636.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 538,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "154800238",
         "cover_file": "889/cover_154800238.webp"
@@ -60228,7 +60404,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783405441",
         "cover_file": "890/cover_783405441.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 24,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "71745910",
         "cover_file": "NA"
@@ -60248,15 +60432,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "221532715",
         "cover_file": "890/cover_221532715.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 539,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839262558",
         "cover_file": "890/cover_839262558.webp"
@@ -60336,7 +60512,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "47869795",
         "cover_file": "891/cover_47869795.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 25,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "51983444",
         "cover_file": "891/cover_51983444.webp"
@@ -60356,15 +60540,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783300729",
         "cover_file": "891/cover_783300729.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 540,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "67001000",
         "cover_file": "NA"
@@ -60444,7 +60620,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840367229",
         "cover_file": "892/cover_840367229.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 26,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "48399080",
         "cover_file": "892/cover_48399080.webp"
@@ -60464,15 +60648,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "50417403",
         "cover_file": "892/cover_50417403.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 541,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "54487381",
         "cover_file": "892/cover_54487381.webp"
@@ -60552,7 +60728,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "32348962",
         "cover_file": "893/cover_32348962.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 27,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905476315",
         "cover_file": "893/cover_905476315.webp"
@@ -60572,15 +60756,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782913634",
         "cover_file": "893/cover_782913634.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 542,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "44083914",
         "cover_file": "893/cover_44083914.webp"
@@ -60660,7 +60836,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840293382",
         "cover_file": "894/cover_840293382.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 28,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30156662",
         "cover_file": "894/cover_30156662.webp"
@@ -60680,15 +60864,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905444960",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 543,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "637146401",
         "cover_file": "894/cover_637146401.webp"
@@ -60768,7 +60944,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840396809",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 29,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "56491080",
         "cover_file": "895/cover_56491080.webp"
@@ -60788,15 +60972,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "56640994",
         "cover_file": "895/cover_56640994.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 544,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840395230",
         "cover_file": "895/cover_840395230.webp"
@@ -60876,7 +61052,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840441519",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "management sciences",
+    "virtual_shelf_temp": 30,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "759726366",
         "cover_file": "NA"
@@ -60896,15 +61080,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "775598423",
         "cover_file": "896/cover_775598423.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "management sciences",
-    "virtual_shelf": 545,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "869738858",
         "cover_file": "896/cover_869738858.webp"
@@ -60954,8 +61130,8 @@ const virtual_bookshelves = [
   {
     "topic": "management sciences",
     "sub_topic": "product development",
-    "virtual_shelf": 795,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "34549098",
@@ -61036,7 +61212,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "55474420",
         "cover_file": "903/cover_55474420.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "product development",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783271057",
         "cover_file": "903/cover_783271057.webp"
@@ -61056,15 +61240,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "150115193",
         "cover_file": "904/cover_150115193.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "product development",
-    "virtual_shelf": 796,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56880369",
         "cover_file": "904/cover_56880369.webp"
@@ -61144,7 +61320,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "40820905",
         "cover_file": "904/cover_40820905.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "product development",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840364254",
         "cover_file": "904/cover_840364254.webp"
@@ -61164,15 +61348,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "49531408",
         "cover_file": "905/cover_49531408.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "product development",
-    "virtual_shelf": 797,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "48531564",
         "cover_file": "905/cover_48531564.webp"
@@ -61252,7 +61428,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "154678453",
         "cover_file": "905/cover_154678453.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "management sciences",
+    "sub_topic": "product development",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840399567",
         "cover_file": "905/cover_840399567.webp"
@@ -61272,15 +61456,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "461278825",
         "cover_file": "906/cover_461278825.webp"
-      }
-    ]
-  },
-  {
-    "topic": "management sciences",
-    "sub_topic": "product development",
-    "virtual_shelf": 798,
-    "books_in_bookcase": 20,
-    "books": [
+      },
       {
         "OCLC": "469914738",
         "cover_file": "906/cover_469914738.webp"
@@ -61366,7 +61542,7 @@ const virtual_bookshelves = [
   {
     "topic": "manufacturing technology",
     "sub_topic": "computer integrated manufacturing systems cim systems",
-    "virtual_shelf": 234,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 4,
     "books": [
       {
@@ -61390,8 +61566,8 @@ const virtual_bookshelves = [
   {
     "topic": "manufacturing technology",
     "sub_topic": "joining technology",
-    "virtual_shelf": 491,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "35673472",
@@ -61472,7 +61648,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840392354",
         "cover_file": "604/cover_840392354.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "joining technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839294826",
         "cover_file": "604/cover_839294826.webp"
@@ -61492,15 +61676,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840447291",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "joining technology",
-    "virtual_shelf": 492,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905870239",
         "cover_file": "NA"
@@ -61580,7 +61756,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1231012",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "joining technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 7,
+    "books": [
       {
         "OCLC": "27896788",
         "cover_file": "605/cover_27896788.webp"
@@ -61600,15 +61784,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839263462",
         "cover_file": "605/cover_839263462.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "joining technology",
-    "virtual_shelf": 493,
-    "books_in_bookcase": 2,
-    "books": [
+      },
       {
         "OCLC": "905863982",
         "cover_file": "605/cover_905863982.webp"
@@ -61622,8 +61798,8 @@ const virtual_bookshelves = [
   {
     "topic": "manufacturing technology",
     "sub_topic": "manufacturing technology",
-    "virtual_shelf": 546,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "28844168",
@@ -61704,7 +61880,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839308006",
         "cover_file": "591/cover_839308006.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "manufacturing technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840461585",
         "cover_file": "591/cover_840461585.webp"
@@ -61724,15 +61908,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898831070",
         "cover_file": "591/cover_898831070.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "manufacturing technology",
-    "virtual_shelf": 547,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840386593",
         "cover_file": "591/cover_840386593.webp"
@@ -61812,7 +61988,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "48649881",
         "cover_file": "592/cover_48649881.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "manufacturing technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 7,
+    "books": [
       {
         "OCLC": "48263741",
         "cover_file": "592/cover_48263741.webp"
@@ -61832,15 +62016,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839233907",
         "cover_file": "592/cover_839233907.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "manufacturing technology",
-    "virtual_shelf": 548,
-    "books_in_bookcase": 2,
-    "books": [
+      },
       {
         "OCLC": "840399735",
         "cover_file": "592/cover_840399735.webp"
@@ -61854,8 +62030,8 @@ const virtual_bookshelves = [
   {
     "topic": "manufacturing technology",
     "sub_topic": "materials processing",
-    "virtual_shelf": 557,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840352661",
@@ -61936,7 +62112,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840398511",
         "cover_file": "597/cover_840398511.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "materials processing",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840429254",
         "cover_file": "597/cover_840429254.webp"
@@ -61956,15 +62140,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "68032924",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "materials processing",
-    "virtual_shelf": 558,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "42649747",
         "cover_file": "598/cover_42649747.webp"
@@ -62044,7 +62220,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839674890",
         "cover_file": "599/cover_839674890.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "materials processing",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840351358",
         "cover_file": "NA"
@@ -62064,15 +62248,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "39108619",
         "cover_file": "599/cover_39108619.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "materials processing",
-    "virtual_shelf": 559,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "1301594",
         "cover_file": "NA"
@@ -62152,7 +62328,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "27264600",
         "cover_file": "601/cover_27264600.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "materials processing",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840259572",
         "cover_file": "NA"
@@ -62172,15 +62356,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840372623",
         "cover_file": "601/cover_840372623.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "materials processing",
-    "virtual_shelf": 560,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840369724",
         "cover_file": "601/cover_840369724.webp"
@@ -62260,7 +62436,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839333395",
         "cover_file": "601/cover_839333395.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "materials processing",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840438914",
         "cover_file": "601/cover_840438914.webp"
@@ -62280,15 +62464,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840402601",
         "cover_file": "602/cover_840402601.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "materials processing",
-    "virtual_shelf": 561,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839296543",
         "cover_file": "602/cover_839296543.webp"
@@ -62368,7 +62544,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840365846",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "materials processing",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "840365847",
         "cover_file": "NA"
@@ -62388,15 +62572,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840353533",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "materials processing",
-    "virtual_shelf": 562,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "840358337",
         "cover_file": "603/cover_840358337.webp"
@@ -62470,7 +62646,7 @@ const virtual_bookshelves = [
   {
     "topic": "manufacturing technology",
     "sub_topic": "packaging and printing technology",
-    "virtual_shelf": 694,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 18,
     "books": [
       {
@@ -62550,8 +62726,8 @@ const virtual_bookshelves = [
   {
     "topic": "manufacturing technology",
     "sub_topic": "robotics",
-    "virtual_shelf": 844,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "12907883",
@@ -62632,7 +62808,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840414508",
         "cover_file": "593/cover_840414508.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "robotics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840414886",
         "cover_file": "593/cover_840414886.webp"
@@ -62652,15 +62836,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "302098997",
         "cover_file": "593/cover_302098997.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "robotics",
-    "virtual_shelf": 845,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839297999",
         "cover_file": "593/cover_839297999.webp"
@@ -62740,7 +62916,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840275650",
         "cover_file": "594/cover_840275650.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "robotics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "28854393",
         "cover_file": "594/cover_28854393.webp"
@@ -62760,15 +62944,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840348575",
         "cover_file": "594/cover_840348575.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "robotics",
-    "virtual_shelf": 846,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "34658554",
         "cover_file": "594/cover_34658554.webp"
@@ -62848,7 +63024,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "45841587",
         "cover_file": "595/cover_45841587.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "robotics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840375266",
         "cover_file": "595/cover_840375266.webp"
@@ -62868,15 +63052,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839270943",
         "cover_file": "595/cover_839270943.webp"
-      }
-    ]
-  },
-  {
-    "topic": "manufacturing technology",
-    "sub_topic": "robotics",
-    "virtual_shelf": 847,
-    "books_in_bookcase": 22,
-    "books": [
+      },
       {
         "OCLC": "840446646",
         "cover_file": "595/cover_840446646.webp"
@@ -62956,7 +63132,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840397760",
         "cover_file": "596/cover_840397760.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "manufacturing technology",
+    "sub_topic": "robotics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "680595937",
         "cover_file": "596/cover_680595937.webp"
@@ -62970,7 +63154,7 @@ const virtual_bookshelves = [
   {
     "topic": "manufacturing technology",
     "sub_topic": "surface finishing",
-    "virtual_shelf": 938,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
     "books": [
       {
@@ -63058,8 +63242,8 @@ const virtual_bookshelves = [
   {
     "topic": "marine technology",
     "sub_topic": "naval architecture",
-    "virtual_shelf": 624,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "881071",
@@ -63140,7 +63324,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905501530",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "naval architecture",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840372306",
         "cover_file": "608/cover_840372306.webp"
@@ -63160,15 +63352,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905504709",
         "cover_file": "608/cover_905504709.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "naval architecture",
-    "virtual_shelf": 625,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840381123",
         "cover_file": "608/cover_840381123.webp"
@@ -63248,7 +63432,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "911671154",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "naval architecture",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "911670496",
         "cover_file": "NA"
@@ -63268,15 +63460,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "2323986",
         "cover_file": "609/cover_2323986.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "naval architecture",
-    "virtual_shelf": 626,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "803775",
         "cover_file": "609/cover_803775.webp"
@@ -63356,7 +63540,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839224274",
         "cover_file": "609/cover_839224274.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "naval architecture",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "830520499",
         "cover_file": "609/cover_830520499.webp"
@@ -63376,15 +63568,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "85429",
         "cover_file": "610/cover_85429.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "naval architecture",
-    "virtual_shelf": 627,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841669611",
         "cover_file": "NA"
@@ -63464,7 +63648,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840267874",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "naval architecture",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "32778444",
         "cover_file": "610/cover_32778444.webp"
@@ -63484,15 +63676,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "40892256",
         "cover_file": "610/cover_40892256.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "naval architecture",
-    "virtual_shelf": 628,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "43186867",
         "cover_file": "610/cover_43186867.webp"
@@ -63566,8 +63750,8 @@ const virtual_bookshelves = [
   {
     "topic": "marine technology",
     "sub_topic": "offshore technology",
-    "virtual_shelf": 662,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "17546743",
@@ -63648,7 +63832,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840355364",
         "cover_file": "616/cover_840355364.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "offshore technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905504845",
         "cover_file": "616/cover_905504845.webp"
@@ -63668,15 +63860,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "14378535",
         "cover_file": "617/cover_14378535.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "offshore technology",
-    "virtual_shelf": 663,
-    "books_in_bookcase": 23,
-    "books": [
+      },
       {
         "OCLC": "20594072",
         "cover_file": "NA"
@@ -63756,7 +63940,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839674315",
         "cover_file": "617/cover_839674315.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "offshore technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 3,
+    "books": [
       {
         "OCLC": "840259653",
         "cover_file": "NA"
@@ -63774,8 +63966,8 @@ const virtual_bookshelves = [
   {
     "topic": "marine technology",
     "sub_topic": "shipping ships and special craft",
-    "virtual_shelf": 882,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "3298843",
@@ -63856,7 +64048,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "55212221",
         "cover_file": "611/cover_55212221.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "shipping ships and special craft",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "57485324",
         "cover_file": "611/cover_57485324.webp"
@@ -63876,15 +64076,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "298113297",
         "cover_file": "612/cover_298113297.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "shipping ships and special craft",
-    "virtual_shelf": 883,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "421811675",
         "cover_file": "612/cover_421811675.webp"
@@ -63964,7 +64156,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "3249733",
         "cover_file": "612/cover_3249733.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "shipping ships and special craft",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "781180823",
         "cover_file": "612/cover_781180823.webp"
@@ -63984,15 +64184,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "30079029",
         "cover_file": "612/cover_30079029.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "shipping ships and special craft",
-    "virtual_shelf": 884,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "898949387",
         "cover_file": "NA"
@@ -64072,7 +64264,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "911670821",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "shipping ships and special craft",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905862158",
         "cover_file": "NA"
@@ -64092,15 +64292,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840371394",
         "cover_file": "613/cover_840371394.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "shipping ships and special craft",
-    "virtual_shelf": 885,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840377675",
         "cover_file": "613/cover_840377675.webp"
@@ -64180,7 +64372,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839263457",
         "cover_file": "614/cover_839263457.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "shipping ships and special craft",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840445984",
         "cover_file": "614/cover_840445984.webp"
@@ -64200,15 +64400,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840382381",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "shipping ships and special craft",
-    "virtual_shelf": 886,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840376310",
         "cover_file": "614/cover_840376310.webp"
@@ -64288,7 +64480,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839233704",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "marine technology",
+    "sub_topic": "shipping ships and special craft",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "820693137",
         "cover_file": "615/cover_820693137.webp"
@@ -64308,15 +64508,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905871192",
         "cover_file": "615/cover_905871192.webp"
-      }
-    ]
-  },
-  {
-    "topic": "marine technology",
-    "sub_topic": "shipping ships and special craft",
-    "virtual_shelf": 887,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "905871210",
         "cover_file": "NA"
@@ -64390,8 +64582,8 @@ const virtual_bookshelves = [
   {
     "topic": "materials engineering",
     "sub_topic": "materials engineering general",
-    "virtual_shelf": 549,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840273218",
@@ -64472,7 +64664,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "61874960",
         "cover_file": "379/cover_61874960.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "materials engineering general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840393601",
         "cover_file": "379/cover_840393601.webp"
@@ -64492,15 +64692,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "191849156",
         "cover_file": "379/cover_191849156.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "materials engineering general",
-    "virtual_shelf": 550,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839227345",
         "cover_file": "379/cover_839227345.webp"
@@ -64580,7 +64772,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905462995",
         "cover_file": "380/cover_905462995.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "materials engineering general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "13822444",
         "cover_file": "380/cover_13822444.webp"
@@ -64600,15 +64800,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "35043465",
         "cover_file": "380/cover_35043465.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "materials engineering general",
-    "virtual_shelf": 551,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840323188",
         "cover_file": "380/cover_840323188.webp"
@@ -64688,7 +64880,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "71721991",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "materials engineering general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "56639853",
         "cover_file": "381/cover_56639853.webp"
@@ -64708,15 +64908,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "154712098",
         "cover_file": "381/cover_154712098.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "materials engineering general",
-    "virtual_shelf": 552,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "72868163",
         "cover_file": "381/cover_72868163.webp"
@@ -64796,7 +64988,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839308973",
         "cover_file": "382/cover_839308973.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "materials engineering general",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839304387",
         "cover_file": "382/cover_839304387.webp"
@@ -64816,15 +65016,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839289422",
         "cover_file": "382/cover_839289422.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "materials engineering general",
-    "virtual_shelf": 553,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "702003917",
         "cover_file": "382/cover_702003917.webp"
@@ -64904,7 +65096,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "813939496",
         "cover_file": "383/cover_813939496.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "materials engineering general",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "911071833",
         "cover_file": "383/cover_911071833.webp"
@@ -64924,15 +65124,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840273555",
         "cover_file": "384/cover_840273555.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "materials engineering general",
-    "virtual_shelf": 554,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "31411807",
         "cover_file": "384/cover_31411807.webp"
@@ -65012,7 +65204,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905464302",
         "cover_file": "385/cover_905464302.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "materials engineering general",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "16582233",
         "cover_file": "385/cover_16582233.webp"
@@ -65032,15 +65232,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32166513",
         "cover_file": "385/cover_32166513.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "materials engineering general",
-    "virtual_shelf": 555,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "840298527",
         "cover_file": "385/cover_840298527.webp"
@@ -65120,7 +65312,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840443731",
         "cover_file": "385/cover_840443731.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "materials engineering general",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "743017469",
         "cover_file": "385/cover_743017469.webp"
@@ -65130,8 +65330,8 @@ const virtual_bookshelves = [
   {
     "topic": "materials engineering",
     "sub_topic": "metals",
-    "virtual_shelf": 604,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841131615",
@@ -65212,7 +65412,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840334486",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "metals",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840355291",
         "cover_file": "386/cover_840355291.webp"
@@ -65232,15 +65440,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840354345",
         "cover_file": "386/cover_840354345.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "metals",
-    "virtual_shelf": 605,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "37465127",
         "cover_file": "NA"
@@ -65320,7 +65520,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "816046502",
         "cover_file": "387/cover_816046502.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "metals",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840254444",
         "cover_file": "387/cover_840254444.webp"
@@ -65340,15 +65548,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1220670",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "metals",
-    "virtual_shelf": 606,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "1976941",
         "cover_file": "NA"
@@ -65428,7 +65628,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840369969",
         "cover_file": "388/cover_840369969.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "metals",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840374209",
         "cover_file": "388/cover_840374209.webp"
@@ -65448,15 +65656,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "9005373",
         "cover_file": "389/cover_9005373.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "metals",
-    "virtual_shelf": 607,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840298510",
         "cover_file": "389/cover_840298510.webp"
@@ -65536,7 +65736,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "32664979",
         "cover_file": "389/cover_32664979.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "metals",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "68523364",
         "cover_file": "NA"
@@ -65556,15 +65764,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840358930",
         "cover_file": "390/cover_840358930.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "metals",
-    "virtual_shelf": 608,
-    "books_in_bookcase": 22,
-    "books": [
+      },
       {
         "OCLC": "42863103",
         "cover_file": "390/cover_42863103.webp"
@@ -65644,7 +65844,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840315148",
         "cover_file": "391/cover_840315148.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "metals",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "840337340",
         "cover_file": "NA"
@@ -65658,8 +65866,8 @@ const virtual_bookshelves = [
   {
     "topic": "materials engineering",
     "sub_topic": "non metallic materials",
-    "virtual_shelf": 629,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "4135965",
@@ -65740,7 +65948,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "911671105",
         "cover_file": "391/cover_911671105.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "non metallic materials",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "54373102",
         "cover_file": "392/cover_54373102.webp"
@@ -65760,15 +65976,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "66418222",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "non metallic materials",
-    "virtual_shelf": 630,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840393700",
         "cover_file": "392/cover_840393700.webp"
@@ -65848,7 +66056,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840391618",
         "cover_file": "393/cover_840391618.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "non metallic materials",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840396797",
         "cover_file": "393/cover_840396797.webp"
@@ -65868,15 +66084,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839271563",
         "cover_file": "393/cover_839271563.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "non metallic materials",
-    "virtual_shelf": 631,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839313342",
         "cover_file": "393/cover_839313342.webp"
@@ -65956,7 +66164,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840354371",
         "cover_file": "394/cover_840354371.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "non metallic materials",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905479680",
         "cover_file": "394/cover_905479680.webp"
@@ -65976,15 +66192,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "47797646",
         "cover_file": "394/cover_47797646.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "non metallic materials",
-    "virtual_shelf": 632,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "47270809",
         "cover_file": "394/cover_47270809.webp"
@@ -66064,7 +66272,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839227296",
         "cover_file": "395/cover_839227296.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "non metallic materials",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839224303",
         "cover_file": "395/cover_839224303.webp"
@@ -66084,15 +66300,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840406121",
         "cover_file": "395/cover_840406121.webp"
-      }
-    ]
-  },
-  {
-    "topic": "materials engineering",
-    "sub_topic": "non metallic materials",
-    "virtual_shelf": 633,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839234015",
         "cover_file": "395/cover_839234015.webp"
@@ -66172,7 +66380,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840384366",
         "cover_file": "396/cover_840384366.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "materials engineering",
+    "sub_topic": "non metallic materials",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 5,
+    "books": [
       {
         "OCLC": "71232585",
         "cover_file": "396/cover_71232585.webp"
@@ -66198,8 +66414,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "algebra",
-    "virtual_shelf": 23,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840467447",
@@ -66280,7 +66496,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "65817697",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "algebra",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840315475",
         "cover_file": "44/cover_840315475.webp"
@@ -66300,15 +66524,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "780436590",
         "cover_file": "44/cover_780436590.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "algebra",
-    "virtual_shelf": 24,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "4379043",
         "cover_file": "44/cover_4379043.webp"
@@ -66388,7 +66604,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "685252076",
         "cover_file": "45/cover_685252076.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "algebra",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "806778555",
         "cover_file": "45/cover_806778555.webp"
@@ -66408,15 +66632,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "524334",
         "cover_file": "45/cover_524334.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "algebra",
-    "virtual_shelf": 25,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "1602194",
         "cover_file": "NA"
@@ -66496,7 +66712,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905503630",
         "cover_file": "46/cover_905503630.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "algebra",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840380744",
         "cover_file": "46/cover_840380744.webp"
@@ -66516,15 +66740,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "902331439",
         "cover_file": "46/cover_902331439.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "algebra",
-    "virtual_shelf": 26,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "53331094",
         "cover_file": "46/cover_53331094.webp"
@@ -66604,7 +66820,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "779467241",
         "cover_file": "46/cover_779467241.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "algebra",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840461686",
         "cover_file": "46/cover_840461686.webp"
@@ -66624,15 +66848,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "781390710",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "algebra",
-    "virtual_shelf": 27,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782680497",
         "cover_file": "47/cover_782680497.webp"
@@ -66712,7 +66928,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "56686491",
         "cover_file": "47/cover_56686491.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "algebra",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840395520",
         "cover_file": "47/cover_840395520.webp"
@@ -66732,15 +66956,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839262842",
         "cover_file": "47/cover_839262842.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "algebra",
-    "virtual_shelf": 28,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839235863",
         "cover_file": "47/cover_839235863.webp"
@@ -66820,7 +67036,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "17354658",
         "cover_file": "48/cover_17354658.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "algebra",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30028913",
         "cover_file": "48/cover_30028913.webp"
@@ -66840,15 +67064,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "907340270",
         "cover_file": "48/cover_907340270.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "algebra",
-    "virtual_shelf": 29,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840447325",
         "cover_file": "48/cover_840447325.webp"
@@ -66928,7 +67144,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "793413785",
         "cover_file": "49/cover_793413785.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "algebra",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 24,
+    "books": [
       {
         "OCLC": "905869294",
         "cover_file": "49/cover_905869294.webp"
@@ -66948,15 +67172,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "55518087",
         "cover_file": "50/cover_55518087.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "algebra",
-    "virtual_shelf": 30,
-    "books_in_bookcase": 19,
-    "books": [
+      },
       {
         "OCLC": "898804836",
         "cover_file": "50/cover_898804836.webp"
@@ -67038,8 +67254,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
-    "virtual_shelf": 67,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "1896345",
@@ -67120,7 +67336,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "40821116",
         "cover_file": "63/cover_40821116.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840360532",
         "cover_file": "63/cover_840360532.webp"
@@ -67140,15 +67364,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905504749",
         "cover_file": "63/cover_905504749.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
-    "virtual_shelf": 68,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "51569246",
         "cover_file": "63/cover_51569246.webp"
@@ -67228,7 +67444,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41284972",
         "cover_file": "64/cover_41284972.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42214735",
         "cover_file": "64/cover_42214735.webp"
@@ -67248,15 +67472,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "45276758",
         "cover_file": "64/cover_45276758.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
-    "virtual_shelf": 69,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "47056364",
         "cover_file": "64/cover_47056364.webp"
@@ -67336,7 +67552,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "857275355",
         "cover_file": "65/cover_857275355.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "905865039",
         "cover_file": "65/cover_905865039.webp"
@@ -67356,15 +67580,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898801454",
         "cover_file": "65/cover_898801454.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
-    "virtual_shelf": 70,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "40776787",
         "cover_file": "65/cover_40776787.webp"
@@ -67402,8 +67618,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "differential equations general ordinary differential equations",
-    "virtual_shelf": 275,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841826407",
@@ -67484,7 +67700,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "71604355",
         "cover_file": "56/cover_71604355.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "differential equations general ordinary differential equations",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839227265",
         "cover_file": "56/cover_839227265.webp"
@@ -67504,15 +67728,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "466341417",
         "cover_file": "57/cover_466341417.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "differential equations general ordinary differential equations",
-    "virtual_shelf": 276,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840429253",
         "cover_file": "57/cover_840429253.webp"
@@ -67592,7 +67808,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "50749130",
         "cover_file": "57/cover_50749130.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "differential equations general ordinary differential equations",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "52559225",
         "cover_file": "57/cover_52559225.webp"
@@ -67612,15 +67836,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840447211",
         "cover_file": "57/cover_840447211.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "differential equations general ordinary differential equations",
-    "virtual_shelf": 277,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840447077",
         "cover_file": "57/cover_840447077.webp"
@@ -67700,7 +67916,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840454885",
         "cover_file": "58/cover_840454885.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "differential equations general ordinary differential equations",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "822230455",
         "cover_file": "58/cover_822230455.webp"
@@ -67720,15 +67944,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840367925",
         "cover_file": "59/cover_840367925.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "differential equations general ordinary differential equations",
-    "virtual_shelf": 278,
-    "books_in_bookcase": 22,
-    "books": [
+      },
       {
         "OCLC": "54822102",
         "cover_file": "59/cover_54822102.webp"
@@ -67808,7 +68024,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "37513014",
         "cover_file": "60/cover_37513014.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "differential equations general ordinary differential equations",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "165412351",
         "cover_file": "60/cover_165412351.webp"
@@ -67822,8 +68046,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "discrete mathematics combinatorics graph theory",
-    "virtual_shelf": 279,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840298616",
@@ -67904,7 +68128,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839068003",
         "cover_file": "39/cover_839068003.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "discrete mathematics combinatorics graph theory",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "760053649",
         "cover_file": "39/cover_760053649.webp"
@@ -67924,15 +68156,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438521",
         "cover_file": "39/cover_840438521.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "discrete mathematics combinatorics graph theory",
-    "virtual_shelf": 280,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "437054050",
         "cover_file": "39/cover_437054050.webp"
@@ -68012,7 +68236,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42762095",
         "cover_file": "40/cover_42762095.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "discrete mathematics combinatorics graph theory",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905502711",
         "cover_file": "40/cover_905502711.webp"
@@ -68032,15 +68264,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "55081039",
         "cover_file": "40/cover_55081039.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "discrete mathematics combinatorics graph theory",
-    "virtual_shelf": 281,
-    "books_in_bookcase": 23,
-    "books": [
+      },
       {
         "OCLC": "839215110",
         "cover_file": "40/cover_839215110.webp"
@@ -68120,7 +68344,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840273577",
         "cover_file": "41/cover_840273577.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "discrete mathematics combinatorics graph theory",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 3,
+    "books": [
       {
         "OCLC": "840383801",
         "cover_file": "41/cover_840383801.webp"
@@ -68138,8 +68370,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "functional analysis calculus of variations",
-    "virtual_shelf": 369,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "240184",
@@ -68220,7 +68452,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783191659",
         "cover_file": "66/cover_783191659.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "functional analysis calculus of variations",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840387747",
         "cover_file": "66/cover_840387747.webp"
@@ -68240,15 +68480,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868380",
         "cover_file": "66/cover_905868380.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "functional analysis calculus of variations",
-    "virtual_shelf": 370,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "68499869",
         "cover_file": "66/cover_68499869.webp"
@@ -68328,7 +68560,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840451326",
         "cover_file": "67/cover_840451326.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "functional analysis calculus of variations",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "40386664",
         "cover_file": "NA"
@@ -68348,15 +68588,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "768448715",
         "cover_file": "68/cover_768448715.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "functional analysis calculus of variations",
-    "virtual_shelf": 371,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "27014066",
         "cover_file": "68/cover_27014066.webp"
@@ -68436,7 +68668,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "10779773",
         "cover_file": "69/cover_10779773.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "functional analysis calculus of variations",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 14,
+    "books": [
       {
         "OCLC": "19723881",
         "cover_file": "69/cover_19723881.webp"
@@ -68456,15 +68696,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "39658898",
         "cover_file": "69/cover_39658898.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "functional analysis calculus of variations",
-    "virtual_shelf": 372,
-    "books_in_bookcase": 9,
-    "books": [
+      },
       {
         "OCLC": "782806150",
         "cover_file": "69/cover_782806150.webp"
@@ -68506,8 +68738,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "geometry",
-    "virtual_shelf": 398,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "530080",
@@ -68588,7 +68820,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "568790579",
         "cover_file": "70/cover_568790579.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "geometry",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "535492236",
         "cover_file": "70/cover_535492236.webp"
@@ -68608,15 +68848,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839272846",
         "cover_file": "70/cover_839272846.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "geometry",
-    "virtual_shelf": 399,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839304400",
         "cover_file": "70/cover_839304400.webp"
@@ -68696,7 +68928,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "768447198",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "geometry",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "11044741",
         "cover_file": "71/cover_11044741.webp"
@@ -68716,15 +68956,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898988604",
         "cover_file": "71/cover_898988604.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "geometry",
-    "virtual_shelf": 400,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "44634396",
         "cover_file": "71/cover_44634396.webp"
@@ -68804,7 +69036,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "795107026",
         "cover_file": "72/cover_795107026.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "geometry",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "839335011",
         "cover_file": "72/cover_839335011.webp"
@@ -68824,15 +69064,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840346653",
         "cover_file": "72/cover_840346653.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "geometry",
-    "virtual_shelf": 401,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "840394388",
         "cover_file": "72/cover_840394388.webp"
@@ -68870,8 +69102,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "information theory",
-    "virtual_shelf": 483,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "1561841",
@@ -68952,7 +69184,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "44669778",
         "cover_file": "115/cover_44669778.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "information theory",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840379041",
         "cover_file": "115/cover_840379041.webp"
@@ -68972,15 +69212,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839047517",
         "cover_file": "115/cover_839047517.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "information theory",
-    "virtual_shelf": 484,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "61253969",
         "cover_file": "115/cover_61253969.webp"
@@ -69060,7 +69292,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437443",
         "cover_file": "115/cover_840437443.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "information theory",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 5,
+    "books": [
       {
         "OCLC": "632082036",
         "cover_file": "115/cover_632082036.webp"
@@ -69086,8 +69326,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "mathematical logic and set theory",
-    "virtual_shelf": 563,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "5843249",
@@ -69168,7 +69408,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "841072673",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical logic and set theory",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 24,
+    "books": [
       {
         "OCLC": "799537",
         "cover_file": "37/cover_799537.webp"
@@ -69188,15 +69436,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840727862",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical logic and set theory",
-    "virtual_shelf": 564,
-    "books_in_bookcase": 19,
-    "books": [
+      },
       {
         "OCLC": "840371028",
         "cover_file": "37/cover_840371028.webp"
@@ -69278,8 +69518,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "mathematical statistics",
-    "virtual_shelf": 566,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "5946525",
@@ -69360,7 +69600,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840385424",
         "cover_file": "84/cover_840385424.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783176223",
         "cover_file": "84/cover_783176223.webp"
@@ -69380,15 +69628,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840396777",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 567,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "777714889",
         "cover_file": "84/cover_777714889.webp"
@@ -69468,7 +69708,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "34730152",
         "cover_file": "85/cover_34730152.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42358640",
         "cover_file": "85/cover_42358640.webp"
@@ -69488,15 +69736,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42798174",
         "cover_file": "86/cover_42798174.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 568,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783011998",
         "cover_file": "86/cover_783011998.webp"
@@ -69576,7 +69816,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840398612",
         "cover_file": "86/cover_840398612.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "317397146",
         "cover_file": "86/cover_317397146.webp"
@@ -69596,15 +69844,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "781690278",
         "cover_file": "87/cover_781690278.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 569,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905464528",
         "cover_file": "87/cover_905464528.webp"
@@ -69684,7 +69924,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41347061",
         "cover_file": "88/cover_41347061.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "86090448",
         "cover_file": "88/cover_86090448.webp"
@@ -69704,15 +69952,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839735707",
         "cover_file": "88/cover_839735707.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 570,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782240072",
         "cover_file": "88/cover_782240072.webp"
@@ -69792,7 +70032,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42429374",
         "cover_file": "89/cover_42429374.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840372693",
         "cover_file": "89/cover_840372693.webp"
@@ -69812,15 +70060,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "777945780",
         "cover_file": "89/cover_777945780.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 571,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839312155",
         "cover_file": "89/cover_839312155.webp"
@@ -69900,7 +70140,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "36351212",
         "cover_file": "90/cover_36351212.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783883948",
         "cover_file": "90/cover_783883948.webp"
@@ -69920,15 +70168,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782694647",
         "cover_file": "90/cover_782694647.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 572,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782908470",
         "cover_file": "90/cover_782908470.webp"
@@ -70008,7 +70248,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783005401",
         "cover_file": "91/cover_783005401.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840386011",
         "cover_file": "91/cover_840386011.webp"
@@ -70028,15 +70276,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "3167053",
         "cover_file": "91/cover_3167053.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 573,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "15518367",
         "cover_file": "91/cover_15518367.webp"
@@ -70116,7 +70356,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782990473",
         "cover_file": "91/cover_782990473.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782950516",
         "cover_file": "91/cover_782950516.webp"
@@ -70136,15 +70384,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783070121",
         "cover_file": "92/cover_783070121.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 574,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "773788914",
         "cover_file": "92/cover_773788914.webp"
@@ -70224,7 +70464,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782899778",
         "cover_file": "92/cover_782899778.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "39849292",
         "cover_file": "92/cover_39849292.webp"
@@ -70244,15 +70492,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42726017",
         "cover_file": "92/cover_42726017.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical statistics",
-    "virtual_shelf": 575,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840367619",
         "cover_file": "92/cover_840367619.webp"
@@ -70332,7 +70572,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "47667229",
         "cover_file": "93/cover_47667229.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical statistics",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 5,
+    "books": [
       {
         "OCLC": "66747532",
         "cover_file": "93/cover_66747532.webp"
@@ -70358,8 +70606,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "mathematical systems theory",
-    "virtual_shelf": 576,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841174809",
@@ -70440,7 +70688,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "34357985",
         "cover_file": "110/cover_34357985.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical systems theory",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "38884169",
         "cover_file": "110/cover_38884169.webp"
@@ -70460,15 +70716,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "46808614",
         "cover_file": "110/cover_46808614.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical systems theory",
-    "virtual_shelf": 577,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "46402107",
         "cover_file": "110/cover_46402107.webp"
@@ -70548,7 +70796,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "62479222",
         "cover_file": "111/cover_62479222.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical systems theory",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "61176557",
         "cover_file": "111/cover_61176557.webp"
@@ -70568,15 +70824,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "255543584",
         "cover_file": "111/cover_255543584.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical systems theory",
-    "virtual_shelf": 578,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839246198",
         "cover_file": "111/cover_839246198.webp"
@@ -70656,7 +70904,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840459738",
         "cover_file": "112/cover_840459738.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical systems theory",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905868787",
         "cover_file": "112/cover_905868787.webp"
@@ -70676,15 +70932,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "842877119",
         "cover_file": "112/cover_842877119.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical systems theory",
-    "virtual_shelf": 579,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "22735006",
         "cover_file": "NA"
@@ -70764,7 +71012,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "368050915",
         "cover_file": "113/cover_368050915.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematical systems theory",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "839274103",
         "cover_file": "113/cover_839274103.webp"
@@ -70784,15 +71040,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839307942",
         "cover_file": "113/cover_839307942.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematical systems theory",
-    "virtual_shelf": 580,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "840459341",
         "cover_file": "113/cover_840459341.webp"
@@ -70842,8 +71090,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "mathematics general",
-    "virtual_shelf": 581,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "526474",
@@ -70924,7 +71172,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "33946927",
         "cover_file": "25/cover_33946927.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37141143",
         "cover_file": "25/cover_37141143.webp"
@@ -70944,15 +71200,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782895140",
         "cover_file": "25/cover_782895140.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 582,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "42061066",
         "cover_file": "26/cover_42061066.webp"
@@ -71032,7 +71280,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "52058385",
         "cover_file": "26/cover_52058385.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840382075",
         "cover_file": "27/cover_840382075.webp"
@@ -71052,15 +71308,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "60320111",
         "cover_file": "27/cover_60320111.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 583,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "57355197",
         "cover_file": "27/cover_57355197.webp"
@@ -71140,7 +71388,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "641201382",
         "cover_file": "28/cover_641201382.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839276149",
         "cover_file": "28/cover_839276149.webp"
@@ -71160,15 +71416,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840422641",
         "cover_file": "28/cover_840422641.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 584,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "786174701",
         "cover_file": "28/cover_786174701.webp"
@@ -71248,7 +71496,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "901239734",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840365246",
         "cover_file": "29/cover_840365246.webp"
@@ -71268,15 +71524,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "61260064",
         "cover_file": "30/cover_61260064.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 585,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840390251",
         "cover_file": "30/cover_840390251.webp"
@@ -71356,7 +71604,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840411930",
         "cover_file": "30/cover_840411930.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839278411",
         "cover_file": "30/cover_839278411.webp"
@@ -71376,15 +71632,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840364818",
         "cover_file": "31/cover_840364818.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 586,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782902929",
         "cover_file": "31/cover_782902929.webp"
@@ -71464,7 +71712,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "62532900",
         "cover_file": "31/cover_62532900.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "68772618",
         "cover_file": "32/cover_68772618.webp"
@@ -71484,15 +71740,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "747837324",
         "cover_file": "32/cover_747837324.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 587,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783450823",
         "cover_file": "32/cover_783450823.webp"
@@ -71572,7 +71820,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "781099904",
         "cover_file": "33/cover_781099904.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30544440",
         "cover_file": "33/cover_30544440.webp"
@@ -71592,15 +71848,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905504877",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 588,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "54666079",
         "cover_file": "33/cover_54666079.webp"
@@ -71680,7 +71928,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "810326709",
         "cover_file": "34/cover_810326709.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "814381861",
         "cover_file": "34/cover_814381861.webp"
@@ -71700,15 +71956,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "875289077",
         "cover_file": "34/cover_875289077.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 589,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905869905",
         "cover_file": "34/cover_905869905.webp"
@@ -71788,7 +72036,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "27810470",
         "cover_file": "34/cover_27810470.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30979167",
         "cover_file": "34/cover_30979167.webp"
@@ -71808,15 +72064,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "57134002",
         "cover_file": "34/cover_57134002.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 590,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840403061",
         "cover_file": "NA"
@@ -71896,7 +72144,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839334397",
         "cover_file": "35/cover_839334397.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "mathematics general",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 21,
+    "books": [
       {
         "OCLC": "905869737",
         "cover_file": "35/cover_905869737.webp"
@@ -71916,15 +72172,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840345850",
         "cover_file": "35/cover_840345850.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "mathematics general",
-    "virtual_shelf": 591,
-    "books_in_bookcase": 16,
-    "books": [
+      },
       {
         "OCLC": "36011750",
         "cover_file": "35/cover_36011750.webp"
@@ -71994,8 +72242,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "number theory",
-    "virtual_shelf": 647,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "21560442",
@@ -72076,7 +72324,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445073",
         "cover_file": "42/cover_840445073.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "number theory",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 19,
+    "books": [
       {
         "OCLC": "840424696",
         "cover_file": "42/cover_840424696.webp"
@@ -72096,15 +72352,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839278593",
         "cover_file": "42/cover_839278593.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "number theory",
-    "virtual_shelf": 648,
-    "books_in_bookcase": 14,
-    "books": [
+      },
       {
         "OCLC": "839295727",
         "cover_file": "42/cover_839295727.webp"
@@ -72166,8 +72414,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "numerical mathematics",
-    "virtual_shelf": 649,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "769333246",
@@ -72248,7 +72496,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "57553103",
         "cover_file": "94/cover_57553103.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "numerical mathematics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "71716275",
         "cover_file": "94/cover_71716275.webp"
@@ -72268,15 +72524,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "77540437",
         "cover_file": "94/cover_77540437.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "numerical mathematics",
-    "virtual_shelf": 650,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "63137198",
         "cover_file": "94/cover_63137198.webp"
@@ -72356,7 +72604,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "35455584",
         "cover_file": "95/cover_35455584.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "numerical mathematics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840347461",
         "cover_file": "95/cover_840347461.webp"
@@ -72376,15 +72632,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "45024436",
         "cover_file": "95/cover_45024436.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "numerical mathematics",
-    "virtual_shelf": 651,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "57553103",
         "cover_file": "95/cover_57553103.webp"
@@ -72464,7 +72712,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "26720431",
         "cover_file": "96/cover_26720431.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "numerical mathematics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840348077",
         "cover_file": "96/cover_840348077.webp"
@@ -72484,15 +72740,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "14002800",
         "cover_file": "97/cover_14002800.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "numerical mathematics",
-    "virtual_shelf": 652,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "19979880",
         "cover_file": "97/cover_19979880.webp"
@@ -72572,7 +72820,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "225430135",
         "cover_file": "97/cover_225430135.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "numerical mathematics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "277275036",
         "cover_file": "97/cover_277275036.webp"
@@ -72592,15 +72848,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "24380161",
         "cover_file": "97/cover_24380161.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "numerical mathematics",
-    "virtual_shelf": 653,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "60266350",
         "cover_file": "97/cover_60266350.webp"
@@ -72680,7 +72928,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "3326832",
         "cover_file": "98/cover_3326832.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "numerical mathematics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "780450201",
         "cover_file": "98/cover_780450201.webp"
@@ -72700,15 +72956,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "7672324",
         "cover_file": "98/cover_7672324.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "numerical mathematics",
-    "virtual_shelf": 654,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "19401228",
         "cover_file": "NA"
@@ -72788,7 +73036,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67830189",
         "cover_file": "99/cover_67830189.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "numerical mathematics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "43836377",
         "cover_file": "99/cover_43836377.webp"
@@ -72808,15 +73064,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "43969125",
         "cover_file": "99/cover_43969125.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "numerical mathematics",
-    "virtual_shelf": 655,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "46847582",
         "cover_file": "99/cover_46847582.webp"
@@ -72896,7 +73144,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "60717562",
         "cover_file": "100/cover_60717562.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "numerical mathematics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840394049",
         "cover_file": "100/cover_840394049.webp"
@@ -72916,15 +73172,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "777951736",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "numerical mathematics",
-    "virtual_shelf": 656,
-    "books_in_bookcase": 20,
-    "books": [
+      },
       {
         "OCLC": "839233910",
         "cover_file": "100/cover_839233910.webp"
@@ -73010,8 +73258,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "operations research",
-    "virtual_shelf": 666,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "6503172",
@@ -73092,7 +73340,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "311769446",
         "cover_file": "103/cover_311769446.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "operations research",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905869180",
         "cover_file": "NA"
@@ -73112,15 +73368,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840461652",
         "cover_file": "103/cover_840461652.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "operations research",
-    "virtual_shelf": 667,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "13396043",
         "cover_file": "103/cover_13396043.webp"
@@ -73200,7 +73448,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840381100",
         "cover_file": "103/cover_840381100.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "operations research",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783070286",
         "cover_file": "103/cover_783070286.webp"
@@ -73220,15 +73476,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839235702",
         "cover_file": "104/cover_839235702.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "operations research",
-    "virtual_shelf": 668,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "141385221",
         "cover_file": "104/cover_141385221.webp"
@@ -73308,7 +73556,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905476854",
         "cover_file": "105/cover_905476854.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "operations research",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782888668",
         "cover_file": "105/cover_782888668.webp"
@@ -73328,15 +73584,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840459952",
         "cover_file": "105/cover_840459952.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "operations research",
-    "virtual_shelf": 669,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "20454343",
         "cover_file": "105/cover_20454343.webp"
@@ -73416,7 +73664,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905503413",
         "cover_file": "106/cover_905503413.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "operations research",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905502778",
         "cover_file": "106/cover_905502778.webp"
@@ -73436,15 +73692,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "320352991",
         "cover_file": "106/cover_320352991.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "operations research",
-    "virtual_shelf": 670,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905866266",
         "cover_file": "106/cover_905866266.webp"
@@ -73524,7 +73772,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "781471286",
         "cover_file": "107/cover_781471286.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "operations research",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "31213035",
         "cover_file": "107/cover_31213035.webp"
@@ -73544,15 +73800,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783455489",
         "cover_file": "107/cover_783455489.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "operations research",
-    "virtual_shelf": 671,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840440110",
         "cover_file": "107/cover_840440110.webp"
@@ -73632,7 +73880,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "27659383",
         "cover_file": "108/cover_27659383.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "operations research",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "28064024",
         "cover_file": "108/cover_28064024.webp"
@@ -73652,15 +73908,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393198",
         "cover_file": "108/cover_840393198.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "operations research",
-    "virtual_shelf": 672,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839266520",
         "cover_file": "108/cover_839266520.webp"
@@ -73740,7 +73988,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43729031",
         "cover_file": "109/cover_43729031.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "operations research",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 20,
+    "books": [
       {
         "OCLC": "50042928",
         "cover_file": "109/cover_50042928.webp"
@@ -73760,15 +74016,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840272269",
         "cover_file": "109/cover_840272269.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "operations research",
-    "virtual_shelf": 673,
-    "books_in_bookcase": 15,
-    "books": [
+      },
       {
         "OCLC": "783393412",
         "cover_file": "109/cover_783393412.webp"
@@ -73834,8 +74082,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "partial differential equations",
-    "virtual_shelf": 695,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "6195504",
@@ -73916,7 +74164,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "226292048",
         "cover_file": "60/cover_226292048.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "partial differential equations",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839304364",
         "cover_file": "60/cover_839304364.webp"
@@ -73936,15 +74192,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "706786171",
         "cover_file": "61/cover_706786171.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "partial differential equations",
-    "virtual_shelf": 696,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "897512436",
         "cover_file": "61/cover_897512436.webp"
@@ -74024,7 +74272,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839215301",
         "cover_file": "62/cover_839215301.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "partial differential equations",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 12,
+    "books": [
       {
         "OCLC": "839260631",
         "cover_file": "62/cover_839260631.webp"
@@ -74044,15 +74300,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840446189",
         "cover_file": "62/cover_840446189.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "partial differential equations",
-    "virtual_shelf": 697,
-    "books_in_bookcase": 7,
-    "books": [
+      },
       {
         "OCLC": "905863163",
         "cover_file": "62/cover_905863163.webp"
@@ -74086,8 +74334,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "probability theory",
-    "virtual_shelf": 786,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781090290",
@@ -74168,7 +74416,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840436503",
         "cover_file": "77/cover_840436503.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "probability theory",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840444473",
         "cover_file": "77/cover_840444473.webp"
@@ -74188,15 +74444,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840461344",
         "cover_file": "77/cover_840461344.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "probability theory",
-    "virtual_shelf": 787,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "779264864",
         "cover_file": "77/cover_779264864.webp"
@@ -74276,7 +74524,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "39189927",
         "cover_file": "78/cover_39189927.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "probability theory",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840363110",
         "cover_file": "78/cover_840363110.webp"
@@ -74296,15 +74552,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "44467382",
         "cover_file": "78/cover_44467382.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "probability theory",
-    "virtual_shelf": 788,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783011334",
         "cover_file": "78/cover_783011334.webp"
@@ -74384,7 +74632,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840395209",
         "cover_file": "78/cover_840395209.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "probability theory",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840400439",
         "cover_file": "78/cover_840400439.webp"
@@ -74404,15 +74660,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "500841615",
         "cover_file": "79/cover_500841615.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "probability theory",
-    "virtual_shelf": 789,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840411764",
         "cover_file": "79/cover_840411764.webp"
@@ -74492,7 +74740,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783392278",
         "cover_file": "80/cover_783392278.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "probability theory",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "297147088",
         "cover_file": "80/cover_297147088.webp"
@@ -74512,15 +74768,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782877390",
         "cover_file": "80/cover_782877390.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "probability theory",
-    "virtual_shelf": 790,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783450644",
         "cover_file": "80/cover_783450644.webp"
@@ -74600,7 +74848,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41674423",
         "cover_file": "81/cover_41674423.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "probability theory",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782923436",
         "cover_file": "81/cover_782923436.webp"
@@ -74620,15 +74876,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "50906440",
         "cover_file": "81/cover_50906440.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "probability theory",
-    "virtual_shelf": 791,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840378343",
         "cover_file": "81/cover_840378343.webp"
@@ -74708,7 +74956,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437633",
         "cover_file": "81/cover_840437633.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "probability theory",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "230183434",
         "cover_file": "81/cover_230183434.webp"
@@ -74728,15 +74984,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839276019",
         "cover_file": "81/cover_839276019.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "probability theory",
-    "virtual_shelf": 792,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "466341039",
         "cover_file": "81/cover_466341039.webp"
@@ -74816,7 +75064,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "29788831",
         "cover_file": "83/cover_29788831.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "probability theory",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 23,
+    "books": [
       {
         "OCLC": "782877717",
         "cover_file": "83/cover_782877717.webp"
@@ -74836,15 +75092,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "61859925",
         "cover_file": "83/cover_61859925.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "probability theory",
-    "virtual_shelf": 793,
-    "books_in_bookcase": 18,
-    "books": [
+      },
       {
         "OCLC": "840393165",
         "cover_file": "83/cover_840393165.webp"
@@ -74922,8 +75170,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "real and complex analysis mathematics",
-    "virtual_shelf": 829,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "498800",
@@ -75004,7 +75252,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "53360624",
         "cover_file": "51/cover_53360624.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "real and complex analysis mathematics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "60419504",
         "cover_file": "51/cover_60419504.webp"
@@ -75024,15 +75280,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839227354",
         "cover_file": "51/cover_839227354.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "real and complex analysis mathematics",
-    "virtual_shelf": 830,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839246435",
         "cover_file": "51/cover_839246435.webp"
@@ -75112,7 +75360,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "694616467",
         "cover_file": "52/cover_694616467.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "real and complex analysis mathematics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901510151",
         "cover_file": "52/cover_901510151.webp"
@@ -75132,15 +75388,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "693758978",
         "cover_file": "52/cover_693758978.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "real and complex analysis mathematics",
-    "virtual_shelf": 831,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840454861",
         "cover_file": "52/cover_840454861.webp"
@@ -75220,7 +75468,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "36498881",
         "cover_file": "53/cover_36498881.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "real and complex analysis mathematics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42622245",
         "cover_file": "53/cover_42622245.webp"
@@ -75240,15 +75496,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "51178129",
         "cover_file": "53/cover_51178129.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "real and complex analysis mathematics",
-    "virtual_shelf": 832,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "54103897",
         "cover_file": "53/cover_54103897.webp"
@@ -75328,7 +75576,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "66072805",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "real and complex analysis mathematics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "36523806",
         "cover_file": "54/cover_36523806.webp"
@@ -75348,15 +75604,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "780786579",
         "cover_file": "54/cover_780786579.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "real and complex analysis mathematics",
-    "virtual_shelf": 833,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "902219470",
         "cover_file": "54/cover_902219470.webp"
@@ -75436,7 +75684,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "254932",
         "cover_file": "55/cover_254932.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "real and complex analysis mathematics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 10,
+    "books": [
       {
         "OCLC": "33243763",
         "cover_file": "55/cover_33243763.webp"
@@ -75456,15 +75712,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "54371818",
         "cover_file": "55/cover_54371818.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "real and complex analysis mathematics",
-    "virtual_shelf": 834,
-    "books_in_bookcase": 5,
-    "books": [
+      },
       {
         "OCLC": "840396801",
         "cover_file": "55/cover_840396801.webp"
@@ -75490,8 +75738,8 @@ const virtual_bookshelves = [
   {
     "topic": "mathematics",
     "sub_topic": "topology global analysis",
-    "virtual_shelf": 968,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781321505",
@@ -75572,7 +75820,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840413724",
         "cover_file": "73/cover_840413724.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "topology global analysis",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840405980",
         "cover_file": "73/cover_840405980.webp"
@@ -75592,15 +75848,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "150366569",
         "cover_file": "73/cover_150366569.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "topology global analysis",
-    "virtual_shelf": 969,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905864097",
         "cover_file": "73/cover_905864097.webp"
@@ -75680,7 +75928,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839295021",
         "cover_file": "74/cover_839295021.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "topology global analysis",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840447263",
         "cover_file": "74/cover_840447263.webp"
@@ -75700,15 +75956,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "820425969",
         "cover_file": "74/cover_820425969.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "topology global analysis",
-    "virtual_shelf": 970,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "3186349",
         "cover_file": "74/cover_3186349.webp"
@@ -75788,7 +76036,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "37395499",
         "cover_file": "75/cover_37395499.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mathematics",
+    "sub_topic": "topology global analysis",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "840435578",
         "cover_file": "75/cover_840435578.webp"
@@ -75808,15 +76064,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783728313",
         "cover_file": "76/cover_783728313.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mathematics",
-    "sub_topic": "topology global analysis",
-    "virtual_shelf": 971,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "840260328",
         "cover_file": "NA"
@@ -75866,8 +76114,8 @@ const virtual_bookshelves = [
   {
     "topic": "mechanical engineering",
     "sub_topic": "combustion engines",
-    "virtual_shelf": 221,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "838939579",
@@ -75948,7 +76196,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840386572",
         "cover_file": "578/cover_840386572.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "combustion engines",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840356992",
         "cover_file": "NA"
@@ -75968,15 +76224,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "841156112",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "combustion engines",
-    "virtual_shelf": 222,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "8866458",
         "cover_file": "579/cover_8866458.webp"
@@ -76056,7 +76304,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840456238",
         "cover_file": "580/cover_840456238.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "combustion engines",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "974487795",
         "cover_file": "580/cover_974487795.webp"
@@ -76066,8 +76322,8 @@ const virtual_bookshelves = [
   {
     "topic": "mechanical engineering",
     "sub_topic": "energy conversion systems",
-    "virtual_shelf": 316,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840352494",
@@ -76148,7 +76404,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "34046482",
         "cover_file": "569/cover_34046482.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "energy conversion systems",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840356948",
         "cover_file": "NA"
@@ -76168,15 +76432,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840354804",
         "cover_file": "569/cover_840354804.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "energy conversion systems",
-    "virtual_shelf": 317,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840363609",
         "cover_file": "570/cover_840363609.webp"
@@ -76256,7 +76512,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "40707060",
         "cover_file": "571/cover_40707060.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "energy conversion systems",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839301452",
         "cover_file": "571/cover_839301452.webp"
@@ -76276,15 +76540,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840349567",
         "cover_file": "571/cover_840349567.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "energy conversion systems",
-    "virtual_shelf": 318,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840357014",
         "cover_file": "571/cover_840357014.webp"
@@ -76364,7 +76620,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840268226",
         "cover_file": "572/cover_840268226.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "energy conversion systems",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840303893",
         "cover_file": "NA"
@@ -76384,15 +76648,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840370148",
         "cover_file": "572/cover_840370148.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "energy conversion systems",
-    "virtual_shelf": 319,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840393578",
         "cover_file": "572/cover_840393578.webp"
@@ -76472,7 +76728,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839755235",
         "cover_file": "573/cover_839755235.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "energy conversion systems",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "65907022",
         "cover_file": "NA"
@@ -76492,15 +76756,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840260194",
         "cover_file": "573/cover_840260194.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "energy conversion systems",
-    "virtual_shelf": 320,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "26722903",
         "cover_file": "573/cover_26722903.webp"
@@ -76580,7 +76836,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "29604709",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "energy conversion systems",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840319904",
         "cover_file": "574/cover_840319904.webp"
@@ -76600,15 +76864,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1113354692",
         "cover_file": "574/cover_1113354692.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "energy conversion systems",
-    "virtual_shelf": 321,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839246760",
         "cover_file": "574/cover_839246760.webp"
@@ -76688,7 +76944,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "22762584",
         "cover_file": "575/cover_22762584.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "energy conversion systems",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "27768605",
         "cover_file": "575/cover_27768605.webp"
@@ -76708,15 +76972,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32664702",
         "cover_file": "575/cover_32664702.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "energy conversion systems",
-    "virtual_shelf": 322,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840337606",
         "cover_file": "575/cover_840337606.webp"
@@ -76796,7 +77052,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42420986",
         "cover_file": "576/cover_42420986.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "energy conversion systems",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "905501701",
         "cover_file": "NA"
@@ -76816,15 +77080,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "741713781",
         "cover_file": "576/cover_741713781.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "energy conversion systems",
-    "virtual_shelf": 323,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "839304513",
         "cover_file": "576/cover_839304513.webp"
@@ -76898,8 +77154,8 @@ const virtual_bookshelves = [
   {
     "topic": "mechanical engineering",
     "sub_topic": "machine elements and mechanical power transmission",
-    "virtual_shelf": 508,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "16539994",
@@ -76980,7 +77236,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67460383",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "machine elements and mechanical power transmission",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "39785886",
         "cover_file": "561/cover_39785886.webp"
@@ -77000,15 +77264,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840397104",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "machine elements and mechanical power transmission",
-    "virtual_shelf": 509,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840397104",
         "cover_file": "NA"
@@ -77088,7 +77344,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840282241",
         "cover_file": "562/cover_840282241.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "machine elements and mechanical power transmission",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "26973790",
         "cover_file": "562/cover_26973790.webp"
@@ -77108,15 +77372,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "428776446",
         "cover_file": "562/cover_428776446.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "machine elements and mechanical power transmission",
-    "virtual_shelf": 510,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839546808",
         "cover_file": "562/cover_839546808.webp"
@@ -77196,7 +77452,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "37315365",
         "cover_file": "563/cover_37315365.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "machine elements and mechanical power transmission",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905478568",
         "cover_file": "563/cover_905478568.webp"
@@ -77216,15 +77480,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "67067631",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "machine elements and mechanical power transmission",
-    "virtual_shelf": 511,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "67067631",
         "cover_file": "NA"
@@ -77304,7 +77560,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "45708114",
         "cover_file": "564/cover_45708114.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "machine elements and mechanical power transmission",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "1310643",
         "cover_file": "564/cover_1310643.webp"
@@ -77324,15 +77588,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "28723069",
         "cover_file": "564/cover_28723069.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "machine elements and mechanical power transmission",
-    "virtual_shelf": 512,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905477505",
         "cover_file": "564/cover_905477505.webp"
@@ -77412,7 +77668,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "834574064",
         "cover_file": "565/cover_834574064.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "machine elements and mechanical power transmission",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "968261883",
         "cover_file": "NA"
@@ -77432,15 +77696,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "23869029",
         "cover_file": "565/cover_23869029.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "machine elements and mechanical power transmission",
-    "virtual_shelf": 513,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839765544",
         "cover_file": "565/cover_839765544.webp"
@@ -77520,7 +77776,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840369377",
         "cover_file": "566/cover_840369377.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "machine elements and mechanical power transmission",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "786491556",
         "cover_file": "566/cover_786491556.webp"
@@ -77540,15 +77804,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840382726",
         "cover_file": "566/cover_840382726.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "machine elements and mechanical power transmission",
-    "virtual_shelf": 514,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "60321650",
         "cover_file": "566/cover_60321650.webp"
@@ -77628,7 +77884,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "36900892",
         "cover_file": "567/cover_36900892.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "machine elements and mechanical power transmission",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "38550953",
         "cover_file": "567/cover_38550953.webp"
@@ -77648,15 +77912,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905864155",
         "cover_file": "567/cover_905864155.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "machine elements and mechanical power transmission",
-    "virtual_shelf": 515,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "27477138",
         "cover_file": "568/cover_27477138.webp"
@@ -77694,8 +77950,8 @@ const virtual_bookshelves = [
   {
     "topic": "mechanical engineering",
     "sub_topic": "materials handling technology",
-    "virtual_shelf": 556,
-    "books_in_bookcase": 22,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "968255444",
@@ -77776,7 +78032,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839706831",
         "cover_file": "581/cover_839706831.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "materials handling technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 2,
+    "books": [
       {
         "OCLC": "840338158",
         "cover_file": "581/cover_840338158.webp"
@@ -77790,8 +78054,8 @@ const virtual_bookshelves = [
   {
     "topic": "mechanical engineering",
     "sub_topic": "mechanical engineering",
-    "virtual_shelf": 592,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "36085048",
@@ -77872,7 +78136,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "244476579",
         "cover_file": "556/cover_244476579.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "mechanical engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840427773",
         "cover_file": "556/cover_840427773.webp"
@@ -77892,15 +78164,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840459307",
         "cover_file": "556/cover_840459307.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "mechanical engineering",
-    "virtual_shelf": 593,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905863194",
         "cover_file": "556/cover_905863194.webp"
@@ -77980,7 +78244,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "42308057",
         "cover_file": "557/cover_42308057.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "mechanical engineering",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840364248",
         "cover_file": "557/cover_840364248.webp"
@@ -78000,15 +78272,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840395413",
         "cover_file": "557/cover_840395413.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "mechanical engineering",
-    "virtual_shelf": 594,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "777931188",
         "cover_file": "557/cover_777931188.webp"
@@ -78088,7 +78352,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840371160",
         "cover_file": "558/cover_840371160.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "mechanical engineering",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "816052234",
         "cover_file": "558/cover_816052234.webp"
@@ -78108,15 +78380,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840447289",
         "cover_file": "558/cover_840447289.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "mechanical engineering",
-    "virtual_shelf": 595,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "34076364",
         "cover_file": "559/cover_34076364.webp"
@@ -78196,7 +78460,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "68774040",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "mechanical engineering",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "39726852",
         "cover_file": "559/cover_39726852.webp"
@@ -78216,15 +78488,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "33021757",
         "cover_file": "559/cover_33021757.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "mechanical engineering",
-    "virtual_shelf": 596,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "840351451",
         "cover_file": "559/cover_840351451.webp"
@@ -78304,7 +78568,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839305557",
         "cover_file": "560/cover_839305557.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "mechanical engineering",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "767808686",
         "cover_file": "560/cover_767808686.webp"
@@ -78314,8 +78586,8 @@ const virtual_bookshelves = [
   {
     "topic": "mechanical engineering",
     "sub_topic": "vehicle technology",
-    "virtual_shelf": 999,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "20629224",
@@ -78396,7 +78668,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869824",
         "cover_file": "582/cover_905869824.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "vehicle technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "907500577",
         "cover_file": "NA"
@@ -78416,15 +78696,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840332789",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "vehicle technology",
-    "virtual_shelf": 1000,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "36103741",
         "cover_file": "582/cover_36103741.webp"
@@ -78504,7 +78776,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840293181",
         "cover_file": "583/cover_840293181.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "vehicle technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "773772484",
         "cover_file": "NA"
@@ -78524,15 +78804,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840368861",
         "cover_file": "584/cover_840368861.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "vehicle technology",
-    "virtual_shelf": 1001,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905505853",
         "cover_file": "584/cover_905505853.webp"
@@ -78612,7 +78884,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840269630",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "vehicle technology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840271939",
         "cover_file": "NA"
@@ -78632,15 +78912,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "35397798",
         "cover_file": "585/cover_35397798.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "vehicle technology",
-    "virtual_shelf": 1002,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "43708548",
         "cover_file": "585/cover_43708548.webp"
@@ -78720,7 +78992,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840267478",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "vehicle technology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "29785646",
         "cover_file": "586/cover_29785646.webp"
@@ -78740,15 +79020,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "31329069",
         "cover_file": "586/cover_31329069.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "vehicle technology",
-    "virtual_shelf": 1003,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "59955493",
         "cover_file": "NA"
@@ -78798,8 +79070,8 @@ const virtual_bookshelves = [
   {
     "topic": "mechanical engineering",
     "sub_topic": "vehicles",
-    "virtual_shelf": 1004,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840357005",
@@ -78880,7 +79152,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "841133223",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "mechanical engineering",
+    "sub_topic": "vehicles",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "840272098",
         "cover_file": "NA"
@@ -78900,15 +79180,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840392613",
         "cover_file": "589/cover_840392613.webp"
-      }
-    ]
-  },
-  {
-    "topic": "mechanical engineering",
-    "sub_topic": "vehicles",
-    "virtual_shelf": 1005,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "840396508",
         "cover_file": "589/cover_840396508.webp"
@@ -78938,8 +79210,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "acoustics",
-    "virtual_shelf": 1,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "535472",
@@ -79020,7 +79292,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "50447832",
         "cover_file": "256/cover_50447832.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "acoustics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "50115574",
         "cover_file": "256/cover_50115574.webp"
@@ -79040,15 +79320,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840391583",
         "cover_file": "256/cover_840391583.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "acoustics",
-    "virtual_shelf": 2,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839343829",
         "cover_file": "256/cover_839343829.webp"
@@ -79128,7 +79400,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840371070",
         "cover_file": "257/cover_840371070.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "acoustics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "47271347",
         "cover_file": "257/cover_47271347.webp"
@@ -79148,15 +79428,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "245555690",
         "cover_file": "257/cover_245555690.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "acoustics",
-    "virtual_shelf": 3,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "227922698",
         "cover_file": "257/cover_227922698.webp"
@@ -79236,7 +79508,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839266659",
         "cover_file": "258/cover_839266659.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "acoustics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "839278598",
         "cover_file": "258/cover_839278598.webp"
@@ -79256,15 +79536,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "36713069",
         "cover_file": "259/cover_36713069.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "acoustics",
-    "virtual_shelf": 4,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "36130634",
         "cover_file": "259/cover_36130634.webp"
@@ -79294,8 +79566,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "applied mechanics",
-    "virtual_shelf": 38,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841416966",
@@ -79376,7 +79648,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840392213",
         "cover_file": "212/cover_840392213.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839063795",
         "cover_file": "212/cover_839063795.webp"
@@ -79396,15 +79676,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "55502925",
         "cover_file": "212/cover_55502925.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 39,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840401782",
         "cover_file": "212/cover_840401782.webp"
@@ -79484,7 +79756,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868390",
         "cover_file": "213/cover_905868390.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "887715499",
         "cover_file": "213/cover_887715499.webp"
@@ -79504,15 +79784,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "947095862",
         "cover_file": "213/cover_947095862.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 40,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "956554273",
         "cover_file": "213/cover_956554273.webp"
@@ -79592,7 +79864,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "38168323",
         "cover_file": "214/cover_38168323.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840353995",
         "cover_file": "214/cover_840353995.webp"
@@ -79612,15 +79892,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840364227",
         "cover_file": "214/cover_840364227.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 41,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840376150",
         "cover_file": "214/cover_840376150.webp"
@@ -79700,7 +79972,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "8218951",
         "cover_file": "215/cover_8218951.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839482451",
         "cover_file": "215/cover_839482451.webp"
@@ -79720,15 +80000,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "18015128",
         "cover_file": "215/cover_18015128.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 42,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840257153",
         "cover_file": "215/cover_840257153.webp"
@@ -79808,7 +80080,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "906855410",
         "cover_file": "216/cover_906855410.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840365323",
         "cover_file": "216/cover_840365323.webp"
@@ -79828,15 +80108,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "51692404",
         "cover_file": "216/cover_51692404.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 43,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "899034076",
         "cover_file": "216/cover_899034076.webp"
@@ -79916,7 +80188,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839300057",
         "cover_file": "217/cover_839300057.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "649351579",
         "cover_file": "217/cover_649351579.webp"
@@ -79936,15 +80216,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445058",
         "cover_file": "217/cover_840445058.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 44,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840445058",
         "cover_file": "217/cover_840445058.webp"
@@ -80024,7 +80296,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "772960360",
         "cover_file": "218/cover_772960360.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840370908",
         "cover_file": "218/cover_840370908.webp"
@@ -80044,15 +80324,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839227311",
         "cover_file": "218/cover_839227311.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 45,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840399472",
         "cover_file": "218/cover_840399472.webp"
@@ -80132,7 +80404,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840347374",
         "cover_file": "219/cover_840347374.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840353275",
         "cover_file": "219/cover_840353275.webp"
@@ -80152,15 +80432,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "67361909",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 46,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "43318066",
         "cover_file": "219/cover_43318066.webp"
@@ -80240,7 +80512,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839263604",
         "cover_file": "220/cover_839263604.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839263796",
         "cover_file": "220/cover_839263796.webp"
@@ -80260,15 +80540,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839273193",
         "cover_file": "220/cover_839273193.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 47,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840461235",
         "cover_file": "220/cover_840461235.webp"
@@ -80348,7 +80620,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839266760",
         "cover_file": "221/cover_839266760.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840406801",
         "cover_file": "221/cover_840406801.webp"
@@ -80368,15 +80648,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839279895",
         "cover_file": "221/cover_839279895.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 48,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839272848",
         "cover_file": "221/cover_839272848.webp"
@@ -80456,7 +80728,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840267426",
         "cover_file": "222/cover_840267426.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840379980",
         "cover_file": "222/cover_840379980.webp"
@@ -80476,15 +80756,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "33967282",
         "cover_file": "222/cover_33967282.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 49,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840329294",
         "cover_file": "NA"
@@ -80564,7 +80836,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "57251284",
         "cover_file": "223/cover_57251284.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 13,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839007931",
         "cover_file": "223/cover_839007931.webp"
@@ -80584,15 +80864,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "565492011",
         "cover_file": "223/cover_565492011.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 50,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840446992",
         "cover_file": "223/cover_840446992.webp"
@@ -80672,7 +80944,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "34471017",
         "cover_file": "224/cover_34471017.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 14,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "38157560",
         "cover_file": "224/cover_38157560.webp"
@@ -80692,15 +80972,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "43481738",
         "cover_file": "224/cover_43481738.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 51,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840378104",
         "cover_file": "224/cover_840378104.webp"
@@ -80780,7 +81052,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43411544",
         "cover_file": "225/cover_43411544.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 15,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840352147",
         "cover_file": "225/cover_840352147.webp"
@@ -80800,15 +81080,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "74443734",
         "cover_file": "225/cover_74443734.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 52,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840395537",
         "cover_file": "225/cover_840395537.webp"
@@ -80888,7 +81160,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905473128",
         "cover_file": "226/cover_905473128.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 16,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840272582",
         "cover_file": "226/cover_840272582.webp"
@@ -80908,15 +81188,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840354677",
         "cover_file": "226/cover_840354677.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 53,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "40150660",
         "cover_file": "226/cover_40150660.webp"
@@ -80996,7 +81268,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905471619",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 17,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840275410",
         "cover_file": "227/cover_840275410.webp"
@@ -81016,15 +81296,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840319660",
         "cover_file": "227/cover_840319660.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 54,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840379468",
         "cover_file": "227/cover_840379468.webp"
@@ -81104,7 +81376,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840338064",
         "cover_file": "228/cover_840338064.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 18,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840290963",
         "cover_file": "228/cover_840290963.webp"
@@ -81124,15 +81404,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "67928065",
         "cover_file": "228/cover_67928065.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 55,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840298384",
         "cover_file": "228/cover_840298384.webp"
@@ -81212,7 +81484,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840375311",
         "cover_file": "228/cover_840375311.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 19,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840382831",
         "cover_file": "229/cover_840382831.webp"
@@ -81232,15 +81512,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840379490",
         "cover_file": "229/cover_840379490.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 56,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840381135",
         "cover_file": "229/cover_840381135.webp"
@@ -81320,7 +81592,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839301624",
         "cover_file": "230/cover_839301624.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 20,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839278689",
         "cover_file": "230/cover_839278689.webp"
@@ -81340,15 +81620,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "878050968",
         "cover_file": "230/cover_878050968.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 57,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "561872",
         "cover_file": "230/cover_561872.webp"
@@ -81428,7 +81700,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839299206",
         "cover_file": "230/cover_839299206.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "applied mechanics",
+    "virtual_shelf_temp": 21,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "768408398",
         "cover_file": "230/cover_768408398.webp"
@@ -81448,15 +81728,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839702816",
         "cover_file": "231/cover_839702816.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "applied mechanics",
-    "virtual_shelf": 58,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "28585942",
         "cover_file": "231/cover_28585942.webp"
@@ -81486,8 +81758,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "astronomy",
-    "virtual_shelf": 124,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "2348820",
@@ -81568,7 +81840,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "15489636",
         "cover_file": "323/cover_15489636.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "astronomy",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "61829589",
         "cover_file": "323/cover_61829589.webp"
@@ -81588,15 +81868,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840332933",
         "cover_file": "323/cover_840332933.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "astronomy",
-    "virtual_shelf": 125,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840354899",
         "cover_file": "323/cover_840354899.webp"
@@ -81676,7 +81948,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41619367",
         "cover_file": "324/cover_41619367.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "astronomy",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "70744573",
         "cover_file": "324/cover_70744573.webp"
@@ -81696,15 +81976,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "506249073",
         "cover_file": "324/cover_506249073.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "astronomy",
-    "virtual_shelf": 126,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "499078102",
         "cover_file": "324/cover_499078102.webp"
@@ -81784,7 +82056,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "437299197",
         "cover_file": "325/cover_437299197.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "astronomy",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "466343197",
         "cover_file": "325/cover_466343197.webp"
@@ -81804,15 +82084,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32050358",
         "cover_file": "325/cover_32050358.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "astronomy",
-    "virtual_shelf": 127,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840358620",
         "cover_file": "325/cover_840358620.webp"
@@ -81892,7 +82164,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "56068673",
         "cover_file": "326/cover_56068673.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "astronomy",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 21,
+    "books": [
       {
         "OCLC": "427513877",
         "cover_file": "326/cover_427513877.webp"
@@ -81912,15 +82192,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840406376",
         "cover_file": "326/cover_840406376.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "astronomy",
-    "virtual_shelf": 128,
-    "books_in_bookcase": 16,
-    "books": [
+      },
       {
         "OCLC": "229023767",
         "cover_file": "326/cover_229023767.webp"
@@ -81990,8 +82262,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "atomic and molecular physics",
-    "virtual_shelf": 129,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905457254",
@@ -82072,7 +82344,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840360124",
         "cover_file": "285/cover_840360124.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "atomic and molecular physics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "24378007",
         "cover_file": "285/cover_24378007.webp"
@@ -82092,15 +82372,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "66395988",
         "cover_file": "285/cover_66395988.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "atomic and molecular physics",
-    "virtual_shelf": 130,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "66549261",
         "cover_file": "285/cover_66549261.webp"
@@ -82180,7 +82452,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "27034954",
         "cover_file": "286/cover_27034954.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "atomic and molecular physics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "26363609",
         "cover_file": "286/cover_26363609.webp"
@@ -82200,15 +82480,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "43798382",
         "cover_file": "286/cover_43798382.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "atomic and molecular physics",
-    "virtual_shelf": 131,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "48783518",
         "cover_file": "286/cover_48783518.webp"
@@ -82288,7 +82560,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839339750",
         "cover_file": "287/cover_839339750.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "atomic and molecular physics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "19127905",
         "cover_file": "287/cover_19127905.webp"
@@ -82308,15 +82588,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905481891",
         "cover_file": "287/cover_905481891.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "atomic and molecular physics",
-    "virtual_shelf": 132,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "48013564",
         "cover_file": "287/cover_48013564.webp"
@@ -82396,7 +82668,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905865741",
         "cover_file": "288/cover_905865741.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "atomic and molecular physics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 8,
+    "books": [
       {
         "OCLC": "880204611",
         "cover_file": "288/cover_880204611.webp"
@@ -82416,15 +82696,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839233971",
         "cover_file": "289/cover_839233971.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "atomic and molecular physics",
-    "virtual_shelf": 133,
-    "books_in_bookcase": 3,
-    "books": [
+      },
       {
         "OCLC": "819146743",
         "cover_file": "289/cover_819146743.webp"
@@ -82442,8 +82714,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "electricity and magnetism",
-    "virtual_shelf": 301,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840363129",
@@ -82524,7 +82796,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839238541",
         "cover_file": "260/cover_839238541.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "electricity and magnetism",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839266385",
         "cover_file": "260/cover_839266385.webp"
@@ -82544,15 +82824,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "6223742",
         "cover_file": "260/cover_6223742.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "electricity and magnetism",
-    "virtual_shelf": 302,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "28024662",
         "cover_file": "260/cover_28024662.webp"
@@ -82632,7 +82904,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840381315",
         "cover_file": "261/cover_840381315.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "electricity and magnetism",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840387953",
         "cover_file": "261/cover_840387953.webp"
@@ -82652,15 +82932,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393123",
         "cover_file": "261/cover_840393123.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "electricity and magnetism",
-    "virtual_shelf": 303,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840397991",
         "cover_file": "261/cover_840397991.webp"
@@ -82740,7 +83012,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869130",
         "cover_file": "261/cover_905869130.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "electricity and magnetism",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "727632146",
         "cover_file": "261/cover_727632146.webp"
@@ -82760,15 +83040,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445954",
         "cover_file": "261/cover_840445954.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "electricity and magnetism",
-    "virtual_shelf": 304,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840459979",
         "cover_file": "261/cover_840459979.webp"
@@ -82848,7 +83120,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "768449073",
         "cover_file": "262/cover_768449073.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "electricity and magnetism",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "9946387",
         "cover_file": "262/cover_9946387.webp"
@@ -82868,15 +83148,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "773625413",
         "cover_file": "262/cover_773625413.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "electricity and magnetism",
-    "virtual_shelf": 305,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "773841443",
         "cover_file": "262/cover_773841443.webp"
@@ -82956,7 +83228,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905503247",
         "cover_file": "263/cover_905503247.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "electricity and magnetism",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "56651669",
         "cover_file": "263/cover_56651669.webp"
@@ -82976,15 +83256,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839304653",
         "cover_file": "263/cover_839304653.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "electricity and magnetism",
-    "virtual_shelf": 306,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "839307579",
         "cover_file": "263/cover_839307579.webp"
@@ -83058,8 +83330,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "fluid mechanics",
-    "virtual_shelf": 341,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840569507",
@@ -83140,7 +83412,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "63440291",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "11348853",
         "cover_file": "232/cover_11348853.webp"
@@ -83160,15 +83440,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "10998122",
         "cover_file": "232/cover_10998122.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 342,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "9682396",
         "cover_file": "232/cover_9682396.webp"
@@ -83248,7 +83520,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "28721586",
         "cover_file": "232/cover_28721586.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840306579",
         "cover_file": "NA"
@@ -83268,15 +83548,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905472206",
         "cover_file": "233/cover_905472206.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 343,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "30593383",
         "cover_file": "233/cover_30593383.webp"
@@ -83356,7 +83628,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41967131",
         "cover_file": "233/cover_41967131.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42437098",
         "cover_file": "233/cover_42437098.webp"
@@ -83376,15 +83656,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42659450",
         "cover_file": "233/cover_42659450.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 344,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "45864997",
         "cover_file": "234/cover_45864997.webp"
@@ -83464,7 +83736,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393008",
         "cover_file": "234/cover_840393008.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839233926",
         "cover_file": "234/cover_839233926.webp"
@@ -83484,15 +83764,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840362835",
         "cover_file": "234/cover_840362835.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 345,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839067893",
         "cover_file": "234/cover_839067893.webp"
@@ -83572,7 +83844,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839277535",
         "cover_file": "235/cover_839277535.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839292794",
         "cover_file": "235/cover_839292794.webp"
@@ -83592,15 +83872,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "754894636",
         "cover_file": "235/cover_754894636.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 346,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "812578008",
         "cover_file": "235/cover_812578008.webp"
@@ -83680,7 +83952,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30544499",
         "cover_file": "236/cover_30544499.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840319515",
         "cover_file": "236/cover_840319515.webp"
@@ -83700,15 +83980,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "34731785",
         "cover_file": "236/cover_34731785.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 347,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840337761",
         "cover_file": "236/cover_840337761.webp"
@@ -83788,7 +84060,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840446573",
         "cover_file": "237/cover_840446573.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "52478469",
         "cover_file": "237/cover_52478469.webp"
@@ -83808,15 +84088,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "71798417",
         "cover_file": "237/cover_71798417.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 348,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840395303",
         "cover_file": "237/cover_840395303.webp"
@@ -83896,7 +84168,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "841227623",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839278719",
         "cover_file": "238/cover_839278719.webp"
@@ -83916,15 +84196,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "34623948",
         "cover_file": "238/cover_34623948.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 349,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "36393709",
         "cover_file": "238/cover_36393709.webp"
@@ -84004,7 +84276,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840382449",
         "cover_file": "239/cover_840382449.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "61154242",
         "cover_file": "239/cover_61154242.webp"
@@ -84024,15 +84304,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "64742758",
         "cover_file": "239/cover_64742758.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 350,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "150169904",
         "cover_file": "239/cover_150169904.webp"
@@ -84112,7 +84384,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "32236128",
         "cover_file": "239/cover_32236128.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905475429",
         "cover_file": "239/cover_905475429.webp"
@@ -84132,15 +84412,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840355052",
         "cover_file": "240/cover_840355052.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 351,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840373700",
         "cover_file": "240/cover_840373700.webp"
@@ -84220,7 +84492,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "71778963",
         "cover_file": "240/cover_71778963.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840401918",
         "cover_file": "240/cover_840401918.webp"
@@ -84240,15 +84520,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1528454",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 352,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "23142925",
         "cover_file": "240/cover_23142925.webp"
@@ -84328,7 +84600,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "960969143",
         "cover_file": "241/cover_960969143.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 13,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "797938",
         "cover_file": "241/cover_797938.webp"
@@ -84348,15 +84628,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "24212151",
         "cover_file": "241/cover_24212151.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 353,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "42296715",
         "cover_file": "241/cover_42296715.webp"
@@ -84436,7 +84708,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "70707795",
         "cover_file": "242/cover_70707795.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 14,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839268602",
         "cover_file": "242/cover_839268602.webp"
@@ -84456,15 +84736,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "33403313",
         "cover_file": "242/cover_33403313.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 354,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905484446",
         "cover_file": "242/cover_905484446.webp"
@@ -84544,7 +84816,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "39849573",
         "cover_file": "243/cover_39849573.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 15,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840365431",
         "cover_file": "243/cover_840365431.webp"
@@ -84564,15 +84844,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "50004433",
         "cover_file": "243/cover_50004433.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 355,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "47901419",
         "cover_file": "243/cover_47901419.webp"
@@ -84652,7 +84924,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "842074228",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 16,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "37249556",
         "cover_file": "244/cover_37249556.webp"
@@ -84672,15 +84952,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839215098",
         "cover_file": "244/cover_839215098.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 356,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839215745",
         "cover_file": "244/cover_839215745.webp"
@@ -84760,7 +85032,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839238500",
         "cover_file": "245/cover_839238500.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 17,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "769334208",
         "cover_file": "NA"
@@ -84780,15 +85060,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "9644298",
         "cover_file": "246/cover_9644298.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 357,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "17300930",
         "cover_file": "246/cover_17300930.webp"
@@ -84868,7 +85140,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "60589123",
         "cover_file": "246/cover_60589123.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 18,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "60589123",
         "cover_file": "246/cover_60589123.webp"
@@ -84888,15 +85168,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "19981293",
         "cover_file": "247/cover_19981293.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "fluid mechanics",
-    "virtual_shelf": 358,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "839687273",
         "cover_file": "NA"
@@ -84976,7 +85248,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "3396794",
         "cover_file": "248/cover_3396794.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "fluid mechanics",
+    "virtual_shelf_temp": 19,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "20132593",
         "cover_file": "248/cover_20132593.webp"
@@ -84986,8 +85266,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "image processing and pattern recognition",
-    "virtual_shelf": 439,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781412269",
@@ -85068,7 +85348,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840461239",
         "cover_file": "274/cover_840461239.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "image processing and pattern recognition",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905868147",
         "cover_file": "274/cover_905868147.webp"
@@ -85088,15 +85376,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840275550",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "image processing and pattern recognition",
-    "virtual_shelf": 440,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "28722743",
         "cover_file": "274/cover_28722743.webp"
@@ -85176,7 +85456,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839227244",
         "cover_file": "275/cover_839227244.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "image processing and pattern recognition",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839215508",
         "cover_file": "275/cover_839215508.webp"
@@ -85196,15 +85484,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "778430977",
         "cover_file": "275/cover_778430977.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "image processing and pattern recognition",
-    "virtual_shelf": 441,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839269289",
         "cover_file": "275/cover_839269289.webp"
@@ -85284,7 +85564,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782523431",
         "cover_file": "276/cover_782523431.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "image processing and pattern recognition",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 5,
+    "books": [
       {
         "OCLC": "44469325",
         "cover_file": "276/cover_44469325.webp"
@@ -85310,8 +85598,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "mechanics",
-    "virtual_shelf": 597,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "1246777",
@@ -85392,7 +85680,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839302690",
         "cover_file": "206/cover_839302690.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "mechanics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "775573716",
         "cover_file": "206/cover_775573716.webp"
@@ -85412,15 +85708,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "5675073",
         "cover_file": "207/cover_5675073.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "mechanics",
-    "virtual_shelf": 598,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "769314250",
         "cover_file": "207/cover_769314250.webp"
@@ -85500,7 +85788,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839295734",
         "cover_file": "208/cover_839295734.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "mechanics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905869774",
         "cover_file": "208/cover_905869774.webp"
@@ -85520,15 +85816,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "18681352",
         "cover_file": "208/cover_18681352.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "mechanics",
-    "virtual_shelf": 599,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840268180",
         "cover_file": "NA"
@@ -85608,7 +85896,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840377421",
         "cover_file": "208/cover_840377421.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "mechanics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840382662",
         "cover_file": "208/cover_840382662.webp"
@@ -85628,15 +85924,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839272671",
         "cover_file": "208/cover_839272671.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "mechanics",
-    "virtual_shelf": 600,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "841705180",
         "cover_file": "NA"
@@ -85716,7 +86004,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "31739767",
         "cover_file": "209/cover_31739767.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "mechanics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "36573771",
         "cover_file": "209/cover_36573771.webp"
@@ -85736,15 +86032,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840363947",
         "cover_file": "209/cover_840363947.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "mechanics",
-    "virtual_shelf": 601,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840372164",
         "cover_file": "209/cover_840372164.webp"
@@ -85824,7 +86112,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "12978505",
         "cover_file": "210/cover_12978505.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "mechanics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "18743196",
         "cover_file": "210/cover_18743196.webp"
@@ -85844,15 +86140,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840322437",
         "cover_file": "210/cover_840322437.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "mechanics",
-    "virtual_shelf": 602,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840347629",
         "cover_file": "210/cover_840347629.webp"
@@ -85932,7 +86220,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "27810511",
         "cover_file": "211/cover_27810511.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "mechanics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 19,
+    "books": [
       {
         "OCLC": "840267554",
         "cover_file": "211/cover_840267554.webp"
@@ -85952,15 +86248,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905476312",
         "cover_file": "211/cover_905476312.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "mechanics",
-    "virtual_shelf": 603,
-    "books_in_bookcase": 14,
-    "books": [
+      },
       {
         "OCLC": "35305092",
         "cover_file": "211/cover_35305092.webp"
@@ -86022,8 +86310,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "nuclear engineering",
-    "virtual_shelf": 641,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "41572681",
@@ -86104,7 +86392,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839305344",
         "cover_file": "283/cover_839305344.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "nuclear engineering",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "840459771",
         "cover_file": "283/cover_840459771.webp"
@@ -86124,15 +86420,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32701106",
         "cover_file": "284/cover_32701106.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "nuclear engineering",
-    "virtual_shelf": 642,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "840319695",
         "cover_file": "284/cover_840319695.webp"
@@ -86162,8 +86450,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "nuclear physics high energy physics",
-    "virtual_shelf": 643,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "542611",
@@ -86244,7 +86532,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "769334890",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "nuclear physics high energy physics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "3729302",
         "cover_file": "277/cover_3729302.webp"
@@ -86264,15 +86560,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "44702144",
         "cover_file": "277/cover_44702144.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "nuclear physics high energy physics",
-    "virtual_shelf": 644,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840393190",
         "cover_file": "277/cover_840393190.webp"
@@ -86352,7 +86640,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "31045468",
         "cover_file": "278/cover_31045468.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "nuclear physics high energy physics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840367517",
         "cover_file": "278/cover_840367517.webp"
@@ -86372,15 +86668,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "37928620",
         "cover_file": "279/cover_37928620.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "nuclear physics high energy physics",
-    "virtual_shelf": 645,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "42793952",
         "cover_file": "279/cover_42793952.webp"
@@ -86460,7 +86748,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "851112907",
         "cover_file": "280/cover_851112907.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "nuclear physics high energy physics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839312915",
         "cover_file": "280/cover_839312915.webp"
@@ -86480,15 +86776,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905864644",
         "cover_file": "280/cover_905864644.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "nuclear physics high energy physics",
-    "virtual_shelf": 646,
-    "books_in_bookcase": 20,
-    "books": [
+      },
       {
         "OCLC": "828860430",
         "cover_file": "NA"
@@ -86574,8 +86862,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "optics",
-    "virtual_shelf": 674,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "786066",
@@ -86656,7 +86944,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "56876310",
         "cover_file": "264/cover_56876310.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "192030892",
         "cover_file": "264/cover_192030892.webp"
@@ -86676,15 +86972,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "72441726",
         "cover_file": "264/cover_72441726.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "optics",
-    "virtual_shelf": 675,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839215521",
         "cover_file": "265/cover_839215521.webp"
@@ -86764,7 +87052,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "780458829",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "1528438",
         "cover_file": "266/cover_1528438.webp"
@@ -86784,15 +87080,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "47118372",
         "cover_file": "266/cover_47118372.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "optics",
-    "virtual_shelf": 676,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840376360",
         "cover_file": "266/cover_840376360.webp"
@@ -86872,7 +87160,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840403151",
         "cover_file": "267/cover_840403151.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "665134868",
         "cover_file": "267/cover_665134868.webp"
@@ -86892,15 +87188,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "902013505",
         "cover_file": "267/cover_902013505.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "optics",
-    "virtual_shelf": 677,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840439116",
         "cover_file": "267/cover_840439116.webp"
@@ -86980,7 +87268,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "41967276",
         "cover_file": "268/cover_41967276.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840365353",
         "cover_file": "268/cover_840365353.webp"
@@ -87000,15 +87296,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905501452",
         "cover_file": "268/cover_905501452.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "optics",
-    "virtual_shelf": 678,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840370696",
         "cover_file": "268/cover_840370696.webp"
@@ -87088,7 +87376,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "690090204",
         "cover_file": "269/cover_690090204.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "28928285",
         "cover_file": "269/cover_28928285.webp"
@@ -87108,15 +87404,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840337962",
         "cover_file": "269/cover_840337962.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "optics",
-    "virtual_shelf": 679,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "37398120",
         "cover_file": "269/cover_37398120.webp"
@@ -87196,7 +87484,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1289300662",
         "cover_file": "270/cover_1289300662.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "541121",
         "cover_file": "NA"
@@ -87216,15 +87512,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840324586",
         "cover_file": "270/cover_840324586.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "optics",
-    "virtual_shelf": 680,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "41256316",
         "cover_file": "270/cover_41256316.webp"
@@ -87304,7 +87592,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "80145486",
         "cover_file": "271/cover_80145486.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "777953908",
         "cover_file": "271/cover_777953908.webp"
@@ -87324,15 +87620,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840435331",
         "cover_file": "271/cover_840435331.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "optics",
-    "virtual_shelf": 681,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "422765254",
         "cover_file": "271/cover_422765254.webp"
@@ -87412,7 +87700,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "298597865",
         "cover_file": "272/cover_298597865.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "772736337",
         "cover_file": "272/cover_772736337.webp"
@@ -87432,15 +87728,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "578469",
         "cover_file": "272/cover_578469.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "optics",
-    "virtual_shelf": 682,
-    "books_in_bookcase": 23,
-    "books": [
+      },
       {
         "OCLC": "763721",
         "cover_file": "272/cover_763721.webp"
@@ -87520,7 +87808,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "697271391",
         "cover_file": "273/cover_697271391.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "optics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 3,
+    "books": [
       {
         "OCLC": "144220772",
         "cover_file": "273/cover_144220772.webp"
@@ -87538,8 +87834,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "physics general",
-    "virtual_shelf": 734,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "839387471",
@@ -87620,7 +87916,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "44044317",
         "cover_file": "181/cover_44044317.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "40143008",
         "cover_file": "181/cover_40143008.webp"
@@ -87640,15 +87944,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "46366296",
         "cover_file": "182/cover_46366296.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics general",
-    "virtual_shelf": 735,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "45314028",
         "cover_file": "182/cover_45314028.webp"
@@ -87728,7 +88024,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840402617",
         "cover_file": "182/cover_840402617.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "810257534",
         "cover_file": "182/cover_810257534.webp"
@@ -87748,15 +88052,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "427704449",
         "cover_file": "182/cover_427704449.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics general",
-    "virtual_shelf": 736,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840420734",
         "cover_file": "NA"
@@ -87836,7 +88132,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905864533",
         "cover_file": "183/cover_905864533.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840459485",
         "cover_file": "NA"
@@ -87856,15 +88160,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905866896",
         "cover_file": "183/cover_905866896.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics general",
-    "virtual_shelf": 737,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "940534948",
         "cover_file": "NA"
@@ -87944,7 +88240,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868318",
         "cover_file": "184/cover_905868318.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905513467",
         "cover_file": "184/cover_905513467.webp"
@@ -87964,15 +88268,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "695015459",
         "cover_file": "184/cover_695015459.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics general",
-    "virtual_shelf": 738,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840424598",
         "cover_file": "184/cover_840424598.webp"
@@ -88052,7 +88348,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "668194856",
         "cover_file": "185/cover_668194856.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839299193",
         "cover_file": "185/cover_839299193.webp"
@@ -88072,15 +88376,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "897512629",
         "cover_file": "185/cover_897512629.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics general",
-    "virtual_shelf": 739,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "649077971",
         "cover_file": "185/cover_649077971.webp"
@@ -88160,7 +88456,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782160663",
         "cover_file": "185/cover_782160663.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "769987231",
         "cover_file": "185/cover_769987231.webp"
@@ -88180,15 +88484,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905871214",
         "cover_file": "186/cover_905871214.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics general",
-    "virtual_shelf": 740,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839775831",
         "cover_file": "186/cover_839775831.webp"
@@ -88268,7 +88564,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840361178",
         "cover_file": "187/cover_840361178.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "46393339",
         "cover_file": "187/cover_46393339.webp"
@@ -88288,15 +88592,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "57452567",
         "cover_file": "187/cover_57452567.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics general",
-    "virtual_shelf": 741,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "237893950",
         "cover_file": "188/cover_237893950.webp"
@@ -88376,7 +88672,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "150180558",
         "cover_file": "188/cover_150180558.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839266508",
         "cover_file": "188/cover_839266508.webp"
@@ -88396,15 +88700,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438511",
         "cover_file": "188/cover_840438511.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics general",
-    "virtual_shelf": 742,
-    "books_in_bookcase": 24,
-    "books": [
+      },
       {
         "OCLC": "905868730",
         "cover_file": "188/cover_905868730.webp"
@@ -88484,7 +88780,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "37211296",
         "cover_file": "189/cover_37211296.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics general",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 4,
+    "books": [
       {
         "OCLC": "840375663",
         "cover_file": "189/cover_840375663.webp"
@@ -88506,8 +88810,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "physics of fluids",
-    "virtual_shelf": 743,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "2737304",
@@ -88588,7 +88892,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "29797920",
         "cover_file": "292/cover_29797920.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of fluids",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840376167",
         "cover_file": "292/cover_840376167.webp"
@@ -88608,15 +88920,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "37192394",
         "cover_file": "292/cover_37192394.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of fluids",
-    "virtual_shelf": 744,
-    "books_in_bookcase": 23,
-    "books": [
+      },
       {
         "OCLC": "839273044",
         "cover_file": "292/cover_839273044.webp"
@@ -88696,7 +89000,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839669081",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of fluids",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 3,
+    "books": [
       {
         "OCLC": "535514",
         "cover_file": "NA"
@@ -88714,8 +89026,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "physics of process technology",
-    "virtual_shelf": 745,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "5123255",
@@ -88796,7 +89108,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905500875",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of process technology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "41606226",
         "cover_file": "317/cover_41606226.webp"
@@ -88816,15 +89136,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840385693",
         "cover_file": "318/cover_840385693.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of process technology",
-    "virtual_shelf": 746,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "65978625",
         "cover_file": "318/cover_65978625.webp"
@@ -88904,7 +89216,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "207102605",
         "cover_file": "318/cover_207102605.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of process technology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "16580462",
         "cover_file": "319/cover_16580462.webp"
@@ -88924,15 +89244,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "49627714",
         "cover_file": "319/cover_49627714.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of process technology",
-    "virtual_shelf": 747,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "53870508",
         "cover_file": "319/cover_53870508.webp"
@@ -89012,7 +89324,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905461862",
         "cover_file": "320/cover_905461862.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of process technology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "23287184",
         "cover_file": "320/cover_23287184.webp"
@@ -89032,15 +89352,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "34837523",
         "cover_file": "320/cover_34837523.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of process technology",
-    "virtual_shelf": 748,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905478041",
         "cover_file": "320/cover_905478041.webp"
@@ -89120,7 +89432,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840273658",
         "cover_file": "321/cover_840273658.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of process technology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 16,
+    "books": [
       {
         "OCLC": "31604770",
         "cover_file": "321/cover_31604770.webp"
@@ -89140,15 +89460,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "28510558",
         "cover_file": "321/cover_28510558.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of process technology",
-    "virtual_shelf": 749,
-    "books_in_bookcase": 11,
-    "books": [
+      },
       {
         "OCLC": "905484287",
         "cover_file": "321/cover_905484287.webp"
@@ -89198,8 +89510,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "physics of surfaces and thin layers",
-    "virtual_shelf": 750,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "8169524",
@@ -89280,7 +89592,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "52623154",
         "cover_file": "313/cover_52623154.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of surfaces and thin layers",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840394087",
         "cover_file": "313/cover_840394087.webp"
@@ -89300,15 +89620,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839273120",
         "cover_file": "313/cover_839273120.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of surfaces and thin layers",
-    "virtual_shelf": 751,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "663438475",
         "cover_file": "313/cover_663438475.webp"
@@ -89388,7 +89700,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840380821",
         "cover_file": "314/cover_840380821.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of surfaces and thin layers",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "52749923",
         "cover_file": "314/cover_52749923.webp"
@@ -89408,15 +89728,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782157982",
         "cover_file": "315/cover_782157982.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of surfaces and thin layers",
-    "virtual_shelf": 752,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839268729",
         "cover_file": "315/cover_839268729.webp"
@@ -89496,7 +89808,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "818848680",
         "cover_file": "315/cover_818848680.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of surfaces and thin layers",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "496230713",
         "cover_file": "315/cover_496230713.webp"
@@ -89516,15 +89836,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "37935264",
         "cover_file": "316/cover_37935264.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of surfaces and thin layers",
-    "virtual_shelf": 753,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "51053895",
         "cover_file": "316/cover_51053895.webp"
@@ -89604,7 +89916,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840441155",
         "cover_file": "316/cover_840441155.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "physics of surfaces and thin layers",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 6,
+    "books": [
       {
         "OCLC": "840441425",
         "cover_file": "316/cover_840441425.webp"
@@ -89624,15 +89944,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840439740",
         "cover_file": "316/cover_840439740.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "physics of surfaces and thin layers",
-    "virtual_shelf": 754,
-    "books_in_bookcase": 1,
-    "books": [
+      },
       {
         "OCLC": "840459474",
         "cover_file": "317/cover_840459474.webp"
@@ -89642,8 +89954,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "plasma physics",
-    "virtual_shelf": 755,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "534851",
@@ -89724,7 +90036,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839292976",
         "cover_file": "290/cover_839292976.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "plasma physics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "839295650",
         "cover_file": "290/cover_839295650.webp"
@@ -89744,15 +90064,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905467864",
         "cover_file": "290/cover_905467864.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "plasma physics",
-    "virtual_shelf": 756,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "27726384",
         "cover_file": "290/cover_27726384.webp"
@@ -89826,8 +90138,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "semiconductor physics",
-    "virtual_shelf": 879,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "7550858",
@@ -89908,7 +90220,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43953350",
         "cover_file": "310/cover_43953350.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "semiconductor physics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905485390",
         "cover_file": "310/cover_905485390.webp"
@@ -89928,15 +90248,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "51616205",
         "cover_file": "310/cover_51616205.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "semiconductor physics",
-    "virtual_shelf": 880,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840375658",
         "cover_file": "310/cover_840375658.webp"
@@ -90016,7 +90328,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840422400",
         "cover_file": "311/cover_840422400.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "semiconductor physics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840441917",
         "cover_file": "311/cover_840441917.webp"
@@ -90036,15 +90356,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444725",
         "cover_file": "311/cover_840444725.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "semiconductor physics",
-    "virtual_shelf": 881,
-    "books_in_bookcase": 20,
-    "books": [
+      },
       {
         "OCLC": "26403381",
         "cover_file": "311/cover_26403381.webp"
@@ -90130,8 +90442,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "solid state physics electrical magnetic and optical properties",
-    "virtual_shelf": 914,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "6649182",
@@ -90212,7 +90524,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30353886",
         "cover_file": "306/cover_30353886.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics electrical magnetic and optical properties",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "45270439",
         "cover_file": "306/cover_45270439.webp"
@@ -90232,15 +90552,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "25834105",
         "cover_file": "306/cover_25834105.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics electrical magnetic and optical properties",
-    "virtual_shelf": 915,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840290933",
         "cover_file": "306/cover_840290933.webp"
@@ -90320,7 +90632,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840439318",
         "cover_file": "307/cover_840439318.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics electrical magnetic and optical properties",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "2324223",
         "cover_file": "NA"
@@ -90340,15 +90660,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "33103702",
         "cover_file": "307/cover_33103702.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics electrical magnetic and optical properties",
-    "virtual_shelf": 916,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "35239966",
         "cover_file": "307/cover_35239966.webp"
@@ -90428,7 +90740,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1137992",
         "cover_file": "308/cover_1137992.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics electrical magnetic and optical properties",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "24668766",
         "cover_file": "308/cover_24668766.webp"
@@ -90448,15 +90768,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "36621751",
         "cover_file": "308/cover_36621751.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics electrical magnetic and optical properties",
-    "virtual_shelf": 917,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "37870700",
         "cover_file": "308/cover_37870700.webp"
@@ -90536,7 +90848,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "911671621",
         "cover_file": "309/cover_911671621.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics electrical magnetic and optical properties",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 8,
+    "books": [
       {
         "OCLC": "911671879",
         "cover_file": "309/cover_911671879.webp"
@@ -90556,15 +90876,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "32346363",
         "cover_file": "309/cover_32346363.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics electrical magnetic and optical properties",
-    "virtual_shelf": 918,
-    "books_in_bookcase": 3,
-    "books": [
+      },
       {
         "OCLC": "905479968",
         "cover_file": "309/cover_905479968.webp"
@@ -90582,8 +90894,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 919,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "500806",
@@ -90664,7 +90976,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "56492278",
         "cover_file": "295/cover_56492278.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840386431",
         "cover_file": "295/cover_840386431.webp"
@@ -90684,15 +91004,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393613",
         "cover_file": "295/cover_840393613.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 920,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "55228781",
         "cover_file": "295/cover_55228781.webp"
@@ -90772,7 +91084,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43662071",
         "cover_file": "296/cover_43662071.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "244767820",
         "cover_file": "296/cover_244767820.webp"
@@ -90792,15 +91112,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "429027132",
         "cover_file": "296/cover_429027132.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 921,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840441922",
         "cover_file": "296/cover_840441922.webp"
@@ -90880,7 +91192,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "27266240",
         "cover_file": "297/cover_27266240.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "25788065",
         "cover_file": "297/cover_25788065.webp"
@@ -90900,15 +91220,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "52265064",
         "cover_file": "297/cover_52265064.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 922,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "51669812",
         "cover_file": "297/cover_51669812.webp"
@@ -90988,7 +91300,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839266656",
         "cover_file": "298/cover_839266656.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "452281284",
         "cover_file": "298/cover_452281284.webp"
@@ -91008,15 +91328,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "815615127",
         "cover_file": "298/cover_815615127.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 923,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840441885",
         "cover_file": "298/cover_840441885.webp"
@@ -91096,7 +91408,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "40076584",
         "cover_file": "299/cover_40076584.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "42603399",
         "cover_file": "299/cover_42603399.webp"
@@ -91116,15 +91436,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "48570515",
         "cover_file": "299/cover_48570515.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 924,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "51280523",
         "cover_file": "299/cover_51280523.webp"
@@ -91204,7 +91516,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "747575686",
         "cover_file": "300/cover_747575686.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "554760",
         "cover_file": "NA"
@@ -91224,15 +91544,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "772837868",
         "cover_file": "300/cover_772837868.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 925,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "772837867",
         "cover_file": "300/cover_772837867.webp"
@@ -91312,7 +91624,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "56956336",
         "cover_file": "301/cover_56956336.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840394271",
         "cover_file": "301/cover_840394271.webp"
@@ -91332,15 +91652,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "84612012",
         "cover_file": "301/cover_84612012.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 926,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "778082422",
         "cover_file": "301/cover_778082422.webp"
@@ -91420,7 +91732,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839263846",
         "cover_file": "302/cover_839263846.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "436681290",
         "cover_file": "302/cover_436681290.webp"
@@ -91440,15 +91760,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "777985877",
         "cover_file": "302/cover_777985877.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 927,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "496235669",
         "cover_file": "303/cover_496235669.webp"
@@ -91528,7 +91840,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839275972",
         "cover_file": "303/cover_839275972.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "743037815",
         "cover_file": "303/cover_743037815.webp"
@@ -91548,15 +91868,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "473476870",
         "cover_file": "303/cover_473476870.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 928,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839277698",
         "cover_file": "303/cover_839277698.webp"
@@ -91636,7 +91948,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "741352209",
         "cover_file": "304/cover_741352209.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "solid state physics general structure and thermodynamics",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "905865171",
         "cover_file": "304/cover_905865171.webp"
@@ -91656,15 +91976,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840448475",
         "cover_file": "304/cover_840448475.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "solid state physics general structure and thermodynamics",
-    "virtual_shelf": 929,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "905869554",
         "cover_file": "304/cover_905869554.webp"
@@ -91694,8 +92006,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "theoretical physics",
-    "virtual_shelf": 943,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "28964630",
@@ -91776,7 +92088,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840437919",
         "cover_file": "190/cover_840437919.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839269508",
         "cover_file": "190/cover_839269508.webp"
@@ -91796,15 +92116,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445296",
         "cover_file": "190/cover_840445296.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 944,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839347867",
         "cover_file": "190/cover_839347867.webp"
@@ -91884,7 +92196,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "55848187",
         "cover_file": "192/cover_55848187.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "52961145",
         "cover_file": "192/cover_52961145.webp"
@@ -91904,15 +92224,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "154706366",
         "cover_file": "192/cover_154706366.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 945,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840439002",
         "cover_file": "192/cover_840439002.webp"
@@ -91992,7 +92304,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "314161",
         "cover_file": "193/cover_314161.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "6376209",
         "cover_file": "193/cover_6376209.webp"
@@ -92012,15 +92332,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898796545",
         "cover_file": "193/cover_898796545.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 946,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "10949606",
         "cover_file": "193/cover_10949606.webp"
@@ -92100,7 +92412,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "76481480",
         "cover_file": "194/cover_76481480.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "75713467",
         "cover_file": "194/cover_75713467.webp"
@@ -92120,15 +92440,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "141379117",
         "cover_file": "194/cover_141379117.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 947,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839250077",
         "cover_file": "194/cover_839250077.webp"
@@ -92208,7 +92520,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "2948",
         "cover_file": "195/cover_2948.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "815118",
         "cover_file": "195/cover_815118.webp"
@@ -92228,15 +92548,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "33440598",
         "cover_file": "195/cover_33440598.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 948,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905474942",
         "cover_file": "195/cover_905474942.webp"
@@ -92316,7 +92628,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "898875832",
         "cover_file": "195/cover_898875832.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30545083",
         "cover_file": "195/cover_30545083.webp"
@@ -92336,15 +92656,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898808143",
         "cover_file": "196/cover_898808143.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 949,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "16803054",
         "cover_file": "196/cover_16803054.webp"
@@ -92424,7 +92736,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "123113789",
         "cover_file": "196/cover_123113789.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "493159675",
         "cover_file": "196/cover_493159675.webp"
@@ -92444,15 +92764,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "320495227",
         "cover_file": "197/cover_320495227.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 950,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "496957992",
         "cover_file": "197/cover_496957992.webp"
@@ -92532,7 +92844,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840371995",
         "cover_file": "197/cover_840371995.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "58432137",
         "cover_file": "197/cover_58432137.webp"
@@ -92552,15 +92872,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "898861335",
         "cover_file": "198/cover_898861335.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 951,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "11518382",
         "cover_file": "198/cover_11518382.webp"
@@ -92640,7 +92952,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "51568158",
         "cover_file": "198/cover_51568158.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "51763992",
         "cover_file": "198/cover_51763992.webp"
@@ -92660,15 +92980,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840392950",
         "cover_file": "198/cover_840392950.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 952,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840393631",
         "cover_file": "198/cover_840393631.webp"
@@ -92748,7 +93060,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "319209483",
         "cover_file": "199/cover_319209483.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840413632",
         "cover_file": "199/cover_840413632.webp"
@@ -92768,15 +93088,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "778395232",
         "cover_file": "199/cover_778395232.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 953,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840413695",
         "cover_file": "199/cover_840413695.webp"
@@ -92856,7 +93168,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869156",
         "cover_file": "200/cover_905869156.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 12,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840460075",
         "cover_file": "200/cover_840460075.webp"
@@ -92876,15 +93196,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905865216",
         "cover_file": "200/cover_905865216.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 954,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "809004032",
         "cover_file": "200/cover_809004032.webp"
@@ -92964,7 +93276,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840393361",
         "cover_file": "201/cover_840393361.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 13,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840396865",
         "cover_file": "201/cover_840396865.webp"
@@ -92984,15 +93304,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "137221653",
         "cover_file": "201/cover_137221653.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 955,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840406711",
         "cover_file": "201/cover_840406711.webp"
@@ -93072,7 +93384,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "50783379",
         "cover_file": "202/cover_50783379.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 14,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "697361148",
         "cover_file": "202/cover_697361148.webp"
@@ -93092,15 +93412,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840444726",
         "cover_file": "202/cover_840444726.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 956,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901719686",
         "cover_file": "202/cover_901719686.webp"
@@ -93180,7 +93492,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "56640205",
         "cover_file": "203/cover_56640205.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 15,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "55063068",
         "cover_file": "203/cover_55063068.webp"
@@ -93200,15 +93520,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "774918169",
         "cover_file": "203/cover_774918169.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 957,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840393907",
         "cover_file": "203/cover_840393907.webp"
@@ -93288,7 +93600,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840445035",
         "cover_file": "203/cover_840445035.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 16,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840448205",
         "cover_file": "203/cover_840448205.webp"
@@ -93308,15 +93628,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839334080",
         "cover_file": "204/cover_839334080.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 958,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840461164",
         "cover_file": "204/cover_840461164.webp"
@@ -93396,7 +93708,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "59760577",
         "cover_file": "204/cover_59760577.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 17,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "61262431",
         "cover_file": "204/cover_61262431.webp"
@@ -93416,15 +93736,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "256002927",
         "cover_file": "204/cover_256002927.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 959,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840398602",
         "cover_file": "204/cover_840398602.webp"
@@ -93504,7 +93816,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840447197",
         "cover_file": "205/cover_840447197.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "theoretical physics",
+    "virtual_shelf_temp": 18,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "839299066",
         "cover_file": "205/cover_839299066.webp"
@@ -93524,15 +93844,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839278749",
         "cover_file": "205/cover_839278749.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "theoretical physics",
-    "virtual_shelf": 960,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "839312409",
         "cover_file": "205/cover_839312409.webp"
@@ -93562,8 +93874,8 @@ const virtual_bookshelves = [
   {
     "topic": "physics",
     "sub_topic": "thermodynamics thermophysics",
-    "virtual_shelf": 961,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "2379038",
@@ -93644,7 +93956,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "39633743",
         "cover_file": "249/cover_39633743.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "thermodynamics thermophysics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840358192",
         "cover_file": "NA"
@@ -93664,15 +93984,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "46359255",
         "cover_file": "249/cover_46359255.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "thermodynamics thermophysics",
-    "virtual_shelf": 962,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840377059",
         "cover_file": "249/cover_840377059.webp"
@@ -93752,7 +94064,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "51936837",
         "cover_file": "250/cover_51936837.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "thermodynamics thermophysics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "62560172",
         "cover_file": "250/cover_62560172.webp"
@@ -93772,15 +94092,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "702364597",
         "cover_file": "250/cover_702364597.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "thermodynamics thermophysics",
-    "virtual_shelf": 963,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839292972",
         "cover_file": "250/cover_839292972.webp"
@@ -93860,7 +94172,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "2798918",
         "cover_file": "250/cover_2798918.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "thermodynamics thermophysics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "2463499",
         "cover_file": "250/cover_2463499.webp"
@@ -93880,15 +94200,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "26930555",
         "cover_file": "251/cover_26930555.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "thermodynamics thermophysics",
-    "virtual_shelf": 964,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "32430045",
         "cover_file": "251/cover_32430045.webp"
@@ -93968,7 +94280,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839272844",
         "cover_file": "251/cover_839272844.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "thermodynamics thermophysics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839308927",
         "cover_file": "251/cover_839308927.webp"
@@ -93988,15 +94308,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "10123676",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "thermodynamics thermophysics",
-    "virtual_shelf": 965,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "769320702",
         "cover_file": "NA"
@@ -94076,7 +94388,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840332878",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "thermodynamics thermophysics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "38494868",
         "cover_file": "253/cover_38494868.webp"
@@ -94096,15 +94416,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "46473915",
         "cover_file": "253/cover_46473915.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "thermodynamics thermophysics",
-    "virtual_shelf": 966,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "43495120",
         "cover_file": "253/cover_43495120.webp"
@@ -94184,7 +94496,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438924",
         "cover_file": "254/cover_840438924.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "thermodynamics thermophysics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "839301917",
         "cover_file": "254/cover_839301917.webp"
@@ -94204,15 +94524,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869092",
         "cover_file": "254/cover_905869092.webp"
-      }
-    ]
-  },
-  {
-    "topic": "physics",
-    "sub_topic": "thermodynamics thermophysics",
-    "virtual_shelf": 967,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840459962",
         "cover_file": "254/cover_840459962.webp"
@@ -94292,7 +94604,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840390280",
         "cover_file": "255/cover_840390280.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "physics",
+    "sub_topic": "thermodynamics thermophysics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 5,
+    "books": [
       {
         "OCLC": "840395046",
         "cover_file": "255/cover_840395046.webp"
@@ -94318,8 +94638,8 @@ const virtual_bookshelves = [
   {
     "topic": "sciences general",
     "sub_topic": "applied sciences general",
-    "virtual_shelf": 59,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "772705769",
@@ -94400,7 +94720,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "69338028",
         "cover_file": "11/cover_69338028.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "applied sciences general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783804602",
         "cover_file": "11/cover_783804602.webp"
@@ -94420,15 +94748,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840359034",
         "cover_file": "11/cover_840359034.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "applied sciences general",
-    "virtual_shelf": 60,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "42476699",
         "cover_file": "11/cover_42476699.webp"
@@ -94508,7 +94828,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "44785764",
         "cover_file": "12/cover_44785764.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "applied sciences general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "1022948523",
         "cover_file": "NA"
@@ -94528,15 +94856,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840436421",
         "cover_file": "13/cover_840436421.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "applied sciences general",
-    "virtual_shelf": 61,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "489014852",
         "cover_file": "13/cover_489014852.webp"
@@ -94616,7 +94936,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840417631",
         "cover_file": "13/cover_840417631.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "applied sciences general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "25164646",
         "cover_file": "13/cover_25164646.webp"
@@ -94636,15 +94964,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "40533947",
         "cover_file": "13/cover_40533947.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "applied sciences general",
-    "virtual_shelf": 62,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "902048134",
         "cover_file": "14/cover_902048134.webp"
@@ -94724,7 +95044,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "648933424",
         "cover_file": "14/cover_648933424.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "applied sciences general",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "653085043",
         "cover_file": "14/cover_653085043.webp"
@@ -94744,15 +95072,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905870474",
         "cover_file": "14/cover_905870474.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "applied sciences general",
-    "virtual_shelf": 63,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "983825027",
         "cover_file": "14/cover_983825027.webp"
@@ -94832,7 +95152,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839279867",
         "cover_file": "15/cover_839279867.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "applied sciences general",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905871137",
         "cover_file": "15/cover_905871137.webp"
@@ -94852,15 +95180,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905862005",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "applied sciences general",
-    "virtual_shelf": 64,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "903233058",
         "cover_file": "15/cover_903233058.webp"
@@ -94940,7 +95260,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "43076863",
         "cover_file": "16/cover_43076863.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "applied sciences general",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "782913523",
         "cover_file": "16/cover_782913523.webp"
@@ -94960,15 +95288,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "49206284",
         "cover_file": "16/cover_49206284.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "applied sciences general",
-    "virtual_shelf": 65,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840376792",
         "cover_file": "16/cover_840376792.webp"
@@ -95048,7 +95368,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839067949",
         "cover_file": "17/cover_839067949.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "applied sciences general",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 18,
+    "books": [
       {
         "OCLC": "693759454",
         "cover_file": "17/cover_693759454.webp"
@@ -95068,15 +95396,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905869511",
         "cover_file": "17/cover_905869511.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "applied sciences general",
-    "virtual_shelf": 66,
-    "books_in_bookcase": 13,
-    "books": [
+      },
       {
         "OCLC": "840727746",
         "cover_file": "NA"
@@ -95134,8 +95454,8 @@ const virtual_bookshelves = [
   {
     "topic": "sciences general",
     "sub_topic": "philosophy",
-    "virtual_shelf": 705,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905448069",
@@ -95216,7 +95536,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "770780788",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "philosophy",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "67785482",
         "cover_file": "NA"
@@ -95236,15 +95564,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "39714053",
         "cover_file": "1/cover_39714053.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "philosophy",
-    "virtual_shelf": 706,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "39748151",
         "cover_file": "1/cover_39748151.webp"
@@ -95324,7 +95644,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905870282",
         "cover_file": "2/cover_905870282.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "philosophy",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "317944754",
         "cover_file": "2/cover_317944754.webp"
@@ -95344,15 +95672,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "752389333",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "philosophy",
-    "virtual_shelf": 707,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "758624139",
         "cover_file": "2/cover_758624139.webp"
@@ -95432,7 +95752,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782087656",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "philosophy",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "521935252",
         "cover_file": "NA"
@@ -95452,15 +95780,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "63258938",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "philosophy",
-    "virtual_shelf": 708,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901474802",
         "cover_file": "3/cover_901474802.webp"
@@ -95540,7 +95860,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "773289116",
         "cover_file": "4/cover_773289116.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "philosophy",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "773237280",
         "cover_file": "NA"
@@ -95560,15 +95888,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783151521",
         "cover_file": "4/cover_783151521.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "philosophy",
-    "virtual_shelf": 709,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "55015829",
         "cover_file": "4/cover_55015829.webp"
@@ -95648,7 +95968,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "48047942",
         "cover_file": "5/cover_48047942.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "philosophy",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "50065032",
         "cover_file": "5/cover_50065032.webp"
@@ -95668,15 +95996,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "77077344",
         "cover_file": "5/cover_77077344.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "philosophy",
-    "virtual_shelf": 710,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "71833470",
         "cover_file": "5/cover_71833470.webp"
@@ -95756,7 +96076,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "21043790",
         "cover_file": "6/cover_21043790.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "philosophy",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "898868136",
         "cover_file": "6/cover_898868136.webp"
@@ -95776,15 +96104,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782879412",
         "cover_file": "6/cover_782879412.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "philosophy",
-    "virtual_shelf": 711,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905466957",
         "cover_file": "6/cover_905466957.webp"
@@ -95864,7 +96184,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "248543780",
         "cover_file": "6/cover_248543780.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "philosophy",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "47168720",
         "cover_file": "6/cover_47168720.webp"
@@ -95884,15 +96212,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840409768",
         "cover_file": "6/cover_840409768.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "philosophy",
-    "virtual_shelf": 712,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840399630",
         "cover_file": "6/cover_840399630.webp"
@@ -95972,7 +96292,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "839295971",
         "cover_file": "7/cover_839295971.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "philosophy",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 10,
+    "books": [
       {
         "OCLC": "753559147",
         "cover_file": "7/cover_753559147.webp"
@@ -95992,15 +96320,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "907206179",
         "cover_file": "7/cover_907206179.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "philosophy",
-    "virtual_shelf": 713,
-    "books_in_bookcase": 5,
-    "books": [
+      },
       {
         "OCLC": "1121082826",
         "cover_file": "7/cover_1121082826.webp"
@@ -96026,8 +96346,8 @@ const virtual_bookshelves = [
   {
     "topic": "sciences general",
     "sub_topic": "sciences general",
-    "virtual_shelf": 861,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "841065553",
@@ -96108,7 +96428,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67920846",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "sciences general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905482301",
         "cover_file": "7/cover_905482301.webp"
@@ -96128,15 +96456,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42295815",
         "cover_file": "8/cover_42295815.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "sciences general",
-    "virtual_shelf": 862,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "45263894",
         "cover_file": "8/cover_45263894.webp"
@@ -96216,7 +96536,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "846890256",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "sciences general",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "881658669",
         "cover_file": "9/cover_881658669.webp"
@@ -96236,15 +96564,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "64114463",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "sciences general",
-    "virtual_shelf": 863,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839689808",
         "cover_file": "9/cover_839689808.webp"
@@ -96324,7 +96644,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "781822314",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "sciences general",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 13,
+    "books": [
       {
         "OCLC": "758167523",
         "cover_file": "10/cover_758167523.webp"
@@ -96344,15 +96672,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "780511689",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "sciences general",
-    "virtual_shelf": 864,
-    "books_in_bookcase": 8,
-    "books": [
+      },
       {
         "OCLC": "780436495",
         "cover_file": "10/cover_780436495.webp"
@@ -96390,8 +96710,8 @@ const virtual_bookshelves = [
   {
     "topic": "sciences general",
     "sub_topic": "scientific research",
-    "virtual_shelf": 865,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "840287214",
@@ -96472,7 +96792,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "57351124",
         "cover_file": "20/cover_57351124.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "scientific research",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "57576116",
         "cover_file": "20/cover_57576116.webp"
@@ -96492,15 +96820,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840402586",
         "cover_file": "20/cover_840402586.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "scientific research",
-    "virtual_shelf": 866,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56798891",
         "cover_file": "20/cover_56798891.webp"
@@ -96580,7 +96900,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "668182169",
         "cover_file": "21/cover_668182169.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "scientific research",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "456839972",
         "cover_file": "21/cover_456839972.webp"
@@ -96600,15 +96928,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "794038020",
         "cover_file": "21/cover_794038020.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "scientific research",
-    "virtual_shelf": 867,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "794038020",
         "cover_file": "21/cover_794038020.webp"
@@ -96688,7 +97008,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "51647531",
         "cover_file": "22/cover_51647531.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "scientific research",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "401158364",
         "cover_file": "22/cover_401158364.webp"
@@ -96708,15 +97036,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905868329",
         "cover_file": "22/cover_905868329.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "scientific research",
-    "virtual_shelf": 868,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "781579487",
         "cover_file": "NA"
@@ -96796,7 +97116,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "35280754",
         "cover_file": "22/cover_35280754.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "scientific research",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "34730695",
         "cover_file": "22/cover_34730695.webp"
@@ -96816,15 +97144,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "37132582",
         "cover_file": "22/cover_37132582.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "scientific research",
-    "virtual_shelf": 869,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840357966",
         "cover_file": "NA"
@@ -96904,7 +97224,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782965614",
         "cover_file": "22/cover_782965614.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "scientific research",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "780551477",
         "cover_file": "22/cover_780551477.webp"
@@ -96924,15 +97252,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840379613",
         "cover_file": "22/cover_840379613.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "scientific research",
-    "virtual_shelf": 870,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782923785",
         "cover_file": "22/cover_782923785.webp"
@@ -97012,7 +97332,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840402662",
         "cover_file": "23/cover_840402662.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "scientific research",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "51048868",
         "cover_file": "23/cover_51048868.webp"
@@ -97032,15 +97360,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "899045302",
         "cover_file": "23/cover_899045302.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "scientific research",
-    "virtual_shelf": 871,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "783209136",
         "cover_file": "23/cover_783209136.webp"
@@ -97120,7 +97440,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "65399935",
         "cover_file": "24/cover_65399935.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "scientific research",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783399055",
         "cover_file": "24/cover_783399055.webp"
@@ -97140,15 +97468,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "232546670",
         "cover_file": "24/cover_232546670.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "scientific research",
-    "virtual_shelf": 872,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840461226",
         "cover_file": "24/cover_840461226.webp"
@@ -97228,7 +97548,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "801937224",
         "cover_file": "24/cover_801937224.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "scientific research",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 11,
+    "books": [
       {
         "OCLC": "748666547",
         "cover_file": "24/cover_748666547.webp"
@@ -97248,15 +97576,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "893453800",
         "cover_file": "25/cover_893453800.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "scientific research",
-    "virtual_shelf": 873,
-    "books_in_bookcase": 6,
-    "books": [
+      },
       {
         "OCLC": "890080248",
         "cover_file": "25/cover_890080248.webp"
@@ -97286,8 +97606,8 @@ const virtual_bookshelves = [
   {
     "topic": "sciences general",
     "sub_topic": "social sciences general",
-    "virtual_shelf": 888,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781135146",
@@ -97368,7 +97688,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782905154",
         "cover_file": "19/cover_782905154.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "sciences general",
+    "sub_topic": "social sciences general",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 17,
+    "books": [
       {
         "OCLC": "782924450",
         "cover_file": "19/cover_782924450.webp"
@@ -97388,15 +97716,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "57894066",
         "cover_file": "19/cover_57894066.webp"
-      }
-    ]
-  },
-  {
-    "topic": "sciences general",
-    "sub_topic": "social sciences general",
-    "virtual_shelf": 889,
-    "books_in_bookcase": 12,
-    "books": [
+      },
       {
         "OCLC": "61859823",
         "cover_file": "19/cover_61859823.webp"
@@ -97450,8 +97770,8 @@ const virtual_bookshelves = [
   {
     "topic": "social sciences",
     "sub_topic": "economics",
-    "virtual_shelf": 285,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "905449643",
@@ -97532,7 +97852,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782750760",
         "cover_file": "865/cover_782750760.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "898992460",
         "cover_file": "865/cover_898992460.webp"
@@ -97552,15 +97880,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783029416",
         "cover_file": "865/cover_783029416.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "economics",
-    "virtual_shelf": 286,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905869398",
         "cover_file": "865/cover_905869398.webp"
@@ -97640,7 +97960,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "778586457",
         "cover_file": "866/cover_778586457.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "777327473",
         "cover_file": "866/cover_777327473.webp"
@@ -97660,15 +97988,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "959500618",
         "cover_file": "866/cover_959500618.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "economics",
-    "virtual_shelf": 287,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "1348634901",
         "cover_file": "866/cover_1348634901.webp"
@@ -97748,7 +98068,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "244063637",
         "cover_file": "867/cover_244063637.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783369046",
         "cover_file": "867/cover_783369046.webp"
@@ -97768,15 +98096,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839750597",
         "cover_file": "867/cover_839750597.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "economics",
-    "virtual_shelf": 288,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "23386466",
         "cover_file": "867/cover_23386466.webp"
@@ -97856,7 +98176,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "9429561",
         "cover_file": "868/cover_9429561.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "781330107",
         "cover_file": "868/cover_781330107.webp"
@@ -97876,15 +98204,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "38886360",
         "cover_file": "868/cover_38886360.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "economics",
-    "virtual_shelf": 289,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "773024801",
         "cover_file": "868/cover_773024801.webp"
@@ -97964,7 +98284,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "30548427",
         "cover_file": "869/cover_30548427.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "35594174",
         "cover_file": "869/cover_35594174.webp"
@@ -97984,15 +98312,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905478513",
         "cover_file": "869/cover_905478513.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "economics",
-    "virtual_shelf": 290,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "42296141",
         "cover_file": "869/cover_42296141.webp"
@@ -98072,7 +98392,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "783371766",
         "cover_file": "870/cover_783371766.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840398998",
         "cover_file": "870/cover_840398998.webp"
@@ -98092,15 +98420,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840443238",
         "cover_file": "870/cover_840443238.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "economics",
-    "virtual_shelf": 291,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "474869071",
         "cover_file": "870/cover_474869071.webp"
@@ -98180,7 +98500,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "53846750",
         "cover_file": "870/cover_53846750.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840392456",
         "cover_file": "871/cover_840392456.webp"
@@ -98200,15 +98528,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "839067905",
         "cover_file": "871/cover_839067905.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "economics",
-    "virtual_shelf": 292,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "839234020",
         "cover_file": "871/cover_839234020.webp"
@@ -98288,7 +98608,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "66247690",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "29471549",
         "cover_file": "871/cover_29471549.webp"
@@ -98308,15 +98636,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782249175",
         "cover_file": "871/cover_782249175.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "economics",
-    "virtual_shelf": 293,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "67944828",
         "cover_file": "NA"
@@ -98396,7 +98716,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "989714482",
         "cover_file": "872/cover_989714482.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "economics",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "300395708",
         "cover_file": "872/cover_300395708.webp"
@@ -98406,8 +98734,8 @@ const virtual_bookshelves = [
   {
     "topic": "social sciences",
     "sub_topic": "education",
-    "virtual_shelf": 294,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "1054908",
@@ -98488,7 +98816,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "905514515",
         "cover_file": "853/cover_905514515.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "education",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840399113",
         "cover_file": "NA"
@@ -98508,15 +98844,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "676922100",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "education",
-    "virtual_shelf": 295,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "883418193",
         "cover_file": "NA"
@@ -98596,7 +98924,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840438975",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "education",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "1008775967",
         "cover_file": "853/cover_1008775967.webp"
@@ -98616,15 +98952,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1022948274",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "education",
-    "virtual_shelf": 296,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840391773",
         "cover_file": "854/cover_840391773.webp"
@@ -98704,7 +99032,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "836557384",
         "cover_file": "854/cover_836557384.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "education",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 22,
+    "books": [
       {
         "OCLC": "887852126",
         "cover_file": "854/cover_887852126.webp"
@@ -98724,15 +99060,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "1129084603",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "education",
-    "virtual_shelf": 297,
-    "books_in_bookcase": 17,
-    "books": [
+      },
       {
         "OCLC": "66274236",
         "cover_file": "NA"
@@ -98806,8 +99134,8 @@ const virtual_bookshelves = [
   {
     "topic": "social sciences",
     "sub_topic": "political sciences",
-    "virtual_shelf": 768,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "36336690",
@@ -98888,7 +99216,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "972047998",
         "cover_file": "863/cover_972047998.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "political sciences",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "777958720",
         "cover_file": "863/cover_777958720.webp"
@@ -98908,15 +99244,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "171110015",
         "cover_file": "863/cover_171110015.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "political sciences",
-    "virtual_shelf": 769,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "294886474",
         "cover_file": "863/cover_294886474.webp"
@@ -98996,7 +99324,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "898886978",
         "cover_file": "864/cover_898886978.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "political sciences",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 15,
+    "books": [
       {
         "OCLC": "840295582",
         "cover_file": "864/cover_840295582.webp"
@@ -99016,15 +99352,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840399110",
         "cover_file": "864/cover_840399110.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "political sciences",
-    "virtual_shelf": 770,
-    "books_in_bookcase": 10,
-    "books": [
+      },
       {
         "OCLC": "840399557",
         "cover_file": "864/cover_840399557.webp"
@@ -99070,8 +99398,8 @@ const virtual_bookshelves = [
   {
     "topic": "social sciences",
     "sub_topic": "psychology",
-    "virtual_shelf": 815,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "64712275",
@@ -99152,7 +99480,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "857302859",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "905870998",
         "cover_file": "844/cover_905870998.webp"
@@ -99172,15 +99508,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "992562278",
         "cover_file": "844/cover_992562278.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 816,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "1037811097",
         "cover_file": "844/cover_1037811097.webp"
@@ -99260,7 +99588,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840388061",
         "cover_file": "845/cover_840388061.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "60803290",
         "cover_file": "845/cover_60803290.webp"
@@ -99280,15 +99616,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "180204826",
         "cover_file": "845/cover_180204826.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 817,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905863668",
         "cover_file": "845/cover_905863668.webp"
@@ -99368,7 +99696,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "840360678",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "230849367",
         "cover_file": "846/cover_230849367.webp"
@@ -99388,15 +99724,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "905447671",
         "cover_file": "846/cover_905447671.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 818,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901604900",
         "cover_file": "846/cover_901604900.webp"
@@ -99476,7 +99804,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "46976506",
         "cover_file": "847/cover_46976506.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "47271875",
         "cover_file": "847/cover_47271875.webp"
@@ -99496,15 +99832,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "52347604",
         "cover_file": "847/cover_52347604.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 819,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "54611133",
         "cover_file": "847/cover_54611133.webp"
@@ -99584,7 +99912,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "50459",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "781439953",
         "cover_file": "848/cover_781439953.webp"
@@ -99604,15 +99940,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "780437719",
         "cover_file": "848/cover_780437719.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 820,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "768924962",
         "cover_file": "848/cover_768924962.webp"
@@ -99692,7 +100020,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "56655660",
         "cover_file": "848/cover_56655660.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "254470200",
         "cover_file": "848/cover_254470200.webp"
@@ -99712,15 +100048,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "488443860",
         "cover_file": "848/cover_488443860.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 821,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905515603",
         "cover_file": "848/cover_905515603.webp"
@@ -99800,7 +100128,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "901179355",
         "cover_file": "849/cover_901179355.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "68094573",
         "cover_file": "NA"
@@ -99820,15 +100156,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "783009031",
         "cover_file": "849/cover_783009031.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 822,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "56526709",
         "cover_file": "849/cover_56526709.webp"
@@ -99908,7 +100236,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "68165962",
         "cover_file": "850/cover_68165962.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "901209656",
         "cover_file": "850/cover_901209656.webp"
@@ -99928,15 +100264,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "39951647",
         "cover_file": "850/cover_39951647.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 823,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "44391552",
         "cover_file": "850/cover_44391552.webp"
@@ -100016,7 +100344,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "67792133",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840271350",
         "cover_file": "NA"
@@ -100036,15 +100372,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840387314",
         "cover_file": "851/cover_840387314.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "psychology",
-    "virtual_shelf": 824,
-    "books_in_bookcase": 21,
-    "books": [
+      },
       {
         "OCLC": "840391954",
         "cover_file": "851/cover_840391954.webp"
@@ -100124,7 +100452,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "463640594",
         "cover_file": "852/cover_463640594.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "psychology",
+    "virtual_shelf_temp": 11,
+    "books_in_bookcase": 1,
+    "books": [
       {
         "OCLC": "894935903",
         "cover_file": "852/cover_894935903.webp"
@@ -100134,8 +100470,8 @@ const virtual_bookshelves = [
   {
     "topic": "social sciences",
     "sub_topic": "sociology",
-    "virtual_shelf": 890,
-    "books_in_bookcase": 25,
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
     "books": [
       {
         "OCLC": "781276605",
@@ -100216,7 +100552,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "901279722",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "781045081",
         "cover_file": "856/cover_781045081.webp"
@@ -100236,15 +100580,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "7284063",
         "cover_file": "856/cover_7284063.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "sociology",
-    "virtual_shelf": 891,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840375510",
         "cover_file": "856/cover_840375510.webp"
@@ -100324,7 +100660,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "814879180",
         "cover_file": "856/cover_814879180.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "503640946",
         "cover_file": "856/cover_503640946.webp"
@@ -100344,15 +100688,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "800349275",
         "cover_file": "856/cover_800349275.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "sociology",
-    "virtual_shelf": 892,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "767808656",
         "cover_file": "856/cover_767808656.webp"
@@ -100432,7 +100768,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "63412800",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "781263712",
         "cover_file": "NA"
@@ -100452,15 +100796,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782134562",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "sociology",
-    "virtual_shelf": 893,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "901816384",
         "cover_file": "857/cover_901816384.webp"
@@ -100540,7 +100876,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1269199227",
         "cover_file": "858/cover_1269199227.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "69113800",
         "cover_file": "NA"
@@ -100560,15 +100904,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "634945501",
         "cover_file": "NA"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "sociology",
-    "virtual_shelf": 894,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "840446964",
         "cover_file": "858/cover_840446964.webp"
@@ -100648,7 +100984,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "40193475",
         "cover_file": "859/cover_40193475.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "41406698",
         "cover_file": "859/cover_41406698.webp"
@@ -100668,15 +101012,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "840399467",
         "cover_file": "859/cover_840399467.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "sociology",
-    "virtual_shelf": 895,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "150245426",
         "cover_file": "NA"
@@ -100756,7 +101092,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782284664",
         "cover_file": "859/cover_782284664.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 7,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "840349237",
         "cover_file": "859/cover_840349237.webp"
@@ -100776,15 +101120,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "42682853",
         "cover_file": "860/cover_42682853.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "sociology",
-    "virtual_shelf": 896,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "782973989",
         "cover_file": "860/cover_782973989.webp"
@@ -100864,7 +101200,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "123485353",
         "cover_file": "860/cover_123485353.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 8,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "783432073",
         "cover_file": "860/cover_783432073.webp"
@@ -100884,15 +101228,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "387779878",
         "cover_file": "860/cover_387779878.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "sociology",
-    "virtual_shelf": 897,
-    "books_in_bookcase": 25,
-    "books": [
+      },
       {
         "OCLC": "905515160",
         "cover_file": "860/cover_905515160.webp"
@@ -100972,7 +101308,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "1371399485",
         "cover_file": "861/cover_1371399485.webp"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 9,
+    "books_in_bookcase": 25,
+    "books": [
       {
         "OCLC": "30734000",
         "cover_file": "861/cover_30734000.webp"
@@ -100992,15 +101336,7 @@ const virtual_bookshelves = [
       {
         "OCLC": "782884038",
         "cover_file": "861/cover_782884038.webp"
-      }
-    ]
-  },
-  {
-    "topic": "social sciences",
-    "sub_topic": "sociology",
-    "virtual_shelf": 898,
-    "books_in_bookcase": 24,
-    "books": [
+      },
       {
         "OCLC": "782923450",
         "cover_file": "861/cover_782923450.webp"
@@ -101080,7 +101416,15 @@ const virtual_bookshelves = [
       {
         "OCLC": "782146209",
         "cover_file": "NA"
-      },
+      }
+    ]
+  },
+  {
+    "topic": "social sciences",
+    "sub_topic": "sociology",
+    "virtual_shelf_temp": 10,
+    "books_in_bookcase": 4,
+    "books": [
       {
         "OCLC": "839674962",
         "cover_file": "NA"
@@ -101100,7 +101444,7 @@ const virtual_bookshelves = [
     ]
   },
   {
-    "virtual_shelf": 1014,
+    "virtual_shelf_temp": 1,
     "books_in_bookcase": 13,
     "books": [
       {
