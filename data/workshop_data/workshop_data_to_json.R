@@ -9,6 +9,13 @@ curr_path = rstudioapi::getSourceEditorContext()$path
 curr_path <- sub("/[^/]*$", "", curr_path)
 books <- openxlsx2::read_xlsx(paste0(curr_path,"/","workshop_data.xlsx"))
 
+
+books_json <- books %>% 
+  select(title,authors,year,OCLC,description,std_call_number,floor) %>% 
+  toJSON(pretty = TRUE, auto_unbox = TRUE)
+#write(books_json, file = paste0(curr_path,"/","workshop_data.js"))
+
+
 books %<>% arrange(std_call_number)
 
 books %<>% mutate(floor = case_when(shelf <= 180 ~ 4,

@@ -1,4 +1,6 @@
-currently_selected_topic = ""
+import {capitalizeFirstLetterOfEachWord} from './utils/helpers.js'
+
+var currently_selected_topic = ""
 
 var wall_container = d3.select(".wall_container")
                        .append("svg")
@@ -24,7 +26,7 @@ for (let i = 1; i <= 25; i++) {
   add_background_books(`topic_${i}`)
 }
                  
-wall_background = wall_container.append("g")
+var wall_background = wall_container.append("g")
                   .attr("id", "wall_background")
                   .append("image")
                   .attr("xlink:href","res/wall_vector.svg")
@@ -107,7 +109,6 @@ wall_container
             //.attr("stroke", "red")
             .attr("stroke-width", 1)
             .on('click',function(d) {
-                console.log(this.getAttribute('topic'))
                 //Add missing books back
                 if (currently_selected_topic !== "") {
                   add_background_books(currently_selected_topic)}
@@ -254,7 +255,6 @@ topics_container.append("g")
 
 
 function select_topic(topic_id) {
-    console.log(topic_id)
     //Remove magnifying glass (if any)
     wall_container.selectAll(".magnifying_assets").remove();
     //Change previous selection to dark blue
@@ -343,8 +343,8 @@ function populate_topics_shelf_view(topic_name){
   var number_of_bookcases = bookcase_curr_topic.length
 
   d3.select(".shelf_view--topic_holder").text(topic_name)
-  subtopic_holder = d3.select(".shelf_view--subtopic_holder")
-  subtopics = topics_subtopics.filter(book => book.topic === topic_name);
+  var subtopic_holder = d3.select(".shelf_view--subtopic_holder")
+  var subtopics = topics_subtopics.filter(book => book.topic === topic_name);
   subtopic_holder.selectAll(".shelves_subtopics").remove()
   
   subtopic_holder
@@ -353,7 +353,11 @@ function populate_topics_shelf_view(topic_name){
     .enter()
     .append("div")
     .attr("class", "shelves_subtopics")
-    .text(d => d.sub_topic);
+    .attr("id",d => d.sub_topic)
+    .text(d => d.sub_topic)
+    .on('click',function() {
+      navigate_to_subtopic(bookcase_curr_topic,this.getAttribute('id'))
+    })
 
   //Calculate width for book details div
   var shelf_view_attr = (d3.select(".shelf_view--shelves").node().getBoundingClientRect())
@@ -372,7 +376,7 @@ function populate_topics_shelf_view(topic_name){
       bookcase_holder
             .append("div")
             .attr("class", "subtopic_separator")
-            .text(bookcase_content.sub_topic)
+            .text(capitalizeFirstLetterOfEachWord(bookcase_content.sub_topic))
     }
 
     const bookcase = bookcase_holder.append("div")
@@ -380,7 +384,6 @@ function populate_topics_shelf_view(topic_name){
 
     add_info_card(bookcase_id)
 
-    
     for (let i = 1; i <= bookcase_content.books_in_bookcase; i++) {
 
       var cover_filename = bookcase_content.books[i-1].cover_file
@@ -390,6 +393,12 @@ function populate_topics_shelf_view(topic_name){
         .attr("class", "shelf--book")
         .attr("bookcase_id",bookcase_id)
         .attr("oclc",OCLC)
+
+      if (bookcase_content.virtual_shelf_temp === 1){
+        book.style("min-width", "23%")
+      } else {
+        book.style("min-width", "18%")
+      }
 
         if (cover_filename === "NA") {
             book.style("background-color", "silver");
@@ -412,7 +421,14 @@ function populate_topics_shelf_view(topic_name){
   });
 
 
-
+  function navigate_to_subtopic(bookcase_curr_topic,subtopic_name){
+    const lowercase_name = subtopic_name.toLowerCase()
+    const index = bookcase_curr_topic.findIndex(item => item.sub_topic === lowercase_name);
+    d3.selectAll(".book_details--visible")
+      .attr("class", "book_details--invisible")
+    d3.select('.shelf_view--shelves')
+      .property('scrollLeft', index * book_details_width)
+  }
 
   document.querySelector('.shelf_view--shelves').scrollLeft = 0;
 
@@ -454,7 +470,7 @@ function add_info_card(bookcase_id){
 
 
 function fill_info_card(info_card, OCLC){
-    const book_info = workshop_data.filter(book => book.OCLC === +OCLC)[0];
+    const book_info = workshop_data.filter(book => book.OCLC === OCLC)[0];
     info_card.select(".info_card--title").text(book_info.title)
 
     const details_html = build_details_html(book_info)
@@ -467,7 +483,7 @@ function fill_info_card(info_card, OCLC){
       .select("img")
       .attr("src", qr_code)
 
-    const location_text = `Code: <b>${book_info.std_call_number}</b>` 
+    const location_text = `Code: <b>${book_info.std_call_number}</b><br>Floor: <b>${book_info.floor}</b>` 
     info_card.select(".info_card--location_details--text").html(location_text)
 }
 
