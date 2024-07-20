@@ -249,6 +249,17 @@ svg defs {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  box-sizing: border-box; /* Ensure border is included in the element's dimensions */
+}
+
+.highlighted{
+  border: 3px solid #ccc;
+  opacity: 100%;
+}
+
+.dimmed{
+  border: none;
+  opacity: 50%;
 }
 
 .book_details--visible {
@@ -271,6 +282,8 @@ svg defs {
 .info_card--header{
   flex: 1;
   align-items: flex-start;
+  display: flex;
+  justify-content: space-between; 
 }
 
 .info_card--details{

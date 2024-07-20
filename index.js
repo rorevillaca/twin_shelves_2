@@ -392,7 +392,7 @@ function populate_topics_shelf_view(topic_name){
       const book = bookcase.append("div")
         .attr("class", "shelf--book")
         .attr("bookcase_id",bookcase_id)
-        .attr("oclc",OCLC)
+        .attr("id",OCLC)
 
       if (bookcase_content.virtual_shelf_temp === 1){
         book.style("min-width", "23%")
@@ -413,9 +413,12 @@ function populate_topics_shelf_view(topic_name){
         d3.selectAll(".book_details--visible")
           .attr("class", "book_details--invisible")
 
+        d3.selectAll(".shelf--book").classed("dimmed", true);
+        d3.select(this).classed("dimmed", false).classed("highlighted", true);
+
         const info_card = d3.select(`#book_details_${bookcase_id}`)
         info_card.attr("class", "book_details--visible")
-        fill_info_card(info_card, this.getAttribute('oclc'))
+        fill_info_card(info_card, this.getAttribute('id'))
         })
     }
   });
@@ -455,6 +458,14 @@ function add_info_card(bookcase_id){
     const header = card.append("div")
         .attr("class","info_card--header")
     header.append("h3").attr("class", "info_card--title")
+    header.append("img")
+        .attr("src", "./res/Font-Awesome/times-circle.svg")
+        .attr("class","inline-icon")
+        .on('click',function() {
+          d3.selectAll(".book_details--visible")
+          .attr("class", "book_details--invisible")
+          d3.selectAll(".shelf--book").classed("dimmed", false).classed("highlighted",false);
+        })
     card.append("div").attr("class","info_card--details")
     const misc = card.append("div").attr("class","info_card--misc")
     const QR_holder = misc.append("div")
