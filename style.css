@@ -259,7 +259,7 @@ svg defs {
 
 .dimmed{
   border: none;
-  opacity: 50%;
+  opacity: 40%;
 }
 
 .book_details--visible {

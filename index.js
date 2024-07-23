@@ -1,6 +1,7 @@
 import {capitalizeFirstLetterOfEachWord} from './utils/helpers.js'
 
-var currently_selected_topic = ""
+let currently_selected_topic = ""
+let animationRunning = false;
 
 var wall_container = d3.select(".wall_container")
                        .append("svg")
@@ -53,24 +54,23 @@ function add_highlighted_books(topic) {
   // Bind the filtered data to the selection
   const books = wall_container.selectAll(".book").data(filtered_books);
   books.enter()
-  .append("rect")
-  .attr("class", "book")
-  .attr("x", () => (Math.random() < 0.5 ? -50 : 1800)) // Randomly set initial x attribute
-  //.attr("x", d => d.x_start * wall_width) // Transition to the actual x position
-  .attr("y", () => (Math.random() < 0.5 ? 25 : 75)) // Randomly set initial x attribute
-  //.attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
-  .attr("height", d => 0)
-  .attr("width", d => 24)
-  .attr("height", d => 60)
-  .transition()
-  .delay(function(d,i){return (2000/filtered_books.length) * i})
-  .ease(d3.easeQuadIn)
-  //.duration(1500)
-  .attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
-  .attr("width", d => d.book_width * wall_width)
-  .attr("height", d => d.book_height * wall_height)
-  .attr("x", d => d.x_start * wall_width) // Transition to the actual x position
-  //.attr("height", d => d.book_height * wall_height) //Transition to the real height
+    .append("rect")
+    .attr("class", "book")
+    .attr("x", () => (Math.random() < 0.5 ? -50 : 1800)) // Randomly set initial x attribute
+    //.attr("x", d => d.x_start * wall_width) // Transition to the actual x position
+    .attr("y", () => (Math.random() < 0.5 ? 25 : 75)) // Randomly set initial x attribute
+    //.attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
+    .attr("height", d => 0)
+    .attr("width", d => 24)
+    .attr("height", d => 60)
+    .transition()
+    .delay(function(d,i){return (2000/filtered_books.length) * i})
+    .ease(d3.easeQuadIn)
+    //.duration(1500)
+    .attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
+    .attr("width", d => d.book_width * wall_width)
+    .attr("height", d => d.book_height * wall_height)
+    .attr("x", d => d.x_start * wall_width) // Transition to the actual x position;
 }
 
 function parse_polygons(data) {
@@ -109,6 +109,8 @@ wall_container
             //.attr("stroke", "red")
             .attr("stroke-width", 1)
             .on('click',function(d) {
+                if (animationRunning) return; // Prevent running if animation is already in progress
+                animationRunning = true; // Set the flag to indicate the animation is running
                 //Add missing books back
                 if (currently_selected_topic !== "") {
                   add_background_books(currently_selected_topic)}
@@ -244,6 +246,8 @@ topics_container.append("g")
                         .attr("x", function(d,i) {return d.start_x_percentage*100 + "%"})
                         .attr("y", function(d,i) {return d.start_y_percentage*100 + "%"})
                         .on('click',function(d) {   
+                            if (animationRunning) return; // Prevent running if animation is already in progress
+                            animationRunning = true; // Set the flag to indicate the animation is running
                             //Add missing books back
                             if (currently_selected_topic !== "") {
                               add_background_books(currently_selected_topic)}
@@ -275,6 +279,7 @@ function select_topic(topic_id) {
     setTimeout(function(){
       //Add magnifying glass
       magnifying_glass(topic_id);
+      animationRunning = false; // Set the flag to indicate the animation has finished
     },3000)
 }
 
