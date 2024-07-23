@@ -1,47 +1,16 @@
-import {capitalizeFirstLetterOfEachWord} from './utils/helpers.js'
+import {capitalizeFirstLetterOfEachWord, shuffle} from './utils/helpers.js'
+import {initMainScreen, wallContainer, addBackgroundBooks} from "./screens/mainScreen.js"
+import {ParsePolygons} from "./utils/data.js"
 
-let currently_selected_topic = ""
+let currentlySelectedTopic = ""
 let animationRunning = false;
 
-var wall_container = d3.select(".wall_container")
-                       .append("svg")
-                       .attr("height","100%")
-                       .attr("width","95%");
+initMainScreen()
 
-
-function add_background_books(topic) {
-  wall_container.insert("g",":first-child")
-      .attr("class", `books_background`)
-      .attr("id", `books_background_${topic}`)
-      .append("image")
-      .attr("href", `res/books_background/${topic}.svg`)  // Dynamically set the file name
-      .attr("height", "100%")
-      .attr("width", "100%")
-      .attr("opacity", 1)
-      .attr("x", 0)
-      .attr("y", 0);
-}
-
-// Loop through and append each SVG image
-for (let i = 1; i <= 25; i++) {
-  add_background_books(`topic_${i}`)
-}
-                 
-var wall_background = wall_container.append("g")
-                  .attr("id", "wall_background")
-                  .append("image")
-                  .attr("xlink:href","res/wall_vector.svg")
-                  .attr("height", "100%")
-                  .attr("width", "100%")
-                  .attr("opacity", "70%")
-                  .attr("x", "0")
-                  .attr("y", "0%")
-
-
-var wall_container_attrs = (d3.select(".wall_container").node().getBoundingClientRect())
-var wall_width = wall_container_attrs.width * 0.95
-const wall_ratio = 0.2250 //from inkscape (height / width)
-var wall_height = wall_width * wall_ratio
+const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
+const wallWidth = wallContainerAttrs.width * 0.95
+const wallRatio = 0.2250 //from inkscape (height / width)
+const wallHeight = wallWidth * wallRatio
 
 
 function add_highlighted_books(topic) {
@@ -50,9 +19,9 @@ function add_highlighted_books(topic) {
   // Randomize the order
   filtered_books = shuffle(filtered_books);
   // Remove existing books
-  wall_container.selectAll(".book").remove();
+  wallContainer.selectAll(".book").remove();
   // Bind the filtered data to the selection
-  const books = wall_container.selectAll(".book").data(filtered_books);
+  const books = wallContainer.selectAll(".book").data(filtered_books);
   books.enter()
     .append("rect")
     .attr("class", "book")
@@ -67,34 +36,15 @@ function add_highlighted_books(topic) {
     .delay(function(d,i){return (2000/filtered_books.length) * i})
     .ease(d3.easeQuadIn)
     //.duration(1500)
-    .attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
-    .attr("width", d => d.book_width * wall_width)
-    .attr("height", d => d.book_height * wall_height)
-    .attr("x", d => d.x_start * wall_width) // Transition to the actual x position;
+    .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+    .attr("width", d => d.book_width * wallWidth)
+    .attr("height", d => d.book_height * wallHeight)
+    .attr("x", d => d.x_start * wallWidth) // Transition to the actual x position;
 }
 
-function parse_polygons(data) {
-  const result = {};
+const parsed_polygons = ParsePolygons(topic_polygons, wallContainerAttrs, wallWidth, wallHeight);
 
-  data.forEach(item => {
-    if (!result[item.topic]) {
-      result[item.topic] = [];
-    }
-    result[item.topic].push(`${item.x_perc*wall_width},
-      ${item.y_perc*wall_height + (wall_container_attrs.height-wall_height)/2}`);
-  });
-
-  const transformedData = Object.keys(result).map(topic => ({
-    topic,
-    points: result[topic].join(' ')
-  }));
-
-  return transformedData;
-}
-
-const parsed_polygons = parse_polygons(topic_polygons);
-
-wall_container
+wallContainer
             .append("g")
             .selectAll("polygon")
             .remove()
@@ -112,12 +62,12 @@ wall_container
                 if (animationRunning) return; // Prevent running if animation is already in progress
                 animationRunning = true; // Set the flag to indicate the animation is running
                 //Add missing books back
-                if (currently_selected_topic !== "") {
-                  add_background_books(currently_selected_topic)}
+                if (currentlySelectedTopic !== "") {
+                  addBackgroundBooks(currentlySelectedTopic)}
                 //Perform selection on books and tags
-                select_topic(this.getAttribute('topic'))
+                selectTopic(this.getAttribute('topic'))
                 //Set state variable
-                currently_selected_topic = this.getAttribute('topic')
+                currentlySelectedTopic = this.getAttribute('topic')
               });
 
 
@@ -125,14 +75,14 @@ wall_container
 function  magnifying_glass(topic){
 
     //Remove current magnifying glass (if any)
-    wall_container.selectAll(".magnifying_assets").remove();
+    wallContainer.selectAll(".magnifying_assets").remove();
 
     if (topic !== '') {
 
       const topic_entry = tag_info.find(entry => entry.topic === topic);
       const topic_name = topic_entry ? topic_entry.name : null;
 
-      const defs = wall_container.append("defs");
+      const defs = wallContainer.append("defs");
 
       const filter = defs.append("filter")
           .attr("id", "blurFilter");
@@ -149,7 +99,7 @@ function  magnifying_glass(topic){
 
 
 
-      let group = wall_container
+      let group = wallContainer
               .append('g')
               .attr("class","magnifying_assets");
       //add rounded rectangle at +/- 5 pixels
@@ -159,43 +109,39 @@ function  magnifying_glass(topic){
       let rectWidth = getCoordOfTopic(topic, "x_perc", "max") - getCoordOfTopic(topic, "x_perc", "min") + 30;
       let rectHeight = getCoordOfTopic(topic, "y_perc", "max") - getCoordOfTopic(topic, "y_perc", "min") + 20;
       
-      group
-              .append("rect")
-              .attr("class", "magnifying_glass")
-              .attr('x', rectX)
-              .attr('y', rectY)
-              .attr('height', rectHeight)
-              .attr('width', rectWidth)
-              .attr("filter", "url(#blurFilter)")  // Apply the blur filter
+      group.append("rect")
+          .attr("class", "magnifying_glass")
+          .attr('x', rectX)
+          .attr('y', rectY)
+          .attr('height', rectHeight)
+          .attr('width', rectWidth)
+          .attr("filter", "url(#blurFilter)")  // Apply the blur filter
 
-      group
-              .append("rect")
-              .attr("class", "magnifying_glass")
-              .attr('x', rectX)
-              .attr('y', rectY)
-              .attr('height', rectHeight)
-              .attr('width', rectWidth)
-              .on('click',function(d) {
-                shelf_view.style.display = "grid";
-                populate_topics_shelf_view(topic_name)
-              });
+      group.append("rect")
+          .attr("class", "magnifying_glass")
+          .attr('x', rectX)
+          .attr('y', rectY)
+          .attr('height', rectHeight)
+          .attr('width', rectWidth)
+          .on('click',function(d) {
+            shelf_view.style.display = "grid";
+            populate_topics_shelf_view(topic_name)
+          });
 
       // Add text above the rectangle and center it horizontally
-      group
-            .append("text")
-            .attr("class", "magnifying_text")
-            .attr('x', rectX + rectWidth / 2)
-            .attr('y', rectY - 10) // Adjust the -10 value as needed to position the text above the rectangle
-            .text(topic_name);
+      group.append("text")
+          .attr("class", "magnifying_text")
+          .attr('x', rectX + rectWidth / 2)
+          .attr('y', rectY - 10) // Adjust the -10 value as needed to position the text above the rectangle
+          .text(topic_name);
       
       //add cursor
-      group
-              .append("image")
-              .attr("xlink:href","res/pointer_icon.svg")
-              .attr("height", "20")
-              .attr("width", "20")
-              .attr("x", getCoordOfTopic(topic,"x_perc","max")-5)
-              .attr("y", getCoordOfTopic(topic,"y_perc","max")-5)
+      group.append("image")
+          .attr("xlink:href","src/res/pointer_icon.svg")
+          .attr("height", "20")
+          .attr("width", "20")
+          .attr("x", getCoordOfTopic(topic,"x_perc","max")-5)
+          .attr("y", getCoordOfTopic(topic,"y_perc","max")-5)
 
       // Call the pulsing function after some idle time (e.g., 5 seconds)
       setTimeout(() => {
@@ -207,7 +153,7 @@ function  magnifying_glass(topic){
 
 
 function startPulsing() {
-  wall_container.selectAll(".magnifying_glass")
+  wallContainer.selectAll(".magnifying_glass")
       .transition()
       .duration(1000)
       .ease(d3.easeCubicInOut)
@@ -220,65 +166,58 @@ function startPulsing() {
 }
 
 
-
-    //issues for tuesday's meeting:
-    //Book covers are pixelated, does book view make sense?
-    //Some shelves have 20+ books; how would this look like?
-
-
-
-var topics_container = d3.select(".topics_container")
-                        .append("svg")
-                        .attr("height","100%")
-                        .attr("width","100%");
+var topicsContainer = d3.select(".topics_container")
+    .append("svg")
+    .attr("height","100%")
+    .attr("width","100%");
 
 
-topics_container.append("g")
-                        .selectAll("image")
-                        .remove()
-                        .data(tag_info)
-                        .enter()
-                        .append('image')
-                        .attr("topic", function(d,i) {return d.topic})
-                        .attr("id", function(d,i) {return "tag_"+d.topic})
-                        .attr("xlink:href",function(d,i) {return "res/topic_tags/"+d.topic+".svg"})
-                        .attr("width", function(d,i) {return d.width_percentage*100 + "%"})
-                        .attr("x", function(d,i) {return d.start_x_percentage*100 + "%"})
-                        .attr("y", function(d,i) {return d.start_y_percentage*100 + "%"})
-                        .on('click',function(d) {   
-                            if (animationRunning) return; // Prevent running if animation is already in progress
-                            animationRunning = true; // Set the flag to indicate the animation is running
-                            //Add missing books back
-                            if (currently_selected_topic !== "") {
-                              add_background_books(currently_selected_topic)}
-                            //Perform selection on books and tags
-                            select_topic(this.getAttribute('topic'))
-                            //Set state variable
-                            currently_selected_topic = this.getAttribute('topic')
-                          });
+topicsContainer.append("g")
+    .selectAll("image")
+    .remove()
+    .data(tag_info)
+    .enter()
+    .append('image')
+    .attr("topic", function(d,i) {return d.topic})
+    .attr("id", function(d,i) {return "tag_"+d.topic})
+    .attr("xlink:href",function(d,i) {return "src/res/topic_tags/"+d.topic+".svg"})
+    .attr("width", function(d,i) {return d.width_percentage*100 + "%"})
+    .attr("x", function(d,i) {return d.start_x_percentage*100 + "%"})
+    .attr("y", function(d,i) {return d.start_y_percentage*100 + "%"})
+    .on('click',function(d) {   
+        if (animationRunning) return; // Prevent running if animation is already in progress
+        animationRunning = true; // Set the flag to indicate the animation is running
+        //Add missing books back
+        if (currentlySelectedTopic !== "") {
+          addBackgroundBooks(currentlySelectedTopic)}
+        //Perform selection on books and tags
+        selectTopic(this.getAttribute('topic'))
+        //Set state variable
+        currentlySelectedTopic = this.getAttribute('topic')
+      });
 
 
-function select_topic(topic_id) {
+function selectTopic(topicId) {
     //Remove magnifying glass (if any)
-    wall_container.selectAll(".magnifying_assets").remove();
+    wallContainer.selectAll(".magnifying_assets").remove();
     //Change previous selection to dark blue
-    d3.select("#tag_"+currently_selected_topic).attr("xlink:href",function(d,i) {return "res/topic_tags/"+currently_selected_topic+".svg"});
+    d3.select("#tag_"+currentlySelectedTopic).attr("xlink:href",function(d,i) {return "src/res/topic_tags/"+currentlySelectedTopic+".svg"});
     //Change selection to light blue
-    d3.select("#tag_"+topic_id).attr("xlink:href",function(d,i) {return "res/topic_tags/selected/"+topic_id+".svg"});
+    d3.select("#tag_"+topicId).attr("xlink:href",function(d,i) {return "src/res/topic_tags/selected/"+topicId+".svg"});
     //Dim background books
     d3.selectAll(".books_background").attr("opacity", 0.5)
     //Dim wall
     d3.selectAll("#wall_background").attr("opacity", 0.5)
     // Construct the id of the group element to be removed
-    const elementId = `books_background_${topic_id}`; 
+    const elementId = `books_background_${topicId}`; 
     // Select the element with the constructed id and remove it
     d3.selectAll(`#${elementId}`).remove();
     // Add white books
-    add_highlighted_books(topic_id);
+    add_highlighted_books(topicId);
     // Wait 3 seconds
     setTimeout(function(){
       //Add magnifying glass
-      magnifying_glass(topic_id);
+      magnifying_glass(topicId);
       animationRunning = false; // Set the flag to indicate the animation has finished
     },3000)
 }
@@ -295,10 +234,10 @@ function resetTimer() {
   // Set a new 10-second timer
   timeoutId = setTimeout(() => {
     //Add missing books back
-    if (currently_selected_topic !== "") {
-      add_background_books(currently_selected_topic)};
-    select_topic("");
-    currently_selected_topic = "";
+    if (currentlySelectedTopic !== "") {
+      addBackgroundBooks(currentlySelectedTopic)};
+    selectTopic("");
+    currentlySelectedTopic = "";
     //Undim background books
     d3.selectAll(".books_background").attr("opacity", 1)
     d3.selectAll("#wall_background").attr("opacity", 1)
@@ -325,15 +264,15 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 
   if (variable === 'x_perc') {
       if (min_or_max === "min"){
-        return minVar * wall_width;
+        return minVar * wallWidth;
       } else {
-        return maxVar * wall_width;
+        return maxVar * wallWidth;
       }
   } else if (variable === 'y_perc') {
       if (min_or_max === "min"){
-        return minVar * wall_height  + (wall_container_attrs.height-wall_height)/2;
+        return minVar * wallHeight  + (wallContainerAttrs.height-wallHeight)/2;
       } else {
-        return maxVar * wall_height + (wall_container_attrs.height-wall_height)/2;
+        return maxVar * wallHeight + (wallContainerAttrs.height-wallHeight)/2;
       }
   }
 };
@@ -391,7 +330,7 @@ function populate_topics_shelf_view(topic_name){
 
     for (let i = 1; i <= bookcase_content.books_in_bookcase; i++) {
 
-      var cover_filename = bookcase_content.books[i-1].cover_file
+      var coverFilename = bookcase_content.books[i-1].cover_file
       var OCLC = bookcase_content.books[i-1].OCLC
       
       const book = bookcase.append("div")
@@ -405,10 +344,10 @@ function populate_topics_shelf_view(topic_name){
         book.style("min-width", "18%")
       }
 
-        if (cover_filename === "NA") {
+        if (coverFilename === "NA") {
             book.style("background-color", "silver");
         } else {
-            book.style("background-image", `url("res/resized_covers_struct/${cover_filename}")`)
+            book.style("background-image", `url("src/res/resized_covers_struct/${coverFilename}")`)
         }
 
       book.on('click',function() {
@@ -464,7 +403,7 @@ function add_info_card(bookcase_id){
         .attr("class","info_card--header")
     header.append("h3").attr("class", "info_card--title")
     header.append("img")
-        .attr("src", "./res/Font-Awesome/times-circle.svg")
+        .attr("src", "src/res/Font-Awesome/times-circle.svg")
         .attr("class","inline-icon")
         .on('click',function() {
           d3.selectAll(".book_details--visible")
@@ -481,7 +420,7 @@ function add_info_card(bookcase_id){
     location_details.append("div").attr("class", "info_card--location_details--text")
     location_details.append("div")
                     .attr("class", "info_card--location_details--button")
-                    .html('<b>See location</b>&emsp;<img src="./res/Font-Awesome/arrow-circle-right.svg" class="inline-icon">')                         
+                    .html('<b>See location</b>&emsp;<img src="src/res/Font-Awesome/arrow-circle-right.svg" class="inline-icon">')                         
 }
 
 
@@ -514,18 +453,8 @@ function build_details_html(book_info){
 }
 
 
-///////////////// OVERLAY
-
-document.querySelector('.chevron_left').addEventListener("click", function() {
-  shelf_view.style.display = "none";
+d3.selectAll('.chevron_left, .back_text').on('click', function() {
+  d3.select('.shelf_view').style('display', 'none');
 });
-
-
-document.querySelector('.back_text').addEventListener("click", function() {
-  shelf_view.style.display = "none";
-});
-
-
-
 
 

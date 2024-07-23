@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="res/d3@7.6.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./src/styles/style.css">
+    <script src="src/res/d3@7.6.1.min.js"></script>
     <!-- <script src="https://d3js.org/d3.v7.js"></script> -->
 <body>
               
@@ -29,19 +29,19 @@
     <div class="shelf_view" id="shelf_view">
         <div class="shelf_view--header">
             <div class="shelf_view--header_back">
-                <img src="./res/Font-Awesome/chevron-left.svg" class="chevron_left"></object>
+                <img src="src/res/Font-Awesome/chevron-left.svg" class="chevron_left"></object>
                 <p class="back_text">Back</p>
             </div>
             <div></div>
             <div></div>
         </div>
         <div class="shelf_view--left_scroll">
-            <img class="shelf_view--left_scroll_button" src="./res/Font-Awesome/chevron-left.svg"></object>
+            <img class="shelf_view--left_scroll_button" src="/src/res/Font-Awesome/chevron-left.svg"></object>
         </div>
         <div class="shelf_view--shelves">
         </div>
         <div class="shelf_view--right_scroll">
-            <img class="shelf_view--right_scroll_button" src="./res/Font-Awesome/chevron-right.svg"></object>
+            <img class="shelf_view--right_scroll_button" src="src/res/Font-Awesome/chevron-right.svg"></object>
         </div>  
         <div class="shelf_view--navigation">
         </div>  
@@ -52,18 +52,13 @@
         </div>
     </div>
     
-    <script type="text/javascript" src="keyboard.js"></script>
-    <script type="text/javascript" src="misc_functions.js"></script>
-    <script type="text/javascript" src="data/background_books.js"></script>
-    <script type="text/javascript" src="data/topic_polygons.js"></script>
-    <script type="text/javascript" src="data/tag_info.js"></script>
-    <script type="text/javascript" src="data/topics_subtopics.js"></script>
-    <script type="text/javascript" src="data/workshop_data/virtual_bookshelves.js"></script>
-    <script type="text/javascript" src="data/workshop_data/workshop_data.js"></script>
-    <script type="module" src="index.js"></script>
-
-
-
+    <script type="text/javascript" src="src/data/background_books.js"></script>
+    <script type="text/javascript" src="src/data/topic_polygons.js"></script>
+    <script type="text/javascript" src="src/data/tag_info.js"></script>
+    <script type="text/javascript" src="src/data/topics_subtopics.js"></script>
+    <script type="text/javascript" src="src/data/workshop_data/virtual_bookshelves.js"></script>
+    <script type="text/javascript" src="src/data/workshop_data/workshop_data.js"></script>
+    <script type="module" src="src/index.js"></script>
 
 
 </body>
