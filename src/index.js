@@ -1,11 +1,17 @@
 import {capitalizeFirstLetterOfEachWord, shuffle} from './utils/helpers.js'
 import {initMainScreen, wallContainer, addBackgroundBooks} from "./screens/mainScreen.js"
+import {initShelvesScreen} from "./screens/shelvesScreen.js"
 import {ParsePolygons} from "./utils/data.js"
+import {initDirectionsScreen, openDirectionsScreen} from "./screens/directionsScreen.js"
+
+
 
 let currentlySelectedTopic = ""
 let animationRunning = false;
 
 initMainScreen()
+initShelvesScreen()
+initDirectionsScreen()
 
 const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 const wallWidth = wallContainerAttrs.width * 0.95
@@ -63,7 +69,7 @@ wallContainer
                 animationRunning = true; // Set the flag to indicate the animation is running
                 //Add missing books back
                 if (currentlySelectedTopic !== "") {
-                  addBackgroundBooks(currentlySelectedTopic)}
+                  addBackgroundBooks(currentlySelectedTopic, wallContainer)}
                 //Perform selection on books and tags
                 selectTopic(this.getAttribute('topic'))
                 //Set state variable
@@ -189,7 +195,7 @@ topicsContainer.append("g")
         animationRunning = true; // Set the flag to indicate the animation is running
         //Add missing books back
         if (currentlySelectedTopic !== "") {
-          addBackgroundBooks(currentlySelectedTopic)}
+          addBackgroundBooks(currentlySelectedTopic, wallContainer)}
         //Perform selection on books and tags
         selectTopic(this.getAttribute('topic'))
         //Set state variable
@@ -235,7 +241,7 @@ function resetTimer() {
   timeoutId = setTimeout(() => {
     //Add missing books back
     if (currentlySelectedTopic !== "") {
-      addBackgroundBooks(currentlySelectedTopic)};
+      addBackgroundBooks(currentlySelectedTopic, wallContainer)};
     selectTopic("");
     currentlySelectedTopic = "";
     //Undim background books
@@ -278,6 +284,26 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 };
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function populate_topics_shelf_view(topic_name){
   d3.selectAll(".book_details--visible").remove()
   d3.selectAll(".book_details--invisible").remove()
@@ -300,7 +326,7 @@ function populate_topics_shelf_view(topic_name){
     .attr("id",d => d.sub_topic)
     .text(d => d.sub_topic)
     .on('click',function() {
-      navigate_to_subtopic(bookcase_curr_topic,this.getAttribute('id'))
+      navigateToSubtopic(bookcase_curr_topic,this.getAttribute('id'))
     })
 
   //Calculate width for book details div
@@ -326,7 +352,7 @@ function populate_topics_shelf_view(topic_name){
     const bookcase = bookcase_holder.append("div")
                           .attr("class", "bookcase")
 
-    add_info_card(bookcase_id)
+    addInfoCard(bookcase_id)
 
     for (let i = 1; i <= bookcase_content.books_in_bookcase; i++) {
 
@@ -362,13 +388,13 @@ function populate_topics_shelf_view(topic_name){
 
         const info_card = d3.select(`#book_details_${bookcase_id}`)
         info_card.attr("class", "book_details--visible")
-        fill_info_card(info_card, this.getAttribute('id'))
+        fillInfoCard(info_card, this.getAttribute('id'))
         })
     }
   });
 
 
-  function navigate_to_subtopic(bookcase_curr_topic,subtopic_name){
+  function navigateToSubtopic(bookcase_curr_topic,subtopic_name){
     const lowercase_name = subtopic_name.toLowerCase()
     const index = bookcase_curr_topic.findIndex(item => item.sub_topic === lowercase_name);
     d3.selectAll(".book_details--visible")
@@ -395,7 +421,7 @@ function populate_topics_shelf_view(topic_name){
 }
 
 
-function add_info_card(bookcase_id){
+function addInfoCard(bookcase_id){
     const card = d3.select(".shelf_view--shelves").append("div")
     card.attr("class", "book_details--invisible")
         .attr("id", `book_details_${bookcase_id}`)
@@ -416,7 +442,9 @@ function add_info_card(bookcase_id){
         .attr("class", "info_card--QR_holder")
         .text("Scan to see more:")
     QR_holder.append("img")
-    const location_details = misc.append("div").attr("class", "info_card--location_details")
+    const location_details = misc.append("div")
+        .attr("class", "info_card--location_details")
+
     location_details.append("div").attr("class", "info_card--location_details--text")
     location_details.append("div")
                     .attr("class", "info_card--location_details--button")
@@ -424,11 +452,11 @@ function add_info_card(bookcase_id){
 }
 
 
-function fill_info_card(info_card, OCLC){
+function fillInfoCard(info_card, OCLC){
     const book_info = workshop_data.filter(book => book.OCLC === OCLC)[0];
     info_card.select(".info_card--title").text(book_info.title)
 
-    const details_html = build_details_html(book_info)
+    const details_html = buildDetailsHTML(book_info)
     info_card.select(".info_card--details").html(details_html)
 
     const worldcat_url = `https://tudelft.on.worldcat.org/oclc/${OCLC}`
@@ -440,10 +468,18 @@ function fill_info_card(info_card, OCLC){
 
     const location_text = `Code: <b>${book_info.std_call_number}</b><br>Floor: <b>${book_info.floor}</b>` 
     info_card.select(".info_card--location_details--text").html(location_text)
+
+    //Add onclick w/ current book info
+    const locationDetails = info_card.
+      select(".info_card--location_details")
+      .on('click', () => {
+        openDirectionsScreen(OCLC)
+      })
+
 }
 
 
-function build_details_html(book_info){
+function buildDetailsHTML(book_info){
   let base_string = `Author: ${book_info.authors}`
   base_string = `${base_string}<br>Year: ${book_info.year}`
   if (book_info.description != "") {
@@ -451,10 +487,4 @@ function build_details_html(book_info){
   }
   return base_string
 }
-
-
-d3.selectAll('.chevron_left, .back_text').on('click', function() {
-  d3.select('.shelf_view').style('display', 'none');
-});
-
 

@@ -1,0 +1,59 @@
+.directions-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 23, 41, 1);
+    display: none;
+    z-index: 1000;
+    color: white;
+    grid-template-rows: 3fr 4fr 9fr;
+  }
+  
+  .directions-view__book-details {
+    display: flex;
+    align-items: center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    justify-content: space-between; /* Distribute space between items */
+  }
+
+  .directions-view__book-details__cover{
+    height: 100%; 
+    width: 200px;
+    background-size: contain;  /* This will maintain the aspect ratio */
+    background-repeat: no-repeat;
+  }
+
+  .directions-view__book-details__location {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 100%;
+    flex-grow: 1; /* Allow the middle item to grow and take remaining space */
+  }
+  
+  .directions-view__book-details__location > h1{
+    margin: 0; /* Removes any margin that might add to the height */
+    }
+
+  .directions-view__book-details__location > h3{
+    margin-top: 0; /* Removes any margin that might add to the height */
+    }
+
+  .directions-view__book-details__QR_holder{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+
+  .directions-view__book-details__QR_holder > img{
+    height: 80%;
+  }
+
+
+  .directions-view__wall{
+    display: flex;
+    justify-content: center;
+  }

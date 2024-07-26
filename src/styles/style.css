@@ -100,7 +100,7 @@ svg defs {
 }
 
 
-.shelf_view--header {
+.header {
   grid-area: 1 / 1 / 1 / -1;
   display: flex;
   align-items: center;
@@ -145,16 +145,16 @@ svg defs {
   /* background-color: red;  */
 }
 
-.shelf_view--header_back {
+.header-back {
   display: flex;
   align-items: center; /* Center items vertically */
 }
 
-.chevron_left{
+.chevron-left{
   width: 15px;
 }
 
-.back_text{
+.back-text{
   padding-left: 15px;
   font-size: 20px;
 }
@@ -339,13 +339,5 @@ svg defs {
   background-repeat: no-repeat;
   width: 100%;
 }
-
-
-
-
-
-
-
-
 
 

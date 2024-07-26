@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./src/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/directions.css">
     <script src="src/res/d3@7.6.1.min.js"></script>
     <!-- <script src="https://d3js.org/d3.v7.js"></script> -->
 <body>
@@ -27,29 +28,31 @@
     </div>
 
     <div class="shelf_view" id="shelf_view">
-        <div class="shelf_view--header">
-            <div class="shelf_view--header_back">
-                <img src="src/res/Font-Awesome/chevron-left.svg" class="chevron_left"></object>
-                <p class="back_text">Back</p>
-            </div>
-            <div></div>
-            <div></div>
+        <div id="shelf-view--header" class="header">
         </div>
         <div class="shelf_view--left_scroll">
-            <img class="shelf_view--left_scroll_button" src="/src/res/Font-Awesome/chevron-left.svg"></object>
+            <img class="shelf_view--left_scroll_button" src="/src/res/Font-Awesome/chevron-left.svg" />
         </div>
-        <div class="shelf_view--shelves">
-        </div>
+        <div class="shelf_view--shelves"></div>
         <div class="shelf_view--right_scroll">
-            <img class="shelf_view--right_scroll_button" src="src/res/Font-Awesome/chevron-right.svg"></object>
+            <img class="shelf_view--right_scroll_button" src="src/res/Font-Awesome/chevron-right.svg" />
         </div>  
-        <div class="shelf_view--navigation">
-        </div>  
+        <div class="shelf_view--navigation"></div>
         <div class="shelf_view--subtopic-browser">
             <div class="shelf_view--topic_holder"></div>
             <div class="xx-large">|</div> 
             <div class="shelf_view--subtopic_holder"></div>
         </div>
+    </div>
+
+    <div class="directions-view" id="directions-view">
+        <div id="directions-view-header" class="header"></div>
+        <div class="directions-view__book-details">
+            <div class="directions-view__book-details__cover"></div>
+            <div class="directions-view__book-details__location"></div>
+            <div class="directions-view__book-details__QR_holder">Scan to see more:</div>
+        </div>
+        <div class="directions-view__wall"></div>
     </div>
     
     <script type="text/javascript" src="src/data/background_books.js"></script>
