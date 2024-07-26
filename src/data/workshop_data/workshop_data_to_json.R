@@ -11,9 +11,9 @@ books <- openxlsx2::read_xlsx(paste0(curr_path,"/","workshop_data.xlsx"))
 
 
 books_json <- books %>% 
-  select(title,authors,year,OCLC,description,std_call_number,floor,cover_file) %>% 
+  select(title,authors,year,OCLC,description,std_call_number,floor,cover_file,shelf) %>% 
   toJSON(pretty = TRUE, auto_unbox = TRUE)
-#write(books_json, file = paste0(curr_path,"/","workshop_data_aaaa.js"))
+#write(books_json, file = paste0(curr_path,"/","workshop_data.js"))
 
 
 books %<>% arrange(std_call_number)

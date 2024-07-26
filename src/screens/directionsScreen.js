@@ -21,6 +21,7 @@ export function openDirectionsScreen(OCLC) {
     addBookCover(book_info.cover_file)
     addBBookDetails(book_info)
     addQR(book_info.OCLC)
+    addPath(book_info.shelf)
 }
 
 
@@ -78,4 +79,23 @@ function addQR(OCLC){
     imgContainer.select("img").remove()//Remove previous QR (if any)
     imgContainer.append("img")
       .attr("src", qrCode)
+}
+
+function addPath(shelfNumber){
+    const shelfInfo = wall_layout.shelf_coords.filter(item => item.shelf === shelfNumber)[0];
+    const width = shelfInfo.x1 - shelfInfo.x0;
+    const height = shelfInfo.y0 - shelfInfo.y1;
+
+    const wallContainer = d3.select(".directions-view__wall").select("svg")
+
+    var wallContainerAttrs = wallContainer.node().getBoundingClientRect()
+    console.log(wallContainerAttrs)
+    var scale_ratio = wallContainerAttrs.width / 779.372
+
+    wallContainer.append("rect")
+        .attr("x", `${shelfInfo.x0 * scale_ratio}px`)
+        .attr("y", `${shelfInfo.y1 * scale_ratio}px`) // Use y1 as the top-left corner y-coordinate
+        .attr("width", `${12.7375 * scale_ratio}px`)
+        .attr("height", `${4.814 * scale_ratio}px`)
+        .attr("fill", "yellow")
 }
