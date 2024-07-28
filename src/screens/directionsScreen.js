@@ -68,7 +68,7 @@ function addBBookDetails(bookInfo){
     locationContainer.append("h3")
         .text(bookInfo.authors)
 
-    const locationText = `Code: <b>${bookInfo.std_call_number}</b><br>Floor: ${bookInfo.floor}` 
+    const locationText = `Code: <b>${bookInfo.std_call_number}</b><br>Floor: <b>${bookInfo.floor}</b><br>Shelf: <b>${bookInfo.shelf}</b>` 
     locationContainer.append("div").html(locationText)
 }
 
@@ -82,20 +82,24 @@ function addQR(OCLC){
 }
 
 function addPath(shelfNumber){
-    // const shelfInfo = wall_layout.shelf_coords.filter(item => item.shelf === shelfNumber)[0];
-    // const width = shelfInfo.x1 - shelfInfo.x0;
-    // const height = shelfInfo.y0 - shelfInfo.y1;
+    addShelfHighlight(shelfNumber)
+}
 
-    // const wallContainer = d3.select(".directions-view__wall").select("svg")
+function addShelfHighlight(shelfNumber){
+    const wallContainer = d3.select(".directions-view__wall").select("svg")
+    const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
+    const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber)[0];
+    const WallAspectRatio = 4.443
+    const originalShelfWidthPercentage = 0.0126
+    const originalShelfHeightPercentage = 0.0213
+    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
+    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
 
-    // var wallContainerAttrs = wallContainer.node().getBoundingClientRect()
-    // console.log(wallContainerAttrs)
-    // var scale_ratio = wallContainerAttrs.width / 779.372
-
-    // wallContainer.append("rect")
-    //     .attr("x", `${shelfInfo.x0 * scale_ratio}px`)
-    //     .attr("y", `${shelfInfo.y1 * scale_ratio}px`) // Use y1 as the top-left corner y-coordinate
-    //     .attr("width", `${12.7375 * scale_ratio}px`)
-    //     .attr("height", `${4.814 * scale_ratio}px`)
-    //     .attr("fill", "yellow")
+    wallContainer.select("rect").remove() //Remove previous rect (if any)
+    const shelfHighlight = wallContainer.append("rect")
+         .attr("x", `${shelfCoords.x_perc * wallContainerAttrs.width}px`)
+         .attr("y", `${shelfCoords.y_perc * adjustedHeight + yOffset}px`)
+         .attr("width", `${originalShelfWidthPercentage * wallContainerAttrs.width}px`)
+         .attr("height", `${originalShelfHeightPercentage * adjustedHeight}px`)
+         .attr("fill", "yellow")
 }
