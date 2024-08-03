@@ -52,8 +52,16 @@
     height: 80%;
   }
 
-
   .directions-view__wall{
     display: flex;
     justify-content: center;
+  }
+
+  .wayPoints {
+    fill:  #808ff7;
+  }
+
+  .walkingPath {
+    stroke: #808ff7;
+    stroke-width: 6;
   }

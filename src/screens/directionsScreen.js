@@ -92,14 +92,53 @@ function addShelfHighlight(shelfNumber){
     const WallAspectRatio = 4.443
     const originalShelfWidthPercentage = 0.0126
     const originalShelfHeightPercentage = 0.0213
+    const shelfWidth = originalShelfWidthPercentage * wallContainerAttrs.width  
+    const shelfHeight = originalShelfHeightPercentage * wallContainerAttrs.height  
     const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
     const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
 
-    wallContainer.select("rect").remove() //Remove previous rect (if any)
-    const shelfHighlight = wallContainer.append("rect")
-         .attr("x", `${shelfCoords.x_perc * wallContainerAttrs.width}px`)
-         .attr("y", `${shelfCoords.y_perc * adjustedHeight + yOffset}px`)
-         .attr("width", `${originalShelfWidthPercentage * wallContainerAttrs.width}px`)
-         .attr("height", `${originalShelfHeightPercentage * adjustedHeight}px`)
-         .attr("fill", "yellow")
+    const waypointSize = 20
+    
+    wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous rect (if any)
+    
+    const Station = wallContainer.append("rect")
+        .attr("class", "wayPoints")
+        .attr("x", `${0.5 * wallContainerAttrs.width}`)
+        .attr("y", `${adjustedHeight + yOffset + 20}`)
+        .attr("width", waypointSize)
+        .attr("height", waypointSize)
+
+    const shelfCenterX = shelfCoords.x_perc * wallContainerAttrs.width + shelfWidth / 2
+    const shelfCenterY = shelfCoords.y_perc * adjustedHeight + yOffset + shelfHeight / 2
+
+    const shelfHighlight = wallContainer.append("circle")
+        .attr("class", "wayPoints")
+        .attr("cx", shelfCenterX)
+        .attr("cy", shelfCenterY)
+        .attr("r", `${waypointSize  / 2}px`)
+
+    // Function to animate line drawing
+    function animateLine() {
+        const line = wallContainer.append('line')
+            .attr("class", "walkingPath")
+            .attr("x1", `${0.5 * wallContainerAttrs.width + waypointSize / 2}`)
+            .attr("y1", `${adjustedHeight + yOffset + 20 + waypointSize / 2}`)
+            .attr("x2", shelfCenterX)
+            .attr("y2", shelfCenterY)
+            .attr("stroke", "black")
+            .attr("stroke-width", 2);
+
+        const totalLength = Math.sqrt(Math.pow(shelfCenterX - (0.5 * wallContainerAttrs.width + waypointSize / 2), 2) +
+                                        Math.pow(shelfCenterY - (adjustedHeight + yOffset + 20 + waypointSize / 2), 2));
+
+        line.attr("stroke-dasharray", totalLength + " " + totalLength)
+            .attr("stroke-dashoffset", totalLength)
+            .transition()
+            .duration(1000)
+            .ease(d3.easeLinear)
+            .attr("stroke-dashoffset", 0);
+    }
+
+    // Delay the appending of the line by 3 seconds
+    setTimeout(animateLine, 800);
 }
