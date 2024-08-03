@@ -10,7 +10,7 @@ export function initDirectionsScreen() {
         .attr("height","100%")
         .attr("width","85%");
  
-    Wall(wallContainer, "90%")
+    Wall(wallContainer, "90%", true)
 }
 
 export function openDirectionsScreen(OCLC) {
@@ -125,8 +125,6 @@ function addShelfHighlight(shelfNumber){
             .attr("y1", `${adjustedHeight + yOffset + 20 + waypointSize / 2}`)
             .attr("x2", shelfCenterX)
             .attr("y2", shelfCenterY)
-            .attr("stroke", "black")
-            .attr("stroke-width", 2);
 
         const totalLength = Math.sqrt(Math.pow(shelfCenterX - (0.5 * wallContainerAttrs.width + waypointSize / 2), 2) +
                                         Math.pow(shelfCenterY - (adjustedHeight + yOffset + 20 + waypointSize / 2), 2));
@@ -139,6 +137,6 @@ function addShelfHighlight(shelfNumber){
             .attr("stroke-dashoffset", 0);
     }
 
-    // Delay the appending of the line by 3 seconds
+    // Delay the appending of the line
     setTimeout(animateLine, 800);
 }

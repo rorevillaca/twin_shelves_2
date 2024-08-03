@@ -10,7 +10,7 @@ export function initMainScreen() {
            .attr("height","100%")
            .attr("width","95%");
     
-    Wall(wallContainer, "70%")
+    Wall(wallContainer, "70%", false)
     
     // Loop through and append the books for each section
     for (let i = 1; i <= 25; i++) {
