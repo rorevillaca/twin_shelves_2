@@ -82,7 +82,8 @@ function addQR(OCLC){
 }
 
 function addPath(shelfNumber){
-    addShelfHighlight(shelfNumber)
+    //addShelfHighlight(shelfNumber)
+    followPath()
 }
 
 function addShelfHighlight(shelfNumber){
@@ -117,26 +118,74 @@ function addShelfHighlight(shelfNumber){
         .attr("cy", shelfCenterY)
         .attr("r", `${waypointSize  / 2}px`)
 
-    // Function to animate line drawing
-    function animateLine() {
-        const line = wallContainer.append('line')
-            .attr("class", "walkingPath")
-            .attr("x1", `${0.5 * wallContainerAttrs.width + waypointSize / 2}`)
-            .attr("y1", `${adjustedHeight + yOffset + 20 + waypointSize / 2}`)
-            .attr("x2", shelfCenterX)
-            .attr("y2", shelfCenterY)
+    // // Function to animate line drawing
+    // function animateLine() {
+    //     const line = wallContainer.append('line')
+    //         .attr("class", "walkingPath")
+    //         .attr("x1", `${0.5 * wallContainerAttrs.width + waypointSize / 2}`)
+    //         .attr("y1", `${adjustedHeight + yOffset + 20 + waypointSize / 2}`)
+    //         .attr("x2", shelfCenterX)
+    //         .attr("y2", shelfCenterY)
 
-        const totalLength = Math.sqrt(Math.pow(shelfCenterX - (0.5 * wallContainerAttrs.width + waypointSize / 2), 2) +
-                                        Math.pow(shelfCenterY - (adjustedHeight + yOffset + 20 + waypointSize / 2), 2));
+    //     const totalLength = Math.sqrt(Math.pow(shelfCenterX - (0.5 * wallContainerAttrs.width + waypointSize / 2), 2) +
+    //                                     Math.pow(shelfCenterY - (adjustedHeight + yOffset + 20 + waypointSize / 2), 2));
 
-        line.attr("stroke-dasharray", totalLength + " " + totalLength)
-            .attr("stroke-dashoffset", totalLength)
-            .transition()
-            .duration(1000)
-            .ease(d3.easeLinear)
-            .attr("stroke-dashoffset", 0);
-    }
+    //     line.attr("stroke-dasharray", totalLength + " " + totalLength)
+    //         .attr("stroke-dashoffset", totalLength)
+    //         .transition()
+    //         .duration(1000)
+    //         .ease(d3.easeLinear)
+    //         .attr("stroke-dashoffset", 0);
+    //}
 
     // Delay the appending of the line
     setTimeout(animateLine, 800);
+}
+
+
+function followPath(){
+
+    const wallContainer = d3.select(".directions-view__wall").select("svg")
+    const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
+    const WallAspectRatio = 4.443
+    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
+    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
+
+
+    const coordinates = [
+        [0.137, 0.955],
+        [0.196, 0.786],
+        [0.215, 0.786],
+        [0.272, 0.622],
+        [0.291, 0.622],
+        [0.348, 0.458],
+        [0.365, 0.458]
+        
+    ];
+
+    const transformedCoordinates = coordinates.map(d => [
+        d[0] * wallContainerAttrs.width,
+        d[1] * adjustedHeight + yOffset
+    ]);
+
+    // Create path data string from coordinates
+    const pathData = transformedCoordinates.map(d => d.join(",")).join(" L ");
+    const pathString = `M ${pathData}`;
+
+    // Append path to the SVG
+    const path = wallContainer.append("path")
+        .attr("d", pathString)
+        .attr("class", "walkingPath");
+
+    // Calculate total length of the path
+    const totalLength = path.node().getTotalLength();
+
+    // Apply animation to draw the line
+    path
+        .attr("stroke-dasharray", totalLength + " " + totalLength)
+        .attr("stroke-dashoffset", totalLength)
+        .transition()
+        .duration(2000)
+        .ease(d3.easeLinear)
+        .attr("stroke-dashoffset", 0);
 }
