@@ -82,8 +82,10 @@ function addQR(OCLC){
 }
 
 function addPath(shelfNumber){
-    //addShelfHighlight(shelfNumber)
-    followPath()
+
+    addShelfHighlight(shelfNumber)
+    const route = buildRoute()
+    animatePath(route)
 }
 
 function addShelfHighlight(shelfNumber){
@@ -97,53 +99,55 @@ function addShelfHighlight(shelfNumber){
     const shelfHeight = originalShelfHeightPercentage * wallContainerAttrs.height  
     const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
     const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
-
     const waypointSize = 20
+    const kioskCoordPercentage = 599.262 / 1002.816
     
     wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous rect (if any)
     
+    const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width - waypointSize/2,
+                           adjustedHeight + yOffset + 20     
+                        ]
+
     const Station = wallContainer.append("rect")
         .attr("class", "wayPoints")
-        .attr("x", `${0.5 * wallContainerAttrs.width}`)
-        .attr("y", `${adjustedHeight + yOffset + 20}`)
+        .attr("x", startingPoint[0])
+        .attr("y", startingPoint[1])
         .attr("width", waypointSize)
         .attr("height", waypointSize)
 
-    const shelfCenterX = shelfCoords.x_perc * wallContainerAttrs.width + shelfWidth / 2
-    const shelfCenterY = shelfCoords.y_perc * adjustedHeight + yOffset + shelfHeight / 2
+    const shelfCenter = [shelfCoords.x_perc * wallContainerAttrs.width + shelfWidth / 2,
+                         shelfCoords.y_perc * adjustedHeight + yOffset + shelfHeight / 2
+                        ]
 
     const shelfHighlight = wallContainer.append("circle")
         .attr("class", "wayPoints")
-        .attr("cx", shelfCenterX)
-        .attr("cy", shelfCenterY)
+        .attr("cx", shelfCenter[0])
+        .attr("cy", shelfCenter[1])
         .attr("r", `${waypointSize  / 2}px`)
-
-    // // Function to animate line drawing
-    // function animateLine() {
-    //     const line = wallContainer.append('line')
-    //         .attr("class", "walkingPath")
-    //         .attr("x1", `${0.5 * wallContainerAttrs.width + waypointSize / 2}`)
-    //         .attr("y1", `${adjustedHeight + yOffset + 20 + waypointSize / 2}`)
-    //         .attr("x2", shelfCenterX)
-    //         .attr("y2", shelfCenterY)
-
-    //     const totalLength = Math.sqrt(Math.pow(shelfCenterX - (0.5 * wallContainerAttrs.width + waypointSize / 2), 2) +
-    //                                     Math.pow(shelfCenterY - (adjustedHeight + yOffset + 20 + waypointSize / 2), 2));
-
-    //     line.attr("stroke-dasharray", totalLength + " " + totalLength)
-    //         .attr("stroke-dashoffset", totalLength)
-    //         .transition()
-    //         .duration(1000)
-    //         .ease(d3.easeLinear)
-    //         .attr("stroke-dashoffset", 0);
-    //}
-
-    // Delay the appending of the line
-    setTimeout(animateLine, 800);
 }
 
 
-function followPath(){
+function buildRoute(){
+    const floorYPercentage = [0.963,
+        0.800,
+        0.638,
+        0.476]
+
+    const wallEntryXPercentage = [0.575,0.622]   
+    
+    const leftStairsPercentage = [
+    [[0.129, floorYPercentage[0]], [0.139, floorYPercentage[0]], [0.196, floorYPercentage[1]], [0.205, floorYPercentage[1]]],
+    [[0.215, floorYPercentage[1]], [0.271, floorYPercentage[2]], [0.282, floorYPercentage[2]]],
+    [[0.291, floorYPercentage[2]], [0.348, floorYPercentage[3]], [0.357, floorYPercentage[3]]]
+    ]
+
+    const rightStairsPercentage = [
+    [[0.511, floorYPercentage[0]], [0.520, floorYPercentage[0]], [0.577, floorYPercentage[1]], [0.590, floorYPercentage[1]]],
+    [[0.623, floorYPercentage[1]], [0.680, floorYPercentage[2]], [0.691, floorYPercentage[2]]],
+    [[0.699, floorYPercentage[2]], [0.756, floorYPercentage[3]], [0.766, floorYPercentage[3]]]
+    ]
+
+    const route = leftStairsPercentage[0]
 
     const wallContainer = d3.select(".directions-view__wall").select("svg")
     const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
@@ -151,30 +155,25 @@ function followPath(){
     const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
     const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
 
-
-    const coordinates = [
-        [0.137, 0.955],
-        [0.196, 0.786],
-        [0.215, 0.786],
-        [0.272, 0.622],
-        [0.291, 0.622],
-        [0.348, 0.458],
-        [0.365, 0.458]
-        
-    ];
-
-    const transformedCoordinates = coordinates.map(d => [
+    const transformedRoute = route.map(d => [
         d[0] * wallContainerAttrs.width,
         d[1] * adjustedHeight + yOffset
     ]);
 
     // Create path data string from coordinates
-    const pathData = transformedCoordinates.map(d => d.join(",")).join(" L ");
-    const pathString = `M ${pathData}`;
+    const routeData = transformedRoute.map(d => d.join(",")).join(" L ");
+    const routeString = `M ${routeData}`;
+
+    return routeString
+}
+
+function animatePath(route){
+
+    const wallContainer = d3.select(".directions-view__wall").select("svg")
 
     // Append path to the SVG
     const path = wallContainer.append("path")
-        .attr("d", pathString)
+        .attr("d", route)
         .attr("class", "walkingPath");
 
     // Calculate total length of the path
