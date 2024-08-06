@@ -88,39 +88,43 @@ function addPath(shelfNumber, floorNo){
     const waypointSize = 20
     const WallAspectRatio = 4.443
     const kioskOffset = 20
+    const originalShelfWidthPercentage = 0.0126
     const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
     const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
+    const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber)[0];
 
 
-    addShelfHighlight(shelfNumber, 
+    addShelfHighlight(shelfCoords, 
                       kioskCoordPercentage,
                       kioskOffset,
                       wallContainer, 
                       wallContainerAttrs, 
                       waypointSize, 
                       adjustedHeight,
-                      yOffset)
+                      yOffset,
+                      originalShelfWidthPercentage)
 
-    const route = buildRoute(floorNo, 
+    const route = buildRoute(shelfCoords,
+                             floorNo, 
                              kioskCoordPercentage,
                              wallContainerAttrs,
                              adjustedHeight,
                              yOffset,
-                             kioskOffset)
+                             kioskOffset,
+                             originalShelfWidthPercentage)
     animatePath(route)
 }
 
-function addShelfHighlight(shelfNumber,
+function addShelfHighlight(shelfCoords,
                            kioskCoordPercentage, 
                            kioskOffset,
                            wallContainer, 
                            wallContainerAttrs, 
                            waypointSize, 
                            adjustedHeight,
-                           yOffset){
+                           yOffset,
+                           originalShelfWidthPercentage){
 
-    const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber)[0];
-    const originalShelfWidthPercentage = 0.0126
     const originalShelfHeightPercentage = 0.0213
     const shelfWidth = originalShelfWidthPercentage * wallContainerAttrs.width  
     const shelfHeight = originalShelfHeightPercentage * wallContainerAttrs.height  
@@ -149,19 +153,19 @@ function addShelfHighlight(shelfNumber,
 }
 
 
-function buildRoute(floorNo,
+function buildRoute(shelfCoords,
+                    floorNo,
                     kioskCoordPercentage,
                     wallContainerAttrs,
                     adjustedHeight,
                     yOffset,
-                    kioskOffset){
+                    kioskOffset,
+                    originalShelfWidthPercentage){
 
     const floorYPercentage = [0.963,
-        0.800,
-        0.638,
-        0.476]
-
-    const wallEntryXPercentage = [0.575,0.622]   
+                              0.800,
+                              0.638,
+                              0.476]
     
     const leftStairsPercentage = [
     [[0.129, floorYPercentage[0]], [0.139, floorYPercentage[0]], [0.196, floorYPercentage[1]], [0.205, floorYPercentage[1]]],
@@ -175,11 +179,24 @@ function buildRoute(floorNo,
     [[0.699, floorYPercentage[2]], [0.756, floorYPercentage[3]], [0.766, floorYPercentage[3]]]
     ]
 
+    // Add kiosk to route
     var route = [[kioskCoordPercentage, (adjustedHeight + kioskOffset)/adjustedHeight],
                  [kioskCoordPercentage, floorYPercentage[0]]]
-    route = route.concat(leftStairsPercentage[0]);
-    console.log(route)
 
+    // Add escalators
+    for (let index = 0; index < floorNo - 1; index++) {
+        if (shelfCoords.x_perc > 0.4) {
+            route = route.concat(rightStairsPercentage[index]);    
+        } else {
+            route = route.concat(leftStairsPercentage[index]);
+        }
+    }
+
+    // Add destination shelf to route
+    route = route.concat([[shelfCoords.x_perc + originalShelfWidthPercentage/2, floorYPercentage[floorNo - 1]]]);
+    route = route.concat([[shelfCoords.x_perc + originalShelfWidthPercentage/2, shelfCoords.y_perc]]);
+
+    // Convert route from percentage to screen pixels
     const transformedRoute = route.map(d => [
         d[0] * wallContainerAttrs.width,
         d[1] * adjustedHeight + yOffset
