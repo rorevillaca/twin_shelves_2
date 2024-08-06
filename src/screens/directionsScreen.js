@@ -21,7 +21,7 @@ export function openDirectionsScreen(OCLC) {
     addBookCover(book_info.cover_file)
     addBBookDetails(book_info)
     addQR(book_info.OCLC)
-    addPath(book_info.shelf)
+    addPath(book_info.shelf, book_info.floor)
 }
 
 
@@ -81,33 +81,55 @@ function addQR(OCLC){
       .attr("src", qrCode)
 }
 
-function addPath(shelfNumber){
+function addPath(shelfNumber, floorNo){
+    const wallContainer = d3.select(".directions-view__wall").select("svg")
+    const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
+    const kioskCoordPercentage = 599.262 / 1002.816
+    const waypointSize = 20
+    const WallAspectRatio = 4.443
+    const kioskOffset = 20
+    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
+    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
 
-    addShelfHighlight(shelfNumber)
-    const route = buildRoute()
+
+    addShelfHighlight(shelfNumber, 
+                      kioskCoordPercentage,
+                      kioskOffset,
+                      wallContainer, 
+                      wallContainerAttrs, 
+                      waypointSize, 
+                      adjustedHeight,
+                      yOffset)
+
+    const route = buildRoute(floorNo, 
+                             kioskCoordPercentage,
+                             wallContainerAttrs,
+                             adjustedHeight,
+                             yOffset,
+                             kioskOffset)
     animatePath(route)
 }
 
-function addShelfHighlight(shelfNumber){
-    const wallContainer = d3.select(".directions-view__wall").select("svg")
-    const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
+function addShelfHighlight(shelfNumber,
+                           kioskCoordPercentage, 
+                           kioskOffset,
+                           wallContainer, 
+                           wallContainerAttrs, 
+                           waypointSize, 
+                           adjustedHeight,
+                           yOffset){
+
     const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber)[0];
-    const WallAspectRatio = 4.443
     const originalShelfWidthPercentage = 0.0126
     const originalShelfHeightPercentage = 0.0213
     const shelfWidth = originalShelfWidthPercentage * wallContainerAttrs.width  
     const shelfHeight = originalShelfHeightPercentage * wallContainerAttrs.height  
-    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
-    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
-    const waypointSize = 20
-    const kioskCoordPercentage = 599.262 / 1002.816
+    const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width - waypointSize/2,
+        adjustedHeight + yOffset + kioskOffset  
+     ]
     
     wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous rect (if any)
     
-    const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width - waypointSize/2,
-                           adjustedHeight + yOffset + 20     
-                        ]
-
     const Station = wallContainer.append("rect")
         .attr("class", "wayPoints")
         .attr("x", startingPoint[0])
@@ -127,7 +149,13 @@ function addShelfHighlight(shelfNumber){
 }
 
 
-function buildRoute(){
+function buildRoute(floorNo,
+                    kioskCoordPercentage,
+                    wallContainerAttrs,
+                    adjustedHeight,
+                    yOffset,
+                    kioskOffset){
+
     const floorYPercentage = [0.963,
         0.800,
         0.638,
@@ -147,13 +175,10 @@ function buildRoute(){
     [[0.699, floorYPercentage[2]], [0.756, floorYPercentage[3]], [0.766, floorYPercentage[3]]]
     ]
 
-    const route = leftStairsPercentage[0]
-
-    const wallContainer = d3.select(".directions-view__wall").select("svg")
-    const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
-    const WallAspectRatio = 4.443
-    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
-    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
+    var route = [[kioskCoordPercentage, (adjustedHeight + kioskOffset)/adjustedHeight],
+                 [kioskCoordPercentage, floorYPercentage[0]]]
+    route = route.concat(leftStairsPercentage[0]);
+    console.log(route)
 
     const transformedRoute = route.map(d => [
         d[0] * wallContainerAttrs.width,

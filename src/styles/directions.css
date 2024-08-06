@@ -58,11 +58,11 @@
   }
 
   .wayPoints {
-    fill:  #808ff7;
+    fill:  #ff6f3b;
   }
 
   .walkingPath {
-    stroke: #808ff7;
+    stroke: #ff6f3b;
     stroke-width: 8px;
     fill: none;
   }
