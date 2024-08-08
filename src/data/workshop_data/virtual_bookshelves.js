@@ -1,6 +1,7 @@
 const virtual_bookshelves = [
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -89,6 +90,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -197,6 +199,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -305,6 +308,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -413,6 +417,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -521,6 +526,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -629,6 +635,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -737,6 +744,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 10,
@@ -785,6 +793,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -873,6 +882,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -981,6 +991,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -1089,6 +1100,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -1197,6 +1209,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -1305,6 +1318,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -1413,6 +1427,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -1521,6 +1536,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -1629,6 +1645,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -1737,6 +1754,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "aeronautics aircraft and helicopters",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 17,
@@ -1813,6 +1831,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -1901,6 +1920,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -2009,6 +2029,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -2117,6 +2138,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -2225,6 +2247,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -2333,6 +2356,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -2441,6 +2465,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -2549,6 +2574,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -2657,6 +2683,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "aerospace engineering",
+    "topic_id": "topic_1",
     "sub_topic": "space technology",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 4,
@@ -2681,6 +2708,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architectural history",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -2769,6 +2797,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architectural history",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -2877,6 +2906,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architectural history",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -2985,6 +3015,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architectural history",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -3093,6 +3124,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architectural history",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -3201,6 +3233,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architectural history",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -3309,6 +3342,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architectural history",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 11,
@@ -3361,6 +3395,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -3449,6 +3484,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -3557,6 +3593,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -3665,6 +3702,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -3773,6 +3811,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -3881,6 +3920,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -3989,6 +4029,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -4097,6 +4138,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -4205,6 +4247,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -4313,6 +4356,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -4421,6 +4465,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -4529,6 +4574,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 25,
@@ -4637,6 +4683,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture and interior design",
     "virtual_shelf_temp": 13,
     "books_in_bookcase": 11,
@@ -4689,6 +4736,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -4777,6 +4825,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -4885,6 +4934,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -4993,6 +5043,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -5101,6 +5152,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -5209,6 +5261,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -5317,6 +5370,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -5425,6 +5479,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -5533,6 +5588,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -5641,6 +5697,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -5749,6 +5806,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "architecture urbanism physical planning general",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 12,
@@ -5805,6 +5863,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "buildings and building interiors",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -5893,6 +5952,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "buildings and building interiors",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -6001,6 +6061,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "buildings and building interiors",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -6109,6 +6170,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "buildings and building interiors",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 5,
@@ -6137,6 +6199,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "non residential buildings",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -6225,6 +6288,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "non residential buildings",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -6333,6 +6397,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "non residential buildings",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -6441,6 +6506,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "non residential buildings",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -6549,6 +6615,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "non residential buildings",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -6657,6 +6724,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "non residential buildings",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -6765,6 +6833,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "non residential buildings",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 17,
@@ -6841,6 +6910,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "physical planning landscape architecture and garden design",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -6929,6 +6999,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "physical planning landscape architecture and garden design",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -7037,6 +7108,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "physical planning landscape architecture and garden design",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -7145,6 +7217,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "physical planning landscape architecture and garden design",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -7253,6 +7326,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "physical planning landscape architecture and garden design",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -7361,6 +7435,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "physical planning landscape architecture and garden design",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 4,
@@ -7385,6 +7460,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "residential buildings",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -7473,6 +7549,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "residential buildings",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -7581,6 +7658,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "residential buildings",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -7689,6 +7767,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "residential buildings",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 8,
@@ -7729,6 +7808,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -7817,6 +7897,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -7925,6 +8006,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -8033,6 +8115,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -8141,6 +8224,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -8249,6 +8333,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -8357,6 +8442,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -8465,6 +8551,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -8573,6 +8660,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -8681,6 +8769,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -8789,6 +8878,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -8897,6 +8987,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 25,
@@ -9005,6 +9096,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 13,
     "books_in_bookcase": 25,
@@ -9113,6 +9205,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "architecture urbanism and physical planning",
+    "topic_id": "topic_2",
     "sub_topic": "urbanism and urban design",
     "virtual_shelf_temp": 14,
     "books_in_bookcase": 1,
@@ -9125,6 +9218,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -9213,6 +9307,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -9321,6 +9416,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -9429,6 +9525,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -9537,6 +9634,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -9645,6 +9743,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -9753,6 +9852,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -9861,6 +9961,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -9969,6 +10070,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -10077,6 +10179,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -10185,6 +10288,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -10293,6 +10397,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "art",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 20,
@@ -10381,6 +10486,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "arts and humanities general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 2,
@@ -10397,6 +10503,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "geography and history",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -10485,6 +10592,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "geography and history",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -10593,6 +10701,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "geography and history",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -10701,6 +10810,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "geography and history",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 18,
@@ -10781,6 +10891,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -10869,6 +10980,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -10977,6 +11089,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -11085,6 +11198,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -11193,6 +11307,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -11301,6 +11416,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -11409,6 +11525,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -11517,6 +11634,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -11625,6 +11743,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -11733,6 +11852,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "arts and humanities",
+    "topic_id": "topic_3",
     "sub_topic": "language and linguistics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 2,
@@ -11749,6 +11869,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biochemistry and molecular biology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -11837,6 +11958,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biochemistry and molecular biology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -11945,6 +12067,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biochemistry and molecular biology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -12053,6 +12176,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biochemistry and molecular biology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -12161,6 +12285,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biochemistry and molecular biology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -12269,6 +12394,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biochemistry and molecular biology",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -12377,6 +12503,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biochemistry and molecular biology",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -12485,6 +12612,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biochemistry and molecular biology",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 15,
@@ -12553,6 +12681,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biology general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -12641,6 +12770,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biology general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -12749,6 +12879,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biology general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -12857,6 +12988,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biology general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -12965,6 +13097,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biology general",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -13073,6 +13206,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biology general",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 23,
@@ -13173,6 +13307,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biophysics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -13261,6 +13396,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biophysics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 17,
@@ -13337,6 +13473,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biotechnology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -13425,6 +13562,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biotechnology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -13533,6 +13671,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biotechnology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -13641,6 +13780,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "biotechnology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 9,
@@ -13685,6 +13825,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "botany",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 13,
@@ -13745,6 +13886,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -13833,6 +13975,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -13941,6 +14084,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -14049,6 +14193,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -14157,6 +14302,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -14265,6 +14411,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -14373,6 +14520,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -14481,6 +14629,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -14589,6 +14738,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -14697,6 +14847,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "human biology medicine and biomedical engineering",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 4,
@@ -14721,6 +14872,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "microbiology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -14809,6 +14961,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "microbiology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -14917,6 +15070,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "microbiology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 20,
@@ -15005,6 +15159,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "nature and agriculture",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -15093,6 +15248,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "nature and agriculture",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -15201,6 +15357,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "nature and agriculture",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -15309,6 +15466,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "nature and agriculture",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 13,
@@ -15369,6 +15527,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "biology",
+    "topic_id": "topic_4",
     "sub_topic": "zoology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 1,
@@ -15381,6 +15540,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -15469,6 +15629,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -15577,6 +15738,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -15685,6 +15847,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -15793,6 +15956,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -15901,6 +16065,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -16009,6 +16174,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -16117,6 +16283,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -16225,6 +16392,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 13,
@@ -16285,6 +16453,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building components",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -16373,6 +16542,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building components",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -16481,6 +16651,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building components",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 11,
@@ -16533,6 +16704,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building physics and services",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -16621,6 +16793,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building physics and services",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -16729,6 +16902,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building physics and services",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -16837,6 +17011,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building physics and services",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -16945,6 +17120,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building physics and services",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -17053,6 +17229,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building physics and services",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 12,
@@ -17109,6 +17286,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -17197,6 +17375,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -17305,6 +17484,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -17413,6 +17593,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -17521,6 +17702,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -17629,6 +17811,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -17737,6 +17920,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -17845,6 +18029,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -17953,6 +18138,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -18061,6 +18247,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -18169,6 +18356,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building structures",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 21,
@@ -18261,6 +18449,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building technology general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -18349,6 +18538,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building technology general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -18457,6 +18647,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building technology general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -18565,6 +18756,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building technology general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -18673,6 +18865,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building technology general",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -18781,6 +18974,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "building technology general",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 19,
@@ -18865,6 +19059,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "construction materials",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -18953,6 +19148,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "construction materials",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -19061,6 +19257,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "construction materials",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -19169,6 +19366,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "construction materials",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -19277,6 +19475,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "building technology",
+    "topic_id": "topic_5",
     "sub_topic": "construction materials",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 22,
@@ -19373,6 +19572,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "analytical chemistry",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -19461,6 +19661,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "analytical chemistry",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -19569,6 +19770,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "analytical chemistry",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -19677,6 +19879,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "analytical chemistry",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 7,
@@ -19713,6 +19916,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -19801,6 +20005,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -19909,6 +20114,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -20017,6 +20223,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -20125,6 +20332,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -20233,6 +20441,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -20341,6 +20550,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -20449,6 +20659,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -20557,6 +20768,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -20665,6 +20877,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -20773,6 +20986,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -20881,6 +21095,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemical technology",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 13,
@@ -20941,6 +21156,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemistry general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -21029,6 +21245,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemistry general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -21137,6 +21354,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemistry general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -21245,6 +21463,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "chemistry general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 3,
@@ -21265,6 +21484,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "food science and technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -21353,6 +21573,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "food science and technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -21461,6 +21682,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "food science and technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -21569,6 +21791,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "food science and technology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -21677,6 +21900,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "food science and technology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -21785,6 +22009,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "food science and technology",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -21893,6 +22118,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "food science and technology",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 22,
@@ -21989,6 +22215,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "fuel technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -22077,6 +22304,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "fuel technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -22185,6 +22413,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "fuel technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -22293,6 +22522,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "fuel technology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 2,
@@ -22309,6 +22539,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial inorganic chemistry",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -22397,6 +22628,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial inorganic chemistry",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -22505,6 +22737,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial inorganic chemistry",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -22613,6 +22846,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial inorganic chemistry",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -22721,6 +22955,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial inorganic chemistry",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 13,
@@ -22781,6 +23016,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial organic chemistry",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -22869,6 +23105,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial organic chemistry",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -22977,6 +23214,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial organic chemistry",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -23085,6 +23323,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial organic chemistry",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -23193,6 +23432,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial organic chemistry",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -23301,6 +23541,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "industrial organic chemistry",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 8,
@@ -23341,6 +23582,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "inorganic chemistry",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -23429,6 +23671,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "inorganic chemistry",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -23537,6 +23780,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "inorganic chemistry",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 20,
@@ -23625,6 +23869,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -23713,6 +23958,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -23821,6 +24067,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -23929,6 +24176,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -24037,6 +24285,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -24145,6 +24394,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -24253,6 +24503,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -24361,6 +24612,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -24469,6 +24721,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -24577,6 +24830,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -24685,6 +24939,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -24793,6 +25048,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "organic chemistry",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 2,
@@ -24809,6 +25065,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -24897,6 +25154,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -25005,6 +25263,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -25113,6 +25372,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -25221,6 +25481,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -25329,6 +25590,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -25437,6 +25699,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -25545,6 +25808,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -25653,6 +25917,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -25761,6 +26026,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -25869,6 +26135,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -25977,6 +26244,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 25,
@@ -26085,6 +26353,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 13,
     "books_in_bookcase": 25,
@@ -26193,6 +26462,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 14,
     "books_in_bookcase": 25,
@@ -26301,6 +26571,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "chemistry",
+    "topic_id": "topic_6",
     "sub_topic": "physical chemistry",
     "virtual_shelf_temp": 15,
     "books_in_bookcase": 11,
@@ -26353,6 +26624,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "civil engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -26441,6 +26713,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "civil engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -26549,6 +26822,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "civil engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 23,
@@ -26649,6 +26923,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -26737,6 +27012,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -26845,6 +27121,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -26953,6 +27230,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -27061,6 +27339,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -27169,6 +27448,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -27277,6 +27557,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -27385,6 +27666,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -27493,6 +27775,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -27601,6 +27884,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -27709,6 +27993,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "geotechnics",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 19,
@@ -27793,6 +28078,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydraulic engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -27881,6 +28167,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydraulic engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -27989,6 +28276,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydraulic engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -28097,6 +28385,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydraulic engineering",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -28205,6 +28494,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydraulic engineering",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 20,
@@ -28293,6 +28583,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydrology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -28381,6 +28672,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydrology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -28489,6 +28781,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydrology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -28597,6 +28890,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydrology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -28705,6 +28999,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydrology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -28813,6 +29108,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "hydrology",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 16,
@@ -28885,6 +29181,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "oceanology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -28973,6 +29270,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "oceanology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -29081,6 +29379,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "oceanology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -29189,6 +29488,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "oceanology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -29297,6 +29597,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "oceanology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 16,
@@ -29369,6 +29670,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "road engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -29457,6 +29759,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "road engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -29565,6 +29868,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "road engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -29673,6 +29977,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "road engineering",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -29781,6 +30086,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "road engineering",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 15,
@@ -29849,6 +30155,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -29937,6 +30244,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -30045,6 +30353,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -30153,6 +30462,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -30261,6 +30571,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -30369,6 +30680,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -30477,6 +30789,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -30585,6 +30898,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -30693,6 +31007,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic and transport",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 4,
@@ -30717,6 +31032,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -30805,6 +31121,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -30913,6 +31230,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "traffic engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 5,
@@ -30941,6 +31259,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "water management",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -31029,6 +31348,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "water management",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -31137,6 +31457,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "water management",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -31245,6 +31566,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "water management",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -31353,6 +31675,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "water management",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -31461,6 +31784,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "water management",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -31569,6 +31893,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "civil engineering",
+    "topic_id": "topic_7",
     "sub_topic": "water management",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 20,
@@ -31657,6 +31982,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -31745,6 +32071,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -31853,6 +32180,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -31961,6 +32289,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -32069,6 +32398,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -32177,6 +32507,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -32285,6 +32616,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -32393,6 +32725,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -32501,6 +32834,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "artificial intelligence",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 22,
@@ -32597,6 +32931,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer graphics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -32685,6 +33020,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer graphics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -32793,6 +33129,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer graphics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 19,
@@ -32877,6 +33214,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer science general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -32965,6 +33303,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer science general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -33073,6 +33412,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer science general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -33181,6 +33521,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer simulation",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -33269,6 +33610,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer simulation",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 13,
@@ -33329,6 +33671,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer use personal computing",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -33417,6 +33760,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer use personal computing",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -33525,6 +33869,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "computer use personal computing",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 8,
@@ -33565,6 +33910,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "databases",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -33653,6 +33999,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "databases",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -33761,6 +34108,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "databases",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 6,
@@ -33793,6 +34141,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "information systems",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -33881,6 +34230,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "information systems",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -33989,6 +34339,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "information systems",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -34097,6 +34448,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "information systems",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 1,
@@ -34109,6 +34461,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "mathematical logic for computer science",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 5,
@@ -34137,6 +34490,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "operating systems",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -34225,6 +34579,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "operating systems",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 24,
@@ -34329,6 +34684,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -34417,6 +34773,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -34525,6 +34882,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -34633,6 +34991,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -34741,6 +35100,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -34849,6 +35209,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 11,
@@ -34901,6 +35262,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -34989,6 +35351,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -35097,6 +35460,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -35205,6 +35569,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -35313,6 +35678,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -35421,6 +35787,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -35529,6 +35896,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -35637,6 +36005,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -35745,6 +36114,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -35853,6 +36223,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "programming languages",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 8,
@@ -35893,6 +36264,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software aspects of computer systems and computer networks",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -35981,6 +36353,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software aspects of computer systems and computer networks",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -36089,6 +36462,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software aspects of computer systems and computer networks",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -36197,6 +36571,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software aspects of computer systems and computer networks",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -36305,6 +36680,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software aspects of computer systems and computer networks",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -36413,6 +36789,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software aspects of computer systems and computer networks",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 4,
@@ -36437,6 +36814,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -36525,6 +36903,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -36633,6 +37012,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -36741,6 +37121,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software engineering",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -36849,6 +37230,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software engineering",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 1,
@@ -36861,6 +37243,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software ergonomics multimedia software aspects",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -36949,6 +37332,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software ergonomics multimedia software aspects",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -37057,6 +37441,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software ergonomics multimedia software aspects",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -37165,6 +37550,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "software ergonomics multimedia software aspects",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 18,
@@ -37245,6 +37631,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "theoretical computer science and formal methods",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -37333,6 +37720,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "theoretical computer science and formal methods",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -37441,6 +37829,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "computer science",
+    "topic_id": "topic_8",
     "sub_topic": "theoretical computer science and formal methods",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 3,
@@ -37461,6 +37850,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -37549,6 +37939,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 12,
@@ -37605,6 +37996,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering and control theory",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -37693,6 +38085,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering and control theory",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -37801,6 +38194,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering and control theory",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -37909,6 +38303,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering and control theory",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -38017,6 +38412,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering and control theory",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -38125,6 +38521,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering and control theory",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -38233,6 +38630,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering and control theory",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -38341,6 +38739,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "control engineering and control theory",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 9,
@@ -38385,6 +38784,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "design of control systems",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -38473,6 +38873,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "design of control systems",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -38581,6 +38982,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "design of control systems",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 5,
@@ -38609,6 +39011,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "control engineering",
+    "topic_id": "topic_9",
     "sub_topic": "process control",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -38697,6 +39100,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "applied ergonomics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -38785,6 +39189,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "applied ergonomics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -38893,6 +39298,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "applied ergonomics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 23,
@@ -38993,6 +39399,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -39081,6 +39488,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -39189,6 +39597,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -39297,6 +39706,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -39405,6 +39815,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -39513,6 +39924,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -39621,6 +40033,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 10,
@@ -39669,6 +40082,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design techniques",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -39757,6 +40171,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design techniques",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -39865,6 +40280,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "design techniques",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 1,
@@ -39877,6 +40293,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -39965,6 +40382,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -40073,6 +40491,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -40181,6 +40600,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -40289,6 +40709,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -40397,6 +40818,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -40505,6 +40927,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -40613,6 +41036,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -40721,6 +41145,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -40829,6 +41254,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -40937,6 +41363,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -41045,6 +41472,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 25,
@@ -41153,6 +41581,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 13,
     "books_in_bookcase": 25,
@@ -41261,6 +41690,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 14,
     "books_in_bookcase": 25,
@@ -41369,6 +41799,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "design engineering",
+    "topic_id": "topic_10",
     "sub_topic": "industrial design engineering",
     "virtual_shelf_temp": 15,
     "books_in_bookcase": 13,
@@ -41429,6 +41860,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "circuit theory and electric circuits",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -41517,6 +41949,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "circuit theory and electric circuits",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -41625,6 +42058,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "circuit theory and electric circuits",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -41733,6 +42167,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "circuit theory and electric circuits",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 3,
@@ -41753,6 +42188,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "communication theory",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -41841,6 +42277,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "communication theory",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -41949,6 +42386,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "communication theory",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -42057,6 +42495,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "communication theory",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -42165,6 +42604,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "communication theory",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 16,
@@ -42237,6 +42677,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "computer hardware",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -42325,6 +42766,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "computer hardware",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -42433,6 +42875,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "computer hardware",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 16,
@@ -42505,6 +42948,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "data communication equipment and techniques",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -42593,6 +43037,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "data communication equipment and techniques",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -42701,6 +43146,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "data communication equipment and techniques",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 7,
@@ -42737,6 +43183,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electrical engineering components and materials",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 16,
@@ -42809,6 +43256,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electrical engineering general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -42897,6 +43345,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electrical engineering general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -43005,6 +43454,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electromagnetic wave propagation and antennas",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -43093,6 +43543,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electromagnetic wave propagation and antennas",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 18,
@@ -43173,6 +43624,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electronic circuits",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -43261,6 +43713,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electronic circuits",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -43369,6 +43822,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electronic circuits",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -43477,6 +43931,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electronic circuits",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -43585,6 +44040,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electronic circuits",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -43693,6 +44149,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electronic circuits",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -43801,6 +44258,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electronic circuits",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 2,
@@ -43817,6 +44275,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "electronic instrumentation",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 15,
@@ -43885,6 +44344,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "integrated circuits",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -43973,6 +44433,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "integrated circuits",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -44081,6 +44542,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "integrated circuits",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 13,
@@ -44141,6 +44603,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "microwave technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -44229,6 +44692,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "microwave technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 22,
@@ -44325,6 +44789,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -44413,6 +44878,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -44521,6 +44987,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -44629,6 +45096,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -44737,6 +45205,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -44845,6 +45314,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -44953,6 +45423,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -45061,6 +45532,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -45169,6 +45641,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "power systems and application",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 1,
@@ -45181,6 +45654,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "radar and radionavigation",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -45269,6 +45743,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "radar and radionavigation",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -45377,6 +45852,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "radio television and audio",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -45465,6 +45941,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "radio television and audio",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 14,
@@ -45529,6 +46006,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "semiconductor devices",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -45617,6 +46095,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "semiconductor devices",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -45725,6 +46204,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "semiconductor devices",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -45833,6 +46313,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "semiconductor devices",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -45941,6 +46422,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "semiconductor devices",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 18,
@@ -46021,6 +46503,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "telecommunication",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -46109,6 +46592,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "telecommunication",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 19,
@@ -46193,6 +46677,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "transmission links and transmission equipment",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -46281,6 +46766,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "transmission links and transmission equipment",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -46389,6 +46875,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "electrical engineering",
+    "topic_id": "topic_11",
     "sub_topic": "transmission links and transmission equipment",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 22,
@@ -46485,6 +46972,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "energy supply",
+    "topic_id": "topic_12",
     "sub_topic": "energy supply",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -46573,6 +47061,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "energy supply",
+    "topic_id": "topic_12",
     "sub_topic": "energy supply",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -46681,6 +47170,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "energy supply",
+    "topic_id": "topic_12",
     "sub_topic": "energy supply",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -46789,6 +47279,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "energy supply",
+    "topic_id": "topic_12",
     "sub_topic": "energy supply",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -46897,6 +47388,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "energy supply",
+    "topic_id": "topic_12",
     "sub_topic": "energy supply",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -47005,6 +47497,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "energy supply",
+    "topic_id": "topic_12",
     "sub_topic": "energy supply",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -47113,6 +47606,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "energy supply",
+    "topic_id": "topic_12",
     "sub_topic": "energy supply",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -47221,6 +47715,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "energy supply",
+    "topic_id": "topic_12",
     "sub_topic": "energy supply",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 11,
@@ -47273,6 +47768,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "environmental technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -47361,6 +47857,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "environmental technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -47469,6 +47966,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "environmental technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -47577,6 +48075,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "environmental technology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -47685,6 +48184,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "environmental technology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 15,
@@ -47753,6 +48253,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "pollution and environmental policy",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -47841,6 +48342,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "pollution and environmental policy",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -47949,6 +48451,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "pollution and environmental policy",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -48057,6 +48560,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "pollution and environmental policy",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -48165,6 +48669,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "pollution and environmental policy",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -48273,6 +48778,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "pollution and environmental policy",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -48381,6 +48887,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "pollution and environmental policy",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 8,
@@ -48421,6 +48928,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "safety engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -48509,6 +49017,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "safety engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -48617,6 +49126,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "safety engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -48725,6 +49235,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "safety engineering",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -48833,6 +49344,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "safety engineering",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -48941,6 +49453,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "safety engineering",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 23,
@@ -49041,6 +49554,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "sanitary engineering wastewater treatment and hygiene",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -49129,6 +49643,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "sanitary engineering wastewater treatment and hygiene",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -49237,6 +49752,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "sanitary engineering wastewater treatment and hygiene",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -49345,6 +49861,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "sanitary engineering wastewater treatment and hygiene",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -49453,6 +49970,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "sanitary engineering wastewater treatment and hygiene",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -49561,6 +50079,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "sanitary engineering wastewater treatment and hygiene",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -49669,6 +50188,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "sanitary engineering wastewater treatment and hygiene",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 9,
@@ -49713,6 +50233,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "environmental and safety engineering",
+    "topic_id": "topic_13",
     "sub_topic": "toxicology and radiation health",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 11,
@@ -49765,6 +50286,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -49853,6 +50375,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -49961,6 +50484,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -50069,6 +50593,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -50177,6 +50702,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -50285,6 +50811,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -50393,6 +50920,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -50501,6 +51029,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -50609,6 +51138,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -50717,6 +51247,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geodesy",
+    "topic_id": "topic_14",
     "sub_topic": "geodesy",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 20,
@@ -50805,6 +51336,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "earth sciences general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -50893,6 +51425,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "earth sciences general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -51001,6 +51534,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "earth sciences general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 8,
@@ -51041,6 +51575,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "engineering geology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -51129,6 +51664,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "engineering geology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -51237,6 +51773,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "engineering geology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -51345,6 +51882,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "engineering geology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 12,
@@ -51401,6 +51939,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geochemistry",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 14,
@@ -51465,6 +52004,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology regional",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -51553,6 +52093,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology regional",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 2,
@@ -51569,6 +52110,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -51657,6 +52199,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -51765,6 +52308,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -51873,6 +52417,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -51981,6 +52526,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -52089,6 +52635,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -52197,6 +52744,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -52305,6 +52853,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -52413,6 +52962,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geology specific topics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 13,
@@ -52473,6 +53023,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geophysics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -52561,6 +53112,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geophysics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -52669,6 +53221,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geophysics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -52777,6 +53330,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geophysics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -52885,6 +53439,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geophysics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 10,
@@ -52933,6 +53488,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "geothermics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 13,
@@ -52993,6 +53549,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "meteorology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -53081,6 +53638,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "meteorology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -53189,6 +53747,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "meteorology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -53297,6 +53856,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "meteorology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 17,
@@ -53373,6 +53933,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "mining general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -53461,6 +54022,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "mining general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -53569,6 +54131,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "mining general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 1,
@@ -53581,6 +54144,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "petroleum exploration and production",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -53669,6 +54233,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "petroleum exploration and production",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -53777,6 +54342,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "petroleum exploration and production",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -53885,6 +54451,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "petroleum exploration and production",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -53993,6 +54560,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "petroleum exploration and production",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -54101,6 +54669,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "petroleum exploration and production",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -54209,6 +54778,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "petroleum exploration and production",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 15,
@@ -54277,6 +54847,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "solid mineral resources",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -54365,6 +54936,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "geosciences",
+    "topic_id": "topic_15",
     "sub_topic": "solid mineral resources",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 18,
@@ -54445,6 +55017,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "law",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -54533,6 +55106,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "law",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -54641,6 +55215,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "law",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -54749,6 +55324,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "law",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -54857,6 +55433,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "law",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 15,
@@ -54925,6 +55502,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -55013,6 +55591,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -55121,6 +55700,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -55229,6 +55809,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -55337,6 +55918,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -55445,6 +56027,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -55553,6 +56136,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -55661,6 +56245,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -55769,6 +56354,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -55877,6 +56463,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -55985,6 +56572,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "law and policy sciences",
+    "topic_id": "topic_16",
     "sub_topic": "policy sciences",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 19,
@@ -56069,6 +56657,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "business economics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -56157,6 +56746,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "business economics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -56265,6 +56855,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "business economics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -56373,6 +56964,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "business economics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -56481,6 +57073,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "business economics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -56589,6 +57182,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "business economics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -56697,6 +57291,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "business economics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 23,
@@ -56797,6 +57392,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -56885,6 +57481,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -56993,6 +57590,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -57101,6 +57699,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -57209,6 +57808,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -57317,6 +57917,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -57425,6 +58026,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -57533,6 +58135,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -57641,6 +58244,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -57749,6 +58353,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "industrial organisation",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 11,
@@ -57801,6 +58406,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "information sciences",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -57889,6 +58495,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "information sciences",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 12,
@@ -57945,6 +58552,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -58033,6 +58641,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -58141,6 +58750,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -58249,6 +58859,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -58357,6 +58968,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -58465,6 +59077,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -58573,6 +59186,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -58681,6 +59295,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -58789,6 +59404,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -58897,6 +59513,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -59005,6 +59622,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -59113,6 +59731,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 25,
@@ -59221,6 +59840,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 13,
     "books_in_bookcase": 25,
@@ -59329,6 +59949,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 14,
     "books_in_bookcase": 25,
@@ -59437,6 +60058,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 15,
     "books_in_bookcase": 25,
@@ -59545,6 +60167,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 16,
     "books_in_bookcase": 25,
@@ -59653,6 +60276,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 17,
     "books_in_bookcase": 25,
@@ -59761,6 +60385,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 18,
     "books_in_bookcase": 25,
@@ -59869,6 +60494,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 19,
     "books_in_bookcase": 25,
@@ -59977,6 +60603,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 20,
     "books_in_bookcase": 25,
@@ -60085,6 +60712,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 21,
     "books_in_bookcase": 25,
@@ -60193,6 +60821,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 22,
     "books_in_bookcase": 25,
@@ -60301,6 +60930,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 23,
     "books_in_bookcase": 25,
@@ -60409,6 +61039,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 24,
     "books_in_bookcase": 25,
@@ -60517,6 +61148,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 25,
     "books_in_bookcase": 25,
@@ -60625,6 +61257,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 26,
     "books_in_bookcase": 25,
@@ -60733,6 +61366,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 27,
     "books_in_bookcase": 25,
@@ -60841,6 +61475,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 28,
     "books_in_bookcase": 25,
@@ -60949,6 +61584,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 29,
     "books_in_bookcase": 25,
@@ -61057,6 +61693,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "management sciences",
     "virtual_shelf_temp": 30,
     "books_in_bookcase": 16,
@@ -61129,6 +61766,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "product development",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -61217,6 +61855,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "product development",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -61325,6 +61964,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "product development",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -61433,6 +62073,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "management sciences",
+    "topic_id": "topic_17",
     "sub_topic": "product development",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -61541,6 +62182,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "computer integrated manufacturing systems cim systems",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 4,
@@ -61565,6 +62207,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "joining technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -61653,6 +62296,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "joining technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -61761,6 +62405,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "joining technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 7,
@@ -61797,6 +62442,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "manufacturing technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -61885,6 +62531,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "manufacturing technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -61993,6 +62640,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "manufacturing technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 7,
@@ -62029,6 +62677,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "materials processing",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -62117,6 +62766,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "materials processing",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -62225,6 +62875,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "materials processing",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -62333,6 +62984,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "materials processing",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -62441,6 +63093,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "materials processing",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -62549,6 +63202,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "materials processing",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 22,
@@ -62645,6 +63299,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "packaging and printing technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 18,
@@ -62725,6 +63380,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "robotics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -62813,6 +63469,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "robotics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -62921,6 +63578,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "robotics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -63029,6 +63687,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "robotics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -63137,6 +63796,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "robotics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 2,
@@ -63153,6 +63813,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "manufacturing technology",
+    "topic_id": "topic_18",
     "sub_topic": "surface finishing",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -63241,6 +63902,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "naval architecture",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -63329,6 +63991,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "naval architecture",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -63437,6 +64100,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "naval architecture",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -63545,6 +64209,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "naval architecture",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -63653,6 +64318,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "naval architecture",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 22,
@@ -63749,6 +64415,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "offshore technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -63837,6 +64504,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "offshore technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -63945,6 +64613,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "offshore technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 3,
@@ -63965,6 +64634,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "shipping ships and special craft",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -64053,6 +64723,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "shipping ships and special craft",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -64161,6 +64832,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "shipping ships and special craft",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -64269,6 +64941,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "shipping ships and special craft",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -64377,6 +65050,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "shipping ships and special craft",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -64485,6 +65159,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "marine technology",
+    "topic_id": "topic_19",
     "sub_topic": "shipping ships and special craft",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 22,
@@ -64581,6 +65256,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "materials engineering general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -64669,6 +65345,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "materials engineering general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -64777,6 +65454,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "materials engineering general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -64885,6 +65563,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "materials engineering general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -64993,6 +65672,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "materials engineering general",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -65101,6 +65781,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "materials engineering general",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -65209,6 +65890,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "materials engineering general",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -65317,6 +65999,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "materials engineering general",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 1,
@@ -65329,6 +66012,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "metals",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -65417,6 +66101,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "metals",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -65525,6 +66210,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "metals",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -65633,6 +66319,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "metals",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -65741,6 +66428,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "metals",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -65849,6 +66537,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "metals",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 2,
@@ -65865,6 +66554,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "non metallic materials",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -65953,6 +66643,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "non metallic materials",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -66061,6 +66752,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "non metallic materials",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -66169,6 +66861,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "non metallic materials",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -66277,6 +66970,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "non metallic materials",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -66385,6 +67079,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "materials engineering",
+    "topic_id": "topic_20",
     "sub_topic": "non metallic materials",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 5,
@@ -66413,6 +67108,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "algebra",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -66501,6 +67197,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "algebra",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -66609,6 +67306,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "algebra",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -66717,6 +67415,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "algebra",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -66825,6 +67524,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "algebra",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -66933,6 +67633,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "algebra",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -67041,6 +67742,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "algebra",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -67149,6 +67851,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "algebra",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 24,
@@ -67253,6 +67956,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -67341,6 +68045,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -67449,6 +68154,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -67557,6 +68263,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "approximation theory harmonic analysis integral transforms integral equations",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 13,
@@ -67617,6 +68324,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "differential equations general ordinary differential equations",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -67705,6 +68413,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "differential equations general ordinary differential equations",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -67813,6 +68522,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "differential equations general ordinary differential equations",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -67921,6 +68631,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "differential equations general ordinary differential equations",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -68029,6 +68740,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "differential equations general ordinary differential equations",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 2,
@@ -68045,6 +68757,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "discrete mathematics combinatorics graph theory",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -68133,6 +68846,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "discrete mathematics combinatorics graph theory",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -68241,6 +68955,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "discrete mathematics combinatorics graph theory",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -68349,6 +69064,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "discrete mathematics combinatorics graph theory",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 3,
@@ -68369,6 +69085,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "functional analysis calculus of variations",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -68457,6 +69174,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "functional analysis calculus of variations",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -68565,6 +69283,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "functional analysis calculus of variations",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -68673,6 +69392,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "functional analysis calculus of variations",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 14,
@@ -68737,6 +69457,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "geometry",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -68825,6 +69546,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "geometry",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -68933,6 +69655,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "geometry",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -69041,6 +69764,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "geometry",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 13,
@@ -69101,6 +69825,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "information theory",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -69189,6 +69914,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "information theory",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -69297,6 +70023,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "information theory",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 5,
@@ -69325,6 +70052,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical logic and set theory",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -69413,6 +70141,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical logic and set theory",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 24,
@@ -69517,6 +70246,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -69605,6 +70335,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -69713,6 +70444,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -69821,6 +70553,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -69929,6 +70662,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -70037,6 +70771,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -70145,6 +70880,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -70253,6 +70989,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -70361,6 +71098,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -70469,6 +71207,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -70577,6 +71316,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical statistics",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 5,
@@ -70605,6 +71345,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical systems theory",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -70693,6 +71434,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical systems theory",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -70801,6 +71543,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical systems theory",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -70909,6 +71652,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical systems theory",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -71017,6 +71761,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematical systems theory",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 16,
@@ -71089,6 +71834,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -71177,6 +71923,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -71285,6 +72032,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -71393,6 +72141,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -71501,6 +72250,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -71609,6 +72359,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -71717,6 +72468,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -71825,6 +72577,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -71933,6 +72686,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -72041,6 +72795,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -72149,6 +72904,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "mathematics general",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 21,
@@ -72241,6 +72997,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "number theory",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -72329,6 +73086,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "number theory",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 19,
@@ -72413,6 +73171,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "numerical mathematics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -72501,6 +73260,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "numerical mathematics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -72609,6 +73369,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "numerical mathematics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -72717,6 +73478,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "numerical mathematics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -72825,6 +73587,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "numerical mathematics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -72933,6 +73696,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "numerical mathematics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -73041,6 +73805,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "numerical mathematics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -73149,6 +73914,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "numerical mathematics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -73257,6 +74023,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "operations research",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -73345,6 +74112,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "operations research",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -73453,6 +74221,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "operations research",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -73561,6 +74330,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "operations research",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -73669,6 +74439,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "operations research",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -73777,6 +74548,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "operations research",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -73885,6 +74657,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "operations research",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -73993,6 +74766,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "operations research",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 20,
@@ -74081,6 +74855,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "partial differential equations",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -74169,6 +74944,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "partial differential equations",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -74277,6 +75053,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "partial differential equations",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 12,
@@ -74333,6 +75110,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "probability theory",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -74421,6 +75199,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "probability theory",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -74529,6 +75308,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "probability theory",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -74637,6 +75417,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "probability theory",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -74745,6 +75526,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "probability theory",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -74853,6 +75635,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "probability theory",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -74961,6 +75744,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "probability theory",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -75069,6 +75853,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "probability theory",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 23,
@@ -75169,6 +75954,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "real and complex analysis mathematics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -75257,6 +76043,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "real and complex analysis mathematics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -75365,6 +76152,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "real and complex analysis mathematics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -75473,6 +76261,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "real and complex analysis mathematics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -75581,6 +76370,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "real and complex analysis mathematics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -75689,6 +76479,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "real and complex analysis mathematics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 10,
@@ -75737,6 +76528,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "topology global analysis",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -75825,6 +76617,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "topology global analysis",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -75933,6 +76726,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "topology global analysis",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -76041,6 +76835,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mathematics",
+    "topic_id": "topic_21",
     "sub_topic": "topology global analysis",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 16,
@@ -76113,6 +76908,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "combustion engines",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -76201,6 +76997,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "combustion engines",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -76309,6 +77106,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "combustion engines",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 1,
@@ -76321,6 +77119,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "energy conversion systems",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -76409,6 +77208,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "energy conversion systems",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -76517,6 +77317,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "energy conversion systems",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -76625,6 +77426,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "energy conversion systems",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -76733,6 +77535,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "energy conversion systems",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -76841,6 +77644,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "energy conversion systems",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -76949,6 +77753,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "energy conversion systems",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -77057,6 +77862,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "energy conversion systems",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 22,
@@ -77153,6 +77959,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "machine elements and mechanical power transmission",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -77241,6 +78048,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "machine elements and mechanical power transmission",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -77349,6 +78157,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "machine elements and mechanical power transmission",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -77457,6 +78266,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "machine elements and mechanical power transmission",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -77565,6 +78375,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "machine elements and mechanical power transmission",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -77673,6 +78484,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "machine elements and mechanical power transmission",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -77781,6 +78593,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "machine elements and mechanical power transmission",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -77889,6 +78702,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "machine elements and mechanical power transmission",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 13,
@@ -77949,6 +78763,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "materials handling technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -78037,6 +78852,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "materials handling technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 2,
@@ -78053,6 +78869,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "mechanical engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -78141,6 +78958,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "mechanical engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -78249,6 +79067,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "mechanical engineering",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -78357,6 +79176,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "mechanical engineering",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -78465,6 +79285,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "mechanical engineering",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -78573,6 +79394,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "mechanical engineering",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 1,
@@ -78585,6 +79407,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "vehicle technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -78673,6 +79496,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "vehicle technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -78781,6 +79605,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "vehicle technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -78889,6 +79714,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "vehicle technology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -78997,6 +79823,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "vehicle technology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 16,
@@ -79069,6 +79896,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "vehicles",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -79157,6 +79985,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "mechanical engineering",
+    "topic_id": "topic_22",
     "sub_topic": "vehicles",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 11,
@@ -79209,6 +80038,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "acoustics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -79297,6 +80127,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "acoustics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -79405,6 +80236,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "acoustics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -79513,6 +80345,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "acoustics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 11,
@@ -79565,6 +80398,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -79653,6 +80487,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -79761,6 +80596,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -79869,6 +80705,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -79977,6 +80814,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -80085,6 +80923,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -80193,6 +81032,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -80301,6 +81141,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -80409,6 +81250,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -80517,6 +81359,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -80625,6 +81468,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -80733,6 +81577,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 25,
@@ -80841,6 +81686,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 13,
     "books_in_bookcase": 25,
@@ -80949,6 +81795,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 14,
     "books_in_bookcase": 25,
@@ -81057,6 +81904,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 15,
     "books_in_bookcase": 25,
@@ -81165,6 +82013,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 16,
     "books_in_bookcase": 25,
@@ -81273,6 +82122,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 17,
     "books_in_bookcase": 25,
@@ -81381,6 +82231,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 18,
     "books_in_bookcase": 25,
@@ -81489,6 +82340,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 19,
     "books_in_bookcase": 25,
@@ -81597,6 +82449,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 20,
     "books_in_bookcase": 25,
@@ -81705,6 +82558,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "applied mechanics",
     "virtual_shelf_temp": 21,
     "books_in_bookcase": 11,
@@ -81757,6 +82611,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "astronomy",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -81845,6 +82700,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "astronomy",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -81953,6 +82809,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "astronomy",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -82061,6 +82918,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "astronomy",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -82169,6 +83027,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "astronomy",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 21,
@@ -82261,6 +83120,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "atomic and molecular physics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -82349,6 +83209,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "atomic and molecular physics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -82457,6 +83318,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "atomic and molecular physics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -82565,6 +83427,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "atomic and molecular physics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -82673,6 +83536,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "atomic and molecular physics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 8,
@@ -82713,6 +83577,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "electricity and magnetism",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -82801,6 +83666,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "electricity and magnetism",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -82909,6 +83775,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "electricity and magnetism",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -83017,6 +83884,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "electricity and magnetism",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -83125,6 +83993,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "electricity and magnetism",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -83233,6 +84102,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "electricity and magnetism",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 22,
@@ -83329,6 +84199,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -83417,6 +84288,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -83525,6 +84397,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -83633,6 +84506,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -83741,6 +84615,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -83849,6 +84724,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -83957,6 +84833,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -84065,6 +84942,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -84173,6 +85051,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -84281,6 +85160,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -84389,6 +85269,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -84497,6 +85378,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 25,
@@ -84605,6 +85487,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 13,
     "books_in_bookcase": 25,
@@ -84713,6 +85596,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 14,
     "books_in_bookcase": 25,
@@ -84821,6 +85705,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 15,
     "books_in_bookcase": 25,
@@ -84929,6 +85814,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 16,
     "books_in_bookcase": 25,
@@ -85037,6 +85923,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 17,
     "books_in_bookcase": 25,
@@ -85145,6 +86032,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 18,
     "books_in_bookcase": 25,
@@ -85253,6 +86141,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "fluid mechanics",
     "virtual_shelf_temp": 19,
     "books_in_bookcase": 1,
@@ -85265,6 +86154,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "image processing and pattern recognition",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -85353,6 +86243,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "image processing and pattern recognition",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -85461,6 +86352,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "image processing and pattern recognition",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -85569,6 +86461,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "image processing and pattern recognition",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 5,
@@ -85597,6 +86490,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "mechanics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -85685,6 +86579,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "mechanics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -85793,6 +86688,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "mechanics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -85901,6 +86797,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "mechanics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -86009,6 +86906,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "mechanics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -86117,6 +87015,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "mechanics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -86225,6 +87124,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "mechanics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 19,
@@ -86309,6 +87209,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "nuclear engineering",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -86397,6 +87298,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "nuclear engineering",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 11,
@@ -86449,6 +87351,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "nuclear physics high energy physics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -86537,6 +87440,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "nuclear physics high energy physics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -86645,6 +87549,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "nuclear physics high energy physics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -86753,6 +87658,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "nuclear physics high energy physics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -86861,6 +87767,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -86949,6 +87856,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -87057,6 +87965,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -87165,6 +88074,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -87273,6 +88183,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -87381,6 +88292,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -87489,6 +88401,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -87597,6 +88510,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -87705,6 +88619,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -87813,6 +88728,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "optics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 3,
@@ -87833,6 +88749,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -87921,6 +88838,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -88029,6 +88947,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -88137,6 +89056,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -88245,6 +89165,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -88353,6 +89274,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -88461,6 +89383,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -88569,6 +89492,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -88677,6 +89601,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -88785,6 +89710,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics general",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 4,
@@ -88809,6 +89735,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of fluids",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -88897,6 +89824,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of fluids",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -89005,6 +89933,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of fluids",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 3,
@@ -89025,6 +89954,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of process technology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -89113,6 +90043,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of process technology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -89221,6 +90152,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of process technology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -89329,6 +90261,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of process technology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -89437,6 +90370,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of process technology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 16,
@@ -89509,6 +90443,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of surfaces and thin layers",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -89597,6 +90532,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of surfaces and thin layers",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -89705,6 +90641,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of surfaces and thin layers",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -89813,6 +90750,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of surfaces and thin layers",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -89921,6 +90859,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "physics of surfaces and thin layers",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 6,
@@ -89953,6 +90892,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "plasma physics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -90041,6 +90981,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "plasma physics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 22,
@@ -90137,6 +91078,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "semiconductor physics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -90225,6 +91167,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "semiconductor physics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -90333,6 +91276,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "semiconductor physics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -90441,6 +91385,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics electrical magnetic and optical properties",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -90529,6 +91474,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics electrical magnetic and optical properties",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -90637,6 +91583,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics electrical magnetic and optical properties",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -90745,6 +91692,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics electrical magnetic and optical properties",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -90853,6 +91801,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics electrical magnetic and optical properties",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 8,
@@ -90893,6 +91842,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -90981,6 +91931,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -91089,6 +92040,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -91197,6 +92149,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -91305,6 +92258,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -91413,6 +92367,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -91521,6 +92476,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -91629,6 +92585,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -91737,6 +92694,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -91845,6 +92803,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -91953,6 +92912,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "solid state physics general structure and thermodynamics",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 11,
@@ -92005,6 +92965,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -92093,6 +93054,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -92201,6 +93163,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -92309,6 +93272,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -92417,6 +93381,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -92525,6 +93490,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -92633,6 +93599,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -92741,6 +93708,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -92849,6 +93817,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -92957,6 +93926,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -93065,6 +94035,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 25,
@@ -93173,6 +94144,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 12,
     "books_in_bookcase": 25,
@@ -93281,6 +94253,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 13,
     "books_in_bookcase": 25,
@@ -93389,6 +94362,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 14,
     "books_in_bookcase": 25,
@@ -93497,6 +94471,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 15,
     "books_in_bookcase": 25,
@@ -93605,6 +94580,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 16,
     "books_in_bookcase": 25,
@@ -93713,6 +94689,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 17,
     "books_in_bookcase": 25,
@@ -93821,6 +94798,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "theoretical physics",
     "virtual_shelf_temp": 18,
     "books_in_bookcase": 11,
@@ -93873,6 +94851,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "thermodynamics thermophysics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -93961,6 +94940,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "thermodynamics thermophysics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -94069,6 +95049,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "thermodynamics thermophysics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -94177,6 +95158,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "thermodynamics thermophysics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -94285,6 +95267,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "thermodynamics thermophysics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -94393,6 +95376,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "thermodynamics thermophysics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -94501,6 +95485,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "thermodynamics thermophysics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -94609,6 +95594,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "physics",
+    "topic_id": "topic_23",
     "sub_topic": "thermodynamics thermophysics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 5,
@@ -94637,6 +95623,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "applied sciences general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -94725,6 +95712,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "applied sciences general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -94833,6 +95821,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "applied sciences general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -94941,6 +95930,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "applied sciences general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -95049,6 +96039,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "applied sciences general",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -95157,6 +96148,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "applied sciences general",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -95265,6 +96257,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "applied sciences general",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -95373,6 +96366,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "applied sciences general",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 18,
@@ -95453,6 +96447,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -95541,6 +96536,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -95649,6 +96645,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -95757,6 +96754,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -95865,6 +96863,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -95973,6 +96972,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -96081,6 +97081,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -96189,6 +97190,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -96297,6 +97299,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "philosophy",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 10,
@@ -96345,6 +97348,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "sciences general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -96433,6 +97437,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "sciences general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -96541,6 +97546,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "sciences general",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -96649,6 +97655,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "sciences general",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 13,
@@ -96709,6 +97716,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -96797,6 +97805,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -96905,6 +97914,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -97013,6 +98023,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -97121,6 +98132,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -97229,6 +98241,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -97337,6 +98350,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -97445,6 +98459,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -97553,6 +98568,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "scientific research",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 11,
@@ -97605,6 +98621,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "social sciences general",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -97693,6 +98710,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "sciences general",
+    "topic_id": "topic_24",
     "sub_topic": "social sciences general",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 17,
@@ -97769,6 +98787,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -97857,6 +98876,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -97965,6 +98985,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -98073,6 +99094,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -98181,6 +99203,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -98289,6 +99312,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -98397,6 +99421,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -98505,6 +99530,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -98613,6 +99639,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -98721,6 +99748,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "economics",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 1,
@@ -98733,6 +99761,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "education",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -98821,6 +99850,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "education",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -98929,6 +99959,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "education",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -99037,6 +100068,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "education",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 22,
@@ -99133,6 +100165,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "political sciences",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -99221,6 +100254,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "political sciences",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -99329,6 +100363,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "political sciences",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 15,
@@ -99397,6 +100432,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -99485,6 +100521,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -99593,6 +100630,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -99701,6 +100739,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -99809,6 +100848,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -99917,6 +100957,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -100025,6 +101066,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -100133,6 +101175,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -100241,6 +101284,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -100349,6 +101393,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 25,
@@ -100457,6 +101502,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "psychology",
     "virtual_shelf_temp": 11,
     "books_in_bookcase": 1,
@@ -100469,6 +101515,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 20,
@@ -100557,6 +101604,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 2,
     "books_in_bookcase": 25,
@@ -100665,6 +101713,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 3,
     "books_in_bookcase": 25,
@@ -100773,6 +101822,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 4,
     "books_in_bookcase": 25,
@@ -100881,6 +101931,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 5,
     "books_in_bookcase": 25,
@@ -100989,6 +102040,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 6,
     "books_in_bookcase": 25,
@@ -101097,6 +102149,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 7,
     "books_in_bookcase": 25,
@@ -101205,6 +102258,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 8,
     "books_in_bookcase": 25,
@@ -101313,6 +102367,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 9,
     "books_in_bookcase": 25,
@@ -101421,6 +102476,7 @@ const virtual_bookshelves = [
   },
   {
     "topic": "social sciences",
+    "topic_id": "topic_25",
     "sub_topic": "sociology",
     "virtual_shelf_temp": 10,
     "books_in_bookcase": 4,

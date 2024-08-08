@@ -77,7 +77,6 @@ wallContainer
               });
 
 
-
 function  magnifying_glass(topic){
 
     //Remove current magnifying glass (if any)
@@ -131,7 +130,7 @@ function  magnifying_glass(topic){
           .attr('width', rectWidth)
           .on('click',function(d) {
             shelf_view.style.display = "grid";
-            populate_topics_shelf_view(topic_name)
+            populate_topics_shelf_view(topic, topic_name)
           });
 
       // Add text above the rectangle and center it horizontally
@@ -304,27 +303,28 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 
 
 
-function populate_topics_shelf_view(topic_name){
+function populate_topics_shelf_view(topic_id, topic_name){
   d3.selectAll(".book_details--visible").remove()
   d3.selectAll(".book_details--invisible").remove()
   d3.selectAll(".bookcase_holder").remove()
 
-  var bookcase_curr_topic = virtual_bookshelves.filter(book => book.topic === topic_name.toLowerCase());
+  var bookcase_curr_topic = virtual_bookshelves.filter(book => book.topic_id === topic_id);
   var number_of_bookcases = bookcase_curr_topic.length
 
   d3.select(".shelf_view--topic_holder").text(topic_name)
   var subtopic_holder = d3.select(".shelf_view--subtopic_holder")
-  var subtopics = topics_subtopics.filter(book => book.topic === topic_name);
+  var uniqueSubtopics = [...new Set(bookcase_curr_topic.map (item => item.sub_topic))]
+
   subtopic_holder.selectAll(".shelves_subtopics").remove()
   
   subtopic_holder
     .selectAll(".shelves_subtopics")
-    .data(subtopics)
+    .data(uniqueSubtopics)
     .enter()
     .append("div")
     .attr("class", "shelves_subtopics")
-    .attr("id",d => d.sub_topic)
-    .text(d => d.sub_topic)
+    .attr("id",d => d)
+    .text(d => d)
     .on('click',function() {
       navigateToSubtopic(bookcase_curr_topic,this.getAttribute('id'))
     })
