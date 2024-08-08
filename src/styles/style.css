@@ -32,55 +32,9 @@ html, body{
   font-weight: 100;
 }
 
-.parent_container {
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.25fr 0.5fr 0.1fr 0.3fr;
-  }
-
-.header_container { grid-area: 1 / 1 / 2 / 2; 
-    background-color: #090235;}
-  
-.wall_container { grid-area: 2 / 1 / 3 / 2; 
-                  background-color: #090235;}
-
-.instructions_container { grid-area: 3 / 1 / 4 / 2; 
-                    background-color: #090235;
-                    display: flex;
-                    justify-content: center;
-                    align-items: flex-end;
-                    color: white;
-                    font-size: 1.2 em; /* Adjust the size as needed */
-                    font-weight: 100;
-                    text-align: center;}
-
-.instructions_container span {
-  opacity: 1 /* Set the opacity of the text */
-}
-
-.topics_container { grid-area: 4 / 1 / 5 / 2; 
-background-color: #090235;}
-
-.book{fill: white};
 
 
-svg defs {
-  filter: url(#glow);
-}
 
-.magnifying_glass {
-  rx: 20;
-  /* ry: 30; */
-  fill: transparent;
-  stroke: white;
-  stroke-width: 1;
-}
-
-.magnifying_text {
-  fill: white;
-  text-anchor: middle; /*Center the text horizontally*/
-}
 
 
 
@@ -332,7 +286,6 @@ svg defs {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
 }
-
 
 
 .info_card--QR_holder > img{

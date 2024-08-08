@@ -1,4 +1,5 @@
 import { Wall } from "../components/wall.js";
+import { exhibitionButton } from "../components/exhibitionButton.js"
 
 export let wallContainer;
 
@@ -16,6 +17,13 @@ export function initMainScreen() {
     for (let i = 1; i <= 25; i++) {
         addBackgroundBooks(`topic_${i}`, wallContainer)
     }
+
+    //Add exhibitions buttons
+    const exhibitionContainer = d3.select()
+    exhibitionButton(".exhibitions_container", "Student Work", "student_work")
+    exhibitionButton(".exhibitions_container", "Recommended Books", "recommended_books")
+    exhibitionButton(".exhibitions_container", "Heritage Objects", "heritage_objects")
+    exhibitionButton(".exhibitions_container", "Dissertations", "dissertations")
 }
 
 export function addBackgroundBooks(topic, container) {
