@@ -33,6 +33,7 @@ background-color: #090235;}
   display: flex;
   justify-content: center;
   column-gap: 20px;
+  align-items: flex-start;
 }
 
 .book{
@@ -68,3 +69,29 @@ svg defs {
   font-size: 0.85em;
   font-weight: 500;
 }
+
+
+
+.topicButtonContainer {
+  display: inline-flex;
+  align-items: stretch; /* Stretch children to match the height of the tallest child */
+}
+
+.topicButtonName {
+  height: 20px;
+  background-color: #2c2c6b;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 12px 0px 0px 12px;
+  font-size: 0.85em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.topicButtonBar {
+  background-color: #2c2c6b;
+  width: 8px;
+  margin-left: 3px;
+}
+

@@ -1,5 +1,6 @@
 import { Wall } from "../components/wall.js";
 import { exhibitionButton } from "../components/exhibitionButton.js"
+import { topicButton } from "../components/topicButton.js"
 
 export let wallContainer;
 
@@ -24,6 +25,7 @@ export function initMainScreen() {
     exhibitionButton(".exhibitions_container", "Recommended Books", "recommended_books")
     exhibitionButton(".exhibitions_container", "Heritage Objects", "heritage_objects")
     exhibitionButton(".exhibitions_container", "Dissertations", "dissertations")
+    topicButton(".exhibitions_container", "Aerospace Engineering", "topic_6", 2)
 }
 
 export function addBackgroundBooks(topic, container) {
