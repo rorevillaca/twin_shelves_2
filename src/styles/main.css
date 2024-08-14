@@ -62,9 +62,9 @@ svg defs {
   height: 20px;
   align-content: center;
   color: white;
-  padding: 8px 14px 8px 14px;
+  padding: 8px 12px 8px 12px;
   background-color: #2c2c6b;
-  border-radius: 14px;
-  font-size: 1.1em;
+  border-radius: 12px;
+  font-size: 0.85em;
   font-weight: 500;
 }
