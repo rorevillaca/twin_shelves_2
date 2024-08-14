@@ -25,7 +25,6 @@ export function initMainScreen() {
     exhibitionButton(".exhibitions_container", "Recommended Books", "recommended_books")
     exhibitionButton(".exhibitions_container", "Heritage Objects", "heritage_objects")
     exhibitionButton(".exhibitions_container", "Dissertations", "dissertations")
-    topicButton(".exhibitions_container", "Aerospace Engineering", "topic_6", 2)
 }
 
 export function addBackgroundBooks(topic, container) {

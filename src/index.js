@@ -3,6 +3,7 @@ import {initMainScreen, wallContainer, addBackgroundBooks} from "./screens/mainS
 import {initShelvesScreen} from "./screens/shelvesScreen.js"
 import {ParsePolygons} from "./utils/data.js"
 import {initDirectionsScreen, openDirectionsScreen} from "./screens/directionsScreen.js"
+import { topicButton } from './components/topicButton.js'
 
 
 
@@ -170,46 +171,38 @@ function startPulsing() {
       .on("end", startPulsing); // Repeat the pulsing
 }
 
+tag_info.forEach(d => {
+  topicButton(".topics_container", d.name, d.topic, d.number_of_bars);
+});
 
-var topicsContainer = d3.select(".topics_container")
-    .append("svg")
-    .attr("height","100%")
-    .attr("width","100%");
+d3.selectAll(".topicButtonContainer")
+  .on('click',function(d) {
+    if (animationRunning) return; // Prevent running if animation is already in progress
+    animationRunning = true; // Set the flag to indicate the animation is running
+    //Add missing books back
+    if (currentlySelectedTopic !== "") {
+      addBackgroundBooks(currentlySelectedTopic, wallContainer)}
+    //Perform selection on books and tags
+    selectTopic(this.getAttribute('id'))
+    //Set state variable
+    currentlySelectedTopic = this.getAttribute('id')
+  });
 
 
-topicsContainer.append("g")
-    .selectAll("image")
-    .remove()
-    .data(tag_info)
-    .enter()
-    .append('image')
-    .attr("topic", function(d,i) {return d.topic})
-    .attr("id", function(d,i) {return "tag_"+d.topic})
-    .attr("xlink:href",function(d,i) {return "src/res/topic_tags/"+d.topic+".svg"})
-    .attr("width", function(d,i) {return d.width_percentage*100 + "%"})
-    .attr("x", function(d,i) {return d.start_x_percentage*100 + "%"})
-    .attr("y", function(d,i) {return d.start_y_percentage*100 + "%"})
-    .on('click',function(d) {   
-        if (animationRunning) return; // Prevent running if animation is already in progress
-        animationRunning = true; // Set the flag to indicate the animation is running
-        //Add missing books back
-        if (currentlySelectedTopic !== "") {
-          addBackgroundBooks(currentlySelectedTopic, wallContainer)}
-        //Perform selection on books and tags
-        selectTopic(this.getAttribute('topic'))
-        //Set state variable
-        currentlySelectedTopic = this.getAttribute('topic')
-      });
 
 
 function selectTopic(topicId) {
     //Remove magnifying glass (if any)
     wallContainer.selectAll(".magnifying_assets").remove();
     //Change previous selection to dark blue
-    d3.select("#tag_"+currentlySelectedTopic).attr("xlink:href",function(d,i) {return "src/res/topic_tags/"+currentlySelectedTopic+".svg"});
+    if (currentlySelectedTopic !== "") {
+      d3.select("#"+currentlySelectedTopic).selectAll("div").style("background-color","#2c2c6b")  
+    }
     //Change selection to light blue
-    d3.select("#tag_"+topicId).attr("xlink:href",function(d,i) {return "src/res/topic_tags/selected/"+topicId+".svg"});
-    //Dim background books
+    if (topicId !== "") {
+      d3.select("#"+topicId).selectAll("div").style("background-color","#808ff7")
+    }
+      //Dim background books
     d3.selectAll(".books_background").attr("opacity", 0.5)
     //Dim wall
     d3.selectAll("#wall_background").attr("opacity", 0.5)

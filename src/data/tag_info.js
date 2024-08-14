@@ -8,7 +8,8 @@ const tag_info =  [
     "start_x": 70.8,
     "start_x_percentage": 0.1645,
     "row": 1,
-    "start_y_percentage": 0.056
+    "start_y_percentage": 0.056,
+    "number_of_bars": 2
   },
   {
     "name": "Architecture, Urbansim and Urban Planning",
@@ -19,7 +20,8 @@ const tag_info =  [
     "start_x": 119.1,
     "start_x_percentage": 0.277,
     "row": 1,
-    "start_y_percentage": 0.056
+    "start_y_percentage": 0.056,
+    "number_of_bars": 6
   },
   {
     "name": "Arts and Humanities",
@@ -30,7 +32,8 @@ const tag_info =  [
     "start_x": 208.2,
     "start_x_percentage": 0.4842,
     "row": 1,
-    "start_y_percentage": 0.056
+    "start_y_percentage": 0.056,
+    "number_of_bars": 2
   },
   {
     "name": "Biology",
@@ -41,7 +44,8 @@ const tag_info =  [
     "start_x": 252.5,
     "start_x_percentage": 0.5872,
     "row": 1,
-    "start_y_percentage": 0.056
+    "start_y_percentage": 0.056,
+    "number_of_bars": 3
   },
   {
     "name": "Building Technology",
@@ -52,7 +56,8 @@ const tag_info =  [
     "start_x": 280.4,
     "start_x_percentage": 0.652,
     "row": 1,
-    "start_y_percentage": 0.056
+    "start_y_percentage": 0.056,
+    "number_of_bars": 4
   },
   {
     "name": "Chemistry",
@@ -63,7 +68,8 @@ const tag_info =  [
     "start_x": 328.9,
     "start_x_percentage": 0.7649,
     "row": 1,
-    "start_y_percentage": 0.056
+    "start_y_percentage": 0.056,
+    "number_of_bars": 6
   },
   {
     "name": "Civil Engineering",
@@ -74,7 +80,8 @@ const tag_info =  [
     "start_x": 86.339,
     "start_x_percentage": 0.2008,
     "row": 2,
-    "start_y_percentage": 0.233
+    "start_y_percentage": 0.233,
+    "number_of_bars": 5
   },
   {
     "name": "Computer Science",
@@ -85,7 +92,8 @@ const tag_info =  [
     "start_x": 131.6,
     "start_x_percentage": 0.306,
     "row": 2,
-    "start_y_percentage": 0.233
+    "start_y_percentage": 0.233,
+    "number_of_bars": 5
   },
   {
     "name": "Control Engineering",
@@ -96,7 +104,8 @@ const tag_info =  [
     "start_x": 178.9,
     "start_x_percentage": 0.4162,
     "row": 2,
-    "start_y_percentage": 0.233
+    "start_y_percentage": 0.233,
+    "number_of_bars": 1
   },
   {
     "name": "Design Engineering",
@@ -107,7 +116,8 @@ const tag_info =  [
     "start_x": 220.6,
     "start_x_percentage": 0.5129,
     "row": 2,
-    "start_y_percentage": 0.233
+    "start_y_percentage": 0.233,
+    "number_of_bars": 3
   },
   {
     "name": "Electrical Engineering",
@@ -118,7 +128,8 @@ const tag_info =  [
     "start_x": 265.4,
     "start_x_percentage": 0.6172,
     "row": 2,
-    "start_y_percentage": 0.233
+    "start_y_percentage": 0.233,
+    "number_of_bars": 5
   },
   {
     "name": "Energy Supply",
@@ -129,7 +140,8 @@ const tag_info =  [
     "start_x": 317.9,
     "start_x_percentage": 0.7393,
     "row": 2,
-    "start_y_percentage": 0.233
+    "start_y_percentage": 0.233,
+    "number_of_bars": 1
   },
   {
     "name": "Environmental and Safety Engineering",
@@ -140,7 +152,8 @@ const tag_info =  [
     "start_x": 75.817,
     "start_x_percentage": 0.1763,
     "row": 3,
-    "start_y_percentage": 0.41
+    "start_y_percentage": 0.41,
+    "number_of_bars": 2
   },
   {
     "name": "Geodesy",
@@ -151,7 +164,8 @@ const tag_info =  [
     "start_x": 145.6,
     "start_x_percentage": 0.3387,
     "row": 3,
-    "start_y_percentage": 0.41
+    "start_y_percentage": 0.41,
+    "number_of_bars": 1
   },
   {
     "name": "Geosciences",
@@ -162,7 +176,8 @@ const tag_info =  [
     "start_x": 170.9,
     "start_x_percentage": 0.3975,
     "row": 3,
-    "start_y_percentage": 0.41
+    "start_y_percentage": 0.41,
+    "number_of_bars": 3
   },
   {
     "name": "Law and Policy Sciences",
@@ -173,7 +188,8 @@ const tag_info =  [
     "start_x": 206.3,
     "start_x_percentage": 0.4798,
     "row": 3,
-    "start_y_percentage": 0.41
+    "start_y_percentage": 0.41,
+    "number_of_bars": 1
   },
   {
     "name": "Management Sciences",
@@ -184,7 +200,8 @@ const tag_info =  [
     "start_x": 254.8,
     "start_x_percentage": 0.5925,
     "row": 3,
-    "start_y_percentage": 0.41
+    "start_y_percentage": 0.41,
+    "number_of_bars": 5
   },
   {
     "name": "Manufacturing Technology",
@@ -195,7 +212,8 @@ const tag_info =  [
     "start_x": 308.4,
     "start_x_percentage": 0.7172,
     "row": 3,
-    "start_y_percentage": 0.41
+    "start_y_percentage": 0.41,
+    "number_of_bars": 2
   },
   {
     "name": "Marine Technology",
@@ -206,7 +224,8 @@ const tag_info =  [
     "start_x": 60.189,
     "start_x_percentage": 0.14,
     "row": 4,
-    "start_y_percentage": 0.587
+    "start_y_percentage": 0.587,
+    "number_of_bars": 1
   },
   {
     "name": "Materials Engineering",
@@ -217,7 +236,8 @@ const tag_info =  [
     "start_x": 100.7,
     "start_x_percentage": 0.2343,
     "row": 4,
-    "start_y_percentage": 0.587
+    "start_y_percentage": 0.587,
+    "number_of_bars": 2
   },
   {
     "name": "Mathematics",
@@ -228,7 +248,8 @@ const tag_info =  [
     "start_x": 147.4,
     "start_x_percentage": 0.3427,
     "row": 4,
-    "start_y_percentage": 0.587
+    "start_y_percentage": 0.587,
+    "number_of_bars": 9
   },
   {
     "name": "Mechanical Engineering",
@@ -239,7 +260,8 @@ const tag_info =  [
     "start_x": 195.3,
     "start_x_percentage": 0.4543,
     "row": 4,
-    "start_y_percentage": 0.587
+    "start_y_percentage": 0.587,
+    "number_of_bars": 3
   },
   {
     "name": "Physics",
@@ -250,7 +272,8 @@ const tag_info =  [
     "start_x": 246.8,
     "start_x_percentage": 0.574,
     "row": 4,
-    "start_y_percentage": 0.587
+    "start_y_percentage": 0.587,
+    "number_of_bars": 14
   },
   {
     "name": "Science General",
@@ -261,7 +284,8 @@ const tag_info =  [
     "start_x": 297.4,
     "start_x_percentage": 0.6917,
     "row": 4,
-    "start_y_percentage": 0.587
+    "start_y_percentage": 0.587,
+    "number_of_bars": 3
   },
   {
     "name": "Social Sciences",
@@ -272,6 +296,7 @@ const tag_info =  [
     "start_x": 338.4,
     "start_x_percentage": 0.7869,
     "row": 4,
-    "start_y_percentage": 0.587
+    "start_y_percentage": 0.587,
+    "number_of_bars": 3
   }
- ]
+  ]
