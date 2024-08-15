@@ -4,10 +4,11 @@ import {initShelvesScreen} from "./screens/shelvesScreen.js"
 import {ParsePolygons} from "./utils/data.js"
 import {initDirectionsScreen, openDirectionsScreen} from "./screens/directionsScreen.js"
 import { topicButton } from './components/topicButton.js'
+import { exhibitionButton } from "./components/exhibitionButton.js"
 
 
 
-let currentlySelectedTopic = ""
+let currentlySelectedSection = ""
 let animationRunning = false;
 
 initMainScreen()
@@ -25,8 +26,6 @@ function add_highlighted_books(topic) {
   var filtered_books = background_books.filter(book => book.topic === topic);
   // Randomize the order
   filtered_books = shuffle(filtered_books);
-  // Remove existing books
-  wallContainer.selectAll(".book").remove();
   // Bind the filtered data to the selection
   const books = wallContainer.selectAll(".book").data(filtered_books);
   books.enter()
@@ -69,12 +68,12 @@ wallContainer
                 if (animationRunning) return; // Prevent running if animation is already in progress
                 animationRunning = true; // Set the flag to indicate the animation is running
                 //Add missing books back
-                if (currentlySelectedTopic !== "") {
-                  addBackgroundBooks(currentlySelectedTopic, wallContainer)}
+                if (currentlySelectedSection !== "") {
+                  addBackgroundBooks(currentlySelectedSection, wallContainer)}
                 //Perform selection on books and tags
-                selectTopic(this.getAttribute('topic'))
+                selectSection(this.getAttribute('topic'))
                 //Set state variable
-                currentlySelectedTopic = this.getAttribute('topic')
+                currentlySelectedSection = this.getAttribute('topic')
               });
 
 
@@ -175,49 +174,69 @@ tag_info.forEach(d => {
   topicButton(".topics_container", d.name, d.topic, d.number_of_bars);
 });
 
-d3.selectAll(".topicButtonContainer")
+//exhibitionButton(".exhibitions_container", "Student Work", "student_work")
+exhibitionButton(".exhibitions_container", "Recommended Books", "recommended_books")
+//exhibitionButton(".exhibitions_container", "Heritage Objects", "heritage_objects")
+//exhibitionButton(".exhibitions_container", "Dissertations", "dissertations")
+
+d3.selectAll(".topicButtonContainer, .exhibitionsButton")
   .on('click',function(d) {
+    const section = this.getAttribute('id')
     if (animationRunning) return; // Prevent running if animation is already in progress
     animationRunning = true; // Set the flag to indicate the animation is running
     //Add missing books back
-    if (currentlySelectedTopic !== "") {
-      addBackgroundBooks(currentlySelectedTopic, wallContainer)}
+    if (currentlySelectedSection !== "" && currentlySelectedSection !== "recommended_books") {
+      addBackgroundBooks(currentlySelectedSection, wallContainer)}
     //Perform selection on books and tags
-    selectTopic(this.getAttribute('id'))
+    selectSection(section)
     //Set state variable
-    currentlySelectedTopic = this.getAttribute('id')
+    currentlySelectedSection = section
   });
 
 
 
 
-function selectTopic(topicId) {
+
+
+function selectSection(sectionId) {
+    if (currentlySelectedSection !== "") {
+      //Change previous selection to dark blue
+      d3.select("#"+currentlySelectedSection).selectAll("div").style("background-color","#2c2c6b")
+      d3.selectAll(".exhibitionsButton").style("background-color","#2c2c6b")
+    }    
+
     //Remove magnifying glass (if any)
     wallContainer.selectAll(".magnifying_assets").remove();
-    //Change previous selection to dark blue
-    if (currentlySelectedTopic !== "") {
-      d3.select("#"+currentlySelectedTopic).selectAll("div").style("background-color","#2c2c6b")  
-    }
-    //Change selection to light blue
-    if (topicId !== "") {
-      d3.select("#"+topicId).selectAll("div").style("background-color","#808ff7")
-    }
-      //Dim background books
+    //Dim background books
     d3.selectAll(".books_background").attr("opacity", 0.5)
     //Dim wall
     d3.selectAll("#wall_background").attr("opacity", 0.5)
     // Construct the id of the group element to be removed
-    const elementId = `books_background_${topicId}`; 
+    const elementId = `books_background_${sectionId}`; 
     // Select the element with the constructed id and remove it
     d3.selectAll(`#${elementId}`).remove();
-    // Add white books
-    add_highlighted_books(topicId);
-    // Wait 3 seconds
-    setTimeout(function(){
-      //Add magnifying glass
-      magnifying_glass(topicId);
-      animationRunning = false; // Set the flag to indicate the animation has finished
-    },3000)
+    // Remove existing books
+    wallContainer.selectAll(".book").remove();
+    
+    if (sectionId.includes("topic")) {
+      //Change selection to light blue
+      d3.select("#"+sectionId).selectAll("div").style("background-color","#808ff7")
+      // Add white books
+      add_highlighted_books(sectionId);
+      // Wait 3 seconds
+      setTimeout(function(){
+        //Add magnifying glass
+        magnifying_glass(sectionId);
+        animationRunning = false; // Set the flag to indicate the animation has finished
+      },3000)
+    }
+
+    if (sectionId === "recommended_books") {
+      d3.select("#recommended_books")
+        .style("background-color","#808ff7")
+      animationRunning = false; 
+    }
+
 }
 
 
@@ -232,10 +251,10 @@ function resetTimer() {
   // Set a new 10-second timer
   timeoutId = setTimeout(() => {
     //Add missing books back
-    if (currentlySelectedTopic !== "") {
-      addBackgroundBooks(currentlySelectedTopic, wallContainer)};
-    selectTopic("");
-    currentlySelectedTopic = "";
+    if (currentlySelectedSection !== "") {
+      addBackgroundBooks(currentlySelectedSection, wallContainer)};
+    selectSection("");
+    currentlySelectedSection = "";
     //Undim background books
     d3.selectAll(".books_background").attr("opacity", 1)
     d3.selectAll("#wall_background").attr("opacity", 1)
