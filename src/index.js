@@ -251,7 +251,7 @@ function resetTimer() {
   // Set a new 10-second timer
   timeoutId = setTimeout(() => {
     //Add missing books back
-    if (currentlySelectedSection !== "") {
+    if (currentlySelectedSection !== "" && currentlySelectedSection !== "recommended_books") {
       addBackgroundBooks(currentlySelectedSection, wallContainer)};
     selectSection("");
     currentlySelectedSection = "";
