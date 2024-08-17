@@ -294,3 +294,57 @@ html, body{
 }
 
 
+.divider{
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+
+.dividerProfilePicture {
+  flex: 20;
+  width: 100%;
+  background-size: 100% auto; /* Maintain aspect ratio, fit to div height */
+  background-position: center center; /* Center the image horizontally and vertically */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  filter: grayscale(100%); /* Convert the image to black and white */
+}
+.dividerName {
+  flex: 4;
+  background-color: #41bb62;
+  padding: 10%;
+  font-size: 0.8em;
+  color: black;
+}
+.dividerRole {
+  flex: 4;
+  background-color: black;
+  padding: 5% 10% 5% 10%;
+  font-size: 0.8em;
+  color: white;
+}
+.dividerPhrase {
+  flex: 18;
+  background-color: #41bb62;
+  padding: 5% 10% 5% 10%;
+  font-size: 0.6em;
+  color: black;
+}
+.dividerQR {
+  flex: 7;
+  background-color: #41bb62;
+  display: flex;
+  justify-content : center;
+}
+
+.dividerQR > img {
+  width: 50%;
+}
+
+.dividerScanLegend{
+  flex: 2;
+  background-color: #41bb62;
+  font-size: 0.6em;
+  color: black;
+  text-align: center;
+}
+
