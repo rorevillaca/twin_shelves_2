@@ -5,6 +5,7 @@ import {ParsePolygons} from "./utils/data.js"
 import {initDirectionsScreen, openDirectionsScreen} from "./screens/directionsScreen.js"
 import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
+import { recommenderDivider } from './components/recommenderDivider.js'
 
 
 
@@ -235,6 +236,8 @@ function selectSection(sectionId) {
       d3.select("#recommended_books")
         .style("background-color","#808ff7")
       animationRunning = false; 
+      shelf_view.style.display = "grid";
+      recommenderDivider(".shelf_view--shelves")
     }
 
 }
