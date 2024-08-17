@@ -1,12 +1,5 @@
 
-export function recommenderDivider(containerSelector, recommenderData) {
-
-    // Image
-    // Name
-    // Role
-    // Phrase
-    // QR
-    // Color
+export function recommenderDivider(containerSelector, data) {
 
     const dividerContainer = d3.select(containerSelector);
     const divider = dividerContainer
@@ -15,27 +8,31 @@ export function recommenderDivider(containerSelector, recommenderData) {
     
     const profilePicture = divider.append("div")
         .attr("class", "dividerProfilePicture")
-        .style("background-image", "url('./src/res/recommenders/profile_pictures/recommender_22.png')")
+        .style("background-image", `url('./src/res/recommenders/profile_pictures/recommender_${data.id}.png')`)
 
     const name = divider.append("div")
         .attr("class", "dividerName")
-        .text("Recommendations by Dr. A. Wandl")
+        .html(`Recommendations by </br> ${data.name}`)
+        .style("background-color", `#${data.color}`)
 
     const role = divider.append("div")
         .attr("class", "dividerRole")
-        .html("Professor </br> Architecture and the Built Environment | ABE")
+        .html(data.faculty)
     
     const phrase = divider.append("div")
         .attr("class", "dividerPhrase")
-        .text("The following collection of books brings together an overview of how")
+        .html(`<i>"${data.sentence}"</i>`)
+        .style("background-color", `#${data.color}`)
     
     const QR = divider.append("div")
         .attr("class", "dividerQR")
+        .style("background-color", `#${data.color}`)
         .append("img")
-        .attr("src","./src/res/recommenders/qrs/recommender_22.png")
+        .attr("src",`./src/res/recommenders/qrs/recommender_${data.id}.png`)
 
     const scanLegend = divider.append("div")
         .attr("class",'dividerScanLegend')
         .html("Scan the QR to see </br> the full list of books")
+        .style("background-color", `#${data.color}`)
 
 }

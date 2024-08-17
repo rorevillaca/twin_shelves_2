@@ -13,7 +13,6 @@ html, body{
     font-family: "Roboto", sans-serif;
     background-color: #f2f2f2e6;
     overflow: hidden;
-    overflow: hidden;
     font-size: 15px;
 }
 
@@ -297,7 +296,7 @@ html, body{
 .divider{
   display: flex;
   flex-direction: column;
-  width: 170px;
+  min-width: 180px;
 }
 
 .dividerProfilePicture {
@@ -310,10 +309,11 @@ html, body{
 }
 .dividerName {
   flex: 4;
-  background-color: #41bb62;
-  padding: 10%;
+  padding: 5% 10% 5% 10%;
   font-size: 0.8em;
   color: black;
+  display: flex;
+  align-items : center;
 }
 .dividerRole {
   flex: 4;
@@ -321,28 +321,30 @@ html, body{
   padding: 5% 10% 5% 10%;
   font-size: 0.8em;
   color: white;
+  display: flex;
+  align-items : center;
 }
 .dividerPhrase {
   flex: 18;
-  background-color: #41bb62;
   padding: 5% 10% 5% 10%;
   font-size: 0.6em;
   color: black;
+  overflow-x: auto;
 }
+
+
 .dividerQR {
   flex: 7;
-  background-color: #41bb62;
   display: flex;
   justify-content : center;
 }
 
 .dividerQR > img {
-  width: 50%;
+  width: 45%;
 }
 
 .dividerScanLegend{
   flex: 2;
-  background-color: #41bb62;
   font-size: 0.6em;
   color: black;
   text-align: center;

@@ -237,9 +237,15 @@ function selectSection(sectionId) {
         .style("background-color","#808ff7")
       animationRunning = false; 
       shelf_view.style.display = "grid";
-      recommenderDivider(".shelf_view--shelves")
+      addRecommenderDividers()
     }
 
+}
+
+function addRecommenderDividers(){
+  recommender_data.forEach(d => {
+    recommenderDivider(".shelf_view--shelves", d);
+  });
 }
 
 
