@@ -325,9 +325,8 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
 
 
 function populate_topics_shelf_view(topic_id, topic_name){
-  d3.selectAll(".book_details--visible").remove()
-  d3.selectAll(".book_details--invisible").remove()
-  d3.selectAll(".bookcase_holder").remove()
+  
+  d3.select(".shelf_view--shelves").selectAll("*").remove()
 
   var bookcase_curr_topic = virtual_bookshelves.filter(book => book.topic_id === topic_id);
   var number_of_bookcases = bookcase_curr_topic.length

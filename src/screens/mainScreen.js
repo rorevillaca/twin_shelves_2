@@ -16,6 +16,8 @@ export function initMainScreen() {
     for (let i = 1; i <= 25; i++) {
         addBackgroundBooks(`topic_${i}`, wallContainer)
     }
+    addBackgroundBooks(`recommended_books`, wallContainer)
+    addBackgroundBooks(`dissertations`, wallContainer)
 }
 
 export function addBackgroundBooks(topic, container) {
