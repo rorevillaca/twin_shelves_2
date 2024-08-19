@@ -219,7 +219,7 @@ function selectSection(sectionId) {
     // Remove existing books
     wallContainer.selectAll(".book").remove();
     
-    if (sectionId.includes("topic")) {
+    // if (sectionId.includes("topic")) {
       //Change selection to light blue
       d3.select("#"+sectionId).selectAll("div").style("background-color","#808ff7")
       // Add white books
@@ -230,15 +230,15 @@ function selectSection(sectionId) {
         magnifying_glass(sectionId);
         animationRunning = false; // Set the flag to indicate the animation has finished
       },3000)
-    }
+    // }
 
-    if (sectionId === "recommended_books") {
-      d3.select("#recommended_books")
-        .style("background-color","#808ff7")
-      animationRunning = false; 
-      shelf_view.style.display = "grid";
-      addRecommenderDividers()
-    }
+    // if (sectionId === "recommended_books") {
+    //   d3.select("#recommended_books")
+    //     .style("background-color","#808ff7")
+    //   animationRunning = false; 
+    //   shelf_view.style.display = "grid";
+    //   addRecommenderDividers()
+    // }
 
 }
 

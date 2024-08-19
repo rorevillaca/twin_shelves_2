@@ -68,7 +68,17 @@ topics <- c(rep("topic_24",30),rep("topic_21",84),rep("topic_8",66),rep("topic_2
             rep("topic_25",14),
           #--------------------
             rep("topic_17",54),rep("topic_16",30),rep("topic_3",42),
-            rep("exhibit",42),rep("exhibit",42))
+            rep("study_books",42),
+            rep("exhibit",18),
+          #Dissertations
+            rep("dissertations-ignore",3),
+            rep("dissertations",3),
+            rep("dissertations-ignore",3),
+            rep("dissertations",4),
+            rep("dissertations-ignore",2),
+            rep("dissertations",4),
+            rep("dissertations-ignore",1),
+            rep("dissertations",4))
 
 
 set.seed(42)
@@ -113,6 +123,6 @@ books_df %<>% mutate(x_start = round(x_start/total_wall_width,5),
 
 
 
-write(books_df %>% toJSON(), "C:/Users/Revi/Desktop/Github/twin_shelves_2/src/data/background_books.js")
+write(books_df %>% toJSON(), "C:/Users/Revi/Desktop/Github/Twin Shelves 2/src/data/background_books.js")
 
 
