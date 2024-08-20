@@ -8,12 +8,23 @@ library(jsonlite)
 curr_path = rstudioapi::getSourceEditorContext()$path
 curr_path <- sub("/[^/]*$", "", curr_path)
 books <- openxlsx2::read_xlsx(paste0(curr_path,"/","workshop_data.xlsx"))
+recommended_books <- openxlsx2::read_xlsx(paste0(curr_path,"/","recommended_books.xlsx"))
 
+recommended_books %<>% mutate(
+                        topic = "Book Recommendations", 
+                        topic_id = "recommended_books",
+                        year = as.character(year),
+                        std_call_number = as.character(std_call_number)) %>% 
+                      rename(
+                        sub_topic = recommender, 
+                        OCLC = unique_id)
 
-books_json <- books %>% 
+books %<>%  bind_rows(recommended_books) 
+
+books_json <- books  %>% 
   select(title,authors,year,OCLC,description,std_call_number,floor,cover_file,shelf) %>% 
   toJSON(pretty = TRUE, auto_unbox = TRUE)
-#write(books_json, file = paste0(curr_path,"/","workshop_data.js"))
+write(books_json, file = paste0(curr_path,"/","workshop_data.js"))
 
 
 books %<>% arrange(std_call_number)
