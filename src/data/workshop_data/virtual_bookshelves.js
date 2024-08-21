@@ -11,31 +11,31 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "qBfRDQAAQBAJ",
-        "cover_file": "qBfRDQAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_qBfRDQAAQBAJ.webp"
       },
       {
         "OCLC": "rGVIvgAACAAJ",
-        "cover_file": "rGVIvgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_rGVIvgAACAAJ.webp"
       },
       {
         "OCLC": "RvJZEAAAQBAJ",
-        "cover_file": "RvJZEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_RvJZEAAAQBAJ.webp"
       },
       {
         "OCLC": "SHvzzuCnuv8C",
-        "cover_file": "SHvzzuCnuv8C.webp"
+        "cover_file": "_recommended_books/cover_SHvzzuCnuv8C.webp"
       },
       {
         "OCLC": "UAtgxQEACAAJ",
-        "cover_file": "UAtgxQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
       },
       {
         "OCLC": "XVv6DwAAQBAJ",
-        "cover_file": "XVv6DwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_XVv6DwAAQBAJ.webp"
       },
       {
         "OCLC": "zlU7VdN5fA0C",
-        "cover_file": "zlU7VdN5fA0C.webp"
+        "cover_file": "_recommended_books/cover_zlU7VdN5fA0C.webp"
       },
       {
         "OCLC": "p5fXAQAACAAJ",
@@ -56,35 +56,35 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "BOpzzgEACAAJ",
-        "cover_file": "BOpzzgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_BOpzzgEACAAJ.webp"
       },
       {
         "OCLC": "CHZmwQEACAAJ",
-        "cover_file": "CHZmwQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
       },
       {
         "OCLC": "eCRIoAEACAAJ",
-        "cover_file": "eCRIoAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_eCRIoAEACAAJ.webp"
       },
       {
         "OCLC": "m3hHzwEACAAJ",
-        "cover_file": "m3hHzwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_m3hHzwEACAAJ.webp"
       },
       {
         "OCLC": "Rei7jwEACAAJ",
-        "cover_file": "Rei7jwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_Rei7jwEACAAJ.webp"
       },
       {
         "OCLC": "W-ZNuAEACAAJ",
-        "cover_file": "W-ZNuAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
       },
       {
         "OCLC": "xF3yyvxtB8UC",
-        "cover_file": "xF3yyvxtB8UC.webp"
+        "cover_file": "_recommended_books/cover_xF3yyvxtB8UC.webp"
       },
       {
         "OCLC": "XHKAjUDqy8YC",
-        "cover_file": "XHKAjUDqy8YC.webp"
+        "cover_file": "_recommended_books/cover_XHKAjUDqy8YC.webp"
       },
       {
         "OCLC": "EP9uzgEACAAJ",
@@ -105,39 +105,39 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "4NqPEAAAQBAJ",
-        "cover_file": "4NqPEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_4NqPEAAAQBAJ.webp"
       },
       {
         "OCLC": "4WyuDwAAQBAJ",
-        "cover_file": "4WyuDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_4WyuDwAAQBAJ.webp"
       },
       {
         "OCLC": "6W-2NAEACAAJ",
-        "cover_file": "6W-2NAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_6W-2NAEACAAJ.webp"
       },
       {
         "OCLC": "7KkUAT_q_sQC",
-        "cover_file": "7KkUAT_q_sQC.webp"
+        "cover_file": "_recommended_books/cover_7KkUAT_q_sQC.webp"
       },
       {
         "OCLC": "BMcBAwAAQBAJ",
-        "cover_file": "BMcBAwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_BMcBAwAAQBAJ.webp"
       },
       {
         "OCLC": "CH3UDwAAQBAJ",
-        "cover_file": "CH3UDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_CH3UDwAAQBAJ.webp"
       },
       {
         "OCLC": "lQPQfHKcYSAC",
-        "cover_file": "lQPQfHKcYSAC.webp"
+        "cover_file": "_recommended_books/cover_lQPQfHKcYSAC.webp"
       },
       {
         "OCLC": "rT7REAAAQBAJ",
-        "cover_file": "rT7REAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_rT7REAAAQBAJ.webp"
       },
       {
         "OCLC": "V3SYDwAAQBAJ",
-        "cover_file": "V3SYDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_V3SYDwAAQBAJ.webp"
       },
       {
         "OCLC": "f_DKzgEACAAJ",
@@ -166,23 +166,23 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "4dhqzgEACAAJ",
-        "cover_file": "4dhqzgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_4dhqzgEACAAJ.webp"
       },
       {
         "OCLC": "501QyQEACAAJ",
-        "cover_file": "501QyQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_501QyQEACAAJ.webp"
       },
       {
         "OCLC": "AEGKcgAACAAJ",
-        "cover_file": "AEGKcgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_AEGKcgAACAAJ.webp"
       },
       {
         "OCLC": "T-eDzwEACAAJ",
-        "cover_file": "T-eDzwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_T-eDzwEACAAJ.webp"
       },
       {
         "OCLC": "vIhGjgEACAAJ",
-        "cover_file": "vIhGjgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_vIhGjgEACAAJ.webp"
       },
       {
         "OCLC": "GEYhAAAACAAJ",
@@ -202,31 +202,31 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "-5CuuQEACAAJ",
-        "cover_file": "-5CuuQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_-5CuuQEACAAJ.webp"
       },
       {
         "OCLC": "AcT-jwEACAAJ",
-        "cover_file": "AcT-jwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_AcT-jwEACAAJ.webp"
       },
       {
         "OCLC": "ebNDDwAAQBAJ",
-        "cover_file": "ebNDDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_ebNDDwAAQBAJ.webp"
       },
       {
         "OCLC": "hbrOMgEACAAJ",
-        "cover_file": "hbrOMgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_hbrOMgEACAAJ.webp"
       },
       {
         "OCLC": "JCa5ywEACAAJ",
-        "cover_file": "JCa5ywEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_JCa5ywEACAAJ.webp"
       },
       {
         "OCLC": "ogWNEAAAQBAJ",
-        "cover_file": "ogWNEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_ogWNEAAAQBAJ.webp"
       },
       {
         "OCLC": "Ps7JEAAAQBAJ",
-        "cover_file": "Ps7JEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_Ps7JEAAAQBAJ.webp"
       },
       {
         "OCLC": "I2RDwAAQBAJ",
@@ -247,35 +247,35 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "0GIO0AEACAAJ",
-        "cover_file": "0GIO0AEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_0GIO0AEACAAJ.webp"
       },
       {
         "OCLC": "91Q0EAAAQBAJ",
-        "cover_file": "91Q0EAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_91Q0EAAAQBAJ.webp"
       },
       {
         "OCLC": "apTzwQEACAAJ",
-        "cover_file": "apTzwQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_apTzwQEACAAJ.webp"
       },
       {
         "OCLC": "f8fClAEACAAJ",
-        "cover_file": "f8fClAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_f8fClAEACAAJ.webp"
       },
       {
         "OCLC": "FZIlEAAAQBAJ",
-        "cover_file": "FZIlEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_FZIlEAAAQBAJ.webp"
       },
       {
         "OCLC": "g2JHLwEACAAJ",
-        "cover_file": "g2JHLwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_g2JHLwEACAAJ.webp"
       },
       {
         "OCLC": "Ie2vxQEACAAJ",
-        "cover_file": "Ie2vxQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_Ie2vxQEACAAJ.webp"
       },
       {
         "OCLC": "XeoTEQAAQBAJ",
-        "cover_file": "XeoTEQAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_XeoTEQAAQBAJ.webp"
       },
       {
         "OCLC": "AEEpzgEACAAJ",
@@ -299,35 +299,35 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "DRlvDwAAQBAJ",
-        "cover_file": "DRlvDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_DRlvDwAAQBAJ.webp"
       },
       {
         "OCLC": "kbfeAQAAQBAJ",
-        "cover_file": "kbfeAQAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_kbfeAQAAQBAJ.webp"
       },
       {
         "OCLC": "okKRoAEACAAJ",
-        "cover_file": "okKRoAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_okKRoAEACAAJ.webp"
       },
       {
         "OCLC": "oxpfswEACAAJ",
-        "cover_file": "oxpfswEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_oxpfswEACAAJ.webp"
       },
       {
         "OCLC": "q_AFEAAAQBAJ",
-        "cover_file": "q_AFEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_q_AFEAAAQBAJ.webp"
       },
       {
         "OCLC": "qU1Vp93cMFMC",
-        "cover_file": "qU1Vp93cMFMC.webp"
+        "cover_file": "_recommended_books/cover_qU1Vp93cMFMC.webp"
       },
       {
         "OCLC": "tT5GEAAAQBAJ",
-        "cover_file": "tT5GEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_tT5GEAAAQBAJ.webp"
       },
       {
         "OCLC": "WtKU5L0ajA8C",
-        "cover_file": "WtKU5L0ajA8C.webp"
+        "cover_file": "_recommended_books/cover_WtKU5L0ajA8C.webp"
       },
       {
         "OCLC": "p0lyQgAACAAJ",
@@ -353,35 +353,35 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "CCv8zQEACAAJ",
-        "cover_file": "CCv8zQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_CCv8zQEACAAJ.webp"
       },
       {
         "OCLC": "CHZmwQEACAAJ",
-        "cover_file": "CHZmwQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
       },
       {
         "OCLC": "LR2NDwAAQBAJ",
-        "cover_file": "LR2NDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_LR2NDwAAQBAJ.webp"
       },
       {
         "OCLC": "N8a8zgEACAAJ",
-        "cover_file": "N8a8zgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_N8a8zgEACAAJ.webp"
       },
       {
         "OCLC": "pbLZzQEACAAJ",
-        "cover_file": "pbLZzQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_pbLZzQEACAAJ.webp"
       },
       {
         "OCLC": "tyvwwAEACAAJ",
-        "cover_file": "tyvwwAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_tyvwwAEACAAJ.webp"
       },
       {
         "OCLC": "VC7PDwAAQBAJ",
-        "cover_file": "VC7PDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_VC7PDwAAQBAJ.webp"
       },
       {
         "OCLC": "XGn_wAEACAAJ",
-        "cover_file": "XGn_wAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
       }
     ]
   },
@@ -400,31 +400,31 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "CfJLngEACAAJ",
-        "cover_file": "CfJLngEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_CfJLngEACAAJ.webp"
       },
       {
         "OCLC": "CHZmwQEACAAJ",
-        "cover_file": "CHZmwQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
       },
       {
         "OCLC": "cizOjwEACAAJ",
-        "cover_file": "cizOjwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_cizOjwEACAAJ.webp"
       },
       {
         "OCLC": "Dk1UvgAACAAJ",
-        "cover_file": "Dk1UvgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_Dk1UvgAACAAJ.webp"
       },
       {
         "OCLC": "L9sIrgEACAAJ",
-        "cover_file": "L9sIrgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_L9sIrgEACAAJ.webp"
       },
       {
         "OCLC": "nfZaEAAAQBAJ",
-        "cover_file": "nfZaEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_nfZaEAAAQBAJ.webp"
       },
       {
         "OCLC": "VU8eyQEACAAJ",
-        "cover_file": "VU8eyQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_VU8eyQEACAAJ.webp"
       }
     ]
   },
@@ -437,39 +437,39 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "_Qu_zQEACAAJ",
-        "cover_file": "_Qu_zQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover__Qu_zQEACAAJ.webp"
       },
       {
         "OCLC": "3Bt-zgEACAAJ",
-        "cover_file": "3Bt-zgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_3Bt-zgEACAAJ.webp"
       },
       {
         "OCLC": "4_BXxAEACAAJ",
-        "cover_file": "4_BXxAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_4_BXxAEACAAJ.webp"
       },
       {
         "OCLC": "AlnwMgEACAAJ",
-        "cover_file": "AlnwMgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_AlnwMgEACAAJ.webp"
       },
       {
         "OCLC": "AYK7jwEACAAJ",
-        "cover_file": "AYK7jwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_AYK7jwEACAAJ.webp"
       },
       {
         "OCLC": "bQJuzwEACAAJ",
-        "cover_file": "bQJuzwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_bQJuzwEACAAJ.webp"
       },
       {
         "OCLC": "cNp0EAAAQBAJ",
-        "cover_file": "cNp0EAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_cNp0EAAAQBAJ.webp"
       },
       {
         "OCLC": "PQI7vgAACAAJ",
-        "cover_file": "PQI7vgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_PQI7vgAACAAJ.webp"
       },
       {
         "OCLC": "rvyxEAAAQBAJ",
-        "cover_file": "rvyxEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_rvyxEAAAQBAJ.webp"
       },
       {
         "OCLC": "wr07uwEACAAJ",
@@ -489,27 +489,27 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "jGUZ_gAACAAJ",
-        "cover_file": "jGUZ_gAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_jGUZ_gAACAAJ.webp"
       },
       {
         "OCLC": "oGGMDQAAQBAJ",
-        "cover_file": "oGGMDQAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_oGGMDQAAQBAJ.webp"
       },
       {
         "OCLC": "oYiguQAACAAJ",
-        "cover_file": "oYiguQAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_oYiguQAACAAJ.webp"
       },
       {
         "OCLC": "pKu75U2MSwsC",
-        "cover_file": "pKu75U2MSwsC.webp"
+        "cover_file": "_recommended_books/cover_pKu75U2MSwsC.webp"
       },
       {
         "OCLC": "TDyDzQEACAAJ",
-        "cover_file": "TDyDzQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_TDyDzQEACAAJ.webp"
       },
       {
         "OCLC": "tLU-wjQktoMC",
-        "cover_file": "tLU-wjQktoMC.webp"
+        "cover_file": "_recommended_books/cover_tLU-wjQktoMC.webp"
       },
       {
         "OCLC": "WC4lNgAACAAJ",
@@ -534,43 +534,43 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "a4pizgEACAAJ",
-        "cover_file": "a4pizgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_a4pizgEACAAJ.webp"
       },
       {
         "OCLC": "CCv8zQEACAAJ",
-        "cover_file": "CCv8zQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_CCv8zQEACAAJ.webp"
       },
       {
         "OCLC": "H6vvtwEACAAJ",
-        "cover_file": "H6vvtwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_H6vvtwEACAAJ.webp"
       },
       {
         "OCLC": "LRqtEAAAQBAJ",
-        "cover_file": "LRqtEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_LRqtEAAAQBAJ.webp"
       },
       {
         "OCLC": "m_f_zQEACAAJ",
-        "cover_file": "m_f_zQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_m_f_zQEACAAJ.webp"
       },
       {
         "OCLC": "ol9CEAAAQBAJ",
-        "cover_file": "ol9CEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_ol9CEAAAQBAJ.webp"
       },
       {
         "OCLC": "pF9CEAAAQBAJ",
-        "cover_file": "pF9CEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_pF9CEAAAQBAJ.webp"
       },
       {
         "OCLC": "T7X3zgEACAAJ",
-        "cover_file": "T7X3zgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_T7X3zgEACAAJ.webp"
       },
       {
         "OCLC": "W-ZNuAEACAAJ",
-        "cover_file": "W-ZNuAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
       },
       {
         "OCLC": "XGn_wAEACAAJ",
-        "cover_file": "XGn_wAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
       }
     ]
   },
@@ -583,43 +583,43 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "aHUl0AEACAAJ",
-        "cover_file": "aHUl0AEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_aHUl0AEACAAJ.webp"
       },
       {
         "OCLC": "eu3uzwEACAAJ",
-        "cover_file": "eu3uzwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_eu3uzwEACAAJ.webp"
       },
       {
         "OCLC": "iUHgx5E4zLMC",
-        "cover_file": "iUHgx5E4zLMC.webp"
+        "cover_file": "_recommended_books/cover_iUHgx5E4zLMC.webp"
       },
       {
         "OCLC": "kk57twEACAAJ",
-        "cover_file": "kk57twEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_kk57twEACAAJ.webp"
       },
       {
         "OCLC": "lUBpEAAAQBAJ",
-        "cover_file": "lUBpEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_lUBpEAAAQBAJ.webp"
       },
       {
         "OCLC": "Lv6GxwEACAAJ",
-        "cover_file": "Lv6GxwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_Lv6GxwEACAAJ.webp"
       },
       {
         "OCLC": "NUyLP6WZJCoC",
-        "cover_file": "NUyLP6WZJCoC.webp"
+        "cover_file": "_recommended_books/cover_NUyLP6WZJCoC.webp"
       },
       {
         "OCLC": "Qw1FDwAAQBAJ",
-        "cover_file": "Qw1FDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_Qw1FDwAAQBAJ.webp"
       },
       {
         "OCLC": "v6FkQgAACAAJ",
-        "cover_file": "v6FkQgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_v6FkQgAACAAJ.webp"
       },
       {
         "OCLC": "yjXYzQEACAAJ",
-        "cover_file": "yjXYzQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_yjXYzQEACAAJ.webp"
       }
     ]
   },
@@ -644,27 +644,27 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "64tuPwAACAAJ",
-        "cover_file": "64tuPwAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_64tuPwAACAAJ.webp"
       },
       {
         "OCLC": "FzjoDQAAQBAJ",
-        "cover_file": "FzjoDQAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_FzjoDQAAQBAJ.webp"
       },
       {
         "OCLC": "ogWNEAAAQBAJ",
-        "cover_file": "ogWNEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_ogWNEAAAQBAJ.webp"
       },
       {
         "OCLC": "SVoYDQAAQBAJ",
-        "cover_file": "SVoYDQAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_SVoYDQAAQBAJ.webp"
       },
       {
         "OCLC": "v-uGoAEACAAJ",
-        "cover_file": "v-uGoAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_v-uGoAEACAAJ.webp"
       },
       {
         "OCLC": "vuqNEAAAQBAJ",
-        "cover_file": "vuqNEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_vuqNEAAAQBAJ.webp"
       }
     ]
   },
@@ -680,19 +680,19 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "6XDVvAEACAAJ",
-        "cover_file": "6XDVvAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_6XDVvAEACAAJ.webp"
       },
       {
         "OCLC": "akzFuQEACAAJ",
-        "cover_file": "akzFuQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_akzFuQEACAAJ.webp"
       },
       {
         "OCLC": "DoMP0AEACAAJ",
-        "cover_file": "DoMP0AEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_DoMP0AEACAAJ.webp"
       },
       {
         "OCLC": "rgDTngEACAAJ",
-        "cover_file": "rgDTngEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_rgDTngEACAAJ.webp"
       }
     ]
   },
@@ -708,39 +708,39 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "1jB8QgAACAAJ",
-        "cover_file": "1jB8QgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_1jB8QgAACAAJ.webp"
       },
       {
         "OCLC": "BqiJzQEACAAJ",
-        "cover_file": "BqiJzQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_BqiJzQEACAAJ.webp"
       },
       {
         "OCLC": "bWD5zgEACAAJ",
-        "cover_file": "bWD5zgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_bWD5zgEACAAJ.webp"
       },
       {
         "OCLC": "izy9Tg6rmb8C",
-        "cover_file": "izy9Tg6rmb8C.webp"
+        "cover_file": "_recommended_books/cover_izy9Tg6rmb8C.webp"
       },
       {
         "OCLC": "mqpvVydYo-8C",
-        "cover_file": "mqpvVydYo-8C.webp"
+        "cover_file": "_recommended_books/cover_mqpvVydYo-8C.webp"
       },
       {
         "OCLC": "PQI7vgAACAAJ",
-        "cover_file": "PQI7vgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_PQI7vgAACAAJ.webp"
       },
       {
         "OCLC": "qfdquwEACAAJ",
-        "cover_file": "qfdquwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_qfdquwEACAAJ.webp"
       },
       {
         "OCLC": "WpTSDQAAQBAJ",
-        "cover_file": "WpTSDQAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_WpTSDQAAQBAJ.webp"
       },
       {
         "OCLC": "y8V6EAAAQBAJ",
-        "cover_file": "y8V6EAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_y8V6EAAAQBAJ.webp"
       }
     ]
   },
@@ -753,43 +753,43 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "1ozyjwEACAAJ",
-        "cover_file": "1ozyjwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_1ozyjwEACAAJ.webp"
       },
       {
         "OCLC": "20KWngEACAAJ",
-        "cover_file": "20KWngEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_20KWngEACAAJ.webp"
       },
       {
         "OCLC": "ASUGzgEACAAJ",
-        "cover_file": "ASUGzgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_ASUGzgEACAAJ.webp"
       },
       {
         "OCLC": "B2u1EAAAQBAJ",
-        "cover_file": "B2u1EAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_B2u1EAAAQBAJ.webp"
       },
       {
         "OCLC": "f-FdDwAAQBAJ",
-        "cover_file": "f-FdDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_f-FdDwAAQBAJ.webp"
       },
       {
         "OCLC": "IaCUzwEACAAJ",
-        "cover_file": "IaCUzwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_IaCUzwEACAAJ.webp"
       },
       {
         "OCLC": "jjUoEAAAQBAJ",
-        "cover_file": "jjUoEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_jjUoEAAAQBAJ.webp"
       },
       {
         "OCLC": "NWukMgEACAAJ",
-        "cover_file": "NWukMgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_NWukMgEACAAJ.webp"
       },
       {
         "OCLC": "StEfrgEACAAJ",
-        "cover_file": "StEfrgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_StEfrgEACAAJ.webp"
       },
       {
         "OCLC": "zwUdDgAAQBAJ",
-        "cover_file": "zwUdDgAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_zwUdDgAAQBAJ.webp"
       }
     ]
   },
@@ -811,27 +811,27 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "Eqj7ggLFwPwC",
-        "cover_file": "Eqj7ggLFwPwC.webp"
+        "cover_file": "_recommended_books/cover_Eqj7ggLFwPwC.webp"
       },
       {
         "OCLC": "jc3QswEACAAJ",
-        "cover_file": "jc3QswEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_jc3QswEACAAJ.webp"
       },
       {
         "OCLC": "n_RmCgAAQBAJ",
-        "cover_file": "n_RmCgAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_n_RmCgAAQBAJ.webp"
       },
       {
         "OCLC": "NG2_qiSjmMEC",
-        "cover_file": "NG2_qiSjmMEC.webp"
+        "cover_file": "_recommended_books/cover_NG2_qiSjmMEC.webp"
       },
       {
         "OCLC": "TKQBkAEACAAJ",
-        "cover_file": "TKQBkAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_TKQBkAEACAAJ.webp"
       },
       {
         "OCLC": "zxRdacCvjVsC",
-        "cover_file": "zxRdacCvjVsC.webp"
+        "cover_file": "_recommended_books/cover_zxRdacCvjVsC.webp"
       },
       {
         "OCLC": "jgQDtAEACAAJ",
@@ -854,35 +854,35 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "1dthzgEACAAJ",
-        "cover_file": "1dthzgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_1dthzgEACAAJ.webp"
       },
       {
         "OCLC": "bLd8lAEACAAJ",
-        "cover_file": "bLd8lAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_bLd8lAEACAAJ.webp"
       },
       {
         "OCLC": "hs1RzQEACAAJ",
-        "cover_file": "hs1RzQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_hs1RzQEACAAJ.webp"
       },
       {
         "OCLC": "IPm8QgAACAAJ",
-        "cover_file": "IPm8QgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_IPm8QgAACAAJ.webp"
       },
       {
         "OCLC": "iUHgx5E4zLMC",
-        "cover_file": "iUHgx5E4zLMC.webp"
+        "cover_file": "_recommended_books/cover_iUHgx5E4zLMC.webp"
       },
       {
         "OCLC": "qofQnQEACAAJ",
-        "cover_file": "qofQnQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_qofQnQEACAAJ.webp"
       },
       {
         "OCLC": "v6FkQgAACAAJ",
-        "cover_file": "v6FkQgAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_v6FkQgAACAAJ.webp"
       },
       {
         "OCLC": "Z45SAwAAQBAJ",
-        "cover_file": "Z45SAwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_Z45SAwAAQBAJ.webp"
       }
     ]
   },
@@ -898,35 +898,35 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "Ed7XrQEACAAJ",
-        "cover_file": "Ed7XrQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_Ed7XrQEACAAJ.webp"
       },
       {
         "OCLC": "FuObEAAAQBAJ",
-        "cover_file": "FuObEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_FuObEAAAQBAJ.webp"
       },
       {
         "OCLC": "HmMDDQAAQBAJ",
-        "cover_file": "HmMDDQAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_HmMDDQAAQBAJ.webp"
       },
       {
         "OCLC": "LgZQxQEACAAJ",
-        "cover_file": "LgZQxQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_LgZQxQEACAAJ.webp"
       },
       {
         "OCLC": "M9EkugEACAAJ",
-        "cover_file": "M9EkugEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_M9EkugEACAAJ.webp"
       },
       {
         "OCLC": "NDe6DwAAQBAJ",
-        "cover_file": "NDe6DwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_NDe6DwAAQBAJ.webp"
       },
       {
         "OCLC": "V1DuJfPov48C",
-        "cover_file": "V1DuJfPov48C.webp"
+        "cover_file": "_recommended_books/cover_V1DuJfPov48C.webp"
       },
       {
         "OCLC": "ylxjLwEACAAJ",
-        "cover_file": "ylxjLwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_ylxjLwEACAAJ.webp"
       },
       {
         "OCLC": "FLyJzwEACAAJ",
@@ -943,43 +943,43 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "0qbTngEACAAJ",
-        "cover_file": "0qbTngEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_0qbTngEACAAJ.webp"
       },
       {
         "OCLC": "2785zwEACAAJ",
-        "cover_file": "2785zwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_2785zwEACAAJ.webp"
       },
       {
         "OCLC": "3R2pDwAAQBAJ",
-        "cover_file": "3R2pDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_3R2pDwAAQBAJ.webp"
       },
       {
         "OCLC": "b-cbngEACAAJ",
-        "cover_file": "b-cbngEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_b-cbngEACAAJ.webp"
       },
       {
         "OCLC": "HjylDwAAQBAJ",
-        "cover_file": "HjylDwAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_HjylDwAAQBAJ.webp"
       },
       {
         "OCLC": "k9w1jwEACAAJ",
-        "cover_file": "k9w1jwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_k9w1jwEACAAJ.webp"
       },
       {
         "OCLC": "pFY6zwEACAAJ",
-        "cover_file": "pFY6zwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_pFY6zwEACAAJ.webp"
       },
       {
         "OCLC": "rV2zEAAAQBAJ",
-        "cover_file": "rV2zEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_rV2zEAAAQBAJ.webp"
       },
       {
         "OCLC": "utWNEAAAQBAJ",
-        "cover_file": "utWNEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_utWNEAAAQBAJ.webp"
       },
       {
         "OCLC": "YZAmEAAAQBAJ",
-        "cover_file": "YZAmEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_YZAmEAAAQBAJ.webp"
       }
     ]
   },
@@ -998,35 +998,35 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "2hmNEAAAQBAJ",
-        "cover_file": "2hmNEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_2hmNEAAAQBAJ.webp"
       },
       {
         "OCLC": "7PS9zQEACAAJ",
-        "cover_file": "7PS9zQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_7PS9zQEACAAJ.webp"
       },
       {
         "OCLC": "ayzVoAEACAAJ",
-        "cover_file": "ayzVoAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_ayzVoAEACAAJ.webp"
       },
       {
         "OCLC": "CpbLAgAAQBAJ",
-        "cover_file": "CpbLAgAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_CpbLAgAAQBAJ.webp"
       },
       {
         "OCLC": "fNQtzwEACAAJ",
-        "cover_file": "fNQtzwEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_fNQtzwEACAAJ.webp"
       },
       {
         "OCLC": "JpqdDAEACAAJ",
-        "cover_file": "JpqdDAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_JpqdDAEACAAJ.webp"
       },
       {
         "OCLC": "nfZaEAAAQBAJ",
-        "cover_file": "nfZaEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_nfZaEAAAQBAJ.webp"
       },
       {
         "OCLC": "ZM3JEAAAQBAJ",
-        "cover_file": "ZM3JEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_ZM3JEAAAQBAJ.webp"
       },
       {
         "OCLC": "EP9uzgEACAAJ",
@@ -1073,7 +1073,7 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "UAtgxQEACAAJ",
-        "cover_file": "UAtgxQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
       }
     ]
   },
@@ -1089,39 +1089,39 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "BBXKyQEACAAJ",
-        "cover_file": "BBXKyQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_BBXKyQEACAAJ.webp"
       },
       {
         "OCLC": "CHZmwQEACAAJ",
-        "cover_file": "CHZmwQEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
       },
       {
         "OCLC": "DyLRAQAACAAJ",
-        "cover_file": "DyLRAQAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_DyLRAQAACAAJ.webp"
       },
       {
         "OCLC": "gftnswEACAAJ",
-        "cover_file": "gftnswEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_gftnswEACAAJ.webp"
       },
       {
         "OCLC": "j21SAQAACAAJ",
-        "cover_file": "j21SAQAACAAJ.webp"
+        "cover_file": "_recommended_books/cover_j21SAQAACAAJ.webp"
       },
       {
         "OCLC": "L9sIrgEACAAJ",
-        "cover_file": "L9sIrgEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_L9sIrgEACAAJ.webp"
       },
       {
         "OCLC": "SvaQEAAAQBAJ",
-        "cover_file": "SvaQEAAAQBAJ.webp"
+        "cover_file": "_recommended_books/cover_SvaQEAAAQBAJ.webp"
       },
       {
         "OCLC": "W-ZNuAEACAAJ",
-        "cover_file": "W-ZNuAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
       },
       {
         "OCLC": "XGn_wAEACAAJ",
-        "cover_file": "XGn_wAEACAAJ.webp"
+        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
       }
     ]
   },

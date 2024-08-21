@@ -14,7 +14,8 @@ recommended_books %<>% mutate(
                         topic = "Book Recommendations", 
                         topic_id = "recommended_books",
                         year = as.character(year),
-                        std_call_number = as.character(std_call_number)) %>% 
+                        std_call_number = as.character(std_call_number),
+                        cover_file = ifelse(!is.na(cover_file),paste0("_recommended_books/cover_",cover_file),NA)) %>% 
                       rename(
                         sub_topic = recommender, 
                         OCLC = unique_id)
