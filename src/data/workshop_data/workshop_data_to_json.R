@@ -20,6 +20,8 @@ recommended_books %<>% mutate(
                         sub_topic = recommender, 
                         OCLC = unique_id)
 
+recommended_books %<>% filter(sub_topic != "Willemijn Elkhuizen") 
+
 books %<>%  bind_rows(recommended_books) 
 
 books_json <- books  %>% 

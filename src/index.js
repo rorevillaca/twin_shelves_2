@@ -1,13 +1,10 @@
 import { shuffle } from './utils/helpers.js'
 import { initMainScreen, wallContainer, addBackgroundBooks } from "./screens/mainScreen.js"
-import { initShelvesScreen, populate_topics_shelf_view } from "./screens/shelvesScreen.js"
+import { initShelvesScreen, populateShelfView } from "./screens/shelvesScreen.js"
 import { ParsePolygons } from "./utils/data.js"
 import { initDirectionsScreen } from "./screens/directionsScreen.js"
 import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
-import { recommenderDivider } from './components/recommenderDivider.js'
-
-
 
 let currentlySelectedSection = ""
 let animationRunning = false;
@@ -131,7 +128,7 @@ function  magnifying_glass(topic){
           .attr('width', rectWidth)
           .on('click',function(d) {
             shelf_view.style.display = "grid";
-            populate_topics_shelf_view(topic, topic_name)
+            populateShelfView(topic, topic_name, topic)
           });
 
       // Add text above the rectangle and center it horizontally
@@ -219,35 +216,20 @@ function selectSection(sectionId) {
     // Remove existing books
     wallContainer.selectAll(".book").remove();
     
-    // if (sectionId.includes("topic")) {
+    if (sectionId !== "") {
       //Change selection to light blue
-    d3.select("#"+sectionId).selectAll("div").style("background-color","#808ff7")
+      d3.select("#"+sectionId).selectAll("div").style("background-color","#808ff7")
       // Add white books
-    add_highlighted_books(sectionId);
+      add_highlighted_books(sectionId);
+    }
+
       // Wait 3 seconds
     setTimeout(function(){
         //Add magnifying glass
         magnifying_glass(sectionId);
         animationRunning = false; // Set the flag to indicate the animation has finished
       },3000)
-    // }
-
-    // if (sectionId === "recommended_books") {
-    //   d3.select("#recommended_books")
-    //     .style("background-color","#808ff7")
-    //   animationRunning = false; 
-    //   shelf_view.style.display = "grid";
-    //   addRecommenderDividers()
-    // }
-
 }
-
-function addRecommenderDividers(){
-  recommender_data.forEach(d => {
-    recommenderDivider(".shelf_view--shelves", d);
-  });
-}
-
 
 // Initialize a variable to hold the timeout ID
 let timeoutId;
@@ -260,7 +242,7 @@ function resetTimer() {
   // Set a new 10-second timer
   timeoutId = setTimeout(() => {
     //Add missing books back
-    if (currentlySelectedSection !== "" && currentlySelectedSection !== "recommended_books") {
+    if (currentlySelectedSection !== "") {
       addBackgroundBooks(currentlySelectedSection, wallContainer)};
     selectSection("");
     currentlySelectedSection = "";
@@ -278,8 +260,6 @@ document.addEventListener('mousemove', resetTimer); // Reset on mouse move
 
 // Set the initial 10-second timer when the script loads
 resetTimer();
-
-
 
 
 const getCoordOfTopic = (topic, variable, min_or_max) => {
@@ -302,25 +282,3 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
       }
   }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

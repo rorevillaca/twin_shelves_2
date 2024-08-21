@@ -1,4 +1,4 @@
-export function Wall(container, opacity, stairs) {
+export function wall(container, opacity, stairs) {
     
     //Add the wall silhouette
     container.append("g")

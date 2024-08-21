@@ -1037,49 +1037,6 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Willemijn Elkhuizen",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 11,
-    "books": [
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "OCLC": "UAtgxQEACAAJ",
-        "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
     "sub_topic": "Zhaowen Liu",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 10,

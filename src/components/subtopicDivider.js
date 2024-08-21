@@ -1,7 +1,25 @@
+import { capitalizeFirstLetterOfEachWord } from '../utils/helpers.js'
 
-export function recommenderDivider(containerSelector, data) {
 
-    const dividerContainer = d3.select(containerSelector);
+export function subtopicDivider(selector, subtopicName, topicId) {
+
+    const filteredData = recommender_data.filter(item => item.name_lastname === subtopicName)[0];
+
+if (topicId == "recommended_books") { 
+     recommenderDivider(selector, filteredData);
+    } else {
+    selector
+        .append("div")
+        .attr("class", "subtopic_separator")
+        .text(capitalizeFirstLetterOfEachWord(subtopicName))   
+    
+    }
+}
+
+
+function recommenderDivider(dividerContainer, data) {
+
+    //const dividerContainer = d3.select(containerSelector);
     const divider = dividerContainer
         .append('div')
         .attr("class","divider")

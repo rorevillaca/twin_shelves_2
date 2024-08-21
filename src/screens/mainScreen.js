@@ -1,4 +1,4 @@
-import { Wall } from "../components/wall.js";
+import { wall } from "../components/wall.js";
 
 export let wallContainer;
 
@@ -6,11 +6,11 @@ export function initMainScreen() {
 
     //Set container for wall
     wallContainer = d3.select(".wall_container")
-           .append("svg")
-           .attr("height","100%")
-           .attr("width","95%");
+        .append("svg")
+        .attr("height","100%")
+        .attr("width","95%");
     
-    Wall(wallContainer, "70%", false)
+    wall(wallContainer, "70%", false)
     
     // Loop through and append the books for each section
     for (let i = 1; i <= 25; i++) {
@@ -31,4 +31,4 @@ export function addBackgroundBooks(topic, container) {
         .attr("opacity", 1)
         .attr("x", 0)
         .attr("y", 0);
-  }
+}

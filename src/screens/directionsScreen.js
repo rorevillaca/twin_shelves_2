@@ -1,5 +1,5 @@
-import {backButton} from "../components/backButton.js"
-import { Wall } from "../components/wall.js";
+import { backButton } from "../components/backButton.js"
+import { wall } from "../components/wall.js";
 
 export function initDirectionsScreen() {    
     backButton("#directions-view-header")
@@ -10,7 +10,7 @@ export function initDirectionsScreen() {
         .attr("height","100%")
         .attr("width","85%");
  
-    Wall(wallContainer, "90%", true)
+    wall(wallContainer, "90%", true)
 }
 
 export function openDirectionsScreen(OCLC) {
