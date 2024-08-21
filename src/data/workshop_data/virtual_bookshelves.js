@@ -7,7 +7,8 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "81tWoOTqAPL._SY522_",
+        "cover_file": "_recommended_books/cover_81tWoOTqAPL._SY522_.webp"
       },
       {
         "OCLC": "qBfRDQAAQBAJ",
@@ -39,11 +40,11 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "p5fXAQAACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_p5fXAQAACAAJ.webp"
       },
       {
         "OCLC": "wTRRzwEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_wTRRzwEACAAJ.webp"
       }
     ]
   },
@@ -88,11 +89,11 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "EP9uzgEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_EP9uzgEACAAJ.webp"
       },
       {
         "OCLC": "_usojgEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover__usojgEACAAJ.webp"
       }
     ]
   },
@@ -141,7 +142,7 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "f_DKzgEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_f_DKzgEACAAJ.webp"
       }
     ]
   },
@@ -153,16 +154,20 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "29304dc8d6d2",
+        "cover_file": "_recommended_books/cover_29304dc8d6d2.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "978-3-319-05990-7",
+        "cover_file": "_recommended_books/cover_978-3-319-05990-7.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "robocar-book_001-280x300",
+        "cover_file": "_recommended_books/cover_robocar-book_001-280x300.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "SAE J3016_202104",
+        "cover_file": "_recommended_books/cover_SAE J3016_202104.webp"
       },
       {
         "OCLC": "4dhqzgEACAAJ",
@@ -186,7 +191,7 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "GEYhAAAACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_GEYhAAAACAAJ.webp"
       }
     ]
   },
@@ -198,7 +203,8 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "613wNCkSH4L._SY522_",
+        "cover_file": "_recommended_books/cover_613wNCkSH4L._SY522_.webp"
       },
       {
         "OCLC": "-5CuuQEACAAJ",
@@ -230,11 +236,11 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "I2RDwAAQBAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_I2RDwAAQBAJ.webp"
       },
       {
         "OCLC": "Jl6TtwAACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_Jl6TtwAACAAJ.webp"
       }
     ]
   },
@@ -279,11 +285,11 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "AEEpzgEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_AEEpzgEACAAJ.webp"
       },
       {
         "OCLC": "lOfCoQEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_lOfCoQEACAAJ.webp"
       }
     ]
   },
@@ -295,7 +301,8 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "978-1-61091-835-0",
+        "cover_file": "_recommended_books/cover_978-1-61091-835-0.webp"
       },
       {
         "OCLC": "DRlvDwAAQBAJ",
@@ -331,7 +338,7 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "p0lyQgAACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_p0lyQgAACAAJ.webp"
       }
     ]
   },
@@ -343,13 +350,16 @@ const virtual_bookshelves = [
     "books_in_bookcase": 11,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "61a1eD2ndeL._SY522_",
+        "cover_file": "_recommended_books/cover_61a1eD2ndeL._SY522_.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "712fVvVktUL._SY522_",
+        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "61zfi0sh9tL._SY522_",
+        "cover_file": "_recommended_books/cover_61zfi0sh9tL._SY522_.webp"
       },
       {
         "OCLC": "CCv8zQEACAAJ",
@@ -393,10 +403,12 @@ const virtual_bookshelves = [
     "books_in_bookcase": 9,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "712fVvVktUL._SY522_",
+        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "51jTS8Yu3-L._SY445_SX342_",
+        "cover_file": "_recommended_books/cover_51jTS8Yu3-L._SY445_SX342_.webp"
       },
       {
         "OCLC": "CfJLngEACAAJ",
@@ -473,7 +485,7 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "wr07uwEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_wr07uwEACAAJ.webp"
       }
     ]
   },
@@ -485,7 +497,8 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "41MJjgSVKPL",
+        "cover_file": "_recommended_books/cover_41MJjgSVKPL.webp"
       },
       {
         "OCLC": "jGUZ_gAACAAJ",
@@ -513,15 +526,15 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "WC4lNgAACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_WC4lNgAACAAJ.webp"
       },
       {
         "OCLC": "VmQmtwAACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_VmQmtwAACAAJ.webp"
       },
       {
         "OCLC": "e5v3rQEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_e5v3rQEACAAJ.webp"
       }
     ]
   },
@@ -631,16 +644,20 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "71Fmzme8Q1L._SY522_",
+        "cover_file": "_recommended_books/cover_71Fmzme8Q1L._SY522_.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "51LKgvgK5HL._SY522_",
+        "cover_file": "_recommended_books/cover_51LKgvgK5HL._SY522_.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "101109TIT19681054102",
+        "cover_file": "_recommended_books/cover_101109TIT19681054102.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "41wcKggItML._SY445_SX342_",
+        "cover_file": "_recommended_books/cover_41wcKggItML._SY445_SX342_.webp"
       },
       {
         "OCLC": "64tuPwAACAAJ",
@@ -676,7 +693,8 @@ const virtual_bookshelves = [
     "books_in_bookcase": 5,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "61uTPA0wEIL._SY522_",
+        "cover_file": "_recommended_books/cover_61uTPA0wEIL._SY522_.webp"
       },
       {
         "OCLC": "6XDVvAEACAAJ",
@@ -704,7 +722,8 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "41JVDBmO0QL._SY522_",
+        "cover_file": "_recommended_books/cover_41JVDBmO0QL._SY522_.webp"
       },
       {
         "OCLC": "1jB8QgAACAAJ",
@@ -801,13 +820,16 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "51nGSY7EKBL._SY522_",
+        "cover_file": "_recommended_books/cover_51nGSY7EKBL._SY522_.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "41HaPixRRkL",
+        "cover_file": "_recommended_books/cover_41HaPixRRkL.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "51lqhg4tVmL._SY445_SX342_",
+        "cover_file": "_recommended_books/cover_51lqhg4tVmL._SY445_SX342_.webp"
       },
       {
         "OCLC": "Eqj7ggLFwPwC",
@@ -835,7 +857,7 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "jgQDtAEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_jgQDtAEACAAJ.webp"
       }
     ]
   },
@@ -847,10 +869,12 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "41YJfg5HWuS._SY445_SX342_",
+        "cover_file": "_recommended_books/cover_41YJfg5HWuS._SY445_SX342_.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "61K5b4ufRCL._SY522_",
+        "cover_file": "_recommended_books/cover_61K5b4ufRCL._SY522_.webp"
       },
       {
         "OCLC": "1dthzgEACAAJ",
@@ -894,7 +918,8 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "r9MEyhnW7J",
+        "cover_file": "_recommended_books/cover_r9MEyhnW7J.webp"
       },
       {
         "OCLC": "Ed7XrQEACAAJ",
@@ -930,7 +955,7 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "FLyJzwEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_FLyJzwEACAAJ.webp"
       }
     ]
   },
@@ -991,10 +1016,12 @@ const virtual_bookshelves = [
     "books_in_bookcase": 11,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "712fVvVktUL._SY522_",
+        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "cover_issue_986_en_US",
+        "cover_file": "_recommended_books/cover_cover_issue_986_en_US.webp"
       },
       {
         "OCLC": "2hmNEAAAQBAJ",
@@ -1030,7 +1057,7 @@ const virtual_bookshelves = [
       },
       {
         "OCLC": "EP9uzgEACAAJ",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_EP9uzgEACAAJ.webp"
       }
     ]
   },
@@ -1042,7 +1069,8 @@ const virtual_bookshelves = [
     "books_in_bookcase": 10,
     "books": [
       {
-        "cover_file": "NA"
+        "OCLC": "712fVvVktUL._SY522_",
+        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
       },
       {
         "OCLC": "BBXKyQEACAAJ",
