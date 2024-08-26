@@ -127,8 +127,19 @@ function  magnifying_glass(topic){
           .attr('height', rectHeight)
           .attr('width', rectWidth)
           .on('click',function(d) {
-            shelf_view.style.display = "grid";
-            populateShelfView(topic, topic_name, topic)
+            switch (topic) {
+              case "heritage_objects":
+                heritage_view.style.display = "grid";
+                break
+              case "student_work":
+                object_view.style.display = "grid";
+                break
+              default:
+                shelf_view.style.display = "grid";
+                populateShelfView(topic_name, topic)
+            }
+
+
           });
 
       // Add text above the rectangle and center it horizontally
@@ -219,16 +230,20 @@ function selectSection(sectionId) {
     if (sectionId !== "") {
       //Change selection to light blue
       d3.select("#"+sectionId).selectAll("div").style("background-color","#808ff7")
-      // Add white books
-      add_highlighted_books(sectionId);
-    }
+      var waitTime = 0
 
-      // Wait 3 seconds
-    setTimeout(function(){
+      if (sectionId !== "heritage_objects" && sectionId !== "student_work") {
+        waitTime = 3000
+        add_highlighted_books(sectionId); 
+      }
+      // Wait bfore running
+      setTimeout(function(){
         //Add magnifying glass
         magnifying_glass(sectionId);
         animationRunning = false; // Set the flag to indicate the animation has finished
-      },3000)
+        },waitTime)
+    }
+
 }
 
 // Initialize a variable to hold the timeout ID

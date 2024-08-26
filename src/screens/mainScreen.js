@@ -18,6 +18,8 @@ export function initMainScreen() {
     }
     addBackgroundBooks(`recommended_books`, wallContainer)
     addBackgroundBooks(`dissertations`, wallContainer)
+    addBackgroundBooks(`heritage_objects`, wallContainer)
+    addBackgroundBooks(`student_work`, wallContainer)
 }
 
 export function addBackgroundBooks(topic, container) {

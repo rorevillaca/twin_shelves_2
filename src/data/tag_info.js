@@ -154,19 +154,19 @@ const tag_info =  [
     "topic": "recommended_books",
     "tag_type": "exhibition"
   },
-//   {
-//     "name": "Student Work",
-//     "topic": "student_work",
-//     "tag_type": "exhibition"
-//   },
-//   {
-//     "name": "Heritage Objects",
-//     "topic": "heritage_objects",
-//     "tag_type": "exhibition"
-//   },
-//   {
-//     "name": "Dissertations",
-//     "topic": "dissertations",
-//     "tag_type": "exhibition"
-//   }
+  {
+     "name": "Student Work",
+     "topic": "student_work",
+     "tag_type": "exhibition"
+   },
+   {
+     "name": "Heritage Objects",
+     "topic": "heritage_objects",
+     "tag_type": "exhibition"
+   },
+  {
+    "name": "Dissertations",
+    "topic": "dissertations",
+    "tag_type": "exhibition"
+  }
 ]

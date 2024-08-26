@@ -1111,6 +1111,4822 @@ const virtual_bookshelves = [
     ]
   },
   {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "biochemistry",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "2db7be3b2e4c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9caa4f4f8cd4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "598b11d327cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2f65465b0208",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "43e139e039c6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f4d661a0a9cb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "26ec1b216de0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "22435db3836c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6319857f3308",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d7789718af2c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ecc82a3834e6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c5747556a001",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ec72468e9a8d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7f3efcf5c99d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fc3e52eb32fe",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "01a82ca56669",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ef7e4395d9e4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "864a8c3eceb2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e841cd1236be",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "67de74ffccc4",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "biochemistry",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "7a2506703668",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4a3ac52d0dd7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5a5370a4bcd8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fae669421b70",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1aa4da9fc53b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3f211b94844e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "048a369b2551",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4b4970033da3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "12d99aa9f4de",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7eef7de982b6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b50deff94d35",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b82dad811ef2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "75ff731afb7a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "11270fc7d78b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7aa15bfa90f0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "189e6e6c74bf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fbda6ccc175d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3809e9b104e8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9a9fe1059015",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "681b82867314",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "67566d219ba7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1c8f49a58ab5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "514885533135",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f7a95f9dc849",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2dad17fe0053",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "biochemistry",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "1a0bfb73f5b0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "eb97f11b050c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "90fb955bc48a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "76babaa8182a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "57a18fda0c90",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0498c6298b39",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2011bcc2d00f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "901307fa0633",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ffcab8a7a6d2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c1420f4acadd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d20209bb040d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4738ec9acdbe",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b5bd1b5e5212",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8cd57fc5d703",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "97782de485a5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ed0e6a7a76e3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2788011a0361",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "88106f6416d5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "59c22f598e4a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ce8264fdf03c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c83c5239b003",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "06e2384ad23a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "369d0ec0fb21",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "be465441bb2e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "de5e0e2d3ed6",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "biochemistry",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "988d24dbf00f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9577df38264d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0100fffc65e3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "650dad2fae0d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "afff3215d7c5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "378f37b985a6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "008ec3fae8c7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "34db46252541",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "93a4393a0478",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f14aa7b24c52",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "947d00417daa",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "12f50c9fdedb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ff070e17bca3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "09c54b0f891b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "52c8c34c83cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e6ab2377c4a6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9c518872b446",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2dfecde615fc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "697d54e922de",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c286560e38c8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "277dd9f869e1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8493d8a346ad",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7dad8c6bf35c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1a26a43dcfed",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "eb5104c00df0",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "biochemistry",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "721bbbc70fbf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "75d271f73cf0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "da7b1e89ddd5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bb1de1420ed4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "eb0f0bc9b632",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2d49efd0ba90",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a90829d120ee",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b545408954a2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8b3ffd938af0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a177c117ec1a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "28107bbec3c0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4e83dc31baca",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b267da3cb969",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5c16edd339b8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6144f363e421",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c3816e3e86cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ca66cd90aa5f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fc982b6cd48e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "36fb93182b3a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a4d91e1185b1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a52f231070c8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c9463b5d3c13",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0fa836c73f57",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0a48c264f20a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a0f5a20c057e",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "business_mgmt",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "ccf622a1d724",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d5b9f2f546c1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f262ee089305",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "98eb1d4a3b4f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6b993965123c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "93184b61ac95",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "be6dcadfc5db",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4c61ac118d1a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d09bcfa1703a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f89a83cd2e27",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ac4fa8009426",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "48074982bcb3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a546681a42b3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2300145da6b9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c481eace87e1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "088c4600cd8d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ad3d308f28a6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "29c6be14534e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1849f6b55eea",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a7f422965844",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "business_mgmt",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "cec5f1010099",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "392b8c004492",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d17473b2d346",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b556b5899050",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8edcba31eda4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aff7d55e48e4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8c8c1a950695",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b8021937bee0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7130d9030c3b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dcefdf3f1dad",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fa4806f4e024",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "19d7e065b826",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "32dd071c7b1c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b0f38fd7f8ff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4b81973996b6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "db0c2e94bd7d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "57e3f921d45b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "43a2d68675df",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9ad7723f4959",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "023bade72eff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ddf6ce4f52d8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f6760251601f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "54bbd473b449",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "78b202581d8f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "077c6158553d",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "business_mgmt",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "d5e07ff4bfb7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2da96066e9a6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d37c22f21df7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "800d904b66b9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b1723c790d78",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b436c3026f0a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5e5f15492640",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3904ced4b873",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "752141bc6104",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "870bf12d5ba5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "005bbd9054f1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0e22f15ade6b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "94329768c800",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1c855663d124",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c03533e6f603",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "818c24bfa60f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "749b182c396d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "eba1ff6a0fb2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "318b5db60802",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6531f339ca96",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b47b1dccc947",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "08075491a2be",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "39a314aba931",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "22a3797e03fa",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f08a9a6e81a0",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "business_mgmt",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "a3e42b3cafaf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f622c828c709",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f6a9261883cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0f970a86a7c3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3ae37a617564",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "28b71c7e137e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8510707ecd47",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "810f1a1a4931",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "83a386009d73",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4649c1fdd432",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "37d62d0b29f8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c1de66c082af",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7362064abde7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "126fbe6c1de3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d582dc7bd7cd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cfbb2684d4f7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bed4a588d850",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6fc292bb4885",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4bde5bfbdc2e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a6121c46ffea",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "baadabc04bca",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7f8dccd151d1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e39122dee258",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1525f8e067be",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "735b6da3ea4d",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "business_mgmt",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 2,
+    "books": [
+      {
+        "OCLC": "126b7d110431",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "56fd9838b543",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "communication",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "87fc53f3b3d9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cec359490aad",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "554a9c8fa2e4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "40f4a110223b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7c6311ed1278",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dae7ddf7121c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9fbb77a14258",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "462e154d72dd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "81ed15e7cfc1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "72ba3d106ae0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fc530e1258d0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "93b8b94452ea",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "30d0e590cb77",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7b7357085adf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1548014a3a3b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "19ee66840c70",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bcff776e96c6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1c828dfee175",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "595d9a8353f1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e104495b05cb",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "communication",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "71c4d88ad629",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6991e5b658cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d53e8fb2c75c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d47769c322b5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0806fb425e32",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1c1e298812bd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "75b2c3eeb29e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8b41edfeef84",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "357379ba2cd3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f75f484db22d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "20c35971a84c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b0a19462f507",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cf149e9570f2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "14aba1fa015d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e7c37d2353af",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5317b0988bdd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2c2fe1485bbd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f5c532ae51f2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1910c03ee0b5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9e30a5c41ae6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5fe6c2101cee",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7c3f462c4568",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f5c532ae51f2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "af529bd2bd3c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9b4d5402155f",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "communication",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "477dff682218",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9bfdb9520930",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "60c9106292fa",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ce599af0645e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c7115cdcea27",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7d472735badf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5373bb0bc609",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3311f7637dd2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ccda6b698911",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "027e388f70e4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bed680378e22",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "06592d0bd959",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8d71002f73f4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "49b1818f09ba",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a1630590b926",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9b06305e3b3c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6b8d5b122939",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b938cf0f8b8b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7b50122f0955",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9692efde84a2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "037e5f6c2bc1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c7188b6718f7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "62d05a3335f0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9dfe213fa7de",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "75a7c7210b57",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "communication",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "8f3782d4c349",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7ecef815f9fd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "37475decb9cc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "12841c9f31f5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b6ec5cca6c66",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "24b71d7e5e97",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d1eba47f76e4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "890172db7336",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "346b28bdd0b3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1b82f4aa8135",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a76b01879854",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "878e74b84012",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "99f801570174",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7fb47e8e399a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6d34d5c4daa4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bbfeeec38fab",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5f642a97b324",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2a2eb2aef7eb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fcbd9618d78a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b74b426a020b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2ad8af06beff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c6df1ae1e9f1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "34e458e8ea23",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3cfdc14601f2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5167efb52eb1",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "communication",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "b0d31bdaede3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "df63c04f7d12",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a8d52d02fc3d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2bc146f1c5ef",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2a7f020cedfe",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "83a42e371718",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7c17bf921138",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fdca1e5813be",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c80d506252d3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "441c9364b43d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5ef79031ef81",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "945344029c29",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f695384cacbb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6b86dbb50e10",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2b86d3235293",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3f9796f2784a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a3c1fd1d035c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "62cb2d168f28",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "80af0684e372",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "11e55e03df0d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3736981930cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7a3d0d59b8fa",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "07bcd7e608b9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "23fc5352eb8c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1629296738c7",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "communication",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 2,
+    "books": [
+      {
+        "OCLC": "f833cef4541d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d1d8b32127f2",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "design",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "feb0926ccdbd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d768715f8da5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "95b6449ea636",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0deb26b668cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c19cbf38ea9a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d7cc6fc85bb9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9dfa1485eb4b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "820bb24cf35e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d4af8d10452f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d869e2d75435",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "503eaea04ff0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bc8a92219bd2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5f33e0274d85",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d169d7cc7309",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3052fa32a84e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "67f4209a45bd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1ba9ea005e8c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f11cc245829c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0e7c5bfa7c78",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d977c0fbc2e2",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "design",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 17,
+    "books": [
+      {
+        "OCLC": "694b6a328d18",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2307d0f54617",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ed64fdda7cdf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "031176abfcd4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9f8810176ef3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cff6bad178f3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "167fe297bd6e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b81f0e00e55b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "20fab3a14c30",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6016c0cd85f8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7904f9a4b1d5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e76ccb1c2c35",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d038319d7d7c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5039afb19cfa",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "78078432d374",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8976fa055426",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1f446190fe06",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "health",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "b464ac59918e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a4815cb13cb1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "79e8dd99744a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fb83cc9239fb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3ef916084469",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cb65ba7c7700",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "51082a61b23f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bc180c02ca37",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2afc55e939a5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "01e12b465025",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3702c41a0e3a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "59e3864b3e12",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "20328f67d4c2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "36bcdf2e42ac",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6cc3a839d2b5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a506021e3d1a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2bee3ff40a9c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ea00f292bf5f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "df90928996e3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "54140f35313c",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "health",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 5,
+    "books": [
+      {
+        "OCLC": "527585110989",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c94d2f59036c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e536dada300e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3bce9d281b11",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "eba1bdb10817",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "b7618e5eebf2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3c9c58c67c92",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "24e168760352",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7bd0fb5a9b99",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "81cb644311c5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bd446c6fa288",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fc03db34da40",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0e1e83e6c7b3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1bb0401c8d78",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7bb94fc41b9a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7d51700be44e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8e131654acc9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a9841a61b756",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4b6e67ff75cb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "001062005496",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6dc5208de2a6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c0ffeff5eaa3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "758db2010b08",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a6e85673df40",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f675411a4136",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "4e1ce180b34d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dd3ae4baf6ff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0c2ec283526b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aecf2d69bcd2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e15deecf8fb3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2e6f3c3c9dcf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6270dacdec67",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "66bde165a85d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e2f177121bb8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8ea8941a7a05",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9354fee42ff4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1d7bdd594a38",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7427ccebf697",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "80d20ef2100e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "18051c6d9d94",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "182a03696335",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "96dac935479d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1861f8ea4da9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "69d8fb7b68d2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "89d76f4a6cc1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "21800b46df5b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "08d4d3ec3897",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c44db3ca94b2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bbd2233fd4d9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d9790e283f95",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "376da83fe1f5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "66d8e758b91b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "78840fa7b497",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "365d2294d02e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d1894ecffe67",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6810176b2bb4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "eedbb6e4502d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0387b94a192e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "13544eed87a7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fa5ca776fe23",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9c71ff00a8f3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a06ed09a95c5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fece9e9eba56",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7c44d8f85c5b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a728087de307",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6ebe4d33dd6f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "48dc86bc4f5c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7f90f1440d13",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "600bbf78c520",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "18988e0bed29",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "60f74cfaf044",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "03b70f05ae1d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7aa4fec800ab",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3a0b046017e0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6f8ab2fa9787",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "ed05451e0fe2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1587cc850335",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aae1f59c222f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0da44abeb74e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "52aea386a24c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d8942cc7556c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f61c5b70f998",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "514526410ed9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c23475b17dcc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8a36d669b1da",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8ebc2ad08ce2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6d283e43ce4c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b3167b2a7bc2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "900b676ec70d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "91aeae47cf34",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "926f1a8f16f7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3817756d30f6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "64091e3a28a8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bf0742aba538",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7152e7d6fb1b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a6fdbedc81cb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "26987757dfc9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "adf0be352227",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e54279f002d8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4f16b5bb19e2",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "488fa9813e02",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "baea330ff25e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3be25e04c039",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4b84e80fb6f1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0d416c134b1e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0a875bec65b6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d97aaa2e2267",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0d3d1ca8f9b1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4c4580469b3a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "80baac2efc81",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8869e9031f2c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "73fb46bdebc2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "53764335d2a8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4340cd7ede51",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "552d9d74383e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "120a5bc969b7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4a4e7873f672",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "752df2c74c4e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "645dccbc0220",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bfc6f6293740",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c36e3062f6f3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a89db0c8327b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3245ab4f32be",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f95f04cf1524",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6cdc4382499d",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "hydrology",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 9,
+    "books": [
+      {
+        "OCLC": "c351389a1255",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4c4dee3a95a3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "75ad1e31dfeb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "62ce9620ff51",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9e26dd4ae104",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0440ad72b186",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4a3469904901",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2a514e7f925d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2d43237ecf61",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "materials",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "af121c940b62",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4f3ec68b8259",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "776b249d61f5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1c81ebadcaef",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f2f43dc8c2d5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "109a4d3a890e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "79ea5f1f0edb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d348ce4c4a86",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9841e08c27ff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cf8348f52443",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7b9b1c7d6f72",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b4a39b6daaf8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "373ebcad199a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bb90474324d8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bed247c73d1b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "499e53c83e75",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cc591ffc8f07",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e9601fdfe9c1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "48aba45fa13d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fa3a09c38ccf",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "materials",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "ea7f2ace907f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e620c51cc190",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c44cc16f8ee4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "266a9580fbff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1c25a901de75",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "02a388051266",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "586ce6fe1ef2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cad116fe845f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dbb5c2b6a4a6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b49c93cf2b1e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "daa5167971e5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "32405b5e92bc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "40d8ff459f9a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e9bf2379cab5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "97c485500b34",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2230f7f364c3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bfa5ade6c00f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6c577b33a7c8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "81eb81b090a6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "348ec0f9bba1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "79490a54e087",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d48372d2a45c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9c2fd1cdc934",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9176e27959c9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e6787399f822",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "materials",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "70ffab1b3fdf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5a06e77d9ce7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4931a2df4cf3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f6071388560d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "086a4491cece",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "871f51f93c00",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7db00a5b9d0e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a066e1d69fdb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0e25bb46b2c7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bb278fa01433",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "09e284a7bfe0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9a140445e541",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "760181f71ae6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c7f6850efd51",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "73148e9f1b15",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0e76a2e16bdf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0d9e23974548",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e2b7f2f20764",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9c429fae54ec",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6fe528ecd7e3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b21e6afa3d5d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "da586034bb0c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1ea424949b5e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7829b95701cb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c30768bebc20",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "materials",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "e6bc1997685f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dd4275680670",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "515a3da4e27b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "48ad29a5fe97",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "503e57ecabc1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "964e685f5d72",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6a545a2bafd3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a7b2e3451d74",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c1c8aa0fdfeb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4d2ccab3db29",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5d903bfc4a2a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2e89366d4543",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "522b7de00abf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a459775114c7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ab184df34e5e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "24799586735c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ad1ffd498ef2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f1ea73290439",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8d871456a684",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "46dee7f91452",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0b4608530eb4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c318a96b22bc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3801f8445514",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5953612e7513",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f86b5065fa60",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "materials",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "cecfe19535a9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "38622212f8fe",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f180b6605882",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8e4516e7be72",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8abcc5dd9108",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0283c97f1610",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "71af61b4bd03",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9bf2303b97a8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4e9d824d3238",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8271c4b36308",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "338dbb23bce2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "391c8ad3a89f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c37004c816ae",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3f40c2810d3c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cadc493a0422",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "655bb9e87cb3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "94f39f8644c8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7343d24f3531",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "da5ee04a75c4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9eacb67e8846",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "48221c69c2bb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "afe1261ea6e4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9ddff0e070c7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2bf86767860d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "36a248738dc9",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "materials",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 7,
+    "books": [
+      {
+        "OCLC": "8e7d669f6c5b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "199dca8c7212",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "925fcaecc571",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cdcbf4614174",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2431622c1da5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "be3d16213d04",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d9f7c10268cc",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "modelling_simulation",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "0c0005a84c63",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "00cb8a1f5c2b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aee88e06ee3b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2705a7a2ecba",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6a7a12f6571b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "33633fe240bb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a9364945b435",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a0440cfb9d26",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9de832ffa2e1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "69a5efbf51ba",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a59a12387b86",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "94146299100e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1af379580708",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b6d05006ea1b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "28ae8158779c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cfd8ffdaa768",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "eb4342a473cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "902a40386090",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f7eb0cffad25",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c86c9a63477c",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "modelling_simulation",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "d958fa03003a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6ba9dc9e26f2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9fe441fa9245",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8ccdcc08ebce",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dc06d770a232",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "18c23048fee4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "67b83b619ac3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3b2d702a5b7b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d25f83d63255",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "049503a265bd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b95eaf6fffae",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8da3877d05ff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d41aaddaa1b2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "93695117cc18",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d367d2307430",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7e7a6dd470a3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cd582d6713ec",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c7910cd79d9e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2021b40b77fd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dcda33ad0e20",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "eafede1032ed",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dac5946602c5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "adf053a4dcda",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c21148201639",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aacbb68683cd",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "modelling_simulation",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "c7ec864cf954",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "29e962a09183",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b440b554945b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4bd1626fce74",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "09f319c2da17",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8ea4cede6f9d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "70af62ad49a7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0e779e7fe246",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0c860bae1634",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f75363e6e6bb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1044f1e25f1c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1fd068b41de6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e1d48d53860e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a5b4c7c91160",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5e6e5c2a7444",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a3bc53071dd0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c43b80f51f2f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d74e980f724a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a9fa3a084578",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6622df21bccf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2147921b6cbc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "58dd5853ab6d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "277192a03306",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f68d65e6ea85",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3c469c98530d",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "modelling_simulation",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "8c8ef2c43db4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6eb7ec7e2d11",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "739d11f2a2b5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3fb02fc28eb7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fe901b9d6e23",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1baa84b5c9e4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fba7a0808ced",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2b4e0e00dc10",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "283e0cf33ee6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "119966edf1ce",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8459e5409342",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "85c030dd1a15",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "661a5b64084b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ce0c0af27c0d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7143e182619c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "35e4d83d1f57",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aa42e67377f1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fb1ab1a840ae",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6773fb5ed19a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "82ae04b8feed",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8b4bb16e956f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d71377b6b73d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "76f5f5cbab48",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8918133231cd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a03e84ba2c08",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "modelling_simulation",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 7,
+    "books": [
+      {
+        "OCLC": "aedbfa30cf63",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c4f686f688c7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2efbef3d8e69",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e3029b2e211f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4c11c8c1eba6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d43d4b1816ce",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "55341c65e3ce",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "multimedia",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "481128023601",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "374ec5f71d63",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ced18c6c0fc4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c8e8a23165e9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2234f1a13edc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "57bf6555ea13",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ca332eea15b8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cca2e6db0d50",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "80fb1e72ac24",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "48e0246b3883",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "65528f886a76",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1f18b287b8c9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "374960ce960c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7b291f67f6ca",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6d19c0f3909f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "361b8e811e9d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b8edcf9570d0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9cc7ab7610a5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "434571bc76c2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c7a40013c006",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "multimedia",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "8f277fd23504",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "42cde2ce3914",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "47b30c574382",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8a8e3a1d4307",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "25f6f9bf7da7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0aacfa01bf28",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cf4d9ef5b6c0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1d606c7138ca",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c27c64eb3dd1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3a0d9228a29f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "adcbde73113a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d378e3bfb493",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c7a50cf5c1cf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b0ba4163b2b0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "75d7590e535a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "092f707b3256",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "53a6677843f6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7d504878ffd0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2734509868da",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a4f63ff3fcb9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bdb4eb36b42f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "200896fb3445",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8aab42378878",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "feee5c24a4ee",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1bdb53b0f81c",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "multimedia",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "c2d493ab03cb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "069bfd193897",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ca3df57ea731",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4db378a90c19",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6738334909a3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e0c557c6079c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6e6c256c654e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "82a3811bbdd9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cbe34d1b7261",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5f8714dbc2ef",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c645482a8e2d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "67879caadc3c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e5354f2902b9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4701c92fe2d6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "23a41a21b66b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "56b7d60e6f97",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ba22b005a26f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e62351dba8ac",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4545c1cceb45",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8f5af11ff52f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d4f70b7ef0c4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "411826d0335a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "becd4e11cbd9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "26fa9b280d9c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8636ac03f5c0",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "multimedia",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 19,
+    "books": [
+      {
+        "OCLC": "5d8139efc785",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "04bac4c29334",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "81966190a227",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7c60b0cafe90",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "676d1e1d24e8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b6daa8cc13a2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "397388c30d24",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "febbab6d694f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aeed525f9fa2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "269bb89b081a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4edee26f233c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d11945b4c8f4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "002a679f85ff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8234d47b6e14",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5da641694305",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5e59b8214b29",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cd7f65f3b0e6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f6e589958c5e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2181693d4b1d",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "transportation",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "03fa151f5b24",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7b24ad29d770",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4eb75a8f4528",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1d7b439c5215",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "25fa44e96922",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ac966dad3586",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "59c6e5c346f6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a4b484f723ff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "77a341972d8a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cc6f41194ff4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d3ef67cd81ec",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "864bbe87d8e8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "03d9fa3a680f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "110c82d67535",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "45141ab28ef4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "92ae7325caff",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2751db9cd642",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bb0e9e9feae1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fc2eb51cd2b9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5934969d411c",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "transportation",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "af17cc402d1e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fa28538dae9a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c7f01367d0c0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e2fe7abdbd41",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dd07810ab75e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "df7b770e450c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f36cb8a1fd6e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "156f2916000a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8b16894cc936",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "be9e8e2f25f5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "02f256b2ec50",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b49ed9f614ae",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f7262743ee54",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a3e68c2d8324",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "60527fb27d4b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2077d52c45bc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9f89e15c2a92",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "46e5e2f50275",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3ba6083387ee",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f20e31a4647b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "67a9443aebfb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "40bed3ec67c4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "545faf1a7c07",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1b162e1f1057",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "611629947785",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "transportation",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "d1dd7fad84eb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a3e378308453",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2c48470e8634",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "87430bcfb43f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f648fe589872",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "792d065f557f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e513e5545af2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "114a87fb1f62",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b25111bae542",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a990975c0b23",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "49caa44ad792",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aeade8da8ad2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5365df63bc16",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "df9980a96ba2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "70e350688093",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "12a096e587fc",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6f6f83f64ce5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "afb4796adb5c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d2e19e875fe2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "50e59f7e0cf6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "53c0c332fe40",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "392463605445",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4d42d5e9a225",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3d4fe5332a3e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1ca2b5976331",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "transportation",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 15,
+    "books": [
+      {
+        "OCLC": "06149a778183",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "190098fed6e4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "224440e47dba",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "677689e07c85",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fccec6ee07bb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "88596d3f2079",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fdbdc2d09506",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9194cb30aff3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c16615312b2a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dda274c09597",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "38cbda14fb9f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6aedb320de21",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "70bebe84f1c5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ffcee2a4612c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "03a8a5104bcf",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "transportation_2",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 16,
+    "books": [
+      {
+        "OCLC": "701b560055e1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8850a03a4bab",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "39a89b28f7b6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e71ae4d066e0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cde322b8d27c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "100e19b56cfb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "968b9f0819f3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bea42dd5c63f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "06de8b545a08",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "65dd203e4a09",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "37f1af45376d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dd80d9008040",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4a380151639a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ce22ae269f2a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3a06286f7073",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "366758605878",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "urbanization",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "c11d9a1fee0f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5c611e218dd1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c16762f85d2c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bfa28fa0cbc7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "acde95b624e9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "146b2ff1cf2a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "49e50f1a34b7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1464da015271",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c8820362f985",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "852f77f2652e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f9b99ba2f539",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "22e849539334",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0f2e3f8f0b3b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "734dca603e9d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8798dce1293a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "40c265aae9e9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "28ad934d7d27",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2b21451790f7",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "68daecb3f10b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7bb13951620e",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "urbanization",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "bd249e537c54",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6e2f107256c0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c0f13a752771",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "8ca2eb765714",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9425f4712000",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1a845fde324c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b91726d94103",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d14aea18bf9c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "50b24d46bc6d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dbb9e5eee7c2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "25bd2cb14bba",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6763a4a3453a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "02e48f364f79",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ae0657ecb899",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cf957531f42c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "280e5c727be3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a9b7a2b75365",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0cf0db338c65",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1403f2c523d8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "68f6ee3e5981",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "799c3d552b94",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "054ba633a07c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "34809fa8aad6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "00e11f2ccd16",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a8b9bdf1a654",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "urbanization",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 24,
+    "books": [
+      {
+        "OCLC": "589e0c4b8d5c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b10c14f19e6c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cf197ad82d37",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "75cde5c1d046",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dcfadb7bc10d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dab4bd0cc119",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2ed66aef9cdf",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d9440e52253d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d20bbaa5d2b5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2fa106b5d189",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "524762c7aff0",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ec93f68a655d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "85dc3b83be02",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "878ced973730",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b05fff6e8c37",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9fd329ab5d22",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5d18a3219d7e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d4a66b6b250d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "653478bb51e6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "22b825976325",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fff6fd0ebd60",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "aafe31dbb2de",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ca9dc4c329b3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e043d1ded875",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "weather",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "521d9238b1be",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "45eed927d455",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2ed44c23e670",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4a8545bd238b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6b47a48d9916",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2b61a76e202b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a6dc7d981185",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "68cfbad8226f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3902328ebe9c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4c8cf3e96447",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b798abf5917e",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c46a1006f66d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ff3f2d7a0d5c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "6796977e00c9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "b870768f619f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dc3b5ea606a8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7dffe86e0647",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5660d9e7fbdd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7c96e5c06761",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "54a0fd7cf4bb",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "weather",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "4a9090211b98",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "082b7a052f4b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "36f7b94ab21f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ae3cc9ddc6f5",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "39121fc59c63",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3fe50076e557",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fb1d6e36d39f",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "e5a9b901b271",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2822d7c2d264",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bb89e34d0cf8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cda14ef928fb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "af79b941ae10",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "343b41ea033b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2ad5860cf373",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "252cfddb5b5b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "dfca1810a59a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "4cb773c78632",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "77ef9b75fa82",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "794739e6edc6",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "9da2f40aeb18",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "f66c6b49ae7c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "bf51a6032d7c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "cd7da74e8268",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "7f1c2b57590d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "103bd744ec87",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Dissertations",
+    "topic_id": "dissertations",
+    "sub_topic": "weather",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 24,
+    "books": [
+      {
+        "OCLC": "470d3c2ad6da",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "5c98f7f5270a",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2a9108e17b32",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3e43d4e67fe4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "505a8c6869f1",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "368adf04fec2",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "991498f0bf12",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "55ddbf1679bd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "308f3f6825fd",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "78610bfd14cb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "2623e0954ae9",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "459557ead76c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "c87b6970df0b",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "fe6a155f285d",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1c1507449ffb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "0aa10d075cf8",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3e040239025c",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "d0246f80ffdb",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "64667b902e84",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3f5f83e28aec",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "3254529c05f4",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "ce18b565cae3",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "a27d0d7bfc77",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "49645a8d417e",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
     "topic": "aerospace engineering",
     "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",

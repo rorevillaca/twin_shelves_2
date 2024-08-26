@@ -1,0 +1,29 @@
+.object_view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 23, 41, 0.9);
+    display: none;
+    z-index: 1000;
+    color: white;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: 3fr 11fr 2fr;
+  }
+  
+  .shelf_view--content{
+    grid-area: 2 / 2 / 2 / 2;
+    /* border:1px solid white; */
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+    
+  .shelf_view--name_holder{
+    grid-area: 3 / 1 / 3 / -1;
+    display: flex;
+    align-items: center;
+    white-space: nowrap; 
+  }
+

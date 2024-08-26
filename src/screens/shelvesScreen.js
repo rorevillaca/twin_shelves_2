@@ -8,9 +8,9 @@ export function initShelvesScreen() {
     backButton("#shelf-view--header")
 }
 
-export function populateShelfView(topic_id, topic_name, topicId){
+export function populateShelfView(topic_name, topicId){
 
-    var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topic_id);
+    var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topicId);
     var numberOfBookcases = bookCaseCurrentTopic.length
     var uniqueSubtopics = [...new Set(bookCaseCurrentTopic.map (item => item.sub_topic))]
     var topic_holder = d3.select(".shelf_view--topic_holder")
@@ -91,8 +91,13 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
                 book.style("min-width", "28%")
                 book.style("min-height", "23%")
             } else {
-                book.style("min-width", "18%")
                 book.style("min-height", "18%")
+                if  (bookcase_content.virtual_shelf_temp === 1){
+                    book.style("min-width", "23%")
+                } else {
+                    book.style("min-width", "18%")
+                }
+                
             }
 
                 if (coverFilename === "NA") {

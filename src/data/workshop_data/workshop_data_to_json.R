@@ -5,10 +5,38 @@ library(tidyverse)
 library(jsonlite)
 
 
+get_dissertation_data <- function() {
+  final_names_1 <- read.csv2("C:/Users/Revi/Desktop/Github/DistributedDisplays/topic_modelling/15_shelves/theses_1_by_callnumber.csv",
+                             sep = ",")
+  final_names_2 <- read.csv2("C:/Users/Revi/Desktop/Github/DistributedDisplays/topic_modelling/15_shelves/theses_2_by_callnumber.csv",
+                             sep = ",")
+  all_names <- final_names_1 %>% bind_rows(final_names_2)
+  metadata <- read.csv2("C:/Users/Revi/Desktop/Github/DistributedDisplays/collections_overview/all_relevant_theses_metadata.csv",
+                        sep = ",") %>% group_by(Title) %>% slice_head(n = 1)
+  all_names %<>% left_join(metadata, by=c("title"="Title"))
+  all_names %<>% mutate(OCLC=substr(link,79,90))
+  all_names %<>% select(title,authors = Author,
+                        year = year_final,
+                        description = Abstract,
+                        std_call_number = call_numbers,
+                        OCLC,
+                        sub_topic = topic)
+  all_names %<>% mutate(shelf = 1072,
+                        floor=1,
+                        topic_id = "dissertations",
+                        topic = "Dissertations",
+                        year = as.character(year),
+                        std_call_number = stringr::str_replace_all(std_call_number," ",""),
+                        std_call_number = toupper(std_call_number))
+  return(all_names)
+}
+
+
 curr_path = rstudioapi::getSourceEditorContext()$path
 curr_path <- sub("/[^/]*$", "", curr_path)
 books <- openxlsx2::read_xlsx(paste0(curr_path,"/","workshop_data.xlsx"))
 recommended_books <- openxlsx2::read_xlsx(paste0(curr_path,"/","recommended_books.xlsx"))
+dissertations <- get_dissertation_data()
 
 recommended_books %<>% mutate(
                         topic = "Book Recommendations", 
@@ -22,7 +50,8 @@ recommended_books %<>% mutate(
 
 recommended_books %<>% filter(sub_topic != "Willemijn Elkhuizen") 
 
-books %<>%  bind_rows(recommended_books) 
+books %<>%  bind_rows(dissertations)
+books %<>%  bind_rows(recommended_books)
 
 books_json <- books  %>% 
   select(title,authors,year,OCLC,description,std_call_number,floor,cover_file,shelf) %>% 
