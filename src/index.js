@@ -5,6 +5,7 @@ import { ParsePolygons } from "./utils/data.js"
 import { initDirectionsScreen } from "./screens/directionsScreen.js"
 import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
+import { loadStudentWork } from "./screens/studentWorkScreen.js" 
 
 let currentlySelectedSection = ""
 let animationRunning = false;
@@ -133,6 +134,7 @@ function  magnifying_glass(topic){
                 break
               case "student_work":
                 object_view.style.display = "grid";
+                loadStudentWork()
                 break
               default:
                 shelf_view.style.display = "grid";

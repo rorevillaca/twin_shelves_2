@@ -163,7 +163,7 @@ function fillInfoCard(info_card, OCLC){
     const locationDetails = info_card.
         select(".info_card--location_details")
         .on('click', () => {
-        openDirectionsScreen(OCLC)
+            openDirectionsScreen(OCLC)
     })
 }
 
