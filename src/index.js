@@ -5,7 +5,7 @@ import { ParsePolygons } from "./utils/data.js"
 import { initDirectionsScreen } from "./screens/directionsScreen.js"
 import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
-import { loadStudentWork } from "./screens/studentWorkScreen.js" 
+import { initStudentWork } from "./screens/studentWorkScreen.js" 
 
 let currentlySelectedSection = ""
 let animationRunning = false;
@@ -13,6 +13,7 @@ let animationRunning = false;
 initMainScreen()
 initShelvesScreen()
 initDirectionsScreen()
+initStudentWork()
 
 const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 const wallWidth = wallContainerAttrs.width * 0.95
@@ -134,7 +135,6 @@ function  magnifying_glass(topic){
                 break
               case "student_work":
                 object_view.style.display = "grid";
-                loadStudentWork()
                 break
               default:
                 shelf_view.style.display = "grid";

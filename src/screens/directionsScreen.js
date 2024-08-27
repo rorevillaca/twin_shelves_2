@@ -13,15 +13,13 @@ export function initDirectionsScreen() {
     wall(wallContainer, "90%", true)
 }
 
-export function openDirectionsScreen(OCLC) {
+export function openDirectionsScreen(bookInfo) {
     d3.select(".directions-view").style("display", "grid");
 
-    const book_info = workshop_data.filter(book => book.OCLC === OCLC)[0];
-
-    addBookCover(book_info.cover_file)
-    addBBookDetails(book_info)
-    addQR(book_info.OCLC)
-    addPath(book_info.shelf, book_info.floor)
+    addBookCover(bookInfo.cover_file)
+    addBBookDetails(bookInfo)
+    addQR(bookInfo)
+    addPath(bookInfo.shelf, bookInfo.floor)
 }
 
 
@@ -68,17 +66,29 @@ function addBBookDetails(bookInfo){
     locationContainer.append("h3")
         .text(bookInfo.authors)
 
-    const locationText = `Code: <b>${bookInfo.std_call_number}</b><br>Floor: <b>${bookInfo.floor}</b><br>Shelf: <b>${bookInfo.shelf}</b>` 
+    var locationText = ""
+
+    if ("std_call_number" in bookInfo) {
+        locationText = locationText +  `Code: <b>${bookInfo.std_call_number}</b><br>`
+    }
+
+    locationText = locationText + `Floor: <b>${bookInfo.floor}</b><br>Shelf: <b>${bookInfo.shelf}</b>` 
     locationContainer.append("div").html(locationText)
 }
 
-function addQR(OCLC){
-    const worldcatURL = `https://tudelft.on.worldcat.org/oclc/${OCLC}`
-    const qrCode = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcatURL)}&size=150x150&color=131-143-240&margin=10`
+function addQR(bookInfo){
     const imgContainer = d3.select(".directions-view__book-details__QR_holder")
-    imgContainer.select("img").remove()//Remove previous QR (if any)
-    imgContainer.append("img")
-      .attr("src", qrCode)
+    imgContainer.text("")
+    imgContainer.select("*").remove()//Remove previous QR (if any)
+    if ("OCLC" in bookInfo) {
+        const OCLC = bookInfo.OCLC
+        const worldcatURL = `https://tudelft.on.worldcat.org/oclc/${OCLC}`
+        const qrCode = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcatURL)}&size=150x150&color=131-143-240&margin=10`
+        imgContainer.text("Scan to see more:")
+        imgContainer.append("img")
+        .attr("src", qrCode)
+    }
+
 }
 
 function addPath(shelfNumber, floorNo){
@@ -95,23 +105,23 @@ function addPath(shelfNumber, floorNo){
 
 
     addShelfHighlight(shelfCoords, 
-                      kioskCoordPercentage,
-                      kioskOffset,
-                      wallContainer, 
-                      wallContainerAttrs, 
-                      waypointSize, 
-                      adjustedHeight,
-                      yOffset,
-                      originalShelfWidthPercentage)
+        kioskCoordPercentage,
+        kioskOffset,
+        wallContainer, 
+        wallContainerAttrs, 
+        waypointSize, 
+        adjustedHeight,
+        yOffset,
+        originalShelfWidthPercentage)
 
     const route = buildRoute(shelfCoords,
-                             floorNo, 
-                             kioskCoordPercentage,
-                             wallContainerAttrs,
-                             adjustedHeight,
-                             yOffset,
-                             kioskOffset,
-                             originalShelfWidthPercentage)
+        floorNo, 
+        kioskCoordPercentage,
+        wallContainerAttrs,
+        adjustedHeight,
+        yOffset,
+        kioskOffset,
+        originalShelfWidthPercentage)
     animatePath(route)
 }
 

@@ -278,13 +278,13 @@ html, body{
 }
 
 .info_card--location_details--button{
-  flex: 1;
   height: auto;
   background-color: #808ff7;
   border-radius: 20px;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  padding: 6px 10px 6px 10px;
 }
 
 

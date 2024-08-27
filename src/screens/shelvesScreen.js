@@ -1,5 +1,5 @@
-import {backButton} from "../components/backButton.js"
-import {openDirectionsScreen} from "./directionsScreen.js"
+import { backButton } from "../components/backButton.js"
+import { openDirectionsScreen } from "./directionsScreen.js"
 import { subtopicDivider } from "../components/subtopicDivider.js";
 
 
@@ -163,7 +163,8 @@ function fillInfoCard(info_card, OCLC){
     const locationDetails = info_card.
         select(".info_card--location_details")
         .on('click', () => {
-            openDirectionsScreen(OCLC)
+            const bookInfo = workshop_data.filter(book => book.OCLC === OCLC)[0];
+            openDirectionsScreen(bookInfo)
     })
 }
 

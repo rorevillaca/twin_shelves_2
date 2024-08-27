@@ -1,4 +1,11 @@
-export function loadStudentWork() {
+import {backButton} from "../components/backButton.js"
+import { openDirectionsScreen } from "./directionsScreen.js"
+
+
+export function initStudentWork() {
+
+    backButton("#object_view--header")
+
     const summaryContainer = d3.select(".object_view--content")
 
     const photo = summaryContainer
@@ -49,7 +56,16 @@ export function loadStudentWork() {
     location
         .append("div")
         .attr("class", "studentWorkLocationButton")
-        .html('<b>See location</b>&emsp;<img src="src/res/Font-Awesome/arrow-circle-right.svg" class="inline-icon">')   
+        .html('<b>See location</b>&emsp;<img src="src/res/Font-Awesome/arrow-circle-right.svg" class="inline-icon">')
+        .on('click', () => {
+            const info = {
+                title: "Student Work",
+                cover_file: "../photos/student_work.png",
+                floor: 2,
+                shelf: 495
+            }
+            openDirectionsScreen(info)
+    })
 
 }
 
