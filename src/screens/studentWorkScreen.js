@@ -1,5 +1,5 @@
 import {backButton} from "../components/backButton.js"
-import { openDirectionsScreen } from "./directionsScreen.js"
+import {openDirectionsScreen} from "./directionsScreen.js"
 
 
 export function initStudentWork() {

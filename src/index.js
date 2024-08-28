@@ -6,6 +6,8 @@ import { initDirectionsScreen } from "./screens/directionsScreen.js"
 import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
 import { initStudentWork } from "./screens/studentWorkScreen.js" 
+import { initHeritageObjects } from "./screens/heritageObjectsScreen.js" 
+
 
 let currentlySelectedSection = ""
 let animationRunning = false;
@@ -14,6 +16,7 @@ initMainScreen()
 initShelvesScreen()
 initDirectionsScreen()
 initStudentWork()
+initHeritageObjects()
 
 const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 const wallWidth = wallContainerAttrs.width * 0.95
