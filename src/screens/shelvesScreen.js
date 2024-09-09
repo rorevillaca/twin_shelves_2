@@ -101,7 +101,7 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
             }
 
                 if (coverFilename === "NA") {
-                    book.style("background-color", "silver");
+                    book.style("background-color", "#2c2651");
                 } else {
                     book.style("background-image", `url("src/res/resized_covers_struct/${coverFilename}")`)
                 }

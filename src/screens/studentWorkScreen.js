@@ -32,14 +32,14 @@ export function initStudentWork() {
         .append("div")
         .attr("class","studentWorkExtraDetails")
 
-    const exhibitionURL = `https://tudelft.on.worldcat.org/oclc/`
+    const exhibitionURL = `https://www.youtube.com/watch?v=mO_CqZ8hk7g`
     const QRCode = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(exhibitionURL)}&size=150x150&color=131-143-240&margin=10`
 
     
     const QR = extraDetails
         .append("div")
         .attr("class","studentWorkQR")
-        .text("Scan to see more about the collection:")
+        .text("Scan to learn more about the collection:")
         .append("img")
         .attr("src", QRCode)
 
