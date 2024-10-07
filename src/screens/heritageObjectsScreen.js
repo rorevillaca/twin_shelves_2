@@ -26,7 +26,7 @@ export function initHeritageObjects(){
             .attr("class", "heritageObject")
             .attr("shelf", currShelf)
             .style("background-image", `url("src/res/photos/heritage_objects/${objectData.photo}")`)
-            // .style("background-color", objectData.color)
+            .style("background-color", objectData.color)
     })
 }
 

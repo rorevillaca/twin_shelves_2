@@ -26,7 +26,7 @@ export function initStudentWork() {
     const description  = details
         .append("div")
         .attr("class","studentWorkDescription")
-        .html("Description:<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.     Nullam id dolor quis urna aliquet fermentum. Sed suscipit turpis vel tortor viverra, nec tincidunt orci pulvinar. Aenean nec purus ut justo laoreet gravida. Proin nec libero sit amet lacus vehicula ullamcorper. Suspendisse potenti. Sed id convallis nulla, ac bibendum enim. Quisque egestas volutpat velit, non dictum nibh aliquam eget. Integer nec nulla nec lacus tincidunt venenatis sit amet ut magna. ")
+        .html("Description:<br><br>Through course collaborations, students drew inspiration from the library's extensive collections to create their own works. The CW prototype #2 explores how the Collection Wall can become a co-curated source of knowledge for academic pursuits across campus. The creative results are now showcased on the Wall, offering an interactive experience for the visitors. The authors’ names and photos are prominently featured, celebrating the students' contributions.<br><br>Additionally, professors involved in these courses are invited to curate their own shelves, presenting their TOP 10 book recommendations. This integration of student and faculty inputs with our collections not only enriches the library's offerings but also fosters a collaborative academic environment. The Collection Wall thus becomes a dynamic space where visitors can engage with curated knowledge, fostering inspiration and scholarly exchange. ")
 
     const extraDetails  = details
         .append("div")

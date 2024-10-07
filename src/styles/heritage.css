@@ -21,25 +21,26 @@
   }
 
   .heritageInfoCard{
-    min-width: 64%;
+    min-width: 75%;
     height: 100%;
     background-color: rgba(30, 28, 39, 0.6);
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-direction: column;
     row-gap: 4%;
   }
 
-  .heritageInfoCard:last-of-type {
+  /* .heritageInfoCard:last-of-type {
     margin-right: 4%;
-  }
+  } */
 
   .heritageInfoCard--block {
-    flex : 1;
-    background-color: red;
+    flex : 1; 
+    background-color: rgba(30, 28, 39, 0.6);
   }
 
   .heritageObjectShelf{
-    min-width: 32%;
+    min-width: 25%;
     height: 100%;
     display: flex;
     flex-direction: column;
