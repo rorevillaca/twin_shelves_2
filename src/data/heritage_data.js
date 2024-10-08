@@ -1,6 +1,7 @@
 const heritage_data = [
     {
         "faculty": "Technology, Policy and Management",
+        "abbreviation": "TPM",
         "color": "#a065aa",
         "photo": "TPM.jpg",
 
@@ -24,6 +25,7 @@ const heritage_data = [
     },
     {
         "faculty": "Industrial Design Engineering",
+        "abbreviation": "IDE",
         "color": "#da2d4f",
         "photo": "IDE.jpg",
         "object": {
@@ -46,6 +48,7 @@ const heritage_data = [
     },    
     {
         "faculty": "Electrical Engineering, Mathematics and Computer Science",
+        "abbreviation": "EEMCS",
         "color": "#f17795",
         "photo": "EEMCS.jpg",
         "object": {
@@ -68,6 +71,7 @@ const heritage_data = [
     },
     {
         "faculty": "Civil Engineering and Geosciences",
+        "abbreviation": "CEG",
         "color": "#3d6cb5",
         "photo": "CEG.jpg",
 
@@ -91,8 +95,9 @@ const heritage_data = [
     },
     {
         "faculty": "All",
+        "abbreviation": "TU DELFT",
         "color": "gray",
-        "photo": "All.jpg",
+        "photo": "All_illustration.png",
 
         "object": {
             "title": "",
@@ -114,8 +119,9 @@ const heritage_data = [
     },
     {
         "faculty": "Architecture and the Built Environment",
+        "abbreviation": "A+BE",
         "color": "#30b56b",
-        "photo": "ABE.jpg",
+        "photo": "ABE_illustration.png",
 
         "object": {
             "title": "",
@@ -137,6 +143,7 @@ const heritage_data = [
     },
     {
         "faculty": "Mechanical Engineering",
+        "abbreviation": "ME",
         "color": "#28b8c5",
         "photo": "ME.jpg",
         "object": {
@@ -159,6 +166,7 @@ const heritage_data = [
     },
     {
         "faculty": "Applied Sciences",
+        "abbreviation": "AS",
         "color": "#fcb545",
         "photo": "AS.jpg",
 
@@ -182,6 +190,7 @@ const heritage_data = [
     },
     {
         "faculty": "Aerospace Engineering",
+        "abbreviation": "AE",
         "color": "#f6905c",
         "photo": "AE.jpg",
 

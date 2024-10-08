@@ -21,13 +21,29 @@ export function initHeritageObjects(){
         const objectData =  heritage_data[objectId - 1]
         const currShelf = Math.floor((objectId-1) / 3)
         const shelf = objectContainer.select(`#shelf_${currShelf}`)
-        shelf
-            .append("div")
-            .attr("class", "heritageObject")
-            .attr("shelf", currShelf)
-            .style("background-image", `url("src/res/photos/heritage_objects/${objectData.photo}")`)
-            .style("background-color", objectData.color)
+
+        Thumbnail(shelf, objectData, currShelf)
+
     })
+}
+
+function Thumbnail(shelf, objectData, currShelf){      
+    const holder = shelf
+        .append("div")
+        .attr("class", "heritageThumbnail")
+        .attr("shelf", currShelf)
+        
+    const colorBar = holder.append("div")
+        .attr("class", "heritageColorBox-container")
+        .style("background-color", objectData.color)
+        .append("span")
+        .attr("class", "heritageColorBox-text")
+        .text(objectData.abbreviation)
+
+    const image = holder.append("div")
+        .attr("class", "heritageImage")
+        .style("background-image", `url("src/res/photos/heritage_objects/${objectData.photo}")`)
+        
 }
 
 function infoCard(container, index){

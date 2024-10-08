@@ -17,16 +17,15 @@
     display: flex;
     overflow-x: auto;
     padding-bottom: 10px;
-    column-gap: 1%;
+    column-gap: 5%;
   }
 
   .heritageInfoCard{
-    min-width: 75%;
+    min-width: 65%;
     height: 100%;
     background-color: rgba(30, 28, 39, 0.6);
-    /* display: flex; */
+    display: flex;
     display: none;
-    flex-direction: column;
     row-gap: 4%;
   }
 
@@ -40,20 +39,43 @@
   }
 
   .heritageObjectShelf{
-    min-width: 25%;
+    min-width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 2%;
   }
 
-  .heritageObject{
+  .heritageThumbnail{
     flex: 1;
-    width: 100%;
-    background-size: contain;
+    display: flex;
+    background-color: rgba(30, 28, 39, 1);
+  }
+
+  .heritageImage{
+    width: 85%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  .heritageColorBox-container{
+    display: flex;
+    min-width: 15%;
+    max-width: 15%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heritageColorBox-text{
+    transform: rotate(-90deg); /*Rotate text*/
+    display: block;
+    text-wrap: nowrap;
+    font-weight: 700;
+    font-size: medium;
+    letter-spacing: 3px;
+  }
+
 
   .heritage_view--content::-webkit-scrollbar{
     display: none;
