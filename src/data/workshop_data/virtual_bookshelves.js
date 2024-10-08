@@ -1090,27 +1090,27 @@ const virtual_bookshelves = [
     "books": [
       {
         "OCLC": "1362866564",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_1362866564.webp"
       },
       {
         "OCLC": "1378931447",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_1378931447.webp"
       },
       {
         "OCLC": "1354951065",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_1354951065.webp"
       },
       {
         "OCLC": "23972182",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_23972182.webp"
       },
       {
         "OCLC": "1369522939",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_1369522939.webp"
       },
       {
         "OCLC": "71807799",
-        "cover_file": "NA"
+        "cover_file": "_recommended_books/cover_71807799.webp"
       },
       {
         "OCLC": "950569633",
@@ -1194,39 +1194,47 @@ const virtual_bookshelves = [
         "cover_file": "NA"
       },
       {
-        "cover_file": "NA"
+        "OCLC": "51NPDx7pYJL",
+        "cover_file": "_recommended_books/cover_51NPDx7pYJL.webp"
+      },
+      {
+        "OCLC": "1419440183",
+        "cover_file": "_recommended_books/cover_1419440183.webp"
+      },
+      {
+        "OCLC": "892514232",
+        "cover_file": "_recommended_books/cover_892514232.webp"
+      },
+      {
+        "OCLC": "141382385",
+        "cover_file": "_recommended_books/cover_141382385.webp"
+      },
+      {
+        "OCLC": "1100026847",
+        "cover_file": "_recommended_books/cover_1100026847.webp"
+      },
+      {
+        "OCLC": "308216483",
+        "cover_file": "_recommended_books/cover_308216483.webp"
+      },
+      {
+        "OCLC": "1082176473",
+        "cover_file": "_recommended_books/cover_1082176473.webp"
       },
       {
         "cover_file": "NA"
       },
       {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
-      },
-      {
-        "cover_file": "NA"
+        "OCLC": "1327959423",
+        "cover_file": "_recommended_books/cover_1327959423.webp"
       },
       {
         "OCLC": "UAtgxQEACAAJ",
         "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
       },
       {
-        "OCLC": "1327959423",
-        "cover_file": "_recommended_books/cover_1327959423.webp"
+        "OCLC": "1334720971",
+        "cover_file": "_recommended_books/cover_1334720971.webp"
       }
     ]
   },
