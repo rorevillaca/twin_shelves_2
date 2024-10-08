@@ -345,6 +345,79 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
+    "sub_topic": "Elif Ozcan",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 16,
+    "books": [
+      {
+        "OCLC": "1129098750",
+        "cover_file": "_recommended_books/cover_1129098750.webp"
+      },
+      {
+        "OCLC": "839343829",
+        "cover_file": "_recommended_books/cover_839343829.webp"
+      },
+      {
+        "OCLC": "I2RDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_I2RDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "1379313397",
+        "cover_file": "_recommended_books/cover_1379313397.webp"
+      },
+      {
+        "OCLC": "782888043",
+        "cover_file": "_recommended_books/cover_782888043.webp"
+      },
+      {
+        "OCLC": "82672512",
+        "cover_file": "_recommended_books/cover_82672512.webp"
+      },
+      {
+        "OCLC": "1086015792",
+        "cover_file": "_recommended_books/cover_1086015792.webp"
+      },
+      {
+        "OCLC": "71Xo87sjRJL",
+        "cover_file": "_recommended_books/cover_71Xo87sjRJL.webp"
+      },
+      {
+        "OCLC": "1103977614",
+        "cover_file": "_recommended_books/cover_1103977614.webp"
+      },
+      {
+        "OCLC": "91B4C9183XL",
+        "cover_file": "_recommended_books/cover_91B4C9183XL.webp"
+      },
+      {
+        "OCLC": "1126217718",
+        "cover_file": "_recommended_books/cover_1126217718.webp"
+      },
+      {
+        "OCLC": "962391614",
+        "cover_file": "_recommended_books/cover_962391614.webp"
+      },
+      {
+        "OCLC": "97801410357",
+        "cover_file": "_recommended_books/cover_97801410357.webp"
+      },
+      {
+        "OCLC": "1140369992",
+        "cover_file": "_recommended_books/cover_1140369992.webp"
+      },
+      {
+        "OCLC": "1412153743",
+        "cover_file": "_recommended_books/cover_1412153743.webp"
+      },
+      {
+        "OCLC": "780815260",
+        "cover_file": "_recommended_books/cover_780815260.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
     "sub_topic": "Felipe Bucci Ancapi",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 11,
@@ -648,8 +721,8 @@ const virtual_bookshelves = [
         "cover_file": "_recommended_books/cover_71Fmzme8Q1L._SY522_.webp"
       },
       {
-        "OCLC": "51LKgvgK5HL._SY522_",
-        "cover_file": "_recommended_books/cover_51LKgvgK5HL._SY522_.webp"
+        "OCLC": "51LKgvgK5HL",
+        "cover_file": "_recommended_books/cover_51LKgvgK5HL.webp"
       },
       {
         "OCLC": "101109TIT19681054102",
@@ -1011,6 +1084,55 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
+    "sub_topic": "Studium Generale",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "1362866564",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1378931447",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1354951065",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "23972182",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1369522939",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "71807799",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "950569633",
+        "cover_file": "_recommended_books/cover_950569633.webp"
+      },
+      {
+        "OCLC": "1286804805",
+        "cover_file": "_recommended_books/cover_1286804805.webp"
+      },
+      {
+        "OCLC": "1452966194",
+        "cover_file": "_recommended_books/cover_1452966194.webp"
+      },
+      {
+        "OCLC": "858914389",
+        "cover_file": "_recommended_books/cover_858914389.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
     "sub_topic": "Tanya Tsui",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 11,
@@ -1058,6 +1180,53 @@ const virtual_bookshelves = [
       {
         "OCLC": "EP9uzgEACAAJ",
         "cover_file": "_recommended_books/cover_EP9uzgEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Willemijn Elkhuizen",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 12,
+    "books": [
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "UAtgxQEACAAJ",
+        "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
+      },
+      {
+        "OCLC": "1327959423",
+        "cover_file": "_recommended_books/cover_1327959423.webp"
       }
     ]
   },

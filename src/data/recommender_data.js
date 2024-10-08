@@ -182,6 +182,30 @@ const recommender_data = [
       "faculty": "Applied Sciences",
       "color": "f9ad30",
       "sentence": "My suggestion for 10 books on Biomedical Imaging, covers: i) physics behind various imaging techniques, ii) design and synthesis of imaging probes, iii) image reconstruction/data processing, and iv) the role of AI. "
+    },
+    {
+      "id": 29,
+      "name": "Dr.ir. Willemijn Elkhuizen",
+      "name_lastname": "Willemijn Elkhuizen",
+      "faculty": "Industrial Design Engineering",
+      "color": "db214bff",
+      "sentence": ""
+    },
+    {
+      "id": 31,
+      "name": "Studium Generale",
+      "name_lastname": "Studium Generale",
+      "faculty": "",
+      "color": "ea6845  ",
+      "sentence": "We bring you events that challenge your perspective. Debate, listen, imagine, and create beyond your discipline. Find us at sg.tudelft.nl"
+    },
+    {
+      "id": 32,
+      "name": "Dr. E. Ozcan Vieira",
+      "name_lastname": "Elif Ozcan",
+      "faculty": "Industrial Design Engineering",
+      "color": "db214bff",
+      "sentence": ""
     }
 ]
 
