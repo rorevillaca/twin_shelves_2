@@ -57,6 +57,25 @@
   .heritageInfoCard--block {
     flex : 1; 
     background-color: rgba(30, 28, 39, 0.6);
+    display: flex;
+    padding: 1% 15%;
+    column-gap: 5%;
+  }
+
+  .centered{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heritageInfoCard--first-thesis-img, .heritageInfoCard--thesis-img{
+    flex: 1;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .heritageInfoCard--first-thesis-metadata, .heritageInfoCard--thesis-metadata{
+    flex: 4;
   }
 
   .heritageObjectShelf{

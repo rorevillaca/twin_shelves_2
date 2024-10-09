@@ -98,15 +98,21 @@ function infoCard(container, index){
     
     const objectInfo = main
         .append("div")
-        .attr("class", "heritageInfoCard--block")
+        .attr("class", "heritageInfoCard--block centered")
 
     const thesisInfo = main
         .append("div")
         .attr("class", "heritageInfoCard--block")
-
+    
+    thesisInfo.append("div").attr("class", "heritageInfoCard--first-thesis-img")
+    thesisInfo.append("div").attr("class", "heritageInfoCard--first-thesis-metadata")
+    
     const firstThesisInfo = main
         .append("div")
         .attr("class", "heritageInfoCard--block")
+
+    firstThesisInfo.append("div").attr("class", "heritageInfoCard--thesis-img")
+    firstThesisInfo.append("div").attr("class", "heritageInfoCard--thesis-metadata")
 
 }
 
@@ -132,7 +138,35 @@ function populateInfoCard(infoCard, objectData, currShelf){
     //Set location button color
     infoCard.select(".info_card--location_details--button")
         .style("background-color", objectData.color)
-    
+
+    //Add object info
+    const objectInfo = `<b>${objectData.object.title}</b>` 
+    infoCard
+        .select(".heritageInfoCard--block")
+        .html(objectInfo)
+
+    //Add theses covers
+    infoCard
+        .select(".heritageInfoCard--first-thesis-img")
+        .style("background-image", `url("src/res/resized_covers_struct/_first_theses/${objectData.first_thesis.cover}")`)
+    infoCard
+        .select(".heritageInfoCard--thesis-img")
+        .style("background-image", `url("src/res/resized_covers_struct/_first_theses/${objectData.thesis.cover}")`)
+
+    //Add theses info
+    var thesisInfo = `<b>${objectData.first_thesis.title}</b><br>
+                        by: <b>${objectData.first_thesis.author}</b><br>
+                        (${objectData.first_thesis.year})` 
+    infoCard
+        .select(".heritageInfoCard--first-thesis-metadata")
+        .html(thesisInfo)
+
+    thesisInfo = `<b>${objectData.thesis.title}</b><br>
+                        by: <b>${objectData.thesis.author}</b><br>
+                        (${objectData.thesis.year})` 
+    infoCard
+        .select(".heritageInfoCard--thesis-metadata")
+        .html(thesisInfo)
 }
 
 function dimThumbnail({exceptFor, opacity}){
