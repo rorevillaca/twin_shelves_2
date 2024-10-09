@@ -94,7 +94,7 @@ const heritage_data = [
         "url": ""
     },
     {
-        "faculty": "All",
+        "faculty": "TU DELFT",
         "abbreviation": "TU DELFT",
         "color": "gray",
         "photo": "All_illustration.png",

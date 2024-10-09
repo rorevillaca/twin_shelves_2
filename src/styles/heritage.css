@@ -23,15 +23,36 @@
   .heritageInfoCard{
     min-width: 65%;
     height: 100%;
-    background-color: rgba(30, 28, 39, 0.6);
-    display: flex;
     display: none;
-    row-gap: 4%;
+    flex-direction: column;
   }
 
-  /* .heritageInfoCard:last-of-type {
-    margin-right: 4%;
-  } */
+  .heritageInfoCard--header {
+    flex : 2; 
+    align-items: center; /* This centers children vertically */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: 500;
+    font-size: medium;
+  }
+
+  .heritageInfoCard--main {
+    flex : 30; 
+    display: flex;
+    flex-direction: column;
+    row-gap: 1%;
+    padding: 1% 0;
+  }
+
+  .heritageInfoCard--footer {
+    flex : 2; 
+    align-items: center; /* This centers children vertically */
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 1%;
+  }
 
   .heritageInfoCard--block {
     flex : 1; 
@@ -49,7 +70,6 @@
   .heritageThumbnail{
     flex: 1;
     display: flex;
-    background-color: rgba(30, 28, 39, 1);
   }
 
   .heritageImage{
