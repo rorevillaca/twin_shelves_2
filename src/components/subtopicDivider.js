@@ -42,24 +42,29 @@ function recommenderDivider(dividerContainer, data) {
         .attr("class", "dividerName")
         .html(`Recommendations by </br> ${data.name}`)
 
-    const role = divider.append("div")
+    const main = divider.append("div")
+        .attr("class", "dividerMain")
+
+    if (data.name !== "Studium Generale"){
+        main.style("background-color", `#${data.color}`)
+    } else {
+        main.style("background", "linear-gradient(60deg, #ed6741, #ed6741, #ed6741, #666e9e)")
+    }  
+
+    const role = main.append("div")
         .attr("class", "dividerRole")
         .html(data.role)
-        .style("background-color", `#${data.color}`)
-    
-    const phrase = divider.append("div")
+        
+    const phrase = main.append("div")
         .attr("class", "dividerPhrase")
         .html(`<i>"${data.sentence}"</i>`)
-        .style("background-color", `#${data.color}`)
     
-    const QR = divider.append("div")
+    const QR = main.append("div")
         .attr("class", "dividerQR")
-        .style("background-color", `#${data.color}`)
         .style("background-image", `url('./src/res/recommenders/qrs/recommender_${data.id}.png')`)
 
-    const scanLegend = divider.append("div")
+    const scanLegend = main.append("div")
         .attr("class",'dividerScanLegend')
         .html("Scan the QR code to</br>see the full list")
-        .style("background-color", `#${data.color}`)
 
 }
