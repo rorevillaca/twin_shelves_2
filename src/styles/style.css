@@ -32,12 +32,6 @@ html, body{
 }
 
 
-
-
-
-
-
-
 .shelf_view {
   position: fixed;
   top: 0;
@@ -243,7 +237,6 @@ html, body{
   }
   
 .book_details--invisible {
-    /* border: 1px solid #ccc; */
     display: none;
 }
 
@@ -262,7 +255,7 @@ html, body{
 }
 
 .info_card--misc{
-  flex: 3;
+  flex: 2;
   display: flex;
   position: relative;
   text-align: right;
@@ -270,13 +263,21 @@ html, body{
 }
 
 .info_card--QR_holder{
-  height: 100%;
-  width: 45%;
+  display: flex;
+  size: auto;
+  flex-direction: column;
   text-align: left;
+  justify-content: flex-end;
+}
+
+.info_card--QR_holder > img{
+  background-repeat: no-repeat;
+  height: 70%;
+  width: auto;
 }
 
 .info_card--location_details{
-  height: 30%;
+  height: 100%;
   width: 30%;
   position: absolute;
   right: 0;
@@ -285,10 +286,7 @@ html, body{
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-}
-
-.info_card--location_details--text{
-  flex: 0;
+  justify-content: flex-end;
 }
 
 .info_card--location_details--button{
@@ -302,10 +300,7 @@ html, body{
 }
 
 
-.info_card--QR_holder > img{
-  background-repeat: no-repeat;
-  width: 100%;
-}
+
 
 
 .divider{
@@ -369,6 +364,13 @@ html, body{
   display: flex;
   align-items : center;
 }
+
+.dividerMain{
+  flex: 33;
+  display: flex;
+  flex-direction: column;
+}
+
 .dividerRole {
   flex: 4;
   padding: 10% 10% 5% 10%;

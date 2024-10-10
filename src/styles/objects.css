@@ -49,10 +49,11 @@
   }
 
   .studentWorkQR{
-    width: 25%;
+    text-align: left;
+    font-size:small;
+    width: 20%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
   }
 
   .studentWorkQR > img{

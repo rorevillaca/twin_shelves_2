@@ -151,7 +151,7 @@ function fillInfoCard(info_card, OCLC){
 
     const worldcat_url = `https://tudelft.on.worldcat.org/oclc/${OCLC}`
 
-    const qr_code = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcat_url)}&size=150x150&color=131-143-240&margin=10`
+    const qr_code = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcat_url)}&size=150x150&color=131-143-240&bgcolor=30-28-39`
     info_card.select(".info_card--QR_holder")
         .select("img")
         .attr("src", qr_code)
@@ -195,7 +195,7 @@ function addInfoCard(bookcase_id){
     const misc = card.append("div").attr("class","info_card--misc")
     const QR_holder = misc.append("div")
         .attr("class", "info_card--QR_holder")
-        .text("Scan to see more:")
+    QR_holder.append("p").text("Scan to see more:")
     QR_holder.append("img")
     const location_details = misc.append("div")
         .attr("class", "info_card--location_details")
