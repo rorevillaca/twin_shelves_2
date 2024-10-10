@@ -24,18 +24,28 @@ function recommenderDivider(dividerContainer, data) {
         .append('div')
         .attr("class","divider")
     
-    const profilePicture = divider.append("div")
-        .attr("class", "dividerProfilePicture")
+    const profilePicture = divider
+        .append("div")
         .style("background-image", `url('./src/res/recommenders/profile_pictures/recommender_${data.id}.png')`)
+
+    if (data.name !== "Studium Generale"){
+        profilePicture.attr("class", "dividerProfilePicture")
+        
+        profilePicture.append("div")
+            .attr("class","dividerProfilePictureFilter")
+            .style("background-color", `#${data.color}`)
+    } else{
+        profilePicture.attr("class", "dividerProfilePictureColor")
+    }
 
     const name = divider.append("div")
         .attr("class", "dividerName")
         .html(`Recommendations by </br> ${data.name}`)
-        .style("background-color", `#${data.color}`)
 
     const role = divider.append("div")
         .attr("class", "dividerRole")
-        .html(data.faculty)
+        .html(data.role)
+        .style("background-color", `#${data.color}`)
     
     const phrase = divider.append("div")
         .attr("class", "dividerPhrase")
@@ -45,12 +55,11 @@ function recommenderDivider(dividerContainer, data) {
     const QR = divider.append("div")
         .attr("class", "dividerQR")
         .style("background-color", `#${data.color}`)
-        .append("img")
-        .attr("src",`./src/res/recommenders/qrs/recommender_${data.id}.png`)
+        .style("background-image", `url('./src/res/recommenders/qrs/recommender_${data.id}.png')`)
 
     const scanLegend = divider.append("div")
         .attr("class",'dividerScanLegend')
-        .html("Scan the QR to see </br> the full list of books")
+        .html("Scan the QR code to</br>see the full list")
         .style("background-color", `#${data.color}`)
 
 }

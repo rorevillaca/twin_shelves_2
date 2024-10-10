@@ -150,20 +150,25 @@ const tag_info =  [
     "number_of_bars": 3
   },
   {
+    "name": "Student Work",
+    "topic": "student_work",
+    "tag_type": "exhibition"
+  },
+  {
     "name": "Recommended Books",
     "topic": "recommended_books",
     "tag_type": "exhibition"
   },
+  // {
+  //   "name": "Study Books",
+  //   "topic": "study_books",
+  //   "tag_type": "exhibition"
+  // },
   {
-     "name": "Student Work",
-     "topic": "student_work",
-     "tag_type": "exhibition"
-   },
-   {
-     "name": "Heritage Objects",
-     "topic": "heritage_objects",
-     "tag_type": "exhibition"
-   },
+    "name": "Heritage Objects",
+    "topic": "heritage_objects",
+    "tag_type": "exhibition"
+  },
   {
     "name": "Dissertations",
     "topic": "dissertations",
