@@ -2,154 +2,158 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Aadjan van der Helm",
+    "sub_topic": "Artificial Intelligence",
+    "recommender": "Jan van Gemert",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 10,
     "books": [
       {
-        "OCLC": "81tWoOTqAPL._SY522_",
-        "cover_file": "_recommended_books/cover_81tWoOTqAPL._SY522_.webp"
+        "OCLC": "_Qu_zQEACAAJ",
+        "cover_file": "_recommended_books/cover__Qu_zQEACAAJ.webp"
       },
       {
-        "OCLC": "qBfRDQAAQBAJ",
-        "cover_file": "_recommended_books/cover_qBfRDQAAQBAJ.webp"
+        "OCLC": "3Bt-zgEACAAJ",
+        "cover_file": "_recommended_books/cover_3Bt-zgEACAAJ.webp"
       },
       {
-        "OCLC": "rGVIvgAACAAJ",
-        "cover_file": "_recommended_books/cover_rGVIvgAACAAJ.webp"
+        "OCLC": "4_BXxAEACAAJ",
+        "cover_file": "_recommended_books/cover_4_BXxAEACAAJ.webp"
       },
       {
-        "OCLC": "RvJZEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_RvJZEAAAQBAJ.webp"
+        "OCLC": "AlnwMgEACAAJ",
+        "cover_file": "_recommended_books/cover_AlnwMgEACAAJ.webp"
       },
       {
-        "OCLC": "SHvzzuCnuv8C",
-        "cover_file": "_recommended_books/cover_SHvzzuCnuv8C.webp"
+        "OCLC": "AYK7jwEACAAJ",
+        "cover_file": "_recommended_books/cover_AYK7jwEACAAJ.webp"
       },
       {
-        "OCLC": "UAtgxQEACAAJ",
-        "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
+        "OCLC": "bQJuzwEACAAJ",
+        "cover_file": "_recommended_books/cover_bQJuzwEACAAJ.webp"
       },
       {
-        "OCLC": "XVv6DwAAQBAJ",
-        "cover_file": "_recommended_books/cover_XVv6DwAAQBAJ.webp"
+        "OCLC": "cNp0EAAAQBAJ",
+        "cover_file": "_recommended_books/cover_cNp0EAAAQBAJ.webp"
       },
       {
-        "OCLC": "zlU7VdN5fA0C",
-        "cover_file": "_recommended_books/cover_zlU7VdN5fA0C.webp"
+        "OCLC": "PQI7vgAACAAJ",
+        "cover_file": "_recommended_books/cover_PQI7vgAACAAJ.webp"
       },
       {
-        "OCLC": "p5fXAQAACAAJ",
-        "cover_file": "_recommended_books/cover_p5fXAQAACAAJ.webp"
+        "OCLC": "rvyxEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_rvyxEAAAQBAJ.webp"
       },
       {
-        "OCLC": "wTRRzwEACAAJ",
-        "cover_file": "_recommended_books/cover_wTRRzwEACAAJ.webp"
+        "OCLC": "wr07uwEACAAJ",
+        "cover_file": "_recommended_books/cover_wr07uwEACAAJ.webp"
       }
     ]
   },
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Alexander Wandl",
-    "virtual_shelf_temp": 1,
+    "sub_topic": "Artificial Intelligence",
+    "recommender": "Marco Loog",
+    "virtual_shelf_temp": 2,
     "books_in_bookcase": 10,
     "books": [
       {
-        "OCLC": "BOpzzgEACAAJ",
-        "cover_file": "_recommended_books/cover_BOpzzgEACAAJ.webp"
+        "OCLC": "71Fmzme8Q1L._SY522_",
+        "cover_file": "_recommended_books/cover_71Fmzme8Q1L._SY522_.webp"
       },
       {
-        "OCLC": "CHZmwQEACAAJ",
-        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
+        "OCLC": "51LKgvgK5HL",
+        "cover_file": "_recommended_books/cover_51LKgvgK5HL.webp"
       },
       {
-        "OCLC": "eCRIoAEACAAJ",
-        "cover_file": "_recommended_books/cover_eCRIoAEACAAJ.webp"
+        "OCLC": "101109TIT19681054102",
+        "cover_file": "_recommended_books/cover_101109TIT19681054102.webp"
       },
       {
-        "OCLC": "m3hHzwEACAAJ",
-        "cover_file": "_recommended_books/cover_m3hHzwEACAAJ.webp"
+        "OCLC": "41wcKggItML._SY445_SX342_",
+        "cover_file": "_recommended_books/cover_41wcKggItML._SY445_SX342_.webp"
       },
       {
-        "OCLC": "Rei7jwEACAAJ",
-        "cover_file": "_recommended_books/cover_Rei7jwEACAAJ.webp"
+        "OCLC": "64tuPwAACAAJ",
+        "cover_file": "_recommended_books/cover_64tuPwAACAAJ.webp"
       },
       {
-        "OCLC": "W-ZNuAEACAAJ",
-        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
+        "OCLC": "FzjoDQAAQBAJ",
+        "cover_file": "_recommended_books/cover_FzjoDQAAQBAJ.webp"
       },
       {
-        "OCLC": "xF3yyvxtB8UC",
-        "cover_file": "_recommended_books/cover_xF3yyvxtB8UC.webp"
+        "OCLC": "ogWNEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_ogWNEAAAQBAJ.webp"
       },
       {
-        "OCLC": "XHKAjUDqy8YC",
-        "cover_file": "_recommended_books/cover_XHKAjUDqy8YC.webp"
+        "OCLC": "SVoYDQAAQBAJ",
+        "cover_file": "_recommended_books/cover_SVoYDQAAQBAJ.webp"
       },
       {
-        "OCLC": "EP9uzgEACAAJ",
-        "cover_file": "_recommended_books/cover_EP9uzgEACAAJ.webp"
+        "OCLC": "v-uGoAEACAAJ",
+        "cover_file": "_recommended_books/cover_v-uGoAEACAAJ.webp"
       },
       {
-        "OCLC": "_usojgEACAAJ",
-        "cover_file": "_recommended_books/cover__usojgEACAAJ.webp"
+        "OCLC": "vuqNEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_vuqNEAAAQBAJ.webp"
       }
     ]
   },
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Arkady Zgonnikov",
-    "virtual_shelf_temp": 1,
+    "sub_topic": "Artificial Intelligence",
+    "recommender": "Neil Yorke-Smith",
+    "virtual_shelf_temp": 3,
     "books_in_bookcase": 10,
     "books": [
       {
-        "OCLC": "4NqPEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_4NqPEAAAQBAJ.webp"
+        "OCLC": "41JVDBmO0QL._SY522_",
+        "cover_file": "_recommended_books/cover_41JVDBmO0QL._SY522_.webp"
       },
       {
-        "OCLC": "4WyuDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_4WyuDwAAQBAJ.webp"
+        "OCLC": "1jB8QgAACAAJ",
+        "cover_file": "_recommended_books/cover_1jB8QgAACAAJ.webp"
       },
       {
-        "OCLC": "6W-2NAEACAAJ",
-        "cover_file": "_recommended_books/cover_6W-2NAEACAAJ.webp"
+        "OCLC": "BqiJzQEACAAJ",
+        "cover_file": "_recommended_books/cover_BqiJzQEACAAJ.webp"
       },
       {
-        "OCLC": "7KkUAT_q_sQC",
-        "cover_file": "_recommended_books/cover_7KkUAT_q_sQC.webp"
+        "OCLC": "bWD5zgEACAAJ",
+        "cover_file": "_recommended_books/cover_bWD5zgEACAAJ.webp"
       },
       {
-        "OCLC": "BMcBAwAAQBAJ",
-        "cover_file": "_recommended_books/cover_BMcBAwAAQBAJ.webp"
+        "OCLC": "izy9Tg6rmb8C",
+        "cover_file": "_recommended_books/cover_izy9Tg6rmb8C.webp"
       },
       {
-        "OCLC": "CH3UDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_CH3UDwAAQBAJ.webp"
+        "OCLC": "mqpvVydYo-8C",
+        "cover_file": "_recommended_books/cover_mqpvVydYo-8C.webp"
       },
       {
-        "OCLC": "lQPQfHKcYSAC",
-        "cover_file": "_recommended_books/cover_lQPQfHKcYSAC.webp"
+        "OCLC": "PQI7vgAACAAJ",
+        "cover_file": "_recommended_books/cover_PQI7vgAACAAJ.webp"
       },
       {
-        "OCLC": "rT7REAAAQBAJ",
-        "cover_file": "_recommended_books/cover_rT7REAAAQBAJ.webp"
+        "OCLC": "qfdquwEACAAJ",
+        "cover_file": "_recommended_books/cover_qfdquwEACAAJ.webp"
       },
       {
-        "OCLC": "V3SYDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_V3SYDwAAQBAJ.webp"
+        "OCLC": "WpTSDQAAQBAJ",
+        "cover_file": "_recommended_books/cover_WpTSDQAAQBAJ.webp"
       },
       {
-        "OCLC": "f_DKzgEACAAJ",
-        "cover_file": "_recommended_books/cover_f_DKzgEACAAJ.webp"
+        "OCLC": "y8V6EAAAQBAJ",
+        "cover_file": "_recommended_books/cover_y8V6EAAAQBAJ.webp"
       }
     ]
   },
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Bart van Arem",
+    "sub_topic": "Autonomous Vehicles",
+    "recommender": "Bart van Arem",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 10,
     "books": [
@@ -198,7 +202,546 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Bas Flipsen",
+    "sub_topic": "Biomedical Imaging",
+    "recommender": "Kristina Djanashvili",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "aHUl0AEACAAJ",
+        "cover_file": "_recommended_books/cover_aHUl0AEACAAJ.webp"
+      },
+      {
+        "OCLC": "eu3uzwEACAAJ",
+        "cover_file": "_recommended_books/cover_eu3uzwEACAAJ.webp"
+      },
+      {
+        "OCLC": "iUHgx5E4zLMC",
+        "cover_file": "_recommended_books/cover_iUHgx5E4zLMC.webp"
+      },
+      {
+        "OCLC": "kk57twEACAAJ",
+        "cover_file": "_recommended_books/cover_kk57twEACAAJ.webp"
+      },
+      {
+        "OCLC": "lUBpEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_lUBpEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "Lv6GxwEACAAJ",
+        "cover_file": "_recommended_books/cover_Lv6GxwEACAAJ.webp"
+      },
+      {
+        "OCLC": "NUyLP6WZJCoC",
+        "cover_file": "_recommended_books/cover_NUyLP6WZJCoC.webp"
+      },
+      {
+        "OCLC": "Qw1FDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_Qw1FDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "v6FkQgAACAAJ",
+        "cover_file": "_recommended_books/cover_v6FkQgAACAAJ.webp"
+      },
+      {
+        "OCLC": "yjXYzQEACAAJ",
+        "cover_file": "_recommended_books/cover_yjXYzQEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Biomedical Imaging",
+    "recommender": "Rob Remis",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "41YJfg5HWuS._SY445_SX342_",
+        "cover_file": "_recommended_books/cover_41YJfg5HWuS._SY445_SX342_.webp"
+      },
+      {
+        "OCLC": "61K5b4ufRCL._SY522_",
+        "cover_file": "_recommended_books/cover_61K5b4ufRCL._SY522_.webp"
+      },
+      {
+        "OCLC": "1dthzgEACAAJ",
+        "cover_file": "_recommended_books/cover_1dthzgEACAAJ.webp"
+      },
+      {
+        "OCLC": "bLd8lAEACAAJ",
+        "cover_file": "_recommended_books/cover_bLd8lAEACAAJ.webp"
+      },
+      {
+        "OCLC": "hs1RzQEACAAJ",
+        "cover_file": "_recommended_books/cover_hs1RzQEACAAJ.webp"
+      },
+      {
+        "OCLC": "IPm8QgAACAAJ",
+        "cover_file": "_recommended_books/cover_IPm8QgAACAAJ.webp"
+      },
+      {
+        "OCLC": "iUHgx5E4zLMC",
+        "cover_file": "_recommended_books/cover_iUHgx5E4zLMC.webp"
+      },
+      {
+        "OCLC": "qofQnQEACAAJ",
+        "cover_file": "_recommended_books/cover_qofQnQEACAAJ.webp"
+      },
+      {
+        "OCLC": "v6FkQgAACAAJ",
+        "cover_file": "_recommended_books/cover_v6FkQgAACAAJ.webp"
+      },
+      {
+        "OCLC": "Z45SAwAAQBAJ",
+        "cover_file": "_recommended_books/cover_Z45SAwAAQBAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Circular Economy",
+    "recommender": "Alexander Wandl",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "BOpzzgEACAAJ",
+        "cover_file": "_recommended_books/cover_BOpzzgEACAAJ.webp"
+      },
+      {
+        "OCLC": "CHZmwQEACAAJ",
+        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
+      },
+      {
+        "OCLC": "eCRIoAEACAAJ",
+        "cover_file": "_recommended_books/cover_eCRIoAEACAAJ.webp"
+      },
+      {
+        "OCLC": "m3hHzwEACAAJ",
+        "cover_file": "_recommended_books/cover_m3hHzwEACAAJ.webp"
+      },
+      {
+        "OCLC": "Rei7jwEACAAJ",
+        "cover_file": "_recommended_books/cover_Rei7jwEACAAJ.webp"
+      },
+      {
+        "OCLC": "W-ZNuAEACAAJ",
+        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
+      },
+      {
+        "OCLC": "xF3yyvxtB8UC",
+        "cover_file": "_recommended_books/cover_xF3yyvxtB8UC.webp"
+      },
+      {
+        "OCLC": "XHKAjUDqy8YC",
+        "cover_file": "_recommended_books/cover_XHKAjUDqy8YC.webp"
+      },
+      {
+        "OCLC": "EP9uzgEACAAJ",
+        "cover_file": "_recommended_books/cover_EP9uzgEACAAJ.webp"
+      },
+      {
+        "OCLC": "_usojgEACAAJ",
+        "cover_file": "_recommended_books/cover__usojgEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Circular Economy",
+    "recommender": "Felipe Bucci Ancapi",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 11,
+    "books": [
+      {
+        "OCLC": "61a1eD2ndeL._SY522_",
+        "cover_file": "_recommended_books/cover_61a1eD2ndeL._SY522_.webp"
+      },
+      {
+        "OCLC": "712fVvVktUL._SY522_",
+        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
+      },
+      {
+        "OCLC": "61zfi0sh9tL._SY522_",
+        "cover_file": "_recommended_books/cover_61zfi0sh9tL._SY522_.webp"
+      },
+      {
+        "OCLC": "CCv8zQEACAAJ",
+        "cover_file": "_recommended_books/cover_CCv8zQEACAAJ.webp"
+      },
+      {
+        "OCLC": "CHZmwQEACAAJ",
+        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
+      },
+      {
+        "OCLC": "LR2NDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_LR2NDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "N8a8zgEACAAJ",
+        "cover_file": "_recommended_books/cover_N8a8zgEACAAJ.webp"
+      },
+      {
+        "OCLC": "pbLZzQEACAAJ",
+        "cover_file": "_recommended_books/cover_pbLZzQEACAAJ.webp"
+      },
+      {
+        "OCLC": "tyvwwAEACAAJ",
+        "cover_file": "_recommended_books/cover_tyvwwAEACAAJ.webp"
+      },
+      {
+        "OCLC": "VC7PDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_VC7PDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "XGn_wAEACAAJ",
+        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Circular Economy",
+    "recommender": "Francesco Di Maio",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 9,
+    "books": [
+      {
+        "OCLC": "712fVvVktUL._SY522_",
+        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
+      },
+      {
+        "OCLC": "51jTS8Yu3-L._SY445_SX342_",
+        "cover_file": "_recommended_books/cover_51jTS8Yu3-L._SY445_SX342_.webp"
+      },
+      {
+        "OCLC": "CfJLngEACAAJ",
+        "cover_file": "_recommended_books/cover_CfJLngEACAAJ.webp"
+      },
+      {
+        "OCLC": "CHZmwQEACAAJ",
+        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
+      },
+      {
+        "OCLC": "cizOjwEACAAJ",
+        "cover_file": "_recommended_books/cover_cizOjwEACAAJ.webp"
+      },
+      {
+        "OCLC": "Dk1UvgAACAAJ",
+        "cover_file": "_recommended_books/cover_Dk1UvgAACAAJ.webp"
+      },
+      {
+        "OCLC": "L9sIrgEACAAJ",
+        "cover_file": "_recommended_books/cover_L9sIrgEACAAJ.webp"
+      },
+      {
+        "OCLC": "nfZaEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_nfZaEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "VU8eyQEACAAJ",
+        "cover_file": "_recommended_books/cover_VU8eyQEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Circular Economy",
+    "recommender": "Jolien Ubacht",
+    "virtual_shelf_temp": 4,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "a4pizgEACAAJ",
+        "cover_file": "_recommended_books/cover_a4pizgEACAAJ.webp"
+      },
+      {
+        "OCLC": "CCv8zQEACAAJ",
+        "cover_file": "_recommended_books/cover_CCv8zQEACAAJ.webp"
+      },
+      {
+        "OCLC": "H6vvtwEACAAJ",
+        "cover_file": "_recommended_books/cover_H6vvtwEACAAJ.webp"
+      },
+      {
+        "OCLC": "LRqtEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_LRqtEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "m_f_zQEACAAJ",
+        "cover_file": "_recommended_books/cover_m_f_zQEACAAJ.webp"
+      },
+      {
+        "OCLC": "ol9CEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_ol9CEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "pF9CEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_pF9CEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "T7X3zgEACAAJ",
+        "cover_file": "_recommended_books/cover_T7X3zgEACAAJ.webp"
+      },
+      {
+        "OCLC": "W-ZNuAEACAAJ",
+        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
+      },
+      {
+        "OCLC": "XGn_wAEACAAJ",
+        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Circular Economy",
+    "recommender": "Tanya Tsui",
+    "virtual_shelf_temp": 5,
+    "books_in_bookcase": 11,
+    "books": [
+      {
+        "OCLC": "712fVvVktUL._SY522_",
+        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
+      },
+      {
+        "OCLC": "cover_issue_986_en_US",
+        "cover_file": "_recommended_books/cover_cover_issue_986_en_US.webp"
+      },
+      {
+        "OCLC": "2hmNEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_2hmNEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "7PS9zQEACAAJ",
+        "cover_file": "_recommended_books/cover_7PS9zQEACAAJ.webp"
+      },
+      {
+        "OCLC": "ayzVoAEACAAJ",
+        "cover_file": "_recommended_books/cover_ayzVoAEACAAJ.webp"
+      },
+      {
+        "OCLC": "CpbLAgAAQBAJ",
+        "cover_file": "_recommended_books/cover_CpbLAgAAQBAJ.webp"
+      },
+      {
+        "OCLC": "fNQtzwEACAAJ",
+        "cover_file": "_recommended_books/cover_fNQtzwEACAAJ.webp"
+      },
+      {
+        "OCLC": "JpqdDAEACAAJ",
+        "cover_file": "_recommended_books/cover_JpqdDAEACAAJ.webp"
+      },
+      {
+        "OCLC": "nfZaEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_nfZaEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "ZM3JEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_ZM3JEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "EP9uzgEACAAJ",
+        "cover_file": "_recommended_books/cover_EP9uzgEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Circular Economy",
+    "recommender": "Zhaowen Liu",
+    "virtual_shelf_temp": 6,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "712fVvVktUL._SY522_",
+        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
+      },
+      {
+        "OCLC": "BBXKyQEACAAJ",
+        "cover_file": "_recommended_books/cover_BBXKyQEACAAJ.webp"
+      },
+      {
+        "OCLC": "CHZmwQEACAAJ",
+        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
+      },
+      {
+        "OCLC": "DyLRAQAACAAJ",
+        "cover_file": "_recommended_books/cover_DyLRAQAACAAJ.webp"
+      },
+      {
+        "OCLC": "gftnswEACAAJ",
+        "cover_file": "_recommended_books/cover_gftnswEACAAJ.webp"
+      },
+      {
+        "OCLC": "j21SAQAACAAJ",
+        "cover_file": "_recommended_books/cover_j21SAQAACAAJ.webp"
+      },
+      {
+        "OCLC": "L9sIrgEACAAJ",
+        "cover_file": "_recommended_books/cover_L9sIrgEACAAJ.webp"
+      },
+      {
+        "OCLC": "SvaQEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_SvaQEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "W-ZNuAEACAAJ",
+        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
+      },
+      {
+        "OCLC": "XGn_wAEACAAJ",
+        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Climate Change",
+    "recommender": "Bert Wouters",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 11,
+    "books": [
+      {
+        "OCLC": "0GIO0AEACAAJ",
+        "cover_file": "_recommended_books/cover_0GIO0AEACAAJ.webp"
+      },
+      {
+        "OCLC": "1431204506",
+        "cover_file": "_recommended_books/cover_1431204506.webp"
+      },
+      {
+        "OCLC": "91Q0EAAAQBAJ",
+        "cover_file": "_recommended_books/cover_91Q0EAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "apTzwQEACAAJ",
+        "cover_file": "_recommended_books/cover_apTzwQEACAAJ.webp"
+      },
+      {
+        "OCLC": "f8fClAEACAAJ",
+        "cover_file": "_recommended_books/cover_f8fClAEACAAJ.webp"
+      },
+      {
+        "OCLC": "FZIlEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_FZIlEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "g2JHLwEACAAJ",
+        "cover_file": "_recommended_books/cover_g2JHLwEACAAJ.webp"
+      },
+      {
+        "OCLC": "Ie2vxQEACAAJ",
+        "cover_file": "_recommended_books/cover_Ie2vxQEACAAJ.webp"
+      },
+      {
+        "OCLC": "XeoTEQAAQBAJ",
+        "cover_file": "_recommended_books/cover_XeoTEQAAQBAJ.webp"
+      },
+      {
+        "OCLC": "AEEpzgEACAAJ",
+        "cover_file": "_recommended_books/cover_AEEpzgEACAAJ.webp"
+      },
+      {
+        "OCLC": "lOfCoQEACAAJ",
+        "cover_file": "_recommended_books/cover_lOfCoQEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Climate Change",
+    "recommender": "Neelke Doorn",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 5,
+    "books": [
+      {
+        "OCLC": "61uTPA0wEIL._SY522_",
+        "cover_file": "_recommended_books/cover_61uTPA0wEIL._SY522_.webp"
+      },
+      {
+        "OCLC": "6XDVvAEACAAJ",
+        "cover_file": "_recommended_books/cover_6XDVvAEACAAJ.webp"
+      },
+      {
+        "OCLC": "akzFuQEACAAJ",
+        "cover_file": "_recommended_books/cover_akzFuQEACAAJ.webp"
+      },
+      {
+        "OCLC": "DoMP0AEACAAJ",
+        "cover_file": "_recommended_books/cover_DoMP0AEACAAJ.webp"
+      },
+      {
+        "OCLC": "rgDTngEACAAJ",
+        "cover_file": "_recommended_books/cover_rgDTngEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Cognitive Robotics",
+    "recommender": "Arkady Zgonnikov",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "4NqPEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_4NqPEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "4WyuDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_4WyuDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "6W-2NAEACAAJ",
+        "cover_file": "_recommended_books/cover_6W-2NAEACAAJ.webp"
+      },
+      {
+        "OCLC": "7KkUAT_q_sQC",
+        "cover_file": "_recommended_books/cover_7KkUAT_q_sQC.webp"
+      },
+      {
+        "OCLC": "BMcBAwAAQBAJ",
+        "cover_file": "_recommended_books/cover_BMcBAwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "CH3UDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_CH3UDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "lQPQfHKcYSAC",
+        "cover_file": "_recommended_books/cover_lQPQfHKcYSAC.webp"
+      },
+      {
+        "OCLC": "rT7REAAAQBAJ",
+        "cover_file": "_recommended_books/cover_rT7REAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "V3SYDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_V3SYDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "f_DKzgEACAAJ",
+        "cover_file": "_recommended_books/cover_f_DKzgEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Efficient and Sustainable Design",
+    "recommender": "Bas Flipsen",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 10,
     "books": [
@@ -247,105 +790,8 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Bert Wouters",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "0GIO0AEACAAJ",
-        "cover_file": "_recommended_books/cover_0GIO0AEACAAJ.webp"
-      },
-      {
-        "OCLC": "91Q0EAAAQBAJ",
-        "cover_file": "_recommended_books/cover_91Q0EAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "apTzwQEACAAJ",
-        "cover_file": "_recommended_books/cover_apTzwQEACAAJ.webp"
-      },
-      {
-        "OCLC": "f8fClAEACAAJ",
-        "cover_file": "_recommended_books/cover_f8fClAEACAAJ.webp"
-      },
-      {
-        "OCLC": "FZIlEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_FZIlEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "g2JHLwEACAAJ",
-        "cover_file": "_recommended_books/cover_g2JHLwEACAAJ.webp"
-      },
-      {
-        "OCLC": "Ie2vxQEACAAJ",
-        "cover_file": "_recommended_books/cover_Ie2vxQEACAAJ.webp"
-      },
-      {
-        "OCLC": "XeoTEQAAQBAJ",
-        "cover_file": "_recommended_books/cover_XeoTEQAAQBAJ.webp"
-      },
-      {
-        "OCLC": "AEEpzgEACAAJ",
-        "cover_file": "_recommended_books/cover_AEEpzgEACAAJ.webp"
-      },
-      {
-        "OCLC": "lOfCoQEACAAJ",
-        "cover_file": "_recommended_books/cover_lOfCoQEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Dominic Stead",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "978-1-61091-835-0",
-        "cover_file": "_recommended_books/cover_978-1-61091-835-0.webp"
-      },
-      {
-        "OCLC": "DRlvDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_DRlvDwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "kbfeAQAAQBAJ",
-        "cover_file": "_recommended_books/cover_kbfeAQAAQBAJ.webp"
-      },
-      {
-        "OCLC": "okKRoAEACAAJ",
-        "cover_file": "_recommended_books/cover_okKRoAEACAAJ.webp"
-      },
-      {
-        "OCLC": "oxpfswEACAAJ",
-        "cover_file": "_recommended_books/cover_oxpfswEACAAJ.webp"
-      },
-      {
-        "OCLC": "q_AFEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_q_AFEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "qU1Vp93cMFMC",
-        "cover_file": "_recommended_books/cover_qU1Vp93cMFMC.webp"
-      },
-      {
-        "OCLC": "tT5GEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_tT5GEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "WtKU5L0ajA8C",
-        "cover_file": "_recommended_books/cover_WtKU5L0ajA8C.webp"
-      },
-      {
-        "OCLC": "p0lyQgAACAAJ",
-        "cover_file": "_recommended_books/cover_p0lyQgAACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
     "sub_topic": "Elif Ozcan",
+    "recommender": "Elif Ozcan",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 16,
     "books": [
@@ -418,776 +864,59 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Felipe Bucci Ancapi",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 11,
-    "books": [
-      {
-        "OCLC": "61a1eD2ndeL._SY522_",
-        "cover_file": "_recommended_books/cover_61a1eD2ndeL._SY522_.webp"
-      },
-      {
-        "OCLC": "712fVvVktUL._SY522_",
-        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
-      },
-      {
-        "OCLC": "61zfi0sh9tL._SY522_",
-        "cover_file": "_recommended_books/cover_61zfi0sh9tL._SY522_.webp"
-      },
-      {
-        "OCLC": "CCv8zQEACAAJ",
-        "cover_file": "_recommended_books/cover_CCv8zQEACAAJ.webp"
-      },
-      {
-        "OCLC": "CHZmwQEACAAJ",
-        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
-      },
-      {
-        "OCLC": "LR2NDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_LR2NDwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "N8a8zgEACAAJ",
-        "cover_file": "_recommended_books/cover_N8a8zgEACAAJ.webp"
-      },
-      {
-        "OCLC": "pbLZzQEACAAJ",
-        "cover_file": "_recommended_books/cover_pbLZzQEACAAJ.webp"
-      },
-      {
-        "OCLC": "tyvwwAEACAAJ",
-        "cover_file": "_recommended_books/cover_tyvwwAEACAAJ.webp"
-      },
-      {
-        "OCLC": "VC7PDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_VC7PDwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "XGn_wAEACAAJ",
-        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Francesco Di Maio",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 9,
-    "books": [
-      {
-        "OCLC": "712fVvVktUL._SY522_",
-        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
-      },
-      {
-        "OCLC": "51jTS8Yu3-L._SY445_SX342_",
-        "cover_file": "_recommended_books/cover_51jTS8Yu3-L._SY445_SX342_.webp"
-      },
-      {
-        "OCLC": "CfJLngEACAAJ",
-        "cover_file": "_recommended_books/cover_CfJLngEACAAJ.webp"
-      },
-      {
-        "OCLC": "CHZmwQEACAAJ",
-        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
-      },
-      {
-        "OCLC": "cizOjwEACAAJ",
-        "cover_file": "_recommended_books/cover_cizOjwEACAAJ.webp"
-      },
-      {
-        "OCLC": "Dk1UvgAACAAJ",
-        "cover_file": "_recommended_books/cover_Dk1UvgAACAAJ.webp"
-      },
-      {
-        "OCLC": "L9sIrgEACAAJ",
-        "cover_file": "_recommended_books/cover_L9sIrgEACAAJ.webp"
-      },
-      {
-        "OCLC": "nfZaEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_nfZaEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "VU8eyQEACAAJ",
-        "cover_file": "_recommended_books/cover_VU8eyQEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Jan van Gemert",
+    "sub_topic": "Interaction Design",
+    "recommender": "Aadjan van der Helm",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 10,
     "books": [
       {
-        "OCLC": "_Qu_zQEACAAJ",
-        "cover_file": "_recommended_books/cover__Qu_zQEACAAJ.webp"
+        "OCLC": "81tWoOTqAPL._SY522_",
+        "cover_file": "_recommended_books/cover_81tWoOTqAPL._SY522_.webp"
       },
       {
-        "OCLC": "3Bt-zgEACAAJ",
-        "cover_file": "_recommended_books/cover_3Bt-zgEACAAJ.webp"
+        "OCLC": "qBfRDQAAQBAJ",
+        "cover_file": "_recommended_books/cover_qBfRDQAAQBAJ.webp"
       },
       {
-        "OCLC": "4_BXxAEACAAJ",
-        "cover_file": "_recommended_books/cover_4_BXxAEACAAJ.webp"
+        "OCLC": "rGVIvgAACAAJ",
+        "cover_file": "_recommended_books/cover_rGVIvgAACAAJ.webp"
       },
       {
-        "OCLC": "AlnwMgEACAAJ",
-        "cover_file": "_recommended_books/cover_AlnwMgEACAAJ.webp"
+        "OCLC": "RvJZEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_RvJZEAAAQBAJ.webp"
       },
       {
-        "OCLC": "AYK7jwEACAAJ",
-        "cover_file": "_recommended_books/cover_AYK7jwEACAAJ.webp"
+        "OCLC": "SHvzzuCnuv8C",
+        "cover_file": "_recommended_books/cover_SHvzzuCnuv8C.webp"
       },
       {
-        "OCLC": "bQJuzwEACAAJ",
-        "cover_file": "_recommended_books/cover_bQJuzwEACAAJ.webp"
+        "OCLC": "UAtgxQEACAAJ",
+        "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
       },
       {
-        "OCLC": "cNp0EAAAQBAJ",
-        "cover_file": "_recommended_books/cover_cNp0EAAAQBAJ.webp"
+        "OCLC": "XVv6DwAAQBAJ",
+        "cover_file": "_recommended_books/cover_XVv6DwAAQBAJ.webp"
       },
       {
-        "OCLC": "PQI7vgAACAAJ",
-        "cover_file": "_recommended_books/cover_PQI7vgAACAAJ.webp"
+        "OCLC": "zlU7VdN5fA0C",
+        "cover_file": "_recommended_books/cover_zlU7VdN5fA0C.webp"
       },
       {
-        "OCLC": "rvyxEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_rvyxEAAAQBAJ.webp"
+        "OCLC": "p5fXAQAACAAJ",
+        "cover_file": "_recommended_books/cover_p5fXAQAACAAJ.webp"
       },
       {
-        "OCLC": "wr07uwEACAAJ",
-        "cover_file": "_recommended_books/cover_wr07uwEACAAJ.webp"
+        "OCLC": "wTRRzwEACAAJ",
+        "cover_file": "_recommended_books/cover_wTRRzwEACAAJ.webp"
       }
     ]
   },
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Jian Guo",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "41MJjgSVKPL",
-        "cover_file": "_recommended_books/cover_41MJjgSVKPL.webp"
-      },
-      {
-        "OCLC": "jGUZ_gAACAAJ",
-        "cover_file": "_recommended_books/cover_jGUZ_gAACAAJ.webp"
-      },
-      {
-        "OCLC": "oGGMDQAAQBAJ",
-        "cover_file": "_recommended_books/cover_oGGMDQAAQBAJ.webp"
-      },
-      {
-        "OCLC": "oYiguQAACAAJ",
-        "cover_file": "_recommended_books/cover_oYiguQAACAAJ.webp"
-      },
-      {
-        "OCLC": "pKu75U2MSwsC",
-        "cover_file": "_recommended_books/cover_pKu75U2MSwsC.webp"
-      },
-      {
-        "OCLC": "TDyDzQEACAAJ",
-        "cover_file": "_recommended_books/cover_TDyDzQEACAAJ.webp"
-      },
-      {
-        "OCLC": "tLU-wjQktoMC",
-        "cover_file": "_recommended_books/cover_tLU-wjQktoMC.webp"
-      },
-      {
-        "OCLC": "WC4lNgAACAAJ",
-        "cover_file": "_recommended_books/cover_WC4lNgAACAAJ.webp"
-      },
-      {
-        "OCLC": "VmQmtwAACAAJ",
-        "cover_file": "_recommended_books/cover_VmQmtwAACAAJ.webp"
-      },
-      {
-        "OCLC": "e5v3rQEACAAJ",
-        "cover_file": "_recommended_books/cover_e5v3rQEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Jolien Ubacht",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "a4pizgEACAAJ",
-        "cover_file": "_recommended_books/cover_a4pizgEACAAJ.webp"
-      },
-      {
-        "OCLC": "CCv8zQEACAAJ",
-        "cover_file": "_recommended_books/cover_CCv8zQEACAAJ.webp"
-      },
-      {
-        "OCLC": "H6vvtwEACAAJ",
-        "cover_file": "_recommended_books/cover_H6vvtwEACAAJ.webp"
-      },
-      {
-        "OCLC": "LRqtEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_LRqtEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "m_f_zQEACAAJ",
-        "cover_file": "_recommended_books/cover_m_f_zQEACAAJ.webp"
-      },
-      {
-        "OCLC": "ol9CEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_ol9CEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "pF9CEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_pF9CEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "T7X3zgEACAAJ",
-        "cover_file": "_recommended_books/cover_T7X3zgEACAAJ.webp"
-      },
-      {
-        "OCLC": "W-ZNuAEACAAJ",
-        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
-      },
-      {
-        "OCLC": "XGn_wAEACAAJ",
-        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Kristina Djanashvili",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "aHUl0AEACAAJ",
-        "cover_file": "_recommended_books/cover_aHUl0AEACAAJ.webp"
-      },
-      {
-        "OCLC": "eu3uzwEACAAJ",
-        "cover_file": "_recommended_books/cover_eu3uzwEACAAJ.webp"
-      },
-      {
-        "OCLC": "iUHgx5E4zLMC",
-        "cover_file": "_recommended_books/cover_iUHgx5E4zLMC.webp"
-      },
-      {
-        "OCLC": "kk57twEACAAJ",
-        "cover_file": "_recommended_books/cover_kk57twEACAAJ.webp"
-      },
-      {
-        "OCLC": "lUBpEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_lUBpEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "Lv6GxwEACAAJ",
-        "cover_file": "_recommended_books/cover_Lv6GxwEACAAJ.webp"
-      },
-      {
-        "OCLC": "NUyLP6WZJCoC",
-        "cover_file": "_recommended_books/cover_NUyLP6WZJCoC.webp"
-      },
-      {
-        "OCLC": "Qw1FDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_Qw1FDwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "v6FkQgAACAAJ",
-        "cover_file": "_recommended_books/cover_v6FkQgAACAAJ.webp"
-      },
-      {
-        "OCLC": "yjXYzQEACAAJ",
-        "cover_file": "_recommended_books/cover_yjXYzQEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Marco Loog",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "71Fmzme8Q1L._SY522_",
-        "cover_file": "_recommended_books/cover_71Fmzme8Q1L._SY522_.webp"
-      },
-      {
-        "OCLC": "51LKgvgK5HL",
-        "cover_file": "_recommended_books/cover_51LKgvgK5HL.webp"
-      },
-      {
-        "OCLC": "101109TIT19681054102",
-        "cover_file": "_recommended_books/cover_101109TIT19681054102.webp"
-      },
-      {
-        "OCLC": "41wcKggItML._SY445_SX342_",
-        "cover_file": "_recommended_books/cover_41wcKggItML._SY445_SX342_.webp"
-      },
-      {
-        "OCLC": "64tuPwAACAAJ",
-        "cover_file": "_recommended_books/cover_64tuPwAACAAJ.webp"
-      },
-      {
-        "OCLC": "FzjoDQAAQBAJ",
-        "cover_file": "_recommended_books/cover_FzjoDQAAQBAJ.webp"
-      },
-      {
-        "OCLC": "ogWNEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_ogWNEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "SVoYDQAAQBAJ",
-        "cover_file": "_recommended_books/cover_SVoYDQAAQBAJ.webp"
-      },
-      {
-        "OCLC": "v-uGoAEACAAJ",
-        "cover_file": "_recommended_books/cover_v-uGoAEACAAJ.webp"
-      },
-      {
-        "OCLC": "vuqNEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_vuqNEAAAQBAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Neelke Doorn",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 5,
-    "books": [
-      {
-        "OCLC": "61uTPA0wEIL._SY522_",
-        "cover_file": "_recommended_books/cover_61uTPA0wEIL._SY522_.webp"
-      },
-      {
-        "OCLC": "6XDVvAEACAAJ",
-        "cover_file": "_recommended_books/cover_6XDVvAEACAAJ.webp"
-      },
-      {
-        "OCLC": "akzFuQEACAAJ",
-        "cover_file": "_recommended_books/cover_akzFuQEACAAJ.webp"
-      },
-      {
-        "OCLC": "DoMP0AEACAAJ",
-        "cover_file": "_recommended_books/cover_DoMP0AEACAAJ.webp"
-      },
-      {
-        "OCLC": "rgDTngEACAAJ",
-        "cover_file": "_recommended_books/cover_rgDTngEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Neil Yorke-Smith",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "41JVDBmO0QL._SY522_",
-        "cover_file": "_recommended_books/cover_41JVDBmO0QL._SY522_.webp"
-      },
-      {
-        "OCLC": "1jB8QgAACAAJ",
-        "cover_file": "_recommended_books/cover_1jB8QgAACAAJ.webp"
-      },
-      {
-        "OCLC": "BqiJzQEACAAJ",
-        "cover_file": "_recommended_books/cover_BqiJzQEACAAJ.webp"
-      },
-      {
-        "OCLC": "bWD5zgEACAAJ",
-        "cover_file": "_recommended_books/cover_bWD5zgEACAAJ.webp"
-      },
-      {
-        "OCLC": "izy9Tg6rmb8C",
-        "cover_file": "_recommended_books/cover_izy9Tg6rmb8C.webp"
-      },
-      {
-        "OCLC": "mqpvVydYo-8C",
-        "cover_file": "_recommended_books/cover_mqpvVydYo-8C.webp"
-      },
-      {
-        "OCLC": "PQI7vgAACAAJ",
-        "cover_file": "_recommended_books/cover_PQI7vgAACAAJ.webp"
-      },
-      {
-        "OCLC": "qfdquwEACAAJ",
-        "cover_file": "_recommended_books/cover_qfdquwEACAAJ.webp"
-      },
-      {
-        "OCLC": "WpTSDQAAQBAJ",
-        "cover_file": "_recommended_books/cover_WpTSDQAAQBAJ.webp"
-      },
-      {
-        "OCLC": "y8V6EAAAQBAJ",
-        "cover_file": "_recommended_books/cover_y8V6EAAAQBAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Niels van Oort",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "1ozyjwEACAAJ",
-        "cover_file": "_recommended_books/cover_1ozyjwEACAAJ.webp"
-      },
-      {
-        "OCLC": "20KWngEACAAJ",
-        "cover_file": "_recommended_books/cover_20KWngEACAAJ.webp"
-      },
-      {
-        "OCLC": "ASUGzgEACAAJ",
-        "cover_file": "_recommended_books/cover_ASUGzgEACAAJ.webp"
-      },
-      {
-        "OCLC": "B2u1EAAAQBAJ",
-        "cover_file": "_recommended_books/cover_B2u1EAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "f-FdDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_f-FdDwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "IaCUzwEACAAJ",
-        "cover_file": "_recommended_books/cover_IaCUzwEACAAJ.webp"
-      },
-      {
-        "OCLC": "jjUoEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_jjUoEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "NWukMgEACAAJ",
-        "cover_file": "_recommended_books/cover_NWukMgEACAAJ.webp"
-      },
-      {
-        "OCLC": "StEfrgEACAAJ",
-        "cover_file": "_recommended_books/cover_StEfrgEACAAJ.webp"
-      },
-      {
-        "OCLC": "zwUdDgAAQBAJ",
-        "cover_file": "_recommended_books/cover_zwUdDgAAQBAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Pieter-Jan Proesmans",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "51nGSY7EKBL._SY522_",
-        "cover_file": "_recommended_books/cover_51nGSY7EKBL._SY522_.webp"
-      },
-      {
-        "OCLC": "41HaPixRRkL",
-        "cover_file": "_recommended_books/cover_41HaPixRRkL.webp"
-      },
-      {
-        "OCLC": "51lqhg4tVmL._SY445_SX342_",
-        "cover_file": "_recommended_books/cover_51lqhg4tVmL._SY445_SX342_.webp"
-      },
-      {
-        "OCLC": "Eqj7ggLFwPwC",
-        "cover_file": "_recommended_books/cover_Eqj7ggLFwPwC.webp"
-      },
-      {
-        "OCLC": "jc3QswEACAAJ",
-        "cover_file": "_recommended_books/cover_jc3QswEACAAJ.webp"
-      },
-      {
-        "OCLC": "n_RmCgAAQBAJ",
-        "cover_file": "_recommended_books/cover_n_RmCgAAQBAJ.webp"
-      },
-      {
-        "OCLC": "NG2_qiSjmMEC",
-        "cover_file": "_recommended_books/cover_NG2_qiSjmMEC.webp"
-      },
-      {
-        "OCLC": "TKQBkAEACAAJ",
-        "cover_file": "_recommended_books/cover_TKQBkAEACAAJ.webp"
-      },
-      {
-        "OCLC": "zxRdacCvjVsC",
-        "cover_file": "_recommended_books/cover_zxRdacCvjVsC.webp"
-      },
-      {
-        "OCLC": "jgQDtAEACAAJ",
-        "cover_file": "_recommended_books/cover_jgQDtAEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Rob Remis",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "41YJfg5HWuS._SY445_SX342_",
-        "cover_file": "_recommended_books/cover_41YJfg5HWuS._SY445_SX342_.webp"
-      },
-      {
-        "OCLC": "61K5b4ufRCL._SY522_",
-        "cover_file": "_recommended_books/cover_61K5b4ufRCL._SY522_.webp"
-      },
-      {
-        "OCLC": "1dthzgEACAAJ",
-        "cover_file": "_recommended_books/cover_1dthzgEACAAJ.webp"
-      },
-      {
-        "OCLC": "bLd8lAEACAAJ",
-        "cover_file": "_recommended_books/cover_bLd8lAEACAAJ.webp"
-      },
-      {
-        "OCLC": "hs1RzQEACAAJ",
-        "cover_file": "_recommended_books/cover_hs1RzQEACAAJ.webp"
-      },
-      {
-        "OCLC": "IPm8QgAACAAJ",
-        "cover_file": "_recommended_books/cover_IPm8QgAACAAJ.webp"
-      },
-      {
-        "OCLC": "iUHgx5E4zLMC",
-        "cover_file": "_recommended_books/cover_iUHgx5E4zLMC.webp"
-      },
-      {
-        "OCLC": "qofQnQEACAAJ",
-        "cover_file": "_recommended_books/cover_qofQnQEACAAJ.webp"
-      },
-      {
-        "OCLC": "v6FkQgAACAAJ",
-        "cover_file": "_recommended_books/cover_v6FkQgAACAAJ.webp"
-      },
-      {
-        "OCLC": "Z45SAwAAQBAJ",
-        "cover_file": "_recommended_books/cover_Z45SAwAAQBAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Roelof Vos",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "r9MEyhnW7J",
-        "cover_file": "_recommended_books/cover_r9MEyhnW7J.webp"
-      },
-      {
-        "OCLC": "Ed7XrQEACAAJ",
-        "cover_file": "_recommended_books/cover_Ed7XrQEACAAJ.webp"
-      },
-      {
-        "OCLC": "FuObEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_FuObEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "HmMDDQAAQBAJ",
-        "cover_file": "_recommended_books/cover_HmMDDQAAQBAJ.webp"
-      },
-      {
-        "OCLC": "LgZQxQEACAAJ",
-        "cover_file": "_recommended_books/cover_LgZQxQEACAAJ.webp"
-      },
-      {
-        "OCLC": "M9EkugEACAAJ",
-        "cover_file": "_recommended_books/cover_M9EkugEACAAJ.webp"
-      },
-      {
-        "OCLC": "NDe6DwAAQBAJ",
-        "cover_file": "_recommended_books/cover_NDe6DwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "V1DuJfPov48C",
-        "cover_file": "_recommended_books/cover_V1DuJfPov48C.webp"
-      },
-      {
-        "OCLC": "ylxjLwEACAAJ",
-        "cover_file": "_recommended_books/cover_ylxjLwEACAAJ.webp"
-      },
-      {
-        "OCLC": "FLyJzwEACAAJ",
-        "cover_file": "_recommended_books/cover_FLyJzwEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Steffen Nijhuis",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "0qbTngEACAAJ",
-        "cover_file": "_recommended_books/cover_0qbTngEACAAJ.webp"
-      },
-      {
-        "OCLC": "2785zwEACAAJ",
-        "cover_file": "_recommended_books/cover_2785zwEACAAJ.webp"
-      },
-      {
-        "OCLC": "3R2pDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_3R2pDwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "b-cbngEACAAJ",
-        "cover_file": "_recommended_books/cover_b-cbngEACAAJ.webp"
-      },
-      {
-        "OCLC": "HjylDwAAQBAJ",
-        "cover_file": "_recommended_books/cover_HjylDwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "k9w1jwEACAAJ",
-        "cover_file": "_recommended_books/cover_k9w1jwEACAAJ.webp"
-      },
-      {
-        "OCLC": "pFY6zwEACAAJ",
-        "cover_file": "_recommended_books/cover_pFY6zwEACAAJ.webp"
-      },
-      {
-        "OCLC": "rV2zEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_rV2zEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "utWNEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_utWNEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "YZAmEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_YZAmEAAAQBAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Studium Generale",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "1362866564",
-        "cover_file": "_recommended_books/cover_1362866564.webp"
-      },
-      {
-        "OCLC": "1378931447",
-        "cover_file": "_recommended_books/cover_1378931447.webp"
-      },
-      {
-        "OCLC": "1354951065",
-        "cover_file": "_recommended_books/cover_1354951065.webp"
-      },
-      {
-        "OCLC": "23972182",
-        "cover_file": "_recommended_books/cover_23972182.webp"
-      },
-      {
-        "OCLC": "1369522939",
-        "cover_file": "_recommended_books/cover_1369522939.webp"
-      },
-      {
-        "OCLC": "71807799",
-        "cover_file": "_recommended_books/cover_71807799.webp"
-      },
-      {
-        "OCLC": "950569633",
-        "cover_file": "_recommended_books/cover_950569633.webp"
-      },
-      {
-        "OCLC": "1286804805",
-        "cover_file": "_recommended_books/cover_1286804805.webp"
-      },
-      {
-        "OCLC": "1452966194",
-        "cover_file": "_recommended_books/cover_1452966194.webp"
-      },
-      {
-        "OCLC": "858914389",
-        "cover_file": "_recommended_books/cover_858914389.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Tanya Tsui",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 11,
-    "books": [
-      {
-        "OCLC": "712fVvVktUL._SY522_",
-        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
-      },
-      {
-        "OCLC": "cover_issue_986_en_US",
-        "cover_file": "_recommended_books/cover_cover_issue_986_en_US.webp"
-      },
-      {
-        "OCLC": "2hmNEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_2hmNEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "7PS9zQEACAAJ",
-        "cover_file": "_recommended_books/cover_7PS9zQEACAAJ.webp"
-      },
-      {
-        "OCLC": "ayzVoAEACAAJ",
-        "cover_file": "_recommended_books/cover_ayzVoAEACAAJ.webp"
-      },
-      {
-        "OCLC": "CpbLAgAAQBAJ",
-        "cover_file": "_recommended_books/cover_CpbLAgAAQBAJ.webp"
-      },
-      {
-        "OCLC": "fNQtzwEACAAJ",
-        "cover_file": "_recommended_books/cover_fNQtzwEACAAJ.webp"
-      },
-      {
-        "OCLC": "JpqdDAEACAAJ",
-        "cover_file": "_recommended_books/cover_JpqdDAEACAAJ.webp"
-      },
-      {
-        "OCLC": "nfZaEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_nfZaEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "ZM3JEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_ZM3JEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "EP9uzgEACAAJ",
-        "cover_file": "_recommended_books/cover_EP9uzgEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Willemijn Elkhuizen",
-    "virtual_shelf_temp": 1,
+    "sub_topic": "Interaction Design",
+    "recommender": "Willemijn Elkhuizen",
+    "virtual_shelf_temp": 2,
     "books_in_bookcase": 12,
     "books": [
       {
@@ -1241,49 +970,350 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Zhaowen Liu",
+    "sub_topic": "Mobility and Transportation",
+    "recommender": "Dominic Stead",
     "virtual_shelf_temp": 1,
     "books_in_bookcase": 10,
     "books": [
       {
-        "OCLC": "712fVvVktUL._SY522_",
-        "cover_file": "_recommended_books/cover_712fVvVktUL._SY522_.webp"
+        "OCLC": "978-1-61091-835-0",
+        "cover_file": "_recommended_books/cover_978-1-61091-835-0.webp"
       },
       {
-        "OCLC": "BBXKyQEACAAJ",
-        "cover_file": "_recommended_books/cover_BBXKyQEACAAJ.webp"
+        "OCLC": "DRlvDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_DRlvDwAAQBAJ.webp"
       },
       {
-        "OCLC": "CHZmwQEACAAJ",
-        "cover_file": "_recommended_books/cover_CHZmwQEACAAJ.webp"
+        "OCLC": "kbfeAQAAQBAJ",
+        "cover_file": "_recommended_books/cover_kbfeAQAAQBAJ.webp"
       },
       {
-        "OCLC": "DyLRAQAACAAJ",
-        "cover_file": "_recommended_books/cover_DyLRAQAACAAJ.webp"
+        "OCLC": "okKRoAEACAAJ",
+        "cover_file": "_recommended_books/cover_okKRoAEACAAJ.webp"
       },
       {
-        "OCLC": "gftnswEACAAJ",
-        "cover_file": "_recommended_books/cover_gftnswEACAAJ.webp"
+        "OCLC": "oxpfswEACAAJ",
+        "cover_file": "_recommended_books/cover_oxpfswEACAAJ.webp"
       },
       {
-        "OCLC": "j21SAQAACAAJ",
-        "cover_file": "_recommended_books/cover_j21SAQAACAAJ.webp"
+        "OCLC": "q_AFEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_q_AFEAAAQBAJ.webp"
       },
       {
-        "OCLC": "L9sIrgEACAAJ",
-        "cover_file": "_recommended_books/cover_L9sIrgEACAAJ.webp"
+        "OCLC": "qU1Vp93cMFMC",
+        "cover_file": "_recommended_books/cover_qU1Vp93cMFMC.webp"
       },
       {
-        "OCLC": "SvaQEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_SvaQEAAAQBAJ.webp"
+        "OCLC": "tT5GEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_tT5GEAAAQBAJ.webp"
       },
       {
-        "OCLC": "W-ZNuAEACAAJ",
-        "cover_file": "_recommended_books/cover_W-ZNuAEACAAJ.webp"
+        "OCLC": "WtKU5L0ajA8C",
+        "cover_file": "_recommended_books/cover_WtKU5L0ajA8C.webp"
       },
       {
-        "OCLC": "XGn_wAEACAAJ",
-        "cover_file": "_recommended_books/cover_XGn_wAEACAAJ.webp"
+        "OCLC": "p0lyQgAACAAJ",
+        "cover_file": "_recommended_books/cover_p0lyQgAACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Mobility and Transportation",
+    "recommender": "Niels van Oort",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "1ozyjwEACAAJ",
+        "cover_file": "_recommended_books/cover_1ozyjwEACAAJ.webp"
+      },
+      {
+        "OCLC": "20KWngEACAAJ",
+        "cover_file": "_recommended_books/cover_20KWngEACAAJ.webp"
+      },
+      {
+        "OCLC": "ASUGzgEACAAJ",
+        "cover_file": "_recommended_books/cover_ASUGzgEACAAJ.webp"
+      },
+      {
+        "OCLC": "B2u1EAAAQBAJ",
+        "cover_file": "_recommended_books/cover_B2u1EAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "f-FdDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_f-FdDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "IaCUzwEACAAJ",
+        "cover_file": "_recommended_books/cover_IaCUzwEACAAJ.webp"
+      },
+      {
+        "OCLC": "jjUoEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_jjUoEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "NWukMgEACAAJ",
+        "cover_file": "_recommended_books/cover_NWukMgEACAAJ.webp"
+      },
+      {
+        "OCLC": "StEfrgEACAAJ",
+        "cover_file": "_recommended_books/cover_StEfrgEACAAJ.webp"
+      },
+      {
+        "OCLC": "zwUdDgAAQBAJ",
+        "cover_file": "_recommended_books/cover_zwUdDgAAQBAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Space Exploration",
+    "recommender": "Jian Guo",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "41MJjgSVKPL",
+        "cover_file": "_recommended_books/cover_41MJjgSVKPL.webp"
+      },
+      {
+        "OCLC": "jGUZ_gAACAAJ",
+        "cover_file": "_recommended_books/cover_jGUZ_gAACAAJ.webp"
+      },
+      {
+        "OCLC": "oGGMDQAAQBAJ",
+        "cover_file": "_recommended_books/cover_oGGMDQAAQBAJ.webp"
+      },
+      {
+        "OCLC": "oYiguQAACAAJ",
+        "cover_file": "_recommended_books/cover_oYiguQAACAAJ.webp"
+      },
+      {
+        "OCLC": "pKu75U2MSwsC",
+        "cover_file": "_recommended_books/cover_pKu75U2MSwsC.webp"
+      },
+      {
+        "OCLC": "TDyDzQEACAAJ",
+        "cover_file": "_recommended_books/cover_TDyDzQEACAAJ.webp"
+      },
+      {
+        "OCLC": "tLU-wjQktoMC",
+        "cover_file": "_recommended_books/cover_tLU-wjQktoMC.webp"
+      },
+      {
+        "OCLC": "WC4lNgAACAAJ",
+        "cover_file": "_recommended_books/cover_WC4lNgAACAAJ.webp"
+      },
+      {
+        "OCLC": "VmQmtwAACAAJ",
+        "cover_file": "_recommended_books/cover_VmQmtwAACAAJ.webp"
+      },
+      {
+        "OCLC": "e5v3rQEACAAJ",
+        "cover_file": "_recommended_books/cover_e5v3rQEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Studium Generale",
+    "recommender": "Studium Generale",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "1362866564",
+        "cover_file": "_recommended_books/cover_1362866564.webp"
+      },
+      {
+        "OCLC": "1378931447",
+        "cover_file": "_recommended_books/cover_1378931447.webp"
+      },
+      {
+        "OCLC": "1354951065",
+        "cover_file": "_recommended_books/cover_1354951065.webp"
+      },
+      {
+        "OCLC": "23972182",
+        "cover_file": "_recommended_books/cover_23972182.webp"
+      },
+      {
+        "OCLC": "1369522939",
+        "cover_file": "_recommended_books/cover_1369522939.webp"
+      },
+      {
+        "OCLC": "71807799",
+        "cover_file": "_recommended_books/cover_71807799.webp"
+      },
+      {
+        "OCLC": "950569633",
+        "cover_file": "_recommended_books/cover_950569633.webp"
+      },
+      {
+        "OCLC": "1286804805",
+        "cover_file": "_recommended_books/cover_1286804805.webp"
+      },
+      {
+        "OCLC": "1452966194",
+        "cover_file": "_recommended_books/cover_1452966194.webp"
+      },
+      {
+        "OCLC": "858914389",
+        "cover_file": "_recommended_books/cover_858914389.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Sustainable Aviation",
+    "recommender": "Pieter-Jan Proesmans",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "51nGSY7EKBL._SY522_",
+        "cover_file": "_recommended_books/cover_51nGSY7EKBL._SY522_.webp"
+      },
+      {
+        "OCLC": "41HaPixRRkL",
+        "cover_file": "_recommended_books/cover_41HaPixRRkL.webp"
+      },
+      {
+        "OCLC": "51lqhg4tVmL._SY445_SX342_",
+        "cover_file": "_recommended_books/cover_51lqhg4tVmL._SY445_SX342_.webp"
+      },
+      {
+        "OCLC": "Eqj7ggLFwPwC",
+        "cover_file": "_recommended_books/cover_Eqj7ggLFwPwC.webp"
+      },
+      {
+        "OCLC": "jc3QswEACAAJ",
+        "cover_file": "_recommended_books/cover_jc3QswEACAAJ.webp"
+      },
+      {
+        "OCLC": "n_RmCgAAQBAJ",
+        "cover_file": "_recommended_books/cover_n_RmCgAAQBAJ.webp"
+      },
+      {
+        "OCLC": "NG2_qiSjmMEC",
+        "cover_file": "_recommended_books/cover_NG2_qiSjmMEC.webp"
+      },
+      {
+        "OCLC": "TKQBkAEACAAJ",
+        "cover_file": "_recommended_books/cover_TKQBkAEACAAJ.webp"
+      },
+      {
+        "OCLC": "zxRdacCvjVsC",
+        "cover_file": "_recommended_books/cover_zxRdacCvjVsC.webp"
+      },
+      {
+        "OCLC": "jgQDtAEACAAJ",
+        "cover_file": "_recommended_books/cover_jgQDtAEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Sustainable Aviation",
+    "recommender": "Roelof Vos",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "r9MEyhnW7J",
+        "cover_file": "_recommended_books/cover_r9MEyhnW7J.webp"
+      },
+      {
+        "OCLC": "Ed7XrQEACAAJ",
+        "cover_file": "_recommended_books/cover_Ed7XrQEACAAJ.webp"
+      },
+      {
+        "OCLC": "FuObEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_FuObEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "HmMDDQAAQBAJ",
+        "cover_file": "_recommended_books/cover_HmMDDQAAQBAJ.webp"
+      },
+      {
+        "OCLC": "LgZQxQEACAAJ",
+        "cover_file": "_recommended_books/cover_LgZQxQEACAAJ.webp"
+      },
+      {
+        "OCLC": "M9EkugEACAAJ",
+        "cover_file": "_recommended_books/cover_M9EkugEACAAJ.webp"
+      },
+      {
+        "OCLC": "NDe6DwAAQBAJ",
+        "cover_file": "_recommended_books/cover_NDe6DwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "V1DuJfPov48C",
+        "cover_file": "_recommended_books/cover_V1DuJfPov48C.webp"
+      },
+      {
+        "OCLC": "ylxjLwEACAAJ",
+        "cover_file": "_recommended_books/cover_ylxjLwEACAAJ.webp"
+      },
+      {
+        "OCLC": "FLyJzwEACAAJ",
+        "cover_file": "_recommended_books/cover_FLyJzwEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Sustainable Urbanization",
+    "recommender": "Steffen Nijhuis",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "0qbTngEACAAJ",
+        "cover_file": "_recommended_books/cover_0qbTngEACAAJ.webp"
+      },
+      {
+        "OCLC": "2785zwEACAAJ",
+        "cover_file": "_recommended_books/cover_2785zwEACAAJ.webp"
+      },
+      {
+        "OCLC": "3R2pDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_3R2pDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "b-cbngEACAAJ",
+        "cover_file": "_recommended_books/cover_b-cbngEACAAJ.webp"
+      },
+      {
+        "OCLC": "HjylDwAAQBAJ",
+        "cover_file": "_recommended_books/cover_HjylDwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "k9w1jwEACAAJ",
+        "cover_file": "_recommended_books/cover_k9w1jwEACAAJ.webp"
+      },
+      {
+        "OCLC": "pFY6zwEACAAJ",
+        "cover_file": "_recommended_books/cover_pFY6zwEACAAJ.webp"
+      },
+      {
+        "OCLC": "rV2zEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_rV2zEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "utWNEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_utWNEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "YZAmEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_YZAmEAAAQBAJ.webp"
       }
     ]
   },
@@ -108604,7 +108634,6 @@ const virtual_bookshelves = [
     ]
   },
   {
-    "virtual_shelf_temp": 1,
     "books_in_bookcase": 13,
     "books": [
       {

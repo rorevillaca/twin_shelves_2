@@ -1,7 +1,7 @@
 import { backButton } from "../components/backButton.js"
 import { openDirectionsScreen } from "./directionsScreen.js"
 import { subtopicDivider } from "../components/subtopicDivider.js";
-
+import { recommendationTopicDivider } from "../components/recommendationTopicDivider.js";
 
 
 export function initShelvesScreen() {
@@ -62,18 +62,39 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
 
     bookcases.forEach((bookcase_id) => {
         const bookcase_content =  bookCaseCurrentTopic[bookcase_id - 1]
-        const suptopicName = bookcase_content.sub_topic
+        const subtopicName = bookcase_content.sub_topic
 
-        const bookcaseHolder = d3.select(".shelf_view--shelves")
-                            .append("div")
-                            .attr("class", "bookcase_holder")
+        var bookcaseHolder = d3.select(".shelf_view--shelves")
 
-        if (bookcase_content.virtual_shelf_temp === 1){
-            subtopicDivider(bookcaseHolder, suptopicName, topicId)
+        if (topicId !== "recommended_books"){
+            
+            bookcaseHolder = d3
+            .select(".shelf_view--shelves")
+            .append("div")
+            .attr("class", "bookcase_holder")
+
+            if (bookcase_content.virtual_shelf_temp === 1){
+                subtopicDivider(bookcaseHolder, subtopicName)
+            }
+
+        } else { //For recommended books, the divider is independent of the bookcases
+
+            const shelves_container = d3
+                .select(".shelf_view--shelves")
+            
+            if (bookcase_content.virtual_shelf_temp === 1){
+                recommendationTopicDivider(shelves_container,subtopicName)
+            }  
+
+            bookcaseHolder = shelves_container
+                .append("div")
+                .attr("class", "bookcase_holder")
+
         }
 
-        const bookcase = bookcaseHolder.append("div")
-                            .attr("class", "bookcase")
+        const bookcase = bookcaseHolder
+        .append("div")
+        .attr("class", "bookcase")
 
         addInfoCard(bookcase_id)
 
@@ -90,6 +111,7 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
             if (topicId === "recommended_books"){
                 book.style("min-width", "28%")
                 book.style("min-height", "23%")
+            
             } else {
                 book.style("min-height", "18%")
                 if  (bookcase_content.virtual_shelf_temp === 1){

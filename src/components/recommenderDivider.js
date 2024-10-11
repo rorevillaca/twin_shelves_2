@@ -3,7 +3,7 @@ export function recommenderDivider(dividerContainer, data) {
     //const dividerContainer = d3.select(containerSelector);
     const divider = dividerContainer
         .append('div')
-        .attr("class","divider")
+        .attr("class","RecommenderDivider")
     
     const profilePicture = divider
         .append("div")
