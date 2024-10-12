@@ -2,6 +2,7 @@ import { backButton } from "../components/backButton.js"
 import { openDirectionsScreen } from "./directionsScreen.js"
 import { subtopicDivider } from "../components/subtopicDivider.js";
 import { recommendationTopicDivider } from "../components/recommendationTopicDivider.js";
+import { recommenderDivider } from "../components/recommenderDivider.js";
 
 
 export function initShelvesScreen() {
@@ -86,6 +87,9 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
                 recommendationTopicDivider(shelves_container,subtopicName)
             }  
 
+            const recommenderData = recommender_data.filter(item => item.name_lastname === bookcase_content.recommender)[0];
+            recommenderDivider(shelves_container, recommenderData) 
+
             bookcaseHolder = shelves_container
                 .append("div")
                 .attr("class", "bookcase_holder")
@@ -109,7 +113,7 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
                 .attr("id",OCLC)
 
             if (topicId === "recommended_books"){
-                book.style("min-width", "28%")
+                book.style("min-width", "31%")
                 book.style("min-height", "23%")
             
             } else {

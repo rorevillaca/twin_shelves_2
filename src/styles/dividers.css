@@ -21,6 +21,7 @@
     display: grid;
     grid-template-rows: 77% 23%; /* 70% for the first row, 30% for the second row */
     background-color: black;
+    margin-left: 2%;
 }
 
 .recommendationTopicDivider-text{
@@ -55,6 +56,7 @@
     left: 0;
     font-size: 1rem;
     font-weight: 400;
+    padding-bottom: 5%; /*Prevents text from reaching top border*/
 }
 
 .recommendationTopicDivider-arrows{
@@ -70,8 +72,9 @@
 .RecommenderDivider{
     display: flex;
     flex-direction: column;
-    width: 65%;
-    margin-right: 5%;
+    min-width: 170px;
+    height: 100%;
+    margin-left: 2%;
 }
 
 .dividerProfilePicture {

@@ -1,6 +1,10 @@
 import { capitalizeFirstLetterOfEachWord } from '../utils/helpers.js'
 
-export function recommendationTopicDivider(selector, subtopicName) {
+export function recommendationTopicDivider(selector, themeName) {
+
+    var theme_info = recommendation_topics.filter(item => item.theme === themeName);
+    var kw = theme_info[0].keywords
+    kw = kw.join(" | ") + "."
 
     const dividerFrame = selector
         .append("div")
@@ -17,7 +21,7 @@ export function recommendationTopicDivider(selector, subtopicName) {
     const title = left
         .append("div")
         .attr("class", "recommendationTopicDivider-title")
-        .html(capitalizeFirstLetterOfEachWord(subtopicName)) 
+        .html(capitalizeFirstLetterOfEachWord(themeName)) 
 
     const right = textContainer
         .append("div")
@@ -26,7 +30,7 @@ export function recommendationTopicDivider(selector, subtopicName) {
     const keywords = right
         .append("div")
         .attr("class", "recommendationTopicDivider-keywords")
-        .text("keyword1 | keyword2 | keyword3 | keyword4") 
+        .text(kw) 
     
     dividerFrame
         .append("div")
