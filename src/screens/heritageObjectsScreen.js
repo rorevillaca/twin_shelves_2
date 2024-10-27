@@ -98,12 +98,15 @@ function infoCard(container, index){
     
     const objectInfo = main
         .append("div")
-        .attr("class", "heritageInfoCard--block centered")
+        .attr("class", "heritageInfoCard--block")
+    
+    objectInfo.append("div").attr("class", "heritageInfoCard--object-img")
+    objectInfo.append("div").attr("class", "heritageInfoCard--object-metadata")
 
     const thesisInfo = main
         .append("div")
         .attr("class", "heritageInfoCard--block")
-    
+
     thesisInfo.append("div").attr("class", "heritageInfoCard--first-thesis-img")
     thesisInfo.append("div").attr("class", "heritageInfoCard--first-thesis-metadata")
     
@@ -140,10 +143,21 @@ function populateInfoCard(infoCard, objectData, currShelf){
         .style("background-color", objectData.color)
 
     //Add object info
-    const objectInfo = `<b>${objectData.object.title}</b>` 
+    const objectInfo = `<div>
+                        <span style="font-weight:bold;">${objectData.objects.title}</span><br>
+                        ${objectData.objects.detail ? objectData.objects.detail + '<br>' : ''}
+                        ${objectData.objects.author ? 'by: ' + objectData.objects.author + '<br>' : ''}
+                        ${objectData.objects.year ? '(' + objectData.objects.year + ')' : ''}
+                        </div>`;
+
+
+    // Add object attributes
     infoCard
-        .select(".heritageInfoCard--block")
-        .html(objectInfo)
+        .select(".heritageInfoCard--object-img")
+        .style("background-image", `url("src/res/photos/heritage_objects/${objectData.objects.image}")`)   
+    infoCard
+        .select(".heritageInfoCard--object-metadata")
+        .html(objectInfo)   
 
     //Add theses covers
     infoCard
@@ -154,16 +168,23 @@ function populateInfoCard(infoCard, objectData, currShelf){
         .style("background-image", `url("src/res/resized_covers_struct/_first_theses/${objectData.thesis.cover}")`)
 
     //Add theses info
-    var thesisInfo = `<b>${objectData.first_thesis.title}</b><br>
-                        by: <b>${objectData.first_thesis.author}</b><br>
-                        (${objectData.first_thesis.year})` 
+    var thesisInfo = `<div>
+                        <span style="font-weight:bold;">${objectData.first_thesis.title}</span>,<br>
+                        by: ${objectData.first_thesis.author}<br>
+                        (${objectData.first_thesis.year})
+                        </div>`;
+
+
     infoCard
         .select(".heritageInfoCard--first-thesis-metadata")
         .html(thesisInfo)
 
-    thesisInfo = `<b>${objectData.thesis.title}</b><br>
-                        by: <b>${objectData.thesis.author}</b><br>
-                        (${objectData.thesis.year})` 
+    thesisInfo = `<div>
+                    <span style="font-weight:bold;">${objectData.thesis.title}</span>,<br>
+                    by: ${objectData.thesis.author}<br>
+                    (${objectData.thesis.year})
+                    </div>`;
+
     infoCard
         .select(".heritageInfoCard--thesis-metadata")
         .html(thesisInfo)

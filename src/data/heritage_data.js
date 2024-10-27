@@ -5,11 +5,12 @@ const heritage_data = [
         "color": "#a065aa",
         "photo": "TPM.jpg",
 
-        "object": {
-            "title": "Calculator",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Mechanical Calculator",
+            "year": "Germany, 1950-1957",
+            "author": "Brunsviga Maschinenwerke",
+            "detail": "model 13RK",
+            "image": "calculator.png"
         }, 
         "thesis": {
             "title": "China’s Social Credit System: Levels of Approval of Chinese and Dutch Citizens",
@@ -30,11 +31,12 @@ const heritage_data = [
         "abbreviation": "IDE",
         "color": "#da2d4f",
         "photo": "IDE.jpg",
-        "object": {
-            "title": "Computer",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Laptop Computer",
+            "year": "Taiwan, 1989",
+            "author": "Chicony Electronics Company",
+            "detail": "model LT3600",
+            "image": "laptop.png"
         }, 
         "thesis": {
             "title": "Improving the innovative mindset of engineers: An approach to help corporates build new innovations",
@@ -55,11 +57,10 @@ const heritage_data = [
         "abbreviation": "EEMCS",
         "color": "#f17795",
         "photo": "EEMCS.jpg",
-        "object": {
-            "title": "Device",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Electronic circuit for testing electrical cables",
+            "year": "Germany, 1913",
+            "author": "Siemens & Halske"
         }, 
         "thesis": {
             "title": "Low-Wind Turbines in the Dutch Power Grid",
@@ -81,11 +82,10 @@ const heritage_data = [
         "color": "#3d6cb5",
         "photo": "CEG.jpg",
 
-        "object": {
-            "title": "",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Crystal Models from the minerals Sphalerite and Chalcopyrite",
+            "year": "mid-20th century",
+            "image": "crystal_model.png"
         }, 
         "thesis": {
             "title": "Effect of Mineral Fillers on Ageing of Bituminous Mixtures",
@@ -107,11 +107,12 @@ const heritage_data = [
         "color": "gray",
         "photo": "All_illustration.png",
 
-        "object": {
-            "title": "",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Kipp's apparatus",
+            "year": "The Netherlands, 1925-1950",
+            "author": "Kipp and Zonen",
+            "detail": "a laboratory glass for the preparation of gases",
+            "image": "kipp.png"
         }, 
         "thesis": {
             "title": "Deactivation pathways in methane upgrading catalysis",
@@ -133,11 +134,9 @@ const heritage_data = [
         "color": "#30b56b",
         "photo": "ABE_illustration.png",
 
-        "object": {
-            "title": "",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Curved terracota roof tile",
+            "year": "16th Century"
         }, 
         "thesis": {
             "title": "From idea to reality: A study on the stimulation of citizen initiatives for urban development by using online platforms",
@@ -158,11 +157,11 @@ const heritage_data = [
         "abbreviation": "ME",
         "color": "#28b8c5",
         "photo": "ME.jpg",
-        "object": {
-            "title": "",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Scale model of a steam locomotive",
+            "year": "Austria, 1890",
+            "author": "W.J. Rohrbeck",
+            "image": "train.png"
         }, 
         "thesis": {
             "title": "Impact of Exhaust Gas Recirculation on NOx emissions in non-premixed combusted Gas Turbines using CRN ",
@@ -184,11 +183,11 @@ const heritage_data = [
         "color": "#fcb545",
         "photo": "AS.jpg",
 
-        "object": {
-            "title": "",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Microscope in box by Carl Zeiss",
+            "year": "Germany, 1910-1930",
+            "detail": "originating from the 'Laboratorium voor Technische Botanie",
+            "image": "microscope.png"
         }, 
         "thesis": {
             "title": "Spectral imaging for measuring biochemicals in plant material",
@@ -210,11 +209,11 @@ const heritage_data = [
         "color": "#f6905c",
         "photo": "AE.jpg",
 
-        "object": {
-            "title": "",
-            "year": "",
-            "author": "",
-            "description": ""
+        "objects": {
+            "title": "Pressure Altimeter",
+            "year": "Switzerland 1950-1975",
+            "author": "Revue Thommen",
+            "image": "altimeter.png"
         }, 
         "thesis": {
             "title": "The Longitudinal Static Stability and Control Characteristics of a Flying V Scaled Model",
