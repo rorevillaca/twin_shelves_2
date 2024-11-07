@@ -13,7 +13,8 @@ export function initHeritageObjects(){
             .attr("class", "heritageObjectShelf")
             .attr("id", `shelf_${index}`)
         
-        infoCard(objectContainer, index)
+    
+    infoCard(objectContainer, index)
 
     }
     const objects = Array.from({length: heritage_data.length}, (v, i) => (i + 1));
@@ -95,13 +96,13 @@ function infoCard(container, index){
                         }
                     openDirectionsScreen(info)
                 })
+
+
+    const objectsRow = main
+            .append("div")
+            .attr("class", "heritageInfoCard--block")
+            .style("padding","1% 3%")
     
-    const objectInfo = main
-        .append("div")
-        .attr("class", "heritageInfoCard--block")
-    
-    objectInfo.append("div").attr("class", "heritageInfoCard--object-img")
-    objectInfo.append("div").attr("class", "heritageInfoCard--object-metadata")
 
     const thesisInfo = main
         .append("div")
@@ -144,21 +145,11 @@ function populateInfoCard(infoCard, objectData, currShelf){
         .style("background-color", objectData.color)
 
     //Add object info
-    const objectInfo = `<div>
-                        <span style="font-weight:bold;">${objectData.objects.title}</span><br>
-                        ${objectData.objects.detail ? objectData.objects.detail + '<br>' : ''}
-                        ${objectData.objects.author ? 'by: ' + objectData.objects.author + '<br>' : ''}
-                        ${objectData.objects.year ? '(' + objectData.objects.year + ')' : ''}
-                        </div>`;
 
+    const objectsRow = infoCard.select(".heritageInfoCard--block")
+    objectsRow.selectAll("*").remove()
 
-    // Add object attributes
-    infoCard
-        .select(".heritageInfoCard--object-img")
-        .style("background-image", `url("src/res/photos/heritage_objects/${objectData.objects.image}")`)   
-    infoCard
-        .select(".heritageInfoCard--object-metadata")
-        .html(objectInfo)   
+    addObjectCard(objectsRow, objectData)
 
     //Add theses covers
     infoCard
@@ -217,4 +208,34 @@ function dimThumbnail({exceptFor, opacity}){
         .selectAll(`#thumb_${exceptFor}`)
         .style("opacity", 1)
     }
+}
+
+function addObjectCard(container, objectData){
+    
+    //${object.detail ? object.detail + '<br>' : ''}
+    for (const object of objectData.objects) {
+        const objectInfo = `<div>
+        <span style="font-weight:bold;">${object.title}</span><br>
+        ${object.author ? 'by: ' + object.author + '<br>' : ''}
+        ${object.year ? '(' + object.year + ')' : ''}
+        </div>`
+
+    const objectCard = container.append("div").attr("class", "heritageInfoCard--object")
+
+    const metadata = objectCard
+    .append("div")
+    .attr("class", "heritageInfoCard--object-metadata")
+    
+    const img = objectCard
+        .append("div")
+        .attr("class", "heritageInfoCard--object-img")
+
+
+    img
+        .style("background-image", `url("src/res/photos/heritage_objects/${object.image}")`)   
+    metadata
+        .html(objectInfo)   
+    }
+
+
 }

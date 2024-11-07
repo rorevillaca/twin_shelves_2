@@ -59,14 +59,21 @@
     background-color: rgba(30, 28, 39, 0.6);
     display: flex;
     padding: 1% 15%;
-    column-gap: 5%;
+    column-gap: 3%;
+    justify-content: center;
+  }
+
+  .heritageInfoCard--object{
+    display: flex;
+    min-width: 45%;
   }
 
   .heritageInfoCard--object-img{
-    flex: 1;
+    flex: 2;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 3%;
   }
 
   .centered{
@@ -90,7 +97,7 @@
   }
 
   .heritageInfoCard--object-metadata, .heritageInfoCard--first-thesis-metadata, .heritageInfoCard--thesis-metadata{
-    flex: 4;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
