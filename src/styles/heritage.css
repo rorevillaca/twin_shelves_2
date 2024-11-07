@@ -74,7 +74,15 @@
     justify-content: center;
   }
 
-  .heritageInfoCard--first-thesis-img, .heritageInfoCard--thesis-img{
+  .heritageInfoCard--first-thesis-QR,
+  .heritageInfoCard--thesis-QR{
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .heritageInfoCard--first-thesis-img, 
+  .heritageInfoCard--thesis-img{
     flex: 1;
     background-size: auto 100%;
     background-repeat: no-repeat;

@@ -109,6 +109,7 @@ function infoCard(container, index){
 
     thesisInfo.append("div").attr("class", "heritageInfoCard--first-thesis-img")
     thesisInfo.append("div").attr("class", "heritageInfoCard--first-thesis-metadata")
+    thesisInfo.append("div").attr("class", "heritageInfoCard--first-thesis-QR")
     
     const firstThesisInfo = main
         .append("div")
@@ -116,7 +117,7 @@ function infoCard(container, index){
 
     firstThesisInfo.append("div").attr("class", "heritageInfoCard--thesis-img")
     firstThesisInfo.append("div").attr("class", "heritageInfoCard--thesis-metadata")
-
+    firstThesisInfo.append("div").attr("class", "heritageInfoCard--thesis-QR")
 }
 
 function populateInfoCard(infoCard, objectData, currShelf){
@@ -169,7 +170,7 @@ function populateInfoCard(infoCard, objectData, currShelf){
 
     //Add theses info
     var thesisInfo = `<div>
-                        <span style="font-weight:bold;">${objectData.first_thesis.title}</span>,<br>
+                        <span style="font-weight:bold;">${objectData.first_thesis.title}</span><br>
                         by: ${objectData.first_thesis.author}<br>
                         (${objectData.first_thesis.year})
                         </div>`;
@@ -180,7 +181,7 @@ function populateInfoCard(infoCard, objectData, currShelf){
         .html(thesisInfo)
 
     thesisInfo = `<div>
-                    <span style="font-weight:bold;">${objectData.thesis.title}</span>,<br>
+                    <span style="font-weight:bold;">${objectData.thesis.title}</span><br>
                     by: ${objectData.thesis.author}<br>
                     (${objectData.thesis.year})
                     </div>`;
@@ -188,6 +189,23 @@ function populateInfoCard(infoCard, objectData, currShelf){
     infoCard
         .select(".heritageInfoCard--thesis-metadata")
         .html(thesisInfo)
+
+    
+    //QRS
+        infoCard.selectAll(".heritageInfoCard--first-thesis-QR, .heritageInfoCard--thesis-QR")
+        .selectAll("img")
+        .remove();
+    //Add theses QRs 
+    const QRCode = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(objectData.first_thesis.url)}&size=80x80&color=${objectData.color.slice(1)}&bgcolor=30-28-39`
+    infoCard
+        .select(".heritageInfoCard--first-thesis-QR")
+        .append("img")
+        .attr("src", QRCode)
+    const QRCode2 = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(objectData.thesis.url)}&size=80x80&color=${objectData.color.slice(1)}&bgcolor=30-28-39`
+    infoCard
+        .select(".heritageInfoCard--thesis-QR")
+        .append("img")
+        .attr("src", QRCode2)
 }
 
 function dimThumbnail({exceptFor, opacity}){
