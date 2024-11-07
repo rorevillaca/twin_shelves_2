@@ -740,9 +740,59 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Efficient and Sustainable Design",
-    "recommender": "Bas Flipsen",
+    "sub_topic": "Innovative and Sustainable Design",
+    "recommender": "Aadjan van der Helm",
     "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "81tWoOTqAPL._SY522_",
+        "cover_file": "_recommended_books/cover_81tWoOTqAPL._SY522_.webp"
+      },
+      {
+        "OCLC": "qBfRDQAAQBAJ",
+        "cover_file": "_recommended_books/cover_qBfRDQAAQBAJ.webp"
+      },
+      {
+        "OCLC": "rGVIvgAACAAJ",
+        "cover_file": "_recommended_books/cover_rGVIvgAACAAJ.webp"
+      },
+      {
+        "OCLC": "RvJZEAAAQBAJ",
+        "cover_file": "_recommended_books/cover_RvJZEAAAQBAJ.webp"
+      },
+      {
+        "OCLC": "SHvzzuCnuv8C",
+        "cover_file": "_recommended_books/cover_SHvzzuCnuv8C.webp"
+      },
+      {
+        "OCLC": "UAtgxQEACAAJ",
+        "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
+      },
+      {
+        "OCLC": "XVv6DwAAQBAJ",
+        "cover_file": "_recommended_books/cover_XVv6DwAAQBAJ.webp"
+      },
+      {
+        "OCLC": "zlU7VdN5fA0C",
+        "cover_file": "_recommended_books/cover_zlU7VdN5fA0C.webp"
+      },
+      {
+        "OCLC": "p5fXAQAACAAJ",
+        "cover_file": "_recommended_books/cover_p5fXAQAACAAJ.webp"
+      },
+      {
+        "OCLC": "wTRRzwEACAAJ",
+        "cover_file": "_recommended_books/cover_wTRRzwEACAAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Innovative and Sustainable Design",
+    "recommender": "Bas Flipsen",
+    "virtual_shelf_temp": 2,
     "books_in_bookcase": 10,
     "books": [
       {
@@ -790,9 +840,9 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Elif Ozcan",
+    "sub_topic": "Innovative and Sustainable Design",
     "recommender": "Elif Ozcan",
-    "virtual_shelf_temp": 1,
+    "virtual_shelf_temp": 3,
     "books_in_bookcase": 16,
     "books": [
       {
@@ -864,59 +914,9 @@ const virtual_bookshelves = [
   {
     "topic": "Book Recommendations",
     "topic_id": "recommended_books",
-    "sub_topic": "Interaction Design",
-    "recommender": "Aadjan van der Helm",
-    "virtual_shelf_temp": 1,
-    "books_in_bookcase": 10,
-    "books": [
-      {
-        "OCLC": "81tWoOTqAPL._SY522_",
-        "cover_file": "_recommended_books/cover_81tWoOTqAPL._SY522_.webp"
-      },
-      {
-        "OCLC": "qBfRDQAAQBAJ",
-        "cover_file": "_recommended_books/cover_qBfRDQAAQBAJ.webp"
-      },
-      {
-        "OCLC": "rGVIvgAACAAJ",
-        "cover_file": "_recommended_books/cover_rGVIvgAACAAJ.webp"
-      },
-      {
-        "OCLC": "RvJZEAAAQBAJ",
-        "cover_file": "_recommended_books/cover_RvJZEAAAQBAJ.webp"
-      },
-      {
-        "OCLC": "SHvzzuCnuv8C",
-        "cover_file": "_recommended_books/cover_SHvzzuCnuv8C.webp"
-      },
-      {
-        "OCLC": "UAtgxQEACAAJ",
-        "cover_file": "_recommended_books/cover_UAtgxQEACAAJ.webp"
-      },
-      {
-        "OCLC": "XVv6DwAAQBAJ",
-        "cover_file": "_recommended_books/cover_XVv6DwAAQBAJ.webp"
-      },
-      {
-        "OCLC": "zlU7VdN5fA0C",
-        "cover_file": "_recommended_books/cover_zlU7VdN5fA0C.webp"
-      },
-      {
-        "OCLC": "p5fXAQAACAAJ",
-        "cover_file": "_recommended_books/cover_p5fXAQAACAAJ.webp"
-      },
-      {
-        "OCLC": "wTRRzwEACAAJ",
-        "cover_file": "_recommended_books/cover_wTRRzwEACAAJ.webp"
-      }
-    ]
-  },
-  {
-    "topic": "Book Recommendations",
-    "topic_id": "recommended_books",
-    "sub_topic": "Interaction Design",
+    "sub_topic": "Innovative and Sustainable Design",
     "recommender": "Willemijn Elkhuizen",
-    "virtual_shelf_temp": 2,
+    "virtual_shelf_temp": 4,
     "books_in_bookcase": 12,
     "books": [
       {

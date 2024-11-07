@@ -3,6 +3,7 @@ import { openDirectionsScreen } from "./directionsScreen.js"
 import { subtopicDivider } from "../components/subtopicDivider.js";
 import { recommendationTopicDivider } from "../components/recommendationTopicDivider.js";
 import { recommenderDivider } from "../components/recommenderDivider.js";
+import { cleanBookTitle } from "../utils/helpers.js";
 
 
 export function initShelvesScreen() {
@@ -114,20 +115,28 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
 
             if (topicId === "recommended_books"){
                 book.style("min-width", "31%")
+                book.style("max-width", "31%")
                 book.style("min-height", "23%")
+                book.style("max-height", "23%")
             
             } else {
                 book.style("min-height", "18%")
+                book.style("max-height", "18%")
                 if  (bookcase_content.virtual_shelf_temp === 1){
                     book.style("min-width", "23%")
+                    book.style("max-width", "23%")
                 } else {
                     book.style("min-width", "18%")
+                    book.style("max-width", "18%")
                 }
                 
             }
 
                 if (coverFilename === "NA") {
-                    book.style("background-color", "#2c2651");
+                    const book_info = workshop_data.filter(book => book.OCLC === OCLC)[0];
+                    const title  = book_info.title
+                    book.style("background-color", "#bcbec0");
+                    book.text(cleanBookTitle(title))
                 } else {
                     book.style("background-image", `url("src/res/resized_covers_struct/${coverFilename}")`)
                 }

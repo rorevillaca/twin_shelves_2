@@ -1,31 +1,4 @@
 const recommendation_topics = [
-    //TODO: ADJUST THEME
-  {
-      "theme": "Interaction Design",
-      "keywords": [
-        "KW 1",
-        "KW 2",
-        "KW 2"
-      ]
-    },
-    //TODO: ADJUST THEME
-    {
-      "theme": "Elif Ozcan",
-      "keywords": [
-        "KW 1",
-        "KW 2",
-        "KW 2"
-      ]
-    },
-    //TODO: ADJUST THEME
-    {
-      "theme": "Studium Generale",
-      "keywords": [
-        "KW 1",
-        "KW 2",
-        "KW 2"
-      ]
-    },
     {
       "theme": "Mobility and Transportation",
       "keywords": [
@@ -76,7 +49,7 @@ const recommendation_topics = [
       ]
     },
     {
-      "theme": "Efficient and Sustainable Design",
+      "theme": "Innovative and Sustainable Design",
       "keywords": [
         "Prototyping Techniques",
         "Design Principles and Methodologies",

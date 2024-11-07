@@ -18,3 +18,29 @@ export function shuffle(array) {
   
     return array;
   }
+
+
+  export function cleanBookTitle(str) {
+    // Step 1: Keep everything before the first appearance of ":"
+    // Find the first appearance of ":" or "("
+    const colonIndex = str.indexOf(":");
+    const parenIndex = str.indexOf("/");
+
+    // Determine the earliest appearance, if either is found
+    const cutoffIndex = (colonIndex !== -1 && parenIndex !== -1) 
+        ? Math.min(colonIndex, parenIndex) 
+        : (colonIndex !== -1 ? colonIndex : parenIndex);
+
+    // If there's a cutoff point, truncate the string at that index
+    if (cutoffIndex !== -1) {
+        str = str.substring(0, cutoffIndex);
+    }
+
+    // Step 2: Truncate to 70 characters and add "..." if necessary
+    str = str.length > 70 ? str.substring(0, 70) + "..." : str;
+
+    // Step 3: Trim ws
+    return str.trim();
+
+    
+}

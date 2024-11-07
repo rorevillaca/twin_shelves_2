@@ -199,6 +199,9 @@ html, body{
   background-repeat: no-repeat;
   background-position: center;
   box-sizing: border-box; /* Ensure border is included in the element's dimensions */
+  font-size: 0.6em;
+  padding: 3px;
+  color: black;
 }
 
 .highlighted{
