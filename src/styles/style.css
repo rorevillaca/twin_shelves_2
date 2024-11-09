@@ -197,7 +197,7 @@ html, body{
   /* min-width: 18%; */
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   box-sizing: border-box; /* Ensure border is included in the element's dimensions */
   font-size: 0.6em;
   padding: 3px;
