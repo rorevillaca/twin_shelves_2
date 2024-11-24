@@ -90,6 +90,10 @@ const recommendation_topics = [
         "Human-Robot Interaction",
         "Cognitive Models"
       ]
+    },
+    {
+      "theme": "Studium Generale",
+      "keywords": []
     }
 ]
 

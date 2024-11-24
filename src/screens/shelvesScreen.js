@@ -33,7 +33,7 @@ export function populateShelfView(topic_name, topicId){
         .attr("id",d => d)
         .text(d => d)
         .on('click',function() {
-        navigateToSubtopic(bookCaseCurrentTopic,this.getAttribute('id'))
+            navigateToSubtopic(bookCaseCurrentTopic,this.getAttribute('id'))
         })
 
 
@@ -163,17 +163,35 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
 
 
 function navigateToSubtopic(bookcase_curr_topic,subtopic_name){
+
+    var scrollAmount = 0
     
-    //This variable definition is duplicated; TODO: unify
-    var shelf_view_attr = (d3.select(".shelf_view--shelves").node().getBoundingClientRect())
-    const book_details_width = shelf_view_attr.width * 0.333333 
-    
-    const lowercase_name = subtopic_name.toLowerCase()
-    const index = bookcase_curr_topic.findIndex(item => item.sub_topic.toLowerCase() === lowercase_name);
+    if (bookcase_curr_topic[0]["topic"] == "Book Recommendations") {
+        const container = d3.select(".shelf_view--shelves").node(); // Select the scrollable container
+        const targetElement = d3.selectAll(".recommendationTopicDivider-title")
+            .filter((_, i, nodes) => d3.select(nodes[i]).text() === subtopic_name)
+            .node()
+            ?.getBoundingClientRect();
+        
+        const scrollWindow = d3.select('.shelf_view--shelves')
+        const currentScrollPosition = scrollWindow.property('scrollLeft')
+        const scrollOffset = scrollWindow.node().getBoundingClientRect().x
+        scrollAmount = currentScrollPosition + targetElement.x - scrollOffset - 50;
+
+    } else {
+
+        //This variable definition is duplicated; TODO: unify
+        var shelf_view_attr = (d3.select(".shelf_view--shelves").node().getBoundingClientRect())
+        const book_details_width = shelf_view_attr.width * 0.333333 
+        const lowercase_name = subtopic_name.toLowerCase()
+        const index = bookcase_curr_topic.findIndex(item => item.sub_topic.toLowerCase() === lowercase_name);
+        scrollAmount = index * book_details_width
+    }
+
     d3.selectAll(".book_details--visible")
         .attr("class", "book_details--invisible")
     d3.select('.shelf_view--shelves')
-        .property('scrollLeft', index * book_details_width)
+        .property('scrollLeft', scrollAmount)
 }
 
 

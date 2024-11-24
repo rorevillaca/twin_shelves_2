@@ -87,7 +87,8 @@ json_data <- books %>%
   ungroup() %>%
   rowwise()
 
+
 # Convert the list to JSON
 json_output <- toJSON(json_data, pretty = TRUE, auto_unbox = TRUE)
 
-write(json_output, file = paste0(curr_path,"/","virtual_bookshelves.js"))
+#write(json_output, file = paste0(curr_path,"/","virtual_bookshelves.js"))

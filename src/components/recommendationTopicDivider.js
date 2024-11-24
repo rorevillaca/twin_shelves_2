@@ -21,7 +21,7 @@ export function recommendationTopicDivider(selector, themeName) {
     const title = left
         .append("div")
         .attr("class", "recommendationTopicDivider-title")
-        .html(capitalizeFirstLetterOfEachWord(themeName)) 
+        .html(themeName) 
 
     const right = textContainer
         .append("div")
