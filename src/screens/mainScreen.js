@@ -20,6 +20,7 @@ export function initMainScreen() {
     addBackgroundBooks(`dissertations`, wallContainer)
     addBackgroundBooks(`heritage_objects`, wallContainer)
     addBackgroundBooks(`student_work`, wallContainer)
+    addBackgroundBooks(`study_books`, wallContainer)
 }
 
 export function addBackgroundBooks(topic, container) {

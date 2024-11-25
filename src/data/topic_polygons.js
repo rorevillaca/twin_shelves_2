@@ -618,5 +618,25 @@ const topic_polygons = [
     "topic": "dissertations",
     "x_perc": 0.764,
     "y_perc": 0.935
-  }
+  },
+  {
+    "topic": "study_books",
+    "x_perc": 0.624,
+    "y_perc": 0.808
+  },
+  {
+    "topic": "study_books",
+    "x_perc": 0.713,
+    "y_perc": 0.808
+  },
+  {
+    "topic": "study_books",
+    "x_perc": 0.713,
+    "y_perc": 0.935
+  },
+  {
+    "topic": "study_books",
+    "x_perc": 0.624,
+    "y_perc": 0.935
+  },
 ]

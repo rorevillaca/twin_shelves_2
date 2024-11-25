@@ -37,6 +37,14 @@ curr_path <- sub("/[^/]*$", "", curr_path)
 books <- openxlsx2::read_xlsx(paste0(curr_path,"/","workshop_data.xlsx"))
 recommended_books <- openxlsx2::read_xlsx(paste0(curr_path,"/","recommended_books.xlsx"))
 dissertations <- get_dissertation_data()
+study_books <-  openxlsx2::read_xlsx(paste0(curr_path,"/","studieboeken.xlsx")) %>% 
+  mutate(year = as.character(year),
+         OCLC = as.character(OCLC),
+         description = as.character(description),
+         sub_topic = as.character(sub_topic),
+         sub_sub_topic = as.character(sub_sub_topic),
+         cover_file = as.character(cover_file),
+         shelf = as.numeric(shelf))
 
 recommended_books %<>% mutate(
                         topic = "Book Recommendations", 
@@ -49,8 +57,10 @@ recommended_books %<>% mutate(
                           OCLC = unique_id)
 
 
+
 books %<>%  bind_rows(dissertations)
 books %<>%  bind_rows(recommended_books)
+books %<>%  bind_rows(study_books)
 
 books_json <- books  %>% 
   select(title,authors,year,OCLC,description,std_call_number,floor,cover_file,shelf) %>% 

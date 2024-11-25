@@ -6134,6 +6134,1882 @@ const virtual_bookshelves = [
     ]
   },
   {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books  ",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 1,
+    "books": [
+      {
+        "OCLC": "1248765722",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books A",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "898330268",
+        "cover_file": "1000/cover_898330268.webp"
+      },
+      {
+        "OCLC": "39291767",
+        "cover_file": "1000/cover_39291767.webp"
+      },
+      {
+        "OCLC": "872345701",
+        "cover_file": "1000/cover_872345701.webp"
+      },
+      {
+        "OCLC": "1196336614",
+        "cover_file": "1000/cover_1196336614.webp"
+      },
+      {
+        "OCLC": "1129394494",
+        "cover_file": "1000/cover_1129394494.webp"
+      },
+      {
+        "OCLC": "840396006",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "989620485",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1384415169",
+        "cover_file": "1000/cover_1384415169.webp"
+      },
+      {
+        "OCLC": "887605755",
+        "cover_file": "1000/cover_887605755.webp"
+      },
+      {
+        "OCLC": "1276902141",
+        "cover_file": "1000/cover_1276902141.webp"
+      },
+      {
+        "OCLC": "840445653",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1032304610",
+        "cover_file": "1000/cover_1032304610.webp"
+      },
+      {
+        "OCLC": "840396665",
+        "cover_file": "1000/cover_840396665.webp"
+      },
+      {
+        "OCLC": "155715274",
+        "cover_file": "1000/cover_155715274.webp"
+      },
+      {
+        "OCLC": "463634144",
+        "cover_file": "1000/cover_463634144.webp"
+      },
+      {
+        "OCLC": "877846199",
+        "cover_file": "1000/cover_877846199.webp"
+      },
+      {
+        "OCLC": "1341196180",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "150500449",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1202729593",
+        "cover_file": "1000/cover_1202729593.webp"
+      },
+      {
+        "OCLC": "1097951622",
+        "cover_file": "1000/cover_1097951622.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books A",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 5,
+    "books": [
+      {
+        "OCLC": "183179623",
+        "cover_file": "1000/cover_183179623.webp"
+      },
+      {
+        "OCLC": "898941388",
+        "cover_file": "1000/cover_898941388.webp"
+      },
+      {
+        "OCLC": "840445957",
+        "cover_file": "1000/cover_840445957.webp"
+      },
+      {
+        "OCLC": "1379200509",
+        "cover_file": "1000/cover_1379200509.webp"
+      },
+      {
+        "OCLC": "458890800",
+        "cover_file": "1000/cover_458890800.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books B",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "899217794",
+        "cover_file": "1000/cover_899217794.webp"
+      },
+      {
+        "OCLC": "48885132",
+        "cover_file": "1000/cover_48885132.webp"
+      },
+      {
+        "OCLC": "43859504",
+        "cover_file": "1000/cover_43859504.webp"
+      },
+      {
+        "OCLC": "33946899",
+        "cover_file": "1000/cover_33946899.webp"
+      },
+      {
+        "OCLC": "928842868",
+        "cover_file": "1000/cover_928842868.webp"
+      },
+      {
+        "OCLC": "39335023",
+        "cover_file": "1000/cover_39335023.webp"
+      },
+      {
+        "OCLC": "37700579",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "783103909",
+        "cover_file": "1000/cover_783103909.webp"
+      },
+      {
+        "OCLC": "840387304",
+        "cover_file": "1000/cover_840387304.webp"
+      },
+      {
+        "OCLC": "840402995",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "905512839",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "839227426",
+        "cover_file": "1000/cover_839227426.webp"
+      },
+      {
+        "OCLC": "46538510",
+        "cover_file": "1000/cover_46538510.webp"
+      },
+      {
+        "OCLC": "46538510",
+        "cover_file": "1000/cover_46538510.webp"
+      },
+      {
+        "OCLC": "987491805",
+        "cover_file": "1000/cover_987491805.webp"
+      },
+      {
+        "OCLC": "9645024",
+        "cover_file": "1000/cover_9645024.webp"
+      },
+      {
+        "OCLC": "840267783",
+        "cover_file": "1000/cover_840267783.webp"
+      },
+      {
+        "OCLC": "259962612",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "301229267",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "905514901",
+        "cover_file": "1000/cover_905514901.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books B",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 25,
+    "books": [
+      {
+        "OCLC": "905514901",
+        "cover_file": "1000/cover_905514901.webp"
+      },
+      {
+        "OCLC": "881146154",
+        "cover_file": "1000/cover_881146154.webp"
+      },
+      {
+        "OCLC": "991679719",
+        "cover_file": "1000/cover_991679719.webp"
+      },
+      {
+        "OCLC": "1125023129",
+        "cover_file": "1000/cover_1125023129.webp"
+      },
+      {
+        "OCLC": "972309303",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "905870177",
+        "cover_file": "1000/cover_905870177.webp"
+      },
+      {
+        "OCLC": "1014011028",
+        "cover_file": "1000/cover_1014011028.webp"
+      },
+      {
+        "OCLC": "66628202",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1122187965",
+        "cover_file": "1000/cover_1122187965.webp"
+      },
+      {
+        "OCLC": "769931384",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1432149513",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "53241985",
+        "cover_file": "1000/cover_53241985.webp"
+      },
+      {
+        "OCLC": "40200160",
+        "cover_file": "1000/cover_40200160.webp"
+      },
+      {
+        "OCLC": "840399244",
+        "cover_file": "1000/cover_840399244.webp"
+      },
+      {
+        "OCLC": "937999229",
+        "cover_file": "1000/cover_937999229.webp"
+      },
+      {
+        "OCLC": "53241985",
+        "cover_file": "1000/cover_53241985.webp"
+      },
+      {
+        "OCLC": "815927414",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1245329047",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "840401991",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1002209539",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "969342494",
+        "cover_file": "1000/cover_969342494.webp"
+      },
+      {
+        "OCLC": "1000387094",
+        "cover_file": "1000/cover_1000387094.webp"
+      },
+      {
+        "OCLC": "30158647",
+        "cover_file": "1000/cover_30158647.webp"
+      },
+      {
+        "OCLC": "840406525",
+        "cover_file": "1000/cover_840406525.webp"
+      },
+      {
+        "OCLC": "30158647",
+        "cover_file": "1000/cover_30158647.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books B",
+    "virtual_shelf_temp": 3,
+    "books_in_bookcase": 9,
+    "books": [
+      {
+        "OCLC": "66891553",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "66891553",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1050454512",
+        "cover_file": "1000/cover_1050454512.webp"
+      },
+      {
+        "OCLC": "846912052",
+        "cover_file": "1000/cover_846912052.webp"
+      },
+      {
+        "OCLC": "1048257171",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "177826041",
+        "cover_file": "1000/cover_177826041.webp"
+      },
+      {
+        "OCLC": "1085951603",
+        "cover_file": "1000/cover_1085951603.webp"
+      },
+      {
+        "OCLC": "915100245",
+        "cover_file": "1000/cover_915100245.webp"
+      },
+      {
+        "OCLC": "978484078",
+        "cover_file": "1000/cover_978484078.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books C",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "1124519426",
+        "cover_file": "1000/cover_1124519426.webp"
+      },
+      {
+        "OCLC": "63679985",
+        "cover_file": "1000/cover_63679985.webp"
+      },
+      {
+        "OCLC": "982654307",
+        "cover_file": "1000/cover_982654307.webp"
+      },
+      {
+        "OCLC": "875022373",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "797113942",
+        "cover_file": "1000/cover_797113942.webp"
+      },
+      {
+        "OCLC": "797113942",
+        "cover_file": "1000/cover_797113942.webp"
+      },
+      {
+        "OCLC": "32821179",
+        "cover_file": "1000/cover_32821179.webp"
+      },
+      {
+        "OCLC": "901494930",
+        "cover_file": "1000/cover_901494930.webp"
+      },
+      {
+        "OCLC": "994490392",
+        "cover_file": "1000/cover_994490392.webp"
+      },
+      {
+        "OCLC": "994490392",
+        "cover_file": "1000/cover_994490392.webp"
+      },
+      {
+        "OCLC": "50041291",
+        "cover_file": "1000/cover_50041291.webp"
+      },
+      {
+        "OCLC": "50041291",
+        "cover_file": "1000/cover_50041291.webp"
+      },
+      {
+        "OCLC": "22710786",
+        "cover_file": "1000/cover_22710786.webp"
+      },
+      {
+        "OCLC": "840269853",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "905869189",
+        "cover_file": "1000/cover_905869189.webp"
+      },
+      {
+        "OCLC": "796275648",
+        "cover_file": "1000/cover_796275648.webp"
+      },
+      {
+        "OCLC": "899048605",
+        "cover_file": "1000/cover_899048605.webp"
+      },
+      {
+        "OCLC": "1193556220",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1049789216",
+        "cover_file": "1000/cover_1049789216.webp"
+      },
+      {
+        "OCLC": "905862537",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books C",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 1,
+    "books": [
+      {
+        "OCLC": "905476451",
+        "cover_file": "1000/cover_905476451.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books D",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 14,
+    "books": [
+      {
+        "OCLC": "877965989",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "852390005",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "769441940",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "710021298",
+        "cover_file": "1000/cover_710021298.webp"
+      },
+      {
+        "OCLC": "1003193285",
+        "cover_file": "1000/cover_1003193285.webp"
+      },
+      {
+        "OCLC": "840349959",
+        "cover_file": "1000/cover_840349959.webp"
+      },
+      {
+        "OCLC": "261197892",
+        "cover_file": "1000/cover_261197892.webp"
+      },
+      {
+        "OCLC": "991888700",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "49704580",
+        "cover_file": "1000/cover_49704580.webp"
+      },
+      {
+        "OCLC": "782161184",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1109973352",
+        "cover_file": "1000/cover_1109973352.webp"
+      },
+      {
+        "OCLC": "1529401",
+        "cover_file": "1000/cover_1529401.webp"
+      },
+      {
+        "OCLC": "842015958",
+        "cover_file": "1000/cover_842015958.webp"
+      },
+      {
+        "OCLC": "47177031",
+        "cover_file": "1000/cover_47177031.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books E",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 13,
+    "books": [
+      {
+        "OCLC": "18072129",
+        "cover_file": "1000/cover_18072129.webp"
+      },
+      {
+        "OCLC": "236484295",
+        "cover_file": "1000/cover_236484295.webp"
+      },
+      {
+        "OCLC": "1028581984",
+        "cover_file": "1000/cover_1028581984.webp"
+      },
+      {
+        "OCLC": "1028051353",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "53840365",
+        "cover_file": "1000/cover_53840365.webp"
+      },
+      {
+        "OCLC": "840446570",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "793496339",
+        "cover_file": "1000/cover_793496339.webp"
+      },
+      {
+        "OCLC": "907928887",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "12135559",
+        "cover_file": "1000/cover_12135559.webp"
+      },
+      {
+        "OCLC": "57209000",
+        "cover_file": "1000/cover_57209000.webp"
+      },
+      {
+        "OCLC": "753626755",
+        "cover_file": "1000/cover_753626755.webp"
+      },
+      {
+        "OCLC": "840461195",
+        "cover_file": "1000/cover_840461195.webp"
+      },
+      {
+        "OCLC": "1198591289",
+        "cover_file": "1000/cover_1198591289.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books F",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 8,
+    "books": [
+      {
+        "OCLC": "964629153",
+        "cover_file": "1000/cover_964629153.webp"
+      },
+      {
+        "OCLC": "988749668",
+        "cover_file": "1000/cover_988749668.webp"
+      },
+      {
+        "OCLC": "827924468",
+        "cover_file": "1000/cover_827924468.webp"
+      },
+      {
+        "OCLC": "1138997307",
+        "cover_file": "1000/cover_1138997307.webp"
+      },
+      {
+        "OCLC": "49726399",
+        "cover_file": "1000/cover_49726399.webp"
+      },
+      {
+        "OCLC": "894355406",
+        "cover_file": "1000/cover_894355406.webp"
+      },
+      {
+        "OCLC": "777953599",
+        "cover_file": "1000/cover_777953599.webp"
+      },
+      {
+        "OCLC": "1419789483",
+        "cover_file": "1000/cover_1419789483.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books G",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 8,
+    "books": [
+      {
+        "OCLC": "858935666",
+        "cover_file": "1000/cover_858935666.webp"
+      },
+      {
+        "OCLC": "840446561",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "871820801",
+        "cover_file": "1000/cover_871820801.webp"
+      },
+      {
+        "OCLC": "890934573",
+        "cover_file": "1000/cover_890934573.webp"
+      },
+      {
+        "OCLC": "29224990",
+        "cover_file": "1000/cover_29224990.webp"
+      },
+      {
+        "OCLC": "1030447903",
+        "cover_file": "1000/cover_1030447903.webp"
+      },
+      {
+        "OCLC": "1021068059",
+        "cover_file": "1000/cover_1021068059.webp"
+      },
+      {
+        "OCLC": "608492312",
+        "cover_file": "1000/cover_608492312.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books H",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "1127666223",
+        "cover_file": "1000/cover_1127666223.webp"
+      },
+      {
+        "OCLC": "793099447",
+        "cover_file": "1000/cover_793099447.webp"
+      },
+      {
+        "OCLC": "174128814",
+        "cover_file": "1000/cover_174128814.webp"
+      },
+      {
+        "OCLC": "1390677747",
+        "cover_file": "1000/cover_1390677747.webp"
+      },
+      {
+        "OCLC": "474708009",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "540161465",
+        "cover_file": "1000/cover_540161465.webp"
+      },
+      {
+        "OCLC": "1202614608",
+        "cover_file": "1000/cover_1202614608.webp"
+      },
+      {
+        "OCLC": "1432146497",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "34243409",
+        "cover_file": "1000/cover_34243409.webp"
+      },
+      {
+        "OCLC": "1097548799",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1373926989",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "741728136",
+        "cover_file": "1000/cover_741728136.webp"
+      },
+      {
+        "OCLC": "757931253",
+        "cover_file": "1000/cover_757931253.webp"
+      },
+      {
+        "OCLC": "843227097",
+        "cover_file": "1000/cover_843227097.webp"
+      },
+      {
+        "OCLC": "949992168",
+        "cover_file": "1000/cover_949992168.webp"
+      },
+      {
+        "OCLC": "1020291647",
+        "cover_file": "1000/cover_1020291647.webp"
+      },
+      {
+        "OCLC": "908261455",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "857743855",
+        "cover_file": "1000/cover_857743855.webp"
+      },
+      {
+        "OCLC": "1342711572",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1088922296",
+        "cover_file": "1000/cover_1088922296.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books H",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 4,
+    "books": [
+      {
+        "OCLC": "1076548434",
+        "cover_file": "1000/cover_1076548434.webp"
+      },
+      {
+        "OCLC": "840365999",
+        "cover_file": "1000/cover_840365999.webp"
+      },
+      {
+        "OCLC": "904400036",
+        "cover_file": "1000/cover_904400036.webp"
+      },
+      {
+        "OCLC": "1273558291",
+        "cover_file": "1000/cover_1273558291.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books I",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 3,
+    "books": [
+      {
+        "OCLC": "1418880215",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1137227427",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "66791530",
+        "cover_file": "1000/cover_66791530.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books J",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 8,
+    "books": [
+      {
+        "OCLC": "840396273",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "905503233",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "922679186",
+        "cover_file": "1000/cover_922679186.webp"
+      },
+      {
+        "OCLC": "1199059802",
+        "cover_file": "1000/cover_1199059802.webp"
+      },
+      {
+        "OCLC": "839238970",
+        "cover_file": "1000/cover_839238970.webp"
+      },
+      {
+        "OCLC": "48753186",
+        "cover_file": "1000/cover_48753186.webp"
+      },
+      {
+        "OCLC": "32664979",
+        "cover_file": "1000/cover_32664979.webp"
+      },
+      {
+        "OCLC": "918594371",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books K",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "834531418",
+        "cover_file": "1000/cover_834531418.webp"
+      },
+      {
+        "OCLC": "1201687792",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "898080314",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "795553723",
+        "cover_file": "1000/cover_795553723.webp"
+      },
+      {
+        "OCLC": "60740742",
+        "cover_file": "1000/cover_60740742.webp"
+      },
+      {
+        "OCLC": "1124742039",
+        "cover_file": "1000/cover_1124742039.webp"
+      },
+      {
+        "OCLC": "37783098",
+        "cover_file": "1000/cover_37783098.webp"
+      },
+      {
+        "OCLC": "17650642",
+        "cover_file": "1000/cover_17650642.webp"
+      },
+      {
+        "OCLC": "17650642",
+        "cover_file": "1000/cover_17650642.webp"
+      },
+      {
+        "OCLC": "17650642",
+        "cover_file": "1000/cover_17650642.webp"
+      },
+      {
+        "OCLC": "900271641",
+        "cover_file": "1000/cover_900271641.webp"
+      },
+      {
+        "OCLC": "837282690",
+        "cover_file": "1000/cover_837282690.webp"
+      },
+      {
+        "OCLC": "949828258",
+        "cover_file": "1000/cover_949828258.webp"
+      },
+      {
+        "OCLC": "1260691769",
+        "cover_file": "1000/cover_1260691769.webp"
+      },
+      {
+        "OCLC": "51338422",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1238007900",
+        "cover_file": "1000/cover_1238007900.webp"
+      },
+      {
+        "OCLC": "57422612",
+        "cover_file": "1000/cover_57422612.webp"
+      },
+      {
+        "OCLC": "1354375723",
+        "cover_file": "1000/cover_1354375723.webp"
+      },
+      {
+        "OCLC": "1245328494",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "769750597",
+        "cover_file": "1000/cover_769750597.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books K",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 9,
+    "books": [
+      {
+        "OCLC": "769543251",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "769916606",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "820570393",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "905871203",
+        "cover_file": "1000/cover_905871203.webp"
+      },
+      {
+        "OCLC": "903599346",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1174344545",
+        "cover_file": "1000/cover_1174344545.webp"
+      },
+      {
+        "OCLC": "1086333858",
+        "cover_file": "1000/cover_1086333858.webp"
+      },
+      {
+        "OCLC": "863173091",
+        "cover_file": "1000/cover_863173091.webp"
+      },
+      {
+        "OCLC": "960844656",
+        "cover_file": "1000/cover_960844656.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books L",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 16,
+    "books": [
+      {
+        "OCLC": "855387372",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1090416820",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1444070236",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "762342351",
+        "cover_file": "1000/cover_762342351.webp"
+      },
+      {
+        "OCLC": "865653739",
+        "cover_file": "1000/cover_865653739.webp"
+      },
+      {
+        "OCLC": "1267382169",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "920463015",
+        "cover_file": "1000/cover_920463015.webp"
+      },
+      {
+        "OCLC": "1298190082",
+        "cover_file": "1000/cover_1298190082.webp"
+      },
+      {
+        "OCLC": "1330896221",
+        "cover_file": "1000/cover_1330896221.webp"
+      },
+      {
+        "OCLC": "1003210727",
+        "cover_file": "1000/cover_1003210727.webp"
+      },
+      {
+        "OCLC": "812250807",
+        "cover_file": "1000/cover_812250807.webp"
+      },
+      {
+        "OCLC": "868641565",
+        "cover_file": "1000/cover_868641565.webp"
+      },
+      {
+        "OCLC": "824081778",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "747741696",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "849508937",
+        "cover_file": "1000/cover_849508937.webp"
+      },
+      {
+        "OCLC": "1200753825",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books M",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "52377690",
+        "cover_file": "1000/cover_52377690.webp"
+      },
+      {
+        "OCLC": "262888377",
+        "cover_file": "1000/cover_262888377.webp"
+      },
+      {
+        "OCLC": "1315607715",
+        "cover_file": "1000/cover_1315607715.webp"
+      },
+      {
+        "OCLC": "870442957",
+        "cover_file": "1000/cover_870442957.webp"
+      },
+      {
+        "OCLC": "29478519",
+        "cover_file": "1000/cover_29478519.webp"
+      },
+      {
+        "OCLC": "1341187899",
+        "cover_file": "1000/cover_1341187899.webp"
+      },
+      {
+        "OCLC": "1031467430",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "24668881",
+        "cover_file": "1000/cover_24668881.webp"
+      },
+      {
+        "OCLC": "53459345",
+        "cover_file": "1000/cover_53459345.webp"
+      },
+      {
+        "OCLC": "40996160",
+        "cover_file": "1000/cover_40996160.webp"
+      },
+      {
+        "OCLC": "894625411",
+        "cover_file": "1000/cover_894625411.webp"
+      },
+      {
+        "OCLC": "1075316150",
+        "cover_file": "1000/cover_1075316150.webp"
+      },
+      {
+        "OCLC": "1118691405",
+        "cover_file": "1000/cover_1118691405.webp"
+      },
+      {
+        "OCLC": "137221653",
+        "cover_file": "1000/cover_137221653.webp"
+      },
+      {
+        "OCLC": "1137309867",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1137760046",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1137782709",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1137786998",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "869269459",
+        "cover_file": "1000/cover_869269459.webp"
+      },
+      {
+        "OCLC": "954592884",
+        "cover_file": "1000/cover_954592884.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books M",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 9,
+    "books": [
+      {
+        "OCLC": "50559833",
+        "cover_file": "1000/cover_50559833.webp"
+      },
+      {
+        "OCLC": "840372360",
+        "cover_file": "1000/cover_840372360.webp"
+      },
+      {
+        "OCLC": "1202062192",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "821021557",
+        "cover_file": "1000/cover_821021557.webp"
+      },
+      {
+        "OCLC": "1053865009",
+        "cover_file": "1000/cover_1053865009.webp"
+      },
+      {
+        "OCLC": "1350077316",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "801681328",
+        "cover_file": "1000/cover_801681328.webp"
+      },
+      {
+        "OCLC": "1285695989",
+        "cover_file": "1000/cover_1285695989.webp"
+      },
+      {
+        "OCLC": "54407821",
+        "cover_file": "1000/cover_54407821.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books N",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 7,
+    "books": [
+      {
+        "OCLC": "1083204348",
+        "cover_file": "1000/cover_1083204348.webp"
+      },
+      {
+        "OCLC": "244056806",
+        "cover_file": "1000/cover_244056806.webp"
+      },
+      {
+        "OCLC": "710977461",
+        "cover_file": "1000/cover_710977461.webp"
+      },
+      {
+        "OCLC": "986827885",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1243000176",
+        "cover_file": "1000/cover_1243000176.webp"
+      },
+      {
+        "OCLC": "50403754",
+        "cover_file": "1000/cover_50403754.webp"
+      },
+      {
+        "OCLC": "665137861",
+        "cover_file": "1000/cover_665137861.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books O",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 5,
+    "books": [
+      {
+        "OCLC": "782159198",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "840438932",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1111783563",
+        "cover_file": "1000/cover_1111783563.webp"
+      },
+      {
+        "OCLC": "1263585220",
+        "cover_file": "1000/cover_1263585220.webp"
+      },
+      {
+        "OCLC": "898933758",
+        "cover_file": "1000/cover_898933758.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books P",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "905869086",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "40073944",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "859555917",
+        "cover_file": "1000/cover_859555917.webp"
+      },
+      {
+        "OCLC": "1112422003",
+        "cover_file": "1000/cover_1112422003.webp"
+      },
+      {
+        "OCLC": "889626719",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1260664100",
+        "cover_file": "1000/cover_1260664100.webp"
+      },
+      {
+        "OCLC": "1422575311",
+        "cover_file": "1000/cover_1422575311.webp"
+      },
+      {
+        "OCLC": "1087023501",
+        "cover_file": "1000/cover_1087023501.webp"
+      },
+      {
+        "OCLC": "809789665",
+        "cover_file": "1000/cover_809789665.webp"
+      },
+      {
+        "OCLC": "995805833",
+        "cover_file": "1000/cover_995805833.webp"
+      },
+      {
+        "OCLC": "1120093288",
+        "cover_file": "1000/cover_1120093288.webp"
+      },
+      {
+        "OCLC": "150488985",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "885044581",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "751798332",
+        "cover_file": "1000/cover_751798332.webp"
+      },
+      {
+        "OCLC": "37107020",
+        "cover_file": "1000/cover_37107020.webp"
+      },
+      {
+        "OCLC": "44712950",
+        "cover_file": "1000/cover_44712950.webp"
+      },
+      {
+        "OCLC": "891185087",
+        "cover_file": "1000/cover_891185087.webp"
+      },
+      {
+        "OCLC": "460936151",
+        "cover_file": "1000/cover_460936151.webp"
+      },
+      {
+        "OCLC": "53330911",
+        "cover_file": "1000/cover_53330911.webp"
+      },
+      {
+        "OCLC": "868000594",
+        "cover_file": "1000/cover_868000594.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books P",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 2,
+    "books": [
+      {
+        "OCLC": "398151046",
+        "cover_file": "1000/cover_398151046.webp"
+      },
+      {
+        "OCLC": "990257568",
+        "cover_file": "1000/cover_990257568.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books R",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 16,
+    "books": [
+      {
+        "OCLC": "905868439",
+        "cover_file": "1000/cover_905868439.webp"
+      },
+      {
+        "OCLC": "840405934",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "920967072",
+        "cover_file": "1000/cover_920967072.webp"
+      },
+      {
+        "OCLC": "1017702608",
+        "cover_file": "1000/cover_1017702608.webp"
+      },
+      {
+        "OCLC": "929051268",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1112111044",
+        "cover_file": "1000/cover_1112111044.webp"
+      },
+      {
+        "OCLC": "783220822",
+        "cover_file": "1000/cover_783220822.webp"
+      },
+      {
+        "OCLC": "61228771",
+        "cover_file": "1000/cover_61228771.webp"
+      },
+      {
+        "OCLC": "1246518564",
+        "cover_file": "1000/cover_1246518564.webp"
+      },
+      {
+        "OCLC": "1356010857",
+        "cover_file": "1000/cover_1356010857.webp"
+      },
+      {
+        "OCLC": "1371816705",
+        "cover_file": "1000/cover_1371816705.webp"
+      },
+      {
+        "OCLC": "812113682",
+        "cover_file": "1000/cover_812113682.webp"
+      },
+      {
+        "OCLC": "840402607",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "269254465",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1124776132",
+        "cover_file": "1000/cover_1124776132.webp"
+      },
+      {
+        "OCLC": "1242911311",
+        "cover_file": "1000/cover_1242911311.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books S",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "39367276",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "781500807",
+        "cover_file": "1000/cover_781500807.webp"
+      },
+      {
+        "OCLC": "960043590",
+        "cover_file": "1000/cover_960043590.webp"
+      },
+      {
+        "OCLC": "1061863691",
+        "cover_file": "1000/cover_1061863691.webp"
+      },
+      {
+        "OCLC": "968135377",
+        "cover_file": "1000/cover_968135377.webp"
+      },
+      {
+        "OCLC": "244767823",
+        "cover_file": "1000/cover_244767823.webp"
+      },
+      {
+        "OCLC": "1317838085",
+        "cover_file": "1000/cover_1317838085.webp"
+      },
+      {
+        "OCLC": "1088899855",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "648148046",
+        "cover_file": "1000/cover_648148046.webp"
+      },
+      {
+        "OCLC": "930257025",
+        "cover_file": "1000/cover_930257025.webp"
+      },
+      {
+        "OCLC": "952204738",
+        "cover_file": "1000/cover_952204738.webp"
+      },
+      {
+        "OCLC": "879627747",
+        "cover_file": "1000/cover_879627747.webp"
+      },
+      {
+        "OCLC": "1370616233",
+        "cover_file": "1000/cover_1370616233.webp"
+      },
+      {
+        "OCLC": "496235669",
+        "cover_file": "1000/cover_496235669.webp"
+      },
+      {
+        "OCLC": "773536617",
+        "cover_file": "1000/cover_773536617.webp"
+      },
+      {
+        "OCLC": "1334563317",
+        "cover_file": "1000/cover_1334563317.webp"
+      },
+      {
+        "OCLC": "809937909",
+        "cover_file": "1000/cover_809937909.webp"
+      },
+      {
+        "OCLC": "959037061",
+        "cover_file": "1000/cover_959037061.webp"
+      },
+      {
+        "OCLC": "61115558",
+        "cover_file": "1000/cover_61115558.webp"
+      },
+      {
+        "OCLC": "1121030086",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books S",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 5,
+    "books": [
+      {
+        "OCLC": "820779093",
+        "cover_file": "1000/cover_820779093.webp"
+      },
+      {
+        "OCLC": "919481012",
+        "cover_file": "1000/cover_919481012.webp"
+      },
+      {
+        "OCLC": "1202616817",
+        "cover_file": "1000/cover_1202616817.webp"
+      },
+      {
+        "OCLC": "840358534",
+        "cover_file": "1000/cover_840358534.webp"
+      },
+      {
+        "OCLC": "785067273",
+        "cover_file": "1000/cover_785067273.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books T",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 14,
+    "books": [
+      {
+        "OCLC": "742005380",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "37640592",
+        "cover_file": "1000/cover_37640592.webp"
+      },
+      {
+        "OCLC": "55729992",
+        "cover_file": "1000/cover_55729992.webp"
+      },
+      {
+        "OCLC": "1130634245",
+        "cover_file": "1000/cover_1130634245.webp"
+      },
+      {
+        "OCLC": "1028609889",
+        "cover_file": "1000/cover_1028609889.webp"
+      },
+      {
+        "OCLC": "70256455",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "881214640",
+        "cover_file": "1000/cover_881214640.webp"
+      },
+      {
+        "OCLC": "1162420181",
+        "cover_file": "1000/cover_1162420181.webp"
+      },
+      {
+        "OCLC": "810257534",
+        "cover_file": "1000/cover_810257534.webp"
+      },
+      {
+        "OCLC": "41026491",
+        "cover_file": "1000/cover_41026491.webp"
+      },
+      {
+        "OCLC": "1180272520",
+        "cover_file": "1000/cover_1180272520.webp"
+      },
+      {
+        "OCLC": "39110396",
+        "cover_file": "1000/cover_39110396.webp"
+      },
+      {
+        "OCLC": "82672521",
+        "cover_file": "1000/cover_82672521.webp"
+      },
+      {
+        "OCLC": "1378576999",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books U",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 1,
+    "books": [
+      {
+        "OCLC": "925507543",
+        "cover_file": "1000/cover_925507543.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books V",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 15,
+    "books": [
+      {
+        "OCLC": "8487782",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1240825798",
+        "cover_file": "1000/cover_1240825798.webp"
+      },
+      {
+        "OCLC": "617310850",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1162538333",
+        "cover_file": "1000/cover_1162538333.webp"
+      },
+      {
+        "OCLC": "849751477",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "902866989",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "205247046",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "192095423",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "205247046",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "905515083",
+        "cover_file": "1000/cover_905515083.webp"
+      },
+      {
+        "OCLC": "44493225",
+        "cover_file": "1000/cover_44493225.webp"
+      },
+      {
+        "OCLC": "150301250",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "149864469",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "903400181",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1402169022",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books W",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 20,
+    "books": [
+      {
+        "OCLC": "1129399227",
+        "cover_file": "1000/cover_1129399227.webp"
+      },
+      {
+        "OCLC": "841051175",
+        "cover_file": "1000/cover_841051175.webp"
+      },
+      {
+        "OCLC": "15402579",
+        "cover_file": "1000/cover_15402579.webp"
+      },
+      {
+        "OCLC": "1019430399",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "1089710208",
+        "cover_file": "1000/cover_1089710208.webp"
+      },
+      {
+        "OCLC": "905482836",
+        "cover_file": "1000/cover_905482836.webp"
+      },
+      {
+        "OCLC": "908629367",
+        "cover_file": "1000/cover_908629367.webp"
+      },
+      {
+        "OCLC": "56387132",
+        "cover_file": "1000/cover_56387132.webp"
+      },
+      {
+        "OCLC": "905871302",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "856202487",
+        "cover_file": "1000/cover_856202487.webp"
+      },
+      {
+        "OCLC": "750121971",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "750121971",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "776023019",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "750121971",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "750121971",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "957637640",
+        "cover_file": "1000/cover_957637640.webp"
+      },
+      {
+        "OCLC": "1085967387",
+        "cover_file": "1000/cover_1085967387.webp"
+      },
+      {
+        "OCLC": "1156430090",
+        "cover_file": "1000/cover_1156430090.webp"
+      },
+      {
+        "OCLC": "923337970",
+        "cover_file": "1000/cover_923337970.webp"
+      },
+      {
+        "OCLC": "1233302641",
+        "cover_file": "1000/cover_1233302641.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books W",
+    "virtual_shelf_temp": 2,
+    "books_in_bookcase": 1,
+    "books": [
+      {
+        "OCLC": "1129595133",
+        "cover_file": "1000/cover_1129595133.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books Y",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 4,
+    "books": [
+      {
+        "OCLC": "794262100",
+        "cover_file": "NA"
+      },
+      {
+        "OCLC": "903175252",
+        "cover_file": "1000/cover_903175252.webp"
+      },
+      {
+        "OCLC": "55940602",
+        "cover_file": "1000/cover_55940602.webp"
+      },
+      {
+        "OCLC": "744914764",
+        "cover_file": "1000/cover_744914764.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books Z",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 4,
+    "books": [
+      {
+        "OCLC": "781958102",
+        "cover_file": "1000/cover_781958102.webp"
+      },
+      {
+        "OCLC": "781958102",
+        "cover_file": "1000/cover_781958102.webp"
+      },
+      {
+        "OCLC": "809086601",
+        "cover_file": "1000/cover_809086601.webp"
+      },
+      {
+        "OCLC": "38048653",
+        "cover_file": "1000/cover_38048653.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Study Books",
+    "topic_id": "study_books",
+    "sub_topic": "Study Books v",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 1,
+    "books": [
+      {
+        "OCLC": "1268328253",
+        "cover_file": "NA"
+      }
+    ]
+  },
+  {
     "topic": "aerospace engineering",
     "topic_id": "topic_1",
     "sub_topic": "aeronautical engineering",

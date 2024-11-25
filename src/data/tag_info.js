@@ -159,11 +159,11 @@ const tag_info =  [
     "topic": "recommended_books",
     "tag_type": "exhibition"
   },
-  // {
-  //   "name": "Study Books",
-  //   "topic": "study_books",
-  //   "tag_type": "exhibition"
-  // },
+  {
+    "name": "Study Books",
+    "topic": "study_books",
+    "tag_type": "exhibition"
+  },
   {
     "name": "Heritage Objects",
     "topic": "heritage_objects",
