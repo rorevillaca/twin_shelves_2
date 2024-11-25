@@ -142,18 +142,21 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
                 }
 
             book.on('click',function() {
-                let bookcase_id = this.getAttribute('bookcase_id')
-                d3.select('.shelf_view--shelves')
-                .property('scrollLeft', book_details_width * (bookcase_id - 1))
-                d3.selectAll(".book_details--visible")
-                .attr("class", "book_details--invisible")
+                
+                    let bookcase_id = this.getAttribute('bookcase_id')
+                    if (topicId !== "recommended_books"){
+                        d3.select('.shelf_view--shelves')
+                        .property('scrollLeft', book_details_width * (bookcase_id - 1))
+                    }
+                    d3.selectAll(".book_details--visible")
+                    .attr("class", "book_details--invisible")
 
-                d3.selectAll(".shelf--book").classed("dimmed", true);
-                d3.select(this).classed("dimmed", false).classed("highlighted", true);
+                    d3.selectAll(".shelf--book").classed("dimmed", true);
+                    d3.select(this).classed("dimmed", false).classed("highlighted", true);
 
-                const info_card = d3.select(`#book_details_${bookcase_id}`)
-                info_card.attr("class", "book_details--visible")
-                fillInfoCard(info_card, this.getAttribute('id'))
+                    const info_card = d3.select(`#book_details_${bookcase_id}`)
+                    info_card.attr("class", "book_details--visible")
+                    fillInfoCard(info_card, this.getAttribute('id'))
                 })
         }
     });
