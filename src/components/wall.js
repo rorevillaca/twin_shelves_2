@@ -11,7 +11,6 @@ export function wall(container, opacity, stairs) {
         .attr("x", "0")
         .attr("y", "0%")
 
-
     //Add the stairs
     if (stairs) {
         container.append("g")
