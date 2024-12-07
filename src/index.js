@@ -7,6 +7,7 @@ import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
 import { initStudentWork } from "./screens/studentWorkScreen.js" 
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js" 
+import { initSearchScreen } from "./screens/searchScreen.js" 
 
 
 let currentlySelectedSection = ""
@@ -17,6 +18,7 @@ initShelvesScreen()
 initDirectionsScreen()
 initStudentWork()
 initHeritageObjects()
+initSearchScreen()
 
 const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 const wallWidth = wallContainerAttrs.width * 0.95

@@ -17,11 +17,15 @@
     <link rel="stylesheet" type="text/css" href="./src/styles/objects.css">
     <link rel="stylesheet" type="text/css" href="./src/styles/dividers.css">
     <link rel="stylesheet" type="text/css" href="./src/styles/heritage.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/search.css">
     <script src="src/res/d3@7.6.1.min.js"></script>
     <!-- <script src="https://d3js.org/d3.v7.js"></script> -->
 <body>
     <div class="parent_container" style="text-align:center">
-        <div class="header_container"></div>
+        <div class="header_container">
+            <div class="search_container"></div>
+            <div class="logo_container"></div>
+        </div>
         <div class="wall_container"></div>
         <div class="instructions_container">
             <span>Explore:</span>
@@ -74,6 +78,17 @@
             <div class="directions-view__book-details__QR_holder"></div>
         </div>
         <div class="directions-view__wall"></div>
+    </div>
+
+    <div class="search-screen" id="search-screen">
+        <div id="search-screen-header" class="header"></div>
+        <div class="search_elements">
+            <div class="search_bar_container">
+                <input type="text" class="searchInput" placeholder="Enter search term">
+                <div class="searchButton"></div>
+            </div>
+            <div class="keyboard_container">KEYBOARD</div>    
+        </div>
     </div>
     
     <script type="text/javascript" src="src/data/background_books.js"></script>

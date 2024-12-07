@@ -1,0 +1,56 @@
+.search-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 23, 41, 1);
+    display: none;
+    z-index: 1000;
+    color: white;
+    grid-template-rows: 3fr 11fr 2fr;
+}
+
+.search_elements{
+    display: flex;
+    flex-direction: column;
+}
+
+.search_bar_container{
+    flex: 1;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchInput{
+    width: 30%; /* Takes 30% of the container's width */
+    height: 50%; /* Takes 50% of the container's height */
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    border-radius: 30px 0px 0px 30px;
+    padding: 0rem 1.5rem;
+    /* border: 5px 20px solid white; */
+}
+
+.searchButton{
+    width:4%; /* Takes 10% of the container's width */
+    height: 50%; /* Takes 50% of the container's height */
+    background-image: url('/src/res/search_no_bg.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 60%; /* Width adjusts automatically, height is 30% of the div */ 
+    box-sizing: border-box;
+    background-color: #2c2c6b;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.keyboard_container{
+    flex:5;
+    background-color: #2c2c6b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
