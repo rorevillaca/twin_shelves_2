@@ -50,7 +50,4 @@
 .keyboard_container{
     flex:5;
     background-color: #2c2c6b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
