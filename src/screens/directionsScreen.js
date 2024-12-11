@@ -138,28 +138,30 @@ function addShelfHighlight(shelfCoords,
     const originalShelfHeightPercentage = 0.0213
     const shelfWidth = originalShelfWidthPercentage * wallContainerAttrs.width  
     const shelfHeight = originalShelfHeightPercentage * wallContainerAttrs.height  
-    const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width - waypointSize/2,
+    const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width,
         adjustedHeight + yOffset + kioskOffset  
      ]
     
     wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous rect (if any)
     
-    const Station = wallContainer.append("rect")
+    const Station = wallContainer.append("circle")
         .attr("class", "wayPoints")
-        .attr("x", startingPoint[0])
-        .attr("y", startingPoint[1])
+        .attr("cx", startingPoint[0])
+        .attr("cy", startingPoint[1])
+        .attr("r", `${waypointSize  / 2}px`)
+
+
+    const shelfCenter = [shelfCoords.x_perc * wallContainerAttrs.width,
+                         shelfCoords.y_perc * adjustedHeight + yOffset - shelfHeight / 2
+                        ]
+
+    const shelfHighlight = wallContainer.append("rect")
+        .attr("class", "wayPoints")
+        .attr("x", shelfCenter[0])
+        .attr("y", shelfCenter[1])
         .attr("width", waypointSize)
         .attr("height", waypointSize)
 
-    const shelfCenter = [shelfCoords.x_perc * wallContainerAttrs.width + shelfWidth / 2,
-                         shelfCoords.y_perc * adjustedHeight + yOffset + shelfHeight / 2
-                        ]
-
-    const shelfHighlight = wallContainer.append("circle")
-        .attr("class", "wayPoints")
-        .attr("cx", shelfCenter[0])
-        .attr("cy", shelfCenter[1])
-        .attr("r", `${waypointSize  / 2}px`)
 }
 
 

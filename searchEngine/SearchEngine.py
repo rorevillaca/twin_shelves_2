@@ -56,8 +56,7 @@ class SearchEngine:
 
         results = [" | " + self._titles[i]+ " | " + str(self._oclc[i]) + " | " + str(self._covers[i]) for j, i in enumerate(indices[0])]
         json_result = self.jsonify_search_result(indices[0])
-        print(json_result)
-        return results
+        return json_result
     
     def radius_search(self, reshaped_embedding, d, k):
         n = self._index.ntotal  # Get the total number of vectors in the index

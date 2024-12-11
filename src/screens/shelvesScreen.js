@@ -10,9 +10,8 @@ export function initShelvesScreen() {
     backButton("#shelf-view--header")
 }
 
-export function populateShelfView(topic_name, topicId){
+export function populateShelfView({ mode, topic_name, topicId, bookCaseCurrentTopic}){
 
-    var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topicId);
     var numberOfBookcases = bookCaseCurrentTopic.length
     var uniqueSubtopics = [...new Set(bookCaseCurrentTopic.map (item => item.sub_topic))]
     var topic_holder = d3.select(".shelf_view--topic_holder")

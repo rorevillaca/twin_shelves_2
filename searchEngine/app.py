@@ -14,6 +14,8 @@ def search():
     #results = searchEngine.search(query, k=20)
     results = searchEngine.search(query, d=0.4, k=20)
     return jsonify({'results': results})
+    #print(results)
+    #return results
 
 if __name__ == '__main__':
     app.run(debug=True)
