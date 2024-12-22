@@ -13,7 +13,7 @@ const heritage_data = [
                 "author": "Brunsviga Maschinenwerke",
                 "detail": "model 13RK",
                 "cover": "calculator.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/d8d9b568-9e90-44a0-83a7-afc2529fe8e5"
             },
             {
                 "type": "Thesis",
@@ -45,7 +45,7 @@ const heritage_data = [
                 "author": "Chicony Electronics Company",
                 "detail": "model LT3600",
                 "cover": "laptop.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/2eb9bc6f-f653-4cef-957c-08e4ded1d25e"
             },
             {
                 "type": "Thesis",
@@ -76,7 +76,7 @@ const heritage_data = [
                 "year": "Germany, 1913",
                 "author": "Siemens & Halske",
                 "cover": "circuit.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/fce0e739-fe11-420b-9e9a-3a3d37cdbaca"
             },
             {
                 "type": "Thesis",
@@ -107,7 +107,7 @@ const heritage_data = [
                 "title": "Crystal Models from the minerals Sphalerite and Chalcopyrite",
                 "year": "mid-20th century",
                 "cover": "crystal_model.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/98896cbc-f45e-4ffc-b98a-b6530690e886"
             },
             {
                 "type": "Object",
@@ -115,7 +115,7 @@ const heritage_data = [
                 "year": "Mexico / Germany, 1900-1920",
                 "author": "Foote Mineral Company / Wilhelm Maucher",
                 "cover": "minerals.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/c4f9fbbe-b552-4825-8e55-409a4f441165"
             },
             {
                 "type": "Thesis",
@@ -148,7 +148,7 @@ const heritage_data = [
                 "author": "Kipp and Zonen",
                 "detail": "a laboratory glass for the preparation of gases",
                 "cover": "kipp.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/a4f14f5c-b03c-4f80-94ee-f70e71f89b35"
             },
             {
                 "type": "Thesis",
@@ -179,7 +179,7 @@ const heritage_data = [
                 "title": "Curved terracota roof tile",
                 "year": "16th Century",
                 "cover": "roof_tile.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/49f79907-7a6c-4d9c-a9d9-4b832505fd66"
             },
             {
                 "type": "Thesis",
@@ -210,7 +210,7 @@ const heritage_data = [
                 "year": "Austria, 1890",
                 "author": "W.J. Rohrbeck",
                 "cover": "train.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/9da48b3e-aeba-469d-8d6b-43fed8fe252c"
             },
             {
                 "type": "Thesis",
@@ -242,7 +242,7 @@ const heritage_data = [
                 "year": "Germany, 1910-1930",
                 "detail": "originating from the 'Laboratorium voor Technische Botanie",
                 "cover": "microscope.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/2063a2f0-6171-4ae3-9003-bf99c42cc39c"
             },
             {
                 "type": "Thesis",
@@ -274,7 +274,7 @@ const heritage_data = [
                 "year": "Switzerland 1950-1975",
                 "author": "Revue Thommen",
                 "cover": "altimeter.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/c36c0ac3-7792-434a-a14d-cdd9edc5ad24"
             },
             {
                 "type": "Object",
@@ -282,7 +282,15 @@ const heritage_data = [
                 "year": "France, 1900-1925",
                 "detail": "scale removed to show the mechanism",
                 "cover": "barometer.png",
-                "url": "https://tudelft.nl"
+                "url": "https://heritage.tudelft.nl/en/objects/191bcf60-e784-4a37-beaa-b65b5a5f6947"
+            },
+            {
+                "type": "Object",
+                "title": "Mechanical tachometer equiped with water level",
+                "author": "Th. Horn",
+                "year": "Germany, 1900-1925",
+                "cover": "tachometer.png",
+                "url": "https://heritage.tudelft.nl/en/objects/adf77820-1b64-48ba-88ca-6b8b8f8e06c9"
             },
             {
                 "type": "Thesis",
