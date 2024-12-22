@@ -54,52 +54,33 @@
     padding-right: 1%;
   }
 
-  .heritageInfoCard--block {
+  .heritageInfoCard--objRow {
     flex : 1; 
     background-color: rgba(30, 28, 39, 0.6);
     display: flex;
-    padding: 1% 15%;
-    column-gap: 3%;
-    justify-content: center;
+    flex-direction: row;
+    column-gap: 1%;
   }
 
-  .heritageInfoCard--object{
-    display: flex;
-    min-width: 45%;
-  }
-
-  .heritageInfoCard--object-img{
-    flex: 2;
+  .heritageInfoCard--objRow-img{
+    flex: 3;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 3%;
+    margin: 1%;
   }
 
-  .centered{
-    align-items: center;
-    justify-content: center;
-  }
-
-  .heritageInfoCard--first-thesis-QR,
-  .heritageInfoCard--thesis-QR{
-    flex: 1;
+  .heritageInfoCard--objRow-metadata{
+    flex: 6;
     display: flex;
+    justify-content: left;
     align-items: center;
   }
 
-  .heritageInfoCard--first-thesis-img, 
-  .heritageInfoCard--thesis-img{
-    flex: 1;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .heritageInfoCard--object-metadata, .heritageInfoCard--first-thesis-metadata, .heritageInfoCard--thesis-metadata{
-    flex: 3;
+  .heritageInfoCard--objRow-QR{
+    flex: 2;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 

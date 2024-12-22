@@ -94,7 +94,8 @@ function addQR(bookInfo){
 function addPath(shelfNumber, floorNo){
     const wallContainer = d3.select(".directions-view__wall").select("svg")
     const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
-    const kioskCoordPercentage = 599.262 / 1002.816
+    //const kioskCoordPercentage = 599.262 / 1002.816
+    const kioskCoordPercentage = 250 / 1002.816
     const waypointSize = 20
     const WallAspectRatio = 4.443
     const kioskOffset = 20
