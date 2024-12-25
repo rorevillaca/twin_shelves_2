@@ -1,5 +1,6 @@
 import { backButton } from "../components/backButton.js"
 import { populateShelfView } from "./shelvesScreen.js"
+import { keyboard } from "../components/keyboard.js"
 
 
 export function initSearchScreen() {    
@@ -16,6 +17,8 @@ export function initSearchScreen() {
         .on('click',function() {
             search()
         })
+
+    keyboard(".keyboard_container")
 }
 
 
