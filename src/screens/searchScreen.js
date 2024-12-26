@@ -1,10 +1,19 @@
 import { backButton } from "../components/backButton.js"
 import { populateShelfView } from "./shelvesScreen.js"
 import { keyboard } from "../components/keyboard.js"
+import { wall } from "../components/wall.js";
 
 
 export function initSearchScreen() {    
     backButton("#search-screen-header")
+
+    //Set container for wall
+    const wallContainer = d3.select(".search_wall_container")
+        .append("svg")
+        .attr("height","100%")
+        .attr("width","95%");
+    
+    wall(wallContainer, "70%", false)
     
     d3
         .select(".search_container")

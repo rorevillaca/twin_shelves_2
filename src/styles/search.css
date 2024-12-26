@@ -8,7 +8,7 @@
     display: none;
     z-index: 1000;
     color: white;
-    grid-template-rows: 3fr 11fr 2fr;
+    grid-template-rows: 3fr 17fr 1fr;
 }
 
 .search_elements{
@@ -17,19 +17,20 @@
 }
 
 .search_wall_container{
-    flex: 4;
+    flex: 18;
+    display: flex;
+    justify-content: center;
 }
-
 .search_bar_container{
-    flex: 1;
+    flex: 3;
     /* background-color: green; */
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 
 .keyboard_container{
-    flex:5;
+    flex:13;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +39,7 @@
 
 .searchInput{
     width: 30%; /* Takes 30% of the container's width */
-    height: 80%; /* Takes 50% of the container's height */
+    height: 70%; /* Takes 50% of the container's height */
     box-sizing: border-box;
     font-size: 1.2rem;
     border-radius: 30px 0px 0px 30px;
@@ -48,7 +49,7 @@
 
 .searchButton{
     width:4%; /* Takes 10% of the container's width */
-    height: 80%; /* Takes 50% of the container's height */
+    height: 70%; /* Takes 50% of the container's height */
     background-image: url('/src/res/search_no_bg.svg');
     background-size: contain;
     background-position: center;

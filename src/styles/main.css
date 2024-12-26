@@ -31,8 +31,8 @@
 }
 
 
-.wall_container { grid-area: 2 / 1 / 3 / 2; 
-                  background-color: #090235;}
+.wall_container { grid-area: 2 / 1 / 3 / 2;
+}
 
 .instructions_container { grid-area: 3 / 1 / 4 / 2; 
                     background-color: #090235;
