@@ -13,7 +13,7 @@ export function initSearchScreen() {
         .attr("height","100%")
         .attr("width","95%");
     
-    wall(wallContainer, "70%", false)
+    wall(wallContainer, "40%", false)
     
     d3
         .select(".search_container")

@@ -10,7 +10,7 @@ export function initDirectionsScreen() {
         .attr("height","100%")
         .attr("width","85%");
  
-    wall(wallContainer, "90%", true)
+    wall(wallContainer, "70%", true)
 }
 
 export function openDirectionsScreen(bookInfo) {
@@ -83,7 +83,7 @@ function addQR(bookInfo){
     if ("OCLC" in bookInfo) {
         const OCLC = bookInfo.OCLC
         const worldcatURL = `https://tudelft.on.worldcat.org/oclc/${OCLC}`
-        const qrCode = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcatURL)}&size=150x150&color=131-143-240&margin=10`
+        const qrCode = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcatURL)}&size=150x150&color=131-143-240&bgcolor=30-28-39`
         imgContainer.text("Scan to see more:")
         imgContainer.append("img")
         .attr("src", qrCode)

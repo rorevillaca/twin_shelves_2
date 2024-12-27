@@ -277,7 +277,7 @@ function resetTimer() {
     d3.selectAll("#wall_background").attr("opacity", 1)
     // Reset the timer after calling the function
     resetTimer();
-  }, 30000);
+  }, 20000);
 }
 
 // Add event listener to the document to detect any click
