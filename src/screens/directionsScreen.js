@@ -104,6 +104,8 @@ function addPath(shelfNumber, floorNo){
     const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
     const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber)[0];
 
+    console.log(shelfCoords)
+
 
     addShelfHighlight(shelfCoords, 
         kioskCoordPercentage,
@@ -136,9 +138,12 @@ function addShelfHighlight(shelfCoords,
                            yOffset,
                            originalShelfWidthPercentage){
 
+    const wallRatio = 0.2250 //from inkscape (height / width)
+    const wallHeight = wallContainerAttrs.width * wallRatio
+
     const originalShelfHeightPercentage = 0.0213
     const shelfWidth = originalShelfWidthPercentage * wallContainerAttrs.width  
-    const shelfHeight = originalShelfHeightPercentage * wallContainerAttrs.height  
+    const shelfHeight = originalShelfHeightPercentage * wallHeight 
     const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width,
         adjustedHeight + yOffset + kioskOffset  
      ]
@@ -151,17 +156,21 @@ function addShelfHighlight(shelfCoords,
         .attr("cy", startingPoint[1])
         .attr("r", `${waypointSize  / 2}px`)
 
+    console.log("Height")
+    console.log(wallContainerAttrs.height)
 
-    const shelfCenter = [shelfCoords.x_perc * wallContainerAttrs.width,
-                         shelfCoords.y_perc * adjustedHeight + yOffset - shelfHeight / 2
+    const shelfCorner = [shelfCoords.x_perc * wallContainerAttrs.width,
+                         shelfCoords.y_perc * adjustedHeight + yOffset
                         ]
-
+    
     const shelfHighlight = wallContainer.append("rect")
-        .attr("class", "wayPoints")
-        .attr("x", shelfCenter[0])
-        .attr("y", shelfCenter[1])
-        .attr("width", waypointSize)
-        .attr("height", waypointSize)
+        .attr("x", shelfCoords.x_perc * 100 * 1.005 + "%")
+        .attr("y", shelfCorner[1])
+        .attr("width", shelfWidth)
+        .attr("height", shelfHeight)
+    
+    shelfHighlight.classed("wayPoints blinking", true);
+
 
 }
 
@@ -206,8 +215,9 @@ function buildRoute(shelfCoords,
     }
 
     // Add destination shelf to route
-    route = route.concat([[shelfCoords.x_perc + originalShelfWidthPercentage/2, floorYPercentage[floorNo - 1]]]);
-    route = route.concat([[shelfCoords.x_perc + originalShelfWidthPercentage/2, shelfCoords.y_perc]]);
+    route = route.concat([[shelfCoords.x_perc * 1.005 + originalShelfWidthPercentage/2, floorYPercentage[floorNo - 1]]]);
+    route = route.concat([[shelfCoords.x_perc * 1.005 + originalShelfWidthPercentage/2, shelfCoords.y_perc]]);
+
 
     // Convert route from percentage to screen pixels
     const transformedRoute = route.map(d => [

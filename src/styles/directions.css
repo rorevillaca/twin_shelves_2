@@ -66,3 +66,16 @@
     stroke-width: 8px;
     fill: none;
   }
+
+.blinking{
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%, 70% {
+        opacity: 1; /* Fully visible */
+    }
+    71%, 100% {
+        opacity: 0; /* Fully invisible */
+    }
+}
