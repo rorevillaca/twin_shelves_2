@@ -144,8 +144,7 @@ function  magnifying_glass(topic){
               default:
                 var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topic);
                 shelf_view.style.display = "grid";
-                populateShelfView({ mode: "replicate",
-                                    topic_name: topic_name, 
+                populateShelfView({ topic_name: topic_name, 
                                     topicId: topic, 
                                     bookCaseCurrentTopic: bookCaseCurrentTopic})
             }

@@ -43,7 +43,7 @@ html, body{
   z-index: 1000;
   color: white;
   grid-template-columns: 1fr 7fr 1fr;
-  grid-template-rows: 3fr 10fr 1fr 2fr;
+  grid-template-rows: 3fr 15fr 1fr 2fr;
 }
 
 
@@ -54,7 +54,6 @@ html, body{
   padding-left: 70px;
   padding-right: 70px;
   justify-content: space-between;
-  /* background-color: yellow; */
 }
 .shelf_view--left_scroll{
   grid-area: 2 / 1 / 2 / 1;

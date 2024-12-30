@@ -55,12 +55,12 @@ class SearchEngine:
             distances, indices = self._index.search(reshaped_embedding, k) 
 
         results = [" | " + self._titles[i]+ " | " + str(self._oclc[i]) + " | " + str(self._covers[i]) for j, i in enumerate(indices[0])]
-        json_result = self.jsonify_search_result(indices[0])
+        json_result = self.jsonify_search_result(indices[0], query)
         return json_result
     
     def radius_search(self, reshaped_embedding, d, k):
         n = self._index.ntotal  # Get the total number of vectors in the index
-        if not k is None:
+        if k is None:
             n = k
         distances, indices = self._index.search(reshaped_embedding, n)
         filtered_indices = []
@@ -72,13 +72,42 @@ class SearchEngine:
         filtered_indices = [filtered_indices]
         return filtered_distances, filtered_indices
     
-    def jsonify_search_result(self, indices):
-        json_structure = [{
-            "topic": "search results",
-            "topic_id": "search_results",
-            "sub_topic": "search results",
-            "virtual_shelf_temp": 1,
-            "books_in_bookcase": len(indices),
-            "books": [{"OCLC": oclc, "cover_file": cover} for oclc, cover in zip(self._oclc[indices], self._covers[indices])]
-        }]
+    def jsonify_search_result(self, indices, query):
+        # Divide indices into chunks
+        first_shelf = indices[:20]  # First shelf has at most 20 items
+        remaining_indices = indices[20:]  # Remaining indices
+        other_shelves = [remaining_indices[i:i + 25] for i in range(0, len(remaining_indices), 25)]
+        
+        json_structure = []
+        
+        # Add the first shelf
+        if first_shelf:  # Only if there are items for the first shelf
+            json_structure.append({
+                "topic": "search results - shelf 1",
+                "topic_id": "search_results_shelf_1",
+                "sub_topic": query,
+                "virtual_shelf_temp": 1,
+                "books_in_bookcase": len(first_shelf),
+                "books": [
+                    {"OCLC": oclc, "cover_file": cover} 
+                    for oclc, cover in zip(self._oclc[first_shelf], self._covers[first_shelf])
+                ]
+            })
+        
+        # Add the other shelves
+        for shelf_num, shelf_indices in enumerate(other_shelves, start=2):  # Start numbering from 2
+            json_structure.append({
+                "topic": f"search results - shelf {shelf_num}",
+                "topic_id": f"search_results_shelf_{shelf_num}",
+                "sub_topic": query,
+                "virtual_shelf_temp": shelf_num,
+                "books_in_bookcase": len(shelf_indices),
+                "books": [
+                    {"OCLC": oclc, "cover_file": cover} 
+                    for oclc, cover in zip(self._oclc[shelf_indices], self._covers[shelf_indices])
+                ]
+            })
+
+        print(len(json_structure))
+        
         return json_structure

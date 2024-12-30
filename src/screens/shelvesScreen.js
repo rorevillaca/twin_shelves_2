@@ -10,7 +10,7 @@ export function initShelvesScreen() {
     backButton("#shelf-view--header")
 }
 
-export function populateShelfView({ mode, topic_name, topicId, bookCaseCurrentTopic}){
+export function populateShelfView({ topic_name, topicId, bookCaseCurrentTopic}){
 
     var numberOfBookcases = bookCaseCurrentTopic.length
     var uniqueSubtopics = [...new Set(bookCaseCurrentTopic.map (item => item.sub_topic))]
@@ -23,17 +23,23 @@ export function populateShelfView({ mode, topic_name, topicId, bookCaseCurrentTo
     subtopic_holder.selectAll(".shelves_subtopics").remove()
     topic_holder.text(topic_name)
 
-    subtopic_holder
+    if (topicId !== "search_results"){
+        subtopic_holder
+            .selectAll(".shelves_subtopics")
+            .data(uniqueSubtopics)
+            .enter()
+            .append("div")
+            .attr("class", "shelves_subtopics")
+            .attr("id",d => d)
+            .text(d => d)
+            .on('click',function() {
+                navigateToSubtopic(bookCaseCurrentTopic,this.getAttribute('id'))
+            })
+    } else {
+        subtopic_holder
         .selectAll(".shelves_subtopics")
-        .data(uniqueSubtopics)
-        .enter()
-        .append("div")
-        .attr("class", "shelves_subtopics")
-        .attr("id",d => d)
-        .text(d => d)
-        .on('click',function() {
-            navigateToSubtopic(bookCaseCurrentTopic,this.getAttribute('id'))
-        })
+        .remove()
+    }
 
 
     populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, book_details_width)

@@ -12,7 +12,7 @@ def search():
     data = request.get_json()
     query = data.get('query', '')
     #results = searchEngine.search(query, k=20)
-    results = searchEngine.search(query, d=0.4, k=20)
+    results = searchEngine.search(query, d=0.4)
     return jsonify({'results': results})
     #print(results)
     #return results

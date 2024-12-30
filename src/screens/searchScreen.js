@@ -48,8 +48,8 @@ function search() {
     .then(data => {
         console.log(data)
         shelf_view.style.display = "grid";
-        populateShelfView({ mode: "replicate",
-            topic_name: "search_results", 
+        populateShelfView({ 
+            topic_name: "Search Results", 
             topicId: "search_results", 
             bookCaseCurrentTopic: data.results})
     })
