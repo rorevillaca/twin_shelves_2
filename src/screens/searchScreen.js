@@ -2,6 +2,7 @@ import { backButton } from "../components/backButton.js"
 import { populateShelfView } from "./shelvesScreen.js"
 import { keyboard } from "../components/keyboard.js"
 import { wall } from "../components/wall.js";
+import { clearSelectedSection } from "../index.js"
 
 
 export function initSearchScreen() {    
@@ -19,6 +20,7 @@ export function initSearchScreen() {
         .select(".search_container")
         .on('click',function() {
             d3.select(".search-screen").style("display", "grid");
+            clearSelectedSection()
         })
 
     d3
@@ -32,7 +34,7 @@ export function initSearchScreen() {
 
 
 function search() {
-    const query = d3.select('.searchInput').property('value'); // Use property to get the value of an input field
+    const query = d3.select('.searchInput').property('value'); 
             
     fetch('http://127.0.0.1:5000/search', {
         method: 'POST',
@@ -46,12 +48,12 @@ function search() {
         return response.json();
     })
     .then(data => {
-        console.log(data)
+        console.log(data.distinct_shelves)
         shelf_view.style.display = "grid";
         populateShelfView({ 
             topic_name: "Search Results", 
             topicId: "search_results", 
-            bookCaseCurrentTopic: data.results})
+            bookCaseCurrentTopic: data.bookshelves})
     })
     .catch(error => console.error('Error:', error));
 }

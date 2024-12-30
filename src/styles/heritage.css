@@ -9,7 +9,7 @@
     z-index: 1000;
     color: white;
     grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 3fr 11fr 2fr;
+    grid-template-rows: 3fr 15fr 2fr;
   }
   
   .heritage_view--content{

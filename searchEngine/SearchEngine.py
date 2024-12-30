@@ -27,6 +27,7 @@ class SearchEngine:
         self._oclc = self.load_from_pickle("oclc")
         self._covers = self.load_from_pickle("covers")
         self._index = self.load_from_pickle("index")
+        self._shelves = self.load_from_pickle("shelvesNo")
         # self._openai_client = openai.OpenAI(api_key=key)
         #openai.api_key(key)
 
@@ -55,8 +56,10 @@ class SearchEngine:
             distances, indices = self._index.search(reshaped_embedding, k) 
 
         results = [" | " + self._titles[i]+ " | " + str(self._oclc[i]) + " | " + str(self._covers[i]) for j, i in enumerate(indices[0])]
-        json_result = self.jsonify_search_result(indices[0], query)
-        return json_result
+        bookshelves = self.jsonify_search_result(indices[0], query)
+        distinct_shelves_nos = list(set(self._shelves[indices[0]])) # Get the unique shelves numbers with matching items 
+
+        return bookshelves, distinct_shelves_nos
     
     def radius_search(self, reshaped_embedding, d, k):
         n = self._index.ntotal  # Get the total number of vectors in the index

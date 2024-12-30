@@ -158,7 +158,6 @@ function objectFactSheet(object, main, color){
     metadataDiv.html(metadata)
 
     const QR = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(object.url)}&size=80x80&color=${color.slice(1)}&bgcolor=30-28-39`
-    console.log(QR)
 
     QRDiv.append("img").attr("src", QR)
 }

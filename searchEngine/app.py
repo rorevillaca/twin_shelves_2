@@ -12,8 +12,11 @@ def search():
     data = request.get_json()
     query = data.get('query', '')
     #results = searchEngine.search(query, k=20)
-    results = searchEngine.search(query, d=0.4)
-    return jsonify({'results': results})
+    bookshelves, distinct_shelves_nos = searchEngine.search(query, d=0.4)
+    return jsonify({
+            'bookshelves': bookshelves,
+            'distinct_shelves' : distinct_shelves_nos    
+        })
     #print(results)
     #return results
 

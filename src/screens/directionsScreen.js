@@ -104,8 +104,6 @@ function addPath(shelfNumber, floorNo){
     const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
     const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber)[0];
 
-    console.log(shelfCoords)
-
 
     addShelfHighlight(shelfCoords, 
         kioskCoordPercentage,
@@ -156,8 +154,6 @@ function addShelfHighlight(shelfCoords,
         .attr("cy", startingPoint[1])
         .attr("r", `${waypointSize  / 2}px`)
 
-    console.log("Height")
-    console.log(wallContainerAttrs.height)
 
     const shelfCorner = [shelfCoords.x_perc * wallContainerAttrs.width,
                          shelfCoords.y_perc * adjustedHeight + yOffset

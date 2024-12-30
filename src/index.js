@@ -215,10 +215,6 @@ d3.selectAll(".topicButtonContainer, .exhibitionsButton")
   });
 
 
-
-
-
-
 function selectSection(sectionId) {
     if (currentlySelectedSection !== "") {
       d3.select("#"+currentlySelectedSection).selectAll("div").style("background-color","#2c2c6b")
@@ -266,6 +262,11 @@ function resetTimer() {
   
   // Set a new 10-second timer
   timeoutId = setTimeout(() => {
+    clearSelectedSection()
+  }, 15000);
+}
+
+export function clearSelectedSection() {
     //Add missing books back
     if (currentlySelectedSection !== "") {
       addBackgroundBooks(currentlySelectedSection, wallContainer)};
@@ -276,7 +277,6 @@ function resetTimer() {
     d3.selectAll("#wall_background").attr("opacity", 1)
     // Reset the timer after calling the function
     resetTimer();
-  }, 15000);
 }
 
 // Add event listener to the document to detect any click
