@@ -1,7 +1,7 @@
 import { backButton } from "../components/backButton.js"
 import { populateShelfView } from "./shelvesScreen.js"
 import { keyboard } from "../components/keyboard.js"
-import { wall } from "../components/wall.js";
+import { wall, addShelfHighlight } from "../components/wall.js";
 import { clearSelectedSection } from "../index.js"
 
 
@@ -34,6 +34,22 @@ export function initSearchScreen() {
 
 
 function search() {
+
+    const wallContainer = d3.select(".search_wall_container").select("svg")
+    const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
+    const WallAspectRatio = 4.443
+    const originalShelfWidthPercentage = 0.0126
+    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
+    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
+    const shelfCoords = shelf_positions.filter(item => item.shelf === 1080)[0];
+
+    addShelfHighlight(shelfCoords,
+        wallContainer, 
+        wallContainerAttrs,
+        adjustedHeight,
+        yOffset,
+        originalShelfWidthPercentage)
+
     const query = d3.select('.searchInput').property('value'); 
             
     fetch('http://127.0.0.1:5000/search', {
@@ -48,12 +64,11 @@ function search() {
         return response.json();
     })
     .then(data => {
-        console.log(data.distinct_shelves)
-        shelf_view.style.display = "grid";
-        populateShelfView({ 
-            topic_name: "Search Results", 
-            topicId: "search_results", 
-            bookCaseCurrentTopic: data.bookshelves})
+        // shelf_view.style.display = "grid";
+        // populateShelfView({ 
+        //     topic_name: "Search Results", 
+        //     topicId: "search_results", 
+        //     bookCaseCurrentTopic: data.bookshelves})
     })
     .catch(error => console.error('Error:', error));
 }

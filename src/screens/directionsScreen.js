@@ -1,5 +1,5 @@
 import { backButton } from "../components/backButton.js"
-import { wall } from "../components/wall.js";
+import { wall, addShelfHighlight } from "../components/wall.js";
 
 export function initDirectionsScreen() {    
     backButton("#directions-view-header")
@@ -104,13 +104,19 @@ function addPath(shelfNumber, floorNo){
     const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
     const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber)[0];
 
+    wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous elements (if any)
 
-    addShelfHighlight(shelfCoords, 
-        kioskCoordPercentage,
+    addStation(kioskCoordPercentage, 
         kioskOffset,
         wallContainer, 
         wallContainerAttrs, 
         waypointSize, 
+        adjustedHeight,
+        yOffset)
+
+    addShelfHighlight(shelfCoords,
+        wallContainer, 
+        wallContainerAttrs,
         adjustedHeight,
         yOffset,
         originalShelfWidthPercentage)
@@ -126,64 +132,44 @@ function addPath(shelfNumber, floorNo){
     animatePath(route)
 }
 
-function addShelfHighlight(shelfCoords,
-                           kioskCoordPercentage, 
-                           kioskOffset,
-                           wallContainer, 
-                           wallContainerAttrs, 
-                           waypointSize, 
-                           adjustedHeight,
-                           yOffset,
-                           originalShelfWidthPercentage){
+function addStation(
+        kioskCoordPercentage, 
+        kioskOffset,
+        wallContainer, 
+        wallContainerAttrs, 
+        waypointSize, 
+        adjustedHeight,
+        yOffset
+    ){
 
-    const wallRatio = 0.2250 //from inkscape (height / width)
-    const wallHeight = wallContainerAttrs.width * wallRatio
+        const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width,
+        adjustedHeight + yOffset + kioskOffset]
 
-    const originalShelfHeightPercentage = 0.0213
-    const shelfWidth = originalShelfWidthPercentage * wallContainerAttrs.width  
-    const shelfHeight = originalShelfHeightPercentage * wallHeight 
-    const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width,
-        adjustedHeight + yOffset + kioskOffset  
-     ]
-    
-    wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous rect (if any)
-    
-    const Station = wallContainer.append("circle")
+        const Station = wallContainer.append("circle")
         .attr("class", "wayPoints")
         .attr("cx", startingPoint[0])
         .attr("cy", startingPoint[1])
         .attr("r", `${waypointSize  / 2}px`)
+    }
 
 
-    const shelfCorner = [shelfCoords.x_perc * wallContainerAttrs.width,
-                         shelfCoords.y_perc * adjustedHeight + yOffset
-                        ]
-    
-    const shelfHighlight = wallContainer.append("rect")
-        .attr("x", shelfCoords.x_perc * 100 * 1.005 + "%")
-        .attr("y", shelfCorner[1])
-        .attr("width", shelfWidth)
-        .attr("height", shelfHeight)
-    
-    shelfHighlight.classed("wayPoints blinking", true);
+function buildRoute(
+        shelfCoords,
+        floorNo,
+        kioskCoordPercentage,
+        wallContainerAttrs,
+        adjustedHeight,
+        yOffset,
+        kioskOffset,
+        originalShelfWidthPercentage
+    ){
 
-
-}
-
-
-function buildRoute(shelfCoords,
-                    floorNo,
-                    kioskCoordPercentage,
-                    wallContainerAttrs,
-                    adjustedHeight,
-                    yOffset,
-                    kioskOffset,
-                    originalShelfWidthPercentage){
-
-    const floorYPercentage = [0.963,
-                              0.800,
-                              0.638,
-                              0.476]
+    const floorYPercentage = [
+        0.963,
+        0.800,
+        0.638,
+        0.476
+    ]
     
     const leftStairsPercentage = [
     [[0.129, floorYPercentage[0]], [0.139, floorYPercentage[0]], [0.196, floorYPercentage[1]], [0.205, floorYPercentage[1]]],
