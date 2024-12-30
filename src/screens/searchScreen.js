@@ -35,21 +35,6 @@ export function initSearchScreen() {
 
 function search() {
 
-    const wallContainer = d3.select(".search_wall_container").select("svg")
-    const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
-    const WallAspectRatio = 4.443
-    const originalShelfWidthPercentage = 0.0126
-    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
-    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
-    const shelfCoords = shelf_positions.filter(item => item.shelf === 1080)[0];
-
-    addShelfHighlight(shelfCoords,
-        wallContainer, 
-        wallContainerAttrs,
-        adjustedHeight,
-        yOffset,
-        originalShelfWidthPercentage)
-
     const query = d3.select('.searchInput').property('value'); 
             
     fetch('http://127.0.0.1:5000/search', {
@@ -64,11 +49,40 @@ function search() {
         return response.json();
     })
     .then(data => {
-        // shelf_view.style.display = "grid";
-        // populateShelfView({ 
-        //     topic_name: "Search Results", 
-        //     topicId: "search_results", 
-        //     bookCaseCurrentTopic: data.bookshelves})
+        // First highlight shelves, then display results
+        return new Promise(resolve => {
+            highlightShelves(data.distinct_shelves);
+            setTimeout(() => resolve(data), 3000); // Wait
+        });
+    })
+    .then(data => {
+        d3.select(".search_wall_container").select("svg").selectAll(".wayPoints").remove()
+        shelf_view.style.display = "grid";
+        populateShelfView({ 
+            topic_name: "Search Results", 
+            topicId: "search_results", 
+            bookCaseCurrentTopic: data.bookshelves})
     })
     .catch(error => console.error('Error:', error));
+}
+
+
+function highlightShelves(shelves){
+
+    const wallContainer = d3.select(".search_wall_container").select("svg")
+    const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
+    const WallAspectRatio = 4.443
+    const originalShelfWidthPercentage = 0.0126
+    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
+    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
+    const shelfCoords = shelf_positions.filter(item => shelves.includes(item.shelf));
+    const blink = false
+
+    addShelfHighlight(shelfCoords,
+        wallContainer, 
+        wallContainerAttrs,
+        adjustedHeight,
+        yOffset,
+        originalShelfWidthPercentage,
+        blink)
 }

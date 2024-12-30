@@ -102,7 +102,11 @@ function addPath(shelfNumber, floorNo){
     const originalShelfWidthPercentage = 0.0126
     const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
     const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
-    const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber)[0];
+    const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber);
+    const blink = true
+
+    console.log(shelf_positions.filter(item => item.shelf === shelfNumber))
+    console.log(shelfCoords)
 
     wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous elements (if any)
 
@@ -119,9 +123,11 @@ function addPath(shelfNumber, floorNo){
         wallContainerAttrs,
         adjustedHeight,
         yOffset,
-        originalShelfWidthPercentage)
+        originalShelfWidthPercentage,
+        blink
+    )
 
-    const route = buildRoute(shelfCoords,
+    const route = buildRoute(shelfCoords[0],
         floorNo, 
         kioskCoordPercentage,
         wallContainerAttrs,

@@ -32,7 +32,8 @@ export function addShelfHighlight(
     wallContainerAttrs,
     adjustedHeight,
     yOffset,
-    originalShelfWidthPercentage
+    originalShelfWidthPercentage,
+    blink
 ) {
 
     const wallRatio = 0.2250 //from inkscape (height / width)
@@ -42,17 +43,22 @@ export function addShelfHighlight(
     const shelfWidth = originalShelfWidthPercentage * wallContainerAttrs.width  
     const shelfHeight = originalShelfHeightPercentage * wallHeight 
 
-    const shelfCorner = [
-        shelfCoords.x_perc * wallContainerAttrs.width,
-        shelfCoords.y_perc * adjustedHeight + yOffset
-    ]
-    
-    const shelfHighlight = wallContainer.append("rect")
-        .attr("x", shelfCoords.x_perc * 100 * 1.005 + "%")
-        .attr("y", shelfCorner[1])
-        .attr("width", shelfWidth)
-        .attr("height", shelfHeight)
-    
-    shelfHighlight.classed("wayPoints blinking", true);
+    shelfCoords.forEach(element => {
+        const shelfCorner = [
+            element.x_perc * wallContainerAttrs.width,
+            element.y_perc * adjustedHeight + yOffset
+        ]
+        
+        const shelfHighlight = wallContainer.append("rect")
+            .attr("class", "wayPoints")
+            .attr("x", element.x_perc * 100 * 1.005 + "%")
+            .attr("y", shelfCorner[1])
+            .attr("width", shelfWidth)
+            .attr("height", shelfHeight)
+        
+        if (blink){ 
+            shelfHighlight.classed("wayPoints blinking", true)
+        }
+    });
 
 }
