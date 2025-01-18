@@ -215,6 +215,7 @@ html, body{
 
 .book_details--visible {
     min-width: calc(33.3333% - 30px);
+    max-width: calc(33.3333% - 30px);
     display: flex;
     flex-direction: column; /* Stack child divs vertically */
     justify-content: space-between; /* Distribute space evenly between children */
