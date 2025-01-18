@@ -1,15 +1,15 @@
 import { backButton } from "../components/backButton.js"
 import { wall, addShelfHighlight } from "../components/wall.js";
 
-export function initDirectionsScreen() {    
+export function initDirectionsScreen() {
     backButton("#directions-view-header")
 
     //Set container for wall
     const wallContainer = d3.select(".directions-view__wall")
         .append("svg")
-        .attr("height","100%")
-        .attr("width","85%");
- 
+        .attr("height", "100%")
+        .attr("width", "85%");
+
     wall(wallContainer, "70%", true)
 }
 
@@ -23,25 +23,25 @@ export function openDirectionsScreen(bookInfo) {
 }
 
 
-function addBookCover(coverFilename){
+function addBookCover(coverFilename) {
 
     const coverContainer = d3.select(".directions-view__book-details__cover")
     const containerHeight = coverContainer.node().clientHeight;
 
-    
+
     if (typeof coverFilename !== 'undefined') {//If image is available
         const imagePath = `src/res/resized_covers_struct/${coverFilename}`;
         coverContainer.style("background-image", `url(${imagePath})`);
-        
+
         const img = new Image();
         img.src = imagePath;
 
-        img.onload = function() {
+        img.onload = function () {
             var width = img.naturalWidth;
             var height = img.naturalHeight;
             aspectRatio = width / height;
             const containerWidth = containerHeight * aspectRatio;
-            coverContainer.style("width",`${containerWidth}px`);
+            coverContainer.style("width", `${containerWidth}px`);
             coverContainer.style("background-color", null);
         };
 
@@ -50,17 +50,17 @@ function addBookCover(coverFilename){
         coverContainer.style("background-image", null);
         coverContainer.style("background-color", "silver");
         const containerWidth = containerHeight * aspectRatio;
-        coverContainer.style("width",`${containerWidth}px`);
+        coverContainer.style("width", `${containerWidth}px`);
     }
 
 
 }
 
-function addBBookDetails(bookInfo){
-    
+function addBBookDetails(bookInfo) {
+
     const locationContainer = d3.select(".directions-view__book-details__location")
     locationContainer.selectAll("*").remove()//Remove previous info (if any)
-    
+
     locationContainer.append("h1")
         .text(bookInfo.title)
     locationContainer.append("h3")
@@ -69,14 +69,14 @@ function addBBookDetails(bookInfo){
     var locationText = ""
 
     if ("std_call_number" in bookInfo) {
-        locationText = locationText +  `Code: <b>${bookInfo.std_call_number}</b><br>`
+        locationText = locationText + `Code: <b>${bookInfo.std_call_number}</b><br>`
     }
 
-    locationText = locationText + `Floor: <b>${bookInfo.floor}</b><br>Shelf: <b>${bookInfo.shelf}</b>` 
+    locationText = locationText + `Floor: <b>${bookInfo.floor}</b><br>Shelf: <b>${bookInfo.shelf}</b>`
     locationContainer.append("div").html(locationText)
 }
 
-function addQR(bookInfo){
+function addQR(bookInfo) {
     const imgContainer = d3.select(".directions-view__book-details__QR_holder")
     imgContainer.text("")
     imgContainer.select("*").remove()//Remove previous QR (if any)
@@ -86,12 +86,12 @@ function addQR(bookInfo){
         const qrCode = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(worldcatURL)}&size=150x150&color=131-143-240&bgcolor=30-28-39`
         imgContainer.text("Scan to see more:")
         imgContainer.append("img")
-        .attr("src", qrCode)
+            .attr("src", qrCode)
     }
 
 }
 
-function addPath(shelfNumber, floorNo){
+function addPath(shelfNumber, floorNo) {
     const wallContainer = d3.select(".directions-view__wall").select("svg")
     const wallContainerAttrs = wallContainer.node().getBoundingClientRect()
     //const kioskCoordPercentage = 599.262 / 1002.816
@@ -100,26 +100,29 @@ function addPath(shelfNumber, floorNo){
     const WallAspectRatio = 4.443
     const kioskOffset = 20
     const originalShelfWidthPercentage = 0.0126
-    const adjustedHeight = wallContainerAttrs.width/WallAspectRatio
-    const yOffset = (wallContainerAttrs.height - adjustedHeight)/2
-    const shelfCoords = shelf_positions.filter(item => item.shelf === shelfNumber);
+    const adjustedHeight = wallContainerAttrs.width / WallAspectRatio
+    const yOffset = (wallContainerAttrs.height - adjustedHeight) / 2
+
+    
+    shelfNumber = Array.isArray(shelfNumber) ? shelfNumber : [shelfNumber];
+    const shelfCoords = shelf_positions
+        .filter(item => shelfNumber.includes(item.shelf))
+        .sort((a, b) => shelfNumber.indexOf(a.shelf) - shelfNumber.indexOf(b.shelf));
     const blink = true
 
-    console.log(shelf_positions.filter(item => item.shelf === shelfNumber))
-    console.log(shelfCoords)
 
     wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous elements (if any)
 
-    addStation(kioskCoordPercentage, 
+    addStation(kioskCoordPercentage,
         kioskOffset,
-        wallContainer, 
-        wallContainerAttrs, 
-        waypointSize, 
+        wallContainer,
+        wallContainerAttrs,
+        waypointSize,
         adjustedHeight,
         yOffset)
 
     addShelfHighlight(shelfCoords,
-        wallContainer, 
+        wallContainer,
         wallContainerAttrs,
         adjustedHeight,
         yOffset,
@@ -128,7 +131,7 @@ function addPath(shelfNumber, floorNo){
     )
 
     const route = buildRoute(shelfCoords[0],
-        floorNo, 
+        floorNo,
         kioskCoordPercentage,
         wallContainerAttrs,
         adjustedHeight,
@@ -139,36 +142,36 @@ function addPath(shelfNumber, floorNo){
 }
 
 function addStation(
-        kioskCoordPercentage, 
-        kioskOffset,
-        wallContainer, 
-        wallContainerAttrs, 
-        waypointSize, 
-        adjustedHeight,
-        yOffset
-    ){
+    kioskCoordPercentage,
+    kioskOffset,
+    wallContainer,
+    wallContainerAttrs,
+    waypointSize,
+    adjustedHeight,
+    yOffset
+) {
 
-        const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width,
-        adjustedHeight + yOffset + kioskOffset]
+    const startingPoint = [kioskCoordPercentage * wallContainerAttrs.width,
+    adjustedHeight + yOffset + kioskOffset]
 
-        const Station = wallContainer.append("circle")
+    const Station = wallContainer.append("circle")
         .attr("class", "wayPoints")
         .attr("cx", startingPoint[0])
         .attr("cy", startingPoint[1])
-        .attr("r", `${waypointSize  / 2}px`)
-    }
+        .attr("r", `${waypointSize / 2}px`)
+}
 
 
 function buildRoute(
-        shelfCoords,
-        floorNo,
-        kioskCoordPercentage,
-        wallContainerAttrs,
-        adjustedHeight,
-        yOffset,
-        kioskOffset,
-        originalShelfWidthPercentage
-    ){
+    shelfCoords,
+    floorNo,
+    kioskCoordPercentage,
+    wallContainerAttrs,
+    adjustedHeight,
+    yOffset,
+    kioskOffset,
+    originalShelfWidthPercentage
+) {
 
     const floorYPercentage = [
         0.963,
@@ -176,35 +179,35 @@ function buildRoute(
         0.638,
         0.476
     ]
-    
+
     const leftStairsPercentage = [
-    [[0.129, floorYPercentage[0]], [0.139, floorYPercentage[0]], [0.196, floorYPercentage[1]], [0.205, floorYPercentage[1]]],
-    [[0.215, floorYPercentage[1]], [0.271, floorYPercentage[2]], [0.282, floorYPercentage[2]]],
-    [[0.291, floorYPercentage[2]], [0.348, floorYPercentage[3]], [0.357, floorYPercentage[3]]]
+        [[0.129, floorYPercentage[0]], [0.139, floorYPercentage[0]], [0.196, floorYPercentage[1]], [0.205, floorYPercentage[1]]],
+        [[0.215, floorYPercentage[1]], [0.271, floorYPercentage[2]], [0.282, floorYPercentage[2]]],
+        [[0.291, floorYPercentage[2]], [0.348, floorYPercentage[3]], [0.357, floorYPercentage[3]]]
     ]
 
     const rightStairsPercentage = [
-    [[0.511, floorYPercentage[0]], [0.520, floorYPercentage[0]], [0.577, floorYPercentage[1]], [0.590, floorYPercentage[1]]],
-    [[0.623, floorYPercentage[1]], [0.680, floorYPercentage[2]], [0.691, floorYPercentage[2]]],
-    [[0.699, floorYPercentage[2]], [0.756, floorYPercentage[3]], [0.766, floorYPercentage[3]]]
+        [[0.511, floorYPercentage[0]], [0.520, floorYPercentage[0]], [0.577, floorYPercentage[1]], [0.590, floorYPercentage[1]]],
+        [[0.623, floorYPercentage[1]], [0.680, floorYPercentage[2]], [0.691, floorYPercentage[2]]],
+        [[0.699, floorYPercentage[2]], [0.756, floorYPercentage[3]], [0.766, floorYPercentage[3]]]
     ]
 
     // Add kiosk to route
-    var route = [[kioskCoordPercentage, (adjustedHeight + kioskOffset)/adjustedHeight],
-                 [kioskCoordPercentage, floorYPercentage[0]]]
+    var route = [[kioskCoordPercentage, (adjustedHeight + kioskOffset) / adjustedHeight],
+    [kioskCoordPercentage, floorYPercentage[0]]]
 
     // Add escalators
     for (let index = 0; index < floorNo - 1; index++) {
         if (shelfCoords.x_perc > 0.4) {
-            route = route.concat(rightStairsPercentage[index]);    
+            route = route.concat(rightStairsPercentage[index]);
         } else {
             route = route.concat(leftStairsPercentage[index]);
         }
     }
 
     // Add destination shelf to route
-    route = route.concat([[shelfCoords.x_perc * 1.005 + originalShelfWidthPercentage/2, floorYPercentage[floorNo - 1]]]);
-    route = route.concat([[shelfCoords.x_perc * 1.005 + originalShelfWidthPercentage/2, shelfCoords.y_perc]]);
+    route = route.concat([[shelfCoords.x_perc * 1.005 + originalShelfWidthPercentage / 2, floorYPercentage[floorNo - 1]]]);
+    route = route.concat([[shelfCoords.x_perc * 1.005 + originalShelfWidthPercentage / 2, shelfCoords.y_perc]]);
 
 
     // Convert route from percentage to screen pixels
@@ -220,7 +223,7 @@ function buildRoute(
     return routeString
 }
 
-function animatePath(route){
+function animatePath(route) {
 
     const wallContainer = d3.select(".directions-view__wall").select("svg")
 

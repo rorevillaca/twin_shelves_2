@@ -1,33 +1,33 @@
-import {backButton} from "../components/backButton.js"
-import {openDirectionsScreen} from "./directionsScreen.js"
+import { backButton } from "../components/backButton.js"
+import { openDirectionsScreen } from "./directionsScreen.js"
 
-export function initHeritageObjects(){
+export function initHeritageObjects() {
     backButton("#heritage_view--header")
 
     const objectContainer = d3.select(".heritage_view--content")
-    const shelfNumber = Math.ceil(heritage_data.length/3)
+    const shelfNumber = Math.ceil(heritage_data.length / 3)
 
     for (let index = 0; index < shelfNumber; index++) {
         objectContainer
             .append("div")
             .attr("class", "heritageObjectShelf")
             .attr("id", `shelf_${index}`)
-        
+
         infoCard(objectContainer, index)
 
     }
-    const vitrine = Array.from({length: heritage_data.length}, (v, i) => (i + 1));
-    
+    const vitrine = Array.from({ length: heritage_data.length }, (v, i) => (i + 1));
+
     vitrine.forEach((vitrineId) => {
-        const objectData =  heritage_data[vitrineId - 1]
-        const currShelf = Math.floor((vitrineId-1) / 3)
+        const objectData = heritage_data[vitrineId - 1]
+        const currShelf = Math.floor((vitrineId - 1) / 3)
         const shelf = objectContainer.select(`#shelf_${currShelf}`)
 
         Thumbnail(shelf, objectData, currShelf, vitrineId)
     })
 }
 
-function Thumbnail(shelf, objectData, currShelf, objectId){      
+function Thumbnail(shelf, objectData, currShelf, objectId) {
     const holder = shelf
         .append("div")
         .attr("class", "heritageThumbnail")
@@ -35,10 +35,10 @@ function Thumbnail(shelf, objectData, currShelf, objectId){
         .attr("shelf", currShelf)
         .on('click', () => {
             const infoCard = d3.select(`#info_card_${currShelf}`)
-            dimThumbnail({exceptFor:objectId, opacity: 0.4})
+            dimThumbnail({ exceptFor: objectId, opacity: 0.4 })
             populateInfoCard(infoCard, objectData, currShelf)
         })
-        
+
     const colorBar = holder.append("div")
         .attr("class", "heritageColorBox-container")
         .style("background-color", objectData.color)
@@ -49,10 +49,10 @@ function Thumbnail(shelf, objectData, currShelf, objectId){
     const image = holder.append("div")
         .attr("class", "heritageImage")
         .style("background-image", `url("src/res/photos/heritage_objects/${objectData.photo}")`)
-        
+
 }
 
-function infoCard(container, index){
+function infoCard(container, index) {
     const card = container
         .append("div")
         .attr("class", "heritageInfoCard")
@@ -66,12 +66,12 @@ function infoCard(container, index){
 
     header.append("img")
         .attr("src", "src/res/Font-Awesome/times-circle.svg")
-        .attr("class","inline-icon")
-        .on('click',function() {
+        .attr("class", "inline-icon")
+        .on('click', function () {
             d3
                 .selectAll(".heritageInfoCard")
                 .style("display", "none")
-            dimThumbnail({exceptFor:null, opacity: 1})
+            dimThumbnail({ exceptFor: null, opacity: 1 })
         })
 
     const main = card
@@ -83,21 +83,21 @@ function infoCard(container, index){
         .attr("class", "heritageInfoCard--footer")
 
     footer.append("div")
-                    .attr("class", "info_card--location_details--button")
-                    .html('<b>See location</b>&emsp;<img src="src/res/Font-Awesome/arrow-circle-right.svg" class="inline-icon">')
-                    .on('click', () => {
-                        const info = {
-                            title: "Heritage Objects",
-                            cover_file: "../photos/student_work.png",
-                            floor: 1,
-                            shelf: 1048
-                        }
-                    openDirectionsScreen(info)
-                })
+        .attr("class", "info_card--location_details--button")
+        .html('<b>See location</b>&emsp;<img src="src/res/Font-Awesome/arrow-circle-right.svg" class="inline-icon">')
+        .on('click', () => {
+            const info = {
+                title: "Heritage Objects",
+                cover_file: "../photos/student_work.png",
+                floor: 1,
+                shelf: [1050, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1051, 1052, 1053, 1054, 1055, 1056]
+            }
+            openDirectionsScreen(info)
+        })
 
 }
 
-function populateInfoCard(infoCard, objectData, currShelf){
+function populateInfoCard(infoCard, objectData, currShelf) {
 
     //Display infoCard
     d3.selectAll(".heritageInfoCard").style("display", "none")
@@ -106,7 +106,7 @@ function populateInfoCard(infoCard, objectData, currShelf){
     //Scroll to content position
     var content = d3.select('.heritage_view--content').node();
     d3.select('.heritage_view--content')
-        .property('scrollLeft', (.30+.05) * content.clientWidth * currShelf) //Percentage from CSS (shelf width + 5% column-gap)
+        .property('scrollLeft', (.30 + .05) * content.clientWidth * currShelf) //Percentage from CSS (shelf width + 5% column-gap)
 
     //Populate header
     const header = infoCard.select(".heritageInfoCard--header")
@@ -129,19 +129,19 @@ function populateInfoCard(infoCard, objectData, currShelf){
     })
 }
 
-function dimThumbnail({exceptFor, opacity}){
+function dimThumbnail({ exceptFor, opacity }) {
     d3
         .selectAll(".heritageThumbnail")
         .style("opacity", opacity)
     if (exceptFor !== null) {
         d3
-        .selectAll(`#thumb_${exceptFor}`)
-        .style("opacity", 1)
+            .selectAll(`#thumb_${exceptFor}`)
+            .style("opacity", 1)
     }
 }
 
-function objectFactSheet(object, main, color){
-    
+function objectFactSheet(object, main, color) {
+
     const metadata = objectMetadata(object)
 
     const objectsRow = main
@@ -151,7 +151,7 @@ function objectFactSheet(object, main, color){
     const imgDiv = objectsRow.append("div").attr("class", "heritageInfoCard--objRow-img")
     const metadataDiv = objectsRow.append("div").attr("class", "heritageInfoCard--objRow-metadata")
     const QRDiv = objectsRow.append("div").attr("class", "heritageInfoCard--objRow-QR")
-    
+
     const imgSource = object.type == "Object" ? `url("src/res/photos/heritage_objects/${object.cover}")` : `url("src/res/resized_covers_struct/_first_theses/${object.cover}")`
     imgDiv.style("background-image", imgSource)
 
@@ -162,7 +162,7 @@ function objectFactSheet(object, main, color){
     QRDiv.append("img").attr("src", QR)
 }
 
-function objectMetadata(object){
+function objectMetadata(object) {
     return `<div>
             <span style="font-weight:bold;">${object.title}</span><br>
             ${object.author ? 'by: ' + object.author + '<br>' : ''}
