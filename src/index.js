@@ -29,6 +29,7 @@ const wallHeight = wallWidth * wallRatio
 function add_highlighted_books(topic) {
   // Filter the data to include only books with the desired topic
   var filtered_books = background_books.filter(book => book.topic === topic);
+  console.log(filtered_books)
   // Randomize the order
   filtered_books = shuffle(filtered_books);
   // Bind the filtered data to the selection
@@ -52,6 +53,67 @@ function add_highlighted_books(topic) {
     .attr("height", d => d.book_height * wallHeight)
     .attr("x", d => d.x_start * wallWidth) // Transition to the actual x position;
 }
+
+function scramble_books(topic) {
+
+  var booksArray = background_books.filter(book => book.topic === topic);
+
+  // Step 1: Create a new array with x_start and y_start renamed to x_end and y_end
+  let newArray = booksArray.map(book => ({
+    x_end: book.x_start,
+    y_end: book.y_start,
+    height_end: book.book_height 
+  }));
+
+  // Step 2: Shuffle the new array
+  newArray = shuffle(newArray);
+
+  // Step 3: Append the shuffled elements row-wise to the original array
+  booksArray = booksArray.map((book, index) => ({
+    ...book,
+    ...newArray[index]
+  }));
+
+  const books = wallContainer.selectAll(".book")
+    .data(booksArray);
+
+  // Enter selection: Add new elements
+  const booksEnter = books.enter()
+    .append("rect")
+    .attr("class", "book")
+    .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+    .attr("width", d => d.book_width * wallWidth)
+    .attr("height", d => d.book_height * wallHeight)
+    .attr("x", d => d.x_start * wallWidth)
+    .style("opacity", 0);
+
+    // Transition for entering elements
+    booksEnter.transition()
+      .duration(1000)
+      .style("opacity", 1)
+      .on('end', function() {
+        // Apply the second transition (to change the fill color) to the merged selection
+        d3.select(this)
+          .transition()
+          .delay(800 * Math.random())
+          .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+          .attr("width", d => d.book_width * wallWidth)
+          .attr("height", d => d.height_end * wallHeight)
+          .attr("x", d => d.x_end * wallWidth)
+          .on('end', function() {
+            // Apply the second transition (to change the fill color) to the merged selection
+            d3.select(this)
+              .transition()
+              .delay(800 * Math.random())
+              .attr("y", d => d.y_end * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+              .attr("width", d => d.book_width * wallWidth)
+              .attr("height", d => d.height_end * wallHeight)
+              .attr("x", d => d.x_end * wallWidth)
+          })
+      })
+
+}
+
 
 const parsed_polygons = ParsePolygons(topic_polygons, wallContainerAttrs, wallWidth, wallHeight);
 
@@ -240,7 +302,7 @@ function selectSection(sectionId) {
 
       if (sectionId !== "heritage_objects" && sectionId !== "student_work") {
         waitTime = 3000
-        add_highlighted_books(sectionId); 
+        scramble_books(sectionId); 
       }
       // Wait bfore running
       setTimeout(function(){
