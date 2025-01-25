@@ -15,12 +15,22 @@ get_dissertation_data <- function() {
                         sep = ",") %>% group_by(Title) %>% slice_head(n = 1)
   all_names %<>% left_join(metadata, by=c("title"="Title"))
   all_names %<>% mutate(OCLC=substr(link,79,90))
+  all_names %<>% mutate(color = case_when( Faculty == "Applied Sciences" ~ "f9ad30",
+                                           Faculty == "Civil Engineering and Geosciences" ~ "4666b9",
+                                           Faculty == "Aerospace Engineering" ~ "f57e4b",
+                                           Faculty == "Industrial Design Engineering" ~ "db214bff",
+                                           Faculty == "Architecture and The Built Environment" ~ "41bb62",
+                                           Faculty == "Technology, Policy and Management" ~ "9e50ae",
+                                           Faculty == "Electrical Engineering, Mathematics and Computer Science" ~ "f25794",
+                                           Faculty == "Mechanical, Maritime and Materials Engineering" ~ "4dbec6",
+                                           TRUE ~ ""))
   all_names %<>% select(title,authors = Author,
                         year = year_final,
                         description = Abstract,
                         std_call_number = call_numbers,
                         OCLC,
-                        sub_topic = topic)
+                        sub_topic = topic,
+                        color)
   all_names %<>% mutate(shelf = 1072,
                         floor=1,
                         topic_id = "dissertations",
@@ -92,7 +102,7 @@ json_data <- books %>%
   group_by(topic, topic_id, sub_topic, recommender, virtual_shelf_temp) %>%
   summarise(
     books_in_bookcase = n(),
-    books = list(data.frame(OCLC, cover_file))
+    books = list(data.frame(OCLC, cover_file, color))
   ) %>%
   ungroup() %>%
   rowwise()

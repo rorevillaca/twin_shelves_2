@@ -118,6 +118,7 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
                 .attr("bookcase_id",bookcase_id)
                 .attr("id",OCLC)
 
+
             if (topicId === "recommended_books"){
                 book.style("min-width", "31%")
                 book.style("max-width", "31%")
@@ -140,7 +141,10 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
                 if (coverFilename === "NA") {
                     const book_info = workshop_data.filter(book => book.OCLC === OCLC)[0];
                     const title  = book_info.title
-                    book.style("background-color", "#bcbec0");
+                    const bookBackgroundColor =  bookcase_content.books[i-1].color ? "#" + bookcase_content.books[i-1].color : "#bcbec0"
+                    const bookTitleColor =  bookcase_content.books[i-1].color ? "white" : "black"
+                    book.style("background-color", bookBackgroundColor);
+                    book.style("color", bookTitleColor);
                     book.text(cleanBookTitle(title))
                 } else {
                     book.style("background-image", `url("src/res/resized_covers_struct/${coverFilename}")`)
