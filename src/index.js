@@ -26,43 +26,22 @@ const wallRatio = 0.2250 //from inkscape (height / width)
 const wallHeight = wallWidth * wallRatio
 
 
-function add_highlighted_books(topic) {
-  // Filter the data to include only books with the desired topic
-  var filtered_books = background_books.filter(book => book.topic === topic);
-  console.log(filtered_books)
-  // Randomize the order
-  filtered_books = shuffle(filtered_books);
-  // Bind the filtered data to the selection
-  const books = wallContainer.selectAll(".book").data(filtered_books);
-  books.enter()
-    .append("rect")
-    .attr("class", "book")
-    .attr("x", () => (Math.random() < 0.5 ? -50 : 1800)) // Randomly set initial x attribute
-    //.attr("x", d => d.x_start * wall_width) // Transition to the actual x position
-    .attr("y", () => (Math.random() < 0.5 ? 25 : 75)) // Randomly set initial x attribute
-    //.attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
-    .attr("height", d => 0)
-    .attr("width", d => 24)
-    .attr("height", d => 60)
-    .transition()
-    .delay(function(d,i){return (2000/filtered_books.length) * i})
-    .ease(d3.easeQuadIn)
-    //.duration(1500)
-    .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
-    .attr("width", d => d.book_width * wallWidth)
-    .attr("height", d => d.book_height * wallHeight)
-    .attr("x", d => d.x_start * wallWidth) // Transition to the actual x position;
-}
-
 function scramble_books(topic) {
+  const option_ease_type = d3.select("#option_ease_type").property("value")
+  const option_scatter_books = d3.select("#option_scatter_books").property("value")
+  const option_avoid_corner = d3.select("#option_avoid_corner").property("checked")
+  const option_enlarge_books = d3.select("#option_enlarge_books").property("checked")
+  const option_highlight_at_start = d3.select("#option_highlight_at_start").property("checked")
+  const option_add_covers = d3.select("#option_add_covers").property("checked")
 
-  var booksArray = background_books.filter(book => book.topic === topic);
+  var booksArray = shuffle(background_books);
 
   // Step 1: Create a new array with x_start and y_start renamed to x_end and y_end
   let newArray = booksArray.map(book => ({
     x_end: book.x_start,
     y_end: book.y_start,
-    height_end: book.book_height 
+    height_end: book.book_height,
+    topic2: book.topic
   }));
 
   // Step 2: Shuffle the new array
@@ -73,6 +52,13 @@ function scramble_books(topic) {
     ...book,
     ...newArray[index]
   }));
+
+  if (option_scatter_books == "subset"){
+    const halfLength = Math.floor(booksArray.length / 3);
+    booksArray = booksArray.slice(0, halfLength);
+  } else if (option_scatter_books == "topic"){
+    booksArray = booksArray.filter(book => book.topic2 === topic);
+  }
 
   const books = wallContainer.selectAll(".book")
     .data(booksArray);
@@ -105,6 +91,7 @@ function scramble_books(topic) {
             d3.select(this)
               .transition()
               .delay(800 * Math.random())
+              .ease(d3[option_ease_type])
               .attr("y", d => d.y_end * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
               .attr("width", d => d.book_width * wallWidth)
               .attr("height", d => d.height_end * wallHeight)

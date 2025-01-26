@@ -24,8 +24,79 @@
 <body>
     <div class="parent_container" style="text-align:center">
         <div class="header_container">
-            <div class="search_container"></div>
-            <div class="logo_container"></div>
+            <div class="option">
+                <label for="option_ease_type">Ease effect:</label>
+                <select id="option_ease_type">
+                    <optgroup label="Linear">
+                        <option value="easeLinear">Linear</option>
+                    </optgroup>
+                    <optgroup label="Power">
+                        <option value="easeQuadIn">Quad In</option>
+                        <option value="easeQuadOut">Quad Out</option>
+                        <option value="easeQuadInOut">Quad InOut</option>
+                        <option value="easeCubicIn">Cubic In</option>
+                        <option value="easeCubicOut">Cubic Out</option>
+                        <option value="easeCubicInOut">Cubic InOut</option>
+                        <option value="easePolyIn">Poly In</option>
+                        <option value="easePolyOut">Poly Out</option>
+                        <option value="easePolyInOut">Poly InOut</option>
+                    </optgroup>
+                    <optgroup label="Sinusoidal">
+                        <option value="easeSinIn">Sin In</option>
+                        <option value="easeSinOut">Sin Out</option>
+                        <option value="easeSinInOut">Sin InOut</option>
+                    </optgroup>
+                    <optgroup label="Exponential">
+                        <option value="easeExpIn">Exp In</option>
+                        <option value="easeExpOut">Exp Out</option>
+                        <option value="easeExpInOut">Exp InOut</option>
+                    </optgroup>
+                    <optgroup label="Circular">
+                        <option value="easeCircleIn">Circle In</option>
+                        <option value="easeCircleOut">Circle Out</option>
+                        <option value="easeCircleInOut">Circle InOut</option>
+                    </optgroup>
+                    <optgroup label="Elastic">
+                        <option value="easeElasticIn">Elastic In</option>
+                        <option value="easeElasticOut">Elastic Out</option>
+                        <option value="easeElasticInOut">Elastic InOut</option>
+                    </optgroup>
+                    <optgroup label="Back">
+                        <option value="easeBackIn">Back In</option>
+                        <option value="easeBackOut">Back Out</option>
+                        <option value="easeBackInOut">Back InOut</option>
+                    </optgroup>
+                    <optgroup label="Bounce">
+                        <option value="easeBounceIn">Bounce In</option>
+                        <option value="easeBounceOut">Bounce Out</option>
+                        <option value="easeBounceInOut">Bounce InOut</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="option">
+                <label for="option_scatter_books">Ease effect:</label>
+                <select id="option_scatter_books">
+                    <option value="topic">Topic only</option>
+                    <option value="subset">Subset (33%)</option>
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <label class="option">
+                Avoid corner
+                <input type="checkbox" name="option_avoid_corner" id="option_avoid_corner" value="Y">
+            </label>
+            <label class="option">
+                Scatter books
+                <input type="checkbox" name="option_enlarge_books" id="option_enlarge_books" value="Y">
+            </label>
+            <label class="option">
+                Highlight books at start
+                <input type="checkbox" name="option_highlight_at_start" id="option_highlight_at_start" value="Y">
+            </label>
+            <label class="option">
+                Add book covers
+                <input type="checkbox" name="option_add_covers" id="option_add_covers" value="Y">
+            </label>
         </div>
         <div class="wall_container"></div>
         <div class="instructions_container">

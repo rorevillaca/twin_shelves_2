@@ -8,6 +8,14 @@
 
 .header_container{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3%;
+}
+
+.option {
+  color: white; /* Green color */
+  font-weight: bold;
 }
 
 .search_container { grid-area: 1 / 1 / 2 / 2; 
