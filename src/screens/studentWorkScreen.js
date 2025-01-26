@@ -61,7 +61,7 @@ export function initStudentWork() {
                 title: "Student Work",
                 cover_file: "../photos/student_work.png",
                 floor: 2,
-                shelf: 495
+                shelf: [498, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 499, 500, 501, 502, 503, 504]
             }
             openDirectionsScreen(info)
     })

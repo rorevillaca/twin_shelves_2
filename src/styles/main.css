@@ -2,7 +2,7 @@
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 3fr 9fr 1fr 5fr 3fr;
+  grid-template-rows: 3fr 9fr 1fr 4fr 1fr 2fr;
   background-color: #090235  
 }
 
@@ -53,7 +53,12 @@
   justify-self: center; /* Centers the element horizontally */
 }
 
-.exhibitions_container {grid-area: 5 / 1 / 6 / 2; 
+.instructions_container2 {
+  grid-area: 5 / 1 / 6 / 2;
+  padding-bottom: 0.5em;
+}
+
+.exhibitions_container {grid-area: 6 / 1 / 7 / 2; 
   background-color: #090235;
   display: flex;
   justify-content: center;
