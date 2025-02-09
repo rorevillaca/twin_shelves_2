@@ -35,6 +35,8 @@ function scramble_books(topic) {
   const option_add_covers = d3.select("#option_add_covers").property("checked")
   const enlargeFactor = option_enlarge_books ? 5 : 1
   var booksArray = shuffle(background_books);
+  var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topic);
+  var sampleBooksCurrentTopic = bookCaseCurrentTopic[0].books
 
   // Step 1: Create a new array with x_start and y_start renamed to x_end and y_end
   let newArray = booksArray.map(book => ({
@@ -52,7 +54,8 @@ function scramble_books(topic) {
   // Step 3: Append the shuffled elements row-wise to the original array
   booksArray = booksArray.map((book, index) => ({
     ...book,
-    ...newArray[index]
+    ...newArray[index],
+    cover_file: sampleBooksCurrentTopic[index % sampleBooksCurrentTopic.length].cover_file
   }));
 
   // Step 4: Create intermediate position
@@ -70,19 +73,34 @@ function scramble_books(topic) {
     booksArray = booksArray.filter(book => book.topic2 === topic);
   }
 
-  const books = wallContainer.selectAll(".book")
-    .data(booksArray);
+  const defs = wallContainer.append("defs");
 
-  // Enter selection: Add new elements
-  const booksEnter = books.enter()
-    .append("rect")
-    .attr("class", "book")
-    .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
-    .attr("width", d => d.book_width * wallWidth)
-    .attr("height", d => d.book_height * wallHeight)
-    .attr("x", d => d.x_start * wallWidth)
-    .style("opacity", 0)
-    .style("fill", d => d.fill);
+  booksArray.forEach((d, i) => {
+      defs.append("pattern")
+          .attr("id", `pattern-${i}`)
+          .attr("width", 1)
+          .attr("height", 1)
+          .attr("patternUnits", "objectBoundingBox")
+          .append("image")
+          .attr("xlink:href", `src/res/resized_covers_struct/${d.cover_file}`)
+          //.attr("width", d.book_width * wallWidth * 10)
+          //.attr("height", d.book_height * wallHeight * 10)
+          //.attr("preserveAspectRatio", "xMidYMid slice");
+  });
+  
+  // Append books as rects with pattern fills
+  const booksEnter = wallContainer.selectAll(".book")
+      .data(booksArray)
+      .enter()
+      .append("rect")
+      .attr("class", "book")
+      .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+      .attr("x", d => d.x_start * wallWidth)
+      .attr("fill", (d, i) => `url(#pattern-${i})`)
+      .style("opacity", 0)
+      //.transition().duration(500)
+      .style("opacity", 1)
+  
 
     // Transition for entering elements
     booksEnter.transition()
@@ -94,8 +112,8 @@ function scramble_books(topic) {
           .transition()
           .delay(800 * Math.random())
           .attr("y", d => d.y_mid * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
-          .attr("width", d => d.book_width * wallWidth * enlargeFactor)
-          .attr("height", d => d.height_end * wallHeight * enlargeFactor)
+          .attr("width", d => d.book_width * wallWidth * enlargeFactor * 8)
+          .attr("height", d => d.height_end * wallHeight * enlargeFactor * 8)
           .attr("x", d => d.x_mid * wallWidth)
           .on('end', function() {
             // Apply the second transition (to change the fill color) to the merged selection
