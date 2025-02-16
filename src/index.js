@@ -27,13 +27,7 @@ const wallHeight = wallWidth * wallRatio
 
 
 function scramble_books(topic) {
-  const option_ease_type = d3.select("#option_ease_type").property("value")
-  const option_animate = d3.select("#option_animate").property("value")
-  const option_highlight_subset = d3.select("#option_highlight_subset").property("checked")
-  const option_avoid_corner = d3.select("#option_avoid_corner").property("checked")
-  const option_enlarge_books = d3.select("#option_enlarge_books").property("checked")
-  const option_add_covers = d3.select("#option_add_covers").property("checked")
-  const enlargeFactor = option_enlarge_books ? 5 : 1
+  const enlargeFactor = 3
   var booksArray = shuffle(background_books);
 
   // Step 1: Create a new array with x_start and y_start renamed to x_end and y_end
@@ -41,9 +35,7 @@ function scramble_books(topic) {
     x_end: book.x_start,
     y_end: book.y_start,
     height_end: book.book_height,
-    topic2: book.topic,
-    fill: (book.topic !== topic) && option_highlight_subset ? "blue" : "white",
-    opacity_final: (book.topic !== topic) && option_highlight_subset ? 0 : 1
+    topic2: book.topic
   }));
 
   // Step 2: Shuffle the new array
@@ -58,17 +50,11 @@ function scramble_books(topic) {
   // Step 4: Create intermediate position
   booksArray = booksArray.map(book => ({
     ...book,
-    x_mid: (book.x_end < 0.315 && option_avoid_corner) ? book.x_start : book.x_end,
-    y_mid: (book.x_end < 0.315 && option_avoid_corner) ? book.y_end : book.y_start
+    x_mid: (book.x_end < 0.315) ? book.x_start : book.x_end, // avoid corner
+    y_mid: (book.x_end < 0.315) ? book.y_end : book.y_start  // avoid corner
   }));
 
-
-  if (option_animate == "subset"){
-    const halfLength = Math.floor(booksArray.length / 3);
-    booksArray = booksArray.slice(0, halfLength);
-  } else if (option_animate == "topic"){
-    booksArray = booksArray.filter(book => book.topic2 === topic);
-  }
+  booksArray = booksArray.filter(book => book.topic2 === topic);
 
   const books = wallContainer.selectAll(".book")
     .data(booksArray);
@@ -82,7 +68,7 @@ function scramble_books(topic) {
     .attr("height", d => d.book_height * wallHeight)
     .attr("x", d => d.x_start * wallWidth)
     .style("opacity", 0)
-    .style("fill", d => d.fill);
+    .style("fill", "white");
 
     // Transition for entering elements
     booksEnter.transition()
@@ -102,7 +88,6 @@ function scramble_books(topic) {
             d3.select(this)
               .transition()
               .delay(800 * Math.random())
-              .ease(d3[option_ease_type])
               .attr("y", d => d.y_end * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
               .attr("width", d => d.book_width * wallWidth)
               .attr("height", d => d.height_end * wallHeight)
