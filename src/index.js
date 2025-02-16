@@ -27,8 +27,13 @@ const wallHeight = wallWidth * wallRatio
 
 
 function scramble_books(topic) {
-  const enlargeFactor = 3
+  const enlargeFactor = 12
   var booksArray = shuffle(background_books);
+  var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topic);
+  var sampleBooksCurrentTopic = bookCaseCurrentTopic[0].books
+  sampleBooksCurrentTopic = [...sampleBooksCurrentTopic, ...bookCaseCurrentTopic[1].books];
+  sampleBooksCurrentTopic = [...sampleBooksCurrentTopic, ...bookCaseCurrentTopic[2].books];
+  sampleBooksCurrentTopic = sampleBooksCurrentTopic.filter(book => book.cover_file !== "NA"); // Filter out books with cover_file === "NA"
 
   // Step 1: Create a new array with x_start and y_start renamed to x_end and y_end
   let newArray = booksArray.map(book => ({
@@ -44,7 +49,8 @@ function scramble_books(topic) {
   // Step 3: Append the shuffled elements row-wise to the original array
   booksArray = booksArray.map((book, index) => ({
     ...book,
-    ...newArray[index]
+    ...newArray[index],
+    cover_file: sampleBooksCurrentTopic[index % sampleBooksCurrentTopic.length].cover_file
   }));
 
   // Step 4: Create intermediate position
@@ -54,21 +60,44 @@ function scramble_books(topic) {
     y_mid: (book.x_end < 0.315) ? book.y_end : book.y_start  // avoid corner
   }));
 
+  // Add noise to the position (so it all looks less blocky)
+  const getRandomOffset = () => (Math.random() * 0.2) - 0.1; // Generates a number between -0.1 and 0.1
+  booksArray = booksArray.map(point => ({
+      ...point,
+      x_mid: point.x_mid + getRandomOffset(),
+      hasImage: Math.random() < 0.2 ? 1 : 0 
+  }));
+
   booksArray = booksArray.filter(book => book.topic2 === topic);
 
-  const books = wallContainer.selectAll(".book")
-    .data(booksArray);
+  const defs = wallContainer.append("defs");
+
+  booksArray.forEach((d, i) => {
+      defs.append("pattern")
+          .attr("id", `pattern-${i}`)
+          .attr("width", 1)
+          .attr("height", 1)
+          .attr("patternUnits", "objectBoundingBox")
+          .append("image")
+          .attr("xlink:href", `src/res/resized_covers_struct/${d.cover_file}`)
+          .attr("width", d.book_width * wallWidth * enlargeFactor)
+          .attr("height", d.book_height * wallHeight * enlargeFactor * 0.6)
+          .attr("preserveAspectRatio", "xMidYMid slice");
+  });
+  
 
   // Enter selection: Add new elements
-  const booksEnter = books.enter()
+  const booksEnter = wallContainer.selectAll(".book")
+    .data(booksArray)
+    .enter()
     .append("rect")
     .attr("class", "book")
     .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
     .attr("width", d => d.book_width * wallWidth)
     .attr("height", d => d.book_height * wallHeight)
     .attr("x", d => d.x_start * wallWidth)
-    .style("opacity", 0)
-    .style("fill", "white");
+    .attr("fill", (d, i) => d.hasImage ? `url(#pattern-${i})` : "white")
+    .style("opacity", 1)
 
     // Transition for entering elements
     booksEnter.transition()
@@ -80,8 +109,9 @@ function scramble_books(topic) {
           .transition()
           .delay(800 * Math.random())
           .attr("y", d => d.y_mid * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
-          .attr("width", d => d.book_width * wallWidth * enlargeFactor)
-          .attr("height", d => d.height_end * wallHeight * enlargeFactor)
+          .attr("width", d => d.hasImage ? d.book_width * wallWidth * enlargeFactor : d.book_width * wallWidth)
+          .attr("height", d => d.hasImage ? d.height_end * wallHeight * enlargeFactor : d.height_end * wallHeight)
+          .style("opacity", d => d.hasImage ? 1 : 0)
           .attr("x", d => d.x_mid * wallWidth)
           .on('end', function() {
             // Apply the second transition (to change the fill color) to the merged selection

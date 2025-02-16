@@ -47,6 +47,7 @@ curr_path <- sub("/[^/]*$", "", curr_path)
 books <- openxlsx2::read_xlsx(paste0(curr_path,"/","workshop_data.xlsx"))
 recommended_books <- openxlsx2::read_xlsx(paste0(curr_path,"/","recommended_books.xlsx"))
 dissertations <- get_dissertation_data()
+dissertations %<>% mutate(cover_file = "_dissertations/cover_diss.webp")
 study_books <-  openxlsx2::read_xlsx(paste0(curr_path,"/","studieboeken.xlsx")) %>% 
   mutate(year = as.character(year),
          OCLC = as.character(OCLC),
