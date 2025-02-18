@@ -44,3 +44,15 @@ export function shuffle(array) {
 
     
 }
+
+
+
+export function typeText(container, text, delay = 150) {
+  container.text("");
+
+  text.split("").forEach((char, index) => {
+    setTimeout(() => {
+      container.text(container.text() + char);
+    }, index * delay);
+  });
+};

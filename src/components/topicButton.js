@@ -6,7 +6,10 @@ export function topicButton(containerSelector, label, id, barCount) {
         .append("div")
         .attr("class", "topicButtonContainer")
         .attr("id", id)
-    
+        
+    buttonContainer
+        .style("opacity", 0)
+
     const topicName = buttonContainer
         .append("div")
         .attr("class", "topicButtonName")
@@ -14,6 +17,12 @@ export function topicButton(containerSelector, label, id, barCount) {
 
     for (let i = 0; i < barCount; i++) {
         buttonContainer.append("div")
-            .attr("class","topicButtonBar")
+            .attr("class", "topicButtonBar")
+            // .style("opacity", 0) // Start invisible
+            // .transition()
+            // .delay(300 + i * 100) // Stagger bars
+            // .duration(400)
+            // .style("opacity", 1)
     }
 }
+
