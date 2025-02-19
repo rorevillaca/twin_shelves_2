@@ -230,7 +230,7 @@ function makeButtonsVisible(){
 
 
   const intructions = d3.select(".instructions_container").select("span")
-  typeText(intructions,"Explore by topic:", 3500, 180)
+  typeText(intructions,"Explore by topic:", 3500, 160)
   
   const intructions2 = d3.select(".instructions_container2").select("span")
   typeText(intructions2,"Explore by category:", 3500, 160)

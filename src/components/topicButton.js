@@ -21,7 +21,7 @@ export function topicButton(containerSelector, label, id, barCount) {
             .attr("class", "topicButtonBar")
             .style("opacity", 0) // Start invisible
             .transition()
-            .delay(1800 + i * 100) // Stagger bars
+            .delay(1800 + i * 90) // Stagger bars
             .duration(1200)
             .style("opacity", 1)
     }
