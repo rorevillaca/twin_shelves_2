@@ -18,11 +18,11 @@ export function topicButton(containerSelector, label, id, barCount) {
     for (let i = 0; i < barCount; i++) {
         buttonContainer.append("div")
             .attr("class", "topicButtonBar")
-            // .style("opacity", 0) // Start invisible
-            // .transition()
-            // .delay(300 + i * 100) // Stagger bars
-            // .duration(400)
-            // .style("opacity", 1)
+            .style("opacity", 0) // Start invisible
+            .transition()
+            .delay(300 + i * 100) // Stagger bars
+            .duration(1200)
+            .style("opacity", 1)
     }
 }
 
