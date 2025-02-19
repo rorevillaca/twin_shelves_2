@@ -212,24 +212,28 @@ function makeButtonsVisible(){
   const buttons = d3.selectAll(".topicButtonContainer, .exhibitionsButton").nodes();
 
   const shuffledButtons = shuffle(buttons);
+  const buttonLoadTime = 2000
 
   d3.selectAll(shuffledButtons)
     .style("opacity", 0)
-    //.style("transform", "translateX(100px) scale(0.6)")
-    .style("transform", (d, i) => (i % 2 === 0 ? "translateX(-50px)" : "translateX(50px)"))
-    .style("transform", "scale(0.6)")
+    .style("transform", "scaleX(0)")  // Start with zero width
+    .style("transform-origin", "left") // Ensure it scales from the left
     .transition()
-    //.delay((d, i) => i * 80) 
-    //.duration(10)
+    .duration(buttonLoadTime)
     .style("opacity", 1)
-    .style("transform", "translateX(0) scale(1)")
-    .style("transform", "scale(1)")
+    .style("transform", "scaleX(1)");  // Expand to full size
+
+  setTimeout(() => {
+    d3.selectAll(".topicButtonName, .exhibitionsButton")
+    .style("color", "white")
+  }, buttonLoadTime);
+
 
   const intructions = d3.select(".instructions_container").select("span")
-  typeText(intructions,"Explore by topic:", 180)
+  typeText(intructions,"Explore by topic:", 3500, 180)
   
   const intructions2 = d3.select(".instructions_container2").select("span")
-  typeText(intructions2,"Explore by category:", 160)
+  typeText(intructions2,"Explore by category:", 3500, 160)
 };
 
 
