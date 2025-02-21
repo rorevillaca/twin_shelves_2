@@ -82,7 +82,7 @@ topics <- c(rep("topic_24",30),rep("topic_21",84),rep("topic_8",66),rep("topic_2
 
 
 set.seed(42)
-books_per_shelf = rnorm(length(all_y), mean=4.5, sd=2)
+books_per_shelf = rnorm(length(all_y), mean=3, sd=2)
 books_per_shelf <- pmax(pmin(round(books_per_shelf), 7), 3)
 
 all_shelves = data.frame(x_start=all_x,y_start=all_y,books = books_per_shelf, topic = topics)

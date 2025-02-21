@@ -1,4 +1,4 @@
-import { shuffle, typeText } from './utils/helpers.js'
+import { shuffle, typeText, colorsArray } from './utils/helpers.js'
 import { initMainScreen, wallContainer, addBackgroundBooks } from "./screens/mainScreen.js"
 import { initShelvesScreen, populateShelfView } from "./screens/shelvesScreen.js"
 import { ParsePolygons } from "./utils/data.js"
@@ -42,32 +42,121 @@ function startPulsing() {
     .on("end", startPulsing); // Repeat the pulsing
 }
 
-function add_highlighted_books(topic) {
-  // Filter the data to include only books with the desired topic
-  var filtered_books = background_books.filter(book => book.topic === topic);
-  // Randomize the order
-  filtered_books = shuffle(filtered_books);
-  // Bind the filtered data to the selection
-  const books = wallContainer.selectAll(".book").data(filtered_books);
-  books.enter()
+function startPulsing() {
+  wallContainer.selectAll(".magnifying_glass")
+    .transition()
+    .duration(1000)
+    .ease(d3.easeCubicInOut)
+    .attr("opacity", 0.5)
+    .transition()
+    .duration(1000)
+    .ease(d3.easeCubicInOut)
+    .attr("opacity", 1)
+    .on("end", startPulsing); // Repeat the pulsing
+}
+
+function scramble_books(topic) {
+  const enlargeFactor = 12
+  var booksArray = shuffle(background_books);
+  var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topic);
+  var sampleBooksCurrentTopic = bookCaseCurrentTopic[0].books
+  sampleBooksCurrentTopic = [...sampleBooksCurrentTopic, ...bookCaseCurrentTopic[1].books];
+  sampleBooksCurrentTopic = [...sampleBooksCurrentTopic, ...bookCaseCurrentTopic[2].books];
+  sampleBooksCurrentTopic = sampleBooksCurrentTopic.filter(book => book.cover_file !== "NA"); // Filter out books with cover_file === "NA"
+
+  // Step 1: Create a new array with x_start and y_start renamed to x_end and y_end
+  let newArray = booksArray.map(book => ({
+    x_end: book.x_start,
+    y_end: book.y_start,
+    height_end: book.book_height,
+    topic2: book.topic
+  }));
+
+  // Step 2: Shuffle the new array
+  newArray = shuffle(newArray);
+
+  // Step 3: Append the shuffled elements row-wise to the original array
+  booksArray = booksArray.map((book, index) => ({
+    ...book,
+    ...newArray[index],
+    cover_file: sampleBooksCurrentTopic[index % sampleBooksCurrentTopic.length].cover_file
+  }));
+
+  // Step 4: Create intermediate position
+  booksArray = booksArray.map(book => ({
+    ...book,
+    x_mid: (book.x_end < 0.315) ? book.x_start : book.x_end, // avoid corner
+    y_mid: (book.x_end < 0.315) ? book.y_end : book.y_start  // avoid corner
+  }));
+
+  // Add noise to the position (so it all looks less blocky)
+  const getRandomOffset = () => (Math.random() * 0.2) - 0.1; // Generates a number between -0.1 and 0.1
+  booksArray = booksArray.map(point => ({
+      ...point,
+      x_mid: point.x_mid + getRandomOffset(),
+      hasImage: Math.random() < 0.2 ? 1 : 0 
+  }));
+
+  booksArray = booksArray.filter(book => book.topic2 === topic);
+
+  const defs = wallContainer.append("defs");
+
+  booksArray.forEach((d, i) => {
+      defs.append("pattern")
+          .attr("id", `pattern-${i}`)
+          .attr("width", 1)
+          .attr("height", 1)
+          .attr("patternUnits", "objectBoundingBox")
+          .append("image")
+          .attr("xlink:href", `src/res/resized_covers_struct/${d.cover_file}`)
+          .attr("width", d.book_width * wallWidth * enlargeFactor)
+          .attr("height", d.book_height * wallHeight * enlargeFactor * 0.6)
+          .attr("preserveAspectRatio", "xMidYMid slice");
+  });
+  
+
+  // Enter selection: Add new elements
+  const booksEnter = wallContainer.selectAll(".book")
+    .data(booksArray)
+    .enter()
     .append("rect")
     .attr("class", "book")
-    .attr("x", () => (Math.random() < 0.5 ? -50 : 1800)) // Randomly set initial x attribute
-    //.attr("x", d => d.x_start * wall_width) // Transition to the actual x position
-    .attr("y", () => (Math.random() < 0.5 ? 25 : 75)) // Randomly set initial x attribute
-    //.attr("y", d => d.y_start * wall_height + (wall_container_attrs.height - wall_height) / 2)
-    .attr("height", d => 0)
-    .attr("width", d => 24)
-    .attr("height", d => 60)
-    .transition()
-    .delay(function (d, i) { return (2000 / filtered_books.length) * i })
-    .ease(d3.easeQuadIn)
-    //.duration(1500)
     .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
     .attr("width", d => d.book_width * wallWidth)
     .attr("height", d => d.book_height * wallHeight)
-    .attr("x", d => d.x_start * wallWidth) // Transition to the actual x position;
+    .attr("x", d => d.x_start * wallWidth)
+    .attr("fill", (d, i) => d.hasImage ? `url(#pattern-${i})` : colorsArray[Math.floor(Math.random() * colorsArray.length)])
+    .style("opacity", 1)
+
+    // Transition for entering elements
+    booksEnter.transition()
+      .duration(1000)
+      .style("opacity", 1)
+      .on('end', function() {
+        // Apply the second transition (to change the fill color) to the merged selection
+        d3.select(this)
+          .transition()
+          .delay(800 * Math.random())
+          .attr("y", d => d.y_mid * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+          .attr("width", d => d.hasImage ? d.book_width * wallWidth * enlargeFactor : d.book_width * wallWidth)
+          .attr("height", d => d.hasImage ? d.height_end * wallHeight * enlargeFactor : d.height_end * wallHeight)
+          .style("opacity", d => d.hasImage ? 1 : 0)
+          .attr("x", d => d.x_mid * wallWidth)
+          .on('end', function() {
+            // Apply the second transition (to change the fill color) to the merged selection
+            d3.select(this)
+              .transition()
+              .delay(800 * Math.random())
+              .attr("y", d => d.y_end * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+              .attr("width", d => d.book_width * wallWidth)
+              .attr("height", d => d.height_end * wallHeight)
+              .attr("x", d => d.x_end * wallWidth)
+              .style("opacity", d => d.opacity_final)
+          })
+      })
+
 }
+
 
 const parsed_polygons = ParsePolygons(topic_polygons, wallContainerAttrs, wallWidth, wallHeight);
 
@@ -277,17 +366,17 @@ function selectSection(sectionId) {
     d3.select("#" + sectionId).selectAll("div").style("background-color", "#808ff7")
     var waitTime = 0
 
-    if (sectionId !== "heritage_objects" && sectionId !== "student_work") {
-      waitTime = 3000
-      add_highlighted_books(sectionId);
+      if (sectionId !== "heritage_objects" && sectionId !== "student_work") {
+        waitTime = 3000
+        scramble_books(sectionId); 
+      }
+      // Wait bfore running
+      setTimeout(function(){
+        //Add magnifying glass
+        magnifying_glass(sectionId);
+        animationRunning = false; // Set the flag to indicate the animation has finished
+        },waitTime)
     }
-    // Wait bfore running
-    setTimeout(function () {
-      //Add magnifying glass
-      magnifying_glass(sectionId);
-      animationRunning = false; // Set the flag to indicate the animation has finished
-    }, waitTime)
-  }
 
 }
 
