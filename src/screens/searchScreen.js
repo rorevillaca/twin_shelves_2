@@ -3,6 +3,7 @@ import { populateShelfView } from "./shelvesScreen.js"
 import { keyboard } from "../components/keyboard.js"
 import { wall, addShelfHighlight } from "../components/wall.js";
 import { clearSelectedSection } from "../index.js"
+import { colorsArray } from "../utils/helpers.js";
 
 
 export function initSearchScreen() {
@@ -110,6 +111,7 @@ function addIndividualBooks(shelves) {
     books.enter()
         .append("rect")
         .attr("class", "book")
+        .attr("fill", () => colorsArray[Math.floor(Math.random() * colorsArray.length)])
         .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
         .attr("width", d => d.book_width * wallWidth)
         .attr("height", d => d.book_height * wallHeight)
