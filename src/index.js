@@ -42,18 +42,6 @@ function startPulsing() {
     .on("end", startPulsing); // Repeat the pulsing
 }
 
-function startPulsing() {
-  wallContainer.selectAll(".magnifying_glass")
-    .transition()
-    .duration(1000)
-    .ease(d3.easeCubicInOut)
-    .attr("opacity", 0.5)
-    .transition()
-    .duration(1000)
-    .ease(d3.easeCubicInOut)
-    .attr("opacity", 1)
-    .on("end", startPulsing); // Repeat the pulsing
-}
 
 function scramble_books(topic) {
   const enlargeFactor = 12
