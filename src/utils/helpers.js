@@ -41,6 +41,12 @@ export function shuffle(array) {
 
     // Step 3: Trim ws
     return str.trim();
-
     
 }
+
+export const colorsArray = [
+  "lightpink", "peachpuff", "moccasin", "navajowhite", "palegoldenrod",
+  "khaki", "lightcoral", "rosybrown", "thistle", "plum",
+  "lavender", "honeydew", "powderblue", "lightblue", "paleturquoise",
+  "mediumaquamarine", "darkseagreen"
+];

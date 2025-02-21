@@ -1,4 +1,4 @@
-import { shuffle } from './utils/helpers.js'
+import { shuffle, colorsArray } from './utils/helpers.js'
 import { initMainScreen, wallContainer, addBackgroundBooks } from "./screens/mainScreen.js"
 import { initShelvesScreen, populateShelfView } from "./screens/shelvesScreen.js"
 import { ParsePolygons } from "./utils/data.js"
@@ -96,7 +96,7 @@ function scramble_books(topic) {
     .attr("width", d => d.book_width * wallWidth)
     .attr("height", d => d.book_height * wallHeight)
     .attr("x", d => d.x_start * wallWidth)
-    .attr("fill", (d, i) => d.hasImage ? `url(#pattern-${i})` : "white")
+    .attr("fill", (d, i) => d.hasImage ? `url(#pattern-${i})` : colorsArray[Math.floor(Math.random() * colorsArray.length)])
     .style("opacity", 1)
 
     // Transition for entering elements
