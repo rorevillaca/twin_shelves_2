@@ -44,13 +44,8 @@ topics <- c(rep("topic_24",30),rep("topic_21",84),rep("topic_8",66),rep("topic_2
             rep("topic_4",12),
             rep("student_work",6),
             rep("topic_4",1),
-            rep("student_work",2),
-            rep("topic_4",1),
-            rep("student_work",2),
-            rep("topic_4",1),
-            rep("student_work",2),
-            rep("student_work",2),
-            rep("topic_4",1),
+            rep("student_work",5),
+            rep("student_work",6),
             rep("topic_4",6),
             rep("topic_13",24),rep("topic_12",9),rep("topic_9",15),rep("topic_22",30),
             rep("topic_18",18),rep("topic_19",12),rep("topic_1",24),rep("topic_14",6),
@@ -121,6 +116,7 @@ books_df %<>% mutate(x_start = round(x_start/total_wall_width,5),
                      book_height = round(book_height/total_wall_height,5),
                      book_width = round(book_width / total_wall_width,5)) 
 
+books_df %<>% filter(grepl("topic",topic) | topic %in% c("recommended_books","study_books", "dissertations"))
 
 
 write(books_df %>% toJSON(), "C:/Users/Revi/Desktop/Github/Twin Shelves 2/src/data/background_books.js")
