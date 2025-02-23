@@ -21,3 +21,8 @@ export function backButton(containerSelector) {
             screen.style('display', 'none')
         })
 }
+
+export function closeAllSecondaryScreens() {
+    const secondaryScreens = d3.selectAll(".secondary_screen");
+    secondaryScreens.style('display', 'none')
+}

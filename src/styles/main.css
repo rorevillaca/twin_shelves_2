@@ -29,7 +29,8 @@
 }
 
 
-.wall_container { grid-area: 2 / 1 / 3 / 2;
+.wall_container {
+  grid-area: 2 / 1 / 3 / 2;
 }
 
 .instructions_container { grid-area: 3 / 1 / 4 / 2; 
@@ -63,6 +64,13 @@
   column-gap: 10px;
   align-items: flex-start;
 }
+
+
+.facts_container {grid-area: 3 / 1 / 7 / 2; 
+  background-color: red;
+  display: flex;
+}
+
 
 .book{
   /* fill: white; */

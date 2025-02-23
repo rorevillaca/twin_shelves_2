@@ -8,6 +8,7 @@ import { exhibitionButton } from "./components/exhibitionButton.js"
 import { initStudentWork } from "./screens/studentWorkScreen.js"
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
 import { initSearchScreen } from "./screens/searchScreen.js"
+import { closeAllSecondaryScreens } from './components/backButton.js'
 
 
 let currentlySelectedSection = ""
@@ -234,6 +235,9 @@ function magnifying_glass(topic) {
       .attr('height', rectHeight)
       .attr('width', rectWidth)
       .on('click', function (d) {
+        resetIdleTimer()
+        document.removeEventListener('click', resetTopicSelectionTimer);
+        document.addEventListener('click', resetIdleTimer);
         switch (topic) {
           case "heritage_objects":
             heritage_view.style.display = "grid";
@@ -441,8 +445,12 @@ function enterIdleState() {
   console.log("enter idle state")
   document.removeEventListener('click', resetIdleTimer)
   document.addEventListener('click', exitIdleState)
-
   removeTopicButtons()
+  const parentContainer = d3.select(".parent_container")
+  parentContainer
+    .append("div")
+    .attr("class", "facts_container")
+  closeAllSecondaryScreens()
 }
 
 function exitIdleState() {
@@ -453,6 +461,7 @@ function exitIdleState() {
 
   addTopicButtons()
   makeButtonsVisible()
+  d3.select(".facts_container").remove()
 }
 
 // Add event listener to the document to detect any click
