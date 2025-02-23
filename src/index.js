@@ -278,6 +278,21 @@ function magnifying_glass(topic) {
 }
 
 function addTopicButtons() {
+  const parentContainer = d3.select(".parent_container")
+
+  parentContainer
+    .append("div")
+    .attr("class", "instructions_container")
+  parentContainer
+    .append("div")
+    .attr("class", "topics_container")
+  parentContainer
+    .append("div")
+    .attr("class", "instructions_container instructions_container2")
+    parentContainer
+    .append("div")
+    .attr("class", "exhibitions_container")
+
   tag_info.forEach(d => {
     switch (d.tag_type) {
       case "book_collection":
@@ -291,9 +306,9 @@ function addTopicButtons() {
 }
 
 function removeTopicButtons() {
-  d3.select(".topics_container").selectAll("*").remove()
-  d3.select(".exhibitions_container").selectAll("*").remove()
-  d3.selectAll(".instructions_container").selectAll("*").remove()
+  d3.select(".topics_container").remove()
+  d3.select(".exhibitions_container").remove()
+  d3.selectAll(".instructions_container").remove()
 }
 
 
