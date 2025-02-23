@@ -17,7 +17,7 @@ export function openDirectionsScreen(bookInfo) {
     d3.select(".directions-view").style("display", "grid");
 
     addBookCover(bookInfo.cover_file)
-    addBBookDetails(bookInfo)
+    addBookDetails(bookInfo)
     addQR(bookInfo)
     addPath(bookInfo.shelf, bookInfo.floor)
 }
@@ -56,7 +56,7 @@ function addBookCover(coverFilename) {
 
 }
 
-function addBBookDetails(bookInfo) {
+function addBookDetails(bookInfo) {
 
     const locationContainer = d3.select(".directions-view__book-details__location")
     locationContainer.selectAll("*").remove()//Remove previous info (if any)
@@ -72,7 +72,12 @@ function addBBookDetails(bookInfo) {
         locationText = locationText + `Code: <b>${bookInfo.std_call_number}</b><br>`
     }
 
-    locationText = locationText + `Floor: <b>${bookInfo.floor}</b><br>Shelf: <b>${bookInfo.shelf}</b>`
+    locationText = locationText + `Floor: <b>${bookInfo.floor}</b><br>`
+    console.log(bookInfo.shelf)
+    if (bookInfo.shelf == 848) locationText = locationText + '<b>AI Librarian | Book Recommendations</b>'
+    //if (bookInfo.title == "Heritage Objects") locationText = locationText + '<b>Heritage Exhibition</b>'
+    //if (bookInfo.title == "Studet Work") locationText = locationText + '<b>Student Exhibition</b>'
+
     locationContainer.append("div").html(locationText)
 }
 
