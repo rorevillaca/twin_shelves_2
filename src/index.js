@@ -290,6 +290,12 @@ function addTopicButtons() {
   })
 }
 
+function removeTopicButtons() {
+  d3.select(".topics_container").selectAll("*").remove()
+  d3.select(".exhibitions_container").selectAll("*").remove()
+  d3.selectAll(".instructions_container").selectAll("*").remove()
+}
+
 
 function makeButtonsVisible(){
   const buttons = d3.selectAll(".topicButtonContainer, .exhibitionsButton").nodes();
@@ -312,10 +318,14 @@ function makeButtonsVisible(){
   }, buttonLoadTime);
 
 
-  const intructions = d3.select(".instructions_container").select("span")
+  const intructions = d3
+  .select(".instructions_container")
+  .append("span")
   typeText(intructions,"Explore by topic:", 3500, 160)
   
-  const intructions2 = d3.select(".instructions_container2").select("span")
+  const intructions2 = d3
+  .select(".instructions_container2")
+  .append("span")
   typeText(intructions2,"Explore by category:", 3500, 160)
 };
 
@@ -384,7 +394,7 @@ function resetIdleTimer() {
   clearTimeout(idleTimeoutId)
   idleTimeoutId = setTimeout(() => {
     enterIdleState()
-  }, 45000)
+  }, 20000)
 
 }
 
@@ -413,16 +423,21 @@ export function clearSelectedSection() {
 }
 
 function enterIdleState() {
-  console.log("Entering idle state...")
+  console.log("enter idle state")
   document.removeEventListener('click', resetIdleTimer)
   document.addEventListener('click', exitIdleState)
+
+  removeTopicButtons()
 }
 
 function exitIdleState() {
-  console.log("Exiting idle state...")
+  console.log("exit idle state")
   document.removeEventListener('click', exitIdleState)
   document.addEventListener('click', resetIdleTimer);
   resetIdleTimer();
+
+  addTopicButtons()
+  makeButtonsVisible()
 }
 
 // Add event listener to the document to detect any click
