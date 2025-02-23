@@ -181,6 +181,7 @@ function magnifying_glass(topic) {
 
   // While the magnifying glass is on, we set timer for the selection screen
   resetTopicSelectionTimer()
+  resetIdleTimer()
   document.removeEventListener('click', resetIdleTimer);
   document.addEventListener('click', resetTopicSelectionTimer);
 
@@ -307,6 +308,21 @@ function addTopicButtons() {
         break;
     }
   })
+
+  d3.selectAll(".topicButtonContainer, .exhibitionsButton")
+  .on('click', function (d) {
+    const section = this.getAttribute('id')
+    if (animationRunning) return; // Prevent running if animation is already in progress
+    animationRunning = true; // Set the flag to indicate the animation is running
+    //Add missing books back
+    if (currentlySelectedSection !== "") {
+      addBackgroundBooks(currentlySelectedSection, wallContainer)
+    }
+    //Perform selection on books and tags
+    selectSection(section)
+    //Set state variable
+    currentlySelectedSection = section
+  });
 }
 
 function removeTopicButtons() {
@@ -348,22 +364,6 @@ function makeButtonsVisible(){
   typeText(intructions2,"Explore by category:", 3500, 160)
 };
 
-
-
-d3.selectAll(".topicButtonContainer, .exhibitionsButton")
-  .on('click', function (d) {
-    const section = this.getAttribute('id')
-    if (animationRunning) return; // Prevent running if animation is already in progress
-    animationRunning = true; // Set the flag to indicate the animation is running
-    //Add missing books back
-    if (currentlySelectedSection !== "") {
-      addBackgroundBooks(currentlySelectedSection, wallContainer)
-    }
-    //Perform selection on books and tags
-    selectSection(section)
-    //Set state variable
-    currentlySelectedSection = section
-  });
 
 
 function selectSection(sectionId) {
