@@ -178,6 +178,12 @@ wallContainer
 
 function magnifying_glass(topic) {
 
+  // While the magnifying glass is on, we set timer for the selection screen
+  resetTopicSelectionTimer()
+  document.removeEventListener('click', resetIdleTimer);
+  document.addEventListener('click', resetTopicSelectionTimer);
+
+
   //Remove current magnifying glass (if any)
   wallContainer.selectAll(".magnifying_assets").remove();
 
@@ -369,15 +375,23 @@ function selectSection(sectionId) {
 }
 
 // Initialize a variable to hold the timeout ID
-let timeoutId;
+let topicSelectionTimerID
+let idleTimeoutId
 
-// Function to reset the timer
-function resetTimer() {
-  // Clear the existing timer
-  clearTimeout(timeoutId);
 
-  // Set a new 10-second timer
-  timeoutId = setTimeout(() => {
+function resetIdleTimer() {
+  console.log("Idle timer reset")
+  clearTimeout(idleTimeoutId)
+  idleTimeoutId = setTimeout(() => {
+    enterIdleState()
+  }, 45000)
+
+}
+
+function resetTopicSelectionTimer() {
+  console.log("Topic selection timer reset")
+  clearTimeout(topicSelectionTimerID)
+  topicSelectionTimerID = setTimeout(() => {
     clearSelectedSection()
   }, 15000);
 }
@@ -393,15 +407,29 @@ export function clearSelectedSection() {
   d3.selectAll(".books_background").attr("opacity", 1)
   d3.selectAll("#wall_background").attr("opacity", 1)
   // Reset the timer after calling the function
-  resetTimer();
+  resetIdleTimer();
+  document.removeEventListener('click', resetTopicSelectionTimer);
+  document.addEventListener('click', resetIdleTimer);
+}
+
+function enterIdleState() {
+  console.log("Entering idle state...")
+  document.removeEventListener('click', resetIdleTimer)
+  document.addEventListener('click', exitIdleState)
+}
+
+function exitIdleState() {
+  console.log("Exiting idle state...")
+  document.removeEventListener('click', exitIdleState)
+  document.addEventListener('click', resetIdleTimer);
+  resetIdleTimer();
 }
 
 // Add event listener to the document to detect any click
-document.addEventListener('click', resetTimer);
-document.addEventListener('mousemove', resetTimer); // Reset on mouse move
+document.addEventListener('click', resetIdleTimer);
 
 // Set the initial 10-second timer when the script loads
-resetTimer();
+resetIdleTimer();
 
 
 const getCoordOfTopic = (topic, variable, min_or_max) => {
