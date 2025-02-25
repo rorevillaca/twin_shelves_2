@@ -65,13 +65,6 @@
   align-items: flex-start;
 }
 
-
-.facts_container {grid-area: 3 / 1 / 7 / 2; 
-  background-color: red;
-  display: flex;
-}
-
-
 .book{
   /* fill: white; */
 }

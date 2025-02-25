@@ -9,6 +9,7 @@ import { initStudentWork } from "./screens/studentWorkScreen.js"
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
 import { initSearchScreen } from "./screens/searchScreen.js"
 import { closeAllSecondaryScreens } from './components/backButton.js'
+import { factCard } from './components/factCard.js'
 
 
 let currentlySelectedSection = ""
@@ -325,7 +326,8 @@ function addTopicButtons() {
   });
 }
 
-function removeTopicButtons() {
+function clearButtonsSection() {
+  d3.select(".facts_container").remove()
   d3.select(".topics_container").remove()
   d3.select(".exhibitions_container").remove()
   d3.selectAll(".instructions_container").remove()
@@ -445,12 +447,14 @@ function enterIdleState() {
   console.log("enter idle state")
   document.removeEventListener('click', resetIdleTimer)
   document.addEventListener('click', exitIdleState)
-  removeTopicButtons()
+  clearButtonsSection()
+  closeAllSecondaryScreens()
   const parentContainer = d3.select(".parent_container")
   parentContainer
     .append("div")
     .attr("class", "facts_container")
-  closeAllSecondaryScreens()
+
+  factCard(".facts_container")
 }
 
 function exitIdleState() {
@@ -459,6 +463,7 @@ function exitIdleState() {
   document.addEventListener('click', resetIdleTimer);
   resetIdleTimer();
 
+  clearButtonsSection()
   addTopicButtons()
   makeButtonsVisible()
   d3.select(".facts_container").remove()

@@ -1,0 +1,23 @@
+.facts_container {grid-area: 3 / 1 / 7 / 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.did-u-know{
+    width: max-content;
+    display: flex;
+    font-size: 3.5em;
+    background-color: #2c2c6b;
+    padding: 18px;
+    margin-left: -700px;
+    margin-bottom: 25px;
+}
+
+.fact{
+    min-height: 15%;
+    font-size: 3em;
+    display: flex;
+}
