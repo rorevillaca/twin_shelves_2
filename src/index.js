@@ -421,7 +421,7 @@ function resetIdleTimer() {
   clearTimeout(idleTimeoutId)
   idleTimeoutId = setTimeout(() => {
     enterIdleState()
-  }, 15000)
+  }, 35000)
 
 }
 
@@ -467,7 +467,7 @@ function enterIdleState() {
 
   setTimeout(() => {
     isIdle ? exitIdleState() : null
-  },60000)
+  },20000)
 }
 
 function exitIdleState() {
