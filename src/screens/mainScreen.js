@@ -54,4 +54,5 @@ export function addBackgroundBooks(topic, container) {
 
 export function removeBooks(){
     d3.selectAll(".books_background").remove()
+    d3.selectAll(".book").remove()
 }

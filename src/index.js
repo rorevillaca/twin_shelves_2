@@ -15,14 +15,13 @@ import { factCard } from './components/factCard.js'
 let currentlySelectedSection = ""
 let animationRunning = false;
 
-const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
-const wallWidth = wallContainerAttrs.width * 0.95
+export const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
+export const wallWidth = wallContainerAttrs.width * 0.95
 const wallRatio = 0.2250 //from inkscape (height / width)
-const wallHeight = wallWidth * wallRatio
+export const wallHeight = wallWidth * wallRatio
 const parsed_polygons = ParsePolygons(topic_polygons, wallContainerAttrs, wallWidth, wallHeight);
 
 addWall()
-addBooks()
 initShelvesScreen()
 initDirectionsScreen()
 initStudentWork()
@@ -31,6 +30,7 @@ initSearchScreen()
 addTopicButtons()
 makeButtonsVisible()
 addPolygons()
+addBooks()
 
 
 function startPulsing() {
@@ -176,6 +176,10 @@ function addPolygons() {
       //Set state variable
       currentlySelectedSection = this.getAttribute('topic')
     });
+}
+
+function removePolygons(){
+  wallContainer.selectAll("g").remove()
 }
 
 function magnifying_glass(topic) {
@@ -450,11 +454,16 @@ function enterIdleState() {
   clearButtonsSection()
   closeAllSecondaryScreens()
   removeBooks()
+  removePolygons
   const parentContainer = d3.select(".parent_container")
   parentContainer
     .append("div")
     .attr("class", "facts_container")
   factCard(".facts_container")
+
+  setTimeout(() => {
+    exitIdleState()
+  },20000)
 }
 
 function exitIdleState() {
@@ -462,11 +471,13 @@ function exitIdleState() {
   document.removeEventListener('click', exitIdleState)
   document.addEventListener('click', resetIdleTimer);
   addBooks()
+  addPolygons()
   resetIdleTimer();
   clearButtonsSection()
   addTopicButtons()
   makeButtonsVisible()
   d3.select(".facts_container").remove()
+  removeBooks()
 }
 
 // Add event listener to the document to detect any click
