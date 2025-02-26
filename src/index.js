@@ -467,7 +467,7 @@ function enterIdleState() {
 
   setTimeout(() => {
     isIdle ? exitIdleState() : null
-  },20000)
+  },60000)
 }
 
 function exitIdleState() {
