@@ -19,10 +19,10 @@ export function factCard(containerSelector) {
         attr("class", "fact")
         .text(".")
 
-    const factText1 = "The Collection Wall is home to 23.000 books"
-    const factText2 = "spanning over X years of technical literature"
+    const factText1 = "The Collection Wall is home to over 24.000 books"
+    const factText2 = "spanning 130 years of technical literature"
     const delay = 100
-    typeText(fact1, factText1, 300, delay)
+    typeText(fact1, factText1, 600, delay)
     typeText(fact2, factText2, delay * (factText1.length + 1), 100)
 
 }

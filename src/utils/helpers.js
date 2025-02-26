@@ -55,11 +55,13 @@ export const colorsArray = [
 
 
 export function typeText(container, text, waitFor, delay = 150) {
-  container.text("");
+  container.html("");
 
   text.split("").forEach((char, index) => {
+    const isNumber =  /^[0-9]$/.test(char)
     setTimeout(() => {
-      container.text(container.text() + char);
+      // char = isNumber ? "<b>" + char + "</b>" : char
+      container.html(container.html() + char);
     }, waitFor + index * delay);
   });
 };

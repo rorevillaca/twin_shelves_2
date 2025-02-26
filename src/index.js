@@ -1,5 +1,5 @@
 import { shuffle, typeText, colorsArray } from './utils/helpers.js'
-import { initMainScreen, wallContainer, addBackgroundBooks } from "./screens/mainScreen.js"
+import { addWall, addBooks, removeBooks, wallContainer, addBackgroundBooks } from "./screens/mainScreen.js"
 import { initShelvesScreen, populateShelfView } from "./screens/shelvesScreen.js"
 import { ParsePolygons } from "./utils/data.js"
 import { initDirectionsScreen } from "./screens/directionsScreen.js"
@@ -15,7 +15,14 @@ import { factCard } from './components/factCard.js'
 let currentlySelectedSection = ""
 let animationRunning = false;
 
-initMainScreen()
+const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
+const wallWidth = wallContainerAttrs.width * 0.95
+const wallRatio = 0.2250 //from inkscape (height / width)
+const wallHeight = wallWidth * wallRatio
+const parsed_polygons = ParsePolygons(topic_polygons, wallContainerAttrs, wallWidth, wallHeight);
+
+addWall()
+addBooks()
 initShelvesScreen()
 initDirectionsScreen()
 initStudentWork()
@@ -23,12 +30,7 @@ initHeritageObjects()
 initSearchScreen()
 addTopicButtons()
 makeButtonsVisible()
-
-const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
-const wallWidth = wallContainerAttrs.width * 0.95
-const wallRatio = 0.2250 //from inkscape (height / width)
-const wallHeight = wallWidth * wallRatio
-
+addPolygons()
 
 
 function startPulsing() {
@@ -82,9 +84,9 @@ function scramble_books(topic) {
   // Add noise to the position (so it all looks less blocky)
   const getRandomOffset = () => (Math.random() * 0.2) - 0.1; // Generates a number between -0.1 and 0.1
   booksArray = booksArray.map(point => ({
-      ...point,
-      x_mid: point.x_mid + getRandomOffset(),
-      hasImage: Math.random() < 0.2 ? 1 : 0 
+    ...point,
+    x_mid: point.x_mid + getRandomOffset(),
+    hasImage: Math.random() < 0.2 ? 1 : 0
   }));
 
   booksArray = booksArray.filter(book => book.topic2 === topic);
@@ -92,18 +94,18 @@ function scramble_books(topic) {
   const defs = wallContainer.append("defs");
 
   booksArray.forEach((d, i) => {
-      defs.append("pattern")
-          .attr("id", `pattern-${i}`)
-          .attr("width", 1)
-          .attr("height", 1)
-          .attr("patternUnits", "objectBoundingBox")
-          .append("image")
-          .attr("xlink:href", `src/res/resized_covers_struct/${d.cover_file}`)
-          .attr("width", d.book_width * wallWidth * enlargeFactor)
-          .attr("height", d.book_height * wallHeight * enlargeFactor * 0.6)
-          .attr("preserveAspectRatio", "xMidYMid slice");
+    defs.append("pattern")
+      .attr("id", `pattern-${i}`)
+      .attr("width", 1)
+      .attr("height", 1)
+      .attr("patternUnits", "objectBoundingBox")
+      .append("image")
+      .attr("xlink:href", `src/res/resized_covers_struct/${d.cover_file}`)
+      .attr("width", d.book_width * wallWidth * enlargeFactor)
+      .attr("height", d.book_height * wallHeight * enlargeFactor * 0.6)
+      .attr("preserveAspectRatio", "xMidYMid slice");
   });
-  
+
 
   // Enter selection: Add new elements
   const booksEnter = wallContainer.selectAll(".book")
@@ -118,65 +120,63 @@ function scramble_books(topic) {
     .attr("fill", (d, i) => d.hasImage ? `url(#pattern-${i})` : colorsArray[Math.floor(Math.random() * colorsArray.length)])
     .style("opacity", 1)
 
-    // Transition for entering elements
-    booksEnter.transition()
-      .duration(1000)
-      .style("opacity", 1)
-      .on('end', function() {
-        // Apply the second transition (to change the fill color) to the merged selection
-        d3.select(this)
-          .transition()
-          .delay(800 * Math.random())
-          .attr("y", d => d.y_mid * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
-          .attr("width", d => d.hasImage ? d.book_width * wallWidth * enlargeFactor : d.book_width * wallWidth)
-          .attr("height", d => d.hasImage ? d.height_end * wallHeight * enlargeFactor : d.height_end * wallHeight)
-          .style("opacity", d => d.hasImage ? 1 : 0)
-          .attr("x", d => d.x_mid * wallWidth)
-          .on('end', function() {
-            // Apply the second transition (to change the fill color) to the merged selection
-            d3.select(this)
-              .transition()
-              .delay(800 * Math.random())
-              .attr("y", d => d.y_end * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
-              .attr("width", d => d.book_width * wallWidth)
-              .attr("height", d => d.height_end * wallHeight)
-              .attr("x", d => d.x_end * wallWidth)
-              .style("opacity", d => d.opacity_final)
-          })
-      })
+  // Transition for entering elements
+  booksEnter.transition()
+    .duration(1000)
+    .style("opacity", 1)
+    .on('end', function () {
+      // Apply the second transition (to change the fill color) to the merged selection
+      d3.select(this)
+        .transition()
+        .delay(800 * Math.random())
+        .attr("y", d => d.y_mid * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+        .attr("width", d => d.hasImage ? d.book_width * wallWidth * enlargeFactor : d.book_width * wallWidth)
+        .attr("height", d => d.hasImage ? d.height_end * wallHeight * enlargeFactor : d.height_end * wallHeight)
+        .style("opacity", d => d.hasImage ? 1 : 0)
+        .attr("x", d => d.x_mid * wallWidth)
+        .on('end', function () {
+          // Apply the second transition (to change the fill color) to the merged selection
+          d3.select(this)
+            .transition()
+            .delay(800 * Math.random())
+            .attr("y", d => d.y_end * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+            .attr("width", d => d.book_width * wallWidth)
+            .attr("height", d => d.height_end * wallHeight)
+            .attr("x", d => d.x_end * wallWidth)
+            .style("opacity", d => d.opacity_final)
+        })
+    })
 
 }
 
-
-const parsed_polygons = ParsePolygons(topic_polygons, wallContainerAttrs, wallWidth, wallHeight);
-
-wallContainer
-  .append("g")
-  .selectAll("polygon")
-  .remove()
-  .data(parsed_polygons)
-  .enter()
-  .append("polygon")
-  .attr("points", d => d.points)
-  .attr("topic", d => d.topic)
-  .attr("id", d => "polygon_" + d.topic)
-  .attr("fill", "#838ef0")
-  .attr("opacity", "0%")
-  //.attr("stroke", "red")
-  .attr("stroke-width", 1)
-  .on('click', function (d) {
-    if (animationRunning) return; // Prevent running if animation is already in progress
-    animationRunning = true; // Set the flag to indicate the animation is running
-    //Add missing books back
-    if (currentlySelectedSection !== "") {
-      addBackgroundBooks(currentlySelectedSection, wallContainer)
-    }
-    //Perform selection on books and tags
-    selectSection(this.getAttribute('topic'))
-    //Set state variable
-    currentlySelectedSection = this.getAttribute('topic')
-  });
-
+function addPolygons() {
+  wallContainer
+    .append("g")
+    .selectAll("polygon")
+    .remove()
+    .data(parsed_polygons)
+    .enter()
+    .append("polygon")
+    .attr("points", d => d.points)
+    .attr("topic", d => d.topic)
+    .attr("id", d => "polygon_" + d.topic)
+    .attr("fill", "#838ef0")
+    .attr("opacity", "0%")
+    //.attr("stroke", "red")
+    .attr("stroke-width", 1)
+    .on('click', function (d) {
+      if (animationRunning) return; // Prevent running if animation is already in progress
+      animationRunning = true; // Set the flag to indicate the animation is running
+      //Add missing books back
+      if (currentlySelectedSection !== "") {
+        addBackgroundBooks(currentlySelectedSection, wallContainer)
+      }
+      //Perform selection on books and tags
+      selectSection(this.getAttribute('topic'))
+      //Set state variable
+      currentlySelectedSection = this.getAttribute('topic')
+    });
+}
 
 function magnifying_glass(topic) {
 
@@ -295,7 +295,7 @@ function addTopicButtons() {
   parentContainer
     .append("div")
     .attr("class", "instructions_container instructions_container2")
-    parentContainer
+  parentContainer
     .append("div")
     .attr("class", "exhibitions_container")
 
@@ -311,19 +311,19 @@ function addTopicButtons() {
   })
 
   d3.selectAll(".topicButtonContainer, .exhibitionsButton")
-  .on('click', function (d) {
-    const section = this.getAttribute('id')
-    if (animationRunning) return; // Prevent running if animation is already in progress
-    animationRunning = true; // Set the flag to indicate the animation is running
-    //Add missing books back
-    if (currentlySelectedSection !== "") {
-      addBackgroundBooks(currentlySelectedSection, wallContainer)
-    }
-    //Perform selection on books and tags
-    selectSection(section)
-    //Set state variable
-    currentlySelectedSection = section
-  });
+    .on('click', function (d) {
+      const section = this.getAttribute('id')
+      if (animationRunning) return; // Prevent running if animation is already in progress
+      animationRunning = true; // Set the flag to indicate the animation is running
+      //Add missing books back
+      if (currentlySelectedSection !== "") {
+        addBackgroundBooks(currentlySelectedSection, wallContainer)
+      }
+      //Perform selection on books and tags
+      selectSection(section)
+      //Set state variable
+      currentlySelectedSection = section
+    });
 }
 
 function clearButtonsSection() {
@@ -334,7 +334,7 @@ function clearButtonsSection() {
 }
 
 
-function makeButtonsVisible(){
+function makeButtonsVisible() {
   const buttons = d3.selectAll(".topicButtonContainer, .exhibitionsButton").nodes();
 
   const shuffledButtons = shuffle(buttons);
@@ -351,19 +351,19 @@ function makeButtonsVisible(){
 
   setTimeout(() => {
     d3.selectAll(".topicButtonName, .exhibitionsButton")
-    .style("color", "white")
+      .style("color", "white")
   }, buttonLoadTime);
 
 
   const intructions = d3
-  .select(".instructions_container")
-  .append("span")
-  typeText(intructions,"Explore by topic:", 3500, 160)
-  
+    .select(".instructions_container")
+    .append("span")
+  typeText(intructions, "Explore by topic:", 3500, 160)
+
   const intructions2 = d3
-  .select(".instructions_container2")
-  .append("span")
-  typeText(intructions2,"Explore by category:", 3500, 160)
+    .select(".instructions_container2")
+    .append("span")
+  typeText(intructions2, "Explore by category:", 3500, 160)
 };
 
 
@@ -391,17 +391,17 @@ function selectSection(sectionId) {
     d3.select("#" + sectionId).selectAll("div").style("background-color", "#808ff7")
     var waitTime = 0
 
-      if (sectionId !== "heritage_objects" && sectionId !== "student_work") {
-        waitTime = 3000
-        scramble_books(sectionId); 
-      }
-      // Wait bfore running
-      setTimeout(function(){
-        //Add magnifying glass
-        magnifying_glass(sectionId);
-        animationRunning = false; // Set the flag to indicate the animation has finished
-        },waitTime)
+    if (sectionId !== "heritage_objects" && sectionId !== "student_work") {
+      waitTime = 3000
+      scramble_books(sectionId);
     }
+    // Wait bfore running
+    setTimeout(function () {
+      //Add magnifying glass
+      magnifying_glass(sectionId);
+      animationRunning = false; // Set the flag to indicate the animation has finished
+    }, waitTime)
+  }
 
 }
 
@@ -415,7 +415,7 @@ function resetIdleTimer() {
   clearTimeout(idleTimeoutId)
   idleTimeoutId = setTimeout(() => {
     enterIdleState()
-  }, 20000)
+  }, 15000)
 
 }
 
@@ -449,11 +449,11 @@ function enterIdleState() {
   document.addEventListener('click', exitIdleState)
   clearButtonsSection()
   closeAllSecondaryScreens()
+  removeBooks()
   const parentContainer = d3.select(".parent_container")
   parentContainer
     .append("div")
     .attr("class", "facts_container")
-
   factCard(".facts_container")
 }
 
@@ -461,8 +461,8 @@ function exitIdleState() {
   console.log("exit idle state")
   document.removeEventListener('click', exitIdleState)
   document.addEventListener('click', resetIdleTimer);
+  addBooks()
   resetIdleTimer();
-
   clearButtonsSection()
   addTopicButtons()
   makeButtonsVisible()

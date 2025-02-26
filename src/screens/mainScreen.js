@@ -2,7 +2,7 @@ import { wall } from "../components/wall.js";
 
 export let wallContainer;
 
-export function initMainScreen() {
+export function addWall() {
 
     //Set container for wall
     wallContainer = d3.select(".wall_container")
@@ -11,16 +11,32 @@ export function initMainScreen() {
         .attr("width","95%");
     
     wall(wallContainer, "50%", false)
-    
-    // Loop through and append the books for each section
-    for (let i = 1; i <= 25; i++) {
-        addBackgroundBooks(`topic_${i}`, wallContainer)
-    }
-    addBackgroundBooks(`recommended_books`, wallContainer)
-    addBackgroundBooks(`dissertations`, wallContainer)
-    addBackgroundBooks(`heritage_objects`, wallContainer)
-    addBackgroundBooks(`student_work`, wallContainer)
-    addBackgroundBooks(`study_books`, wallContainer)
+
+}
+
+export function addBooks(){
+
+    let delay = 95
+
+    d3.range(1, 26).forEach((i, index) => {
+        d3.timeout(() => {
+            addBackgroundBooks(`topic_${i}`, wallContainer);
+        }, 200 + index * delay)
+
+    })
+    const additionalBooks = [
+        'recommended_books',
+        'dissertations',
+        'heritage_objects',
+        'student_work',
+        'study_books'
+    ];
+
+    additionalBooks.forEach((book, index) => {
+        d3.timeout(() => {
+            addBackgroundBooks(book, wallContainer);
+        }, 200 + (25 + index) * delay);
+    });
 }
 
 export function addBackgroundBooks(topic, container) {
@@ -34,4 +50,8 @@ export function addBackgroundBooks(topic, container) {
         .attr("opacity", 1)
         .attr("x", 0)
         .attr("y", 0);
+}
+
+export function removeBooks(){
+    d3.selectAll(".books_background").remove()
 }
