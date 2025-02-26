@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
 }
 
 .did-u-know{
@@ -16,9 +15,11 @@
     padding: 15px 25px 15px 25px;
     margin-left: -700px;
     margin-bottom: 25px;
+    color: #090235;
 }
 
 .fact{
+    color: white;
     min-height: 15%;
     font-family: "Roboto", sans-serif;
     font-size: 2.5em;

@@ -7,13 +7,14 @@ import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
 import { initStudentWork } from "./screens/studentWorkScreen.js"
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
-import { initSearchScreen } from "./screens/searchScreen.js"
+import { initSearchScreen, enableSearch, disableSearch } from "./screens/searchScreen.js"
 import { closeAllSecondaryScreens } from './components/backButton.js'
 import { factCard } from './components/factCard.js'
 
 
 let currentlySelectedSection = ""
 let animationRunning = false;
+let isIdle = false
 
 export const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 export const wallWidth = wallContainerAttrs.width * 0.95
@@ -152,6 +153,7 @@ function scramble_books(topic) {
 function addPolygons() {
   wallContainer
     .append("g")
+    .attr("id","topic-polygons")
     .selectAll("polygon")
     .remove()
     .data(parsed_polygons)
@@ -179,7 +181,7 @@ function addPolygons() {
 }
 
 function removePolygons(){
-  wallContainer.selectAll("g").remove()
+  wallContainer.selectAll("#topic-polygons").remove()
 }
 
 function magnifying_glass(topic) {
@@ -448,13 +450,15 @@ export function clearSelectedSection() {
 }
 
 function enterIdleState() {
+  isIdle = true
   console.log("enter idle state")
   document.removeEventListener('click', resetIdleTimer)
   document.addEventListener('click', exitIdleState)
   clearButtonsSection()
   closeAllSecondaryScreens()
   removeBooks()
-  removePolygons
+  removePolygons()
+  disableSearch()
   const parentContainer = d3.select(".parent_container")
   parentContainer
     .append("div")
@@ -462,16 +466,18 @@ function enterIdleState() {
   factCard(".facts_container")
 
   setTimeout(() => {
-    exitIdleState()
+    isIdle ? exitIdleState() : null
   },20000)
 }
 
 function exitIdleState() {
+  isIdle = false
   console.log("exit idle state")
   document.removeEventListener('click', exitIdleState)
   document.addEventListener('click', resetIdleTimer);
   addBooks()
   addPolygons()
+  enableSearch()
   resetIdleTimer();
   clearButtonsSection()
   addTopicButtons()

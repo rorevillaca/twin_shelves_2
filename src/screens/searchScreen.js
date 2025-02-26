@@ -16,7 +16,13 @@ export function initSearchScreen() {
         .attr("width", "95%");
 
     wall(wallContainer, "40%", false)
+    enableSearch()
 
+
+    keyboard(".keyboard_container")
+}
+
+export function enableSearch() {
     d3
         .select(".search_container")
         .on('click', function () {
@@ -29,8 +35,10 @@ export function initSearchScreen() {
         .on('click', function () {
             search()
         })
+}
 
-    keyboard(".keyboard_container")
+export function disableSearch(){
+    d3.selectAll(".search_container, .searchButton").on('click', ()=>{})
 }
 
 

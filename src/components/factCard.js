@@ -13,6 +13,8 @@ export function factCard(containerSelector) {
             .append("div")
             .attr("class", "did-u-know")
             .text(introText)
+            .attr("color", "#2c2c6b")
+
         const fact1 = container.
             append("div").
             attr("class", "fact")
@@ -22,13 +24,14 @@ export function factCard(containerSelector) {
             attr("class", "fact")
             .text(".")
 
+
         const factText1 = "The Collection Wall is home to over 24.000 books"
         const factText2 = "spanning 130 years of technical literature"
         const delay = 100
-        typeText(fact1, factText1, 600, delay)
-        typeText(fact2, factText2, delay * (factText1.length + 1), 100)
+        typeText(fact1, factText1, 2500, delay)
+        typeText(fact2, factText2, 2500 + delay * (factText1.length + 1), 100)
         addRandomBooks()
-    }, 2000)
+    }, 500)
 
 }
 
