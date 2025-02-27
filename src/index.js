@@ -48,7 +48,49 @@ function startPulsing() {
 }
 
 
-function scramble_books(topic) {
+function scrambleObjects(topic) {
+  var objectsCurrentPrototype = background_objects.filter(object => object.prototype === topic);
+  console.log(console.log(JSON.stringify(objectsCurrentPrototype)))
+  const objectRadius = 5
+
+  const objectsEnter = wallContainer
+    .selectAll(".book")
+    .data(objectsCurrentPrototype)
+    .enter()
+    .append("rect")
+    .attr("class", "book")
+    .attr("fill", "white")
+    .attr("rx", d => d.start_r * objectRadius)
+    .attr("ry", d => d.start_r * objectRadius)
+    .attr("x", d => d.x_perc * wallWidth - objectRadius)
+    .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectRadius - 3)
+    .attr("width", objectRadius * 2)
+    .attr("height", objectRadius * 2)
+
+  objectsCurrentPrototype = shuffle(objectsCurrentPrototype)
+
+  wallContainer
+    .selectAll(".book")
+    .data(objectsCurrentPrototype)
+    .transition()
+    .delay((d, i) =>  i * 100) // Stagger bars
+    .duration(700)
+    .attr("rx", d => d.end_r * objectRadius)
+    .attr("ry", d => d.end_r * objectRadius)
+    .transition()
+    .delay(750)
+    .duration(700)
+    .attr("rx", d => d.start_r * objectRadius)
+    .attr("ry", d => d.start_r * objectRadius)
+    .transition()
+    .delay(750)
+    .duration(700)
+    .attr("x", d => d.x_perc * wallWidth - objectRadius)
+    .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectRadius - 3)
+}
+
+
+function scrambleBooks(topic) {
   const enlargeFactor = 12
   var booksArray = shuffle(background_books);
   var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topic);
@@ -153,7 +195,7 @@ function scramble_books(topic) {
 function addPolygons() {
   wallContainer
     .append("g")
-    .attr("id","topic-polygons")
+    .attr("id", "topic-polygons")
     .selectAll("polygon")
     .remove()
     .data(parsed_polygons)
@@ -180,7 +222,7 @@ function addPolygons() {
     });
 }
 
-function removePolygons(){
+function removePolygons() {
   wallContainer.selectAll("#topic-polygons").remove()
 }
 
@@ -397,10 +439,14 @@ function selectSection(sectionId) {
     d3.select("#" + sectionId).selectAll("div").style("background-color", "#808ff7")
     var waitTime = 0
 
-    if (sectionId !== "heritage_objects" && sectionId !== "student_work") {
+    if (sectionId == "heritage_objects" || sectionId == "student_work") {
       waitTime = 3000
-      scramble_books(sectionId);
+      scrambleObjects(sectionId)
+    } else {
+      waitTime = 3000
+      scrambleBooks(sectionId);
     }
+
     // Wait bfore running
     setTimeout(function () {
       //Add magnifying glass
@@ -467,7 +513,7 @@ function enterIdleState() {
 
   setTimeout(() => {
     isIdle ? exitIdleState() : null
-  },20000)
+  }, 20000)
 }
 
 function exitIdleState() {
