@@ -1,8 +1,6 @@
-import { typeText } from "../utils/helpers.js"
-import { shuffle } from "../utils/helpers.js"
+import { typeText, shuffle, colorsArray } from "../utils/helpers.js"
 import { wallContainer } from "../screens/mainScreen.js"
 import { wallHeight, wallWidth, wallContainerAttrs } from "../index.js"
-
 
 export function factCard(containerSelector) {
     const container = d3.select(containerSelector)
@@ -48,7 +46,7 @@ function addRandomBooks() {
         .attr("width", d => d.book_width * wallWidth)
         .attr("height", d => d.book_height * wallHeight)
         .attr("x", d => d.x_start * wallWidth)
-        .attr("fill", "white")
+        .attr("fill", () => colorsArray[Math.floor(Math.random() * colorsArray.length)])
         .style("opacity", 0.1)
 
     // Transition for entering elements
