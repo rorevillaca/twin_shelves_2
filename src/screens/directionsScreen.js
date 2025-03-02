@@ -48,7 +48,8 @@ function addBookCover(coverFilename) {
     } else {//If no image is available
         var aspectRatio = 0.66
         coverContainer.style("background-image", null);
-        coverContainer.style("background-color", "silver");
+        coverContainer.style("background-color", "rgba(111, 111, 173, 0.4)");
+        coverContainer.style("background-opacity",0.7)
         const containerWidth = containerHeight * aspectRatio;
         coverContainer.style("width", `${containerWidth}px`);
     }
