@@ -3,6 +3,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="./src/styles/facts.css">
     <script src="src/res/d3@7.6.1.min.js"></script>
     <!-- <script src="https://d3js.org/d3.v7.js"></script> -->
+
 <body>
     <div class="parent_container" style="text-align:center">
         <div class="header_container">
@@ -34,12 +36,12 @@
     <div class="search-screen secondary_screen" id="search-screen">
         <div id="search-screen-header" class="header"></div>
         <div class="search_elements">
-            <div class="search_wall_container"></div> 
+            <div class="search_wall_container"></div>
             <div class="search_bar_container">
                 <input type="text" class="searchInput" placeholder="Type a search term">
                 <div class="searchButton"></div>
             </div>
-            <div class="keyboard_container"></div>    
+            <div class="keyboard_container"></div>
         </div>
     </div>
 
@@ -52,11 +54,11 @@
         <div class="shelf_view--shelves"></div>
         <div class="shelf_view--right_scroll">
             <img class="shelf_view--right_scroll_button" src="src/res/Font-Awesome/chevron-right.svg" />
-        </div>  
+        </div>
         <div class="shelf_view--navigation"></div>
         <div class="shelf_view--subtopic-browser">
             <div class="shelf_view--topic_holder"></div>
-            <div class="xx-large">|</div> 
+            <div class="xx-large">|</div>
             <div class="shelf_view--subtopic_holder"></div>
         </div>
     </div>
@@ -75,20 +77,22 @@
         <div class="heritage_view--content"></div>
         <div class="heritage_view--right_scroll">
             <!-- <img class="heritage_view--right_scroll_button" src="src/res/Font-Awesome/chevron-right.svg" /> -->
-        </div>  
+        </div>
         <div class="heritage_view--name_holder"></div>
     </div>
-    
+
     <div class="directions-view secondary_screen" id="directions-view">
         <div id="directions-view-header" class="header"></div>
         <div class="directions-view__book-details">
             <div class="directions-view__book-details__cover"></div>
-            <div class="directions-view__book-details__location"></div>
-            <div class="directions-view__book-details__QR_holder"></div>
+            <div class="directions-view__book-details__info">
+                <div class="directions-view__book-details__location"></div>
+                <div class="directions-view__book-details__QR_holder"></div>
+            </div>
         </div>
         <div class="directions-view__wall"></div>
     </div>
-    
+
     <script type="text/javascript" src="src/data/background_books.js"></script>
     <script type="text/javascript" src="src/data/topic_polygons.js"></script>
     <script type="text/javascript" src="src/data/tag_info.js"></script>
@@ -104,5 +108,5 @@
 
 
 </body>
-</html>
 
+</html>
