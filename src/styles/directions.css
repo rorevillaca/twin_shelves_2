@@ -45,6 +45,11 @@
     margin-top: 0; /* Removes any margin that might add to the height */
     }
 
+  .floor-location{
+    line-height: 1.2;
+  }
+  
+
   .directions-view__book-details__QR_holder{
     display: flex;
     max-height: 100%;

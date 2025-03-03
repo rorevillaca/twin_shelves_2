@@ -262,8 +262,8 @@ html, body{
 
 .info_card--QR_holder > img{
   background-repeat: no-repeat;
-  height: 70%;
-  width: auto;
+  height: auto;
+  width: 65%;
 }
 
 .info_card--location_details{

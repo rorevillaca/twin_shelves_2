@@ -43,7 +43,7 @@ topics <- c(rep("topic_24",30),rep("topic_21",84),rep("topic_8",66),rep("topic_2
             rep("topic_11",54),rep("topic_20",18),rep("topic_6",78),
             rep("topic_4",12),
             rep("student_work",6),
-            rep("topic_4",1),
+            rep("student_work",1),
             rep("student_work",5),
             rep("student_work",6),
             rep("topic_4",6),
@@ -119,6 +119,6 @@ books_df %<>% mutate(x_start = round(x_start/total_wall_width,5),
 books_df %<>% filter(grepl("topic",topic) | topic %in% c("recommended_books","study_books", "dissertations"))
 
 
-write(books_df %>% toJSON(), "C:/Users/Revi/Desktop/Github/Twin Shelves 2/src/data/background_books.js")
+write(books_df %>% toJSON(pretty = TRUE), "C:/Users/Revi/Desktop/Github/Twin Shelves 2/src/data/background_books.js")
 
 

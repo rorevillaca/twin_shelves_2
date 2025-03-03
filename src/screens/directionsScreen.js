@@ -68,16 +68,19 @@ function addBookDetails(bookInfo) {
     var locationText = ""
 
     if ("std_call_number" in bookInfo) {
-        locationText = locationText + `Code: <b>${bookInfo.std_call_number}</b><br>`
+        locationText = locationText + `Code: <b>${bookInfo.std_call_number}</b>`
     }
 
-    locationText = locationText + `Floor: <b>${bookInfo.floor}</b><br>`
+    locationText = locationText + `  <b>|</b>  Floor: <b>${bookInfo.floor}</b><br>`
     console.log(bookInfo.shelf)
     if (bookInfo.shelf == 848) locationText = locationText + '<b>AI Librarian | Book Recommendations</b>'
     //if (bookInfo.title == "Heritage Objects") locationText = locationText + '<b>Heritage Exhibition</b>'
     //if (bookInfo.title == "Studet Work") locationText = locationText + '<b>Student Exhibition</b>'
 
-    locationContainer.append("div").html(locationText)
+    locationContainer
+        .append("div")
+        .attr("class","floor-location")
+        .html(locationText)
 }
 
 function addQR(bookInfo) {
