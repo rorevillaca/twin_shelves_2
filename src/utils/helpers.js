@@ -60,8 +60,10 @@ export function typeText(container, text, waitFor, delay = 150) {
   text.split("").forEach((char, index) => {
     const isNumber =  /^[0-9]$/.test(char)
     setTimeout(() => {
-      // char = isNumber ? "<b>" + char + "</b>" : char
-      container.html(container.html() + char);
+    //char = isNumber ? '<span style="background-color: #00A6D6;">' + char + "</span>" : char
+    char = isNumber ? '<b>' + char + "</b>" : char
+    char = char === " " ? "&nbsp;" : char
+    container.html(container.html() + char);
     }, waitFor + index * delay);
   });
 };

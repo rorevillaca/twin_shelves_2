@@ -467,7 +467,7 @@ function resetIdleTimer() {
   clearTimeout(idleTimeoutId)
   idleTimeoutId = setTimeout(() => {
     enterIdleState()
-  }, 50000)
+  }, 20000) // Time for idle state to start
 
 }
 

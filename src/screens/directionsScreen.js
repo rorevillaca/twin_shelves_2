@@ -53,8 +53,6 @@ function addBookCover(coverFilename) {
         const containerWidth = containerHeight * aspectRatio;
         coverContainer.style("width", `${containerWidth}px`);
     }
-
-
 }
 
 function addBookDetails(bookInfo) {
