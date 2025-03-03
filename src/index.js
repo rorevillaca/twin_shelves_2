@@ -51,42 +51,50 @@ function startPulsing() {
 function scrambleObjects(topic) {
   var objectsCurrentPrototype = background_objects.filter(object => object.prototype === topic);
   console.log(console.log(JSON.stringify(objectsCurrentPrototype)))
-  const objectRadius = 5
+  var objectHeight = 10
+  var objectWidth = objectHeight * 1.2
 
   const objectsEnter = wallContainer
     .selectAll(".book")
-    .data(objectsCurrentPrototype)
+    .data(objectsCurrentPrototype, d => d.id)
     .enter()
     .append("rect")
     .attr("class", "book")
-    .attr("fill", "white")
-    .attr("rx", d => d.start_r * objectRadius)
-    .attr("ry", d => d.start_r * objectRadius)
-    .attr("x", d => d.x_perc * wallWidth - objectRadius)
-    .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectRadius - 3)
-    .attr("width", objectRadius * 2)
-    .attr("height", objectRadius * 2)
+    .attr("fill", d => d.fill ? d.fill : "white")
+    .attr("x", d => d.x_perc * wallWidth - objectWidth / 2)
+    .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2)
+    .attr("height", objectHeight)
+    .attr("width", objectWidth)
 
   objectsCurrentPrototype = shuffle(objectsCurrentPrototype)
 
+  objectHeight = objectHeight * 3
+  objectWidth = objectWidth * 3
+
   wallContainer
     .selectAll(".book")
-    .data(objectsCurrentPrototype)
+    .data(objectsCurrentPrototype, d => d.id)
     .transition()
-    .delay((d, i) =>  i * 100) // Stagger bars
+    .delay((d, i) =>  i * 100) 
     .duration(700)
-    .attr("rx", d => d.end_r * objectRadius)
-    .attr("ry", d => d.end_r * objectRadius)
+    .attr("x", d => d.x_end_perc ? d.x_end_perc * wallWidth - objectWidth / 2 : d.x_perc * wallWidth - objectWidth / 2)
+    .attr("y", d => d.y_end_perc ? d.y_end_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2 : d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2)
+    .attr("height", objectHeight)
+    .attr("width", objectWidth)
+
+  objectHeight = objectHeight / 3
+  objectWidth = objectWidth / 3
+
+  wallContainer
+    .selectAll(".book")
+    .data(objectsCurrentPrototype, d => d.id)
     .transition()
-    .delay(750)
+    .delay((d, i) =>  1500 + i * 100)
     .duration(700)
-    .attr("rx", d => d.start_r * objectRadius)
-    .attr("ry", d => d.start_r * objectRadius)
-    .transition()
-    .delay(750)
-    .duration(700)
-    .attr("x", d => d.x_perc * wallWidth - objectRadius)
-    .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectRadius - 3)
+    .attr("x", d => d.x_perc * wallWidth - objectWidth / 2)
+    .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2)
+    .attr("height", objectHeight)
+    .attr("width", objectWidth)
 }
 
 
