@@ -69,7 +69,24 @@ export function factCard2(containerSelector) {
         .attr("width", "100%")
         .append("g")
 
-    const sequence = generateSequence(26, -70, 7.5)
+
+    const availableHeight = photoContainer.node().getBoundingClientRect().height
+    const availableWidth = photoContainer.node().getBoundingClientRect().width
+    const photoDiameter = availableHeight * 0.6
+    const xCoordCenter = (availableWidth - photoDiameter)/2
+    const yCoord = (availableHeight - photoDiameter)/2
+    const dimmedOpacity = 0.35
+    const photoDiameterHighlight = availableHeight * 0.8
+    const yCoordHighlight = (availableHeight - photoDiameterHighlight)/2
+    const xCoordHighlight = (availableWidth - photoDiameterHighlight)/2
+    const gapX = photoDiameter / 2
+
+    const xSpacing = gapX + photoDiameter
+    const minX = xCoordCenter - xSpacing * 19
+    const sequence = generateSequence(26, minX, xSpacing)
+
+    console.log(sequence)
+
     const shuffledRecommenders = shuffle(recommender_data)
     shuffledRecommenders.forEach((item, index) => {
         item.initialX = sequence[index];
@@ -80,12 +97,14 @@ export function factCard2(containerSelector) {
         .data(shuffledRecommenders)
         .enter()
         .append("image") 
-        .attr("x", (d) => `${d.initialX}%`)
-        .attr("y", "calc(50% - 50px)") 
-        .attr("width", 100) 
-        .attr("height", 100)
+        .attr("x", (d) => d.initialX)
+        .attr("y", yCoord) 
+        .attr("width", photoDiameter) 
+        .attr("height", photoDiameter)
+        .attr("opacity", dimmedOpacity)
         .attr("href", (d) =>  `./src/res/recommenders/profile_pictures/recommender_${d.id}.png`)
         .style("clip-path", "circle(50%)")
+        .attr("preserveAspectRatio", "xMidYMid slice")
         .each(function (d) {
             let currentX = d.initialX; 
             for (let i = 1; i <= 10; i++) {
@@ -93,13 +112,14 @@ export function factCard2(containerSelector) {
                     .transition()
                     .delay(i * 2500) 
                     .duration(2500) 
-                    .attr("width", Math.abs(currentX + i * 7.5 - 50) < 1 ? 120 : 100)
-                    .attr("height", Math.abs(currentX + i * 7.5 - 50) < 1 ? 120 : 100)
-                    .attr("y",  Math.abs(currentX + i * 7.5 - 50) < 1 ? "calc(50% - 60px)" : "calc(50% - 50px)")
-                    .attr("x", (d) => `${currentX + i * 7.5}%`)
+                    //.attr("width", Math.abs(currentX - xCoordCenter + xSpacing) < 1 ? photoDiameterHighlight : photoDiameter)
+                    //.attr("height", Math.abs(currentX - xCoordCenter + xSpacing) < 1 ? photoDiameterHighlight : photoDiameter)
+                    .attr("opacity", Math.abs(currentX + i * xSpacing - xCoordCenter) < 1 ? 1 :dimmedOpacity)
+                    //.attr("y",  Math.abs(currentX - xCoordCenter + xSpacing) < 1 ? yCoord : yCoord)
+                    .attr("x",  (d) =>  d.initialX + xSpacing * i)
                     .on("end", function () {
                         // After each transition, update the current X position and radius
-                        currentX += 7.5;
+                        currentX += xSpacing 
                     });
             }
         });
