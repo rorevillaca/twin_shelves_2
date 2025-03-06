@@ -67,3 +67,7 @@ export function typeText(container, text, waitFor, delay = 150) {
     }, waitFor + index * delay);
   });
 };
+
+export function generateSequence(length, start, gap) {
+  return Array.from({ length }, (_, i) => start + i * gap);
+}

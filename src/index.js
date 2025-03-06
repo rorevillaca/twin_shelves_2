@@ -9,7 +9,7 @@ import { initStudentWork } from "./screens/studentWorkScreen.js"
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
 import { initSearchScreen, enableSearch, disableSearch } from "./screens/searchScreen.js"
 import { closeAllSecondaryScreens } from './components/backButton.js'
-import { factCard } from './components/factCard.js'
+import { factCard, factCard2 } from './components/factCard.js'
 
 
 let currentlySelectedSection = ""
@@ -517,7 +517,7 @@ function enterIdleState() {
   parentContainer
     .append("div")
     .attr("class", "facts_container")
-  factCard(".facts_container")
+  factCard2(".facts_container")
 
   setTimeout(() => {
     isIdle ? exitIdleState() : null
