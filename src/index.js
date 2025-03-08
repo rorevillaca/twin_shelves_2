@@ -14,7 +14,7 @@ import { factCard, factCard2 } from './components/factCard.js'
 
 let currentlySelectedSection = ""
 let animationRunning = false;
-let isIdle = false
+export let isIdle = false
 
 export const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 export const wallWidth = wallContainerAttrs.width * 0.95
@@ -517,7 +517,7 @@ function enterIdleState() {
   parentContainer
     .append("div")
     .attr("class", "facts_container")
-  factCard2(".facts_container")
+  factCard(".facts_container")
 
   setTimeout(() => {
     isIdle ? exitIdleState() : null

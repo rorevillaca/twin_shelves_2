@@ -1,6 +1,6 @@
 import { typeText, shuffle, colorsArray, generateSequence } from "../utils/helpers.js"
 import { wallContainer } from "../screens/mainScreen.js"
-import { wallHeight, wallWidth, wallContainerAttrs } from "../index.js"
+import { wallHeight, wallWidth, wallContainerAttrs, isIdle } from "../index.js"
 
 export function factCard(containerSelector) {
     const container = d3.select(containerSelector)
@@ -60,9 +60,6 @@ function addRandomBooks() {
 
 export function factCard2(containerSelector) {
     const container = d3.select(containerSelector)
-    const photoContainer = container
-        .append("div")
-        .attr("class", "fact-profile-pics-container")
 
     const introText = "Looking for your next read?"
 
@@ -78,6 +75,10 @@ export function factCard2(containerSelector) {
             append("div").
             attr("class", "fact")
             .text(".")
+
+        const photoContainer = container
+            .append("div")
+            .attr("class", "fact-profile-pics-container")
 
         const factText1 = "The AI Librarian features a collection of must-reads, handpicked by TU Delft's domain experts"
         const delay = 100
@@ -150,12 +151,14 @@ function animateConveyor(photoContainer) {
                     .on("end", function () {
                         // After each transition, update the current X position and radius
                         currentX += 1
-                        setTimeout(() => {
-                            wallContainer.selectAll(".book").remove()
+                        if (isIdle) {
                             setTimeout(() => {
-                                animateBooks()
-                            }, 1500)
-                        }, 1000)
+                                wallContainer.selectAll(".book").remove()
+                                setTimeout(() => {
+                                    animateBooks()
+                                }, 1500)
+                            }, 1000)
+                        }
                     });
             }
         });
