@@ -517,7 +517,7 @@ function enterIdleState() {
   parentContainer
     .append("div")
     .attr("class", "facts_container")
-  factCard(".facts_container")
+  factCard2(".facts_container")
 
   setTimeout(() => {
     isIdle ? exitIdleState() : null

@@ -220,7 +220,7 @@ html, body{
     flex-direction: column; /* Stack child divs vertically */
     justify-content: space-between; /* Distribute space evenly between children */
     row-gap: 10px;
-    padding: 15px;
+    padding: 15px 15px 15px 45px;
     background-color: rgba(30, 28, 39, 0.6);
     font-size: small;
     letter-spacing: .05rem;
@@ -238,10 +238,9 @@ html, body{
 }
 
 .info_card--details{
-  flex: 4;
+  flex: 6;
   overflow-y: auto;
   padding-right: 40px;
-  padding-left: 20px;
   font-size: smaller;
 }
 

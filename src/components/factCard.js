@@ -84,11 +84,8 @@ export function factCard2(containerSelector) {
         const delay = 100
         typeText(fact1, factText1, 2500, delay)
 
+        animateConveyor(photoContainer)
 
-
-        setTimeout(() => {
-            animateConveyor(photoContainer)
-        }, 7000)
     }, 500)
 
 }
@@ -122,76 +119,58 @@ function animateConveyor(photoContainer) {
         .attr("width", "100%")
         .append("g")
 
-    photoCanvas
-        .selectAll("image")
-        .data(shuffledRecommenders)
-        .enter()
-        .append("image")
-        .attr("x", (d) => d.initialX)
-        .attr("y", yCoord)
-        .attr("width", photoDiameter)
-        .attr("height", photoDiameter)
-        .attr("opacity", 0)
-        .attr("href", (d) => `./src/res/recommenders/profile_pictures/recommender_${d.id}.png`)
-        .style("clip-path", "circle(50%)")
-        .attr("preserveAspectRatio", "xMidYMid slice")
-        .each(function (d) {
-            let currentX = d.conveyorID;
-            for (let i = 1; i <= 15; i++) {
-                animateBooks()
-                d3.select(this)
-                    .transition()
-                    .delay(i * 4000)
-                    .duration(4000)
-                    .attr("width", (currentX + i - 19) == 0 ? photoDiameterHighlight : photoDiameter)
-                    .attr("height", (currentX + i - 19) == 0 ? photoDiameterHighlight : photoDiameter)
-                    .attr("opacity", (currentX + i - 19) == 0 ? 1 : dimmedOpacity)
-                    .attr("y", (currentX + i - 19) == 0 ? yCoordHighlight : yCoord)
-                    .attr("x", (currentX + i - 19) == 0 ? (d) => xCoordHighlight : (d) => d.initialX + xSpacing * i)
-                    .on("end", function () {
-                        // After each transition, update the current X position and radius
-                        currentX += 1
-                        if (isIdle) {
-                            setTimeout(() => {
-                                wallContainer.selectAll(".book").remove()
-                                setTimeout(() => {
-                                    animateBooks()
-                                }, 1500)
-                            }, 1000)
-                        }
-                    });
-            }
-        });
+
+    shuffledRecommenders.forEach((d) => {
+        let centralID = 19
+        const imageElement = photoCanvas
+            .append("image")
+            .attr("x", d.initialX)
+            .attr("y", yCoord)
+            .attr("width", photoDiameter)
+            .attr("height", photoDiameter)
+            .attr("opacity", 0)
+            .attr("href", `./src/res/recommenders/profile_pictures/recommender_${d.id}.png`)
+            .style("clip-path", "circle(50%)")
+            .attr("preserveAspectRatio", "xMidYMid slice")
+            .transition()
+            .duration(13000)
+            .attr("opacity", calculateOpacity(d.conveyorID, centralID))
+
+        let iteration = 0
+        while (iteration < 10) {
+            imageElement
+                .transition()
+                .ease(d3.easeCubicInOut)
+                .delay(6000 * iteration)
+                .duration(4000)
+                .attr("x", d.conveyorID === centralID ? xCoordHighlight : d.initialX + xSpacing * iteration)
+                .attr("y", d.conveyorID === centralID ? yCoordHighlight : yCoord)
+                .attr("width", d.conveyorID === centralID ? photoDiameterHighlight : photoDiameter)
+                .attr("height", d.conveyorID === centralID ? photoDiameterHighlight : photoDiameter)
+                .attr("opacity", calculateOpacity(d.conveyorID, centralID))
+            
+            if (!isIdle) break;
+            iteration += 1
+            centralID -= 1
+        }
+    });
+
 
 }
 
+function calculateOpacity(conveyorID, targetNumber) {
+    const absDistance = Math.abs(conveyorID - targetNumber);
+    if (absDistance >= 7) {
+        return 0;
+    }
+    // Linearly map the distance to opacity
+    const opacity = 1 - (absDistance / 7);
+    return opacity;
+}
+
 function animateBooks() {
-    // const enlargeFactor = 12
-    // const bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === "recommended_books");
-    // const randomRecommender = bookCaseCurrentTopic[Math.floor(Math.random() * bookCaseCurrentTopic.length)];
-    // const bookcase = randomRecommender.books.slice(0, 15)
     const booksArray = shuffle(background_books).filter(book => book.topic === "recommended_books").slice(0, 15);
-    // booksArray.forEach((item, index) => {
-    //     item.cover_file = bookcase[index].cover_file
-    // })
-
-    // console.log(booksArray)
-
-    // const defs = wallContainer.append("defs");
-
-    // booksArray.forEach((d, i) => {
-    //     defs.append("pattern")
-    //         .attr("id", `pattern-${i}`)
-    //         .attr("width", 1)
-    //         .attr("height", 1)
-    //         .attr("patternUnits", "objectBoundingBox")
-    //         .append("image")
-    //         .attr("xlink:href", d.cover_file == "NA" ? "src/res/resized_covers_struct/_recommended_books/cover_f-FdDwAAQBAJ.webp" : `src/res/resized_covers_struct/${d.cover_file}`)
-    //         .attr("width", d.book_width * wallWidth * enlargeFactor)
-    //         .attr("height", d.book_height * wallHeight * enlargeFactor * 0.6)
-    //         .attr("preserveAspectRatio", "xMidYMid slice");
-    // });
-
+    wallContainer.selectAll(".book").remove()
 
     // Enter selection: Add new elements
     const booksEnter = wallContainer.selectAll(".book")
@@ -206,30 +185,4 @@ function animateBooks() {
         //.attr("fill", (d, i) => `url(#pattern-${i})`)
         .attr("fill", () => colorsArray[Math.floor(Math.random() * colorsArray.length)])
         .style("opacity", 1);
-
-    // booksEnter
-    //     .transition()
-    //     .delay(2000)  // Delay before the transition starts
-    //     .duration(2000)  // Duration of the transition
-    //     .attr("y", () => Math.floor(Math.random() * (70 - 10 + 1)) + 10 * wallHeight / 100)  // Random y position in pixel
-    //     .attr("x", () => Math.floor(Math.random() * (40 - 15 + 1)) + 15 * wallWidth / 100)  // Random x position in pixel
-    //     .attr("width", d => d.book_width * wallWidth * enlargeFactor)
-    //     .attr("height", d => d.book_height * wallHeight * enlargeFactor)
-    //     .on("end", function () {
-    //         // After the first transition ends, start the second transition to return to original positions
-    //         d3.select(this)
-    //             .transition()
-    //             .delay(2000)  // Delay before the transition starts
-    //             .duration(1000)  // Duration of the transition
-    //             .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
-    //             .attr("width", d => d.book_width * wallWidth)
-    //             .attr("height", d => d.book_height * wallHeight)
-    //             .attr("x", d => d.x_start * wallWidth)
-    //             .on("end", function () {
-    //                 setTimeout(() => {
-    //                     d3.select(this).remove();
-    //                 }, 1000);
-    //             })
-    //     });
-
 }
