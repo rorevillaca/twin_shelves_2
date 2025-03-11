@@ -17,12 +17,12 @@
     display: flex;
     overflow-x: auto;
     padding-bottom: 10px;
-    column-gap: 5%;
+    column-gap: 3%;
     justify-content: center;
   }
 
   .heritageInfoCard{
-    min-width: 65%;
+    min-width: 67%;
     height: 100%;
     display: none;
     flex-direction: column;
@@ -86,7 +86,7 @@
   }
 
   .heritageObjectShelf{
-    min-width: 25%;
+    min-width: 27%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
   }
 
   .heritageImage{
-    width: 85%;
+    width: 95%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
