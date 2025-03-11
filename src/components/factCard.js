@@ -80,7 +80,7 @@ export function factCard2(containerSelector) {
             .append("div")
             .attr("class", "fact-profile-pics-container")
 
-        const factText1 = "The AI Librarian features a collection of must-reads, handpicked by TU Delft's domain experts"
+        const factText1 = "The AI Librarian features a collection of must-reads, handpicked by TU Delft's experts"
         const delay = 100
         typeText(fact1, factText1, 2500, delay)
 
@@ -136,8 +136,7 @@ function animateConveyor(photoContainer) {
             .duration(13000)
             .attr("opacity", calculateOpacity(d.conveyorID, centralID))
 
-        let iteration = 0
-        while (iteration < 10) {
+        for (let iteration = 0; iteration < 10; iteration++) {
             imageElement
                 .transition()
                 .ease(d3.easeCubicInOut)
@@ -148,11 +147,13 @@ function animateConveyor(photoContainer) {
                 .attr("width", d.conveyorID === centralID ? photoDiameterHighlight : photoDiameter)
                 .attr("height", d.conveyorID === centralID ? photoDiameterHighlight : photoDiameter)
                 .attr("opacity", calculateOpacity(d.conveyorID, centralID))
-            
+
             if (!isIdle) break;
-            iteration += 1
             centralID -= 1
+
         }
+
+        animateBooks()
     });
 
 
@@ -169,7 +170,15 @@ function calculateOpacity(conveyorID, targetNumber) {
 }
 
 function animateBooks() {
-    const booksArray = shuffle(background_books).filter(book => book.topic === "recommended_books").slice(0, 15);
+    const enlargeFactor = 12
+    const bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === "recommended_books");
+    const randomRecommender = bookCaseCurrentTopic[Math.floor(Math.random() * bookCaseCurrentTopic.length)];
+    const bookcase = randomRecommender.books.slice(0, 5)
+    console.log(bookcase)
+    const booksArray = shuffle(background_books).filter(book => book.topic === "recommended_books").slice(0, 5);
+    booksArray.forEach((item, index) => {
+        item.cover_file = bookcase[index].cover_file
+    })
     wallContainer.selectAll(".book").remove()
 
     // Enter selection: Add new elements
@@ -182,7 +191,40 @@ function animateBooks() {
         .attr("width", d => d.book_width * wallWidth)
         .attr("height", d => d.book_height * wallHeight)
         .attr("x", d => d.x_start * wallWidth)
-        //.attr("fill", (d, i) => `url(#pattern-${i})`)
         .attr("fill", () => colorsArray[Math.floor(Math.random() * colorsArray.length)])
-        .style("opacity", 1);
+        .style("opacity", 0)
+        .transition()
+        .delay(13000)
+        .style("opacity", 1)
+
+    for (let iteration = 0; iteration < 10; iteration++) {
+        wallContainer.selectAll("defs").remove()
+        const defs = wallContainer.append("defs");
+
+        console.log(booksArray)
+
+        booksArray.forEach((d, i) => {
+            defs.append("pattern")
+                .attr("id", `pattern-${i}`)
+                .attr("width", 1)
+                .attr("height", 1)
+                .attr("patternUnits", "objectBoundingBox")
+                .append("image")
+                .attr("xlink:href", d.cover_file == "NA" ? "src/res/resized_covers_struct/_recommended_books/cover_f-FdDwAAQBAJ.webp" : `src/res/resized_covers_struct/${d.cover_file}`)
+                .attr("width", d.book_width * wallWidth * enlargeFactor)
+                .attr("height", d.book_height * wallHeight * enlargeFactor * 0.6)
+                .attr("preserveAspectRatio", "xMidYMid slice");
+
+            booksEnter
+                .transition()
+                .delay(iteration * 6000)
+                .duration(4000)
+                .attr("fill", (d, i) => `url(#pattern-${i})`)
+                .attr("y", () => (Math.floor(Math.random() * (65 - 30)) + 30)/100 * wallHeight)
+                .attr("x", () => (Math.floor(Math.random() * (30 - 20)) + 20)/100 * wallWidth)
+                .attr("width", d => d.book_width * wallWidth * enlargeFactor)
+                .attr("height", d => d.book_height * wallHeight * enlargeFactor)
+
+        });
+    }
 }
