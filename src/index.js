@@ -538,7 +538,6 @@ function enterIdleState() {
   removePolygons()
   disableSearch()
   currFact = runFacts(currFact)
-
   setTimeout(() => {
     isIdle ? exitIdleState() : null
   }, 45000) // Time in idle state
@@ -560,6 +559,7 @@ function exitIdleState() {
   makeButtonsVisible()
   d3.select(".facts_container").remove()
   removeBooks()
+  clearTimeout(factCardTimer)
 }
 
 // Add event listener to the document to detect any click
