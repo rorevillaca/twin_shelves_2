@@ -9,12 +9,12 @@ import { initStudentWork } from "./screens/studentWorkScreen.js"
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
 import { initSearchScreen, enableSearch, disableSearch } from "./screens/searchScreen.js"
 import { closeAllSecondaryScreens } from './components/backButton.js'
-import { factCard, factCard2, factCardTimer } from './components/factCard.js'
-
+import { runFacts, factCardTimer } from './components/factCard.js'
 
 let currentlySelectedSection = ""
 let animationRunning = false;
 export let isIdle = false
+let currFact = 1
 
 export const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 export const wallWidth = wallContainerAttrs.width * 0.95
@@ -513,15 +513,11 @@ function enterIdleState() {
   removeBooks()
   removePolygons()
   disableSearch()
-  const parentContainer = d3.select(".parent_container")
-  parentContainer
-    .append("div")
-    .attr("class", "facts_container")
-  factCard2(".facts_container")
+  currFact = runFacts(currFact)
 
   setTimeout(() => {
     isIdle ? exitIdleState() : null
-  }, 60000) // Time in idle state
+  }, 45000) // Time in idle state
 }
 
 function exitIdleState() {

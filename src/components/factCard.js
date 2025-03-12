@@ -4,7 +4,22 @@ import { wallHeight, wallWidth, wallContainerAttrs, isIdle } from "../index.js"
 
 export let factCardTimer;
 
-export function factCard(containerSelector) {
+export function runFacts(factNo) {
+    const parentContainer = d3.select(".parent_container")
+    parentContainer
+        .append("div")
+        .attr("class", "facts_container")
+
+    if (factNo == 1) {
+        factCard(".facts_container")
+        return 2
+    } else {
+        factCard2(".facts_container")
+        return 1
+    }
+}
+
+function factCard(containerSelector) {
     const container = d3.select(containerSelector)
     const introText = "Did you know?"
 
@@ -60,7 +75,7 @@ function addRandomBooks() {
 }
 
 
-export function factCard2(containerSelector) {
+function factCard2(containerSelector) {
     const container = d3.select(containerSelector)
 
     const introText = "Looking for your next read?"
