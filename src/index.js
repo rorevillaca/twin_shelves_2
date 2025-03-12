@@ -9,7 +9,7 @@ import { initStudentWork } from "./screens/studentWorkScreen.js"
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
 import { initSearchScreen, enableSearch, disableSearch } from "./screens/searchScreen.js"
 import { closeAllSecondaryScreens } from './components/backButton.js'
-import { factCard, factCard2 } from './components/factCard.js'
+import { factCard, factCard2, factCardTimer } from './components/factCard.js'
 
 
 let currentlySelectedSection = ""
@@ -529,6 +529,8 @@ function exitIdleState() {
   console.log("exit idle state")
   document.removeEventListener('click', exitIdleState)
   document.addEventListener('click', resetIdleTimer);
+  clearTimeout(factCardTimer)//Prevents animations from running outside of idle state
+  wallContainer.selectAll(".book").interrupt()
   addBooks()
   addPolygons()
   enableSearch()
