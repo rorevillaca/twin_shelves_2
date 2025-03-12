@@ -49,10 +49,37 @@ function startPulsing() {
 
 
 function scrambleObjects(topic) {
-  var objectsCurrentPrototype = background_objects.filter(object => object.prototype === topic);
+  let objectsCurrentPrototype = background_objects.filter(object => object.prototype === topic);
+  let objectHeight = 10
+  let objectWidth = objectHeight * 1.2
+  let objectHeightExpanded = objectHeight * 2.5
+  let objectWidthExpanded = objectWidth * 2.5
+
+  if (topic == "heritage_objects") {
+    objectsCurrentPrototype.forEach((item, index) => {
+      item.photo = heritage_data[index].photo
+    })
+
+    wallContainer.selectAll("defs").remove()
+    const defs = wallContainer.append("defs");
+
+    objectsCurrentPrototype.forEach((d, i) => {
+        defs.append("pattern")
+            .attr("id", `pattern-${i}`)
+            .attr("width", 1)
+            .attr("height", 1)
+            .attr("patternUnits", "objectBoundingBox")
+            .append("image")
+            .attr("xlink:href", `src/res/photos/heritage_objects/${d.photo}`)
+            .attr("height", objectHeightExpanded)
+            .attr("width", objectWidthExpanded)
+            .attr("preserveAspectRatio", "xMidYMid slice");
+
+    })
+  }
+
+
   console.log(console.log(JSON.stringify(objectsCurrentPrototype)))
-  var objectHeight = 10
-  var objectWidth = objectHeight * 1.2
 
   const objectsEnter = wallContainer
     .selectAll(".book")
@@ -61,38 +88,35 @@ function scrambleObjects(topic) {
     .append("rect")
     .attr("class", "book")
     .attr("fill", d => d.fill ? d.fill : "white")
+    .attr("fill", (d,i) => d.photo ? `url(#pattern-${i})` : "white")
     .attr("x", d => d.x_perc * wallWidth - objectWidth / 2)
     .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2)
     .attr("height", objectHeight)
     .attr("width", objectWidth)
+    .transition()
 
   objectsCurrentPrototype = shuffle(objectsCurrentPrototype)
 
-  objectHeight = objectHeight * 3
-  objectWidth = objectWidth * 3
-
   wallContainer
     .selectAll(".book")
     .data(objectsCurrentPrototype, d => d.id)
     .transition()
-    .delay((d, i) =>  i * 100) 
+    .delay((d, i) => i * 100)
     .duration(700)
     .attr("x", d => d.x_end_perc ? d.x_end_perc * wallWidth - objectWidth / 2 : d.x_perc * wallWidth - objectWidth / 2)
     .attr("y", d => d.y_end_perc ? d.y_end_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2 : d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2)
-    .attr("height", objectHeight)
-    .attr("width", objectWidth)
-
-  objectHeight = objectHeight / 3
-  objectWidth = objectWidth / 3
+    .attr("height", objectHeightExpanded)
+    .attr("width", objectWidthExpanded)
 
   wallContainer
     .selectAll(".book")
     .data(objectsCurrentPrototype, d => d.id)
     .transition()
-    .delay((d, i) =>  1500 + i * 100)
+    .delay((d, i) => 2000 + i * 100)
     .duration(700)
     .attr("x", d => d.x_perc * wallWidth - objectWidth / 2)
     .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2)
+    // .attr("fill", d => d.fill ? d.fill : "white")
     .attr("height", objectHeight)
     .attr("width", objectWidth)
 }

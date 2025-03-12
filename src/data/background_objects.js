@@ -5,8 +5,8 @@ const background_objects =
             "id": 1,
             "x_perc": 0.732,
             "y_perc": 0.829,
-            "y_end_perc": 0.769,
-            "x_end_perc": 0.712,
+            "y_end_perc": 0.789,
+            "x_end_perc": 0.722,
             "fill": "#a065aa"
         },
         {
@@ -14,7 +14,7 @@ const background_objects =
             "id": 2,
             "x_perc": 0.745,
             "y_perc": 0.829,
-            "y_end_perc": 0.769,
+            "y_end_perc": 0.789,
             "fill": "#3d6cb5"
         },
         {
@@ -22,8 +22,8 @@ const background_objects =
             "id": 3,
             "x_perc": 0.758,
             "y_perc": 0.829,
-            "y_end_perc": 0.769,
-            "x_end_perc": 0.778,
+            "y_end_perc": 0.789,
+            "x_end_perc": 0.768,
             "fill": "#28b8c5"
         },
         {
@@ -31,7 +31,7 @@ const background_objects =
             "id": 4,
             "x_perc": 0.732,
             "y_perc": 0.872,
-            "x_end_perc": 0.712,
+            "x_end_perc": 0.722,
             "fill": "#da2d4f"
         },
         {
@@ -46,7 +46,7 @@ const background_objects =
             "id": 6,
             "x_perc": 0.758,
             "y_perc": 0.872,
-            "x_end_perc": 0.778,
+            "x_end_perc": 0.768,
             "fill": "#fcb545"
         },
         {
@@ -54,8 +54,8 @@ const background_objects =
             "id": 7,
             "x_perc": 0.732,
             "y_perc": 0.914,
-            "y_end_perc": 0.974,
-            "x_end_perc": 0.712,
+            "y_end_perc": 0.954,
+            "x_end_perc": 0.722,
             "fill": "#f17795"
         },
         {
@@ -63,7 +63,7 @@ const background_objects =
             "id": 8,
             "x_perc": 0.745,
             "y_perc": 0.914,
-            "y_end_perc": 0.974,
+            "y_end_perc": 0.954,
             "fill": "#30b56b"
         },
         {
@@ -71,8 +71,8 @@ const background_objects =
             "id": 9,
             "x_perc": 0.758,
             "y_perc": 0.914,
-            "y_end_perc": 0.974,
-            "x_end_perc": 0.778,
+            "y_end_perc": 0.954,
+            "x_end_perc": 0.768,
             "fill": "#f6905c"
         },
         {
