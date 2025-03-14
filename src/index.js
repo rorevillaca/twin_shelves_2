@@ -14,7 +14,7 @@ import { runFacts, factCardTimer } from './components/factCard.js'
 let currentlySelectedSection = ""
 let animationRunning = false;
 export let isIdle = false
-let currFact = 1
+let currFact = 2
 
 export const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 export const wallWidth = wallContainerAttrs.width * 0.95
@@ -52,32 +52,19 @@ function scrambleObjects(topic) {
   let objectsCurrentPrototype = background_objects.filter(object => object.prototype === topic);
   let objectHeight = 10
   let objectWidth = objectHeight * 1.2
-  let objectHeightExpanded = objectHeight * 2.5
-  let objectWidthExpanded = objectWidth * 2.5
+  let expansionFactor = 4.5
+  let locationPrefix = "./src/res/team-logos/"
 
   if (topic == "heritage_objects") {
     objectsCurrentPrototype.forEach((item, index) => {
       item.photo = heritage_data[index].photo
     })
-
-    wallContainer.selectAll("defs").remove()
-    const defs = wallContainer.append("defs");
-
-    objectsCurrentPrototype.forEach((d, i) => {
-        defs.append("pattern")
-            .attr("id", `pattern-${i}`)
-            .attr("width", 1)
-            .attr("height", 1)
-            .attr("patternUnits", "objectBoundingBox")
-            .append("image")
-            .attr("xlink:href", `src/res/photos/heritage_objects/${d.photo}`)
-            .attr("height", objectHeightExpanded)
-            .attr("width", objectWidthExpanded)
-            .attr("preserveAspectRatio", "xMidYMid slice");
-
-    })
+    locationPrefix = "./src/res/photos/heritage_objects/"
+    expansionFactor = 3
   }
 
+  let objectHeightExpanded = objectHeight * expansionFactor
+  let objectWidthExpanded = objectWidth * expansionFactor
 
   console.log(console.log(JSON.stringify(objectsCurrentPrototype)))
 
@@ -85,15 +72,14 @@ function scrambleObjects(topic) {
     .selectAll(".book")
     .data(objectsCurrentPrototype, d => d.id)
     .enter()
-    .append("rect")
+    .append("image")
     .attr("class", "book")
-    .attr("fill", d => d.fill ? d.fill : "white")
-    .attr("fill", (d,i) => d.photo ? `url(#pattern-${i})` : "white")
     .attr("x", d => d.x_perc * wallWidth - objectWidth / 2)
     .attr("y", d => d.y_perc * wallHeight + (wallContainerAttrs.height - wallHeight) / 2 - objectHeight / 2)
     .attr("height", objectHeight)
     .attr("width", objectWidth)
-    .transition()
+    .attr("href", d => `${locationPrefix}${d.photo}`)
+
 
   objectsCurrentPrototype = shuffle(objectsCurrentPrototype)
 

@@ -81,14 +81,16 @@ const background_objects =
             "x_perc": 0.122,
             "y_perc": 0.666,
             "x_end_perc": 0.102,
-            "y_end_perc": 0.606
+            "y_end_perc": 0.586,
+            "photo" : "eco-runner.svg"
         },
         {
             "prototype": "student_work",
             "id": 2,
             "x_perc": 0.122,
             "x_end_perc": 0.102,
-            "y_perc": 0.708
+            "y_perc": 0.708,
+            "photo" : "epoch.svg"
         },
         {
             "prototype": "student_work",
@@ -96,49 +98,31 @@ const background_objects =
             "x_perc": 0.122,
             "y_perc": 0.751,
             "x_end_perc": 0.102,
-            "y_end_perc": 0.811
-        },
-        {
-            "prototype": "student_work",
-            "id": 4,
-            "x_perc": 0.135,
-            "y_perc": 0.666,
-            "y_end_perc": 0.606
+            "y_end_perc": 0.831,
+            "photo" : "space-oasis.svg"
         },
         {
             "prototype": "student_work",
             "id": 5,
             "x_perc": 0.135,
-            "y_perc": 0.708
-        },
-        {
-            "prototype": "student_work",
-            "id": 6,
-            "x_perc": 0.135,
-            "y_perc": 0.751,
-            "y_end_perc": 0.811
-        },
-        {
-            "prototype": "student_work",
-            "id": 7,
-            "x_perc": 0.148,
-            "y_perc": 0.666,
-            "x_end_perc": 0.168,
-            "y_end_perc": 0.606
+            "y_perc": 0.708,
+            "photo" : "emergence.svg"
         },
         {
             "prototype": "student_work",
             "id": 8,
             "x_perc": 0.148,
             "x_end_perc": 0.168,
-            "y_perc": 0.708
+            "y_perc": 0.687,
+            "photo" : "project-march.svg"
         },
         {
             "prototype": "student_work",
             "id": 9,
             "x_perc": 0.148,
-            "y_perc": 0.751,
+            "y_perc": 0.729,
             "x_end_perc": 0.168,
-            "y_end_perc": 0.811
+            "y_end_perc": 0.811,
+            "photo" : "hydro-motion.svg"
         }
     ]
