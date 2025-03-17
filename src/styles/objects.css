@@ -31,12 +31,12 @@
     display: flex;
     margin-left: 15px;
     flex-direction: column;
-    justify-content: space-between;
   }
 
   .studentWorkTitle{
     font-weight: 900;
     font-size: xx-large;
+    margin-bottom: 1rem;
   }
 
   .studentWorkDescription{
@@ -44,8 +44,11 @@
   }
 
   .studentWorkExtraDetails{
+    min-width: 100%;
+    align-self: flex-end;
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
   }
 
   .studentWorkQR{

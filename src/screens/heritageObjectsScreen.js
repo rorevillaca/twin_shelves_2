@@ -88,7 +88,7 @@ function infoCard(container, index) {
         .on('click', () => {
             const info = {
                 title: "Heritage Objects",
-                cover_file: "../photos/student_work.png",
+                cover_file: "../photos/heritage.png",
                 floor: 1,
                 shelf: [1050, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1051, 1052, 1053, 1054, 1055, 1056]
             }

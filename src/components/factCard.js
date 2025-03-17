@@ -203,7 +203,7 @@ function animateBooks(iteration = 1) {
 
     const enlargeFactor = 17
 
-    let booksArray = getRandomBooks(5)
+    let booksArray = getRandomBooks(10)
     wallContainer.selectAll(".book").remove()
     wallContainer.selectAll("pattern").remove()
 

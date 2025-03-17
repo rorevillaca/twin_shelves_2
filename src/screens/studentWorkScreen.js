@@ -21,7 +21,7 @@ export function initStudentWork() {
     const title  = details
         .append("div")
         .attr("class","studentWorkTitle")
-        .text("Student Work")
+        .text("Dream Hall")
 
     const description  = details
         .append("div")
@@ -58,7 +58,7 @@ export function initStudentWork() {
         .html('<b>See location</b>&emsp;<img src="src/res/Font-Awesome/arrow-circle-right.svg" class="inline-icon">')
         .on('click', () => {
             const info = {
-                title: "Student Work",
+                title: "Dream Hall",
                 cover_file: "../photos/student_work.png",
                 floor: 2,
                 shelf: [498, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 499, 500, 501, 502, 503, 504]

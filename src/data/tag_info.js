@@ -150,7 +150,7 @@ const tag_info =  [
     "number_of_bars": 3
   },
   {
-    "name": "Student Work",
+    "name": "Dream Hall",
     "topic": "student_work",
     "tag_type": "exhibition"
   },
@@ -160,7 +160,7 @@ const tag_info =  [
     "tag_type": "exhibition"
   },
   {
-    "name": "Study Books",
+    "name": "Dream Hall",
     "topic": "study_books",
     "tag_type": "exhibition"
   },

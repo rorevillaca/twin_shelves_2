@@ -950,9 +950,9 @@ const virtual_bookshelves = [
         "OCLC": "1082176473",
         "cover_file": "_recommended_books/cover_1082176473.webp"
       },
-      {
-        "cover_file": "NA"
-      },
+      // {
+      //   "cover_file": "NA"
+      // },
       {
         "OCLC": "1327959423",
         "cover_file": "_recommended_books/cover_1327959423.webp"
