@@ -66,7 +66,7 @@ function moverRandomBook(booksEnter){
         d3.select(randomBook)
           .transition()
           .duration(2500)
-          .delay(10000)
+          .delay(9000)
           .ease(d3.easeCubic)
           .attr("y", d => (d.y_start+randomDestinationY)/2 * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
           .attr("x", d => (d.x_start+randomDestinationX)/2 * wallWidth)
@@ -117,7 +117,7 @@ function addRandomBooks() {
 
         intervalId = setInterval(function() {
             moverRandomBook(booksEnter);
-        }, 6000);
+        }, 5000);
 
 }
 
