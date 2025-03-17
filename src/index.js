@@ -14,7 +14,7 @@ import { runFacts, factCardTimer } from './components/factCard.js'
 let currentlySelectedSection = ""
 let animationRunning = false;
 export let isIdle = false
-let currFact = 2
+let currFact = Math.floor(Math.random() * 2) + 1
 
 export const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 export const wallWidth = wallContainerAttrs.width * 0.95
@@ -481,7 +481,8 @@ let idleTimeoutId
 
 
 function resetIdleTimer() {
-  console.log("Idle timer reset")
+  console.log("Idle timer reset @" + new Date().toLocaleTimeString())
+  clearTimeout(factCardTimer)
   clearTimeout(idleTimeoutId)
   idleTimeoutId = setTimeout(() => {
     enterIdleState()
@@ -515,7 +516,7 @@ export function clearSelectedSection() {
 
 function enterIdleState() {
   isIdle = true
-  console.log("enter idle state")
+  console.log("enter idle state @" + new Date().toLocaleTimeString())
   document.removeEventListener('click', resetIdleTimer)
   document.addEventListener('click', exitIdleState)
   clearButtonsSection()
@@ -530,28 +531,13 @@ function enterIdleState() {
 }
 
 function exitIdleState() {
-  isIdle = false
-  console.log("exit idle state")
-  document.removeEventListener('click', exitIdleState)
-  document.addEventListener('click', resetIdleTimer);
-  clearTimeout(factCardTimer)//Prevents animations from running outside of idle state
-  wallContainer.selectAll(".book").interrupt()
-  addBooks()
-  addPolygons()
-  enableSearch()
-  resetIdleTimer();
-  clearButtonsSection()
-  addTopicButtons()
-  makeButtonsVisible()
-  d3.select(".facts_container").remove()
-  removeBooks()
-  clearTimeout(factCardTimer)
+  location.reload()
 }
 
 // Add event listener to the document to detect any click
 document.addEventListener('click', resetIdleTimer);
 
-// Set the initial 10-second timer when the script loads
+// Set the initial 10-second timer when the script loadsz
 resetIdleTimer();
 
 
