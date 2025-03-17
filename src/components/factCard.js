@@ -3,6 +3,7 @@ import { wallContainer } from "../screens/mainScreen.js"
 import { wallHeight, wallWidth, wallContainerAttrs, isIdle } from "../index.js"
 
 export let factCardTimer;
+let intervalId;
 
 export function runFacts(factNo) {
     const parentContainer = d3.select(".parent_container")
@@ -50,21 +51,62 @@ function factCard(containerSelector) {
 
 }
 
-function addRandomBooks() {
+function moverRandomBook(booksEnter){
+        // Select a random book element
+        const randomIndex = Math.floor(Math.random() *  booksEnter.size());
+        const randomBook = booksEnter.nodes()[randomIndex]; // Select a random book element
+        const randomDestination = shuffle(background_books)[0];
 
-    var booksArray = shuffle(background_books).slice(0, 1000);
+        const randomDestinationX = randomDestination.x_start
+        const randomDestinationY = randomDestination.y_start
+      
+        d3.select(randomBook).raise();
+      
+        // Use D3 transition to animate the move
+        d3.select(randomBook)
+          .transition()
+          .duration(2500)
+          .delay(10000)
+          .ease(d3.easeCubic)
+          .attr("y", d => (d.y_start+randomDestinationY)/2 * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+          .attr("x", d => (d.x_start+randomDestinationX)/2 * wallWidth)
+          .attr("width", 70)
+          .attr("height", 70 * 1.3)
+          .transition()
+          .duration(2500)
+          .ease(d3.easeCubic)
+          .attr("y", randomDestinationY * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
+          .attr("x", randomDestinationX * wallWidth)
+          .attr("width",  d => d.book_width * wallWidth)
+          .attr("height",  d => d.book_height * wallHeight)
+}
+
+function addRandomBooks() {
+    const n = 800
+
+    var booksArray = shuffle(background_books).slice(0, n);
+    let coverFiles = virtual_bookshelves.filter(book => book.topic_id !== "dissertations").flatMap(shelf => shelf.books.map(book => book.cover_file))
+    coverFiles = coverFiles.filter(file => file !== "NA").slice(0, n)
+
+
+    booksArray.forEach((item, index) => {
+        item.cover_file = coverFiles[index]
+    })
 
     const booksEnter = wallContainer.selectAll(".book")
         .data(booksArray)
         .enter()
-        .append("rect")
+        .append("image")
         .attr("class", "book")
         .attr("y", d => d.y_start * wallHeight + (wallContainerAttrs.height - wallHeight) / 2)
         .attr("width", d => d.book_width * wallWidth)
         .attr("height", d => d.book_height * wallHeight)
         .attr("x", d => d.x_start * wallWidth)
-        .attr("fill", () => colorsArray[Math.floor(Math.random() * colorsArray.length)])
         .style("opacity", 0.1)
+        .attr("href", d => `src/res/resized_covers_struct/${d.cover_file}`)
+        .style("object-fit", "fill")
+        // .style("object-fit", "cover");
+
 
     // Transition for entering elements
     booksEnter
@@ -72,6 +114,11 @@ function addRandomBooks() {
         .delay((d, i) => 3300 + i * 8) // Stagger bars
         .duration(30)
         .style("opacity", 1)
+
+        intervalId = setInterval(function() {
+            moverRandomBook(booksEnter);
+        }, 6000);
+
 }
 
 
