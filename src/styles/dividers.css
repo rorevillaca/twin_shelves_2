@@ -157,7 +157,7 @@
 
 .dividerPhrase::-webkit-scrollbar {
     height: 5px;
-    width: 5px;
+    width: 10px;
 }
 
 .dividerPhrase::-webkit-scrollbar-thumb{
