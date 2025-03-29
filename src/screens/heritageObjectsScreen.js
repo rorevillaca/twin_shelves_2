@@ -151,6 +151,7 @@ function objectFactSheet(object, main, color) {
     const imgDiv = objectsRow.append("div").attr("class", "heritageInfoCard--objRow-img")
     const metadataDiv = objectsRow.append("div").attr("class", "heritageInfoCard--objRow-metadata")
     const QRDiv = objectsRow.append("div").attr("class", "heritageInfoCard--objRow-QR")
+    QRDiv.text("Scan to see more:")
 
     const imgSource = object.type == "Object" ? `url("src/res/photos/heritage_objects/${object.cover}")` : `url("src/res/resized_covers_struct/_first_theses/${object.cover}")`
     imgDiv.style("background-image", imgSource)
