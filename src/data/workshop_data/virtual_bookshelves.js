@@ -920,9 +920,6 @@ const virtual_bookshelves = [
     "books_in_bookcase": 12,
     "books": [
       {
-        "cover_file": "NA"
-      },
-      {
         "OCLC": "51NPDx7pYJL",
         "cover_file": "_recommended_books/cover_51NPDx7pYJL.webp"
       },
