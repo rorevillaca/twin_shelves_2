@@ -138,7 +138,8 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
                 
             }
 
-                if (coverFilename === "NA") {
+                console.log(coverFilename)
+                if (coverFilename === "NA" || coverFilename === "_dissertations/cover_diss.webp") {
                     const book_info = workshop_data.filter(book => book.OCLC === OCLC)[0];
                     const title  = book_info.title
                     const bookBackgroundColor =  bookcase_content.books[i-1].color ? "#" + bookcase_content.books[i-1].color : "#bcbec0"
