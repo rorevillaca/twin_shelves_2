@@ -1,4 +1,4 @@
-import { backButton } from "../components/backButton.js"
+import { backButton, alterMainTextOpacity } from "../components/backButton.js"
 import { populateShelfView } from "./shelvesScreen.js"
 import { keyboard } from "../components/keyboard.js"
 import { wall, addShelfHighlight } from "../components/wall.js";
@@ -26,6 +26,7 @@ export function enableSearch() {
     d3
         .select(".search_container")
         .on('click', function () {
+            alterMainTextOpacity(0)
             d3.select(".search-screen").style("display", "grid");
             clearSelectedSection()
         })

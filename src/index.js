@@ -8,7 +8,7 @@ import { exhibitionButton } from "./components/exhibitionButton.js"
 import { initStudentWork } from "./screens/studentWorkScreen.js"
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
 import { initSearchScreen, enableSearch, disableSearch } from "./screens/searchScreen.js"
-import { closeAllSecondaryScreens } from './components/backButton.js'
+import { closeAllSecondaryScreens, alterMainTextOpacity } from './components/backButton.js'
 import { runFacts, factCardTimer } from './components/factCard.js'
 
 let currentlySelectedSection = ""
@@ -306,6 +306,7 @@ function magnifying_glass(topic) {
         resetIdleTimer()
         document.removeEventListener('click', resetTopicSelectionTimer);
         document.addEventListener('click', resetIdleTimer);
+        alterMainTextOpacity(0)
         switch (topic) {
           case "heritage_objects":
             heritage_view.style.display = "grid";
