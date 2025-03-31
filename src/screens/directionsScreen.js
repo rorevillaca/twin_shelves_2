@@ -120,6 +120,8 @@ function addPath(shelfNumber, floorNo) {
 
     wallContainer.selectAll(".wayPoints, .walkingPath").remove() //Remove previous elements (if any)
 
+    d3.select(".floor-location").classed("blinking", true)
+
     addStation(kioskCoordPercentage,
         kioskOffset,
         wallContainer,
