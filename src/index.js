@@ -14,7 +14,7 @@ import { runFacts, factCardTimer } from './components/factCard.js'
 let currentlySelectedSection = ""
 let animationRunning = false;
 export let isIdle = false
-let currFact = Math.floor(Math.random() * 2) + 1
+let currFact = Math.floor(Math.random() * 3) + 1
 
 export const wallContainerAttrs = (d3.select(".wall_container").node().getBoundingClientRect())
 export const wallWidth = wallContainerAttrs.width * 0.95
@@ -517,15 +517,20 @@ export function clearSelectedSection() {
 
 function enterIdleState() {
   isIdle = true
-  console.log("enter idle state @" + new Date().toLocaleTimeString())
+  //console.log("enter idle state @" + new Date().toLocaleTimeString())
   document.removeEventListener('click', resetIdleTimer)
   document.addEventListener('click', exitIdleState)
-  clearButtonsSection()
   closeAllSecondaryScreens()
-  removeBooks()
-  removePolygons()
   disableSearch()
-  currFact = runFacts(currFact)
+
+  if (currFact == 3) {
+    simulateInteraction()
+  } else {
+    clearButtonsSection()
+    removeBooks()
+    removePolygons()
+    runFacts(currFact)
+  }
   setTimeout(() => {
     isIdle ? exitIdleState() : null
   }, 45000) // Time in idle state
@@ -562,3 +567,31 @@ const getCoordOfTopic = (topic, variable, min_or_max) => {
     }
   }
 };
+
+
+
+function simulateInteraction() {
+  setInterval(topicClickDemo, 12000);
+}
+
+function topicClickDemo() {
+  clearSelectedSection()
+  let randomNumber = Math.floor(Math.random() * 25) + 1;
+  let target_topic_id = "#topic_" + randomNumber
+  d3.selectAll(".exhibitionsButton").style("opacity", 0.2)
+
+  for (let i = 1; i <= 25; i++) {
+    let opacity = i == randomNumber ? 1 : 0.2
+    let topic_id = "#topic_" + i
+    d3.select(topic_id)
+      .transition()
+      .duration(3000)
+      .style("opacity", opacity)
+  }
+
+  setTimeout(() => {
+    d3.select(target_topic_id)
+    .node()
+    .dispatchEvent(new MouseEvent("click"));
+  }, 4000)
+}

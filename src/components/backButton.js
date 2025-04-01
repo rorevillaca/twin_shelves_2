@@ -36,7 +36,7 @@ export function closeAllSecondaryScreens() {
 
 export function alterMainTextOpacity(opacity){
     d3
-    .selectAll('.instructions_container, .topics_container, .exhibitions_container')
+    .selectAll('.logo_container, .instructions_container, .topics_container, .exhibitions_container')
     .style("opacity", opacity)
 }
 

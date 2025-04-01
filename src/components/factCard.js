@@ -13,10 +13,8 @@ export function runFacts(factNo) {
 
     if (factNo == 1) {
         factCard(".facts_container")
-        return 2
     } else {
         factCard2(".facts_container")
-        return 1
     }
 }
 
