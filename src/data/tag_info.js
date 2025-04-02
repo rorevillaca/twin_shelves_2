@@ -160,7 +160,7 @@ const tag_info =  [
     "tag_type": "exhibition"
   },
   {
-    "name": "Students' Exhibition",
+    "name": "Study Books",
     "topic": "study_books",
     "tag_type": "exhibition"
   },
