@@ -155,16 +155,17 @@ function factCard2(containerSelector) {
 function animateConveyor(photoContainer) {
     const availableHeight = photoContainer.node().getBoundingClientRect().height
     const availableWidth = photoContainer.node().getBoundingClientRect().width
-    const photoDiameter = availableHeight * 0.6
-    const xCoordCenter = (availableWidth - photoDiameter) / 2
-    const yCoord = (availableHeight - photoDiameter) / 2
+    const photoWidth = availableHeight * 0.6
+    const photoHeight = availableHeight * 0.8
+    const xCoordCenter = (availableWidth - photoWidth) / 2
+    const yCoord = (availableHeight - photoHeight) / 2
     const dimmedOpacity = 0.3
     const photoDiameterHighlight = availableHeight * 0.9
     const yCoordHighlight = (availableHeight - photoDiameterHighlight) / 2
     const xCoordHighlight = (availableWidth - photoDiameterHighlight) / 2
-    const gapX = photoDiameter / 2
+    const gapX = photoWidth / 2
 
-    const xSpacing = gapX + photoDiameter
+    const xSpacing = gapX + photoWidth
     const minX = xCoordCenter - xSpacing * 19
     const sequence = generateSequence(26, minX, xSpacing)
     const conveyorID = generateSequence(26, 0, 1)
@@ -188,11 +189,10 @@ function animateConveyor(photoContainer) {
             .append("image")
             .attr("x", d.initialX)
             .attr("y", yCoord)
-            .attr("width", photoDiameter)
-            .attr("height", photoDiameter)
+            .attr("width", photoWidth)
+            .attr("height", photoHeight)
             .attr("opacity", 0)
             .attr("href", `./src/res/recommenders/profile_pictures/recommender_${d.id}.png`)
-            .style("clip-path", "circle(50%)")
             .attr("preserveAspectRatio", "xMidYMid slice")
             .transition()
             .duration(7000)
@@ -206,8 +206,8 @@ function animateConveyor(photoContainer) {
                 .duration(2000)
                 .attr("x", d.conveyorID === centralID ? xCoordHighlight : d.initialX + xSpacing * (iteration - 1))
                 .attr("y", d.conveyorID === centralID ? yCoordHighlight : yCoord)
-                .attr("width", d.conveyorID === centralID ? photoDiameterHighlight : photoDiameter)
-                .attr("height", d.conveyorID === centralID ? photoDiameterHighlight : photoDiameter)
+                .attr("width", d.conveyorID === centralID ? photoDiameterHighlight : photoWidth)
+                .attr("height", d.conveyorID === centralID ? photoDiameterHighlight : photoHeight)
                 .attr("opacity", calculateOpacity(d.conveyorID, centralID))
 
             if (!isIdle) break;
