@@ -155,7 +155,7 @@ function factCard2(containerSelector) {
 function animateConveyor(photoContainer) {
     const availableHeight = photoContainer.node().getBoundingClientRect().height
     const availableWidth = photoContainer.node().getBoundingClientRect().width
-    const photoWidth = availableHeight * 0.6
+    const photoWidth = availableHeight * 0.5
     const photoHeight = availableHeight * 0.8
     const xCoordCenter = (availableWidth - photoWidth) / 2
     const yCoord = (availableHeight - photoHeight) / 2
