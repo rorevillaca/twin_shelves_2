@@ -43,7 +43,7 @@ html, body{
   z-index: 1000;
   color: white;
   grid-template-columns: 1fr 7fr 1fr;
-  grid-template-rows: 3fr 15fr 1fr 2fr;
+  grid-template-rows: 3fr 15fr 1fr 3fr;
 }
 
 
@@ -88,6 +88,7 @@ html, body{
   display: flex;
   align-items: center;
   white-space: nowrap; /* Prevents wrapping to the next line */
+  padding-bottom: 20px;
   /* background-color: red;  */
 }
 
@@ -141,14 +142,14 @@ html, body{
   padding: 8px 10px 8px 10px;
   border:1px solid white;
   border-radius: 10px;
-  font-size: 0.7em;
+  font-size: 1em;
   font-weight: 900;
 }
 
 
 /* https://ishadeed.com/article/custom-scrollbars-css/   */
 .shelf_view--subtopic_holder::-webkit-scrollbar, .info_card--details::-webkit-scrollbar {
-  height: 10px;
+  height: 15px;
   width: 15px;
 }
 .shelf_view--subtopic_holder::-webkit-scrollbar-thumb , .info_card--details::-webkit-scrollbar-thumb{
