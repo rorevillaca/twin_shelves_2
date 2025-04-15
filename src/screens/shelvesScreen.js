@@ -142,11 +142,13 @@ function populateBookCases(numberOfBookcases, bookCaseCurrentTopic, topicId, boo
                 if (coverFilename === "NA" || coverFilename === "_dissertations/cover_diss.webp") {
                     const book_info = workshop_data.filter(book => book.OCLC === OCLC)[0];
                     const title  = book_info.title
+                    const year  = book_info.year
                     const bookBackgroundColor =  bookcase_content.books[i-1].color ? "#" + bookcase_content.books[i-1].color : "#595959"
                     const bookTitleColor =  bookcase_content.books[i-1].color ? "white" : "black"
                     book.style("background-color", bookBackgroundColor);
                     book.style("color", "white");
                     book.text(cleanBookTitle(title))
+                    book.append("div").text(year)
                 } else {
                     book.style("background-image", `url("src/res/resized_covers_struct/${coverFilename}")`)
                 }
