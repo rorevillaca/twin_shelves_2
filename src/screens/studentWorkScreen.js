@@ -32,7 +32,7 @@ export function initStudentWork() {
         .append("div")
         .attr("class","studentWorkExtraDetails")
 
-    const exhibitionURL = `https://www.youtube.com/watch?v=mO_CqZ8hk7g`
+    const exhibitionURL = `https://www.tudelft.nl/en/dreamhall/projects/tu-delft-dream-teams`
     const QRCode = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(exhibitionURL)}&size=150x150&color=131-143-240&bgcolor=30-28-39`
 
     const QR = extraDetails
