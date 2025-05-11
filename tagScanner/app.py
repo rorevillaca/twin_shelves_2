@@ -2,9 +2,11 @@ from flask import Flask, Response
 from smartcard.scard import *
 from smartcard.pcsc import *
 import smartcard.util
+from flask_cors import CORS
 from book_db import BookDB
 
 app = Flask(__name__)
+CORS(app)
 
 
 def event_stream():
@@ -136,6 +138,6 @@ def home():
 if __name__ == '__main__':
     db = BookDB()
     app.debug = True
-    app.run(threaded=True)
+    app.run(host='127.0.0.1', port=8080, threaded=True, debug=True)
 
 

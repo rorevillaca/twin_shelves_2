@@ -2,7 +2,7 @@ import { shuffle, typeText, colorsArray } from './utils/helpers.js'
 import { addWall, addBooks, removeBooks, wallContainer, addBackgroundBooks } from "./screens/mainScreen.js"
 import { initShelvesScreen, populateShelfView } from "./screens/shelvesScreen.js"
 import { ParsePolygons } from "./utils/data.js"
-import { initDirectionsScreen } from "./screens/directionsScreen.js"
+import { initDirectionsScreen, openDirectionsScreen } from "./screens/directionsScreen.js"
 import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
 import { initStudentWork } from "./screens/studentWorkScreen.js"
@@ -32,6 +32,33 @@ addTopicButtons()
 makeButtonsVisible()
 addPolygons()
 addBooks()
+startOCLCStream()
+
+function handleNewOCLC(oclc) {
+    console.log("Book scanned:", oclc);
+    const bookInfo = workshop_data.find(book => book.OCLC === oclc);
+    if (bookInfo) {
+        openDirectionsScreen(bookInfo);
+        //document.body.click(); //prevent idle state
+    } else {
+        console.warn("No matching book found for OCLC:", oclc);
+    }
+}
+
+function startOCLCStream() {
+    const source = new EventSource('http://localhost:8080/stream');
+
+    source.onmessage = function(event) {
+        const oclc = event.data.trim();
+        handleNewOCLC(oclc);
+    };
+
+    source.onerror = function(err) {
+        console.error("SSE stream error:", err);
+        source.close();  // Optional: stop retrying
+    };
+}
+
 
 
 function startPulsing() {
