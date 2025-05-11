@@ -38,6 +38,7 @@ function handleNewOCLC(oclc) {
     console.log("Book scanned:", oclc);
     const bookInfo = workshop_data.find(book => book.OCLC === oclc);
     if (bookInfo) {
+        resetIdleTimer()
         openDirectionsScreen(bookInfo);
         //document.body.click(); //prevent idle state
     } else {

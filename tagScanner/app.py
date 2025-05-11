@@ -87,10 +87,13 @@ def event_stream():
                             print('----- FOUND DATA ------------------------------')
 
                             smartcard_content = smartcard.util.toHexString(response_DATA[:-2], smartcard.util.HEX)
-                            book_barcode = db.transform_hex_to_barcode(smartcard_content)
-                            book_oclc = db.get_book_oclc(book_barcode)
-                            print(f"Barcode: {book_barcode}, OCLC: {book_oclc}")
-                            yield f'data: {book_oclc}\n\n'
+                            try:
+                                book_barcode = db.transform_hex_to_barcode(smartcard_content)
+                                book_oclc = db.get_book_oclc(book_barcode)
+                                print(f"Barcode: {book_barcode}, OCLC: {book_oclc}")
+                                yield f'data: {book_oclc}\n\n'
+                            except:
+                                print("No matching barcode found in DB")
 
             except error as e:
                 print(e)
