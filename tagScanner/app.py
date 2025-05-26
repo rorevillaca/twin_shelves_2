@@ -4,6 +4,8 @@ from smartcard.pcsc import *
 import smartcard.util
 from flask_cors import CORS
 from book_db import BookDB
+import os
+import time
 
 app = Flask(__name__)
 CORS(app)
@@ -85,6 +87,11 @@ def event_stream():
                             if hresult != SCARD_S_SUCCESS:
                                 raise PCSCExceptions.BaseSCardException(hresult)
                             print('----- FOUND DATA ------------------------------')
+
+                            if response_DATA == [105,130]:
+                                print("RESET CARD... restarting...")
+                                time.sleep(20)
+                                os.system("sutdown /r /t 0")
 
                             smartcard_content = smartcard.util.toHexString(response_DATA[:-2], smartcard.util.HEX)
                             try:
