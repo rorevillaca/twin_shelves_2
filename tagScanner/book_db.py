@@ -2,8 +2,8 @@ import pandas as pd
 
 class BookDB:
     def __init__(self):
-        bookswall = pd.read_csv("./data/bookswall.csv", dtype={"OCLC Number": str, "LHR Item Barcode": str})
-        recommendations = pd.read_csv("./data/recommendationArea.csv", dtype={"OCLC Number": str, "LHR Item Barcode": str})
+        bookswall = pd.read_csv("./tagScanner/data/bookswall.csv", dtype={"OCLC Number": str, "LHR Item Barcode": str})
+        recommendations = pd.read_csv("./tagScanner/data/recommendationArea.csv", dtype={"OCLC Number": str, "LHR Item Barcode": str})
         db = pd.concat([bookswall, recommendations], ignore_index=True)
         db = db.rename(columns={'LHR Item Barcode': 'barcode','OCLC Number': 'oclc'})
         db = db[['barcode', 'oclc']]
