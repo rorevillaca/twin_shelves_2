@@ -90,8 +90,7 @@ def event_stream():
 
                             if response_DATA == [105,130]:
                                 print("RESET CARD... restarting...")
-                                time.sleep(20)
-                                os.system("sutdown /r /t 0")
+                                os.system("sutdown /r /t 15")
 
                             smartcard_content = smartcard.util.toHexString(response_DATA[:-2], smartcard.util.HEX)
                             try:
