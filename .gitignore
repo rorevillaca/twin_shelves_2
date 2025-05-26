@@ -2,4 +2,5 @@
 *.webp
 *.pkl
 *.env
+*.pyc
 twin/
