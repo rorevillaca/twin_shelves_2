@@ -7,6 +7,7 @@ import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
 import { initStudentWork } from "./screens/studentWorkScreen.js"
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
+import { initRobotSociety } from "./screens/robotSocietyScreen.js"
 import { initSearchScreen, enableSearch, disableSearch } from "./screens/searchScreen.js"
 import { closeAllSecondaryScreens, alterMainTextOpacity } from './components/backButton.js'
 import { runFacts, factCardTimer } from './components/factCard.js'
@@ -28,6 +29,7 @@ initDirectionsScreen()
 initStudentWork()
 initHeritageObjects()
 initSearchScreen()
+initRobotSociety()
 addTopicButtons()
 makeButtonsVisible()
 addPolygons()
@@ -342,6 +344,9 @@ function magnifying_glass(topic) {
           case "student_work":
             object_view.style.display = "grid";
             break
+          case "robot_society":
+            robot_society_view.style.display = "grid";
+            break
           default:
             var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topic);
             shelf_view.style.display = "grid";
@@ -489,7 +494,10 @@ function selectSection(sectionId) {
     if (sectionId == "heritage_objects" || sectionId == "student_work") {
       waitTime = 3000
       scrambleObjects(sectionId)
-    } else {
+    } else if (sectionId == "robot_society" ) {
+      waitTime = 200
+    }
+    else {
       waitTime = 3000
       scrambleBooks(sectionId);
     }

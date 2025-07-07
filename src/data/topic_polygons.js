@@ -639,4 +639,24 @@ const topic_polygons = [
     "x_perc": 0.624,
     "y_perc": 0.935
   },
+    {
+    "topic": "robot_society",
+    "x_perc": 0.675,
+    "y_perc": 0.646
+  },
+    {
+    "topic": "robot_society",
+    "x_perc": 0.713,
+    "y_perc": 0.646
+  },
+    {
+    "topic": "robot_society",
+    "x_perc": 0.713,
+    "y_perc": 0.730
+  },
+    {
+    "topic": "robot_society",
+    "x_perc": 0.675,
+    "y_perc": 0.730
+  }
 ]

@@ -917,7 +917,7 @@ const virtual_bookshelves = [
     "sub_topic": "Innovative and Sustainable Design",
     "recommender": "Willemijn Elkhuizen",
     "virtual_shelf_temp": 4,
-    "books_in_bookcase": 12,
+    "books_in_bookcase": 11,
     "books": [
       {
         "OCLC": "51NPDx7pYJL",
@@ -947,9 +947,9 @@ const virtual_bookshelves = [
         "OCLC": "1082176473",
         "cover_file": "_recommended_books/cover_1082176473.webp"
       },
-      // {
-      //   "cover_file": "NA"
-      // },
+      {
+        "cover_file": "NA"
+      },
       {
         "OCLC": "1327959423",
         "cover_file": "_recommended_books/cover_1327959423.webp"
@@ -1061,6 +1061,56 @@ const virtual_bookshelves = [
       {
         "OCLC": "zwUdDgAAQBAJ",
         "cover_file": "_recommended_books/cover_zwUdDgAAQBAJ.webp"
+      }
+    ]
+  },
+  {
+    "topic": "Book Recommendations",
+    "topic_id": "recommended_books",
+    "sub_topic": "Robot & Society",
+    "recommender": "Madelaine Ley",
+    "virtual_shelf_temp": 1,
+    "books_in_bookcase": 10,
+    "books": [
+      {
+        "OCLC": "1296687871",
+        "cover_file": "_recommended_books/cover_1296687871.webp"
+      },
+      {
+        "OCLC": "941436305",
+        "cover_file": "_recommended_books/cover_941436305.webp"
+      },
+      {
+        "OCLC": "1394000860",
+        "cover_file": "_recommended_books/cover_1394000860.webp"
+      },
+      {
+        "OCLC": "1127841188",
+        "cover_file": "_recommended_books/cover_1127841188.webp"
+      },
+      {
+        "OCLC": "1264176422",
+        "cover_file": "_recommended_books/cover_1264176422.webp"
+      },
+      {
+        "OCLC": "34549023",
+        "cover_file": "_recommended_books/cover_34549023.webp"
+      },
+      {
+        "OCLC": "1078415817",
+        "cover_file": "_recommended_books/cover_1078415817.webp"
+      },
+      {
+        "OCLC": "890360373",
+        "cover_file": "_recommended_books/cover_890360373.webp"
+      },
+      {
+        "OCLC": "951157646",
+        "cover_file": "_recommended_books/cover_951157646.webp"
+      },
+      {
+        "OCLC": "1405841833",
+        "cover_file": "_recommended_books/cover_1405841833.webp"
       }
     ]
   },

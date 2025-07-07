@@ -94,6 +94,10 @@ const recommendation_topics = [
     {
       "theme": "Studium Generale",
       "keywords": []
+    },
+    {
+      "theme": "Robot & Society",
+      "keywords": []
     }
 ]
 

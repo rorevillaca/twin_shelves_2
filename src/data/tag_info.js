@@ -1,4 +1,4 @@
-const tag_info =  [
+const tag_info = [
   {
     "name": "Aerospace Engineering",
     "topic": "topic_1",
@@ -150,18 +150,8 @@ const tag_info =  [
     "number_of_bars": 3
   },
   {
-    "name": "Students' Exhibition",
-    "topic": "student_work",
-    "tag_type": "exhibition"
-  },
-  {
-    "name": "Recommended Books",
-    "topic": "recommended_books",
-    "tag_type": "exhibition"
-  },
-  {
-    "name": "Study Books",
-    "topic": "study_books",
+    "name": "Dissertations",
+    "topic": "dissertations",
     "tag_type": "exhibition"
   },
   {
@@ -170,8 +160,23 @@ const tag_info =  [
     "tag_type": "exhibition"
   },
   {
-    "name": "Dissertations",
-    "topic": "dissertations",
+    "name": "Recommended Books",
+    "topic": "recommended_books",
     "tag_type": "exhibition"
-  }
+  },
+  {
+    "name": "Robot & Society",
+    "topic": "robot_society",
+    "tag_type": "exhibition"
+  },
+  {
+    "name": "Students' Exhibition",
+    "topic": "student_work",
+    "tag_type": "exhibition"
+  },
+  {
+    "name": "Study Books",
+    "topic": "study_books",
+    "tag_type": "exhibition"
+  },
 ]

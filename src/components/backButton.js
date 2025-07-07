@@ -5,7 +5,9 @@ export function backButton(containerSelector) {
         '#shelf-view--header',    
         '#object_view--header',
         '#heritage_view--header',
-        '#search-screen-header']
+        '#search-screen-header',
+        '#robot_society_view--header'
+    ]
 
     const buttonContainer = d3.select(containerSelector);
     const screen = d3.select(buttonContainer.node().parentNode);

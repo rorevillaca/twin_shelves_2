@@ -29,7 +29,8 @@ export function addBooks(){
         'dissertations',
         'heritage_objects',
         'student_work',
-        'study_books'
+        'study_books',
+        'robot_society'
     ];
 
     additionalBooks.forEach((book, index) => {

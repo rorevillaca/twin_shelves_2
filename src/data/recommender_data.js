@@ -206,6 +206,14 @@ const recommender_data = [
       "role": "Assistant Professor</br>Industrial Design Engineering | IDE",
       "color": "db214b",
       "sentence": ""
+    },
+    {
+      "id": 33,
+      "name": "Dr. Madelaine Ley",
+      "name_lastname": "Madelaine Ley",
+      "role": "University Lecturer</br>Technology, Policy and Management | TPM",
+      "color": "9e50ae",
+      "sentence": "In addition to pivotal texts in robot-ethics, our recommended books go beyond a focus on robotics and include thinkers who critique some of the structural binaries of modernity, namely human/technology, humans/nature, and technology/nature. In introducing these texts we want the students to learn new concepts and frameworks, but out not-so-secret hope is that they'll ask more questions and reimagine what robot engineering can be.</br>In part, our class guides students in discerning the moral wisdom they already hold within themselves."
     }
 ]
 

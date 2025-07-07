@@ -1,0 +1,22 @@
+.robot_society_view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 23, 41, 0.9);
+    display: none;
+    z-index: 1000;
+    color: white;
+    grid-template-columns: 1fr 20fr 1fr;
+    grid-template-rows: 3fr 15fr 2fr;
+}
+
+.robot_society_view--content{
+    grid-area: 2 / 2 / 2 / 2;
+    width: 100%;
+    background-image: url('../res/photos/robot_society.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%; 
+}
