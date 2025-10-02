@@ -6,14 +6,14 @@ import { initDirectionsScreen, openDirectionsScreen } from "./screens/directions
 import { topicButton } from './components/topicButton.js'
 import { exhibitionButton } from "./components/exhibitionButton.js"
 import { initStudentWork } from "./screens/studentWorkScreen.js"
+import { initRobotSociety } from './screens/robotSocietyScreen.js'
 import { initHeritageObjects } from "./screens/heritageObjectsScreen.js"
-import { initRobotSociety } from "./screens/robotSocietyScreen.js"
 import { initSearchScreen, enableSearch, disableSearch } from "./screens/searchScreen.js"
 import { closeAllSecondaryScreens, alterMainTextOpacity } from './components/backButton.js'
 import { runFacts, factCardTimer } from './components/factCard.js'
 
 let currentlySelectedSection = ""
-let animationRunning = false;
+let animationRunning = false
 export let isIdle = false
 let currFact = Math.floor(Math.random() * 3) + 1
 
@@ -27,9 +27,9 @@ addWall()
 initShelvesScreen()
 initDirectionsScreen()
 initStudentWork()
+initRobotSociety()
 initHeritageObjects()
 initSearchScreen()
-initRobotSociety()
 addTopicButtons()
 makeButtonsVisible()
 addPolygons()
@@ -345,7 +345,7 @@ function magnifying_glass(topic) {
             object_view.style.display = "grid";
             break
           case "robot_society":
-            robot_society_view.style.display = "grid";
+            robot_view.style.display = "grid";
             break
           default:
             var bookCaseCurrentTopic = virtual_bookshelves.filter(book => book.topic_id === topic);

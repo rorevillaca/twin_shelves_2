@@ -1,4 +1,4 @@
-.object_view {
+.object_view, .robot_view{
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
     grid-template-rows: 3fr 8fr 5fr;
   }
   
-  .object_view--content{
+  .object_view--content, .robot_view--content{
     grid-area: 2 / 2 / 2 / 2;
     /* border:1px solid white; */
     display: flex;
